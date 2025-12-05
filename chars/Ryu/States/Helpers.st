@@ -908,7 +908,7 @@ trigger1 = movecontact
 value = ifelse(var(2) < var(10), 1025, 1026)
 [State 1025, End]
 type = destroyself
-trigger1 = pos x != [ -240, 240]
+trigger1 = pos x != [ -300, 300]
 
 [Statedef 1026]
 type = A
@@ -1130,7 +1130,7 @@ trigger1 = movecontact
 value = ifelse(var(2) < 3, 1035, 1036)
 [State 1025, End]
 type = destroyself
-trigger1 = pos x != [ -240, 240]
+trigger1 = pos x != [ -300, 300]
 
 [Statedef 1036]
 type = A
@@ -1443,7 +1443,7 @@ trigger1 = movecontact
 value = ifelse(var(2) < 5, 3005, 3006)
 [State 3005, End]
 type = destroyself
-trigger1 = pos x != [ -240, 240]
+trigger1 = pos x != [ -300, 300]
 
 [Statedef 3006]
 type = A
@@ -1760,7 +1760,7 @@ trigger1 = movecontact
 value = ifelse(var(2) < var(4), 3025, 3026)
 [State 3025, End]
 type = destroyself
-trigger1 = pos x != [ -220, 220]
+trigger1 = pos x != [ -300, 300]
 
 [Statedef 3026]
 type = A
@@ -1996,7 +1996,7 @@ trigger1 = movecontact
 value = ifelse(var(2) < var(4), 3045, 3046)
 [State 3045, End]
 type = destroyself
-trigger1 = pos x != [ -260, 260]
+trigger1 = pos x != [ -300, 300]
 
 [Statedef 3046]
 type = A
@@ -2829,7 +2829,7 @@ trigger1 = movecontact
 value = ifelse(var(2) < 10, 3605, 3606)
 [State 3605, End]
 type = destroyself
-trigger1 = pos x != [ -240, 240]
+trigger1 = pos x != [ -300, 300]
 
 [Statedef 3606]
 type = A
