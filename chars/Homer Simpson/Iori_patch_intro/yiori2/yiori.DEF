@@ -1,0 +1,34 @@
+; Definition file for Iori Yagami
+; Contains all the filenames needed for the character
+; version : Look at the CNS file.
+
+; Player information
+[Info]
+name    = "Iori Yagami"
+mugenversion = 14,04,2001;~14,06,2003
+author = "[Yagami+ihoo1836]"
+pal.defaults = 1,2,3,4,5,6,7,8
+
+; Files for the player
+[Files]
+cmd     = iori.cmd
+cns     = patch/iori.cns      ;Constants
+st      = patch/iori.cns      ;States
+st1     = ioriAI.cns    ;AI level
+stcommon = common1.cns  ;Common states (in data/)
+sprite  = patch/iori.sff      ;Sprite
+anim    = patch/iori.air      ;Animation
+sound   = patch/iori.snd      ;Sound
+pal1    = iori4.act     ;a 98 1p
+pal2    = iori5.act     ;b 97ad 2p
+pal3    = iori6.act     ;c 95,97ex,(98),99 2p
+pal4    = iori1.act     ;x 96,97ad,99,2k,2k1,SVC 1p
+pal5    = iori2.act     ;y 2000,2k1 2p
+pal6    = iori3.act     ;z 97ex1p
+pal7    = iori8.act     ;95,2k2 1p
+pal8    = iori7.act     ;svc 2p
+;pal9    = iorifa.act    ;mcm
+
+[Arcade]
+intro.storyboard  = iintro.def
+ending.storyboard = iending.def

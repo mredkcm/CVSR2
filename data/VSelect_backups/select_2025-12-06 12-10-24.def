@@ -1,0 +1,328 @@
+;---------------------------------------------------------------------
+[Characters]
+ ;How to add characters
+ ;---------------------
+ ;Use the format:
+ ;    charname, stagefilename
+ ;
+ ;eg. For a player with filename "kfm",
+ ;    and stage filename "stages/mybg.def"
+ ;type (without the semicolon):
+ ;    kfm, stages/mybg.def
+ ;
+ ;If you want to load a different def file, you can enter it
+ ;as a directory plus the def file. This example loads up
+ ;chars/kfm/alt-kfm.def:
+ ;    kfm/alt-kfm.def, stages/mybg.def
+ ;
+ ;If you put "random" as the stagefilename, then a random stage will
+ ;be selected for that player. eg.
+ ;    kfm, random
+ ;
+ ;Zipped characters are also supported.
+ ;Place the ZIP file in the chars/ directory. The syntax is as
+ ;follows:
+ ;    zipname.zip:defname.def, stages/mybg.def
+ ;For example, if you have newsuave.def in suave.zip, the syntax is:
+ ;    suave.zip:newsuave.def, stages/mybg.def
+ ;If your def file has the same name as the zip file (eg. suave.def
+ ;in suave.zip), you can just put the name of the zip file alone:
+ ;    suave.zip, stages/mybg.def
+ ;
+ ;Optional parameters may follow on the same line, separated
+ ;by commas. Each parameter has the form:
+ ;    paramname = paramvalue
+ ;where paramname is the name of the parameter type, and
+ ;paramvalue is the value to assign that parameter.
+ ;The optional parameters are:
+ ;
+ ; - music
+ ;   Set the paramvalue to the name of the music file to use
+ ;   as the BGM for that character. This overrides the bgmusic
+ ;   parameter in the stage's .def file, so you can re-use the
+ ;   same stage for multiple characters, but have a different
+ ;   BGM playing for each person.
+ ;
+ ; - includestage
+ ;   Set the paramvalue to 0 to avoid including this stage
+ ;   in the stage select list (in VS, training modes, etc)
+ ;
+ ; - order
+ ;   Set the paramvalue to the ordering priority to give the
+ ;   character. Valid values are from 1 to 30. A smaller value
+ ;   means you will fight the character sooner. You will never
+ ;   fight an order 2 character before an order 1 character,
+ ;   and never an order 3 character before an order 2 one.
+ ;   For example, you might want to set your boss character
+ ;   to have order=3. The default order value is 1 if you omit
+ ;   this param. See *.maxmatches under [Options] for how to
+ ;   limit the number of matches per order priority.
+ ;
+ ;   Some examples:
+ ;        kfm, stages/mybg.def, includestage=0
+ ;        kfm, stages/mybg.def, music=sound/song.mp3
+ ;        kfm, stages/mybg.def, music=sound/song.mp3, includestage=0
+ ;        kfm, stages/mybg.def, order=3
+ ;
+ ;You can also add a randomize icon to the select screen. To do
+ ;this, put the word "randomselect" on a line of its own, with no
+ ;extra parameters.
+ ;
+ ;Insert your characters below.
+
+
+;Hidden Line
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+randomselect
+Rasetsumaru, stages\SFIVTraining(Scale).def, includestage=0, order=3
+Iori Orochi, stages\SFIVTraining(Scale).def, includestage=0, order=3
+Kusanagi, stages\SFIVTraining(Scale).def, includestage=0, order=3
+Mr.karate, stages\SFIVTraining(Scale).def, includestage=0, order=3
+God Rugal, stages\SFIVTraining(Scale).def, includestage=0, order=5
+Shin Akuma, stages\SFIVTraining(Scale).def, includestage=0, order=5
+Final Bison, stages\SFIVTraining(Scale).def, includestage=0, order=5
+Evil Ryu, stages\SFIVTraining(Scale).def, includestage=0, order=3
+Violent Ken, stages\SFIVTraining(Scale).def, includestage=0, order=3
+Shadow Lady, stages\SFIVTraining(Scale).def, includestage=0, order=3
+randomselect
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+
+;First Line
+kyo, stages\SFIVTraining(Scale).def, includestage=0, order=1
+K', stages\SFIVTraining(Scale).def, includestage=0, order=1
+terry, stages\SFIVTraining(Scale).def, includestage=0, order=1
+ryo, stages\SFIVTraining(Scale).def, includestage=0, order=1
+mai, stages\SFIVTraining(Scale).def, includestage=0, order=1
+kim, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Mary, stages\SFIVTraining(Scale).def, includestage=0, order=1
+iori, stages\SFIVTraining(Scale).def, includestage=0, order=1
+rock, stages\SFIVTraining(Scale).def, includestage=0, order=1
+tizoc, stages\SFIVTraining(Scale).def, includestage=0, order=1
+heidern, stages\SFIVTraining(Scale).def, includestage=0, order=1
+rick, stages\SFIVTraining(Scale).def, includestage=0, order=1
+vanessa, stages\SFIVTraining(Scale).def, includestage=0, order=1
+shermie, stages\SFIVTraining(Scale).def, includestage=0, order=1
+haohmaru, stages\SFIVTraining(Scale).def, includestage=0, order=1
+saisyu, stages\SFIVTraining(Scale).def, includestage=0, order=2
+geese, stages\SFIVTraining(Scale).def, includestage=0, order=2
+rugal, stages\SFIVTraining(Scale).def, includestage=0, order=2
+akuma, stages\SFIVTraining(Scale).def, includestage=0, order=2
+adon, stages\SFIVTraining(Scale).def, includestage=0, order=1
+leo, stages\SFIVTraining(Scale).def, includestage=0, order=1
+jill, stages\SFIVTraining(Scale).def, includestage=0, order=1
+kairi, stages\SFIVTraining(Scale).def, includestage=0, order=1
+batsu, stages\SFIVTraining(Scale).def, includestage=0, order=1
+demitri, stages\SFIVTraining(Scale).def, includestage=0, order=1
+sodom, stages\SFIVTraining(Scale).def, includestage=0, order=1
+haggar, stages\SFIVTraining(Scale).def, includestage=0, order=1
+guy, stages\SFIVTraining(Scale).def, includestage=0, order=1
+rose, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Mika, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Sean, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Feilong, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Honda, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Guile, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Dan, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Ryu, stages\SFIVTraining(Scale).def, includestage=0, order=1
+
+;Second line
+Benimaru, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Kula, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Andy, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Robert, stages\SFIVTraining(Scale).def, includestage=0, order=1
+king, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Chang, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Billy, stages\SFIVTraining(Scale).def, includestage=0, order=1
+mature, stages\SFIVTraining(Scale).def, includestage=0, order=1
+kain, stages\SFIVTraining(Scale).def, includestage=0, order=1
+jae, stages\SFIVTraining(Scale).def, includestage=0, order=1
+clark, stages\SFIVTraining(Scale).def, includestage=0, order=1
+raiden, stages\SFIVTraining(Scale).def, includestage=0, order=1
+kasumi, stages\SFIVTraining(Scale).def, includestage=0, order=1
+hibiki, stages\SFIVTraining(Scale).def, includestage=0, order=1
+nakoruru, stages\SFIVTraining(Scale).def, includestage=0, order=1
+laurence, stages\SFIVTraining(Scale).def, includestage=0, order=1
+krauser, stages\SFIVTraining(Scale).def, includestage=0, order=2
+grant, stages\SFIVTraining(Scale).def, includestage=0, order=2
+bison, stages\SFIVTraining(Scale).def, includestage=0, order=2
+sagat, stages\SFIVTraining(Scale).def, includestage=0, order=1
+kenji, stages\SFIVTraining(Scale).def, includestage=0, order=1
+hiryu, stages\SFIVTraining(Scale).def, includestage=0, order=1
+blair, stages\SFIVTraining(Scale).def, includestage=0, order=1
+kyosuke, stages\SFIVTraining(Scale).def, includestage=0, order=1
+morrigan, stages\SFIVTraining(Scale).def, includestage=0, order=1
+rolento, stages\SFIVTraining(Scale).def, includestage=0, order=1
+hugo, stages\SFIVTraining(Scale).def, includestage=0, order=1
+cody, stages\SFIVTraining(Scale).def, includestage=0, order=1
+gen, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Karin, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Ibuki, stages\SFIVTraining(Scale).def, includestage=0, order=1
+T.hawk, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Zangief, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Charlie, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Blanka, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Ken, stages\SFIVTraining(Scale).def, includestage=0, order=1
+
+;Third Line
+Daimon, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Athena, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Joe, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Takuma, stages\SFIVTraining(Scale).def, includestage=0, order=1
+yuri, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Choi, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Yamazaki, stages\SFIVTraining(Scale).def, includestage=0, order=1
+vice, stages\SFIVTraining(Scale).def, includestage=0, order=1
+b.jenet, stages\SFIVTraining(Scale).def, includestage=0, order=1
+marco, stages\SFIVTraining(Scale).def, includestage=0, order=1
+ralf, stages\SFIVTraining(Scale).def, includestage=0, order=1
+xiangfei, stages\SFIVTraining(Scale).def, includestage=0, order=1
+todoh, stages\SFIVTraining(Scale).def, includestage=0, order=1
+yuki, stages\SFIVTraining(Scale).def, includestage=0, order=1
+earthquake, stages\SFIVTraining(Scale).def, includestage=0, order=1
+amakusa, stages\SFIVTraining(Scale).def, includestage=0, order=2
+mr.big, stages\SFIVTraining(Scale).def, includestage=0, order=2
+goenitz, stages\SFIVTraining(Scale).def, includestage=0, order=2
+seth, stages\SFIVTraining(Scale).def, includestage=0, order=2
+balrog, stages\SFIVTraining(Scale).def, includestage=0, order=2
+hayato, stages\SFIVTraining(Scale).def, includestage=0, order=1
+zero, stages\SFIVTraining(Scale).def, includestage=0, order=1
+skullo, stages\SFIVTraining(Scale).def, includestage=0, order=1
+tiffany, stages\SFIVTraining(Scale).def, includestage=0, order=1
+lilith, stages\SFIVTraining(Scale).def, includestage=0, order=1
+B. B. Hood, stages\SFIVTraining(Scale).def, includestage=0, order=1
+gouken, stages\SFIVTraining(Scale).def, includestage=0, order=1
+maki, stages\SFIVTraining(Scale).def, includestage=0, order=1
+ingrid, stages\SFIVTraining(Scale).def, includestage=0, order=1
+eagle, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Dudley, stages\SFIVTraining(Scale).def, includestage=0, order=1
+yun, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Dhalsim, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Cammy, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Sakura, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Chunli, stages\SFIVTraining(Scale).def, includestage=0, order=1
+
+;Hidden Line
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+
+;Secret Line
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+donotchange
+
+
+
+;-----------------------
+[ExtraStages]
+ ;Put extra stages here. They will be available in VS and Watch modes.
+ ;For example, you can insert "stages/mybg.def".
+
+stages\SFIVTraining(Scale).def
+
+
+
+
+
+;---------------------------------------------------------------------
+[Options]
+ ;Here you set the maximum number of matches to fight before game ends
+ ;in Arcade Mode. The first number is the number of matches against
+ ;characters with order=1, followed by order=2 and order=3 respectively.
+ ;For example, for 4,3,1 you will fight up to 4 randomly-picked
+ ;characters who have order=1, followed by 3 with order=2 and 1 with
+ ;order=3.
+ ;Up to 30 entries allowed.
+arcade.maxmatches = 4,1,1,0,1,0,0,0,0,0
+
+ ;Maximum number of matches to fight before game ends in Team Mode.
+ ;Like arcade.maxmatches, but applies to Team Battle.
+team.maxmatches = 4,1,1,0,1,0,0,0,0,0

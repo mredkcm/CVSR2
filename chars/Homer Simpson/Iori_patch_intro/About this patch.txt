@@ -1,0 +1,28 @@
+This patch allows Ihoo1836's Iori for activating a new special intro against The 14th Doctor and KingOrgana'2 Homer.
+
+For installing the intro you shoud:
+
+-Before adding the intro you should remove the original defs of yiori1
+or yiori2 for avoid problems.
+
+-Go to the yiori1 folder and copy-paste the content to
+the 95+2000 sprite version(yiori) or go to "yiori2" folder and do
+the same process for the 2001,2002,SVC sprite version You must use the 
+patches for their correct verison or you could have some problems.
+
+-For changing the voices use the others defs files:
+
+*yiori(95+2000 ver.)
+
+*yiori2(2001 ver.)
+
+*yiori3(2002 ver.)
+
+*yiori4(SVC ver.)
+
+Note: If you don't have this version of Iori visit to the following website:
+https://blog.naver.com/ihoo1836
+
+You are not forced to download the 7z files wich includes the snd since they
+are included on this patch. If you don't understand you can see the an
+screenshot that is included on this folder.

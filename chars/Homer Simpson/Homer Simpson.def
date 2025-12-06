@@ -1,0 +1,40 @@
+; Player Information
+[Info]
+name    ="Homer J. Simpson"
+displayname ="Homer Simpson"
+versiondate = 07,28,2003
+mugenversion = 1.0
+author = "Team S.M.R.T edited by The 14th Doctor and KingOrgana"
+pal.defaults=1,2,3,4,5,6,7,8,9,10
+
+; Files for the Player
+[Files]
+cmd     =homer-brutalAI.cmd
+cns     =homer.cns
+st      =homer.cns
+stcommon =common1.cns
+sprite  =Homer.sff
+anim    =homer.air
+sound   =homer.snd
+st1=homer-special.cns
+st2=homer-super.cns
+st3=homer-common.cns
+
+; Maps character selection buttons to palette numbers.
+[Palette Keymap]
+x = 4 ;Press button X to select palette 1, etc.
+y = 5
+z = 6
+a = 1
+b = 2
+c = 3
+x2 = 10 ;Hold Start and press button X for palette 7, etc.
+y2 = 11
+z2 = 1
+a2 = 7
+b2 = 8
+c2 = 9
+
+[Arcade]
+intro.storyboard=
+ending.storyboard=
