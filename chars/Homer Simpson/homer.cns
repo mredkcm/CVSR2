@@ -41,7 +41,7 @@ walk.fwd  = 2.6
 walk.back = -2.2
 run.fwd  = 5.4, 0
 run.back = -7,-3
-jump.neu = 0,-9
+jump.neu = 0,-8
 jump.back = -2.8
 jump.fwd = 	2.8
 runjump.back = -4.3,-10
@@ -51,7 +51,7 @@ airjump.back = -2.55 ;0,0
 airjump.fwd = 2.5 ;0,0
 
 [Movement]
-airjump.num = 1
+airjump.num = 0
 airjump.height = 35
 yaccel = .45
 stand.friction = .85
@@ -2172,7 +2172,7 @@ type = PosAdd
 trigger1 = var(39) = 1
 trigger1 = Time < 26
 x = 2
-y = 0
+;y = 0
 ;ignorehitpause =
 ;persistent =
 
