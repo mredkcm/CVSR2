@@ -1340,7 +1340,7 @@ trigger2 = var(4)
 
 [State -1, Jumping Heavy Kick]
 type = ChangeState
-value = 650
+value = 640
 triggerAll = !AILevel
 triggerAll = command = "c"
 triggerAll = StateType = A
@@ -1358,10 +1358,9 @@ trigger2 = var(4)
 
 [State -1, Jumping Medium Kick]
 type = ChangeState
-value = 640
+value = 650
 triggerAll = !AILevel
-triggerAll = command = "b"
-triggerAll = StateType = A
+triggerAll = command = "b" && statetype = A
 trigger1 = ctrl
 trigger2 = var(4)
 

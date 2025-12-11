@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Rugal by varo_hades                     |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<NORMAL MOVES>========================================
-;==============================================================================================
+;
+;NORMAL MOVES
+;
 
-;===========<STANDING LIGHT PUNCH>==========
+;STANDING LIGHT PUNCH
 [StateDef 200]
 type = S
 physics = S
@@ -82,7 +82,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING FAR MEDIUM PUNCH>==========
+;STANDING FAR MEDIUM PUNCH
 [StateDef 210]
 type = S
 physics = S
@@ -159,7 +159,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING CLOSE MEDIUM PUNCH>==========
+;STANDING CLOSE MEDIUM PUNCH
 [StateDef 215]
 type = S
 physics = S
@@ -236,7 +236,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING FAR HEAVY PUNCH>==========
+;STANDING FAR HEAVY PUNCH
 [StateDef 220]
 type = S
 physics = S
@@ -318,7 +318,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING CLOSE HEAVY PUNCH>==========
+;STANDING CLOSE HEAVY PUNCH
 [StateDef 225]
 type = S
 physics = S
@@ -396,7 +396,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING FAR LIGHT KICK>==========
+;STANDING FAR LIGHT KICK
 [StateDef 230]
 type = S
 physics = S
@@ -473,7 +473,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING CLOSE LIGHT KICK>==========
+;STANDING CLOSE LIGHT KICK
 [StateDef 235]
 type = S
 physics = S
@@ -550,7 +550,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING FAR MEDIUM KICK>==========
+;STANDING FAR MEDIUM KICK
 [StateDef 240]
 type = S
 physics = S
@@ -627,7 +627,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING CLOSE MEDIUM KICK>==========
+;STANDING CLOSE MEDIUM KICK
 [StateDef 245]
 type = S
 physics = S
@@ -704,7 +704,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING FAR HEAVY KICK>==========
+;STANDING FAR HEAVY KICK
 [StateDef 250]
 type = S
 physics = N
@@ -781,7 +781,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<DODGE HEAVY KICK>==========
+;DODGE HEAVY KICK
 [StateDef 251]
 type = S
 physics = N
@@ -858,7 +858,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING CLOSE HEAVY KICK>==========
+;STANDING CLOSE HEAVY KICK
 [StateDef 255]
 type = S
 physics = S
@@ -979,7 +979,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<CROUCHING LIGHT PUNCH>==========
+;CROUCHING LIGHT PUNCH
 [StateDef 400]
 type = C
 physics = C
@@ -1056,7 +1056,7 @@ trigger1 = !AnimTime
 value = 11
 ctrl = 1
 
-;===========<CROUCHING MEDIUM PUNCH>==========
+;CROUCHING MEDIUM PUNCH
 [StateDef 410]
 type = C
 physics = C
@@ -1133,7 +1133,7 @@ trigger1 = !AnimTime
 value = 11
 ctrl = 1
 
-;===========<CROUCHING HEAVY PUNCH>==========
+;CROUCHING HEAVY PUNCH
 [StateDef 420]
 type = C
 physics = C
@@ -1254,7 +1254,7 @@ trigger1 = !AnimTime
 value = 11
 ctrl = 1
 
-;===========<CROUCHING LIGHT KICK>==========
+;CROUCHING LIGHT KICK
 [StateDef 430]
 type = C
 physics = C
@@ -1331,7 +1331,7 @@ trigger1 = !AnimTime
 value = 11
 ctrl = 1
 
-;===========<CROUCHING MEDIUM KICK>==========
+;CROUCHING MEDIUM KICK
 [StateDef 440]
 type = C
 physics = C
@@ -1408,7 +1408,7 @@ trigger1 = !AnimTime
 value = 11
 ctrl = 1
 
-;===========<CROUCHING HEAVY KICK>==========
+;CROUCHING HEAVY KICK
 [StateDef 450]
 type = C
 physics = C
@@ -1481,7 +1481,7 @@ trigger1 = !AnimTime
 value = 11
 ctrl = 1
 
-;===========<JUMPING LIGHT PUNCH>==========
+;JUMPING LIGHT PUNCH
 [StateDef 600]
 type = A
 physics = N
@@ -1562,7 +1562,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<JUMPING MEDIUM PUNCH>==========
+;JUMPING MEDIUM PUNCH
 [StateDef 610]
 type = A
 physics  = N
@@ -1643,7 +1643,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<JUMPING HEAVY PUNCH>==========
+;JUMPING HEAVY PUNCH
 [StateDef 620]
 type = A
 physics = N
@@ -1724,7 +1724,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<JUMPING LIGHT KICK>==========
+;JUMPING LIGHT KICK
 [StateDef 630]
 type = A
 physics = N
@@ -1805,7 +1805,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<JUMPING MEDIUM KICK>==========
+;JUMPING MEDIUM KICK
 [StateDef 640]
 type = A
 physics = N
@@ -1886,15 +1886,17 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<JUMPING HEAVY KICK>==========
-[StateDef 650]
+;JUMPING HEAVY KICK
+[Statedef 650]
 type = A
 physics = N
-moveType = A
+movetype = A
 anim = 650
+velset = 0.3 * vel x, 0.3 * vel y
 ctrl = 0
-sprPriority = 1
-powerAdd = 18 * !var(20)
+poweradd = 18 * !var(20)
+sprpriority = -1
+;juggle = 0
 
 [State 650, Voice]
 type = PlaySnd
@@ -1908,66 +1910,67 @@ trigger1 = AnimElem = 2
 value = 1,5
 channel = 1
 
-[State 650, HitDef]
-type = HitDef
+[State 650, Vel]
+type = velset
+trigger1 = animelemtime(4) >= 0
+x = 9
+y = 7
+
+[State 650, Hit]
+type = hitdef
+;trigger1 = ((p2stateno != [5020, 5050]) || var(20) || roundstate = 3) && p2stateno != 5040
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = Time = 0
-forceNoFall = !var(20)
+trigger1 = !movecontact && !movereversed
 attr = A, NA
-hitFlag = MAF
-guardFlag = HA
-priority = 4, Hit
-damage = ceil(ifElse(fvar(11) * 67 < 7, 7, fvar(11) * 67)), 0
-getPower = ifElse(!var(13), 216, 72) * !var(20), 36 * !var(20)
-givePower = 36, 36
-pauseTime = ifElse(var(20), 6, 12), ifElse(var(20), 6, 12)
-guard.pauseTime = ifElse(var(20), 6, 12), ifElse(var(20), 6, 12)
-animType = Hard
-air.animType = Back
-fall.animType = Back
-ground.type = Low
-air.type = Low
-ground.hitTime = 12 + 4 * var(9)
-ground.slideTime = 12 + 4 * var(9)
-guard.hitTime = 18
-air.hitTime = 120
-airguard.ctrlTime = 16
-ground.velocity = ifElse(var(20), -2.41, -4.49), 0
-ground.cornerPush.velOff = 0
-guard.velocity = ifElse(var(20), -4.36, -8.52)
-guard.cornerPush.velOff = 0
-air.velocity = ifelse(var(20), -2.41, -4), -7.5
-air.cornerPush.velOff = 0
-airguard.velocity = -5, -1.5
-airguard.cornerPush.velOff = 0
-yAccel = 0.58
-fall = 0
-fall.recover = 1
-fall.recoverTime = 120
-hitSound = -1 + 0 * (var(31) := 5)
-guardSound = -1 + 0 * (var(32) := 0)
-sparkNo = -1 + 0 * (var(33) := 8012)
+damage = 60
+animtype = Hard
+air.animtype = Back
+fall.animtype = Back
+guardflag = HA
+hitflag = MAF
+priority = 4, Hit 
+pausetime = ifelse(var(20), 6, 12), ifelse(var(20), 6, 12)
+;sparkno = s7010 + (random % 8)
+;guard.sparkno = s7000
+;sparkxy = -10, -15
+sparkNo = -1 + 0 * (var(33) := 8010)
 guard.sparkNo = -1 + 0 * (var(34) := 8000)
-sparkXY = -10 + 0 * (var(35) := 195), var(36) := -50
-palFX.time = 12 * var(9)
-palFX.add = 255, 255, 255
-palFX.sinAdd= -255, -255, -255, 48
-
-[State 650, StateTypeSet: Idle]
-type = StateTypeSet
-trigger1 = AnimElemTime(7) >= 0
-moveType = I
-
-[State 650, Gravity]
-type = Gravity
-trigger1 = Time >= 0
+sparkXY = -10 + 0 * (var(35) := 60), var(36) := -22
+hitSound = -1 + 0 * (var(31) := 6)
+guardSound = -1 + 0 * (var(32) := 0)
+ground.type = High
+ground.slidetime = 12
+ground.hittime = 12
+ground.velocity = ifelse(var(20), -2.66, -4.49), 0
+ground.cornerpush.veloff = 0;ifelse(var(20), -4.33, -8.17)
+guard.velocity = ifelse(var(20), -4.30, -7.51)
+guard.cornerpush.veloff = 0;ifelse(var(20), -5.78, -10.47)
+air.type = Low
+air.hittime = 120
+air.velocity = ifelse(var(20), -2.5, -5), -7
+down.hittime = 20
+down.velocity = 0, 0
+air.cornerpush.veloff = 0
+getpower = ifelse(p2movetype = H, 72, 144) * !var(20), 36 * !var(20)
+givepower = 36, 36
+yaccel = 0.5
+fall = 0
+airguard.ctrltime = 16
+airguard.velocity = ifelse(var(20), -4, -8), -1.5
+airguard.cornerpush.veloff = 0
+fall.recover = 1
+fall.recovertime = 120
+forcenofall = !var(20)
+palFX.time = 12 * var(29)
+palFX.add = 255,255,255
+palFX.sinAdd= -255,-255,-255,48
 
 [State 650, End]
-type = ChangeState
-trigger1 = pos y > -vel y
+type = changestate
+trigger1 = pos y >= 0
 value = 52
 
-;===========<THROW ATTEMPT>==========
+;THROW ATTEMPT
 [StateDef 800]
 type = S
 physics = S
@@ -2069,7 +2072,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<THROW SWITCHING SIDES>==========
+;THROW SWITCHING SIDES
 [StateDef 805]
 type = S
 moveType = A
@@ -2146,7 +2149,7 @@ type = ChangeState
 trigger1 = AnimElemTime(4) >= 0
 value = ifElse(var(10), 820, 810)
 
-;===========<THROW SWITCHING SIDES (TARGET)>==========
+;THROW SWITCHING SIDES (TARGET)
 [StateDef 806]
 type = A
 moveType = H
@@ -2178,7 +2181,7 @@ trigger1 = Time >= 60
 value = ifElse(pos y < 0, 5040, 0)
 ctrl = 1
 
-;===========<JUDO THROW>==========
+;JUDO THROW
 [Statedef 810]
 type = A
 physics = N
@@ -2430,7 +2433,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<JUDO THROW (TARGET)>==========
+;JUDO THROW (TARGET)
 ;Being Thrown
 [StateDef 815]
 type = A
@@ -2494,7 +2497,7 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 5100
 
-;===========<DRAGON SUPLEX>==========
+;DRAGON SUPLEX
 [StateDef 820]
 type = S
 physics = N
@@ -2653,7 +2656,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<DRAGON SUPLEX (TARGET)>==========
+;DRAGON SUPLEX (TARGET)
 ;Being Hit
 [StateDef 825]
 type = A
@@ -2709,7 +2712,7 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 5100
 
-;===========<THROW ESCAPED>==========
+;THROW ESCAPED
 [StateDef 890]
 type = S
 physics = N
@@ -2863,7 +2866,7 @@ trigger1 = Time >= 27
 value = 0
 ctrl = 1
 
-;===========<THROW ESCAPE MIDAIR>==========
+;THROW ESCAPE MIDAIR
 [StateDef 892]
 type = A
 physics = N
