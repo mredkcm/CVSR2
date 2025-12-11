@@ -555,7 +555,7 @@ Clsn2: 2
 Clsn2Default: 2
   Clsn2[0] = -18, -78, 24, 1
   Clsn2[1] = -13, -96, 19, -63
-200,0, 0,0, 3, 
+200,0, 0,0, 2
 Clsn1: 1
   Clsn1[0] = 8, -80, 60, -62
 Clsn2: 3
@@ -961,7 +961,7 @@ Clsn2Default: 2
 [Begin Action 400]
 Clsn2Default: 1
   Clsn2[0] = -21, -63, 23, 1
-400,0, 0,0, 4, 
+400,0, 0,0, 3
 Clsn1: 1
   Clsn1[0] = 15, -61, 62, -42
 Clsn2: 2
@@ -1040,7 +1040,7 @@ Clsn2: 2
 [Begin Action 430]
 Clsn2Default: 1
   Clsn2[0] = -21, -63, 23, 1
-430,0, 0,0, 3
+430,0, 0,0, 2
 Clsn1: 1
   Clsn1[0] = -4, -18, 68, 2
 Clsn2: 2
