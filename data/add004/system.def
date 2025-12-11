@@ -19,6 +19,7 @@
         snd = system.snd          ;Filename of sound data
         logo.storyboard =         ;Logo storyboard definition (optional)
         intro.storyboard =        ;Intro storyboard definition (optional)
+        intro.storyboard =        ;Intro storyboard definition (optional)
         select = select.def       ;Character and stage selection list
  
 
@@ -198,13 +199,13 @@ cell.spacing = 3	      	;Space between each cell
 cell.bg.spr = 150,0       	;Note: Don't use animation for cells
 cell.random.spr = 151,0   	;Icon for random select (don't use animation)
 cell.random.switchtime = 2	;Time to wait before changing to another random portrait
-p1.cursor.startcell = 1,0
+p1.cursor.startcell = 1,18
 p1.cursor.active.anim = 152
 p1.cursor.done.spr = 153,0
 p1.cursor.move.snd = 100,0
 p1.cursor.done.snd = 100,1
 p1.random.move.snd = 100,0
-p2.cursor.startcell = 1,35
+p2.cursor.startcell = 1,17
 p2.cursor.active.anim = 154
 p2.cursor.done.spr = 155,0
 p2.cursor.blink = 0       	;1 to blink p2's cursor if overlapping p1's

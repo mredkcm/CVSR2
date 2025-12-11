@@ -1,4 +1,4 @@
-;=====================<Gouhadouken>==========================
+;Gouhadouken
 [StateDef 1000]
 type = S
 physics = S
@@ -65,7 +65,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<Gouhadouken EX>==========================
+;Gouhadouken EX
 [StateDef 1030]
 type = S
 physics = S
@@ -144,7 +144,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<Shakunetsu Hadouken>==========================
+;Shakunetsu Hadouken
 [StateDef 1100]
 type = S
 physics = S
@@ -273,7 +273,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<Shakunetsu Hadouken EX>==========================
+;Shakunetsu Hadouken EX
 [StateDef 1130]
 type = S
 physics = S
@@ -388,7 +388,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<Zanku Hadouken>==========================
+;Zanku Hadouken
 [StateDef 1200]
 type = A
 physics = N
@@ -494,7 +494,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<Zanku Hadouken EX>==========================
+;Zanku Hadouken EX
 [StateDef 1230]
 type = A
 physics = N
@@ -604,7 +604,7 @@ type = ChangeState
 trigger1 = Pos Y >= 0 && Vel Y > 0;pos y > -vel y
 value = 1201
 
-;========================<Goushouryuken>=======================
+;Goushouryuken
 [Statedef 1300]
 type = S
 movetype = A
@@ -1637,7 +1637,7 @@ trigger1 = AnimElemTime(5)>0
 trigger1 = Pos Y >= 0 && Vel Y > 0;pos y > -vel y
 value = 1301
 
-;========================<Tatsumaki Zankukyaku>=======================
+;Tatsumaki Zankukyaku
 [Statedef 1400]
 type = A
 movetype = A
@@ -2517,7 +2517,7 @@ trigger1 = AnimElemTime(23)>0
 trigger1 = Pos Y >= 0 && Vel Y > 0
 value = 1401
 
-;========================<Air Tatsumaki Zankukyaku>=======================
+;Air Tatsumaki Zankukyaku
 [Statedef 1450]
 type = A
 movetype = A
@@ -2888,7 +2888,7 @@ type = ChangeState
 trigger1 = Pos Y >= 0 && Vel Y > 0
 value = 1401
 
-;========================<Hyakkishu>=======================
+;Hyakkishu
 [Statedef 1500]
 type = S
 movetype = I;A
@@ -3524,7 +3524,7 @@ trigger1 = !AnimTime
 value = 11
 ctrl = 1
 
-;===========<Hyakki Gousai(TARGET)>================
+;Hyakki Gousai(TARGET)
 [Statedef 1525]
 type = A
 movetype = H
@@ -3569,7 +3569,7 @@ value = 0
 type = AngleDraw
 trigger1 = AnimElemTime(5)>=0 && AnimelemTime(6)<0
 
-;===========<Hyakki Gousai(TARGET FALL)>================
+;Hyakki Gousai(TARGET FALL)
 [Statedef 1526]
 type    = A
 movetype = H
@@ -3850,7 +3850,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<Hyakki Goutsui(TARGET)>================
+;Hyakki Goutsui(TARGET)
 [Statedef 1535]
 type = A
 movetype = H
@@ -3876,7 +3876,7 @@ type = SelfState
 trigger1 = !gethitvar(isbound)
 value = 5050
 
-;===========<Hyakki Goutsui(TARGET FALL)>================
+;Hyakki Goutsui(TARGET FALL)
 [Statedef 1536]
 type    = A
 movetype = H
@@ -3924,7 +3924,7 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 5100
 
-;========================<EX Hyakkishu>=======================
+;EX Hyakkishu
 [Statedef 1550]
 type = S
 movetype = I;A
@@ -5010,7 +5010,7 @@ type = SelfState
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 5100
 
-;=====================<Zenpou Tenshin>==========================
+;Zenpou Tenshin
 [StateDef 1600]
 type = S
 physics = N
@@ -5064,7 +5064,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<Ashura Senku>==========================
+;Ashura Senku
 [StateDef 1700]
 type = S
 physics = N

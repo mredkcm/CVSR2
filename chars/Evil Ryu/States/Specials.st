@@ -2,10 +2,10 @@
 ;| Ryu by Phantom.of.the.Server and Mwryly |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 ;============================================================================================
-;=====================================< SPECIAL STATES >=======================================
+;===============SPECIAL STATES==========
 ;============================================================================================
 
-;======================< HADOU KEN >=============================
+;HADOU KEN
 [Statedef 1000]
 type = S
 physics = S
@@ -60,7 +60,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;======================< SHAKUNETSU HADOU KEN >=============================
+;SHAKUNETSU HADOU KEN
 [Statedef 1020]
 type = S
 physics = S
@@ -176,7 +176,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;======================< SHORYUU KEN >=============================
+;SHORYUU KEN
 [Statedef 1100]
 type = S
 physics = S
@@ -681,7 +681,7 @@ trigger1 = anim = 1101
 movetype = I
 
 
-;======================< TATSUMAKI SENPUU KYAKU >=============================
+;TATSUMAKI SENPUU KYAKU
 [Statedef 1200]
 type = A
 physics = N
@@ -1001,7 +1001,7 @@ trigger1 = anim = 1205
 movetype = I
 
 
-;======================< KUUCHUU TATSUMAKI SENPUU KYAKU >=============================
+;KUUCHUU TATSUMAKI SENPUU KYAKU
 [Statedef 1250]
 type = A
 physics = A
@@ -1180,7 +1180,7 @@ trigger1 = animelemtime(27) >= 0
 movetype = I
 
 
-;======================< CLASSIC AERIAL TATSUMAKI >=============================
+;CLASSIC AERIAL TATSUMAKI
 [Statedef 1270]
 type = A
 physics = N
@@ -1355,7 +1355,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 
-;======================< JOUDAN SOKUTOU GERI >=============================
+;JOUDAN SOKUTOU GERI
 [Statedef 1300]
 type = S
 physics = S
@@ -1526,7 +1526,7 @@ value = 0
 ctrl = 1
 
 
-;======================< ASHURA SENKUU >=============================
+;ASHURA SENKUU
 [Statedef 1400]
 type = S
 physics = N
@@ -1640,7 +1640,7 @@ trigger1 = anim = 1405 && !animtime
 value = 0
 ctrl = 1
 
-;======================< RYUSOKYAKU >=============================
+;RYUSOKYAKU
 [Statedef 1500]
 type = S
 physics = S

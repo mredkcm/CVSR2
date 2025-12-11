@@ -1,11 +1,11 @@
 ; ________________________________________
 ;| Gouki by Phantom.of.the.Server and Mwryly |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< HELPER STATES >========================================
-;==============================================================================================
+;
+;===============HELPER STATES===========
+;
 
-;========================< JUMP DUST >=============================
+;JUMP DUST
 [Statedef 7100]
 physics = N
 velset = 0, 0
@@ -41,7 +41,7 @@ flag = invisible
 type = destroyself
 trigger1 = time >= 7
 
-;========================< HADOU KEN >=============================
+;HADOU KEN
 [Statedef 1005]
 type = S
 physics = N
@@ -294,7 +294,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< EX HADOU KEN >=============================
+;EX HADOU KEN
 [Statedef 1015]
 type = S
 physics = N
@@ -497,7 +497,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< SHAKUNETSU HADOU KEN >=============================
+;SHAKUNETSU HADOU KEN
 [Statedef 1025]
 type = S
 physics = N
@@ -917,7 +917,7 @@ persistent = 0
 type = destroyself
 trigger1 = !animtime
 
-;========================<ZANKUU HADOUKEN >=============================
+;========================<ZANKUU HADOUKEN
 [Statedef 1055]
 type = A
 physics = N
@@ -1437,7 +1437,7 @@ ignorehitpause = 1
 type = destroyself
 trigger1 = pos x != [ -240, 240]
 
-;========================< MESSATSU GOU HADO >=============================
+;MESSATSU GOU HADO
 [Statedef 3005]
 type = S
 physics = N
@@ -1660,7 +1660,7 @@ ignorehitpause = 1
 type = destroyself
 trigger1 = !animtime
 
-;========================< MESSATSU GOU HADO AGYO >========================================
+;MESSATSU GOU HADO AGYO===========
 [Statedef 3025]
 type = A
 physics = N
@@ -1844,7 +1844,7 @@ ignorehitpause = 1
 type = destroyself
 trigger1 = pos x != [ -240, 240]
 
-;========================< TENMA GOU ZANKUU >=============================
+;TENMA GOU ZANKUU
 [Statedef 3055]
 type = A
 physics = N
@@ -2091,7 +2091,7 @@ supermovetime = -1
 type = destroyself
 trigger1 = !animtime
 
-;========================< TENMA GOU ZANKUU AGYO >=============================
+;TENMA GOU ZANKUU AGYO
 [Statedef 3075]
 type = A
 physics = N
@@ -2281,7 +2281,7 @@ type = destroyself
 trigger1 = pos x != [ -240, 240]
 
 
-;========================< B&W DUST >=============================
+;B&W DUST
 [Statedef 3125]
 physics = N
 anim = 9741
@@ -2361,7 +2361,7 @@ trigger1 = !animtime
 trigger2 = !(parent, stateno = [1100,1110]) || parent, stateno = 3100
 trigger2 = parent, movetype = H
 
-;========================< TENMA SHINZUI WARI F.X. >=============================
+;TENMA SHINZUI WARI F.X.
 [Statedef 3305]
 physics = N
 velset = 0, 0
@@ -2394,7 +2394,7 @@ type = destroyself
 trigger1 = !animtime || (root, stateno != 3300) && (root, var(1) = 1)
 trigger2 = !animtime || (root, stateno != 1302) && (root, var(1)!= 1)
 
-;========================< MISOGI ILLUSIONS >=============================
+;MISOGI ILLUSIONS
 [Statedef 4104]
 physics = N
 anim = 9741
@@ -2442,7 +2442,7 @@ time = 60
 type = destroyself
 trigger1 = time >= 60
 
-;========================< S.G.S. GUARDED >=============================
+;S.G.S. GUARDED
 [Statedef 4012]
 physics = N
 velset = 0, 0
@@ -2497,7 +2497,7 @@ type = destroyself
 trigger1 = time >= 24
 
 
-;========================< KONGOU KOKURETSU ZAN >=============================
+;KONGOU KOKURETSU ZAN
 ; - KKZ AURA -
 [Statedef 4203]
 physics = N
@@ -2872,7 +2872,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< PURPLE DUST >=============================
+;PURPLE DUST
 [Statedef 4210]
 physics = N
 anim = 9741
@@ -2904,7 +2904,7 @@ scale = 0.5 + (0.1 * time), 0.1 + (0.02 * time)
 type = destroyself
 trigger1 = time >= 26
 
-;========================< AURA >=============================
+;AURA
 [Statedef 6000]
 physics = N
 velset = 0, 0
@@ -2944,7 +2944,7 @@ trigger7 = root, stateno = 193 && root, anim = 193 && root, animelemtime(39) >= 
 trigger8 = root, stateno = 1030 && root, animelemtime(6) >= 0
 trigger9 = root, stateno = 1021 && root, animelemtime(9) >= 0 && root, var(1) = 1
 trigger10 = root, stateno = 6901 && root, animelemtime(21) >= 0
-;========================< METSU >=============================
+;METSU
 [Statedef 6002]
 physics = N
 velset = 0, -.5
@@ -2984,7 +2984,7 @@ x = ceil(root, pos x) + ifelse(root, facing = -1, 5, -5)
 type = destroyself
 trigger1 = !animtime || root, movetype = H
 
-;========================< KANJI >=============================
+;KANJI
 [Statedef 6012]
 physics = N
 velset = 0, 0
@@ -3003,7 +3003,7 @@ type = bindtoroot
 trigger1 = 1
 pos = ifelse((root, facing = 1), 0, 32), 0
 
-;========================< KKZ AURA >=============================
+;KKZ AURA
 [Statedef 4203]
 physics = N
 velset = 0, 0
@@ -3035,7 +3035,7 @@ trigger2 = root, stateno = 4200 && root, animelemtime(19) >= 0
 trigger3 = !animtime
 
 
-;========================< RED PARTICLES >=============================
+;RED PARTICLES
 [Statedef 6021]
 physics = N
 anim = 6021
@@ -3064,7 +3064,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< VEGA >=============================
+;VEGA
 [Statedef 6100]
 physics = N
 velset = 0, 0
@@ -3111,7 +3111,7 @@ trigger5 = enemy, name = "M.Bison" && enemy, authorname = "N -Mario"
 trigger6 = enemy, name = "CvSBison" && enemy, authorname = "Team Kai (Saiai and Koga)"
 trigger7 = enemy, name = "[Necromancer's] M. Bison" || enemy, name = "Sevil Nahte"
 
-;========================< VEGA 2 >=============================
+;VEGA 2
 [Statedef 6150]
 physics = N
 velset = 0, 0
@@ -3186,7 +3186,7 @@ trigger6 = enemy, name = "CvSBison" && enemy, authorname = "Team Kai (Saiai and 
 trigger7 = enemy, name = "[Necromancer's] M. Bison" || enemy, name = "Sevil Nahte"
 
 
-;========================< DIZZY FX >=============================
+;DIZZY FX
 [Statedef 3033]
 physics = N
 velset = 0, 0
@@ -3213,7 +3213,7 @@ trigger1 = enemynear, ctrl
 trigger1 = (enemynear, movetype != H) && (enemynear, stateno != 5300)
 
 
-;========================< FIRE >=============================
+;FIRE
 ;--- RED ---
 [Statedef 7180]
 physics = N
@@ -3293,7 +3293,7 @@ type = destroyself
 trigger1 = !numenemy || time >= 120
 
 
-;========================< SHIN SHORYUUKEN SHOCKWAVE >=============================
+;SHIN SHORYUUKEN SHOCKWAVE
 [Statedef 7050]
 physics = N
 velset = 0, 0
@@ -3348,7 +3348,7 @@ type = destroyself
 trigger1 = time >= 15
 
 
-;========================< POWER CHARGE >=============================
+;POWER CHARGE
 ;--- MAIN FX ---
 [Statedef 7240]
 type = S
@@ -3451,7 +3451,7 @@ type = destroyself
 trigger1 = (root, stateno != 740) || (root, anim != 740) || (root, movetype = H)
 
 
-;========================< ZERO COUNTER CHARGE >=============================
+;ZERO COUNTER CHARGE
 [Statedef 7250]
 physics = N
 velset = 0, 0
@@ -3517,7 +3517,7 @@ type = destroyself
 trigger1 = time >= 20
 
 
-;========================< ORIGINAL COMBO CHARGE >=============================
+;ORIGINAL COMBO CHARGE
 [Statedef 7260]
 physics = N
 moveType = I
@@ -3652,7 +3652,7 @@ type = destroyself
 trigger1 = time >= 30
 
 
-;========================< SUPER CHARGE >=============================
+;SUPER CHARGE
 [Statedef 7500]
 physics = N
 velset = 0, 0
@@ -4056,7 +4056,7 @@ trigger1 = Time >= 60
 
 
 
-;========================< COUNTER F.X. >=============================
+;COUNTER F.X.
 [Statedef 7400]
 type = A
 physics = N
@@ -4079,7 +4079,7 @@ type = destroyself
 trigger1 = time >= 8
 
 
-;========================< SUPER FINISH >=============================
+;SUPER FINISH
 [Statedef 7600]
 type = A
 velset = 0, 0
@@ -4199,7 +4199,7 @@ type = destroyself
 trigger1 = roundstate < 3
 
 
-;========================< KANJI B.G. >=============================
+;KANJI B.G.
 [Statedef 7610]
 physics = N
 velset = 0, 0
@@ -4317,7 +4317,7 @@ type = destroyself
 trigger1 = time >= 180
 
 
-;========================< CAMERA CONTROL >=============================
+;CAMERA CONTROL
 [Statedef 7650]
 physics = N
 velset = 0, 0

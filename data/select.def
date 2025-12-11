@@ -83,21 +83,21 @@ donotchange
 donotchange
 donotchange
 donotchange
+empty
 randomselect
-Homer Simpson
-Rasetsumaru, stages\SFIVTraining(Scale).def, includestage=0, order=3
-Iori Orochi, stages\SFIVTraining(Scale).def, includestage=0, order=3
-Kusanagi, stages\SFIVTraining(Scale).def, includestage=0, order=3
-Mr.karate, stages\SFIVTraining(Scale).def, includestage=0, order=3
 God Rugal, stages\SFIVTraining(Scale).def, includestage=0, order=5
-Shin Akuma, stages\SFIVTraining(Scale).def, includestage=0, order=5
-Final Bison, stages\SFIVTraining(Scale).def, includestage=0, order=5
-Evil Ryu, stages\SFIVTraining(Scale).def, includestage=0, order=3
-Violent Ken, stages\SFIVTraining(Scale).def, includestage=0, order=3
+Mr.karate, stages\SFIVTraining(Scale).def, includestage=0, order=3
+Kusanagi, stages\SFIVTraining(Scale).def, includestage=0, order=3
+Iori Orochi, stages\SFIVTraining(Scale).def, includestage=0, order=3
+Rasetsumaru, stages\SFIVTraining(Scale).def, includestage=0, order=3
 Shadow Lady, stages\SFIVTraining(Scale).def, includestage=0, order=3
-Peter Griffin
+Violent Ken, stages\SFIVTraining(Scale).def, includestage=0, order=3
+Evil Ryu, stages\SFIVTraining(Scale).def, includestage=0, order=3
+Final Bison, stages\SFIVTraining(Scale).def, includestage=0, order=5
+Shin Akuma, stages\SFIVTraining(Scale).def, includestage=0, order=5
 randomselect
-donotchange
+empty
+empty
 donotchange
 donotchange
 donotchange
@@ -110,118 +110,118 @@ donotchange
 donotchange
 
 ;First Line
-kyo, stages\SFIVTraining(Scale).def, includestage=0, order=1
-K', stages\SFIVTraining(Scale).def, includestage=0, order=1
-terry, stages\SFIVTraining(Scale).def, includestage=0, order=1
-ryo, stages\SFIVTraining(Scale).def, includestage=0, order=1
+rugal, stages\SFIVTraining(Scale).def, includestage=0, order=2
+geese, stages\SFIVTraining(Scale).def, includestage=0, order=2
+saisyu, stages\SFIVTraining(Scale).def, includestage=0, order=2
+haohmaru, stages\SFIVTraining(Scale).def, includestage=0, order=1
+shermie, stages\SFIVTraining(Scale).def, includestage=0, order=1
+vanessa, stages\SFIVTraining(Scale).def, includestage=0, order=1
+rick, stages\SFIVTraining(Scale).def, includestage=0, order=1
+heidern, stages\SFIVTraining(Scale).def, includestage=0, order=1
+tizoc, stages\SFIVTraining(Scale).def, includestage=0, order=1
+rock, stages\SFIVTraining(Scale).def, includestage=0, order=1
+iori, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Mary, stages\SFIVTraining(Scale).def, includestage=0, order=1
 mai, stages\SFIVTraining(Scale).def, includestage=0, order=1
 kim, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Mary, stages\SFIVTraining(Scale).def, includestage=0, order=1
-iori, stages\SFIVTraining(Scale).def, includestage=0, order=1
-rock, stages\SFIVTraining(Scale).def, includestage=0, order=1
-tizoc, stages\SFIVTraining(Scale).def, includestage=0, order=1
-heidern, stages\SFIVTraining(Scale).def, includestage=0, order=1
-rick, stages\SFIVTraining(Scale).def, includestage=0, order=1
-vanessa, stages\SFIVTraining(Scale).def, includestage=0, order=1
-shermie, stages\SFIVTraining(Scale).def, includestage=0, order=1
-haohmaru, stages\SFIVTraining(Scale).def, includestage=0, order=1
-saisyu, stages\SFIVTraining(Scale).def, includestage=0, order=2
-geese, stages\SFIVTraining(Scale).def, includestage=0, order=2
-rugal, stages\SFIVTraining(Scale).def, includestage=0, order=2
-akuma, stages\SFIVTraining(Scale).def, includestage=0, order=2
-adon, stages\SFIVTraining(Scale).def, includestage=0, order=1
-leo, stages\SFIVTraining(Scale).def, includestage=0, order=1
-jill, stages\SFIVTraining(Scale).def, includestage=0, order=1
-kairi, stages\SFIVTraining(Scale).def, includestage=0, order=1
-batsu, stages\SFIVTraining(Scale).def, includestage=0, order=1
-demitri, stages\SFIVTraining(Scale).def, includestage=0, order=1
-sodom, stages\SFIVTraining(Scale).def, includestage=0, order=1
-haggar, stages\SFIVTraining(Scale).def, includestage=0, order=1
-guy, stages\SFIVTraining(Scale).def, includestage=0, order=1
-rose, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Mika, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Sean, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Feilong, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Honda, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Guile, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Dan, stages\SFIVTraining(Scale).def, includestage=0, order=1
+ryo, stages\SFIVTraining(Scale).def, includestage=0, order=1
+terry, stages\SFIVTraining(Scale).def, includestage=0, order=1
+K', stages\SFIVTraining(Scale).def, includestage=0, order=1
+kyo, stages\SFIVTraining(Scale).def, includestage=0, order=1
 Ryu, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Guile, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Honda, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Dan, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Feilong, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Sean, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Mika, stages\SFIVTraining(Scale).def, includestage=0, order=1
+rose, stages\SFIVTraining(Scale).def, includestage=0, order=1
+guy, stages\SFIVTraining(Scale).def, includestage=0, order=1
+haggar, stages\SFIVTraining(Scale).def, includestage=0, order=1
+sodom, stages\SFIVTraining(Scale).def, includestage=0, order=1
+demitri, stages\SFIVTraining(Scale).def, includestage=0, order=1
+batsu, stages\SFIVTraining(Scale).def, includestage=0, order=1
+kairi, stages\SFIVTraining(Scale).def, includestage=0, order=1
+jill, stages\SFIVTraining(Scale).def, includestage=0, order=1
+leo, stages\SFIVTraining(Scale).def, includestage=0, order=1
+adon, stages\SFIVTraining(Scale).def, includestage=0, order=1
+akuma, stages\SFIVTraining(Scale).def, includestage=0, order=2
 
 ;Second line
-Benimaru, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Kula, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Andy, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Robert, stages\SFIVTraining(Scale).def, includestage=0, order=1
+grant, stages\SFIVTraining(Scale).def, includestage=0, order=2
+krauser, stages\SFIVTraining(Scale).def, includestage=0, order=2
+laurence, stages\SFIVTraining(Scale).def, includestage=0, order=1
+nakoruru, stages\SFIVTraining(Scale).def, includestage=0, order=1
+hibiki, stages\SFIVTraining(Scale).def, includestage=0, order=1
+kasumi, stages\SFIVTraining(Scale).def, includestage=0, order=1
+raiden, stages\SFIVTraining(Scale).def, includestage=0, order=1
+clark, stages\SFIVTraining(Scale).def, includestage=0, order=1
+jae, stages\SFIVTraining(Scale).def, includestage=0, order=1
+kain, stages\SFIVTraining(Scale).def, includestage=0, order=1
+mature, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Billy, stages\SFIVTraining(Scale).def, includestage=0, order=1
 king, stages\SFIVTraining(Scale).def, includestage=0, order=1
 Chang, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Billy, stages\SFIVTraining(Scale).def, includestage=0, order=1
-mature, stages\SFIVTraining(Scale).def, includestage=0, order=1
-kain, stages\SFIVTraining(Scale).def, includestage=0, order=1
-jae, stages\SFIVTraining(Scale).def, includestage=0, order=1
-clark, stages\SFIVTraining(Scale).def, includestage=0, order=1
-raiden, stages\SFIVTraining(Scale).def, includestage=0, order=1
-kasumi, stages\SFIVTraining(Scale).def, includestage=0, order=1
-hibiki, stages\SFIVTraining(Scale).def, includestage=0, order=1
-nakoruru, stages\SFIVTraining(Scale).def, includestage=0, order=1
-laurence, stages\SFIVTraining(Scale).def, includestage=0, order=1
-krauser, stages\SFIVTraining(Scale).def, includestage=0, order=2
-grant, stages\SFIVTraining(Scale).def, includestage=0, order=2
-bison, stages\SFIVTraining(Scale).def, includestage=0, order=2
-sagat, stages\SFIVTraining(Scale).def, includestage=0, order=1
-kenji, stages\SFIVTraining(Scale).def, includestage=0, order=1
-hiryu, stages\SFIVTraining(Scale).def, includestage=0, order=1
-blair, stages\SFIVTraining(Scale).def, includestage=0, order=1
-kyosuke, stages\SFIVTraining(Scale).def, includestage=0, order=1
-morrigan, stages\SFIVTraining(Scale).def, includestage=0, order=1
-rolento, stages\SFIVTraining(Scale).def, includestage=0, order=1
-hugo, stages\SFIVTraining(Scale).def, includestage=0, order=1
-cody, stages\SFIVTraining(Scale).def, includestage=0, order=1
-gen, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Karin, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Ibuki, stages\SFIVTraining(Scale).def, includestage=0, order=1
-T.hawk, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Zangief, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Charlie, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Blanka, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Robert, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Andy, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Kula, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Benimaru, stages\SFIVTraining(Scale).def, includestage=0, order=1
 Ken, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Charlie, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Zangief, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Blanka, stages\SFIVTraining(Scale).def, includestage=0, order=1
+T.hawk, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Ibuki, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Karin, stages\SFIVTraining(Scale).def, includestage=0, order=1
+gen, stages\SFIVTraining(Scale).def, includestage=0, order=1
+cody, stages\SFIVTraining(Scale).def, includestage=0, order=1
+hugo, stages\SFIVTraining(Scale).def, includestage=0, order=1
+rolento, stages\SFIVTraining(Scale).def, includestage=0, order=1
+morrigan, stages\SFIVTraining(Scale).def, includestage=0, order=1
+kyosuke, stages\SFIVTraining(Scale).def, includestage=0, order=1
+blair, stages\SFIVTraining(Scale).def, includestage=0, order=1
+hiryu, stages\SFIVTraining(Scale).def, includestage=0, order=1
+kenji, stages\SFIVTraining(Scale).def, includestage=0, order=1
+sagat, stages\SFIVTraining(Scale).def, includestage=0, order=1
+bison, stages\SFIVTraining(Scale).def, includestage=0, order=2
 
 ;Third Line
-Daimon, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Athena, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Joe, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Takuma, stages\SFIVTraining(Scale).def, includestage=0, order=1
+goenitz, stages\SFIVTraining(Scale).def, includestage=0, order=2
+mr.big, stages\SFIVTraining(Scale).def, includestage=0, order=2
+amakusa, stages\SFIVTraining(Scale).def, includestage=0, order=2
+earthquake, stages\SFIVTraining(Scale).def, includestage=0, order=1
+yuki, stages\SFIVTraining(Scale).def, includestage=0, order=1
+todoh, stages\SFIVTraining(Scale).def, includestage=0, order=1
+xiangfei, stages\SFIVTraining(Scale).def, includestage=0, order=1
+ralf, stages\SFIVTraining(Scale).def, includestage=0, order=1
+marco, stages\SFIVTraining(Scale).def, includestage=0, order=1
+b.jenet, stages\SFIVTraining(Scale).def, includestage=0, order=1
+vice, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Yamazaki, stages\SFIVTraining(Scale).def, includestage=0, order=1
 yuri, stages\SFIVTraining(Scale).def, includestage=0, order=1
 Choi, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Yamazaki, stages\SFIVTraining(Scale).def, includestage=0, order=1
-vice, stages\SFIVTraining(Scale).def, includestage=0, order=1
-b.jenet, stages\SFIVTraining(Scale).def, includestage=0, order=1
-marco, stages\SFIVTraining(Scale).def, includestage=0, order=1
-ralf, stages\SFIVTraining(Scale).def, includestage=0, order=1
-xiangfei, stages\SFIVTraining(Scale).def, includestage=0, order=1
-todoh, stages\SFIVTraining(Scale).def, includestage=0, order=1
-yuki, stages\SFIVTraining(Scale).def, includestage=0, order=1
-earthquake, stages\SFIVTraining(Scale).def, includestage=0, order=1
-amakusa, stages\SFIVTraining(Scale).def, includestage=0, order=2
-mr.big, stages\SFIVTraining(Scale).def, includestage=0, order=2
-goenitz, stages\SFIVTraining(Scale).def, includestage=0, order=2
-seth, stages\SFIVTraining(Scale).def, includestage=0, order=2
-balrog, stages\SFIVTraining(Scale).def, includestage=0, order=2
-hayato, stages\SFIVTraining(Scale).def, includestage=0, order=1
-zero, stages\SFIVTraining(Scale).def, includestage=0, order=1
-skullo, stages\SFIVTraining(Scale).def, includestage=0, order=1
-tiffany, stages\SFIVTraining(Scale).def, includestage=0, order=1
-lilith, stages\SFIVTraining(Scale).def, includestage=0, order=1
-B. B. Hood, stages\SFIVTraining(Scale).def, includestage=0, order=1
-gouken, stages\SFIVTraining(Scale).def, includestage=0, order=1
-maki, stages\SFIVTraining(Scale).def, includestage=0, order=1
-ingrid, stages\SFIVTraining(Scale).def, includestage=0, order=1
-eagle, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Dudley, stages\SFIVTraining(Scale).def, includestage=0, order=1
-yun, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Dhalsim, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Cammy, stages\SFIVTraining(Scale).def, includestage=0, order=1
-Sakura, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Takuma, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Joe, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Athena, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Daimon, stages\SFIVTraining(Scale).def, includestage=0, order=1
 Chunli, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Cammy, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Dhalsim, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Sakura, stages\SFIVTraining(Scale).def, includestage=0, order=1
+yun, stages\SFIVTraining(Scale).def, includestage=0, order=1
+Dudley, stages\SFIVTraining(Scale).def, includestage=0, order=1
+eagle, stages\SFIVTraining(Scale).def, includestage=0, order=1
+ingrid, stages\SFIVTraining(Scale).def, includestage=0, order=1
+maki, stages\SFIVTraining(Scale).def, includestage=0, order=1
+gouken, stages\SFIVTraining(Scale).def, includestage=0, order=1
+B. B. Hood, stages\SFIVTraining(Scale).def, includestage=0, order=1
+lilith, stages\SFIVTraining(Scale).def, includestage=0, order=1
+tiffany, stages\SFIVTraining(Scale).def, includestage=0, order=1
+skullo, stages\SFIVTraining(Scale).def, includestage=0, order=1
+zero, stages\SFIVTraining(Scale).def, includestage=0, order=1
+hayato, stages\SFIVTraining(Scale).def, includestage=0, order=1
+balrog, stages\SFIVTraining(Scale).def, includestage=0, order=2
+seth, stages\SFIVTraining(Scale).def, includestage=0, order=2
 
 ;Hidden Line
 donotchange
@@ -243,7 +243,7 @@ donotchange
 donotchange
 donotchange
 donotchange
-donotchange
+empty
 donotchange
 donotchange
 donotchange

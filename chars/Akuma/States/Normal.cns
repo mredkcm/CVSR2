@@ -1,5 +1,5 @@
 ; Standing Light Punch
-; CNS difficulty: easy
+
 [Statedef 200]
 type    = S
 movetype= A
@@ -77,7 +77,7 @@ value = 0
 ctrl = 1
 
 ; Close Light Punch
-; CNS difficulty: easy
+
 [Statedef 201]
 type    = S
 movetype= A
@@ -533,7 +533,7 @@ ctrl = 1
 
 ;------------------------------------------
 ; Standing Strong Punch
-; CNS difficulty: easy
+
 [Statedef 220]
 type    = S
 movetype= A
@@ -611,7 +611,7 @@ value = 0
 ctrl = 1
 
 ; Close Strong Punch
-; CNS difficulty: easy
+
 [Statedef 221]
 type    = S
 movetype= A
@@ -732,7 +732,7 @@ value = 0
 ctrl = 1
 
 ; Dodge Punch
-; CNS difficulty: easy
+
 [Statedef 222]
 type    = S
 movetype= A
@@ -815,7 +815,7 @@ value = 0
 ctrl = 1
 
 ; Z-Counter Punch
-; CNS difficulty: easy
+
 [Statedef 225]
 type    = S
 movetype= A
@@ -905,7 +905,7 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 ; Standing Light Kick
-; CNS difficulty: easy
+
 [Statedef 230]
 type    = S
 movetype= A
@@ -989,7 +989,7 @@ ctrl = 1
 
 ;------------------------------------------------------
 ; Standing Medium Kick
-; CNS difficulty: easy
+
 [Statedef 240]
 type    = S
 movetype= A
@@ -1067,7 +1067,7 @@ value = 0
 ctrl = 1
 
 ; Close Medium Kick
-; CNS difficulty: easy
+
 [Statedef 241]
 type    = S
 movetype= A
@@ -1151,7 +1151,7 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 ; Standing Strong Kick
-; CNS difficulty: easy
+
 [Statedef 250]
 type    = S
 movetype= A
@@ -1229,7 +1229,7 @@ value = 0
 ctrl = 1
 
 ; Close Strong Kick
-; CNS difficulty: easy
+
 [Statedef 251]
 type    = S
 movetype= A
@@ -1350,7 +1350,7 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 ; Crouching Light Punch
-; CNS difficulty: easy
+
 [Statedef 400]
 type    = C
 movetype= A
@@ -1429,7 +1429,7 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 ; Crouching Medium Punch
-; CNS difficulty: easy
+
 [Statedef 410]
 type    = C
 movetype= A
@@ -1629,7 +1629,7 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 ; Crouching Light Kick
-; CNS difficulty: easy
+
 [Statedef 430]
 type    = C
 movetype= A
@@ -1708,7 +1708,7 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 ;Crouch Medium Kick
-; CNS difficulty: easy
+
 [Statedef 440]
 type    = C
 movetype= A
@@ -1792,7 +1792,7 @@ ctrl = 1
 
 ;--------------------------------------------------------------------------
 ; Crouch Strong Kick
-; CNS difficulty: easy
+
 [Statedef 450]
 type    = C
 movetype= A
@@ -1880,7 +1880,7 @@ value = 11
 ctrl = 1
 
 ; Z-Counter Version
-; CNS difficulty: easy
+
 [Statedef 451]
 type    = C
 movetype= A
@@ -1975,7 +1975,7 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 ; Jump Light Punch
-; CNS difficulty: easy
+
 [Statedef 600]
 type    = A
 movetype= A
@@ -2057,7 +2057,7 @@ value = 52
 
 ;---------------------------------------------------------------------------
 ; Jump Medium Punch
-; CNS difficulty: easy
+
 [Statedef 610]
 type    = A
 movetype= A
@@ -2139,7 +2139,7 @@ value = 52
 
 ;---------------------------------------------------------------------------
 ; Jump Strong Punch
-; CNS difficulty: easy
+
 [Statedef 620]
 type    = A
 movetype= A
@@ -2221,7 +2221,7 @@ value = 52
 
 ;---------------------------------------------------------------------------
 ; Jump Light Kick
-; CNS difficulty: easy
+
 [Statedef 630]
 type    = A
 movetype= A
@@ -2302,7 +2302,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 ; Jump Light Kick(no vel X)
-; CNS difficulty: easy
+
 [Statedef 631]
 type    = A
 movetype= A
@@ -2384,7 +2384,7 @@ value = 52
 
 ;---------------------------------------------------------------------------
 ; Jump Medium Kick
-; CNS difficulty: easy
+
 [Statedef 640]
 type    = A
 movetype= A
@@ -2465,7 +2465,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 ; Jump Medium Kick(no vel x)
-; CNS difficulty: easy
+
 [Statedef 641]
 type    = A
 movetype= A
@@ -2546,7 +2546,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 ; Dive Kick
-; CNS difficulty: easy
+
 [Statedef 645]
 type    = A
 movetype= A
@@ -2631,7 +2631,7 @@ value = 52
 
 ;---------------------------------------------------------------------------
 ; Jump Strong Kick
-; CNS difficulty: easy
+
 [Statedef 650]
 type    = A
 movetype= A
@@ -2710,7 +2710,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 ; Jump Strong Kick(no vel x)
-; CNS difficulty: easy
+
 [Statedef 651]
 type    = A
 movetype= A

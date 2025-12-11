@@ -3,10 +3,10 @@
 ;| Ryu by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 ;==============================================================================================
-;=======================================< COMMAND FILE >=======================================
+;====================COMMAND FILE====================
 ;==============================================================================================
 
-;===================< BUTTON REMAPPING >===================
+;BUTTON REMAPPING
 
 [Remap]
 x = x
@@ -18,14 +18,14 @@ c = c
 s = s
 
 
-;===================< DEFAULT VALUES >===================
+;DEFAULT VALUES
 
 [Defaults]
 command.time = 15
 command.buffer.time = 1
 
 
-;===================< SINGLE BUTTON >===================
+;SINGLE BUTTON
 
 [Command]
 name = "a"
@@ -57,7 +57,7 @@ command = s
 time = 1
 
 
-;===================< HOLD DIR >===================
+;HOLD DIR
 
 [Command]
 name = "holdfwd"
@@ -77,7 +77,7 @@ command = /$D
 time = 1
 
 
-;===================< HOLD BUTTON >===================
+;HOLD BUTTON
 
 [Command]
 name = "holda"
@@ -109,7 +109,7 @@ command = /s
 time = 1
 
 
-;===================< RELEASE BUTTON >===================
+;RELEASE BUTTON
 
 [Command]
 name = "rlsa"
@@ -137,7 +137,7 @@ command = ~z
 time = 1
 
 
-;===================< DIR >===================
+;DIR
 
 [Command]
 name = "fwd"
@@ -157,7 +157,7 @@ command = D
 time = 1
 
 
-;===================< SUPER MOTIONS >===================
+;SUPER MOTIONS
 
 [Command]
 name = "sgs"
@@ -475,7 +475,7 @@ command = ~D, DB, B, D, DB, B, ~s
 time = 30
 
 
-;===================< SPECIAL MOTIONS >===================
+;SPECIAL MOTIONS
 
 [Command]
 name = "hcfx"
@@ -983,7 +983,7 @@ command = ~B, DB, D, ~c
 time = 16
 
 
-;===================< OTHER >===================
+;OTHER
 
 [Command]
 name = "highjump"
@@ -991,7 +991,7 @@ command = $D, $U
 time = 15
 
 
-;===================< DOUBLE TAP >===================
+;DOUBLE TAP
 
 [Command]
 name = "FF"
@@ -1003,7 +1003,7 @@ command = B, B
 time = 10
 
 
-;===================< 2/3 BUTTON COMBINATION >===================
+;2/3 BUTTON COMBINATION
 
 [Command]
 name = "recovery"
@@ -1065,7 +1065,7 @@ time = 1
 
 
 ;===========================================================================
-;===============================< -1 STATES >=================================
+;============-1 STATES==============
 ;===========================================================================
 
 [Statedef -1]
@@ -1851,8 +1851,8 @@ trigger4 = helper(stateno + 5), var(3)
 type = changestate
 value = 282
 triggerall = !AIlevel
-triggerall = command = "holddown" && command = "b" && statetype = A
-triggerall = vel x > 0 && (vel y = [ -2, 2]) && var(9)!= 2
+triggerall = command = "b" && statetype = A
+;triggerall = vel x > 0 && (vel y = [ -2, 2]) && var(9)!= 2
 trigger1 = ctrl
 trigger2 = var(20) && (stateno = [200, 289]) && (movecontact = [1, 24])
 trigger3 = var(20) && (stateno = [1000, 2999]) && statetype != A && (movecontact = [1, 24])
@@ -1863,7 +1863,7 @@ trigger4 = helper(stateno + 5), var(3)
 type = changestate
 value = 280
 triggerall = !AIlevel
-triggerall = command = "b" && statetype = A
+triggerall = command = "holddown" && command = "b" && statetype = A
 trigger1 = ctrl
 trigger2 = var(20) && (stateno = [200, 289]) && (movecontact = [1, 24])
 trigger3 = var(20) && (stateno = [1000, 2999]) && statetype != A && (movecontact = [1, 24])
@@ -1932,7 +1932,7 @@ trigger5 = helper(stateno + 5), var(3)
 
 
 ;===========================================================================
-;=================================< A.I. >====================================
+;==============A.I.=================
 ;===========================================================================
 
 [State -1, Standing Parry]

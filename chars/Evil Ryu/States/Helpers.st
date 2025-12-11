@@ -2,10 +2,10 @@
 ;| Ryu by Phantom.of.the.Server and Mwryly |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 ;==============================================================================================
-;=======================================< HELPER STATES >========================================
+;===============HELPER STATES===========
 ;==============================================================================================
 
-;========================< JUMP DUST >=============================
+;JUMP DUST
 [Statedef 7100]
 physics = N
 velset = 0, 0
@@ -42,7 +42,7 @@ type = destroyself
 trigger1 = time >= 7
 
 
-;========================< HADOU KEN >=============================
+;HADOU KEN
 [Statedef 1005]
 type = S
 physics = N
@@ -250,7 +250,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< EX HADOU KEN >=============================
+;EX HADOU KEN
 [Statedef 1015]
 type = S
 physics = N
@@ -481,7 +481,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< EX GOU HADOU KEN >=============================
+;EX GOU HADOU KEN
 [Statedef 1017]
 type = S
 physics = N
@@ -716,7 +716,7 @@ ignorehitpause = 1
 [State 1016, End]
 type = destroyself
 trigger1 = !animtime
-;========================< SHAKUNETSU HADOU KEN >=============================
+;SHAKUNETSU HADOU KEN
 [Statedef 1025]
 type = S
 physics = N
@@ -1155,7 +1155,7 @@ persistent = 0
 [State 1026, End]
 type = destroyself
 trigger1 = !animtime
-;========================< SHINKUU HADOU KEN >=============================
+;SHINKUU HADOU KEN
 [Statedef 3005]
 type = S
 physics = N
@@ -1470,7 +1470,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< SHINKUU SHIELD >=============================
+;SHINKUU SHIELD
 [Statedef 3008]
 type = A
 physics = N
@@ -1505,7 +1505,7 @@ trigger2 = playerIDexist(var(0))
 trigger2 = parent, stateno != 3005
 
 
-;========================< DENJIN HADOU KEN >=============================
+;DENJIN HADOU KEN
 [Statedef 3025]
 type = S
 physics = N
@@ -1788,7 +1788,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< METSU HADOU KEN >=============================
+;METSU HADOU KEN
 [Statedef 3045]
 type = S
 physics = N
@@ -2023,7 +2023,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< RYUU KOKU HADOU KEN >=============================
+;RYUU KOKU HADOU KEN
 [Statedef 3055]
 type = S
 physics = N
@@ -2257,7 +2257,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< HADOUKEN BLOW BACK >=============================
+;HADOUKEN BLOW BACK
 [Statedef 3054]
 physics = N
 movetype = A
@@ -2320,7 +2320,7 @@ type = destroyself
 trigger1 = time >= 15
 
 
-;========================< B&W DUST >=============================
+;B&W DUST
 [Statedef 3125]
 physics = N
 anim = 9741
@@ -2354,7 +2354,7 @@ type = destroyself
 trigger1 = time >= 17
 
 
-;========================< METSU SHORYUU KEN >=============================
+;METSU SHORYUU KEN
 [Statedef 3165]
 physics = N
 velset = 0, 0
@@ -2514,7 +2514,7 @@ flag = noshadow
 type = destroyself
 trigger1 = Time = 9;!animtime
 
-;========================< TATSUMAKI VACUUM >=============================
+;TATSUMAKI VACUUM
 [Statedef 3205]
 physics = N
 velset = 0, 0
@@ -2577,7 +2577,7 @@ type = destroyself
 trigger1 = root, stateno != 3200 || (root, anim != [3201, 3202]) || root, movecontact
 
 
-;========================< CLOUD >=============================
+;CLOUD
 [Statedef 3215]
 physics = N
 anim = 3215
@@ -2654,7 +2654,7 @@ trigger1 = var(0) = 3 && vel y < 0 && pos y <= -260
 
 
 
-;========================< DOUBLE SHINKUU HADOU KEN >=============================
+;DOUBLE SHINKUU HADOU KEN
 [Statedef 3605]
 type = S
 physics = N
@@ -2865,7 +2865,7 @@ trigger1 = !animtime
 
 
 
-;========================< S.G.S. GUARDED >=============================
+;S.G.S. GUARDED
 [Statedef 4012]
 physics = N
 velset = 0, 0
@@ -2920,7 +2920,7 @@ type = destroyself
 trigger1 = time >= 24
 
 
-;========================< BAG >=============================
+;BAG
 [Statedef 6000]
 physics = N
 anim = 6000
@@ -3009,7 +3009,7 @@ type = screenbound
 trigger1 = 1
 value = 0
 
-;========================< AURA >=============================
+;AURA
 [Statedef 6005]
 physics = N
 velset = 0, 0
@@ -3046,7 +3046,7 @@ trigger4 = root, stateno = 1020 && root, animelemtime(9) >= 0
 trigger5 = root, stateno = 1400 && root, animelemtime(5) >= 0
 trigger6 = root, stateno = 1030 && root, animelemtime(7) >= 0
 
-;========================< METSU >=============================
+;METSU
 [Statedef 6006]
 physics = N
 velset = 0, -.5
@@ -3086,7 +3086,7 @@ x = ceil(root, pos x) + ifelse(root, facing = -1, 5, -5)
 type = destroyself
 trigger1 = !animtime || root, movetype = H
 
-;========================< DIZZY FX >=============================
+;DIZZY FX
 [Statedef 3033]
 physics = N
 velset = 0, 0
@@ -3113,7 +3113,7 @@ trigger1 = enemynear, ctrl
 trigger1 = (enemynear, movetype != H) && (enemynear, stateno != 5300)
 
 
-;========================< FIRE >=============================
+;FIRE
 ;--- RED ---
 [Statedef 7180]
 physics = N
@@ -3193,7 +3193,7 @@ type = destroyself
 trigger1 = !numenemy || time >= 120
 
 
-;========================< SHIN SHORYUUKEN SHOCKWAVE >=============================
+;SHIN SHORYUUKEN SHOCKWAVE
 [Statedef 7050]
 physics = N
 velset = 0, 0
@@ -3298,7 +3298,7 @@ ignoreHitPause = 1
 type = DestroySelf
 trigger1 = Time >= 15
 
-;========================< POWER CHARGE >=============================
+;POWER CHARGE
 ;--- MAIN FX ---
 [Statedef 7240]
 type = S
@@ -3401,7 +3401,7 @@ type = destroyself
 trigger1 = (root, stateno != 740) || (root, anim != 740) || (root, movetype = H)
 
 
-;========================< ZERO COUNTER CHARGE >=============================
+;ZERO COUNTER CHARGE
 [Statedef 7250]
 physics = N
 velset = 0, 0
@@ -3486,7 +3486,7 @@ type = destroyself
 trigger1 = time >= 20
 
 
-;========================< ORIGINAL COMBO CHARGE >=============================
+;ORIGINAL COMBO CHARGE
 [Statedef 7260]
 physics = N
 moveType = I
@@ -3621,7 +3621,7 @@ type = destroyself
 trigger1 = time >= 30
 
 
-;========================< SUPER CHARGE >=============================
+;SUPER CHARGE
 [Statedef 7500]
 physics = N
 velset = 0, 0
@@ -4025,7 +4025,7 @@ trigger1 = Time >= 60
 
 
 
-;========================< COUNTER F.X. >=============================
+;COUNTER F.X.
 [Statedef 7400]
 type = A
 physics = N
@@ -4048,7 +4048,7 @@ type = destroyself
 trigger1 = time >= 8
 
 
-;========================< SUPER FINISH >=============================
+;SUPER FINISH
 [Statedef 7600]
 type = A
 velset = 0, 0
@@ -4318,7 +4318,7 @@ type = destroyself
 trigger1 = roundstate < 3
 
 
-;========================< KANJI B.G. >=============================
+;KANJI B.G.
 [Statedef 7610]
 physics = N
 velset = 0, 0
@@ -4454,7 +4454,7 @@ type = destroyself
 trigger1 = time >= 180
 
 
-;========================< CAMERA CONTROL >=============================
+;CAMERA CONTROL
 [Statedef 7650]
 physics = N
 velset = 0, 0
