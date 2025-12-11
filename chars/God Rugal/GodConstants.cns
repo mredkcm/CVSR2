@@ -95,7 +95,7 @@ airjump.back = -2.55
 airjump.fwd = 2.5
 
 [Movement]
-airJump.num = 0
+airJump.num = 1
 airJump.height = 0
 yAccel = .55
 stand.friction = 0.85
@@ -173,3 +173,4 @@ victory55 = "I feel great. I have never been so happy!!"
 victory56 = "Is this the result? Not so bad, but not very good either!"
 victory57 = "I have entered the sanctuary of the martial arts gods!"
 victory58 = "I have mastered the truth. I have become invincible."
+victory59 = "Prohibido jugar con Rugal...!"

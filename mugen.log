@@ -2,7 +2,7 @@
 M.U.G.E.N ver 1.1.0 Beta 1 P1 (2013.08.11) status log
 ---------------------------------------------------
 Parsing command line...
-Command line: C:\Users\Michael\Games\Capcom-vs-SNK-Evolution-Rev-2\CVSEVOREV2.exe
+Command line: C:\Users\Michael\Games\Capcom-vs-SNK-Evolution-Rev-2\CVSEVOREV2.exe ffs_0 ffs_0
 Parse command line OK
 Initializing...
 Allocating game variables
@@ -17,7 +17,7 @@ Initializing graphics...gameCoord 1920x1080...render mode 2_20...trying 1920x108
 Setting callbacks...OK
 Initializing font...OK
 Initializing game variables...OK
-Session RNG seed is 1765423911
+Session RNG seed is 1765473347
 Loading system fonts...OK
 Loading options...
 Reinitializing input engine...OK
@@ -59,270 +59,30 @@ Lua init complete
 System loaded OK
 Initialize OK
 Set up graphics...timer...OK
+Playing quick VS.
 
 Entering gameflow loop
 Gameflow 0
 Gameflow 1
 Gameflow 2
 Initializing character info...OK
-Initializing select screen...finding characters...
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/empty/empty.def
-
-  Error reading character file: chars/empty/empty.def
-
-  Error reading character file: chars/empty/empty.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/empty/empty.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-
-  Error reading character file: chars/donotchange/donotchange.def
-OK
 Gameflow 3
-Gameflow 4
-Entering mode select.
-Unloading match assets
-Freeing players
-Game loop init
-Mode select init
-End of mode select loop
-Game loop deinit
 Gameflow 6
 Reset persist vars team 0
 Reset persist vars team 1
-Gameflow 7
-Entering character select.
-Unloading match assets
-Freeing players
-Game loop init
-Unreserved all palettes
-Charsel init
-Game loop deinit
-Canceled character select.
-Gameflow 4
-Entering mode select.
-Unloading match assets
-Freeing players
-Game loop init
-Mode select init
-End of mode select loop
-Game loop deinit
-Gameflow 6
-Reset persist vars team 0
-Reset persist vars team 1
-Gameflow 7
-Entering character select.
-Unloading match assets
-Freeing players
-Game loop init
-Unreserved all palettes
-Charsel init
-Selected char 28 on teamslot 0.0
-Char Ryu.def (28) request pal 3 3F (3F) -> reserved 3 (37)
-End of charsel loop
-Game loop deinit
 Gameflow 8
-Char blair.def (77) request pal 3 FFF (FFF) -> reserved 3 (FF7)
-Char demitri.def (39) request pal 3 FFF (FFF) -> reserved 3 (FF7)
-Char Robert.def (60) request pal 3 FFF (FFF) -> reserved 3 (FF7)
 Gameflow 9
 Gameflow 10
-Entering versus screen.
-Unloading match assets
-Freeing players
-Game loop init
-Versus screen init
-End of versus screen loop
-Game loop deinit
 Gameflow 11
 Loading match assets...
 Loading stage...
   Loading BG...OK
 Stage loaded OK
   Allocating helpers...OK
-Match RNG seed: 1380585581
+Match RNG seed: 528992431
+Reset persist vars team 0
 Reset persist vars team 1
-Loading character chars/Ryu/Ryu.def...
+Loading character chars/ffs_0/ffs_0.def...
   Loading info...OK
   Loading cmd command set Command.cmd...OK
   Loading cns Constants.cns...OK
@@ -331,556 +91,48 @@ Loading character chars/Ryu/Ryu.def...
   Loading cns States\EX-Specials.st...OK
   Loading cns States\Supers.st...OK
   Loading cns States\Helpers.st...OK
-  Loading cns States\Custom.st...OK
-  Loading cns States\Ryu.st...OK
+  Loading cns States\ShinGouki.st...OK
+  Loading cns Config.txt...OK
   Loading cmd state entry Command.cmd...OK
   Loading common states common1.cns...OK
   Loading sff Sprite.sff...OK
   Loading anim Anim.air...OK
   Loading snd Sound.snd...OK
   Loading pals...OK
-  25375 expressions (6834 on trigger lines)
-Character Ryu.def loaded OK
-New char Ryu loaded into cache: (1/4 cached) Load time: 300.000ms
-Loading character chars/blair/blair.def...
-  Loading info...OK
-  Loading cmd command set DivineBlair.cmd...OK
-  Loading cns Coding/System.cns...OK
-  Loading cns Coding/Normal.cns...OK
-  Loading cns Coding/Specials.cns...OK
-  Loading cns Coding/Helpers.cns...OK
-  Loading cns Coding/Supers.cns...OK
-  Loading cns Coding/tinybuffering.txt...OK
-  Loading cmd state entry DivineBlair.cmd...OK
-  Loading common states common1.cns...OK
-  Loading sff DivineBlair.sff...OK
-  Loading anim DivineBlair.air...OK
-  Loading snd DivineBlair.snd...OK
-  Loading pals...OK
-  22954 expressions (5367 on trigger lines)
-Character blair.def loaded OK
-New char Blair Dame loaded into cache: (2/4 cached) Load time: 160.000ms
-Loading character chars/demitri/demitri.def...
-  Loading info...OK
-  Loading cmd command set Command.cmd...OK
-  Loading cns Constants.cns...OK
-  Loading cns States/Normal.st...OK
-  Loading cns States/Special.st...OK
-  Loading cns States/Super.st...OK
-  Loading cns States/Helpers.st...OK
-  Loading cmd state entry Command.cmd...OK
-  Loading common states common1.cns...OK
-  Loading sff Sprite.sff...OK
-  Loading anim Anim.air...OK
-  Loading snd Sound.snd...OK
-  Loading pals...OK
-  21754 expressions (6581 on trigger lines)
-Character demitri.def loaded OK
-New char Demitri Maximoff loaded into cache: (3/4 cached) Load time: 200.000ms
-Loading character chars/Robert/Robert.def...
-  Loading info...OK
-  Loading cmd command set DivineRobert.cmd...OK
-  Loading cns Coding/System.cns...OK
-  Loading cns Coding/Normal.cns...OK
-  Loading cns Coding/Specials.cns...OK
-  Loading cns Coding/Helpers.cns...OK
-  Loading cns Coding/Supers.cns...OK
-  Loading cns Coding/tinybuffering.txt...OK
-  Loading cmd state entry DivineRobert.cmd...OK
-  Loading common states common1.cns...OK
-  Loading sff DivineRobert.sff...OK
-  Loading anim DivineRobert.air...OK
-  Loading snd DivineRobert.snd...OK
-  Loading pals...OK
-  22682 expressions (5262 on trigger lines)
-Character Robert.def loaded OK
-New char Robert Garcia loaded into cache: (4/4 cached) Load time: 170.000ms
-Resetting round
-Match assets initialized OK
-Game loop init
-Match loop init
-Resetting round
-End of match loop
-Total time: 79.10s
-Total frames: 4748 	Skipped frames: 0
-Avg game rate: 60.03
-Avg frame rate: 60.03
-
-Finishing match
-Freeing players
-Save persist vars P56 Ryu
-Player Ryu cache count reduced: 0
-Save persist vars P57 Blair Dame
-Player Blair Dame cache count reduced: 0
-Save persist vars P58 Demitri Maximoff
-Player Demitri Maximoff cache count reduced: 0
-Save persist vars P59 Robert Garcia
-Player Robert Garcia cache count reduced: 0
-Match RNG closed
-Game loop deinit
-Gameflow 6
-Reset persist vars team 0
-Reset persist vars team 1
-Gameflow 7
-Entering character select.
-Unloading match assets
-Freeing players
-Unloading stage...OK
-Game loop init
-Unreserved all palettes
-Charsel init
-Selected char 28 on teamslot 0.0
-Char Ryu.def (28) request pal 3 3F (3F) -> reserved 3 (37)
-End of charsel loop
-Game loop deinit
-Gameflow 8
-Char rose.def (35) request pal 3 FFF (FFF) -> reserved 3 (FF7)
-Gameflow 9
-Gameflow 10
-Entering versus screen.
-Unloading match assets
-Freeing players
-Game loop init
-Versus screen init
-End of versus screen loop
-Game loop deinit
-Gameflow 11
-Loading match assets...
-Loading stage...
-  Loading BG...OK
-Stage loaded OK
-  Allocating helpers...OK
-Match RNG seed: 1842403894
-Reset persist vars team 1
-Player Ryu cache count increased: 1
-Player Blair Dame purged from cache: 1
-Freeing player RC Blair Dame...CMD...CNS...SFF...AIR...SND...Misc...OK
-Loading character chars/rose/rose.def...
-  Loading info...OK
-  Loading cmd command set Command.cmd...OK
-  Loading cns Constants.cns...OK
-  Loading cns States/Normal.st...OK
-  Loading cns States/Special.st...OK
-  Loading cns States/Super.st...OK
-  Loading cns States/Helpers.st...OK
-  Loading cns States/Rose.st...OK
-  Loading cmd state entry Command.cmd...OK
-  Loading common states common1.cns...OK
-  Loading sff Sprite.sff...OK
-  Loading anim Anim.air...OK
-  Loading snd Sound.snd...OK
-  Loading pals...OK
-  25314 expressions (6610 on trigger lines)
-Character rose.def loaded OK
-New char Rose loaded into cache: (4/4 cached) Load time: 300.000ms
+  24628 expressions (6734 on trigger lines)
+Character ffs_0.def loaded OK
+New char Shin Gouki loaded into cache: (1/4 cached) Load time: 300.000ms
+Player Shin Gouki cache count increased: 2
 Resetting round
 Match assets initialized OK
 Game loop init
 Match loop init
 End of match loop
-Total time: 20.99s
-Total frames: 1260 	Skipped frames: 0
-Avg game rate: 60.03
-Avg frame rate: 60.03
+Total time: 29.83s
+Total frames: 1791 	Skipped frames: 0
+Avg game rate: 60.04
+Avg frame rate: 60.04
 
 Finishing match
 Freeing players
-Save persist vars P56 Ryu
-Player Ryu cache count reduced: 0
-Save persist vars P57 Rose
-Player Rose cache count reduced: 0
+Save persist vars P56 Shin Gouki
+Player Shin Gouki cache count reduced: 1
+Save persist vars P57 Shin Gouki
+Player Shin Gouki cache count reduced: 0
 Match RNG closed
-Game loop deinit
-Gameflow 6
-Reset persist vars team 0
-Reset persist vars team 1
-Gameflow 7
-Entering character select.
-Unloading match assets
-Freeing players
-Unloading stage...OK
-Game loop init
-Unreserved all palettes
-Charsel init
-Game loop deinit
-Canceled character select.
-Gameflow 4
-Entering mode select.
-Unloading match assets
-Freeing players
-Game loop init
-Mode select init
-End of mode select loop
-Game loop deinit
-Gameflow 6
-Reset persist vars team 0
-Reset persist vars team 1
-Gameflow 7
-Entering character select.
-Unloading match assets
-Freeing players
-Game loop init
-Unreserved all palettes
-Charsel init
-Selected char 93 on teamslot 0.0
-Char Yamazaki.def (93) request pal 0 FFF (FFF) -> reserved 0 (FFE)
-Selected char 28 on teamslot 1.0
-Char Ryu.def (28) request pal 3 3F (3F) -> reserved 3 (37)
-End of charsel loop
-Game loop deinit
-Gameflow 8
-Gameflow 9
-Gameflow 10
-Entering versus screen.
-Unloading match assets
-Freeing players
-Game loop init
-Versus screen init
-End of versus screen loop
-Game loop deinit
-Gameflow 11
-Loading match assets...
-Loading stage...
-  Loading BG...OK
-Stage loaded OK
-  Allocating helpers...OK
-Match RNG seed: 2043499754
-Reset persist vars team 0
-Reset persist vars team 1
-Player Demitri Maximoff purged from cache: 2
-Freeing player RC Demitri Maximoff...CMD...CNS...SFF...AIR...SND...Misc...OK
-Loading character chars/Yamazaki/Yamazaki.def...
-  Loading info...OK
-  Loading cmd command set Yamazaki.cmd...OK
-  Loading cns Constants.cns...OK
-  Loading cns States\Normal.cns...OK
-  Loading cns States\Specials.cns...OK
-  Loading cns States\Supers.cns...OK
-  Loading cns States\Drill.cns...OK
-  Loading cns States\Helpers.cns...OK
-  Loading cns States\Customs.cns...OK
-  Loading cns config.txt...OK
-  Loading cmd state entry Yamazaki.cmd...OK
-  Loading common states common1.cns...OK
-  Loading sff Yamazaki.sff...OK
-  Loading anim Yamazaki.air...OK
-  Loading snd Yamazaki.snd...OK
-  Loading pals...OK
-  29833 expressions (7022 on trigger lines)
-Character Yamazaki.def loaded OK
-New char Yamazaki loaded into cache: (4/4 cached) Load time: 410.000ms
-Player Ryu cache count increased: 1
-Resetting round
-Match assets initialized OK
-Game loop init
-Match loop init
-End of match loop
-Total time: 0.60s
-Total frames: 37 	Skipped frames: 0
-Avg game rate: 61.67
-Avg frame rate: 61.67
-
-Finishing match
-Freeing players
-Save persist vars P56 Yamazaki
-Player Yamazaki cache count reduced: 0
-Save persist vars P57 Ryu
-Player Ryu cache count reduced: 0
-Match RNG closed
-Game loop deinit
-Gameflow 6
-Reset persist vars team 0
-Reset persist vars team 1
-Gameflow 7
-Entering character select.
-Unloading match assets
-Freeing players
-Unloading stage...OK
-Game loop init
-Unreserved all palettes
-Charsel init
-Selected char 28 on teamslot 0.0
-Char Ryu.def (28) request pal 3 3F (3F) -> reserved 3 (37)
-Selected char 82 on teamslot 1.0
-Char goenitz.def (82) request pal 3 FFF (FFF) -> reserved 3 (FF7)
-End of charsel loop
-Game loop deinit
-Gameflow 8
-Gameflow 9
-Gameflow 10
-Entering versus screen.
-Unloading match assets
-Freeing players
-Game loop init
-Versus screen init
-End of versus screen loop
-Game loop deinit
-Gameflow 11
-Loading match assets...
-Loading stage...
-  Loading BG...OK
-Stage loaded OK
-  Allocating helpers...OK
-Match RNG seed: 394382201
-Reset persist vars team 0
-Reset persist vars team 1
-Player Ryu cache count increased: 1
-Player Robert Garcia purged from cache: 3
-Freeing player RC Robert Garcia...CMD...CNS...SFF...AIR...SND...Misc...OK
-Loading character chars/goenitz/goenitz.def...
-  Loading info...OK
-  Loading cmd command set Command.cmd...OK
-  Loading cns Constants.cns...OK
-  Loading cns States/Normal.st...OK
-  Loading cns States/Special.st...OK
-  Loading cns States/Super.st...OK
-  Loading cns States/Helpers.st...OK
-  Loading cmd state entry Command.cmd...OK
-  Loading common states common1.cns...OK
-  Loading sff Sprite.sff...OK
-  Loading anim Anim.air...OK
-  Loading snd Sound.snd...OK
-  Loading pals...OK
-  20618 expressions (5592 on trigger lines)
-Character goenitz.def loaded OK
-New char Goenitz loaded into cache: (4/4 cached) Load time: 180.000ms
-Resetting round
-Match assets initialized OK
-Game loop init
-Match loop init
-End of match loop
-Total time: 1.25s
-Total frames: 76 	Skipped frames: 0
-Avg game rate: 60.80
-Avg frame rate: 60.80
-
-Finishing match
-Freeing players
-Save persist vars P56 Ryu
-Player Ryu cache count reduced: 0
-Save persist vars P57 Goenitz
-Player Goenitz cache count reduced: 0
-Match RNG closed
-Game loop deinit
-Gameflow 6
-Reset persist vars team 0
-Reset persist vars team 1
-Gameflow 7
-Entering character select.
-Unloading match assets
-Freeing players
-Unloading stage...OK
-Game loop init
-Unreserved all palettes
-Charsel init
-Selected char 28 on teamslot 0.0
-Char Ryu.def (28) request pal 3 3F (3F) -> reserved 3 (37)
-Selected char 83 on teamslot 1.0
-Char mr.big.def (83) request pal 3 FFF (FFF) -> reserved 3 (FF7)
-End of charsel loop
-Game loop deinit
-Gameflow 8
-Gameflow 9
-Gameflow 10
-Entering versus screen.
-Unloading match assets
-Freeing players
-Game loop init
-Versus screen init
-End of versus screen loop
-Game loop deinit
-Gameflow 11
-Loading match assets...
-Loading stage...
-  Loading BG...OK
-Stage loaded OK
-  Allocating helpers...OK
-Match RNG seed: 582044987
-Reset persist vars team 0
-Reset persist vars team 1
-Player Ryu cache count increased: 1
-Player Rose purged from cache: 5
-Freeing player RC Rose...CMD...CNS...SFF...AIR...SND...Misc...OK
-Loading character chars/mr.big/mr.big.def...
-  Loading info...OK
-  Loading cmd command set Big.cmd...OK
-  Loading cns Big.cns...OK
-  Loading cns helpers.cns...OK
-  Loading cmd state entry Big.cmd...OK
-  Loading common states common1.cns...OK
-  Loading sff Big.sff...OK
-  Loading anim Big.air...OK
-  Loading snd Big.snd...OK
-  Loading pals...OK
-  16813 expressions (5427 on trigger lines)
-Character mr.big.def loaded OK
-New char Mr.Big loaded into cache: (4/4 cached) Load time: 160.000ms
-Resetting round
-Match assets initialized OK
-Game loop init
-Match loop init
-End of match loop
-Total time: 0.76s
-Total frames: 47 	Skipped frames: 0
-Avg game rate: 61.84
-Avg frame rate: 61.84
-
-Finishing match
-Freeing players
-Save persist vars P56 Ryu
-Player Ryu cache count reduced: 0
-Save persist vars P57 Mr.Big
-Player Mr.Big cache count reduced: 0
-Match RNG closed
-Game loop deinit
-Gameflow 6
-Reset persist vars team 0
-Reset persist vars team 1
-Gameflow 7
-Entering character select.
-Unloading match assets
-Freeing players
-Unloading stage...OK
-Game loop init
-Unreserved all palettes
-Charsel init
-Selected char 28 on teamslot 0.0
-Char Ryu.def (28) request pal 3 3F (3F) -> reserved 3 (37)
-Selected char 93 on teamslot 1.0
-Char Yamazaki.def (93) request pal 0 FFF (FFF) -> reserved 0 (FFE)
-End of charsel loop
-Game loop deinit
-Gameflow 8
-Gameflow 9
-Gameflow 10
-Entering versus screen.
-Unloading match assets
-Freeing players
-Game loop init
-Versus screen init
-End of versus screen loop
-Game loop deinit
-Gameflow 11
-Loading match assets...
-Loading stage...
-  Loading BG...OK
-Stage loaded OK
-  Allocating helpers...OK
-Match RNG seed: 642067618
-Reset persist vars team 0
-Reset persist vars team 1
-Player Ryu cache count increased: 1
-Player Yamazaki cache count increased: 1
-Resetting round
-Match assets initialized OK
-Game loop init
-Match loop init
-End of match loop
-Total time: 17.05s
-Total frames: 1024 	Skipped frames: 0
-Avg game rate: 60.06
-Avg frame rate: 60.06
-
-Finishing match
-Freeing players
-Save persist vars P56 Ryu
-Player Ryu cache count reduced: 0
-Save persist vars P57 Yamazaki
-Player Yamazaki cache count reduced: 0
-Match RNG closed
-Game loop deinit
-Gameflow 6
-Reset persist vars team 0
-Reset persist vars team 1
-Gameflow 7
-Entering character select.
-Unloading match assets
-Freeing players
-Unloading stage...OK
-Game loop init
-Unreserved all palettes
-Charsel init
-Selected char 28 on teamslot 0.0
-Char Ryu.def (28) request pal 3 3F (3F) -> reserved 3 (37)
-Selected char 93 on teamslot 1.0
-Char Yamazaki.def (93) request pal 0 FFF (FFF) -> reserved 0 (FFE)
-End of charsel loop
-Game loop deinit
-Gameflow 8
-Gameflow 9
-Gameflow 10
-Entering versus screen.
-Unloading match assets
-Freeing players
-Game loop init
-Versus screen init
-End of versus screen loop
-Game loop deinit
-Gameflow 11
-Loading match assets...
-Loading stage...
-  Loading BG...OK
-Stage loaded OK
-  Allocating helpers...OK
-Match RNG seed: 383397996
-Reset persist vars team 0
-Reset persist vars team 1
-Player Ryu cache count increased: 1
-Player Yamazaki cache count increased: 1
-Resetting round
-Match assets initialized OK
-Game loop init
-Match loop init
-End of match loop
-Total time: 22.24s
-Total frames: 1335 	Skipped frames: 0
-Avg game rate: 60.03
-Avg frame rate: 60.03
-
-Finishing match
-Freeing players
-Save persist vars P56 Ryu
-Player Ryu cache count reduced: 0
-Save persist vars P57 Yamazaki
-Player Yamazaki cache count reduced: 0
-Match RNG closed
-Game loop deinit
-Gameflow 6
-Reset persist vars team 0
-Reset persist vars team 1
-Gameflow 7
-Entering character select.
-Unloading match assets
-Freeing players
-Unloading stage...OK
-Game loop init
-Unreserved all palettes
-Charsel init
-Game loop deinit
-Canceled character select.
-Gameflow 4
-Entering mode select.
-Unloading match assets
-Freeing players
-Game loop init
-Mode select init
-End of mode select loop
 Game loop deinit
 Returned from gameflow loop
 Deinitializing...
-Frames      : 10849
-Time elapsed: 185.650 sec
-ticks: 18565, tps: 100, start 486, end 19051
+Frames      : 1791
+Time elapsed: 30.550 sec
+ticks: 3055, tps: 100, start 586, end 3641
 
 Unloading match assets
 Freeing players
-Clearing player cache...Freeing player RC Ryu...CMD...CNS...SFF...AIR...SND...Misc...OK
-Freeing player RC Goenitz...CMD...CNS...SFF...AIR...SND...Misc...OK
-Freeing player RC Mr.Big...CMD...CNS...SFF...AIR...SND...Misc...OK
-Freeing player RC Yamazaki...CMD...CNS...SFF...AIR...SND...Misc...OK
+Unloading stage...OK
+Clearing player cache...Freeing player RC Shin Gouki...CMD...CNS...SFF...AIR...SND...Misc...OK
 OK
 Freeing character info...OK
-Freeing select screen...OK
 Freeing fight data...OK
 Freeing system data...OK
 Freeing game variables...Unloading match assets
