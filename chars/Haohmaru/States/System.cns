@@ -1064,12 +1064,12 @@ y = const(velocity.jump.y)
 type = velset
 trigger1 = !animtime && var(3) = 1
 x = ifelse(!sysvar(1), const(velocity.jump.neu.x), ifelse(sysvar(1) = 1, const(velocity.jump.fwd.x), const(velocity.jump.back.x)))
-y = 0.76 * const(velocity.jump.y)
+y = 0.75 * const(velocity.jump.y)
 [State 40, Vel Medium]
 type = velset
 trigger1 = !animtime && var(3) = 2
 x = ifelse(!sysvar(1), const(velocity.jump.neu.x), ifelse(sysvar(1) = 1, const(velocity.runjump.fwd.x), const(velocity.runjump.back.x)))
-y = 0.76 * const(velocity.jump.y)
+y = 0.75 * const(velocity.jump.y)
 [State 40, Vel Long]
 type = velset
 trigger1 = !animtime && var(3) = 3
