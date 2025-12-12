@@ -822,19 +822,19 @@ y = const(velocity.jump.y)
 
 [State 40, Velocity: Low Jump]
 type = VelSet
-trigger1 = !AnimTime && var(9) = 1
+trigger1 = !AnimTime && var(3) = 1
 x = ifElse(!sysvar(1), const(velocity.jump.neu.x), ifElse(sysvar(1) = 1, const(velocity.jump.fwd.x), const(velocity.jump.back.x)))
 y = 0.75 * const(velocity.jump.y)
 
 [State 40, Velocity: Long Low Jump]
 type = VelSet
-trigger1 = !AnimTime && var(9) = 2
+trigger1 = !AnimTime && var(3) = 2
 x = ifElse(!sysvar(1), const(velocity.jump.neu.x), ifElse(sysvar(1) = 1, const(velocity.runjump.fwd.x), const(velocity.runjump.back.x)))
 y = 0.75 * const(velocity.jump.y)
 
 [State 40, Velocity: Long Jump]
 type = VelSet
-trigger1 = !AnimTime && var(9) = 3
+trigger1 = !AnimTime && var(3) = 3
 x = ifElse(!sysvar(1), const(velocity.jump.neu.x), ifElse(sysvar(1) = 1, const(velocity.runjump.fwd.x), const(velocity.runjump.back.x)))
 y = ifElse(!sysvar(1), const(velocity.runjump.y), const(velocity.jump.y))
 
