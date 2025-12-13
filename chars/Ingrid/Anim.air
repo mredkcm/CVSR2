@@ -568,7 +568,6 @@ Clsn2Default: 2
   Clsn2[0] = -17, -77, 15, 0
   Clsn2[1] = -12, -92, 3, -77
 200,3, 0,0, 3
-200,4, 0,0, 2
 
 ; Standing Far Medium Punch
 [Begin Action 210]
