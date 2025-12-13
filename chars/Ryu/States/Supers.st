@@ -1,11 +1,11 @@
 ; ________________________________________
 ;| Ryu by Phantom.of.the.Server and Mwryly |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;======================================< HYPER STATES >========================================
-;============================================================================================
+;
+;HYPER STATES===========
+;
 
-;======================< SHINKUU HADOU KEN >=============================
+;SHINKUU HADOU KEN
 [Statedef 3000]
 type = S
 physics = S
@@ -145,7 +145,7 @@ value = 0
 ctrl = 1
 
 
-;======================< DENJIN HADOU KEN >=============================
+;DENJIN HADOU KEN
 [Statedef 3020]
 type = S
 physics = S
@@ -434,7 +434,7 @@ value = 0
 ctrl = 1
 
 
-;======================< METSU HADOU KEN >=============================
+;METSU HADOU KEN
 [Statedef 3040]
 type = S
 physics = S
@@ -647,7 +647,7 @@ value = 0
 ctrl = 1
 
 
-;======================< RYUU KOKU HADOU KEN >=============================
+;RYUU KOKU HADOU KEN
 [Statedef 3050]
 type = S
 physics = S
@@ -793,7 +793,7 @@ value = 0
 ctrl = 1
 
 
-;======================< NIDAN SHORYUU TSUKI >=============================
+;NIDAN SHORYUU TSUKI
 [Statedef 3100]
 type = S
 physics = S
@@ -1194,7 +1194,7 @@ value = 11
 ctrl = 1
 
 
-;======================< SHIN SHORYUU KEN >=============================
+;SHIN SHORYUU KEN
 [Statedef 3120]
 type = S
 physics = S
@@ -1634,7 +1634,7 @@ value = ifelse(anim = 3122, 11, 0)
 ctrl = 1
 
 
-;======================< MESSATSU GOU SHORYUU >=============================
+;MESSATSU GOU SHORYUU
 [Statedef 3140]
 type = S
 physics = S
@@ -2072,7 +2072,7 @@ type = statetypeset
 trigger1 = anim = 1101
 movetype = I
 
-;======================< METSU SHORYUU KEN >=============================
+;METSU SHORYUU KEN
 [Statedef 3160]
 type = S
 physics = S
@@ -2537,7 +2537,7 @@ trigger1 = time >= 90
 value = 5001
 
 
-;======================< REPPU JINRAI SHOU >=============================
+;REPPU JINRAI SHOU
 [Statedef 3180]
 type = S
 physics = S
@@ -2818,7 +2818,7 @@ value = 0
 ctrl = 1
 
 
-;======================< SHINKUU TATSUMAKI SENPUU KYAKKU >=============================
+;SHINKUU TATSUMAKI SENPUU KYAKKU
 [Statedef 3200]
 type = S
 physics = S
@@ -3339,7 +3339,7 @@ trigger1 = anim = 1207
 movetype = I
 
 
-;======================< SHUN GOKU SATSU >=============================
+;SHUN GOKU SATSU
 [Statedef 4000]
 type = S
 physics = S
@@ -3865,7 +3865,7 @@ value = 0
 ctrl = 1
 
 
-;======================< DOUBLE SHINKUU HADOU KEN >=============================
+;DOUBLE SHINKUU HADOU KEN
 [Statedef 3600]
 type = S
 physics = S

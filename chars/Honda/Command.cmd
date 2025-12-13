@@ -181,27 +181,27 @@ time = 1
 
 [Command]
 name = "6321463214p"
-command = ~F, DF, D, DB, B, DF, D, DB, B, x
+command = ~F, D, DB, DF, D, DB, B, x
 time = 64
 [Command]
 name = "6321463214p"
-command = ~F, DF, D, DB, B, DF, D, DB, B, y
+command = ~F, D, DB, DF, D, DB, B, y
 time = 64
 [Command]
 name = "6321463214p"
-command = ~F, DF, D, DB, B, DF, D, DB, B, z
+command = ~F, D, DB, DF, D, DB, B, z
 time = 64
 [Command]
 name = "6321463214p"
-command = ~F, DF, D, DB, B, DF, D, DB, B, ~x
+command = ~F, D, DB, DF, D, DB, B, ~x
 time = 64
 [Command]
 name = "6321463214p"
-command = ~F, DF, D, DB, B, DF, D, DB, B, ~y
+command = ~F, D, DB, DF, D, DB, B, ~y
 time = 64
 [Command]
 name = "6321463214p"
-command = ~F, DF, D, DB, B, DF, D, DB, B, ~z
+command = ~F, D, DB, DF, D, DB, B, ~z
 time = 64
 
 [Command]
@@ -285,40 +285,40 @@ time = 32
 
 [Command]
 name = "63214pp"
-command = ~F, DF, D, DB, B, x+y
+command = ~F, D, DB, x+y
 time = 32
 [Command]
 name = "63214pp"
-command = ~F, DF, D, DB, B, x+z
+command = ~F, D, DB, x+z
 time = 32
 [Command]
 name = "63214pp"
-command = ~F, DF, D, DB, B, y+z
+command = ~F, D, DB, y+z
 time = 32
 
 [Command]
 name = "63214p"
-command = ~F, DF, D, DB, B, x
+command = ~F, D, DB, x
 time = 32
 [Command]
 name = "63214p"
-command = ~F, DF, D, DB, B, y
+command = ~F, D, DB, y
 time = 32
 [Command]
 name = "63214p"
-command = ~F, DF, D, DB, B, z
+command = ~F, D, DB, z
 time = 32
 [Command]
 name = "63214p"
-command = ~F, DF, D, DB, B, ~x
+command = ~F, D, DB, ~x
 time = 32
 [Command]
 name = "63214p"
-command = ~F, DF, D, DB, B, ~y
+command = ~F, D, DB, ~y
 time = 32
 [Command]
 name = "63214p"
-command = ~F, DF, D, DB, B, ~z
+command = ~F, D, DB, ~z
 time = 32
 
 [Command]
@@ -422,6 +422,47 @@ time = 16
 name = "412k"
 command = ~B, DB, D, c
 time = 16
+
+[Command]
+name = "236x"
+command = ~D, DF, F, x
+time = 16
+[Command]
+name = "236y"
+command = ~D, DF, F, y
+time = 16
+[Command]
+name = "236z"
+command = ~D, DF, F, z
+time = 16
+
+[Command]
+name = "236a"
+command = ~D, DF, F, a
+time = 16
+[Command]
+name = "236b"
+command = ~D, DF, F, b
+time = 16
+[Command]
+name = "236c"
+command = ~D, DF, F, c
+time = 16
+
+[Command]
+name = "236pp"
+command = ~D, DF, F, x+y
+time = 16
+[Command]
+name = "236pp"
+command = ~D, DF, F, x+z
+time = 16
+[Command]
+name = "236pp"
+command = ~D, DF, F, y+z
+time = 16
+
+
 
 
 ;====================< OTHER >====================
@@ -640,7 +681,7 @@ trigger2 = var(6)
 type = changestate
 value = 1030
 triggerall = !AIlevel
-triggerall = command = "pp" && var(45) >= 5
+triggerall = (command = "pp" && var(45) >= 5) || (command = "236pp")
 triggerall = roundstate = 2 && statetype != A
 triggerall = power >= 500 && var(20) <= 60
 trigger1 = ctrl || stateno = 40 || stateno = 52 || (stateno = [100, 101])
@@ -678,7 +719,7 @@ trigger2 = var(6)
 type = changestate
 value = 1000
 triggerall = !AIlevel
-triggerall = (command = "x" || command = "y" || command = "z") && var(45) >= 5
+triggerall = ((command = "x" || command = "y" || command = "z") && var(45) >= 5) || (command = "236x" || command = "236y" || command = "236z")
 triggerall = roundstate = 2 && statetype != A
 trigger1 = ctrl || stateno = 40 || stateno = 52 || (stateno = [100, 101])
 trigger2 = var(6)

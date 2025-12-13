@@ -2,10 +2,10 @@
 ;| Ryu by Phantom.of.the.Server and Mwryly |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 ;============================================================================================
-;===================================< EX SPECIAL STATES >======================================
+;===================================< EX SPECIAL STATES=========
 ;============================================================================================
 
-;======================< SHAKUNETSU/EX HADOU KEN >=============================
+;SHAKUNETSU/EX HADOU KEN
 [Statedef 1010]
 type = S
 physics = S
@@ -100,7 +100,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;======================< EX SHAKUNETSU HADOU KEN >=============================
+;EX SHAKUNETSU HADOU KEN
 [Statedef 1030]
 type = S
 physics = S
@@ -208,7 +208,7 @@ type = changestate
 trigger1 = !animtime
 value = 0
 ctrl = 1
-;======================< SHORYUU KEN >=============================
+;SHORYUU KEN
 [Statedef 1110]
 type = S
 physics = S
@@ -522,7 +522,7 @@ trigger1 = anim = 1101
 movetype = I
 
 
-;======================< SHINKUU TATSUMAKI >=============================
+;SHINKUU TATSUMAKI
 [Statedef 1210]
 type = A
 physics = N
@@ -1019,7 +1019,7 @@ trigger1 = anim = 1207
 movetype = I
 
 
-;======================< KUUCHUU SHINKUU TATSUMAKI >=============================
+;KUUCHUU SHINKUU TATSUMAKI
 [Statedef 1260]
 type = A
 physics = A
@@ -1327,7 +1327,7 @@ trigger1 = animelemtime(21) >= 0
 movetype = I
 
 
-;======================< JOUDAN SOKUTOU GERI >=============================
+;JOUDAN SOKUTOU GERI
 [Statedef 1310]
 type = S
 physics = S
@@ -1482,7 +1482,7 @@ movetype = I
 
 
 
-;======================< RYUSOKYAKU >=============================
+;RYUSOKYAKU
 [Statedef 1510]
 type = S
 physics = S

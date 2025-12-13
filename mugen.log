@@ -17,7 +17,7 @@ Initializing graphics...gameCoord 1920x1080...render mode 2_20...trying 1920x108
 Setting callbacks...OK
 Initializing font...OK
 Initializing game variables...OK
-Session RNG seed is 1765593019
+Session RNG seed is 1765597872
 Loading system fonts...OK
 Loading options...
 Reinitializing input engine...OK
@@ -79,58 +79,58 @@ Loading stage...
   Loading BG...OK
 Stage loaded OK
   Allocating helpers...OK
-Match RNG seed: 392836088
+Match RNG seed: 474400459
 Reset persist vars team 0
 Reset persist vars team 1
 Loading character chars/ffs_0/ffs_0.def...
   Loading info...OK
   Loading cmd command set Command.cmd...OK
   Loading cns Constants.cns...OK
-  Loading cns States\Normal.st...OK
-  Loading cns States\Specials.st...OK
-  Loading cns States\EX-Specials.st...OK
-  Loading cns States\Supers.st...OK
-  Loading cns States\Helpers.st...OK
-  Loading cns States\Custom.st...OK
-  Loading cns States\Ryu.st...OK
+  Loading cns States/Normal.st...OK
+  Loading cns States/Special.st...OK
+  Loading cns States/Super.st...OK
+  Loading cns States/Helpers.st...OK
   Loading cmd state entry Command.cmd...OK
   Loading common states common1.cns...OK
   Loading sff Sprite.sff...OK
   Loading anim Anim.air...OK
   Loading snd Sound.snd...OK
   Loading pals...OK
-  25394 expressions (6827 on trigger lines)
+  19293 expressions (5238 on trigger lines)
 Character ffs_0.def loaded OK
-New char Ryu loaded into cache: (1/4 cached) Load time: 310.000ms
-Player Ryu cache count increased: 2
+New char Edmond Honda loaded into cache: (1/4 cached) Load time: 140.000ms
+Player Edmond Honda cache count increased: 2
 Resetting round
 Match assets initialized OK
 Game loop init
 Match loop init
+Forcing players to stand state...
+Forcing players to stand state...
+Forcing players to stand state...
 End of match loop
-Total time: 26.61s
-Total frames: 1598 	Skipped frames: 4
+Total time: 24.13s
+Total frames: 1449 	Skipped frames: 6
 Avg game rate: 60.05
-Avg frame rate: 59.90
+Avg frame rate: 59.80
 
 Finishing match
 Freeing players
-Save persist vars P56 Ryu
-Player Ryu cache count reduced: 1
-Save persist vars P57 Ryu
-Player Ryu cache count reduced: 0
+Save persist vars P56 Edmond Honda
+Player Edmond Honda cache count reduced: 1
+Save persist vars P57 Edmond Honda
+Player Edmond Honda cache count reduced: 0
 Match RNG closed
 Game loop deinit
 Returned from gameflow loop
 Deinitializing...
-Frames      : 1598
-Time elapsed: 27.310 sec
-ticks: 2731, tps: 100, start 502, end 3233
+Frames      : 1449
+Time elapsed: 24.630 sec
+ticks: 2463, tps: 100, start 502, end 2965
 
 Unloading match assets
 Freeing players
 Unloading stage...OK
-Clearing player cache...Freeing player RC Ryu...CMD...CNS...SFF...AIR...SND...Misc...OK
+Clearing player cache...Freeing player RC Edmond Honda...CMD...CNS...SFF...AIR...SND...Misc...OK
 OK
 Freeing character info...OK
 Freeing fight data...OK

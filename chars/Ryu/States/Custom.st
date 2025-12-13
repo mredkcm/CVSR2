@@ -1,11 +1,11 @@
 ; ________________________________________
 ;| Ryu by Phantom.of.the.Server and Mwryly |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;======================================< CUSTOM STATES >=========================================
-;==============================================================================================
+;
+;CUSTOM STATES
+;
 
-;========================< SHOCKED >=============================
+;SHOCKED
 [Statedef 7696]
 type = U
 physics = N
@@ -75,7 +75,7 @@ trigger1 = !alive && (anim != 7696 || anim != 9010) && hitshakeover
 value = 5030
 
 
-;========================< HIT by METSU HADOUKEN >=============================
+;HIT by METSU HADOUKEN
 [Statedef 1113045]
 type = A
 physics = N
@@ -114,7 +114,7 @@ trigger1 = !alive && hitshakeover
 value = 5030
 
 
-;========================< DIZZY >=============================
+;DIZZY
 [Statedef 5300]
 type = S
 movetype = H
@@ -169,7 +169,7 @@ value = 0
 ctrl = 1
 
 
-;========================< KICKED by EX JOUDAN S.G. >=============================
+;KICKED by EX JOUDAN S.G.
 ;--- Hit Pause ---
 [Statedef 1111300]
 type = A
@@ -336,7 +336,7 @@ type = selfstate
 trigger1 = vel y > 0 && pos y >= 0
 value = 5100
 
-;========================< GROUND BOUNCE FROM RYUSOKYAKU>=====================
+;GROUND BOUNCE FROM RYUSOKYAKU>=========
 ;Being Slammed
 [StateDef 1111500]
 type = A
@@ -426,7 +426,7 @@ trigger1 = vel y > 0
 trigger1 = pos y >= 12
 value = 5110
 
-;========================< HIT BACK, then dizzy >=============================
+;HIT BACK, then dizzy
 [Statedef 1115020]
 type = A
 movetype = H

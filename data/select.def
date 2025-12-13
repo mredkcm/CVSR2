@@ -307,8 +307,13 @@ donotchange
  ;For example, you can insert "stages/mybg.def".
 
 stages\SFIVTraining(Scale).def
-
-
+stages\stage0-blue.def
+stages\stage0-green.def
+stages\stage0-orange.def
+stages\stage0-purple.def
+stages\stage0-red.def
+stages\stage0-yellow.def
+stages\stage0-grey.def
 
 
 

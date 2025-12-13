@@ -2,10 +2,10 @@
 ;| Edmond Honda by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 ;==============================================================================================
-;========================================< SPECIAL MOVES >=======================================
+;========================================< SPECIAL MOVES==========
 ;==============================================================================================
 
-;========================< HYAKURETSU HARITE >=============================
+;HYAKURETSU HARITE
 [Statedef 1000]
 type = S
 physics = N
@@ -283,7 +283,7 @@ value = 0
 ctrl = 1
 
 
-;========================< HYAKURETSU HARITE >=============================
+;HYAKURETSU HARITE
 [Statedef 1030]
 type = S
 physics = N
@@ -471,7 +471,7 @@ value = 0
 ctrl = 1
 
 
-;========================< SUPER ZUTSUKI >=============================
+;SUPER ZUTSUKI
 [Statedef 1100]
 type = S
 physics = N
@@ -810,7 +810,7 @@ value = 0
 ctrl = 1
 
 
-;========================< EX SUPER ZUTSUKI >=============================
+;EX SUPER ZUTSUKI
 [Statedef 1130]
 type = S
 physics = N
@@ -1071,7 +1071,7 @@ value = 0
 ctrl = 1
 
 
-;========================< SUPER HYAKKAN OTOSHI >=============================
+;SUPER HYAKKAN OTOSHI
 [Statedef 1200]
 type = S
 physics = S
@@ -1407,7 +1407,7 @@ trigger1 = pos y >= 12
 value = 5110
 
 
-;========================< EX SUPER HYAKKAN OTOSHI >=============================
+;EX SUPER HYAKKAN OTOSHI
 [Statedef 1230]
 type = S
 physics = S
@@ -1677,7 +1677,7 @@ value = 0
 ctrl = 1
 
 
-;========================< OOICHOU NAGE >=============================
+;OOICHOU NAGE
 [Statedef 1300]
 type = S
 physics = S
@@ -2028,7 +2028,7 @@ y = 0.88445
 [State 1311, Vel]
 type = velset
 trigger1 = animelem = 4
-x = 2.68;1.61;69.66 41.66; 50
+x = 5;1.61;69.66 41.66; 50
 y = -10.53;84
 
 [State 1311, End]
@@ -2253,7 +2253,7 @@ trigger1 = time >= 12
 value = ifelse(alive, 5120, 5150)
 
 
-;========================< EX OOICHOU NAGE >=============================
+;EX OOICHOU NAGE
 [Statedef 1330]
 type = S
 physics = S
@@ -2678,7 +2678,7 @@ value = 0
 ctrl = 1
 
 
-;========================< PUNCH ZERO COUNTER >=============================
+;PUNCH ZERO COUNTER
 [Statedef 2900]
 type = S
 physics = N
@@ -2764,7 +2764,7 @@ value = 0
 ctrl = 1
 
 
-;========================< KICK ZERO COUNTER >=============================
+;KICK ZERO COUNTER
 [Statedef 2910]
 type = S
 physics = N
