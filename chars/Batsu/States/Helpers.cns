@@ -273,7 +273,7 @@ ignorehitpause=1
 
 [State 1005, end]
 type=destroyself
-trigger1=pos x!=[-200,200]
+trigger1=pos x!=[-300,300]
 ;-------------------------------------------------------------------------------
 ;Kiai Dan Projectile Finish
 [Statedef 1006]
@@ -564,7 +564,7 @@ ignorehitpause=1
 
 [State 1055, end]
 type=destroyself
-trigger1=pos x!=[-200,200]
+trigger1=pos x!=[-300,300]
 ;-------------------------------------------------------------------------------
 ;EX Kiai Dan Projectile Finish
 [Statedef 1056]
@@ -892,7 +892,7 @@ ignorehitpause=1
 
 [State 1105, end]
 type=destroyself
-trigger1=pos x!=[-200,200]
+trigger1=pos x!=[-300,300]
 
 ;-------------------------------------------------------------------------------
 ;Air Kiai Dan Projectile Finish
@@ -1205,7 +1205,7 @@ ignorehitpause=1
 
 [State 1155, end]
 type=destroyself
-trigger1=pos x!=[-200,200]
+trigger1=pos x!=[-300,300]
 
 ;-------------------------------------------------------------------------------
 ;Air Kiai Dan Projectile Finish
@@ -1707,7 +1707,7 @@ ignorehitpause=1
 
 [State 3005, end]
 type=destroyself
-trigger1=pos x!=[-200,200]
+trigger1=pos x!=[-300,300]
 ;-------------------------------------------------------------------------------
 ;Zenkai Kiai Dan Projectile Finish
 [Statedef 3006]
@@ -1967,7 +1967,7 @@ ignorehitpause=1
 
 [State 3015, end]
 type=destroyself
-trigger1=pos x!=[-200,200]
+trigger1=pos x!=[-300,300]
 
 ;-------------------------------------------------------------------------
 ;Max Zenkai Kiai Dan Finish
@@ -3617,7 +3617,7 @@ ignorehitpause=1
 
 [State 3605, end]
 type=destroyself
-trigger1=pos x!=[-200,200]
+trigger1=pos x!=[-300,300]
 
 ;-------------------------------------------------------------------------
 ;Double Zenkai Kiai Dan Finish
@@ -3919,7 +3919,7 @@ ignorehitpause=1
 
 [State 3615, end]
 type=destroyself
-trigger1=pos x!=[-200,200]
+trigger1=pos x!=[-300,300]
 ;-----------------------------------------------------------------------------
 ;Double Zenkai Kiai Dan Finish
 [Statedef 3616]
