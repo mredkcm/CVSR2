@@ -9,4 +9,4 @@ This is a patched/updated version of the Mugen game [Capcom vs SNK Evolution Rev
 * Throws now have proper okizeme, and all charactes get up faster (15f liedown time compared to 60f)
 * Shin Akuma and God Rugal now have very funny divekicks that can combo into itself
 * Some characters that didn't have hyper hops now have functioning hyper hops
-* E. Honda can now QCF for slaps
+* E. Honda and Chun Li can now QCF for mash attacks
