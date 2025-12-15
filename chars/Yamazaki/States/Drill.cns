@@ -1,6 +1,6 @@
 ;Drill
 [Statedef 3100]
-type    = S
+type = S
 movetype =  A
 physics = N
 velset = 0,0
@@ -184,7 +184,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Max Drill
 [Statedef 3150]
-type    = S
+type = S
 movetype =  A
 physics = N
 velset = 0,0
@@ -369,7 +369,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Drill: Uppercut
 [Statedef 3110]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3110
@@ -475,7 +475,7 @@ value = 3120
 ;--------------------------------------------------------------------------;Drill: Uppercut
 ;Drill: Max Uppercut
 [Statedef 3111]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3110
@@ -581,7 +581,7 @@ value = 3124
 ;---------------------------------------------------------------------------
 ;Drill: Charging
 [Statedef 3120]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3120
@@ -635,7 +635,7 @@ value = ifelse((anim = 3120), 3200, ifelse((anim = 3121), 3300, 3400))
 ;--------------------------------------------------------------------------
 ;Drill: Charging
 [Statedef 3124]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3120
@@ -688,7 +688,7 @@ value = ifelse((anim = 3120), 3250, ifelse((anim = 3121), 3350, 3450))
 ;---------------------------------------------------------------------------
 ;Hit By Drill: Superpause Debug
 [Statedef 3104]
-type    = S
+type = S
 movetype =  H
 physics = N
 velset = 0,0
@@ -708,7 +708,7 @@ value = 5010
 ;---------------------------------------------------------------------------
 ;Hit By Drill: Uppercut
 [Statedef 3105]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -737,7 +737,7 @@ y = .13
 ;---------------------------------------------------------------------------
 ;Hit By Drill: Uppercut
 [Statedef 3106]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -773,7 +773,7 @@ y = .13
 ;---------------------------------------------------------------------------
 ;Hit By Drill: Flying
 [Statedef 3115]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -826,7 +826,7 @@ value = 3125
 ;---------------------------------------------------------------------------
 ;Hit By Drill: Hit Ground 1
 [Statedef 3125]
-type    = L
+type = L
 movetype =  H
 physics = N
 velset = 0,0
@@ -867,7 +867,7 @@ value = 3126
 ;---------------------------------------------------------------------------
 ;Hit By Drill: Hit Ground 2
 [Statedef 3126]
-type    = L
+type = L
 movetype =  H
 physics = N
 velset = 0,0
@@ -892,7 +892,7 @@ value = 3127
 ;---------------------------------------------------------------------------
 ;Hit By Drill: Bounce
 [Statedef 3127]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -936,7 +936,7 @@ value = 3128
 ;---------------------------------------------------------------------------
 ;Hit By Drill: Liedown
 [Statedef 3128]
-type    = L
+type = L
 movetype =  H
 physics = N
 velset = 0,0
@@ -971,7 +971,7 @@ value = 3129
 ;---------------------------------------------------------------------------
 ;Hit By Drill: Liedown 2
 [Statedef 3129]
-type    = L
+type = L
 movetype =  H
 physics = N
 velset = 0,0
@@ -1002,7 +1002,7 @@ ampl = 4
 ;---------------------------------------------------------------------------
 ;Drill: Stomps
 [Statedef 3200]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3200
@@ -1123,7 +1123,7 @@ value = 3500
 ;---------------------------------------------------------------------------
 ;Max Drill: Stomps
 [Statedef 3250]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3250
@@ -1464,7 +1464,7 @@ value = 3550
 ;---------------------------------------------------------------------------
 ;Hit By Drill Stomps: Flying
 [Statedef 3205]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -1516,7 +1516,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Hit By Max Drill: Planted
 [Statedef 3255]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -1569,7 +1569,7 @@ value = 3125
 ;---------------------------------------------------------------------------
 ;Hit By Max Drill Stomps: Flying
 [Statedef 3265]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -1621,7 +1621,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Drill: Headbutts
 [Statedef 3300]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3300
@@ -1856,7 +1856,7 @@ value = 3500
 ;---------------------------------------------------------------------------
 ;Max Drill: Headbutts
 [Statedef 3350]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3350
@@ -2163,7 +2163,7 @@ value = 3550
 ;---------------------------------------------------------------------------
 ;Hit By Drill Headbutts: Being Held
 [Statedef 3305]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2188,7 +2188,7 @@ value = 3305
 ;---------------------------------------------------------------------------
 ;Hit By Drill Headbutts: Headbuttin'
 [Statedef 3315]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2213,7 +2213,7 @@ value = 3315
 ;---------------------------------------------------------------------------
 ;Hit By Drill Headbutts: Flying
 [Statedef 3325]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2265,7 +2265,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Hit By Max Drill Headbutts: Being Held
 [Statedef 3355]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2285,7 +2285,7 @@ value = 3355
 ;---------------------------------------------------------------------------
 ;Hit By Max Drill Headbutts: Planted
 [Statedef 3365]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2305,7 +2305,7 @@ value = 3365
 ;---------------------------------------------------------------------------
 ;Drill: Berserk
 [Statedef 3400]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3400
@@ -2477,7 +2477,7 @@ value = 3500
 ;---------------------------------------------------------------------------
 ;Max Drill: Berserk
 [Statedef 3450]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3450
@@ -2645,7 +2645,7 @@ value = 3550
 ;---------------------------------------------------------------------------
 ;Hit By Drill Berserk: Hit High
 [Statedef 3405]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2675,7 +2675,7 @@ value = anim+5
 ;---------------------------------------------------------------------------
 ;Hit By Drill Berserk: Hit Low
 [Statedef 3406]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2705,7 +2705,7 @@ value = 5017
 ;---------------------------------------------------------------------------
 ;Hit By Drill Berserk: Flying
 [Statedef 3415]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2757,7 +2757,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Drill: Finale
 [Statedef 3500]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3500
@@ -2858,7 +2858,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Max Drill: Finale
 [Statedef 3550]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3500
@@ -2972,7 +2972,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hit By Drill Finale: Flying
 [Statedef 3505]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0

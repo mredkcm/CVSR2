@@ -1,9 +1,9 @@
 ;Sorai Rengeki 
 [Statedef 3000]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 6
+juggle = 6
 velset = 0,0
 anim = 3000
 poweradd = -1000
@@ -184,10 +184,10 @@ y = .45
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=25,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 8,9
@@ -198,7 +198,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -4
 guard.velocity = -4
@@ -227,10 +227,10 @@ envShake.freq=120
 type = HitDef
 trigger1 = AnimElem = 12
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=25,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 8,9
@@ -241,7 +241,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = High
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -4
 guard.velocity = -4
@@ -270,10 +270,10 @@ envShake.freq=120
 type = HitDef
 trigger1 = AnimElem = 18
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=25,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 8,9
@@ -284,7 +284,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -4
 guard.velocity = -4
@@ -313,10 +313,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 24
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=25,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 8,9
@@ -327,7 +327,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -3,-8
 guard.velocity = -8
@@ -356,10 +356,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 31
 attr = A, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=29,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 8,9
@@ -370,7 +370,7 @@ hitsound=S2+10*var(44),5
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -5,-5
 guard.velocity = -8
@@ -399,10 +399,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 35
 attr = A, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=79,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 30,30
@@ -413,7 +413,7 @@ hitsound=S2+10*var(44),5
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -5,-5
 guard.velocity = -8
@@ -451,7 +451,7 @@ value = 3001
 ;---------------------------------------------------------------------------
 ;Sorai Rengeki (Land)
 [Statedef 3001]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 3001
@@ -487,10 +487,10 @@ ctrl = 1
 
 ;MAX Sorai Rengeki 
 [Statedef 3050]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 6
+juggle = 6
 velset = 0,0
 anim = 3050
 poweradd = -2000
@@ -679,10 +679,10 @@ y = .45
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=25,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 8,9
@@ -693,7 +693,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -4
 guard.velocity = -4
@@ -722,10 +722,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 12
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=25,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 8,9
@@ -736,7 +736,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = High
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -4
 guard.velocity = -4
@@ -765,10 +765,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 18
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=25,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 8,9
@@ -779,7 +779,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -4
 guard.velocity = -4
@@ -808,10 +808,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 24
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=25,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 8,9
@@ -822,7 +822,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -3,-8
 guard.velocity = -8
@@ -851,10 +851,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 31
 attr = A, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=29,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 8,9
@@ -865,7 +865,7 @@ hitsound=S2+10*var(44),5
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -5,-5
 guard.velocity = -8
@@ -894,10 +894,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 35
 attr = A, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=79,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 30,30
@@ -908,7 +908,7 @@ hitsound=S2+10*var(44),5
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -5,-5
 guard.velocity = -8
@@ -937,10 +937,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 39
 attr = A, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=29,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 8,9
@@ -951,7 +951,7 @@ hitsound=S2+10*var(44),5
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -5,-5
 guard.velocity = -8
@@ -980,10 +980,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 44
 attr = A, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=29,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 30,30
@@ -994,7 +994,7 @@ hitsound=S2+10*var(44),5
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -6,-5
 guard.velocity = -6
@@ -1033,7 +1033,7 @@ value = 3051
 ;---------------------------------------------------------------------------
 ;Sorai Rengeki (Land)
 [Statedef 3051]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 3051
@@ -1293,7 +1293,7 @@ value = 3105
 ;---------------------------------------------------------------------------
 ;Hiten Souryujin Connect
 [Statedef 3101]
-type    = S
+type = S
 movetype = A
 physics = N
 juggle = 8
@@ -1440,10 +1440,10 @@ value = 40, 1
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=25,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 4,8
@@ -1454,7 +1454,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 30
-ground.hittime  = 30
+ground.hittime = 30
 guard.ctrltime = 20
 ground.velocity = 0
 guard.velocity = -6
@@ -1484,10 +1484,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 11
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=25,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 4,8
@@ -1498,7 +1498,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = High
 ground.slidetime = 30
-ground.hittime  = 30
+ground.hittime = 30
 guard.ctrltime = 20
 ground.velocity = 0
 guard.velocity = -6
@@ -1528,10 +1528,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 20
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=28,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 4,8
@@ -1542,7 +1542,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 30
-ground.hittime  = 30
+ground.hittime = 30
 guard.ctrltime = 20
 ground.velocity = 0
 guard.velocity = -6
@@ -1572,10 +1572,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 26
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=28,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 4,8
@@ -1586,7 +1586,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = High
 ground.slidetime = 30
-ground.hittime  = 30
+ground.hittime = 30
 guard.ctrltime = 20
 ground.velocity = 0
 guard.velocity = -6
@@ -1616,10 +1616,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 34
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Up
+animtype = Heavy
+air.animtype = Up
 damage=48,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 4,17
@@ -1630,7 +1630,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = High
 ground.slidetime = 30
-ground.hittime  = 30
+ground.hittime = 30
 guard.ctrltime = 20
 ground.velocity = 0,-9.5
 guard.velocity = -6
@@ -1660,10 +1660,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 57
 attr = A, HA
-animtype  = Heavy
-air.animtype  = Up
+animtype = Heavy
+air.animtype = Up
 damage=70,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 30,30
@@ -1674,7 +1674,7 @@ hitsound=S2+10*var(44),5
 guardsound=s130, 0
 ground.type = High
 ground.slidetime = 30
-ground.hittime  = 30
+ground.hittime = 30
 guard.ctrltime = 20
 ground.velocity = 0,-13.5
 guard.velocity = -6
@@ -1723,7 +1723,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Target
 [Statedef 3170]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1750,7 +1750,7 @@ value = 3171
 ;---------------------------------------------------------------------------
 ; Target2
 [Statedef 3171]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -1788,7 +1788,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Target3
 [Statedef 3180]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1815,7 +1815,7 @@ value = 3181
 ;---------------------------------------------------------------------------
 ; Target4
 [Statedef 3181]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -1852,7 +1852,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Target5
 [Statedef 3190]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1888,7 +1888,7 @@ value = 3191
 ;---------------------------------------------------------------------------
 ; Target6
 [Statedef 3191]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -1919,7 +1919,7 @@ value = 3192
 ;---------------------------------------------------------------------------
 ; Target7
 [Statedef 3192]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1949,7 +1949,7 @@ value = 3195
 ;---------------------------------------------------------------------------
 ; Target8
 [Statedef 3195]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1991,10 +1991,10 @@ value = 5100
 ;===========================================
 ; SFIV You Hou 
 [Statedef 3300]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 anim = 3300
 poweradd=-3000
@@ -2193,10 +2193,10 @@ persistent=0
 type = HitDef
 trigger1 = AnimElem = 8
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=89,7
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 6,23
@@ -2207,7 +2207,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -1,-4.5
 guard.velocity = -4
@@ -2235,10 +2235,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 14
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Up
+animtype = Heavy
+air.animtype = Up
 damage=89,7
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 6,7
@@ -2249,7 +2249,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -2,-6.9
 guard.velocity = -8
@@ -2277,10 +2277,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 22
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Up
+animtype = Heavy
+air.animtype = Up
 damage=89,7
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 6,7
@@ -2291,7 +2291,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -1,-11
 guard.velocity = -8
@@ -2319,10 +2319,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 34
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Up
+animtype = Heavy
+air.animtype = Up
 damage=200,7
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 50,50
@@ -2333,7 +2333,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 999
+ground.hittime = 999
 guard.ctrltime = 20
 ground.velocity = 0,-22
 guard.velocity = -8
@@ -2341,7 +2341,7 @@ air.velocity = 0,-22
 airguard.velocity = -6.67,-1
 ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = -11.2
-air.hittime  = 999
+air.hittime = 999
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
 envshake.time = 24
@@ -2367,7 +2367,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; You Hou(Target)
 [Statedef 3310]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2398,7 +2398,7 @@ value = 3311
 ;---------------------------------------------------------------------------
 ; Destroyer Opp
 [Statedef 3311]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2422,7 +2422,7 @@ value = 3312
 ;---------------------------------------------------------------------------
 ; HITA_UP (initial going up)
 [Statedef 3312]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -2454,10 +2454,10 @@ value = 5100
 ;===========================================
 ; CVS2 You Hou 
 [Statedef 3350]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 anim = 3401
 poweradd=-3000
@@ -2598,10 +2598,10 @@ channel = 1
 type = HitDef
 trigger1 = AnimElem = 5
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=99,7
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 6,23
@@ -2612,7 +2612,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -1,-4.5
 guard.velocity = -4
@@ -2640,10 +2640,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 12
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Up
+animtype = Heavy
+air.animtype = Up
 damage=99,7
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 6,7
@@ -2654,7 +2654,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -1,-11
 guard.velocity = -8
@@ -2682,10 +2682,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 23
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Up
+animtype = Heavy
+air.animtype = Up
 damage=290,7
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 6,7
@@ -2696,7 +2696,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 999
+ground.hittime = 999
 guard.ctrltime = 20
 ground.velocity = 0,-22
 guard.velocity = -8
@@ -2704,7 +2704,7 @@ air.velocity = 0,-22
 airguard.velocity = -6.67,-1
 ground.cornerpush.veloff = 0
 guard.cornerpush.veloff = -11.2
-air.hittime  = 999
+air.hittime = 999
 air.cornerpush.veloff = 0
 airguard.cornerpush.veloff = 0
 envshake.time = 24
@@ -3126,7 +3126,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;P2 throw_throw
 [Statedef 3411]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3196,7 +3196,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;P2 throw_throw
 [Statedef 3412]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

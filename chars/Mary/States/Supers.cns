@@ -224,7 +224,7 @@ ctrl = 1
 type = A                    
 movetype= A                    
 physics = U                     
-juggle  = 0                            
+juggle = 0                            
 ctrl = 0                       
 anim = 3001
 poweradd= 0                        
@@ -681,7 +681,7 @@ value = 3012
 ;------------------------------------------------------------------
 ; Mary Dynamite Swing
 [Statedef 3012]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -725,7 +725,7 @@ value = 3013
 ;------------------------------------------------------------------
 ; Mary Dynamite Swing
 [Statedef 3013]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1096,7 +1096,7 @@ ctrl = 1
 type = A                    
 movetype= A                    
 physics = U                     
-juggle  = 0                            
+juggle = 0                            
 ctrl = 0                       
 anim = 3001
 poweradd= 0                        
@@ -2204,7 +2204,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Mary Splash Rose (Land)
 [Statedef 3103]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 3103
@@ -4181,7 +4181,7 @@ ctrl=1
 type = S                    
 movetype= A                    
 physics = N                     
-juggle  = 0                             
+juggle = 0                             
 ctrl = 0                       
 anim = 3402                  
 sprpriority = 2
@@ -4791,7 +4791,7 @@ value = 5975
 
 [State 3411]
 type = ChangeAnim
-triggerall = anim  = 5975
+triggerall = anim = 5975
 trigger1 = animtime = 0
 value = anim
 elem = 3
@@ -4859,7 +4859,7 @@ value = -4
 
 [State 3413]
 type = ChangeAnim
-triggerall = anim  = 5970
+triggerall = anim = 5970
 trigger1 = animtime = 0
 value = anim
 elem = 3

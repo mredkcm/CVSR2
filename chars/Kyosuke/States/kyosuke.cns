@@ -7,7 +7,7 @@
 
 ; jump cancel
 [Statedef 710]
-type    = S
+type = S
 physics = S
 anim = 40
 ctrl = 0

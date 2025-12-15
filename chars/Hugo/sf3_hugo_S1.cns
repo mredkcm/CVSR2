@@ -3,7 +3,7 @@
 ;☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
 ;ムーンサルトプレス(小)
 [Statedef 1000]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1000
@@ -123,7 +123,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;ムーンサルトプレス(中)
 [Statedef 1010]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1010
@@ -243,7 +243,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;ムーンサルトプレス(大)
 [Statedef 1020]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1020
@@ -363,7 +363,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;ムーンサルトプレス(投げた側)1
 [Statedef 1050]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1050
@@ -805,7 +805,7 @@ value = 1051
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;ムーンサルトプレス(投げた側)2
 [Statedef 1051]
-type    = C
+type = C
 movetype= A
 physics = N
 anim = 1051
@@ -984,7 +984,7 @@ value = 55
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ムーンサルトプレス(投げられた側)1
 [Statedef 1060]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1038,7 +1038,7 @@ physics = N
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ムーンサルトプレス(投げられた側)2
 [Statedef 1061]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1089,7 +1089,7 @@ value = 5101
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HIT_BOUNCE (bounce into air)
 [Statedef 1062]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -1124,7 +1124,7 @@ value = 5110
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ムーンサルトプレス(投げられた側)3rd専用anim1
 [Statedef 1070]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1156,7 +1156,7 @@ physics = N
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ムーンサルトプレス(投げられた側)3rd専用anim2
 [Statedef 1071]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1201,7 +1201,7 @@ value = 5110
 ;☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
 ;シュートダウン・バックブリーカー(小)
 [Statedef 1100]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1100
@@ -1327,7 +1327,7 @@ value = 54
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;シュートダウン・バックブリーカー(中)
 [Statedef 1110]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1110
@@ -1453,7 +1453,7 @@ value = 54
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;シュートダウン・バックブリーカー(大)
 [Statedef 1120]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1120
@@ -1579,7 +1579,7 @@ value = 54
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; シュートダウン・バックブリーカー(投げた側)1
 [Statedef 1150]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 1150
@@ -1728,7 +1728,7 @@ value = 1160
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; シュートダウン・バックブリーカー(投げられた側)1
 [Statedef 1151]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1749,7 +1749,7 @@ value = 1151
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; シュートダウン・バックブリーカー(投げられた側)3rd専用anim1
 [Statedef 1152]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1771,7 +1771,7 @@ value = 1152
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;シュートダウン・バックブリーカー(投げた側)2
 [Statedef 1160]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1160
@@ -2045,7 +2045,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; シュートダウン・バックブリーカー(投げられた側)1
 [Statedef 1161]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2071,7 +2071,7 @@ value = 1165
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; シュートダウン・バックブリーカー(投げられた側)2
 [Statedef 1165]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -2152,7 +2152,7 @@ value = 5100
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; シュートダウン・バックブリーカー(投げられた側)3rd専用anim2
 [Statedef 1162]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

@@ -1,9 +1,9 @@
 ;Ougi Senpu Retsu Zan
 [Statedef 1000]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 10
+juggle = 10
 velset = 0,0
 ctrl = 0
 poweradd = 72 * !var(20)
@@ -92,7 +92,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------------
 ;EX Ougi Senpu Retsu Zan
 [Statedef 1050]
-type    = S
+type = S
 movetype =  A
 physics = S
 anim = 1050
@@ -219,10 +219,10 @@ ctrl = 1
 ;------------------------------------------------------------------------------------------
 ;Ougi Kogetsu Zan
 [Statedef 1100]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 10
+juggle = 10
 velset = 0,0
 ctrl = 0
 poweradd = 72 * !var(20)
@@ -360,7 +360,7 @@ ownpal = 1
 type = HitDef
 trigger1 = var(10)=0&&AnimElem = 3
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=45,10
 priority = 4, Hit
@@ -374,7 +374,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),-2.5,-6.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -404,7 +404,7 @@ forcestand = 1
 type = HitDef
 trigger1 = var(10)=0&&AnimElem = 8
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=45,10
 priority = 4, Hit
@@ -418,7 +418,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),-5.5,-6.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -449,7 +449,7 @@ forcestand = 1
 type = HitDef
 trigger1 = var(10)=1&&AnimElem = 3
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=35,10
 priority = 4, Hit
@@ -463,7 +463,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-3.5),Ifelse(var(20),-2.5,-8.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -493,7 +493,7 @@ forcestand = 1
 type = HitDef
 trigger1 = var(10)=1&&AnimElem = 4
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=35,10
 priority = 4, Hit
@@ -507,7 +507,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-3.5),Ifelse(var(20),-5.5,-6.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -537,7 +537,7 @@ forcestand = 1
 type = HitDef
 trigger1 = var(10)=1&&AnimElem = 8
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=38,10
 priority = 4, Hit
@@ -551,7 +551,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),-5.5,-6.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -581,7 +581,7 @@ forcestand = 1
 type = HitDef
 trigger1 = var(10)=2&&AnimElem = 3
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=28,10
 priority = 4, Hit
@@ -595,7 +595,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-3.5),Ifelse(var(20),-2.5,-6.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -625,7 +625,7 @@ forcestand = 1
 type = HitDef
 trigger1 = var(10)=2&&AnimElem = 4
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=28,10
 priority = 4, Hit
@@ -639,7 +639,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),-5.5,-6.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -669,7 +669,7 @@ forcestand = 1
 type = HitDef
 trigger1 = var(10)=2&&AnimElem = 8
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=28,10
 priority = 4, Hit
@@ -683,7 +683,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),-5.5,-8.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -713,7 +713,7 @@ forcestand = 1
 type = HitDef
 trigger1 = var(10)=2&&AnimElem = 9
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=29,10
 priority = 4, Hit
@@ -727,7 +727,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),-5.5,-10.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -834,7 +834,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Ougi Kogetsu Zan
 [Statedef 1150]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 1150
@@ -842,7 +842,7 @@ velset = 0,0
 sprpriority = 2
 ctrl = 0
 poweradd=-500
-juggle  = 0
+juggle = 0
 
 [State -2, Hit Detection]
 type=varset
@@ -1010,7 +1010,7 @@ ownpal = 1
 type = HitDef
 trigger1 = AnimElem = 3
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=20,5
 priority = 4, Hit
@@ -1024,7 +1024,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),-2.5,-6.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -1054,7 +1054,7 @@ forcestand = 1
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=20,5
 priority = 4, Hit
@@ -1068,7 +1068,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),-5.5,-6.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -1098,7 +1098,7 @@ forcestand = 1
 type = HitDef
 trigger1 = AnimElem = 8
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=20,5
 priority = 4, Hit
@@ -1112,7 +1112,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),-5.5,-6.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -1142,7 +1142,7 @@ forcestand = 1
 type = HitDef
 trigger1 = AnimElem = 9
 attr = A, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=20,5
 priority = 4, Hit
@@ -1156,7 +1156,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),-5.5,-10.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -1186,7 +1186,7 @@ forcestand = 1
 type = HitDef
 trigger1 = AnimElem = 10
 attr = A, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=20,5
 priority = 4, Hit
@@ -1200,7 +1200,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),-5.5,-10.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -1231,7 +1231,7 @@ forcestand = 1
 type = HitDef
 trigger1 = AnimElem = 11
 attr = A, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=20,5
 priority = 4, Hit
@@ -1245,7 +1245,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),-5.5,-10.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -1313,10 +1313,10 @@ value = 1107
 ;---------------------------------------------------------------------------------------------------------
 ;Ougi Resshin Zan
 [Statedef 1200]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 10
+juggle = 10
 velset = 0,0
 ctrl = 0
 poweradd = 72 * !var(20)
@@ -1392,7 +1392,7 @@ value = 1201
 ;---------------------------------------------------------------------------
 ;Ougi Resshin Zan Landing
 [Statedef 1201]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -1475,7 +1475,7 @@ ampl = 5
 type = HitDef
 trigger1 = time = 1
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=84+7*var(10),10
 priority = 7, Hit
@@ -1489,7 +1489,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Trip
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),0,0)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -1555,7 +1555,7 @@ ctrl = 1
 ;------------------------------------------------------------------------------------------
 ;EX Ougi Resshin Zan
 [Statedef 1250]
-type    = S
+type = S
 movetype =  A
 physics = S
 anim = 1200
@@ -1563,7 +1563,7 @@ velset = 0,0
 sprpriority = 2
 ctrl = 0
 poweradd=-500
-juggle  = 0
+juggle = 0
 
 
 [State 1250, VarSet]
@@ -1673,7 +1673,7 @@ value = 1251
 ;---------------------------------------------------------------------------
 ;EX Ougi Resshin Zan Landing
 [Statedef 1251]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -1757,7 +1757,7 @@ ampl = 5
 type = HitDef
 trigger1 = Animelem = 1
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=60,10
 priority = 7, Hit
@@ -1771,7 +1771,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Trip
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),0,0)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -1799,7 +1799,7 @@ forcestand = 1
 type = HitDef
 trigger1 = Animelem = 2
 attr = S, SA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=60,10
 priority = 7, Hit
@@ -1813,7 +1813,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Trip
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity=Ifelse(var(20),-1,-1.5),Ifelse(var(20),5,10)
 guard.velocity=Ifelse(var(20),-2.5,-8)
@@ -1879,10 +1879,10 @@ ctrl = 1
 ;------------------------------------------------------------------------------------------
 ;Ougi Dragon Tooth Start
 [Statedef 1300]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd = 72 * !var(20)
 velset = 0,0
 ctrl = 0
@@ -1950,7 +1950,7 @@ type = HitDef
 attr = S, SA
 trigger1 = AnimElem = 4
 animtype = Hard
-damage  = 55+2*var(10), 7
+damage = 55+2*var(10), 7
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
 priority=4, hit
@@ -1963,7 +1963,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity=Ifelse(var(20),-2.5,-7)
 guard.velocity=Ifelse(var(20),-2.5,-7)
 air.velocity = Ifelse(var(20),-2,-4),Ifelse(var(20),-2.5,-2.5)
@@ -1994,10 +1994,10 @@ ctrl = 1
 ;--------------------------------------------------------------------------------------------
 ;Ougi Dragon Tooth Impaling
 [Statedef 1310]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd = 0
 velset = 0,0
 anim = 1310
@@ -2075,7 +2075,7 @@ hitsound=S2,14
 guardsound = s130, 2
 ground.type = low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity=Ifelse(var(20),-2.5,-10)
 guard.velocity=Ifelse(var(20),-2.5,-10)
 air.velocity = Ifelse(var(20),-2,-6),Ifelse(var(20),-2.5,-2.5)
@@ -2108,7 +2108,7 @@ hitsound=S2,14
 guardsound = s130, 2
 ground.type = low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity=Ifelse(var(20),-2.5,-8)
 guard.velocity=Ifelse(var(20),-2.5,-8)
 air.velocity = Ifelse(var(20),-2,-4),Ifelse(var(20),-2.5,-2.5)
@@ -2141,7 +2141,7 @@ hitsound=S2,14
 guardsound = s130, 2
 ground.type = low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity=Ifelse(var(20),-2.5,-10)
 guard.velocity=Ifelse(var(20),-2.5,-10)
 air.velocity = Ifelse(var(20),-2,-5),Ifelse(var(20),-2.5,-2.5)
@@ -2200,10 +2200,10 @@ ctrl = 1
 ;-----------------------------------------------------------------------------------------------------------
 ;Ougi Dragon Tooth Ending
 [Statedef 1320]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 0
 velset = 0,0
 anim = 1320
@@ -2231,7 +2231,7 @@ ctrl = 1
 ;------------------------------------------------------------------------------------------
 ;EX Ougi Dragon Tooth Start
 [Statedef 1350]
-type    = S
+type = S
 movetype =  A
 physics = S
 anim = 1350
@@ -2336,7 +2336,7 @@ type = HitDef
 attr = S, SA
 trigger1 = AnimElem = 4
 animtype = Hard
-damage  = 60, 10
+damage = 60, 10
 getpower=0,0
 givepower = 36, 36
 priority=4, hit
@@ -2349,7 +2349,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity=Ifelse(var(20),-2.5,-7)
 guard.velocity=Ifelse(var(20),-2.5,-7)
 air.velocity = Ifelse(var(20),-2,-4),Ifelse(var(20),-2.5,-2.5)
@@ -2380,10 +2380,10 @@ ctrl = 1
 ;--------------------------------------------------------------------------------------------
 ;EX Ougi Dragon Tooth Impaling
 [Statedef 1351]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd = 0
 velset = 0,0
 anim = 1310
@@ -2473,7 +2473,7 @@ hitsound=S2,14
 guardsound = s130, 2
 ground.type = low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity=Ifelse(var(20),-2.5,-10)
 guard.velocity=Ifelse(var(20),-2.5,-10)
 air.velocity = Ifelse(var(20),-2,-6),Ifelse(var(20),-2.5,-2.5)
@@ -2531,10 +2531,10 @@ ctrl = 1
 ;-----------------------------------------------------------------------------------------------------------
 ;Sake Kougeki
 [Statedef 1400]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 10
+juggle = 10
 velset = 0,0
 ctrl = 0
 poweradd = 72 * !var(20)
@@ -2633,7 +2633,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity=Ifelse(var(20),-2.5,-6),Ifelse(var(20),-5.5,-2.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
 air.velocity = Ifelse(var(20),-1.2,-6),Ifelse(var(20),-3.5,-2.5)
@@ -2662,7 +2662,7 @@ ctrl = 1
 ;-----------------------------------------------------------------------------------------------------------
 ;EX Sake Kougeki
 [Statedef 1450]
-type    = S
+type = S
 movetype =  A
 physics = S
 anim = 1450
@@ -2800,7 +2800,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity=Ifelse(var(20),-2.5,-6),Ifelse(var(20),-2.5,-7.5)
 guard.velocity=Ifelse(var(20),-2.5,-8)
 air.velocity = Ifelse(var(20),-2.5,-6),Ifelse(var(20),-2.5,-7.5)

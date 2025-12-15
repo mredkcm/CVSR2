@@ -1,10 +1,10 @@
 ;------------------------------------------------------------------
 ;Fat Chainsaw
 [Statedef 1000]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 10
+juggle = 10
 velset = 0,0
 ctrl = 0
 poweradd = 72 * !var(20)
@@ -186,7 +186,7 @@ ground.slidetime = 16
 ground.hittime = 19
 guard.hittime = 17
 yaccel = .55
-ground.velocity  = -2,-6
+ground.velocity = -2,-6
 ground.cornerpush.veloff = 0
 air.velocity = -4 ,-8 
 ground.velocity=Ifelse(var(20),-2,-6)
@@ -224,7 +224,7 @@ ground.slidetime = 16
 ground.hittime = 19
 guard.hittime = 17
 yaccel = .55
-ground.velocity  = -2,-6
+ground.velocity = -2,-6
 ground.cornerpush.veloff = 0
 air.velocity = -4 ,-8 
 ground.velocity=Ifelse(var(20),-2,-6)
@@ -262,7 +262,7 @@ ground.slidetime = 16
 ground.hittime = 19
 guard.hittime = 17
 yaccel = .55
-ground.velocity  = -2,-6
+ground.velocity = -2,-6
 ground.cornerpush.veloff = 0
 air.velocity = -4 ,-8 
 ground.velocity=Ifelse(var(20),-2,-6)
@@ -286,10 +286,10 @@ ctrl = 1
 ;------------------------------------------------------------------------------------------
 ;EX Fat Chainsaw
 [Statedef 1050]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 10
+juggle = 10
 anim = 1050
 velset = 0,0
 ctrl = 0
@@ -606,7 +606,7 @@ ground.slidetime = 16
 ground.hittime = 19
 guard.hittime = 17
 yaccel = .55
-ground.velocity  = -4,-8
+ground.velocity = -4,-8
 ground.cornerpush.veloff = 0
 air.velocity = -4 ,-8 
 ground.velocity=Ifelse(var(20),-2.5,-8)
@@ -631,10 +631,10 @@ ctrl = 1
 ;----------------------------------------------------------------------------------
 ;Fat Breath
 [Statedef 1100]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 10
+juggle = 10
 velset = 0,0
 ctrl = 0
 poweradd = 72 * !var(20)
@@ -720,10 +720,10 @@ ctrl = 1
 ;----------------------------------------------------------------------------------------------------------
 ;EX Fat Breath
 [Statedef 1150]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 10
+juggle = 10
 anim = 1150
 velset = 0,0
 ctrl = 0
@@ -2109,10 +2109,10 @@ value = 1401
 ;-----------------------------------------------------------------------------------------
 ;Fat Burst
 [Statedef 1500]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 10
+juggle = 10
 velset = 0,0
 ctrl = 0
 poweradd = 72 * !var(20)
@@ -2165,10 +2165,10 @@ ctrl = 1
 ;-------------------------------------------------------------------------------------------
 ;EX Fat Burst
 [Statedef 1550]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 10
+juggle = 10
 velset = 0,0
 anim = 1550
 ctrl = 0
@@ -2387,7 +2387,7 @@ ground.slidetime = 16
 ground.hittime = 19
 guard.hittime = 17
 yaccel = .55
-ground.velocity  = -4,-8
+ground.velocity = -4,-8
 ground.cornerpush.veloff = 0
 air.velocity = -4 ,7 
 ground.velocity = -8 * fvar(1),0
@@ -2425,7 +2425,7 @@ ground.slidetime = 16
 ground.hittime = 19
 guard.hittime = 17
 yaccel = .55
-ground.velocity  = -4,-8
+ground.velocity = -4,-8
 ground.cornerpush.veloff = 0
 air.velocity = -4 ,7 
 ground.velocity = -8 * fvar(1),0
@@ -2463,7 +2463,7 @@ ground.slidetime = 16
 ground.hittime = 19
 guard.hittime = 17
 yaccel = .55
-ground.velocity  = -4,-8
+ground.velocity = -4,-8
 ground.cornerpush.veloff = 0
 air.velocity = -4 ,7 
 ground.velocity = -8 * fvar(1),0
@@ -2718,7 +2718,7 @@ ground.slidetime = 16
 ground.hittime = 19
 guard.hittime = 17
 yaccel = .55
-ground.velocity  = -4,-8
+ground.velocity = -4,-8
 ground.cornerpush.veloff = 0
 air.velocity = -4 ,7 
 ground.velocity = -8 * fvar(1),0

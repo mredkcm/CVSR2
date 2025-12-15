@@ -144,7 +144,7 @@ ctrl = 1
 ;------------------------------------------------------------------
 ;Jigoku Gokuraku Otoshi (P1)
 [Statedef 3010]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3010
@@ -532,7 +532,7 @@ ctrl = 1
 ;------------------------------------------------------------------
 ;Jigoku Gokuraku Otoshi Gethit
 [Statedef 3015]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -573,7 +573,7 @@ value = 3016
 ;------------------------------------------------------------------
 ;Jigoku Gokuraku Otoshi Gethit (Hitadd)
 [Statedef 3016]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -1,0
@@ -588,7 +588,7 @@ value = 5100
 ;------------------------------------------------------------------
 ;Jigoku Gokuraku Otoshi Gethit
 [Statedef 3017]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -784,7 +784,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Max Jigoku Gokuraku Otoshi (P1)
 [Statedef 3060]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3060
@@ -1297,7 +1297,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Max Jigoku Gokuraku Otoshi Gethit 1
 [Statedef 3065]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1344,7 +1344,7 @@ value = 3066
 ;---------------------------------------------------------------------------
 ;Max Jigoku Gokuraku Otoshi Gethit 2
 [Statedef 3066]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1391,7 +1391,7 @@ value = 3067
 ;---------------------------------------------------------------------------
 ;Max Jigoku Gokuraku Otoshi Gethit 3
 [Statedef 3067]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -1.5,-4
@@ -1423,7 +1423,7 @@ value = 3068
 ;---------------------------------------------------------------------------
 ;Max Jigoku Gokuraku Otoshi Gethit 4
 [Statedef 3068]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1459,7 +1459,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Max Jigoku Gokuraku Otoshi Gethit 1
 [Statedef 3069]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1651,7 +1651,7 @@ ctrl = 1
 ;------------------------------------------------------------------
 ;Arashi no Yama: Nekko Nuki (Success)
 [Statedef 3101]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3101
@@ -1775,7 +1775,7 @@ value = 3102
 ;------------------------------------------------------------------
 ;Arashi no Yama: Nekko Nuki (End)
 [Statedef 3102]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3102
@@ -1880,7 +1880,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Arashi no Yama: Nekko Nuki (Gethit 1)
 [Statedef 3105]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1907,7 +1907,7 @@ movecamera = 1
 ;---------------------------------------------------------------------------
 ;Arashi no Yama: Nekko Nuki (Gethit 2)
 [Statedef 3106]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1957,7 +1957,7 @@ value = 3107
 ;---------------------------------------------------------------------------
 ;Arashi no Yama: Nekko Nuki (Gethit 3)
 [Statedef 3107]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1992,7 +1992,7 @@ value = 5120
 ;------------------------------------------------------------------
 ;Arashi no Yama: Zoku Kirikabu Gaeshi (Start)
 [Statedef 3200]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd= 0
@@ -2047,8 +2047,8 @@ type = HitDef
 trigger1 = enemynear,stateno != [5020,5049]
 trigger1 = animelem = 4
 attr = S, HA
-animtype  = hard
-damage    = 0, 0
+animtype = hard
+damage = 0, 0
 priority = 7, Hit
 getpower = 0,0
 hitflag = MAFD
@@ -2057,12 +2057,12 @@ pausetime = 0,0
 guard.pausetime = 4,4
 sparkno = s-1;7002
 sparkxy = -34,9922
-;hitsound   = s800,0
+;hitsound = s800,0
 guardsound = s130,0
 guard.sparkno = s7012
 ground.type = high
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -12
 air.velocity = -5.5,-3.5
 air.fall = 1
@@ -2098,7 +2098,7 @@ ctrl = 1
 ;------------------------------------------------------------------
 ;Arashi no Yama: Zoku Kirikabu Gaeshi (Success)
 [Statedef 3210]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3210
@@ -2253,7 +2253,7 @@ ctrl = 1
 ;------------------------------------------------------------------
 ;Arashi no Yama: Zoku Kirikabu Gaeshi (Gethit)
 [Statedef 3220]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2301,7 +2301,7 @@ value = 3107
 ;------------------------------------------------------------------
 ;Arashi no Yama: Bukko Nuki Ura Nage (Start)
 [Statedef 3300]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd= 0
@@ -2356,8 +2356,8 @@ type = HitDef
 trigger1 = enemynear,stateno != [5020,5049]
 trigger1 = animelem = 4
 attr = S, HA
-animtype  = hard
-damage    = 0, 0
+animtype = hard
+damage = 0, 0
 priority = 7, Hit
 getpower = 0,0
 hitflag = MAFD
@@ -2366,12 +2366,12 @@ pausetime = 0,0
 guard.pausetime = 4,4
 sparkno = s7002
 sparkxy = -34,-22
-hitsound   = s1050,2
+hitsound = s1050,2
 guardsound = s120,1
 guard.sparkno = s7012
 ground.type = high
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -12
 air.velocity = -5.5,-3.5
 air.fall = 1
@@ -2408,7 +2408,7 @@ ctrl = 1
 ;------------------------------------------------------------------
 ;Arashi no Yama: Bukko Nuki Ura Nage (Success)
 [Statedef 3310]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3310
@@ -2635,7 +2635,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Arashi no Yama: Bukko Nuki Ura Nage (Gethit)
 [Statedef 3320]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2833,7 +2833,7 @@ ctrl = 1
 ;------------------------------------------------------------------
 ;Max Arashi no Yama: Nekko Nuki (Success)
 [Statedef 3151]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3101
@@ -2957,7 +2957,7 @@ value = 3152
 ;------------------------------------------------------------------
 ;Max Arashi no Yama: Nekko Nuki (End)
 [Statedef 3152]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3102
@@ -3062,7 +3062,7 @@ ctrl = 1
 ;------------------------------------------------------------------
 ;Max Arashi no Yama: Zoku Kirikabu Gaeshi (Start)
 [Statedef 3250]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd= 0
@@ -3117,8 +3117,8 @@ type = HitDef
 trigger1 = enemynear,stateno != [5020,5049]
 trigger1 = animelem = 4
 attr = S, HA
-animtype  = hard
-damage    = 0, 0
+animtype = hard
+damage = 0, 0
 priority = 7, Hit
 getpower = 0,0
 hitflag = MAFD
@@ -3127,12 +3127,12 @@ pausetime = 0,0
 guard.pausetime = 4,4
 sparkno = s-1;7002
 sparkxy = -34,9922
-;hitsound   = s800,0
+;hitsound = s800,0
 guardsound = s130,0
 guard.sparkno = s7012
 ground.type = high
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -12
 air.velocity = -5.5,-3.5
 air.fall = 1
@@ -3156,7 +3156,7 @@ ctrl = 1
 ;------------------------------------------------------------------
 ;Max Arashi no Yama: Zoku Kirikabu Gaeshi (Success)
 [Statedef 3260]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3210
@@ -3309,7 +3309,7 @@ ctrl = 1
 ;------------------------------------------------------------------
 ;Max Arashi no Yama: Zoku Tenchi Gaeshi (Start)
 [Statedef 3400]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd= 0
@@ -3364,8 +3364,8 @@ type = HitDef
 trigger1 = enemynear,stateno != [5020,5049]
 trigger1 = animelem = 4
 attr = S, HA
-animtype  = hard
-damage    = 0, 0
+animtype = hard
+damage = 0, 0
 priority = 7, Hit
 getpower = 0,0
 hitflag = MAFD
@@ -3374,12 +3374,12 @@ pausetime = 0,0
 guard.pausetime = 4,4
 sparkno = s7002
 sparkxy = -34,-22
-hitsound   = s1050,2
+hitsound = s1050,2
 guardsound = s120,1
 guard.sparkno = s7012
 ground.type = high
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -12
 air.velocity = -5.5,-3.5
 air.fall = 1
@@ -3414,7 +3414,7 @@ ctrl = 1
 ;------------------------------------------------------------------
 ;Max Arashi no Yama: Zoku Tenchi Gaeshi (Success)
 [Statedef 3450]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3450
@@ -3704,7 +3704,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Max Arashi no Yama: Zoku Tenchi Gaeshi (Gethit 1)
 [Statedef 3460]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3744,7 +3744,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Max Arashi no Yama: Zoku Tenchi Gaeshi (Gethit 2)
 [Statedef 3470]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3981,7 +3981,7 @@ ctrl=1
 ;------------------------------------------------------------------
 ;Hourinkazan (Running)
 [Statedef 3501]
-type    = S
+type = S
 movetype= I
 physics = N
 poweradd= 0
@@ -4035,7 +4035,7 @@ value = 101
 ;---------------------------------------------------------------------------
 ;Hourinkazan (Attempt)
 [Statedef 3502]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 4,0
@@ -4080,7 +4080,7 @@ ctrl = 1
 ;------------------------------------------------------------------
 ;Hourinkazan (Success)
 [Statedef 3503]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3503
@@ -4324,7 +4324,7 @@ value = 3504
 ;------------------------------------------------------------------
 ;Hourinkazan (Kirikabu Gaeshi)
 [Statedef 3504]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3504
@@ -4498,10 +4498,10 @@ value = 3505
 ;------------------------------------------------------------------
 ;Hourinkazan (Jiraishin + Kumo Tsukami Nage)
 [Statedef 3505]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 7
+juggle = 7
 poweradd= 0
 velset = 0,0
 anim = 3505
@@ -4640,11 +4640,11 @@ value = 3506
 ;------------------------------------------------------------------
 ;Hourinkazan (Kumo Tsukami Nage Success)
 [Statedef 3506]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3506
-juggle  = 8
+juggle = 8
 sprpriority = 4
 
 [State FDR]
@@ -4808,11 +4808,11 @@ value = 3507
 ;------------------------------------------------------------------
 ;Hourinkazan (Finish)
 [Statedef 3507]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3507
-juggle  = 8
+juggle = 8
 sprpriority = 4
 
 [State 52, Landing Dust Explod]
@@ -4933,11 +4933,11 @@ value = 3508
 ;------------------------------------------------------------------
 ;Hourinkazan (End)
 [Statedef 3508]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3508
-juggle  = 8
+juggle = 8
 sprpriority = 4
 
 [State -3, AfterImage Off]
@@ -5005,7 +5005,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hourinkazan (Gethit 1)
 [Statedef 3520]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -5037,7 +5037,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hourinkazan (Gethit 2)
 [Statedef 3521]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -5071,7 +5071,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hourinkazan (Gethit 3)
 [Statedef 3522]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -5105,7 +5105,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hourinkazan (Gethit 4)
 [Statedef 3523]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,-12
@@ -5161,7 +5161,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Hourinkazan (Gethit 5)
 [Statedef 3524]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -5193,7 +5193,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hourinkazan (Gethit 6)
 [Statedef 3525]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -5390,7 +5390,7 @@ ctrl = 1
 ;-----------------------------------------------------
 ; Kyoutendouchi (P1)
 [Statedef 3610]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3610
@@ -5650,7 +5650,7 @@ value = 3611
 ;------------------------------------------------------------------
 ; Kyoutendouchi (Jiraishin)
 [Statedef 3611]
-type    = S
+type = S
 movetype= I
 physics = N
 poweradd = 0
@@ -5729,7 +5729,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Kyoutendouchi Gethit
 [Statedef 3615]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -5775,7 +5775,7 @@ value = 3616
 
 ; Kyoutendouchi Gethit (Hitadd)
 [Statedef 3616]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -1,0
@@ -5796,7 +5796,7 @@ value = 3066
 ;---------------------------------------------------------------------------
 ; Kyoutendouchi Gethit
 [Statedef 3617]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

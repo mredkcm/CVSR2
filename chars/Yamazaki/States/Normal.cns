@@ -2421,7 +2421,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------------------------------
 ;Throw 1 1st Part
 [Statedef 800]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 14
@@ -2489,7 +2489,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Throw 1 2nd Part
 [Statedef 810]
-type    = S
+type = S
 movetype =  A
 physics = S
 anim = 810
@@ -2596,7 +2596,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Throw 1 3rd Part
 [Statedef 815]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2667,10 +2667,10 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Throw 2 1st Part
 [Statedef 820]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 820
@@ -2733,7 +2733,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Throw 2 2nd Part
 [Statedef 821]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -2928,7 +2928,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Throw 2 3rd Part
 [Statedef 825]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -2976,7 +2976,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Throw 2 4th Part
 [Statedef 826]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0

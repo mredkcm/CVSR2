@@ -577,7 +577,7 @@ trigger3= root,stateno=1220 && root,animelemtime(7)>=0
 
 ;High Hit
 [Statedef 2003]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -618,7 +618,7 @@ ctrl = 1
 
 ;Low Hit
 [Statedef 2004]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -658,7 +658,7 @@ ctrl = 1
 
 ;Super High Hit
 [Statedef 2005]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -704,7 +704,7 @@ ctrl = 1
 
 ;Tivaci Upper
 [Statedef 2006]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -751,7 +751,7 @@ ctrl = 1
 
 ;Uppercut
 [Statedef 5059]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -797,7 +797,7 @@ ctrl = 1
 
 ;Stomach Blow
 [Statedef 5063]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -837,7 +837,7 @@ value = 1125
 
 ;Gaia GetHit 1
 [Statedef 3001]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -900,7 +900,7 @@ value = 5100
 
 ;Gaia GetHit 2
 [Statedef 3002]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -924,7 +924,7 @@ value = 3003
 
 ;Gaia GetHit 3
 [Statedef 3003]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = -15,0
@@ -953,10 +953,10 @@ value = 3004
 
 ;Gaia GetHit 4
 [Statedef 3004]
-type    = A
+type = A
 movetype= H
 physics = N
-;juggle  = 8
+;juggle = 8
 ctrl = 0
 velset=0,0
 
@@ -991,10 +991,10 @@ ctrl=0
 
 ;Gaia GetHit 5
 [Statedef 3005]
-type    = A
+type = A
 movetype= H
 physics = N
-;juggle  = 8
+;juggle = 8
 ctrl = 0
 velset=0,0
 
@@ -1046,7 +1046,7 @@ value=5100
 ctrl=0
 
 [Statedef 3006]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -3280,7 +3280,7 @@ trigger1 = RoundState < 3
 
 ;Second Step Connect
 [Statedef 5052]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3575,7 +3575,7 @@ ctrl=0
 
 ;Wall Fall
 [Statedef 1332]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1

@@ -1,7 +1,7 @@
 ; Standing Light Punch
 
 [Statedef 200]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -48,7 +48,7 @@ fall.animType = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 12 + 2 * var(9)
-ground.hittime  = 12 + 2 * var(9)
+ground.hittime = 12 + 2 * var(9)
 guard.hittime = 12
 ground.velocity = ifElse(var(20), -2.25, -5.5), 0
 guard.velocity = ifElse(var(20), -2.25, -5.5)
@@ -79,7 +79,7 @@ ctrl = 1
 ; Close Light Punch
 
 [Statedef 201]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -126,7 +126,7 @@ fall.animType = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 12 + 2 * var(9)
-ground.hittime  = 12 + 2 * var(9)
+ground.hittime = 12 + 2 * var(9)
 guard.hittime = 12
 ground.velocity = ifElse(var(20), -2.25, -5.5), 0
 guard.velocity = ifElse(var(20), -2.25, -5.5)
@@ -158,7 +158,7 @@ ctrl = 1
 ; Standing Medium Punch
 ;CNS Difficulty: easy
 [Statedef 210]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -236,7 +236,7 @@ ctrl = 1
 ; Close Medium Punch
 ;CNS Difficulty: easy
 [Statedef 211]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -314,7 +314,7 @@ ctrl = 1
 ; Helm Chop
 ;CNS Difficulty: easy
 [Statedef 215]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -446,7 +446,7 @@ ctrl = 1
 ; Helm Chop v2
 ;CNS Difficulty: easy
 [Statedef 216]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -535,7 +535,7 @@ ctrl = 1
 ; Standing Strong Punch
 
 [Statedef 220]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -613,7 +613,7 @@ ctrl = 1
 ; Close Strong Punch
 
 [Statedef 221]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -734,7 +734,7 @@ ctrl = 1
 ; Dodge Punch
 
 [Statedef 222]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -817,7 +817,7 @@ ctrl = 1
 ; Z-Counter Punch
 
 [Statedef 225]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 0
@@ -907,7 +907,7 @@ ctrl = 1
 ; Standing Light Kick
 
 [Statedef 230]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 10 * !var(20)
@@ -991,7 +991,7 @@ ctrl = 1
 ; Standing Medium Kick
 
 [Statedef 240]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -1069,7 +1069,7 @@ ctrl = 1
 ; Close Medium Kick
 
 [Statedef 241]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -1153,7 +1153,7 @@ ctrl = 1
 ; Standing Strong Kick
 
 [Statedef 250]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -1231,7 +1231,7 @@ ctrl = 1
 ; Close Strong Kick
 
 [Statedef 251]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -1352,7 +1352,7 @@ ctrl = 1
 ; Crouching Light Punch
 
 [Statedef 400]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 10 * !var(20)
@@ -1431,7 +1431,7 @@ ctrl = 1
 ; Crouching Medium Punch
 
 [Statedef 410]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 20 * !var(20)
@@ -1509,7 +1509,7 @@ ctrl = 1
 ; Crouching Strong Punch
 ;CNS difficulty: easy
 [Statedef 420]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 30 * !var(20)
@@ -1631,7 +1631,7 @@ ctrl = 1
 ; Crouching Light Kick
 
 [Statedef 430]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 10 * !var(20)
@@ -1710,7 +1710,7 @@ ctrl = 1
 ;Crouch Medium Kick
 
 [Statedef 440]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 20 * !var(20)
@@ -1794,7 +1794,7 @@ ctrl = 1
 ; Crouch Strong Kick
 
 [Statedef 450]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd = 30 * !var(20)
@@ -1882,7 +1882,7 @@ ctrl = 1
 ; Z-Counter Version
 
 [Statedef 451]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd = 0
@@ -1977,7 +1977,7 @@ ctrl = 1
 ; Jump Light Punch
 
 [Statedef 600]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 10 * !var(20)
@@ -2019,8 +2019,8 @@ hitsound = S2, 0
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 2*var(9)
-ground.hittime  = 12 + 2*var(9)
-guard.hittime  = 12
+ground.hittime = 12 + 2*var(9)
+guard.hittime = 12
 ground.velocity = ifElse(var(20), -2.25, -4.5), 0
 guard.velocity = ifElse(var(20), -2.25, -4.5)
 airguard.ctrlTime = 16
@@ -2059,7 +2059,7 @@ value = 52
 ; Jump Medium Punch
 
 [Statedef 610]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 20 * !var(20)
@@ -2101,8 +2101,8 @@ hitsound = S2, 1
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 3*var(9)
-ground.hittime  = 12 + 3*var(9)
-guard.hittime  = 15
+ground.hittime = 12 + 3*var(9)
+guard.hittime = 15
 ground.velocity = ifElse(var(20), -2.5, -5), 0
 guard.velocity = ifElse(var(20), -3.5, -7)
 air.animType = Back
@@ -2141,7 +2141,7 @@ value = 52
 ; Jump Strong Punch
 
 [Statedef 620]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 30 * !var(20)
@@ -2183,8 +2183,8 @@ hitsound = S2, 2
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 4*var(9)
-ground.hittime  = 12 + 4*var(9)
-guard.hittime  = 18
+ground.hittime = 12 + 4*var(9)
+guard.hittime = 18
 ground.velocity = ifElse(var(20), -2.5, -5), 0
 guard.velocity = ifElse(var(20), -4.5, -9)
 air.animType = Back
@@ -2223,7 +2223,7 @@ value = 52
 ; Jump Light Kick
 
 [Statedef 630]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 10 * !var(20)
@@ -2267,7 +2267,7 @@ air.animType = Back
 fall.animType = Back
 ground.type = High
 ground.slidetime = 12 + 2*var(9)
-ground.hittime  = 12 + 2*var(9)
+ground.hittime = 12 + 2*var(9)
 guard.hittime = 12
 ground.velocity = ifElse(var(20), -2.25, -4.5), 0
 guard.velocity = ifElse(var(20), -2.25, -4.5)
@@ -2304,7 +2304,7 @@ value = 52
 ; Jump Light Kick(no vel X)
 
 [Statedef 631]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 10 * !var(20)
@@ -2348,7 +2348,7 @@ air.animType = Back
 fall.animType = Back
 ground.type = High
 ground.slidetime = 12 + 2*var(9)
-ground.hittime  = 12 + 2*var(9)
+ground.hittime = 12 + 2*var(9)
 guard.hittime = 12
 ground.velocity = ifElse(var(20), -2.25, -4.5), 0
 guard.velocity = ifElse(var(20), -2.25, -4.5)
@@ -2386,7 +2386,7 @@ value = 52
 ; Jump Medium Kick
 
 [Statedef 640]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 20 * !var(20)
@@ -2428,7 +2428,7 @@ hitsound = S2, 4
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 3*var(9)
-ground.hittime  = 12 + 3*var(9)
+ground.hittime = 12 + 3*var(9)
 guard.hittime = 15
 ground.velocity = ifElse(var(20), -2.5, -5), 0
 guard.velocity = ifElse(var(20), -3.5, -7)
@@ -2467,7 +2467,7 @@ value = 52
 ; Jump Medium Kick(no vel x)
 
 [Statedef 641]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 20 * !var(20)
@@ -2509,7 +2509,7 @@ hitsound = S2, 4
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 3*var(9)
-ground.hittime  = 12 + 3*var(9)
+ground.hittime = 12 + 3*var(9)
 guard.hittime = 15
 ground.velocity = ifElse(var(20), -2.5, -5), 0
 guard.velocity = ifElse(var(20), -3.5, -7)
@@ -2548,7 +2548,7 @@ value = 52
 ; Dive Kick
 
 [Statedef 645]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 20 * !var(20)
@@ -2602,7 +2602,7 @@ hitsound = S2, 4
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 3*var(9)
-ground.hittime  = 12 + 3*var(9)
+ground.hittime = 12 + 3*var(9)
 guard.hittime = 12
 ground.velocity = ifElse(var(20), -2.5, -5), 0
 guard.velocity = ifElse(var(20), -3.5, -7)
@@ -2633,7 +2633,7 @@ value = 52
 ; Jump Strong Kick
 
 [Statedef 650]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 30 * !var(20)
@@ -2675,7 +2675,7 @@ hitsound = S2, 5
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 4*var(9)
-ground.hittime  = 12 + 4*var(9)
+ground.hittime = 12 + 4*var(9)
 guard.hittime = 18
 ground.velocity = ifElse(var(20), -2.5, -5), 0
 guard.velocity = ifElse(var(20), -4.5, -9)
@@ -2712,7 +2712,7 @@ value = 52
 ; Jump Strong Kick(no vel x)
 
 [Statedef 651]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 30 * !var(20)
@@ -2754,7 +2754,7 @@ hitsound = S2, 5
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 4*var(9)
-ground.hittime  = 12 + 4*var(9)
+ground.hittime = 12 + 4*var(9)
 guard.hittime = 18
 ground.velocity = ifElse(var(20), -2.5, -5), 0
 guard.velocity = ifElse(var(20), -4.5, -9)
@@ -2790,10 +2790,10 @@ value = 52
 
 ;==================<THROW ATTEMPT>==================
 [Statedef 800]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 800
@@ -3196,7 +3196,7 @@ value = 5050
 
 ;===========<Shoulder Throw (TARGET FALL)>================
 [Statedef 821]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 6,-6
@@ -3423,7 +3423,7 @@ value = 5050
 
 ;===========<Shoulder Throw (TARGET FALL)>================
 [Statedef 841]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 5.5,-6.5

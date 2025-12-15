@@ -1882,10 +1882,10 @@ value=52
 ;---------------------------------------------------------------------------
 ;Throw - Attempt
 [Statedef 800]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 800
@@ -1940,7 +1940,7 @@ ctrl = 1
 ;--------------------------------------------------------------------
 ; Throw - Attempt
 [Statedef 810]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 810
@@ -2130,7 +2130,7 @@ ctrl = 1
 ;--------------------------------------------------------------------
 ; Throw - Attempt
 [Statedef 820]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2157,7 +2157,7 @@ value = 825
 ;--------------------------------------------------------------------
 ; Throw - Attempt
 [Statedef 825]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2196,7 +2196,7 @@ value = 5110
 ;--------------------------------------------------------------------
 ; Throw - Attempt
 [Statedef 821]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2232,7 +2232,7 @@ value = 826
 ;--------------------------------------------------------------------
 ; Throw - Attempt
 [Statedef 826]
-type    = S
+type = S
 movetype= H
 physics = N
 
@@ -2276,7 +2276,7 @@ value = 890
 ;--------------------------------------------------------------------
 ;Throw P2 State
 [Statedef 890]
-type    = L
+type = L
 movetype= H
 physics = N
 anim = 5170
@@ -2325,7 +2325,7 @@ value = ifelse(alive=1,5120,5150)
 ;--------------------------------------------------------------------
 ;Throw - Attempt
 [Statedef 880]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 880
@@ -2372,7 +2372,7 @@ value = 881
 ;--------------------------------------------------------------------
 ;Throw - Attempt
 [Statedef 881]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -2482,7 +2482,7 @@ ctrl = 1
 ;--------------------------------------------------------------------
 ;Throw - Attempt
 [Statedef 891]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2520,7 +2520,7 @@ value = ifelse(alive=1,5120,5150)
 ;--------------------------------------------------------------------
 ;Throw - Attempt
 [Statedef 892]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2564,7 +2564,7 @@ value = 5110
 ;--------------------------------------------------------------------
 ;Throw - Attempt
 [Statedef 830]
-type    = S
+type = S
 movetype= I
 physics = N
 anim = 830
@@ -2639,7 +2639,7 @@ ctrl = 1
 ;--------------------------------------------------------------------
 ;Throw - Attempt
 [Statedef 840]
-type    = S
+type = S
 movetype= H
 physics = N
 ctrl = 0
@@ -2704,7 +2704,7 @@ ctrl = 1
 ;--------------------------------------------------------------------
 ;Throw - Attempt
 [Statedef 845]
-type    = S
+type = S
 movetype= H
 physics = N
 ctrl = 0
@@ -2745,10 +2745,10 @@ ctrl = 1
 ;--------------------------------------------------------------------
 ;Throw - Attempt
 [Statedef 850]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 800
@@ -2817,7 +2817,7 @@ ctrl = 1
 ;--------------------------------------------------------------------
 ;Throw - Attempt
 [Statedef 860]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 860
@@ -3065,7 +3065,7 @@ ctrl = 1
 ;--------------------------------------------------------------------
 ;Throw - Attempt
 [Statedef 870]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3092,7 +3092,7 @@ value = 875
 ;--------------------------------------------------------------------
 ;Throw - Attempt
 [Statedef 875]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

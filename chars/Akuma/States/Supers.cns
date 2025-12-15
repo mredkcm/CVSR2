@@ -1,6 +1,6 @@
 ;======================<Messatsu Goushouryu>===================
 [Statedef 3000]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -207,7 +207,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -0.5,0
 air.velocity = -3.5,-2
@@ -253,7 +253,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -0.5,0
 air.velocity = -3.5,-2
@@ -347,7 +347,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -0.5,-6
 air.velocity = -0.5,-6
@@ -392,7 +392,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -0.5,-6
 air.velocity = -0.5,-6
@@ -437,7 +437,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -2.5,-9
 air.velocity = -2.5,-9
@@ -523,7 +523,7 @@ ctrl = 1
 
 ;======================<Messatsu Goushouryu MAX>===================
 [Statedef 3050]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -728,7 +728,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -0.5,0
 air.velocity = -3.85,-1.5
@@ -774,7 +774,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -0.5,0
 air.velocity = -3.85,-1.5
@@ -820,7 +820,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -0.5,0
 air.velocity = -3.85,-1.5
@@ -866,7 +866,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -0.5,0
 air.velocity = -3.85,-1.5
@@ -912,7 +912,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -0.5,0
 air.velocity = -3.85,-1.5
@@ -1006,7 +1006,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -0.5,-6
 air.velocity = -0.5,-6
@@ -1051,7 +1051,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -0.5,-6
 air.velocity = -0.5,-6
@@ -1096,7 +1096,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4.5,-9
 air.velocity = -4.5,-9
@@ -1145,7 +1145,7 @@ value = 3001
 
 ;======================<Messatsu Gouhadou>===================
 [Statedef 3100]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -1327,7 +1327,7 @@ ctrl = 1
 
 ;======================<Messatsu Gouhadou MAX>===================
 [Statedef 3150]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -1503,7 +1503,7 @@ ctrl = 1
 
 ;======================<Tenma Zanku>===================
 [Statedef 3200]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -1651,7 +1651,7 @@ value = 1201
 
 ;======================<Tenma Zanku MAX>===================
 [Statedef 3250]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -1793,7 +1793,7 @@ value = 1201
 
 ;======================<Messatsu Gorasen>===================
 [Statedef 3300]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -1986,7 +1986,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = ifelse(p2bodydist x>15,2,0),-6
 air.velocity = ifelse(p2bodydist x>15,2,0),-5
@@ -2035,7 +2035,7 @@ fall.animtype = Up
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = ifelse(p2bodydist x>15,1.5,0),-10
 air.velocity = ifelse(p2bodydist x>15,1.5,0), (vel y - 1.5)
@@ -2084,7 +2084,7 @@ fall.animtype = Up
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = ifelse(p2bodydist x>15,1.5,0),-10
 air.velocity = ifelse(p2bodydist x>15,1.5,0), (vel y - 1.5)
@@ -2130,7 +2130,7 @@ fall.animtype = DiagUp
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -7,-2
 air.velocity = -7,-2
@@ -2202,7 +2202,7 @@ ctrl = 1
 
 ;======================<Messatsu Gousenpuu>===================
 [Statedef 3310]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -2375,7 +2375,7 @@ fall.animtype = Up
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = ifelse(p2bodydist x>15,1.5,0),-10
 air.velocity = ifelse(p2bodydist x>15,1.5,0), (vel y - 1.55)
@@ -2424,7 +2424,7 @@ fall.animtype = Up
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = ifelse(p2bodydist x>15,1.5,0),-10
 air.velocity = ifelse(p2bodydist x>15,1.5,0), (vel y - 1.55)
@@ -2471,7 +2471,7 @@ fall.animtype = DiagUp
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -7,-2
 air.velocity = -7,-2
@@ -2506,7 +2506,7 @@ value = 3305
 
 ;======================<MAX Messatsu Gorasen>===================
 [Statedef 3350]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -2699,7 +2699,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = ifelse(p2bodydist x>15,2,0),-6
 air.velocity = ifelse(p2bodydist x>15,2,0),-5
@@ -2748,7 +2748,7 @@ fall.animtype = Up
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = ifelse(p2bodydist x>15,1.5,0),-10
 air.velocity = ifelse(p2bodydist x>15,1.5,0), (vel y - 1.5)
@@ -2797,7 +2797,7 @@ fall.animtype = Up
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = ifelse(p2bodydist x>15,1.5,0),-10
 air.velocity = ifelse(p2bodydist x>15,1.5,0), (vel y - 1.5)
@@ -2843,7 +2843,7 @@ fall.animtype = DiagUp
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -7,-2
 air.velocity = -7,-2
@@ -2915,7 +2915,7 @@ ctrl = 1
 
 ;======================<MAX Messatsu Gousenpuu>===================
 [Statedef 3360]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -3088,7 +3088,7 @@ fall.animtype = Up
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = ifelse(p2bodydist x>15,1.5,0),-10
 air.velocity = ifelse(p2bodydist x>15,1.5,0), (vel y - 1.55)
@@ -3137,7 +3137,7 @@ fall.animtype = Up
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = ifelse(p2bodydist x>15,1.5,0),-10
 air.velocity = ifelse(p2bodydist x>15,1.5,0), (vel y - 1.55)
@@ -3184,7 +3184,7 @@ fall.animtype = DiagUp
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -7,-2
 air.velocity = -7,-2
@@ -3220,7 +3220,7 @@ value = 3305
 
 ;======================<Kongou Kokuretsu Zan>===================
 [Statedef 3400]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -3455,7 +3455,7 @@ ctrl = 1
 
 ;======================<Shun Goku Satsu>===================
 [Statedef 3500]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0

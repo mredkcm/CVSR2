@@ -1,6 +1,6 @@
 ;======================<SOUL PHOENIX>===================
 [Statedef 3000]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -136,7 +136,7 @@ ctrl = 1
 
 ;======================<AIR SOUL PHOENIX>===================
 [Statedef 3020]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -283,7 +283,7 @@ value = 1135
 
 ;======================<MAX SOUL PHOENIX>===================
 [Statedef 3050]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -413,7 +413,7 @@ ctrl = 1
 
 ;======================<AIR MAX SOUL PHOENIX>===================
 [Statedef 3060]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -554,7 +554,7 @@ value = 1135
 
 ;======================<CARDINAL BLADE>===================
 [Statedef 3100]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -732,7 +732,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -3.5, -10
 air.velocity = -3.5,-10
@@ -777,7 +777,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -3.5, -10
 air.velocity = -3.5,-10
@@ -822,7 +822,7 @@ fall.animtype = Up
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -3.5, -10
 air.velocity = -3.5, -10
@@ -867,7 +867,7 @@ fall.animtype = Up
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -3.5, -10
 air.velocity = -3.5, -10
@@ -901,7 +901,7 @@ value = 1205
 
 ;======================<MAX CARDINAL BLADE(NORMAL)>===================
 [Statedef 3110]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -1079,7 +1079,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -3.5, -10
 air.velocity = -3.5,-10
@@ -1124,7 +1124,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -3.5, -10
 air.velocity = -3.5,-10
@@ -1169,7 +1169,7 @@ fall.animtype = Up
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -3.5, -10
 air.velocity = -3.5, -10
@@ -1214,7 +1214,7 @@ fall.animtype = Up
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -3.5, -10
 air.velocity = -3.5, -10
@@ -1248,7 +1248,7 @@ value = 1205
 
 ;======================<SILHOUETTE BLADE(ARRANGED)>===================
 [Statedef 3150]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -1441,7 +1441,7 @@ ctrl = 1
 
 ;======================<VALKYRIE TURN>===================
 [Statedef 3200]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -1590,7 +1590,7 @@ value = 3201
 
 ;Return Trip
 [Statedef 3201]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -1691,7 +1691,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 16;18
-ground.hittime  = 16
+ground.hittime = 16
 guard.hittime = 16
 ground.velocity = -4.5, 0
 air.velocity = -2, -1.89
@@ -1720,7 +1720,7 @@ value = 1135
 
 ;======================<MAX VALKYRIE TURN>===================
 [Statedef 3250]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -1869,7 +1869,7 @@ value = 3251
 
 ;MAX Return Trip
 [Statedef 3251]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -1970,7 +1970,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 16;18
-ground.hittime  = 16
+ground.hittime = 16
 guard.hittime = 16
 ground.velocity = -4.5, 0
 air.velocity = -2, -1.89
@@ -1999,7 +1999,7 @@ value = 1135
 
 ;======================<FINISHING SHOWER>===================
 [Statedef 3300]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -2200,7 +2200,7 @@ ctrl = 1
 
 ;======================<DARKNESS ILLUSION>===================
 [Statedef 3400]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -2334,7 +2334,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -10, 0
 air.velocity = -5,-5
@@ -2541,7 +2541,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, 0
 air.velocity = 0,-1.5
@@ -2586,7 +2586,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, 0
 air.velocity = 0,-1.5
@@ -2631,7 +2631,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, 0
 air.velocity = 0,-1.5
@@ -2676,7 +2676,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, 0
 air.velocity = 0,-1.5
@@ -2721,7 +2721,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, 0
 air.velocity = 0,-1.5
@@ -2766,7 +2766,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, 0
 air.velocity = 0,-1.5
@@ -2811,7 +2811,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, 0
 air.velocity = 0,-1.5
@@ -2856,7 +2856,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, 0
 air.velocity = 0,-1.5
@@ -2901,7 +2901,7 @@ fall.animtype = Up
 ground.type = High
 air.type = Low
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, -13.5
 air.velocity = 0,-12.5
@@ -2946,7 +2946,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, -5
 air.velocity = 0,-2.5
@@ -2990,7 +2990,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, -5
 air.velocity = 0,-2.5
@@ -3034,7 +3034,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, -5
 air.velocity = 0,-2.5
@@ -3078,7 +3078,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, -5
 air.velocity = 0,-2.5
@@ -3122,7 +3122,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, -5
 air.velocity = 0,-4
@@ -3166,7 +3166,7 @@ fall.animtype = Back
 ground.type = Trip
 air.type = Trip
 ground.slidetime = 32
-ground.hittime  = 32
+ground.hittime = 32
 guard.hittime = 18
 ground.velocity = 0, 4
 air.velocity = 0,8.75

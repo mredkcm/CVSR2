@@ -10,8 +10,8 @@ life = 1000
 power = 3000
 attack = 100
 defence = 100
-fall.defence_up   = 30
-liedown.time      = 50
+fall.defence_up = 30
+lieDown.time = 15
 airjuggle = 15
 sparkno = -1 + 0 * (var(33) := 8010)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
@@ -278,7 +278,7 @@ time = 1
 ;---------------------------------------------------------------------------
 ; WIN
 [Statedef 180]
-type   = S
+type = S
 velset = 0
 
 [State 180, 1]
@@ -770,10 +770,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; STAND_CD
 [Statedef 650]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 poweradd= 55
 velset= 0
 ctrl = 0
@@ -799,7 +799,7 @@ triggerall = anim = 650
 trigger1 = Time = 0
 attr = S, NA
 animtype = Back
-damage    = 80
+damage = 80
 hitflag = MAF
 guardflag = MA
 pausetime = 12,15
@@ -810,7 +810,7 @@ hitsound = S2,4
 guardsound = s10,7
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -8,0
 guard.velocity = -6
 air.velocity = -7,38
@@ -827,7 +827,7 @@ triggerall = anim = 250
 trigger1 = Time = 0
 attr = S, NA
 animtype = Back
-damage    = 50
+damage = 50
 hitflag = MAF
 guardflag = MA
 pausetime = 12,15
@@ -838,7 +838,7 @@ hitsound = S2,4
 guardsound = s10,7
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -8,0
 guard.velocity = -6
 air.velocity = -7,-4
@@ -857,10 +857,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;JUMP_CD
 [Statedef 660]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 8
+juggle = 8
 poweradd= 70
 ctrl = 0
 anim = 660
@@ -875,7 +875,7 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = Time = 0
 attr = A, NA
-damage    = 81
+damage = 81
 hitflag = MAF
 guardflag = HA
 priority = 4
@@ -887,7 +887,7 @@ hitsound = S2,4
 guardsound = s10,7
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -4.5,0
 guard.velocity = -7
 air.velocity = -5,-4
@@ -900,10 +900,10 @@ air.cornerpush.veloff = -12.5
 ;---------------------------------------------------------------------------
 ; Stand A
 [Statedef 200]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 velset = 0
 anim = 200
 ctrl = 0
@@ -960,10 +960,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Stand A (Close)
 [Statedef 205]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 velset = 0
 anim = 205
 ctrl = 0
@@ -1020,10 +1020,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; STAND B
 [Statedef 210]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 velset = 0
 anim = 210
 ctrl = 0
@@ -1085,10 +1085,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Weak Kick (Close)
 [Statedef 215]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 velset = 0
 anim = 215
 ctrl = 0
@@ -1144,10 +1144,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Stand X
 [Statedef 220]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 velset = 0
 anim = 220
 ctrl = 0
@@ -1204,10 +1204,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Stand X (Close)
 [Statedef 225]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 velset = 0
 anim = 225
 ctrl = 0
@@ -1288,7 +1288,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Stand Y
 [Statedef 230]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -1357,10 +1357,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Stand Y (Close)
 [Statedef 235]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 velset = 0
 anim = 235
 ctrl = 0
@@ -1443,7 +1443,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Shou Kyaku Hou
 [Statedef 240]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 240
@@ -1459,7 +1459,7 @@ value = 241
 ;---------------------------------------------------------------------------
 ; Shou Kyaku Hou
 [Statedef 241]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 241
@@ -1495,7 +1495,7 @@ value = 242
 ;---------------------------------------------------------------------------
 ;Shou Kyaku Hou
 [Statedef 242]
-type    = S
+type = S
 movetype= A
 physics = S
 ownpal = 1
@@ -1538,21 +1538,21 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem = 5
 attr = S, HA
-animtype  = up
-damage    = 70,4
-getpower  = 30
+animtype = up
+damage = 70,4
+getpower = 30
 givepower = 30
-priority  = 5
+priority = 5
 guardflag = MA
 pausetime = 12,12
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s10,6
 sparkno = -1 + 0 * (var(33) := 8010)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -80
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 ground.type = Low
 ground.slidetime = 22
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -2.5, -8
 air.velocity = -3,-6
 fall.animtype = Hard
@@ -1578,10 +1578,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch_A
 [Statedef 400]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 8
+juggle = 8
 velset = 0
 ctrl = 0
 anim = 400
@@ -1637,10 +1637,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch_B
 [Statedef 410]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 8
+juggle = 8
 velset = 0
 ctrl = 0
 anim = 410
@@ -1698,10 +1698,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch_X
 [Statedef 420]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 8
+juggle = 8
 velset = 0
 ctrl = 0
 anim = 420
@@ -1757,10 +1757,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch_Y
 [Statedef 430]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 8
+juggle = 8
 velset = 0
 ctrl = 0
 anim = 430
@@ -1788,18 +1788,18 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem = 4
 attr = C, NA
-damage   = 75
+damage = 75
 hitflag = MAF
 guardflag = L
 pausetime = 10,10
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -13
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s10,6
 sparkno = -1 + 0 * (var(33) := 8010)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 ground.type = Trip
 ground.slidetime = 18
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -2,-4   
 guard.velocity = -5
 air.velocity = -3,-3
@@ -1818,10 +1818,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;JUMP_A
 [Statedef 600]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 8
+juggle = 8
 poweradd= 11
 ctrl = 0
 anim = 600
@@ -1848,8 +1848,8 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = Time = 0
 attr = A, NA
-damage    = 33
-getpower  = 10
+damage = 33
+getpower = 10
 givepower = 10
 guardflag = HA
 priority = 3
@@ -1857,12 +1857,12 @@ pausetime = 7,8
 sparkno = -1 + 0 * (var(33) := 8010)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -20
 guard.sparkno = -1 + 0 * (var(34) := 8000)
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s10,6
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 5
-air.hittime  = 5
+ground.hittime = 5
+air.hittime = 5
 ground.velocity = -4
 air.velocity = -1.3,-3
 hitflag = MAF
@@ -1873,10 +1873,10 @@ air.cornerpush.veloff = -6
 ;---------------------------------------------------------------------------
 ;JUMP_B
 [Statedef 610]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 8
+juggle = 8
 poweradd= 55
 ctrl = 0
 anim = 610
@@ -1903,8 +1903,8 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = Time = 0
 attr = A, NA
-damage    = 33
-getpower  = 50
+damage = 33
+getpower = 50
 givepower = 25
 guardflag = HA
 priority = 3
@@ -1912,12 +1912,12 @@ pausetime = 7,8
 sparkno = -1 + 0 * (var(33) := 8010)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -50
 guard.sparkno = -1 + 0 * (var(34) := 8000)
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s10,6
 ground.type = High
 ground.slidetime = 9
-ground.hittime  = 9
-air.hittime  = 9
+ground.hittime = 9
+air.hittime = 9
 ground.velocity = -4
 air.velocity = -1.3,-3
 hitflag = MAF
@@ -1928,10 +1928,10 @@ air.cornerpush.veloff = -6
 ;---------------------------------------------------------------------------
 ;JUMP_X
 [Statedef 620]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 8
+juggle = 8
 poweradd= 11
 ctrl = 0
 anim = 620
@@ -1958,22 +1958,22 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = Time = 0
 attr = A, NA
-damage    = 70
-getpower  = 10
+damage = 70
+getpower = 10
 givepower = 10
 guardflag = HA
 hitflag = MAF
 priority = 3
 pausetime = 10,11
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s10,6
 sparkno = -1 + 0 * (var(33) := 8010)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -60
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 17
-air.hittime  = 15
+ground.hittime = 17
+air.hittime = 15
 ground.velocity = -4
 air.velocity = -3,-3
 hitflag = MAF
@@ -1984,10 +1984,10 @@ air.cornerpush.veloff = -9
 ;---------------------------------------------------------------------------
 ;JUMP_Y
 [Statedef 630]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 8
+juggle = 8
 poweradd= 55
 ctrl = 0
 anim = 630
@@ -2014,8 +2014,8 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = Time = 0
 attr = A, NA
-damage    = 75
-getpower  = 50
+damage = 75
+getpower = 50
 givepower = 25
 guardflag = HA
 priority = 3
@@ -2023,12 +2023,12 @@ pausetime = 10,11
 sparkno = -1 + 0 * (var(33) := 8010)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -60
 guard.sparkno = -1 + 0 * (var(34) := 8000)
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s10,6
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 18
-air.hittime  = 18
+ground.hittime = 18
+air.hittime = 18
 ground.velocity = -4
 air.velocity = -3,-3
 hitflag = MAF
@@ -2039,11 +2039,11 @@ air.cornerpush.veloff = -9
 ;---------------------------------------------------------------------------
 ; Taunt
 [Statedef 195]
-type    = S
+type = S
 movetype= I
 physics = S
 velset = 0,0
-juggle  = 8
+juggle = 8
 anim = 280
 ctrl = 0
 poweradd = 100
@@ -3070,7 +3070,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Being Thrown
 [Statedef 802]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -3094,7 +3094,7 @@ value = 803
 ;---------------------------------------------------------------------------
 ; Being Thrown 2
 [Statedef 803]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0
@@ -3210,7 +3210,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Reverse Being Thrown
 [Statedef 812]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -3234,7 +3234,7 @@ value = 813
 ;---------------------------------------------------------------------------
 ; Reverse Being Thrown 2
 [Statedef 813]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0
@@ -4202,7 +4202,7 @@ postype = right
 ;光效初始位置
 ;--------------------------------------------------------------
 [Statedef 23680]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -4246,7 +4246,7 @@ pos = (1+ifelse(Parent,fvar(36) = 1,-1,0)+ifelse(Parent,fvar(36) = 2,-2,0))*ifel
 ;光效左
 ;--------------------------------------------------------------
 [Statedef 23681]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -4271,7 +4271,7 @@ value = SCA
 ;光效右
 ;--------------------------------------------------------------
 [Statedef 23682]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0

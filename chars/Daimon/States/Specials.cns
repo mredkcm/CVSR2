@@ -133,7 +133,7 @@ triggerall = (var(15)<8 || var(20))
 trigger1 = p2statetype = S
 trigger1 = var(10)!=3&&!time
 attr = A, ST
-animtype  = hard
+animtype = hard
 damage=80+10*var(10)
 getpower = 0,0
 hitflag = H
@@ -142,11 +142,11 @@ pausetime = 0,12
 sparkno = -1
 guard.sparkno = -1
 sparkXY=-10 + 0 * (var(35) := 100), var(36) := 9999
-hitsound   = s2,6
+hitsound = s2,6
 guardsound = s130,0
 ground.type = trip
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -1.8,-5.5
 down.velocity = -1.8,-5.5
 yaccel = 0.46
@@ -163,7 +163,7 @@ triggerall = (var(15)<8 || var(20))
 trigger1 = p2statetype = L
 trigger1 = var(10)!=3&&!time
 attr = A, ST
-animtype  = hard
+animtype = hard
 damage=30+10*var(10)
 getpower = 0,0
 hitflag = FD
@@ -172,11 +172,11 @@ pausetime = 0,12
 sparkno = -1
 guard.sparkno = -1
 sparkXY=-10 + 0 * (var(35) := 100), var(36) := 9999
-hitsound   = s2,6
+hitsound = s2,6
 guardsound = s130,0
 ground.type = trip
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -1.8,-5.5
 down.velocity = -1.8,-5.5
 yaccel = 0.46
@@ -193,7 +193,7 @@ triggerall = (var(15)<8 || var(20))
 trigger1 = p2statetype = S
 trigger1 = var(10)=3&&!time
 attr = A, ST
-animtype  = hard
+animtype = hard
 damage=80+10*var(10)
 getpower = 0,0
 hitflag = H
@@ -202,11 +202,11 @@ pausetime = 0,12
 sparkno = -1
 guard.sparkno = -1
 sparkXY=-10 + 0 * (var(35) := 100), var(36) := 9999
-hitsound   = s2,6
+hitsound = s2,6
 guardsound = s130,0
 ground.type = trip
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -1.8,-5.5
 down.velocity = -1.8,-5.5
 yaccel = 0.46
@@ -224,7 +224,7 @@ triggerall = (var(15)<8 || var(20))
 trigger1 = p2statetype = L
 trigger1 = var(10)=3&&!time
 attr = A, ST
-animtype  = hard
+animtype = hard
 damage=30+10*var(10)
 getpower = 0,0
 hitflag = FD
@@ -233,11 +233,11 @@ pausetime = 0,12
 sparkno = -1
 guard.sparkno = -1
 sparkXY=-10 + 0 * (var(35) := 100), var(36) := 9999
-hitsound   = s2,6
+hitsound = s2,6
 guardsound = s130,0
 ground.type = trip
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -1.8,-5.5
 down.velocity = -1.8,-5.5
 yaccel = 0.46
@@ -813,7 +813,7 @@ ctrl = 1
 ;----------------------------------------------------------------------
 ;Kumo Tsukami Nage
 [Statedef 1200]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd = 72 * !var(20)
@@ -856,8 +856,8 @@ type = HitDef
 triggerall = (var(15)<8 || var(20))
 trigger1 = !time
 attr = S, SA
-animtype  = hard
-damage    = 0, 0
+animtype = hard
+damage = 0, 0
 priority = 7, Hit
 getpower = 76,76
 hitflag = MAF
@@ -908,7 +908,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Kumo Tsukami Nage (P1)
 [Statedef 1210]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1210
@@ -1140,7 +1140,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Kumo Tsukami Nage Gethit
 [Statedef 1215]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1165,7 +1165,7 @@ movecamera = 1
 ;----------------------------------------------------------------------
 ; Kumo Tsukami Nage/Kirikabu Gaeshi 2
 [Statedef 1216]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1210,7 +1210,7 @@ value = 5100
 ;----------------------------------------------------------------------
 ; Kumo Tsukami Nage/Kirikabu Gaeshi Gethit Finish (Custom Combo)
 [Statedef 1217]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1331,8 +1331,8 @@ type = HitDef
 triggerall = (var(15)<8 || var(20))
 trigger1 = !time
 attr = S, SA
-animtype  = hard
-damage    = 0, 0
+animtype = hard
+damage = 0, 0
 priority = 7, Hit
 getpower = 76,76
 hitflag = MAF
@@ -1383,7 +1383,7 @@ ctrl = 1
 ;----------------------------------------------------------------------
 ;Kirikabu Gaeshi
 [Statedef 1300]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd = 72 * !var(20)
@@ -1429,8 +1429,8 @@ triggerall = (var(15)<8 || var(20))
 trigger1 = enemynear,stateno != [5020,5049]
 trigger1 = !time
 attr = A, ST
-animtype  = hard
-damage    = 0, 0
+animtype = hard
+damage = 0, 0
 getpower = 0,0
 hitflag = MFD
 guardflag = M
@@ -1480,7 +1480,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Kirikabu Gaeshi (P1)
 [Statedef 1310]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1310
@@ -1722,7 +1722,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Kirikabu Gaeshi Gethit
 [Statedef 1315]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1822,8 +1822,8 @@ triggerall = (var(15)<8 || var(20))
 trigger1 = enemynear,stateno != [5020,5049]
 trigger1 = !time
 attr = A, ST
-animtype  = hard
-damage    = 0, 0
+animtype = hard
+damage = 0, 0
 getpower = 0,0
 hitflag = MFD
 guardflag = M
@@ -1937,7 +1937,7 @@ ctrl = 1
 ;----------------------------------------------------------------------
 ;Nekko Gaeshi (P1 state 1)
 [Statedef 1410]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1410
@@ -2077,7 +2077,7 @@ value = 1411
 ;---------------------------------------------------------------------------
 ;Nekko Gaeshi (P1 state 2)
 [Statedef 1411]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1411
@@ -2259,7 +2259,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Nekko Gaeshi (Gethit 1)
 [Statedef 1415]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2283,7 +2283,7 @@ movecamera = 1
 ;---------------------------------------------------------------------------
 ;Nekko Gaeshi (Gethit 2)
 [Statedef 1416]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 3,0
@@ -2416,7 +2416,7 @@ ctrl = 1
 ;----------------------------------------------------------------------
 ;Ura Nage
 [Statedef 1500]
-type    = S
+type = S
 movetype= I
 physics = N
 poweradd=72 * !var(20)
@@ -2480,7 +2480,7 @@ ctrl = 0
 ;--------------------------------------------------------------------------
 ;Ura Nage (Attempt)
 [Statedef 1505]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 4,0
@@ -2559,7 +2559,7 @@ ctrl = 1
 
 ;Ura Nage (P1)
 [Statedef 1510]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1510
@@ -2816,7 +2816,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Ura Nage Gethit
 [Statedef 1515]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2860,7 +2860,7 @@ value = 5100
 ;----------------------------------------------------------------------
 ;EX Ura Nage
 [Statedef 1525]
-type    = S
+type = S
 movetype= I
 physics = N
 anim=1500
@@ -3028,7 +3028,7 @@ ctrl = 1
 ;-----------------------------------------------------
 ;Tenchi Gaeshi (P1)
 [Statedef 1610]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1610
@@ -3269,7 +3269,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Tenchi Gaeshi Gethit
 [Statedef 1615]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3320,7 +3320,7 @@ value = 1617
 
 ; Tenchi Gaeshi Gethit (Hitadd)
 [Statedef 1616]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -1,0
@@ -3340,7 +3340,7 @@ value = 5100
 
 ; Tenchi Gaeshi Gethit (Hitadd)
 [Statedef 1617]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 2,0
@@ -3467,7 +3467,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Tenchi Gaeshi Gethit
 [Statedef 1626]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3507,7 +3507,7 @@ value = 1627
 
 ;EX Tenchi Gaeshi Gethit (Hitadd)
 [Statedef 1627]
-type    = A
+type = A
 movetype= H
 physics = N
 sprpriority = -1
@@ -3608,7 +3608,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Chou Oosotogari (P1)
 [Statedef 1710]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1710
@@ -3840,7 +3840,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Chou Oosotogari Gethit
 [Statedef 1715]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

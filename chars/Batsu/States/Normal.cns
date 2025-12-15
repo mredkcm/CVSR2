@@ -1700,7 +1700,7 @@ value=52
 ;---------------------------------------------------------------------------
 ;Throw 1 1st Part
 [Statedef 800]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 14
@@ -1937,7 +1937,7 @@ value = 5050
 ;---------------------------------------------------------------------------
 ;Throw 2 1st Part
 [Statedef 850]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 14
@@ -1976,7 +1976,7 @@ p2facing = 1
 p1stateno = 860
 p2stateno = 865
 hitsound = S800,0
-guard.dist  = 0
+guard.dist = 0
 getpower = 70
 givepower = 35
 numhits = 0

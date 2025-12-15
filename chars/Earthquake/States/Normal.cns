@@ -2121,7 +2121,7 @@ value=52
 ;---------------------------------------------------------------------------
 ;Fat Buster 1 1st Part
 [Statedef 800]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 14
@@ -2367,7 +2367,7 @@ value = 5100
 ;------------------------------------------------------------------------------------------
 ;Go To Heaven 2 1st Part
 [Statedef 810]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 14

@@ -323,7 +323,7 @@ value = 5100
 
 ; BAIHU 
 [Statedef 1050]
-type    = S
+type = S
 movetype= A
 physics = S
 ctrl = 0
@@ -431,12 +431,12 @@ pausetime =1,10
 sparkNo =   s1001 
 guard.sparkno = s8000
 sparkxy =ceil(50*const(size.xscale)),ceil(-90*const(size.yscale))
-hitsound   = S8,6
+hitsound = S8,6
 guardsound= s130,0
 ground.type = High
 animtype = UP
 ground.slidetime = 15
-ground.hittime  = 22
+ground.hittime = 22
 guard.hittime = 22
 ground.velocity = -3,-8
 guard.velocity = -4
@@ -453,7 +453,7 @@ fall.envshake.ampl = 8
 getpower = 50
 givepower = 20
 palfx.time = 40
-palfx.add  = 80,-70,-200                               
+palfx.add = 80,-70,-200                               
 palfx.sinadd = 0,30,0,10                              
 palfx.color = 0
 palfx.invertall = 1
@@ -672,12 +672,12 @@ pausetime =1,10
 sparkNo =   s1001 
 guard.sparkno = s8000
 sparkxy =ceil(50*const(size.xscale)),ceil(-90*const(size.yscale))
-hitsound   = S8,6
+hitsound = S8,6
 guardsound= s130,0
 ground.type = High
 animtype = UP
 ground.slidetime = 15
-ground.hittime  = 22
+ground.hittime = 22
 guard.hittime = 22
 ground.velocity = -3,-8
 guard.velocity = -4
@@ -694,7 +694,7 @@ fall.envshake.ampl = 8
 getpower = 0
 givepower = 20
 palfx.time = 40
-palfx.add  = 80,-70,-200                               
+palfx.add = 80,-70,-200                               
 palfx.sinadd = 0,30,0,10                              
 palfx.color = 0
 palfx.invertall = 1
@@ -830,7 +830,7 @@ fall.animtype = Diagup
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -7, -9
 air.velocity = -7,-9
@@ -1015,7 +1015,7 @@ guard.pause 10,10
 sparkNo = -1 + 0 * (var(33) := 8012)
 guard.sparkNo = -1 + 0 * (var(34) := 8000)
 sparkXY = -10 + 0 * (var(35) := 50), var(36) := -20
-hitsound   = S3,15
+hitsound = S3,15
 guardsound=s130,0
 ground.type = High      ;Low,Trip,None
 ground.slide = 20
@@ -1096,7 +1096,7 @@ channel = 1
 
 [State 1130, EX Flash]
 type = VarSet
-trigger1  = !Time
+trigger1 = !Time
 var(25) = 30
 
 [State 1130, EX FX]
@@ -1273,7 +1273,7 @@ guard.pause 10,10
 sparkNo = -1 + 0 * (var(33) := 8012)
 guard.sparkNo = -1 + 0 * (var(34) := 8000)
 sparkXY = -10 + 0 * (var(35) := 50), var(36) := -20
-hitsound   = S3,15
+hitsound = S3,15
 guardsound=s130,0
 ground.type = High      ;Low,Trip,None
 ground.slide = 20
@@ -1372,7 +1372,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4, 0
 air.velocity = -3.5,-3
@@ -1424,7 +1424,7 @@ fall.animtype = Up
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -2.5, -11
 air.velocity = -2.5, -11
@@ -1514,7 +1514,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4, 0
 air.velocity = -3.5,-3
@@ -1566,7 +1566,7 @@ fall.animtype = Up
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -2.5, -11
 air.velocity = -2.5, -11
@@ -1677,7 +1677,7 @@ value = 0
 ctrl = 1
 
 [Statedef 1310]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1310
@@ -1755,7 +1755,7 @@ ctrl = 1
 
 
 [Statedef 1320]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1853,7 +1853,7 @@ value = 1320
 
 
 [Statedef 1330]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,8
@@ -2002,7 +2002,7 @@ sparkxy = -20, -70; (enemynear,pos y)
 animtype = Heavy
 ground.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -9,0
 guard.velocity = -5
 air.velocity = -3,-3
@@ -2097,7 +2097,7 @@ damage = 110,10
 hitflag = MAFD
 guardflag = MA
 pausetime = 0,8
-hitsound   = S8,8
+hitsound = S8,8
 guardsound= s130,0
 sparkno =  8010
 ;guard.sparkno = S6004
@@ -2105,7 +2105,7 @@ sparkxy = 0, -90; (enemynear,pos y)
 animtype = Up
 ground.type = Hard
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0,-13
 guard.velocity = -5
 air.velocity = 0,-13

@@ -11,7 +11,7 @@
 ;Tekkyu Dai Kaiten
 ;------------------------------------------------------------------------------------------
 [Statedef 1000]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1000
@@ -115,7 +115,7 @@ ctrl = 1
 ;Tekkyu Dai Kaiten EX
 ;------------------------------------------------------------------------------------------
 [Statedef 1010]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1000
@@ -253,7 +253,7 @@ ctrl = 1
 
 ;Tekkyu Dai Kaiten Gethit State
 [Statedef 1597]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -1,-9
@@ -285,7 +285,7 @@ value = 1598
 
 ;Tekkyu Dai Kaiten Gethit State
 [Statedef 1598]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -1,-7
@@ -315,7 +315,7 @@ value = 5100
 
 ;Tekkyu Dai Kaiten Gethit State
 [Statedef 1599]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -3,-7
@@ -412,8 +412,8 @@ offset = 0, 0
 attr = S, SP
 hitflag = P
 numhits = 0
-hitsound   = -1
-guardsound   = -1
+hitsound = -1
+guardsound = -1
 
 [State 1015, 1]
 type = ReversalDef
@@ -444,7 +444,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -4,-6
 guard.velocity = -11.0
 fall = 1
@@ -603,8 +603,8 @@ offset = 0, 0
 attr = S, SP
 hitflag = P
 numhits = 0
-hitsound   = -1
-guardsound   = -1
+hitsound = -1
+guardsound = -1
 
 [State 1015, 1]
 type = ReversalDef
@@ -635,7 +635,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -4,-6
 guard.velocity = -11.0
 fall = 1
@@ -1801,7 +1801,7 @@ Trigger1 = !Time && var(10) != 3
 attr = A, SA
 damage=72+4*var(10),10
 animtype = Medium
-getpower  = 180,180
+getpower = 180,180
 givepower = 15,15
 hitflag = MAF
 guardflag = MA
@@ -1814,7 +1814,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = High
 ground.slidetime = 21
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -5,-7
 guard.velocity = -15
 ground.cornerpush.veloff = 0
@@ -1834,9 +1834,9 @@ envShake.freq=120
 type = HitDef
 Trigger1 = !Time && var(10) = 3
 attr = A, SA
-damage    = 84,8
+damage = 84,8
 animtype = Medium
-getpower  = 180,180
+getpower = 180,180
 givepower = 15,15
 hitflag = MAF
 guardflag = MA
@@ -1849,7 +1849,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = High
 ground.slidetime = 21
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -5,-7
 guard.velocity = -15
 ground.cornerpush.veloff = 0

@@ -1,7 +1,7 @@
 ;☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
 ; ジャイアントパームボンバー(小)
 [Statedef 1400]
-type    = S
+type = S
 movetype= A                      
 physics = S  
 anim = 1400                    
@@ -74,8 +74,8 @@ trigger1 = animelemtime(10) < 0
 attr = S, SA
 getpower = 40,80
 givepower = 120,0
-animtype  = hard
-air.animtype  = back
+animtype = hard
+air.animtype = back
 damage = ceil(110*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(33)),ceil(14*fvar(23)*fvar(31))
 priority = 5,Hit
 hitflag = MAF
@@ -89,7 +89,7 @@ hitsound = S2,6
 guardsound = S3,1
 ground.type = high
 ground.slidetime = 17
-ground.hittime  = Ifelse(p2statetype = C, 21, 19)
+ground.hittime = Ifelse(p2statetype = C, 21, 19)
 guard.hittime = 17
 guard.slidetime = 17
 guard.ctrltime = 17
@@ -251,7 +251,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ジャイアントパームボンバー(中)
 [Statedef 1410]
-type    = S
+type = S
 movetype= A                      
 physics = S  
 anim = 1410                    
@@ -324,8 +324,8 @@ trigger1 = animelemtime(10) < 0
 attr = S, SA
 getpower = 40,80
 givepower = 120,0
-animtype  = hard
-air.animtype  = back
+animtype = hard
+air.animtype = back
 damage = ceil(125*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(33)),ceil(16*fvar(23)*fvar(31))
 priority = 5,Hit
 hitflag = MAF
@@ -339,7 +339,7 @@ hitsound = S2,6
 guardsound = S3,1
 ground.type = high
 ground.slidetime = 17
-ground.hittime  = Ifelse(p2statetype = C, 25, 23)
+ground.hittime = Ifelse(p2statetype = C, 25, 23)
 guard.hittime = 21
 guard.slidetime = 17
 guard.ctrltime = 21
@@ -501,7 +501,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ジャイアントパームボンバー(大)
 [Statedef 1420]
-type    = S
+type = S
 movetype= A                      
 physics = S  
 anim = 1420                    
@@ -574,8 +574,8 @@ trigger1 = animelemtime(10) < 0
 attr = S, SA
 getpower = 40,80
 givepower = 120,0
-animtype  = hard
-air.animtype  = back
+animtype = hard
+air.animtype = back
 damage = ceil(140*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(33)),ceil(18*fvar(23)*fvar(31))
 priority = 5,Hit
 hitflag = MAF
@@ -589,7 +589,7 @@ hitsound = S2,6
 guardsound = S3,1
 ground.type = high
 ground.slidetime = 18
-ground.hittime  = Ifelse(p2statetype = C, 27, 25)
+ground.hittime = Ifelse(p2statetype = C, 27, 25)
 guard.hittime = 23
 guard.slidetime = 18
 guard.ctrltime = 23
@@ -751,7 +751,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ジャイアントパームボンバー(EX)
 [Statedef 1430]
-type    = S
+type = S
 movetype= A                      
 physics = S  
 anim = 1430                    
@@ -856,8 +856,8 @@ trigger1 = animelem = 8
 attr = S, SA
 getpower = 0,0
 givepower = 0,0
-animtype  = hard
-air.animtype  = back
+animtype = hard
+air.animtype = back
 damage = ceil(20*fvar(25)*fvar(23)*fvar(28)*fvar(31)*fvar(33)),ceil(3*fvar(23)*fvar(31))
 priority = 5,Hit
 hitflag = MAF
@@ -871,7 +871,7 @@ hitsound = S2,6
 guardsound = S3,1
 ground.type = low
 ground.slidetime = 15
-ground.hittime  = Ifelse(p2statetype = C, 19, 17)
+ground.hittime = Ifelse(p2statetype = C, 19, 17)
 guard.hittime = 15
 guard.slidetime = 15
 guard.ctrltime = 15
@@ -920,8 +920,8 @@ trigger1 = animelem = 10
 attr = S, SA
 getpower = 0,0
 givepower = 0,0
-animtype  = hard
-air.animtype  = back
+animtype = hard
+air.animtype = back
 damage = ceil(60*fvar(25)*fvar(23)*fvar(28)*fvar(31)*fvar(33)),ceil(6*fvar(23)*fvar(31))
 priority = 5,Hit
 hitflag = MAF
@@ -935,7 +935,7 @@ hitsound = S2,6
 guardsound = S3,1
 ground.type = low
 ground.slidetime = 15
-ground.hittime  = Ifelse(p2statetype = C, 19, 17)
+ground.hittime = Ifelse(p2statetype = C, 19, 17)
 guard.hittime = 15
 guard.slidetime = 15
 guard.ctrltime = 15
@@ -984,8 +984,8 @@ trigger1 = animelem = 12
 attr = S, SA
 getpower = 0,0
 givepower = 0,0
-animtype  = hard
-air.animtype  = back
+animtype = hard
+air.animtype = back
 damage = ceil(140*fvar(25)*fvar(23)*fvar(28)*fvar(31)*fvar(33)),ceil(14*fvar(23)*fvar(31))
 priority = 5,Hit
 hitflag = MAF
@@ -999,7 +999,7 @@ hitsound = S2,6
 guardsound = S3,1
 ground.type = low
 ground.slidetime = 15
-ground.hittime  = Ifelse(p2statetype = C, 19, 17)
+ground.hittime = Ifelse(p2statetype = C, 19, 17)
 guard.hittime = 15
 guard.slidetime = 15
 guard.ctrltime = 15
@@ -1248,7 +1248,7 @@ trigger1 = time = 0
 ;☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
 ; モンスターラリアット(小)
 [Statedef 1500]
-type    = S
+type = S
 movetype= A                      
 physics = N  
 anim = 1500                    
@@ -1299,8 +1299,8 @@ trigger1 = (AnimElemtime(7) >= 0) && (AnimElemtime(10) < 0)
 attr = S, SA
 getpower = 40,80
 givepower = 80,0
-animtype  = back
-air.animtype  = back
+animtype = back
+air.animtype = back
 damage = ceil(150*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(33)),ceil(19*fvar(23)*fvar(31))
 priority = 5,Hit
 hitflag = MAF
@@ -1444,7 +1444,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; モンスターラリアット(中)
 [Statedef 1510]
-type    = S
+type = S
 movetype= A                      
 physics = N  
 anim = 1510                    
@@ -1495,8 +1495,8 @@ trigger1 = (AnimElemtime(7) >= 0) && (AnimElemtime(10) < 0)
 attr = S, SA
 getpower = 40,80
 givepower = 80,0
-animtype  = back
-air.animtype  = back
+animtype = back
+air.animtype = back
 damage = ceil(160*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(33)),ceil(20*fvar(23)*fvar(31))
 priority = 5,Hit
 hitflag = MAF
@@ -1642,7 +1642,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; モンスターラリアット(大)
 [Statedef 1520]
-type    = S
+type = S
 movetype= A                      
 physics = N  
 anim = 1520                    
@@ -1693,8 +1693,8 @@ trigger1 = (AnimElemtime(11) >= 0) && (AnimElemtime(14) < 0)
 attr = S, SA
 getpower = 40,80
 givepower = 80,0
-animtype  = back
-air.animtype  = back
+animtype = back
+air.animtype = back
 damage = ceil(170*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(33)),ceil(21*fvar(23)*fvar(31))
 priority = 5,Hit
 hitflag = MAF
@@ -1846,7 +1846,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; モンスターラリアット(EX)
 [Statedef 1530]
-type    = S
+type = S
 movetype= A                      
 physics = N  
 anim = 1530                    
@@ -1945,8 +1945,8 @@ trigger1 = (AnimElemtime(3) >= 0) && (AnimElemtime(6) < 0)
 attr = S, SA
 getpower = 0,0
 givepower = 0,0
-animtype  = back
-air.animtype  = back
+animtype = back
+air.animtype = back
 damage = ceil((140+fvar(32))*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(33)),ceil(21*fvar(23)*fvar(31))
 priority = 5,Hit
 hitflag = MAF
@@ -2139,7 +2139,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; モンスターラリアット(ヒット)
 [Statedef 1550]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -2243,7 +2243,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; モンスターラリアット(ガード)
 [Statedef 1555]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -2292,7 +2292,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; モンスターラリアット(当身)
 [Statedef 1556]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -2348,7 +2348,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; モンスターラリアット(相手喰らい状態)1
 [Statedef 1560]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2379,7 +2379,7 @@ value = 1561
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; モンスターラリアット(相手喰らい状態)2
 [Statedef 1561]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2450,7 +2450,7 @@ value = 5100
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; モンスターラリアットEX(相手喰らい状態)1
 [Statedef 1570]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2481,7 +2481,7 @@ value = 1571
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; モンスターラリアットEX(相手喰らい状態)2
 [Statedef 1571]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

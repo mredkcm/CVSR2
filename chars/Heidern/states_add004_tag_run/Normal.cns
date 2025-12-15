@@ -770,7 +770,7 @@ hitsound = S3,1
 guardsound=S130,0
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -4.027801513671875,-22.5
 guard.velocity = -14.90625
 guard.ctrltime = 21
@@ -1188,7 +1188,7 @@ guard.pausetime = Ifelse(var(20), 6, 12), Ifelse(var(20), 6, 12)
 sparkNo=-1 + 0 * (var(33) := 8010)
 guard.sparkNo = -1 + 0 * (var(34) := 8000); = s7011
 sparkxy = -10 + 0 * (var(35) := 120), var(36):= -72
-hitsound   = S2+10*var(44),4
+hitsound = S2+10*var(44),4
 guardsound = s130,0
 air.animType = Back
 fall.animType = Back
@@ -1623,7 +1623,7 @@ hitsound = S3,1
 guardsound=S130,0
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -4.027801513671875,-22.5
 guard.velocity = -14.90625
 guard.ctrltime = 21
@@ -3414,7 +3414,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ; HIT_BOUNCE (hit ground)
 [Statedef 998]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3486,7 +3486,7 @@ time = 20
 ;---------------------------------------------------------------------------
 ; HIT_BOUNCE (bounce into air)
 [Statedef 999]
-type    = L
+type = L
 movetype= H
 physics = n
 velset = 5
@@ -3662,7 +3662,7 @@ trigger1 = Enemy(1),statetype = L || Enemy(1),movetype != H
 value = 7828
 ;-------------------------------------------------------------------------------
 [Statedef 7828]
-type    = S
+type = S
 physics = S
 anim = 700
 ctrl = 0
@@ -3819,7 +3819,7 @@ bindtime = 1
 removetime = -2
 ;-------------------------------------------------------------------------------
 [Statedef 7829]
-type    = S
+type = S
 physics = S
 anim = 701
 ctrl = 0
@@ -4034,7 +4034,7 @@ trigger1= roundstate!=3
 ;-------------------------------------------------------------------------------
 ; Slow Down
 [Statedef 100000]
-type    = S
+type = S
 anim = 100000
 ctrl = 0
 
@@ -4071,7 +4071,7 @@ trigger2 = (time = 24 || var(3) >= 24) && var(2) = 1
 ;------------------------------
 ; Slow Down 2
 [Statedef 100001]
-type    = S
+type = S
 anim = 100000
 ctrl = 0
 
@@ -4204,7 +4204,7 @@ ctrl = 0
 
 ; Where My Vels At?
 [Statedef 100002]
-type    = A
+type = A
 physics = A
 
 [State 50, 1]

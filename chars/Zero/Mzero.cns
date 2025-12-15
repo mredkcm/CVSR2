@@ -10,7 +10,7 @@
 life = 1000
 attack = 100
 defence = 100
-Power   = 3000
+power = 3000
 fall.defence_up = 50
 lieDown.time = 15
 airjuggle = 15
@@ -38,9 +38,9 @@ shadowoffset = 0     ;Number of pixels to vertically offset the shadow
 draw.offset = 0,0    ;Player drawing offset in pixels (x, y)
 
 [Velocity]
-walk.fwd  = 4        ;Walk forward
+walk.fwd = 4        ;Walk forward
 walk.back = -4       ;Walk backward
-run.fwd  = 5.9, 0    ;Run forward (x, y)
+run.fwd = 5.9, 0    ;Run forward (x, y)
 run.back = -6.6,-3.8 ;Hop backward (x, y)
 jump.neu = 0,-9.4    ;Neutral jumping velocity (x, y)
 jump.back = -3.5     ;Jump back Speed (x, y)
@@ -172,12 +172,12 @@ value = 10,3
 type = AfterImage
 trigger1 = AnimElem = 8
 time = -1
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 length = 15
-PalBright   = 0,0,0
+PalBright = 0,0,0
 PalContrast = 255,255,255
-PalMul      = .8,.8,.8
+PalMul = .8,.8,.8
 
 [State 100, 1]
 type = AssertSpecial
@@ -500,12 +500,12 @@ anim = 19000
 type = AfterImage
 trigger1 = time = 0
 time = -1
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 length = 15
-PalBright   = 0,0,0
+PalBright = 0,0,0
 PalContrast = 255,255,255
-PalMul      = .8,.8,.8
+PalMul = .8,.8,.8
 
 [State 368, vel]
 type=posset
@@ -564,12 +564,12 @@ anim = 19001
 type = AfterImage
 trigger1 = time = 0
 time = -1
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 length = 15
-PalBright   = 0,0,0
+PalBright = 0,0,0
 PalContrast = 255,255,255
-PalMul      = .8,.8,.8
+PalMul = .8,.8,.8
 
 [State 368, vel]
 type=posset
@@ -1091,7 +1091,7 @@ value = 5050
 ;---------------------------------------------------------------------------
 ; Stand to Crouch
 [Statedef 10]
-type    = C
+type = C
 physics = C
 anim = 10
 
@@ -1108,7 +1108,7 @@ value = 11
 ;---------------------------------------------------------------------------
 ; Crouching
 [Statedef 11]
-type    = C
+type = C
 physics = C
 anim = 11
 sprpriority = 0
@@ -1121,7 +1121,7 @@ value = 11
 ;---------------------------------------------------------------------------
 ; Crouch to Stand
 [Statedef 12]
-type    = S
+type = S
 physics = S
 anim = 12
 
@@ -1133,7 +1133,7 @@ value = 0
 ;---------------------------------------------------------------------------
 ; Walk
 [Statedef 20]
-type    = S
+type = S
 physics = S
 sprpriority = 0
 
@@ -1183,7 +1183,7 @@ value = 21
 
 ; salto
 [Statedef 40]
-type    = S
+type = S
 physics = S
 anim = 40
 ctrl = 0
@@ -1254,7 +1254,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; AirJump Start
 [Statedef 45]
-type    = A
+type = A
 physics = A
 
 [State 0, VarSet]
@@ -1324,7 +1324,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Jump Land
 [Statedef 52]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 47
@@ -1381,7 +1381,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Super Salto (Arriba)
 [Statedef 60]
-type    = S
+type = S
 physics = S
 anim = 40
 ctrl = 0
@@ -1401,12 +1401,12 @@ name = "blade"
 type = AfterImage
 trigger1 = time = 0
 time = 30
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 length = 15
-PalBright   = 0,0,0
+PalBright = 0,0,0
 PalContrast = 255,255,255
-PalMul      = .8,.8,.8
+PalMul = .8,.8,.8
 
 [State 690, 3]
 type = VelSet
@@ -1475,12 +1475,12 @@ removeongethit = 0
 type = AfterImage
 trigger1 = time = 0
 time = 30
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 length = 15
-PalBright   = 0,0,0
+PalBright = 0,0,0
 PalContrast = 255,255,255
-PalMul      = .8,.8,.8
+PalMul = .8,.8,.8
 
 [State 700, 3]
 type = VelSet
@@ -1507,12 +1507,12 @@ ctrl = 0
 type = AfterImage
 trigger1 = time = 0
 time = 30
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 length = 15
-PalBright   = 0,0,0
+PalBright = 0,0,0
 PalContrast = 255,255,255
-PalMul      = .8,.8,.8
+PalMul = .8,.8,.8
 
 [State 690, PlaySnd]
 type = PlaySnd
@@ -1552,7 +1552,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Super Salto (Arriba)
 [Statedef 63]
-type    = S
+type = S
 physics = S
 anim = 40
 ctrl = 0
@@ -1572,12 +1572,12 @@ name = "blade"
 type = AfterImage
 trigger1 = time = 0
 time = 30
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 length = 15
-PalBright   = 0,0,0
+PalBright = 0,0,0
 PalContrast = 255,255,255
-PalMul      = .8,.8,.8
+PalMul = .8,.8,.8
 
 [State 690, 3]
 type = VelSet
@@ -1645,12 +1645,12 @@ removeongethit = 0
 type = AfterImage
 trigger1 = time = 0
 time = 30
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 length = 15
-PalBright   = 0,0,0
+PalBright = 0,0,0
 PalContrast = 255,255,255
-PalMul      = .8,.8,.8
+PalMul = .8,.8,.8
 
 [State 700, 3]
 type = VelSet
@@ -1677,12 +1677,12 @@ ctrl = 0
 type = AfterImage
 trigger1 = time = 0
 time = 30
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 length = 15
-PalBright   = 0,0,0
+PalBright = 0,0,0
 PalContrast = 255,255,255
-PalMul      = .8,.8,.8
+PalMul = .8,.8,.8
 
 [State 690, PlaySnd]
 type = PlaySnd
@@ -1751,7 +1751,7 @@ x = -.1
 ;----------------------------------
 ; RUN_FWD
 [Statedef 100]
-type    = S
+type = S
 physics = N
 anim = 100
 ctrl = 1
@@ -1760,12 +1760,12 @@ ctrl = 1
 type = AfterImage
 trigger1 = time = 0
 time = 30
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 length = 15
-PalBright   = 0,0,0
+PalBright = 0,0,0
 PalContrast = 255,255,255
-PalMul      = .8,.8,.8
+PalMul = .8,.8,.8
 
 [State 100, 1]
 type = AssertSpecial
@@ -1813,7 +1813,7 @@ ctrl = 1
 ;------------------------------------
 ; RUN_FWD
 [Statedef 102]
-type    = A
+type = A
 physics = N
 anim = 102
 ctrl = 1
@@ -1828,12 +1828,12 @@ name = "blade"
 type = AfterImage
 trigger1 = time = 0
 time = 30
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 length = 15
-PalBright   = 0,0,0
+PalBright = 0,0,0
 PalContrast = 255,255,255
-PalMul      = .8,.8,.8
+PalMul = .8,.8,.8
 
 [State 101, Var]
 type = VarAdd
@@ -1882,7 +1882,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; RUN_BACK
 [Statedef 105]
-type    = A
+type = A
 physics = A
 ctrl = 0
 anim = 105
@@ -1913,7 +1913,7 @@ value = 106
 ;---------------------------------------------------------------------------
 ; RUN_BACK2 (land)
 [Statedef 106]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 47
@@ -1943,7 +1943,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; HIT_FALLRECOVER (still falling)
 [Statedef 5200]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1972,7 +1972,7 @@ value = 5201
 ;---------------------------------------------------------------------------
 ; HIT_FALLRECOVER (on the ground)
 [Statedef 5201]
-type    = A
+type = A
 movetype= H
 physics = N
 anim = 5200
@@ -2034,7 +2034,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; HIT_AIRFALLRECOVER
 [Statedef 5210]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 5210

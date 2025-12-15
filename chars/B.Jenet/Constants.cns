@@ -69,9 +69,9 @@ shadowoffset = 0     ;Number of pixels to vertically offset the shadow
 draw.offset = 0,0    ;Player drawing offset in pixels (x, y)
 
 [Velocity]
-walk.fwd  = 3      ;Walk forward
+walk.fwd = 3      ;Walk forward
 walk.back = -2.2     ;Walk backward
-run.fwd  = 4.75, 0    ;Run forward (x, y)
+run.fwd = 4.75, 0    ;Run forward (x, y)
 run.back = -4,-5 ;Hop backward (x, y)
 jump.neu = 0,-10    ;Neutral jumping velocity (x, y)
 jump.back = -3.3565    ;Jump back Speed (x, y)

@@ -1,0 +1,44 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Ryu"
+displayname = "Ryu"
+versiondate = 12,30,2012
+mugenversion = 1.0
+author = "Phantom.of.the.Server"
+pal.defaults = 4,5,6,1,2,3,10,11,12,7,8,9
+
+[Files]
+sprite = Sprite.sff
+anim = Anim.air
+sound = Sound.snd;RyuEnglish2.snd;
+cmd = Command.cmd
+cns = Constants.cns
+stcommon = common1.cns
+st = States\System.st
+st1 = States\Normal.st
+st2 = States\Specials.st
+st3 = States\EX-Specials.st
+st4 = States\Supers.st
+st5 = States\Helpers.st
+st6 = States\Custom.st
+st7 = States\NormalRyu.st
+pal1 = RyuPalettes\SF2LightBlue.act
+pal2 = RyuPalettes\PFRed.act
+pal3 = RyuPalettes\SF2Orange.act
+pal4 = RyuPalettes\Udon.act
+pal5 = RyuPalettes\SF4black.act
+pal6 = RyuPalettes\SF4purple.act
+pal7 = RyuPalettes\RyuInk.act
+pal8 = RyuPalettes\SFZBlue.act
+pal9 = RyuPalettes\SF2Green.act
+pal10 = RyuPalettes\PFGrey.act
+pal11 = RyuPalettes\SF4white.act
+pal12 = RyuPalettes\SF4dwhite.act
+
+[Arcade]
+;intro.storyboard = 
+;ending.storyboard = 

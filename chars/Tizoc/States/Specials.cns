@@ -1,7 +1,7 @@
 ;--------------------------------------------------------------------------------------------------------- 
 ;Justice Hurricane 
 [Statedef 1000]
-type    = S
+type = S
 movetype= A
 physics = S
 ctrl=0
@@ -121,7 +121,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Justice Hurricane EX
 [Statedef 1010]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 1010
@@ -272,7 +272,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Justice Hurricane
 [Statedef 1050]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1050
@@ -419,7 +419,7 @@ value = 1051
 ;---------------------------------------------------------------------------
 ;Justice Hurricane
 [Statedef 1051]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -525,7 +525,7 @@ value = 1052
 ;---------------------------------------------------------------------------
 ;Justice Hurricane
 [Statedef 1052]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1052
@@ -647,7 +647,7 @@ value = 1053
 ;---------------------------------------------------------------------------
 ;Justice Hurricane
 [Statedef 1053]
-type    = S
+type = S
 movetype = I
 physics = N
 anim = 1053
@@ -683,7 +683,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Justice Hurricane
 [Statedef 1054]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1050
@@ -828,7 +828,7 @@ value = 1055
 ;---------------------------------------------------------------------------
 ;EX Justice Hurricane
 [Statedef 1055]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -934,7 +934,7 @@ value = 1056
 ;---------------------------------------------------------------------------
 ;EX Justice Hurricane
 [Statedef 1056]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1052
@@ -1072,7 +1072,7 @@ value = 1053
 ;---------------------------------------------------------------------------
 ;EX Justice Hurricane
 [Statedef 1060]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1098,7 +1098,7 @@ value = 1060
 ;---------------------------------------------------------------------------
 ;EX Justice Hurricane
 [Statedef 1061]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1124,7 +1124,7 @@ value = 1061
 ;---------------------------------------------------------------------------
 ;EX Justice Hurricane
 [Statedef 1062]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1167,7 +1167,7 @@ value = 5101
 ;---------------------------------------------------------------------------
 ;EX Justice Hurricane
 [Statedef 1063]
-type    = L
+type = L
 movetype= H
 physics = N
 ctrl = 0
@@ -1196,7 +1196,7 @@ value = 5110
 ;-----------------------------------------------------------------------------------------------
 ;Olympus Over
 [Statedef 1100]
-type    = S
+type = S
 movetype = A
 physics = N
 ctrl=0
@@ -1288,7 +1288,7 @@ hitsound=S2+10*var(44), 2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 22 + 2 * var(9)
-ground.hittime  = 24 + 2 * var(9)
+ground.hittime = 24 + 2 * var(9)
 guard.ctrltime = 24
 air.hittime = 24+ 2 * var(9)
 ground.velocity =Ifelse(var(20),-2,-5),-2
@@ -1320,7 +1320,7 @@ value = 1151
 ;---------------------------------------------------------------------------
 ;EX Olympus Over
 [Statedef 1110]
-type    = S
+type = S
 physics = N
 anim = 1110
 ctrl=0
@@ -1416,7 +1416,7 @@ value = 1111
 ;---------------------------------------------------------------------------
 ;EX Olympus Over
 [Statedef 1111]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1111
@@ -1499,7 +1499,7 @@ hitsound=S2+10*var(44), 2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 22 + 2 * var(9)
-ground.hittime  = 24 + 2 * var(9)
+ground.hittime = 24 + 2 * var(9)
 guard.ctrltime = 24
 air.hittime = 24+ 2 * var(9)
 ground.velocity =Ifelse(var(20),-2,-2),-2
@@ -1532,7 +1532,7 @@ value = 1150
 ;---------------------------------------------------------------------------
 ;EX Olympus Over
 [Statedef 1150]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1150
@@ -1587,7 +1587,7 @@ hitsound=S2+10*var(44), 2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 45 + 2 * var(9)
-ground.hittime  = 45 + 2 * var(9)
+ground.hittime = 45 + 2 * var(9)
 guard.ctrltime = 45
 down.hittime = 45
 air.hittime = 24+ 2 * var(9)
@@ -1632,7 +1632,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Olympus Over
 [Statedef 1151]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1150
@@ -1687,7 +1687,7 @@ hitsound=S2+10*var(44), 2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 45 + 2 * var(9)
-ground.hittime  = 45 + 2 * var(9)
+ground.hittime = 45 + 2 * var(9)
 guard.ctrltime = 45
 down.hittime = 45
 air.hittime = 24+ 2 * var(9)
@@ -1730,7 +1730,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Olympus Over Hit State
 [Statedef 1160]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1787,7 +1787,7 @@ value = 1170
 ;---------------------------------------------------------------------------
 ; HITA_UP (initial going up)
 [Statedef 1170]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -1846,7 +1846,7 @@ value = 1180
 ;---------------------------------------------------------------------------
 ; HITA_UP_T (transition)
 [Statedef 1180]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1885,7 +1885,7 @@ value = 5050 ;HITA_RECOV
 ;----------------------------------------------------------------------------------------
 ;Poseidon Wave
 [Statedef 1200]
-type    = S
+type = S
 movetype = A
 physics = N
 ctrl=0
@@ -1989,7 +1989,7 @@ sparkXY = -10 + 0 * (var(35) := 60), var(36):=-82
 hitsound=S2+10*var(44), 2
 guardsound = s130, 0
 ground.slidetime = 22 + 2 * var(9)
-ground.hittime  = 24 + 2 * var(9)
+ground.hittime = 24 + 2 * var(9)
 guard.ctrltime = 24
 air.hittime = 24+ 2 * var(9)
 ground.velocity = Ifelse(var(20),-3,-6.5),-5.5
@@ -2025,7 +2025,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Poseidon Wave
 [Statedef 1210]
-type    = S
+type = S
 physics = N
 anim = 1210
 ctrl=0
@@ -2116,7 +2116,7 @@ value = 1211
 ;---------------------------------------------------------------------------
 ;EX Poseidon Wave
 [Statedef 1211]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1211
@@ -2222,7 +2222,7 @@ sparkXY = -10 + 0 * (var(35) := 60), var(36):=-82
 hitsound=S2+10*var(44), 2
 guardsound = s130, 0
 ground.slidetime = 22 + 2 * var(9)
-ground.hittime  = 24 + 2 * var(9)
+ground.hittime = 24 + 2 * var(9)
 guard.ctrltime = 24
 air.hittime = 24+ 2 * var(9)
 ground.velocity = Ifelse(var(20),-3,-6.5),-5.5
@@ -2258,7 +2258,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Poseidon Wave Stopping
 [Statedef 1220]
-type    = S
+type = S
 movetype = I
 physics = N
 anim = 1220
@@ -2284,7 +2284,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Poseidon Wave Custom State
 [Statedef 1250]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2308,7 +2308,7 @@ value = 1260
 ;---------------------------------------------------------------------------
 ;Poseidon Wave Custom Hit State
 [Statedef 1251]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2322,7 +2322,7 @@ value = 1260
 ;---------------------------------------------------------------------------
 ;Poseidon Wave Custom Hit State
 [Statedef 1260]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -2373,7 +2373,7 @@ value = 5100
 ;-----------------------------------------------------------------------------------------------------------
 ;Active Tupon
 [Statedef 1300]
-type    = S
+type = S
 movetype = A
 physics = N
 ctrl=0
@@ -2497,7 +2497,7 @@ value = 1320
 ;----------------------------------------------------------------------------
 ;Active Tupon EX
 [Statedef 1310]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1310
@@ -2661,7 +2661,7 @@ value = 1320
 ;----------------------------------------------------------------------------
 ;Active Tupon
 [Statedef 1320]
-type    = S
+type = S
 movetype = I
 physics = N
 anim = 48
@@ -2692,7 +2692,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------
 ;Active Tupon
 [Statedef 1350]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 1350
@@ -2839,7 +2839,7 @@ value = 1351
 ;----------------------------------------------------------------------------
 ;EX Active Tupon
 [Statedef 1352]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 1350
@@ -2987,7 +2987,7 @@ value = 1353
 ;----------------------------------------------------------------------------
 ;Active Tupon
 [Statedef 1351]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1351
@@ -3082,7 +3082,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------
 ;Active Tupon
 [Statedef 1353]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1351
@@ -3177,7 +3177,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------
 ;Active Tupon
 [Statedef 1360]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3203,7 +3203,7 @@ value = 1360
 ;----------------------------------------------------------------------------
 ;Active Tupon
 [Statedef 1361]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3246,7 +3246,7 @@ value = 5101
 ;------------------------------------------------------------------------------
 ;Hercules Throw
 [Statedef 1400]
-type    = S
+type = S
 movetype= A
 physics = S
 ctrl = 0
@@ -3362,7 +3362,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------
 ;Hercules Throw
 [Statedef 1410]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1410
@@ -3482,7 +3482,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------
 ;Hercules Throw
 [Statedef 1450]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3518,7 +3518,7 @@ value = 1460
 ;----------------------------------------------------------------------------
 ;Hercules Throw
 [Statedef 1460]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -3555,7 +3555,7 @@ value = 1122
 ;----------------------------------------------------------------------------
 ;Hercules Throw
 [Statedef 1470]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3621,10 +3621,10 @@ value = 4060
 ;-------------------------------------------------------------------------------------------------
 ;Icarus Crash
 [Statedef 1500]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 ctrl=0
 velset=0,0
 poweradd=72 * !var(20)
@@ -3719,7 +3719,7 @@ value = 1530
 ;----------------------------------------------------------------------------
 ;Icarus Crash
 [Statedef 1530]
-type    = S
+type = S
 movetype = I
 physics = N
 anim = 1530
@@ -3750,7 +3750,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------
 ;Icarus Crash
 [Statedef 1510]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 1510
@@ -3855,7 +3855,7 @@ value = 1520
 ;----------------------------------------------------------------------------
 ;Icarus Crash
 [Statedef 1520]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1520
@@ -3968,7 +3968,7 @@ value = 1053
 ;----------------------------------------------------------------------------
 ;Icarus Crash
 [Statedef 1550]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3994,7 +3994,7 @@ value = 1550
 ;----------------------------------------------------------------------------
 ;Icarus Crash
 [Statedef 1560]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -4035,9 +4035,9 @@ value = 5101
 ;-----------------------------------------------------
 ;Gridro Super Kick
 [Statedef 1600]
-type     = S                     
+type = S                     
 movetype = A                     
-physics  = N                     
+physics = N                     
 ctrl=0
 velset=0,0
 sprpriority=1
@@ -4150,8 +4150,8 @@ player = 40,0
 [State 1600, HitDef]
 type = HitDef
 trigger1 = time = 0
-animtype  = back
-air.animtype  = back
+animtype = back
+air.animtype = back
 attr = A, SA
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -4167,7 +4167,7 @@ sparkXY = -10 + 0 * (var(35) := 80), var(36):=-70
 hitsound=S2+10*var(44), 5
 guardsound = s130, 0
 ground.slidetime = 22 + 2 * var(9)
-ground.hittime  = 24 + 2 * var(9)
+ground.hittime = 24 + 2 * var(9)
 guard.ctrltime = 24
 air.hittime = 24+ 2 * var(9)
 ground.velocity = Ifelse(var(20),-4,-7.5),-5.5
@@ -4200,9 +4200,9 @@ value = 1620
 ;---------------------------------------------------------------------------------------
 ;Gridro Super Kick EX
 [Statedef 1610]
-type     = S                     
+type = S                     
 movetype = A                     
-physics  = N  
+physics = N  
 anim = 1610                    
 ctrl=0
 velset=0,0
@@ -4343,8 +4343,8 @@ player = 40,0
 [State 1610, HitDef]
 type = HitDef
 trigger1= var(2)<=1
-animtype  = back
-air.animtype  = back
+animtype = back
+air.animtype = back
 attr = A, SA
 getpower=30* !var(20),15* !var(20)
 givepower=20,20
@@ -4360,7 +4360,7 @@ sparkXY = -10 + 0 * (var(35) := 80), var(36):=-70
 hitsound=S2+10*var(44), 5
 guardsound = s130, 0
 ground.slidetime = 22 + 2 * var(9)
-ground.hittime  = 24 + 2 * var(9)
+ground.hittime = 24 + 2 * var(9)
 guard.ctrltime = 24
 air.hittime = 24+ 2 * var(9)
 ground.velocity = Ifelse(var(20),-5,-7),-8.5
@@ -4392,7 +4392,7 @@ value = 1620
 ;---------------------------------------------------------------------------------------
 ;Gridro Super Kick Land
 [Statedef 1620]
-type    = S
+type = S
 movetype = I
 physics = N
 anim = 1603
@@ -4448,10 +4448,10 @@ ctrl = 1
 ;------------------------------------------------------------------
 ;Griffon Beak Thrust
 [Statedef 1700]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 4
+juggle = 4
 anim = 1700
 poweradd = 72 * !var(20)
 ctrl = 0
@@ -4542,8 +4542,8 @@ type = HitDef
 trigger1 = var(10) = 0 && var(2)<2
 trigger2 = var(10) = 1 && var(2)<3
 trigger3 = var(10) = 2 && var(2)<4
-animtype  = back
-air.animtype  = back
+animtype = back
+air.animtype = back
 attr = A, SA
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -4559,7 +4559,7 @@ sparkXY = -10 + 0 * (var(35) := 80), var(36):=-70
 hitsound=S2+10*var(44), 2
 guardsound = s130, 0
 ground.slidetime = 22 + 2 * var(9)
-ground.hittime  = 24 + 2 * var(9)
+ground.hittime = 24 + 2 * var(9)
 guard.ctrltime = 24
 air.hittime = 24+ 2 * var(9)
 ground.velocity = Ifelse(var(20),-4,-7.5),-5.5
@@ -4589,7 +4589,7 @@ ctrl = 1
 ;----------------------------------------------------------------------
 ;Griffon Beak Thrust EX
 [Statedef 1710]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1700
@@ -4721,8 +4721,8 @@ size.yscale =.3
 [State 1710, HitDef]
 type = HitDef
 trigger1 =var(2)<8
-animtype  = back
-air.animtype  = back
+animtype = back
+air.animtype = back
 attr = A, SA
 damage = 16, 10
 getpower=30* !var(20),15* !var(20)
@@ -4738,7 +4738,7 @@ sparkXY = -10 + 0 * (var(35) := 80), var(36):=-70
 hitsound=S2+10*var(44), 2
 guardsound = s130, 0
 ground.slidetime = 22 + 2 * var(9)
-ground.hittime  = 24 + 2 * var(9)
+ground.hittime = 24 + 2 * var(9)
 guard.ctrltime = 24
 air.hittime = 24+ 2 * var(9)
 ground.velocity = Ifelse(var(20),-4,-7.5),-5.5

@@ -9,10 +9,10 @@
 
 ;Cross Cutter
 [Statedef 1000]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 10
+juggle = 10
 velset = 0,0
 ctrl = 0
 poweradd = 72 * !var(20)
@@ -399,7 +399,7 @@ trigger2 = Target, Time <= 1 && !(Target, HitShakeOver)
 ;----------------------------------------
 ;Cross Cutter EX
 [Statedef 1050]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd = -500
@@ -810,7 +810,7 @@ trigger1= !AnimTime
 
 ;Aerial Cross Cutter
 [Statedef 1030];Ok!
-type    = A
+type = A
 movetype= A
 physics = A
 poweradd= 53
@@ -897,7 +897,7 @@ removeongethit = -1
 
 ;Aerial Cross Cutter EX
 [Statedef 1031]
-type    = A
+type = A
 movetype= A
 physics = A
 poweradd= -500
@@ -4124,7 +4124,7 @@ guardsound=S130,1
 guard.sparkno = s7001;555
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = 4.027801513671875,-4.5
 air.type = High
 air.velocity = 4.027801513671875,-4.5
@@ -4535,7 +4535,7 @@ guardsound=S130,1
 guard.sparkno = s7001;555
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = 4.027801513671875,-4.5
 air.type = High
 air.velocity = 4.027801513671875,-4.5
@@ -4809,7 +4809,7 @@ guardsound=S130,1
 guard.sparkno = s7001;555
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = 4.027801513671875,-4.5
 air.type = High
 air.velocity = 4.027801513671875,-4.5
@@ -5119,7 +5119,7 @@ guardsound=S130,1
 guard.sparkno = s7001;555
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = 4.027801513671875,-4.5
 air.type = High
 air.velocity = 4.027801513671875,-4.5

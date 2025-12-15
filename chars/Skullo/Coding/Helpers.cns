@@ -200,7 +200,7 @@ ignorehitpause = 1
 
 ;=====================<SKULLO BALL PROJECTILE>=========================
 [Statedef 3201]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0

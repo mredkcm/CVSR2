@@ -78,7 +78,7 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ; 3rd Strike Standing Light Punch
 [Statedef 205]
-type    = S
+type = S
 movetype= A
 physics = S
 juggle = 0
@@ -120,8 +120,8 @@ x = -15
 type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
-animtype  = Hard
-damage    = Ifelse(var(55),25,35), 0
+animtype = Hard
+damage = Ifelse(var(55),25,35), 0
 getpower = 72 * !var(20), 36 * !var(20)
 hitflag = MA
 guardflag = MA
@@ -656,7 +656,7 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ; SFIV Standing Strong Punch
 [Statedef 222]
-type    = S
+type = S
 movetype= A
 physics = S
 juggle = 0
@@ -686,8 +686,8 @@ channel = 0
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
-animtype  = Hard
-damage    = 44
+animtype = Hard
+damage = 44
 getpower = 72 * !var(20), 36 * !var(20)
 guardflag = MA
 hitflag = MAF
@@ -700,7 +700,7 @@ hitsound=S2+10*var(44), 1
 guardsound=s130, 0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -5.5
 air.velocity = -2.5,-4
 air.hittime = 18
@@ -740,7 +740,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Target Combo Finish
 [Statedef 223]
-type    = S
+type = S
 movetype= A
 physics = S
 juggle = 0
@@ -785,8 +785,8 @@ channel = 0
 type = HitDef
 trigger1 = AnimElem = 6
 attr = S, NA
-animtype  = Hard
-damage    = 72
+animtype = Hard
+damage = 72
 getpower = 72 * !var(20), 36 * !var(20)
 guardflag = MA
 hitflag = MAF
@@ -799,7 +799,7 @@ hitsound=S2+10*var(44),2
 guardsound=s130, 0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -8.5,-3
 air.velocity = -8.5,-2
 air.hittime = 18
@@ -1173,7 +1173,7 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ;Senpukyaku 
 [Statedef 242]
-type    = S
+type = S
 movetype= A
 physics = N
 juggle = 0
@@ -1246,8 +1246,8 @@ type = HitDef
 trigger1 = !var(16) && (var(15)<1 || var(20))
 trigger1 = animelem=7
 attr = S, NA
-animtype  = Medium
-damage    = 53
+animtype = Medium
+damage = 53
 getpower = 72 * !var(20), 36 * !var(20)
 guardflag=HA
 hitflag = MAF
@@ -1260,7 +1260,7 @@ hitsound=S2+10*var(44),4
 guardsound=s130, 0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -6
 air.velocity = -3.5,-4
 air.hittime = 18
@@ -1915,7 +1915,7 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ; Target Combo Follow up
 [Statedef 451]
-type    = S
+type = S
 movetype= A
 physics = S
 juggle = 5
@@ -1945,8 +1945,8 @@ value = 15,0
 type = HitDef
 trigger1 = !Time
 attr = S, NA
-animtype  = Hard
-damage    = 63
+animtype = Hard
+damage = 63
 getpower = 72 * !var(20), 36 * !var(20)
 guardflag = MA
 hitflag = MAF
@@ -1959,7 +1959,7 @@ hitsound=S2+10*var(44),5
 guardsound=s130, 0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -7.6,-3
 air.velocity = -7.6,-4
 air.hittime = 18
@@ -3006,8 +3006,8 @@ y = .5
 type = HitDef
 trigger1 = AnimElem = 6||animelem = 11
 attr = A, NT
-animtype  = Medium
-damage    = 58
+animtype = Medium
+damage = 58
 getpower = 20,20
 guardflag = MA
 pausetime = 10,10
@@ -3018,7 +3018,7 @@ sparkxy = -10 + 0 * (var(35) := 155), var(36) := -111
 hitsound=S2+10*var(44),4
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -2.5,-11
 air.velocity = -2.5,-10.4
 fall = 1
@@ -3035,7 +3035,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Throw - Land
 [Statedef 811]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 811
@@ -3060,7 +3060,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Throw - Target
 [Statedef 815]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0

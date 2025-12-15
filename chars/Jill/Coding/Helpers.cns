@@ -348,7 +348,7 @@ trigger1 = var(0) >= 25
 
 ;===============<SIGNAL FLARE WIN HELPER>===============
 [Statedef 996]
-type    = A
+type = A
 movetype= I
 physics = N
 ctrl = 0
@@ -6562,7 +6562,7 @@ trigger1 = RoundState < 3
 ;========================<KO CAMERA FOCUS>=============================
 [Statedef 8998]
 type = S
-physics  = N;S
+physics = N;S
 anim = 0
 ctrl = 0
 

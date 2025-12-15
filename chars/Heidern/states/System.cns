@@ -893,7 +893,7 @@ ctrl = 1
 ;=============<Running>====================
 ;Running
 [Statedef 100]
-type    = S
+type = S
 movetype = I
 physics = S
 ctrl = 0
@@ -1198,7 +1198,7 @@ value = 107
 ;---------------------------------------------------------------------------
 ; RUN_BACK
 [Statedef 107]
-type    = s
+type = s
 physics = S
 ctrl = 0
 anim = 107
@@ -1293,10 +1293,10 @@ ctrl = 1
 ;=========<DODGE>=============
 ;Dodge
 [Statedef 700]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 700
@@ -1768,7 +1768,7 @@ ctrl = 0
 ;=====================<HIT GROUND(BOUNCE)>===================
 ;Hit ground
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -1858,7 +1858,7 @@ time = 20
 ;================<HIT LIEDOWN>====================
 ;Hit Liedown
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2123,7 +2123,7 @@ channel = 0
 [State 5210, Recover Sound]
 type = PlaySnd
 trigger1 = !Time
-value  = 5200,0
+value = 5200,0
 channel = 1
 
 [State 5210, Flash]
@@ -2295,7 +2295,7 @@ value = 5050
 ;=====================<HIT GROUND(BOUNCE)>===================
 ;Hit ground
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2385,7 +2385,7 @@ time = 20
 ;================<HIT LIEDOWN>====================
 ;Hit Liedown
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 

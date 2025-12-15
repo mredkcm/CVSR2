@@ -1,13 +1,13 @@
-;Var(0)  = 相手判別
-;Var(1)  = 1P,2P側判定
-;Var(2)  = ＳＡ選択
-;Var(3)  = ハイジャンプ
-;Var(4)  = ヒップアタックしゃがみ着地
-;Var(5)  = 追い討ち不可
-;Var(6)  = 相手空中復帰
-;Var(7)  = クイックスタンディング
-;Var(8)  = 投げ抜け
-;Var(9)  = ファーストアタック
+;Var(0) = 相手判別
+;Var(1) = 1P,2P側判定
+;Var(2) = ＳＡ選択
+;Var(3) = ハイジャンプ
+;Var(4) = ヒップアタックしゃがみ着地
+;Var(5) = 追い討ち不可
+;Var(6) = 相手空中復帰
+;Var(7) = クイックスタンディング
+;Var(8) = 投げ抜け
+;Var(9) = ファーストアタック
 ;Var(10) = 弱中強判別
 ;Var(11) = ヒット確認(movehit)
 ;Var(12) = ヒット確認(moveguarded)
@@ -103,61 +103,61 @@
 ;☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
 ;基本データ部分
 [Data]
-life              = 1130    ;体力ゲージの最大値を決めます
-power             = 3000    ;パワーゲージ最大値（デフォルトは 3000 = Lv.3 になります・オプション）
-attack            = 87      ;攻撃力パーセンテージ（デフォルトは 100% になります）
-defence           = 100     ;防御力パーセンテージ（デフォルトは 100% になります）
-fall.defence_up   = 50      ;一時的に上昇するダウン時の防御力パーセンテージ
-liedown.time      = 60      ;倒れてから起き上がるまでの時間
-airjuggle         = 15      ;ジャグルポイント限界値　★１
-sparkno           = 2       ;デフォルトのヒットスパーク番号（fightfx.airか、キャラのairから呼び出す）
-guard.sparkno     = 40      ;デフォルトのガードスパーク番号（fightfx.airか、キャラのairから呼び出す）
-KO.echo           = 0       ;ＫＯ時の声にエコーを掛けるかどうか（0=しない・1=する）
-volume            = 100     ;キャラの音量　255が最高
-IntPersistIndex   = 0       ;Varを次のラウンドへ持ち越しが可能 (最小=0, 最大=59)
+life = 1000    ;体力ゲージの最大値を決めます
+power = 3000    ;パワーゲージ最大値（デフォルトは 3000 = Lv.3 になります・オプション）
+attack = 87      ;攻撃力パーセンテージ（デフォルトは 100% になります）
+defence = 100     ;防御力パーセンテージ（デフォルトは 100% になります）
+fall.defence_up = 50      ;一時的に上昇するダウン時の防御力パーセンテージ
+lieDown.time = 15      ;倒れてから起き上がるまでの時間
+airjuggle = 15      ;ジャグルポイント限界値　★１
+sparkno = 2       ;デフォルトのヒットスパーク番号（fightfx.airか、キャラのairから呼び出す）
+guard.sparkno = 40      ;デフォルトのガードスパーク番号（fightfx.airか、キャラのairから呼び出す）
+KO.echo = 0       ;ＫＯ時の声にエコーを掛けるかどうか（0=しない・1=する）
+volume = 100     ;キャラの音量　255が最高
+IntPersistIndex = 0       ;Varを次のラウンドへ持ち越しが可能 (最小=0, 最大=59)
 ;FloatPersistIndex = 40      ;FVarを次のラウンドへ持ち越しが可能 (最小=0, 最大=39)
 
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;サイズ設定
 [Size]
-xscale           = 0.90     ;キャラ画像の横のスケール
-yscale           = 1.05     ;キャラ画像の縦のスケール
-ground.back      = 28       ;キャラの幅（地上後方）
-ground.front     = 28       ;キャラの幅（地上前方）
-air.back         = 20       ;キャラの幅（空中後方）
-air.front        = 20       ;キャラの幅（空中前方）
-height           = 40       ;跳び越す相手のためのキャラの高さ
-attack.dist      = 160      ;攻撃を出した時に相手がガード体勢に入る最低の距離
+xscale = 0.90     ;キャラ画像の横のスケール
+yscale = 1.05     ;キャラ画像の縦のスケール
+ground.back = 28       ;キャラの幅（地上後方）
+ground.front = 28       ;キャラの幅（地上前方）
+air.back = 20       ;キャラの幅（空中後方）
+air.front = 20       ;キャラの幅（空中前方）
+height = 40       ;跳び越す相手のためのキャラの高さ
+attack.dist = 160      ;攻撃を出した時に相手がガード体勢に入る最低の距離
 proj.attack.dist = 90       ;相手がガード体勢に入る発射物との最低の距離
-proj.doscale     = 0        ;xscaleとyscaleが発射物のスケールにも影響するかどうか（0=しない・1=する）
-head.pos         = 5, -125  ;BindToTargetの時に必要な頭の座標
-mid.pos          = 0, -75   ;BindToTargetの時に必要な体中心の座標
-shadowoffset     = -2        ;影の垂直方向の位置
-draw.offset      = 0,0      ;キャラ描画表示位置（Ｘ軸,Ｙ軸）
+proj.doscale = 0        ;xscaleとyscaleが発射物のスケールにも影響するかどうか（0=しない・1=する）
+head.pos = 5, -125  ;BindToTargetの時に必要な頭の座標
+mid.pos = 0, -75   ;BindToTargetの時に必要な体中心の座標
+shadowoffset = -2        ;影の垂直方向の位置
+draw.offset = 0,0      ;キャラ描画表示位置（Ｘ軸,Ｙ軸）
 
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;移動速度設定
 [Velocity]
-walk.fwd     = 2.0          ;前進歩行速度
-walk.back    = -1.5         ;後退歩行速度
-;run.fwd      = 4.6, 0      ;前に走る時の速度（Ｘ軸,Ｙ軸）
-;run.back     = -4.5,-3.8   ;後ろに走る時の速度（Ｘ軸,Ｙ軸）
-jump.neu     = 0,-8.75      ;垂直ジャンプ速度（Ｘ軸,Ｙ軸）
-jump.back    = -2.8         ;後ジャンプ速度
-jump.fwd     = 3.2          ;前ジャンプ速度
+walk.fwd = 2.0          ;前進歩行速度
+walk.back = -1.5         ;後退歩行速度
+;run.fwd = 4.6, 0      ;前に走る時の速度（Ｘ軸,Ｙ軸）
+;run.back = -4.5,-3.8   ;後ろに走る時の速度（Ｘ軸,Ｙ軸）
+jump.neu = 0,-8.75      ;垂直ジャンプ速度（Ｘ軸,Ｙ軸）
+jump.back = -2.8         ;後ジャンプ速度
+jump.fwd = 3.2          ;前ジャンプ速度
 ;runjump.back = -2.55,-8.1  ;後ろに走りながらのジャンプ速度（オプション）
-;runjump.fwd  = 4,-8.1      ;前に走りながらのジャンプ速度（オプション）
-;airjump.neu  = 0,-8.1      ;空中垂直ジャンプ速度（オプション）
+;runjump.fwd = 4,-8.1      ;前に走りながらのジャンプ速度（オプション）
+;airjump.neu = 0,-8.1      ;空中垂直ジャンプ速度（オプション）
 ;airjump.back = -2.55       ;空中後ジャンプ速度（オプション）
-;airjump.fwd  = 2.5         ;空中前ジャンプ速度（オプション）
+;airjump.fwd = 2.5         ;空中前ジャンプ速度（オプション）
 
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;動作設定
 [Movement]
-airjump.num     = 0      ;空中ジャンプが出来る回数（オプション）
-airjump.height  = 35     ;空中ジャンプするために必要な最低限の高さ（オプション）
-yaccel          = .50    ;重力（垂直下降加速度）
-stand.friction  = .85    ;立ち状態の摩擦係数
+airjump.num = 0      ;空中ジャンプが出来る回数（オプション）
+airjump.height = 35     ;空中ジャンプするために必要な最低限の高さ（オプション）
+yaccel = .50    ;重力（垂直下降加速度）
+stand.friction = .85    ;立ち状態の摩擦係数
 crouch.friction = .82    ;しゃがみ状態の摩擦係数
 
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
@@ -298,7 +298,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 後ダッシュ
 [Statedef 105]
-type    = S
+type = S
 physics = N
 ctrl = 0
 anim = 105
@@ -360,7 +360,7 @@ trigger1 = pos Y >= 0
 value = 106
 
 [Statedef 106]
-type    = S
+type = S
 physics = N
 ctrl = 0
 anim = 106
@@ -1998,7 +1998,7 @@ value = (statetype = C)*11 + (statetype = A)*51
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; SGUARDHIT (shaking)
 [Statedef 6150]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2064,7 +2064,7 @@ time = 3
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; SGUARDHIT2 (knocked back)
 [Statedef 6151]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -2143,7 +2143,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; CGUARDHIT (shaking)
 [Statedef 6152]
-type    = C
+type = C
 movetype= H
 physics = N
 velset = 0,0
@@ -2209,7 +2209,7 @@ time = 4
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; CGUARDHIT2 (knocked back)
 [Statedef 6153]
-type    = C
+type = C
 movetype= H
 physics = C
 anim = 151
@@ -2289,7 +2289,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; AGUARDHIT (shaking)
 [Statedef 6154]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2326,7 +2326,7 @@ time = 4
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; AGUARDHIT2 (knocked away)
 [Statedef 6155]
-type    = A
+type = A
 movetype= H
 physics = N
 anim = 152
@@ -2401,7 +2401,7 @@ value = 52
 ;☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
 ; 相手空中復帰
 [Statedef 7000]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2437,7 +2437,7 @@ value = 7010
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HITA_UP (initial going up)
 [Statedef 7010]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -2475,7 +2475,7 @@ value = 7020
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HITA_UP_T (transition)
 [Statedef 7020]
-type    = A
+type = A
 movetype= H
 physics = N
 

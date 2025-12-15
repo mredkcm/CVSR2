@@ -12,10 +12,10 @@
 ;-------------------------------------------------------------------------------
 ;Shinki Hatsudou Kai
 [Statedef 3200]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 10
+juggle = 10
 velset = 0,0
 anim = 1700
 ctrl = 0
@@ -219,7 +219,7 @@ ctrl = 1
 type = A
 movetype= A
 physics = A
-juggle  = 0
+juggle = 0
 velset = 0,0
 anim = 3202
 ctrl = 0
@@ -286,7 +286,7 @@ value = Anim + 3
 ;-------------------------------------------------------------------------------
 ;Sairou Kyushuu
 [Statedef 3300]
-type    = S
+type = S
 movetype= A
 physics = S
 ctrl = 0
@@ -582,7 +582,7 @@ y = 0
 type = hitdef
 trigger1 = anim = 4200 && animelem = 7
 attr = S, NA
-animtype  = hard
+animtype = hard
 damage = 36, 7
 guardflag = M
 hitflag = MAF
@@ -595,7 +595,7 @@ hitsound =  s2,2
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -.5, -7
 air.type = Low
 air.velocity = -.5, -4
@@ -798,10 +798,10 @@ value = 52
 ;-------------------------------------------------------------------------------
 ;Garyuu Messhuu
 [Statedef 3400]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 velset = 0,0
 anim = 7000
 ctrl = 0
@@ -980,7 +980,7 @@ ground.hittime = 24
 ground.velocity = 0,0
 ground.cornerpush.veloff = -1
 air.velocity = -6,-1
-p2facing  = 1
+p2facing = 1
 ;fall = 1
 fall.recover = 0
 getpower = 0
@@ -1077,7 +1077,7 @@ value = IfElse(var(5) = 2, 3402,3402)
 ;-------------------------------------------------------------------------------
 ;Garyuu Messhuu Ryuubu
 [Statedef 3402]
-type    = S
+type = S
 movetype= A
 physics = S
 ctrl = 0
@@ -1141,12 +1141,12 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ; Garyuu Messhuu Ryuubu in air
 [Statedef 3403]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0
 anim = 3110
-juggle  = 1
+juggle = 1
 poweradd = 0
 
 [State 3403, 1]
@@ -1218,7 +1218,7 @@ type = Hitdef
 trigger1 = AnimElem = 2
 attr=s,sa
 animtype=hard
-damage    = 30,3
+damage = 30,3
 givepower = 25
 getpower = 0
 hitflag=maf
@@ -1231,7 +1231,7 @@ hitsound = s2,13
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -3,0
 air.velocity = -2.2,-3.2
 air.animtype = Back
@@ -1249,7 +1249,7 @@ type = Hitdef
 trigger1 = AnimElem = 3
 attr=s,sa
 animtype=hard
-damage    = 75,11
+damage = 75,11
 givepower = 25
 getpower = 0
 hitflag=maf
@@ -1258,11 +1258,11 @@ pausetime = 35,35
 sparkno = -1 + 0 * (var(33) := 8014)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 129), var(36) := -63
-hitsound   = S2000,31
+hitsound = S2000,31
 guardsound = S2,4
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -6, -4
 air.velocity = -2.2,-3.2
 air.animtype = Back
@@ -1378,7 +1378,7 @@ value = 3404
 ;-------------------------------------------------------------------------------
 ; Garyuu Messhuu Ryuubu landing
 [Statedef 3404]
-type    = S
+type = S
 movetype= I
 physics = S
 ctrl = 0
@@ -1411,10 +1411,10 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ; Maki Shinki Hatsudou
 [Statedef 3000]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 10
+juggle = 10
 velset = 0,0
 anim = 2000
 ctrl = 0
@@ -1637,10 +1637,10 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ; Kyouja Renbu
 [Statedef 3500]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 10
+juggle = 10
 velset = 0,0
 anim = 2100
 ctrl = 0
@@ -1774,9 +1774,9 @@ ignorehitpause = 1
 type = HitDef
 trigger1 = time
 attr = S, HA
-animtype  = Low
-damage    = 0,5
-getpower  = 0
+animtype = Low
+damage = 0,5
+getpower = 0
 guardflag = M
 hitflag = MAF
 priority = 4, Hit
@@ -1785,7 +1785,7 @@ sparkno= -1
 getpower = 0
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -30 + 0 * (var(35) := 80), var(36) := -60
-hitsound   = -1
+hitsound = -1
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 30
@@ -1844,7 +1844,7 @@ ctrl= 0
 ;-------------------------------------------------------------------------------
 ;Kyouja Renbu guarded
 [Statedef 3502]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 417
@@ -1874,7 +1874,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ;Kyouja Renbu miss
 [Statedef 3503]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 101
@@ -1950,7 +1950,7 @@ hitsound = s2,0
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 12
+ground.hittime = 12
 ground.velocity = ifelse(var(20), -2.66, -4)
 airguard.velocity = -1.9,-.8
 air.type = High
@@ -1963,7 +1963,7 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 6
 attr = S, NA
-animtype  = Medium
+animtype = Medium
 damage = 35, 0
 getpower = 0
 guardflag = MA
@@ -1976,7 +1976,7 @@ hitsound = s2,1
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = ifelse(var(20), -3.70, -5.5)
 air.velocity = -2.5,-4
 p2stateno = 3530
@@ -1986,7 +1986,7 @@ kill = 0
 type = HitDef
 trigger1 = animelem = 14
 attr = S, NA
-animtype  = light
+animtype = light
 damage = 35, 0
 getpower = 0
 guardflag = MA
@@ -1999,7 +1999,7 @@ hitsound = s2,11
 guardsound = s2,4
 ground.type = low
 ground.slidetime = 10
-ground.hittime  = 12
+ground.hittime = 12
 ground.velocity = ifelse(var(20), -2.66, -4)
 air.velocity = -2.5,-3.5
 p2stateno = 3520
@@ -2009,7 +2009,7 @@ kill = 0
 type = HitDef
 trigger1 = animelem = 17
 attr = S, NA
-animtype  = light
+animtype = light
 damage = 35, 0
 getpower = 0
 guardflag = MA
@@ -2022,7 +2022,7 @@ hitsound = s2,11
 guardsound = s2,4
 ground.type = low
 ground.slidetime = 10
-ground.hittime  = 12
+ground.hittime = 12
 ground.velocity = ifelse(var(20), -2.66, -4)
 air.velocity = -2.5,-3.5
 p2stateno = 3530
@@ -2032,7 +2032,7 @@ kill = 0
 type = HitDef
 trigger1 = animelem = 21
 attr = S, NA
-animtype  = light
+animtype = light
 damage = 35, 0
 getpower = 0
 guardflag = MA
@@ -2045,7 +2045,7 @@ hitsound = s2,11
 guardsound = s2,4
 ground.type = low
 ground.slidetime = 10
-ground.hittime  = 12
+ground.hittime = 12
 ground.velocity = ifelse(var(20), -2.66, -4)
 air.velocity = -2.5,-3.5
 p2stateno = 3520
@@ -2055,7 +2055,7 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 26
 attr = S, NA
-animtype  = Medium
+animtype = Medium
 damage = 35, 0
 getpower = 0
 guardflag = MA
@@ -2068,7 +2068,7 @@ hitsound = s2,1
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -5.5
 air.velocity = -2.5,-4
 p2stateno = 3530
@@ -2078,7 +2078,7 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 34
 attr = S, NA
-animtype  = Medium
+animtype = Medium
 ID = 8000
 damage = 290, 0
 getpower = 0
@@ -2092,7 +2092,7 @@ hitsound = s2000,9
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -5.5
 air.velocity = -2.5,-4
 p2stateno = ifelse (p2life >= 290, 3540, 3541)
@@ -2299,7 +2299,7 @@ ctrl = 1
 ; Kyouja Renbu - P2 get hit!
 ;---------------------------------------------------------------------------
 [Statedef 3520]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2333,7 +2333,7 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 [Statedef 3530]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2367,7 +2367,7 @@ ctrl = 1
 
 ;-------------------------------------------------------------------------------
 [Statedef 3540]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2414,7 +2414,7 @@ ctrl = 0
 
 ;-------------------------------------------------------------------------------
 [Statedef 3541]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

@@ -1,6 +1,6 @@
 ;======================<Shermie Flash>===================
 [Statedef 3000]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -150,7 +150,7 @@ ctrl = 1
 
 ;Shermie Flash (Success)
 [Statedef 3001]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 3001
@@ -382,7 +382,7 @@ ctrl=1
 
 ;Shermie Flash (Target)
 [Statedef 3005]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -411,7 +411,7 @@ value = 5050
 
 ;Shermie Flash (Target) 2
 [Statedef 3006]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -450,7 +450,7 @@ value = 5100
 
 ;======================<Shermie Flash MAX>===================
 [Statedef 3050]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -600,7 +600,7 @@ ctrl = 1
 
 ;Shermie Flash MAX (Success)
 [Statedef 3051]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 3001
@@ -824,7 +824,7 @@ ctrl = 0
 
 ;Shermie Flash MAX (Success)(Mash Time) 2
 [Statedef 3052]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 3052
@@ -972,7 +972,7 @@ trigger2 = (command = "up" || command = "down" || command = "back" || command = 
 var(42) = 2
 
 [State 3051, Mashing Increment]
-type  = VarAdd
+type = VarAdd
 trigger1 = var(42) = 2
 var(12) = 1
 
@@ -998,7 +998,7 @@ ctrl=0
 
 ;Shermie Flash MAX (Success) 3
 [Statedef 3053]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 3053
@@ -1044,7 +1044,7 @@ ctrl=1
 
 ;Shermie Flash MAX (Target)(Mash Time) 2
 [Statedef 3056]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -1076,7 +1076,7 @@ value = 5050
 
 ;Shermie Flash MAX (Target) 3
 [Statedef 3057]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -1120,7 +1120,7 @@ value = 5100
 
 ;======================<Shermie Carnival>===================
 [Statedef 3100]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -1256,7 +1256,7 @@ ctrl = 1
 
 ;Shermie Carnival (Success)
 [Statedef 3101]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 3101
@@ -1547,7 +1547,7 @@ ctrl=0
 
 ;Shermie Carnival (Success) 2
 [Statedef 3102]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -1609,7 +1609,7 @@ ctrl = 0
 
 ;Shermie Carnival (Success) 3
 [Statedef 3103]
-type    = A
+type = A
 movetype = A
 physics = N
 poweradd = 0
@@ -1679,7 +1679,7 @@ ctrl = 0
 
 ;Shermie Carnival (Success) 4
 [Statedef 3104]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -1795,7 +1795,7 @@ ctrl=1
 
 ;Shermie Carnival (Target)
 [Statedef 3105]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -1819,7 +1819,7 @@ value = 5050
 
 ;Shermie Carnival (Target) 2
 [Statedef 3106]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -1864,7 +1864,7 @@ value = 5100
 
 ;Shermie Carnival (Target) 3
 [Statedef 3107]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -1903,7 +1903,7 @@ value = 5100
 
 ;======================<Shermie Carnival MAX>===================
 [Statedef 3150]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -2039,7 +2039,7 @@ ctrl = 1
 
 ;Shermie Carnival MAX (Success)
 [Statedef 3151]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 3151
@@ -2351,7 +2351,7 @@ ctrl=0
 
 ;Shermie Carnival MAX (Success) 2
 [Statedef 3152]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -2413,7 +2413,7 @@ ctrl = 0
 
 ;Shermie Carnival MAX (Success) 3
 [Statedef 3153]
-type    = A
+type = A
 movetype = A
 physics = N
 poweradd = 0
@@ -2483,7 +2483,7 @@ ctrl = 0
 
 ;Shermie Carnival MAX (Success) 4
 [Statedef 3154]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -2593,7 +2593,7 @@ ctrl=1
 
 ;Shermie Carnival MAX (Target)
 [Statedef 3155]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -2760,7 +2760,7 @@ ctrl = 1
 
 ;Lightning Leg Lariat (Attempt)
 [Statedef 3201]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -2828,7 +2828,7 @@ ctrl = 1
 
 ;Lightning Leg Lariat (Success)
 [Statedef 3202]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 3202
@@ -3050,7 +3050,7 @@ ctrl = 1
 
 ;Lightning Leg Lariat (Success) 2
 [Statedef 3203]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 3203
@@ -3363,7 +3363,7 @@ ctrl=0
 
 ;Lightning Leg Lariat (Success) 3
 [Statedef 3204]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -3438,7 +3438,7 @@ ctrl=1
 
 ;Final Hit (Success) 4
 [Statedef 3205]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -3519,7 +3519,7 @@ ctrl=0
 
 ;Final Hit (Success) 5
 [Statedef 3206]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -3633,7 +3633,7 @@ ctrl=0
 
 ;Final Hit (Landing)
 [Statedef 3207]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 3207
@@ -3682,7 +3682,7 @@ ctrl = 1
 
 ;Lightning Leg Lariat(Target)
 [Statedef 3210]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -3707,7 +3707,7 @@ value = 5050
 
 ;Lightning Leg Lariat (Target) 2
 [Statedef 3211]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -3907,7 +3907,7 @@ value = 5100 ;Hit ground
 ;Hit By Lightning Leg Lariat (Slide)
 ;**Special Thanks to KoopaKoot**
 ;[Statedef 3214]
-;type    = S
+;type = S
 ;movetype= H
 ;physics = N
 ;velset = 0,0
@@ -3949,7 +3949,7 @@ value = 5100 ;Hit ground
 
 ;Hit By Lightning Leg Lariat (Liedown)
 ;[Statedef 3215]
-;type    = S
+;type = S
 ;movetype= H
 ;physics = N
 ;

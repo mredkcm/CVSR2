@@ -2418,7 +2418,7 @@ value=1210
 ;---------------------------------------------------------------------------
 ;Wild Brace-connect
 [Statedef 3401]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -2699,7 +2699,7 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ;Spin Drill Cyclone -1
 [Statedef 3501]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 3501
@@ -2761,7 +2761,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Spin Drill Cyclone -2
 [Statedef 3502]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0

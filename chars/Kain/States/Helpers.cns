@@ -82,7 +82,7 @@ trigger3=root,AILevel
 ;---------------------------------------------------------------------------
 ;MP Energy
 [Statedef 211]
-physics  = N
+physics = N
 anim = 211
 ctrl = 0
 velset=0,0
@@ -125,7 +125,7 @@ trigger4 =animelemtime(14)>0
 ;---------------------------------------------------------------------------
 ;HP Energy
 [Statedef 222]
-physics  = N
+physics = N
 anim = parent, Anim+1
 ctrl = 0
 velset=0,0
@@ -226,7 +226,7 @@ trigger1 = !animtime
 ;---------------------------------------------------------------------------
 ;CHP Energy
 [Statedef 421]
-physics  = N
+physics = N
 anim = 421
 ctrl = 0
 velset=2,0
@@ -257,7 +257,7 @@ trigger3 =!animtime
 ;---------------------------------------------------------------------------
 ;CHK Energy
 [Statedef 451]
-physics  = N
+physics = N
 anim = 451
 ctrl = 0
 velset=0,0
@@ -300,7 +300,7 @@ trigger4 =animelemtime(12)>0
 ;---------------------------------------------------------------------------
 ;AHP Energy
 [Statedef 621]
-physics  = N
+physics = N
 anim = 621
 ctrl = 0
 velset=0,0
@@ -343,7 +343,7 @@ trigger4 =animelemtime(15)>0
 ;---------------------------------------------------------------------------
 ;AHK Energy
 [Statedef 651]
-physics  = N
+physics = N
 anim = 651
 ctrl = 0
 velset=0,0
@@ -374,7 +374,7 @@ trigger4 =root,animelemtime(8)>0
 ;---------------------------------------------------------------------------
 ;Fire
 [Statedef 812]
-physics  = N
+physics = N
 anim = 812
 ctrl = 0
 velset=0,0
@@ -405,7 +405,7 @@ trigger3 =!animtime
 ;---------------------------------------------------------------------------
 ;Fire
 [Statedef 865]
-physics  = N
+physics = N
 anim = 7182
 ctrl = 0
 velset=0,0
@@ -453,7 +453,7 @@ value=866
 ;---------------------------------------------------------------------------
 ;Fire
 [Statedef 866]
-physics  = N
+physics = N
 ctrl = 0
 velset=0,0
 sprpriority=3
@@ -824,7 +824,7 @@ trigger1=!animtime
 ;---------------------------------------------------------------------------
 ;Schwarze Flamme FX
 [Statedef 1008]
-physics  = N
+physics = N
 anim = 1008
 ctrl = 0
 velset=0,0
@@ -1104,7 +1104,7 @@ trigger1=!animtime
 ;---------------------------------------------------------------------------
 ;Schwarze Lanze FX
 [Statedef 1107]
-physics  = N
+physics = N
 anim = 1009
 ctrl = 0
 velset=3,0
@@ -1127,7 +1127,7 @@ trigger1 =!animtime
 ;---------------------------------------------------------------------------
 ;Schwarzer Panzer FX
 [Statedef 1205]
-physics  = N
+physics = N
 anim = 1205
 ctrl = 0
 velset=-3,0
@@ -1169,7 +1169,7 @@ trigger1=!animtime
 ;---------------------------------------------------------------------------
 ;Schwarzer Panzer FX
 [Statedef 1206]
-physics  = N
+physics = N
 anim = 1206
 ctrl = 0
 velset=-3,0
@@ -1212,7 +1212,7 @@ trigger2=root,stateno!=1200&&root,stateno!=1250
 ;---------------------------------------------------------------------------
 ;Schwarzer Panzer FX
 [Statedef 1207]
-physics  = N
+physics = N
 anim = 1207
 ctrl = 0
 velset=0,0
@@ -1305,7 +1305,7 @@ trigger6=root,stateno=3250&&animelemtime(18)>0
 ;---------------------------------------------------------------------------
 ;Schwarzer Stob FX
 [Statedef 1305]
-physics  = N
+physics = N
 anim = 1305
 ctrl = 0
 velset=0.5,0.1
@@ -1334,7 +1334,7 @@ trigger1=!animtime
 ;---------------------------------------------------------------------------
 ;Schwarzer Stob FX
 [Statedef 1306]
-physics  = N
+physics = N
 anim = 1306
 ctrl = 0
 velset=0,0
@@ -2053,7 +2053,7 @@ trigger1=!animtime
 ;---------------------------------------------------------------------------
 ;Fire
 [Statedef 3201]
-physics  = N
+physics = N
 anim = 3201
 ctrl = 0
 velset=0,0
@@ -2088,7 +2088,7 @@ trigger3 =!animtime
 ;---------------------------------------------------------------------------
 ;Fire
 [Statedef 3202]
-physics  = N
+physics = N
 anim = 3202
 ctrl = 0
 velset=0,0
@@ -2317,7 +2317,7 @@ ignorehitpause=1
 ;---------------------------------------------------------------------------
 ;Himmlische Brennen FX
 [Statedef 3302]
-physics  = N
+physics = N
 anim = 1205
 ctrl = 0
 velset=0,0
@@ -2341,7 +2341,7 @@ trigger2=root,animelemtime(62)>=0
 ;---------------------------------------------------------------------------
 ;Himmlische Brennen FX
 [Statedef 3303]
-physics  = N
+physics = N
 anim = 1206
 ctrl = 0
 velset=0,0
@@ -2365,7 +2365,7 @@ trigger2=root,animelemtime(62)>=0
 ;---------------------------------------------------------------------------
 ;Himmlische Brennen FX
 [Statedef 3305]
-physics  = N
+physics = N
 anim = 3305
 ctrl = 0
 velset=0,0
@@ -2393,7 +2393,7 @@ ignorehitpause=1
 ;---------------------------------------------------------------------------
 ;Himmlische Brennen FX
 [Statedef 3306]
-physics  = N
+physics = N
 anim = 3306
 ctrl = 0
 velset=0,0
@@ -3677,7 +3677,7 @@ trigger1=time>14
 ;CAMERA FOCUS
 [Statedef 6001]
 type = S
-physics  = S
+physics = S
 anim = 0
 ctrl = 0
 

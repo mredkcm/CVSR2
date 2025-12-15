@@ -1,0 +1,11 @@
+This patch is designed to add interactivity with my Ken, as well as a few other minor things.
+
+
+=====<Patch Details>=====
+
+- Added intros vs. Sagat and Kyo. One additional intro added for Ryu vs. Funny Ryu. Two intros added vs. my       Ken, and another intro vs. my Ken in Violent mode.
+- Modified the intro where he tightens his headband to include a sequence where he adjusts his gloves, as in     Street Fighter Alpha.
+- Added Ryu's Street Fighter Alpha taunt, performed by holding down and pushing start.
+- Added a winquote vs. Violent Ken.
+- Added a special lose/winpose against Ken if either Ryu or Ken is defeated with a level 3 super move in the     final round.
+- Added two team supers, done with Ken as your partner in simul mode. Ryu can activate Double Shinku Hadoken     with the command D, DF, F, D, DF, F, p + k. This attack requires three powerbars and must be done when Ryu     and Ken are on the same side of the opponent. The other team super can only be activated by Ken and is     detailed in his readme.

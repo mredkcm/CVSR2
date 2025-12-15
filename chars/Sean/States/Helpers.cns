@@ -2574,7 +2574,7 @@ trigger1 = RoundState = 2
 
 ; Ball Helper
 [Statedef 10095]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 10095

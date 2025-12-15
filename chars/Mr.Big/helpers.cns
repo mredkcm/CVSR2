@@ -2231,7 +2231,7 @@ trigger1 =time>=32
 ;CAMERA FOCUS
 [Statedef 6001]
 type = S
-physics  = S
+physics = S
 anim = 0
 ctrl = 0
 

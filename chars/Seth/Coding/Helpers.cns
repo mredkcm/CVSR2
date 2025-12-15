@@ -1,7 +1,7 @@
 ;======================<ADVANCING GUARD HELPERS>==================
 ;Advancing Guard Fwd
 [Statedef 580]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -29,7 +29,7 @@ trigger1 = Time = 30
 
 ;Advancing Guard Back
 [Statedef 590]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -2755,7 +2755,7 @@ fall.animType = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 48
-ground.hittime  = 48
+ground.hittime = 48
 guard.hittime = 48
 ground.velocity = 3
 guard.velocity = -1
@@ -2800,7 +2800,7 @@ fall.animType = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 48
-ground.hittime  = 48
+ground.hittime = 48
 guard.hittime = 48
 ground.velocity = 3
 guard.velocity = -1

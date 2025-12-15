@@ -83,7 +83,7 @@ trigger3=root,AILevel
 ;---------------------------------------------------------------------------
 ;Fat Breath Projectile
 [Statedef 1105]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -272,7 +272,7 @@ trigger1 = time = 15
 ;---------------------------------------------------------------------	
 ;Fat Breath Projectile Ends
 [Statedef 1106]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -306,7 +306,7 @@ trigger1 = animtime = 0
 ;---------------------------------------------------------------------------
 ;EX Fat Breath Projectile
 [Statedef 1155]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -1012,7 +1012,7 @@ trigger1=pos x!=[-200,200]
 ;-----------------------------------------------------------------------------------------
 ;Super Fat Breath Projectile
 [Statedef 3305]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -1228,7 +1228,7 @@ trigger1 = time = 20
 ;-----------------------------------------------------------------------------------------
 ;Max Super Fat Breath Projectile
 [Statedef 3355]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -1714,7 +1714,7 @@ trigger1=time>=14
 ;CAMERA FOCUS
 [Statedef 6001]
 type = S
-physics  = S
+physics = S
 anim = 0
 ctrl = 0
 
@@ -1773,7 +1773,7 @@ trigger2=numhelper(6001)>=2
 ;------------------------------------------------------------------------------------------
 ;Clan Assist Helpers
 [Statedef 6050]
-type    = A
+type = A
 physics = N
 ctrl = 0
 velset = 0,14
@@ -1802,7 +1802,7 @@ value = 6051
 ;------------------------------------------------------------------------------------------
 ;Clan Assist Helpers
 [Statedef 6051]
-type    = S
+type = S
 physics = S
 ctrl = 0
 velset = 0,0
@@ -1836,7 +1836,7 @@ value = ifelse(prevstateno = 6050,6052,6053)
 ;------------------------------------------------------------------------------------------
 ;Clan Assist Helpers
 [Statedef 6052]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -1917,7 +1917,7 @@ value = 6051
 ;------------------------------------------------------------------------------------------
 ;Clan Assist Helpers
 [Statedef 6053]
-type    = A
+type = A
 physics = N
 ctrl = 0
 velset = 0,-14
@@ -1944,7 +1944,7 @@ trigger1 = time = 12
 ;-----------------------------------------------------------------------------------------
 ;Winpose Helper 1
 [Statedef 6060]
-type    = A
+type = A
 physics = N
 ctrl = 0
 velset = 0,14
@@ -1958,7 +1958,7 @@ value = 6061
 ;---------------------------------------------------------------------------------------------
 ;Winpose Helper 2
 [Statedef 6061]
-type    = S
+type = S
 physics = S
 ctrl = 0
 velset = 0,0

@@ -2644,7 +2644,7 @@ trigger1=!gethitvar(isbound)
 value = 5050
 ;---------------------------------------------------------------------------
 [Statedef 816]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -2724,7 +2724,7 @@ trigger1=!gethitvar(isbound)
 value = 5050
 ;---------------------------------------------------------------------------
 [Statedef 818]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -2943,7 +2943,7 @@ trigger1 = !gethitvar(isbound)
 value = 5050
 ;---------------------------------------------------------------------------
 [Statedef 826]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 4.5,-5

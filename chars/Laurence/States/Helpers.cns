@@ -83,7 +83,7 @@ trigger3=root,AILevel
 ;---------------------------------------------------------------------------
 ;Bloody Mixer Projectile Stopper
 [Statedef 1205]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -188,7 +188,7 @@ trigger1 = root, stateno != 1200 || root, movecontact
 ;---------------------------------------------------------------------------
 ;Projectile Stopper
 [Statedef 1207]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -605,7 +605,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Bloody Shooter Sword
 [Statedef 1406]
-type    = A
+type = A
 physics = N
 anim = 1406
 sprpriority=4
@@ -639,7 +639,7 @@ trigger1=time>=14
 ;---------------------------------------------------------------------------
 ;Bloody Shooter Sword
 [Statedef 1407]
-type    = A
+type = A
 physics = N
 anim = 1407
 velset = -1,-2
@@ -694,7 +694,7 @@ trigger1 = Pos Y >= 0 && vel Y > 0
 ;---------------------------------------------------------------------------
 ;Bloody Shooter Sword
 [Statedef 1408]
-type    = A
+type = A
 physics = N
 anim = 1408
 velset = 0,0
@@ -1126,7 +1126,7 @@ value = 3126
 ;---------------------------------------------------------------------------
 ;Final Death Bloody Robe
 [Statedef 3126]
-type    = A
+type = A
 physics = N
 anim = 3150
 velset = 0,0
@@ -1635,7 +1635,7 @@ value = 3309
 ;---------------------------------------------------------------------------
 ;Rose 4
 [Statedef 3309]
-type    = A
+type = A
 physics = N
 anim = 3309
 velset = 0,0
@@ -2048,7 +2048,7 @@ ctrl = 0
 ;------------------------------------------------------------------------
 ;Bloody Shooter Sword
 [Statedef 3607]
-type    = A
+type = A
 physics = N
 anim = 1406
 sprpriority=4
@@ -2326,7 +2326,7 @@ trigger1 = Pos Y >= 0
 ;CAMERA FOCUS
 [Statedef 6001]
 type = S
-physics  = S
+physics = S
 anim = 0
 ctrl = 0
 

@@ -3968,7 +3968,7 @@ trigger1=!animtime
 ;-------------------------------------------------------------------------------
 ;Double Zenkai Kiai Dan Charge FX 
 [Statedef 3627]
-type    = S
+type = S
 ctrl = 0
 sprpriority = 5
 anim=3627
@@ -4041,7 +4041,7 @@ trigger3=!animtime
 ;------------------------------------------------------------------------------
 ;Double Zenkai Kiai Dan Charge FX 
 [Statedef 3628]
-type    = S
+type = S
 ctrl = 0
 sprpriority = 5
 anim=3627
@@ -4121,7 +4121,7 @@ trigger3=!animtime
 ;------------------------------------------------------------------------------
 ;Double Zenkai Kiai Dan Charge FX 
 [Statedef 3629]
-type    = S
+type = S
 ctrl = 0
 sprpriority = 5
 anim=3627
@@ -4202,7 +4202,7 @@ trigger3=!animtime
 ;CAMERA FOCUS
 [Statedef 6001]
 type = S
-physics  = S
+physics = S
 anim = 0
 ctrl = 0
 

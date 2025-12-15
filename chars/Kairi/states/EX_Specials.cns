@@ -134,7 +134,7 @@ ctrl = 1
 type = A
 movetype= A
 physics = N
-juggle  = 5
+juggle = 5
 velset = 0,0
 ctrl = 0
 anim = 6400
@@ -235,7 +235,7 @@ hitsound =  s2,13
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -2,-4
 airguard.velocity = -1.9,-.8
 air.type = High
@@ -348,7 +348,7 @@ value = 7,5
 type = HitDef
 trigger1 = animelem = 5
 attr = S, SA
-animtype  = Medium
+animtype = Medium
 damage = 20,5
 juggle = 15
 air.juggle = 15
@@ -359,12 +359,12 @@ guard.pausetime = 11, 11
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 100), var(36) := -93
-hitsound   = s2,12
+hitsound = s2,12
 getpower=0,0
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -3
 air.velocity = -3,-1
 p1stateno = 1213
@@ -464,18 +464,18 @@ value = 7,2
 type = HitDef
 trigger1 = animelem = 7
 attr = S, SA
-animtype  = Medium
-damage    = 20
+animtype = Medium
+damage = 20
 guardflag = MA
 pausetime = 9,9
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 170), var(36) := -70
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -4
 air.velocity = -4,-1
 getpower=0,0
@@ -484,18 +484,18 @@ getpower=0,0
 type = HitDef
 trigger1 = animelem = 13
 attr = S, SA
-animtype  = Medium
-damage    = 20
+animtype = Medium
+damage = 20
 guardflag = MA
 pausetime = 9,9
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 170), var(36) := -70
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -4
 air.velocity = -4,-1
 getpower=0,0
@@ -504,18 +504,18 @@ getpower=0,0
 type = HitDef
 trigger1 = animelem = 19
 attr = S, SA
-animtype  = Medium
-damage    = 20
+animtype = Medium
+damage = 20
 guardflag = MA
 pausetime = 9,9
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 170), var(36) := -50
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -4
 air.velocity = -4,-1
 getpower=0,0
@@ -524,18 +524,18 @@ getpower=0,0
 type = HitDef
 trigger1 = animelem = 26
 attr = A, SA
-animtype  = Medium
-damage    = 20
+animtype = Medium
+damage = 20
 guardflag = MA
 pausetime = 9,9
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 170), var(36) := -70
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -4
 air.velocity = -4,-1
 air.fall = 0
@@ -548,18 +548,18 @@ getpower=0,0
 type = HitDef
 trigger1 = animelem = 33
 attr = A, SA
-animtype  = Medium
-damage   = 20
+animtype = Medium
+damage = 20
 guardflag = MA
 pausetime = 9,9
 sparkno= s7010+(random%4)
 guard.sparkno = s7005
 sparkxy = -20,-70
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -2,-8.5
 guard.velocity = -3.4
 air.velocity = -1.5,-7.5
@@ -594,7 +594,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ;EX Mouryou Kasen
 [Statedef 1416]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd = -500
@@ -679,7 +679,7 @@ value = 1417
 
 ;-------------------------------------------------------------------------------
 [Statedef 1417]
-type    = a
+type = a
 movetype= A
 physics = a
 ctrl = 0
@@ -743,7 +743,7 @@ hitsound = s2,12
 guardsound = s2,4
 ground.type = HIGH
 ground.slidetime = 21
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -3
 air.velocity = -2,-5
 ground.cornerpush.veloff = 0
@@ -793,7 +793,7 @@ value = 1420
 
 ;-------------------------------------------------------------------------------
 [Statedef 1418]
-type    = a
+type = a
 movetype= A
 physics = a
 ctrl = 0
@@ -852,7 +852,7 @@ hitsound = s2,12
 guardsound = s2,4
 ground.type = HIGH
 ground.slidetime = 27
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -5
 air.velocity = -2,-4
 ground.cornerpush.veloff = 0
@@ -909,7 +909,7 @@ value = 1419
 
 ;-------------------------------------------------------------------------------
 [Statedef 1419]
-type    = a
+type = a
 movetype= A
 physics = a
 ctrl = 0
@@ -968,7 +968,7 @@ hitsound = s2,12
 guardsound = s2,4
 ground.type = HIGH
 ground.slidetime = 21
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -3
 air.velocity = -4,-3
 ground.cornerpush.veloff = 0
@@ -1024,7 +1024,7 @@ value = 1420
 
 ;-------------------------------------------------------------------------------
 [Statedef 1420]
-type    = a
+type = a
 movetype= A
 physics = a
 ctrl = 0
@@ -1082,7 +1082,7 @@ guardsound = s2,4
 ground.type = low
 air.type = High
 ground.slidetime = 21
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -12,-3.5
 air.velocity = -12, -3.5
 ground.cornerpush.veloff = 0
@@ -1120,7 +1120,7 @@ p2stateno = 1111300
 ;guardsound = s2,4
 ;ground.type = low
 ;ground.slidetime = 21
-;ground.hittime  = 21
+;ground.hittime = 21
 ;ground.velocity = -6,-4
 ;air.velocity = -4,6
 ;ground.cornerpush.veloff = 0
@@ -1423,10 +1423,10 @@ value = 52
 ;---------------------------------------------------------------------------
 ;EX Maryu Rekouu
 [Statedef 1611]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 4
+juggle = 4
 velset = 0,0
 ctrl = 0
 anim = 11000
@@ -1532,8 +1532,8 @@ x = .85
 type = HitDef
 trigger1 =  AnimElem=2
 attr = S, SA
-animtype  = hard
-air.animtype  = back
+animtype = hard
+air.animtype = back
 damage = ifelse(var(59)<=1 && power>1000,45,55), 10
 guardflag = MA
 hitflag = MAF
@@ -1546,7 +1546,7 @@ hitsound = s2,2
 guardsound = s2,4
 ground.type = Low
 ground.slidetime = 13
-ground.hittime  = ifelse(p2statetype=C,19,17)
+ground.hittime = ifelse(p2statetype=C,19,17)
 guard.hittime = 15
 guard.slidetime = 13
 guard.ctrltime = 15
@@ -1590,7 +1590,7 @@ hitsound = s2,2
 guardsound = s2,4
 ground.type = high
 ground.slidetime = 13
-ground.hittime  = ifelse(p2statetype=C,19,17)
+ground.hittime = ifelse(p2statetype=C,19,17)
 guard.hittime = 15
 guard.slidetime = 13
 guard.ctrltime = 15
@@ -1636,7 +1636,7 @@ hitsound = s2,2
 guardsound = s2,4
 ground.type = Low
 ground.slidetime = 13
-ground.hittime  = 17
+ground.hittime = 17
 guard.hittime = 15
 guard.slidetime = 13
 guard.ctrltime = 15

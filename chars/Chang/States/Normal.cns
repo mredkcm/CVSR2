@@ -2078,7 +2078,7 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ;Throw 1
 [Statedef 810]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 810
@@ -2193,7 +2193,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Throw 1 (Holdback)
 [Statedef 815]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 810
@@ -2311,7 +2311,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Throw 1 GetHit 1
 [Statedef 820]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2333,7 +2333,7 @@ value = 1
 ;---------------------------------------------------------------------------
 ;Throw 1 GetHit 2
 [Statedef 825]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -6,-8
@@ -2801,7 +2801,7 @@ flag = NoAutoTurn
 ;-------------------------------------------------------------------------------
 ;Throw 2 GetHit 2
 [Statedef 861]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,-8

@@ -1,7 +1,7 @@
 ;========================<Z BUSTER CHARGE>=======================
 ;Half Charged Shot Ground
 [Statedef 1001]
-type    = A
+type = A
 movetype= A
 physics = S
 ctrl = 0
@@ -90,7 +90,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ;Charged Shot Ground
 [Statedef 1002]
-type    = A
+type = A
 movetype= A
 physics = S
 ctrl = 0
@@ -199,7 +199,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Half Charged Shot Air
 [Statedef 1011]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0
@@ -288,7 +288,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Charged Shot Air
 [Statedef 1012]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0
@@ -483,9 +483,9 @@ removeongethit = 1
 type = hitdef
 trigger1 = AnimElem = 4
 attr = S, SP
-damage    = 150,10
-animtype  = Heavy
-getpower  = 10
+damage = 150,10
+animtype = Heavy
+getpower = 10
 givepower = 20
 guardflag = MAF
 pausetime = 3,3
@@ -496,7 +496,7 @@ hitsound = s2,2
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -4,-6
 airguard.velocity = -2,-3
 air.type = Low
@@ -594,9 +594,9 @@ removeongethit = 1
 type = hitdef
 trigger1 = AnimElem = 3
 attr = A, SP
-damage    = 150,10
-animtype  = Heavy
-getpower  = 10
+damage = 150,10
+animtype = Heavy
+getpower = 10
 givepower = 20
 guardflag = MAF
 pausetime = 3,3
@@ -607,7 +607,7 @@ hitsound = s2,2
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -4,-6
 airguard.velocity = -2,-3
 air.type = Low
@@ -1007,7 +1007,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -1155,7 +1155,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -1199,7 +1199,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -1393,7 +1393,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -1437,7 +1437,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -1481,7 +1481,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -1551,7 +1551,7 @@ value = 1104
 ;-------------------------------------------------------------------------------
 ;falling
 [StateDef 1104]
-type    = S
+type = S
 physics = S
 ctrl = 0
 
@@ -1575,7 +1575,7 @@ ctrl = 0
 ;-------------------------------------------------------------------------------
 ;Land
 [Statedef 1105]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 10
@@ -1621,7 +1621,7 @@ ctrl = 1
 ;========================<AIR RYUENJIN>=======================
 ;Air Ryuenjin weak
 [Statedef 1106]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 40
@@ -1684,7 +1684,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -1749,7 +1749,7 @@ ctrl = 0
 ;-------------------------------------------------------------------------------
 ;Air Ryuenjin medium
 [Statedef 1107]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 50
@@ -1812,7 +1812,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -1856,7 +1856,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -1942,7 +1942,7 @@ ctrl = 0
 ;-------------------------------------------------------------------------------
 ;Air Ryuenjin strong
 [Statedef 1108]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 60
@@ -2005,7 +2005,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -2049,7 +2049,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -2093,7 +2093,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -2181,7 +2181,7 @@ ctrl = 0
 ;========================<SHIPPUGA>=======================
 ;Shippuga weak
 [Statedef 1200]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -2298,7 +2298,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 11
+ground.hittime = 11
 ground.velocity = -3
 airguard.velocity = -1.9
 air.type = High
@@ -2333,7 +2333,7 @@ ctrl = 0
 ;-------------------------------------------------------------------------------
 ;Shippuga medium
 [Statedef 1201]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -2450,7 +2450,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 11
+ground.hittime = 11
 ground.velocity = -3
 airguard.velocity = -1.9
 air.type = High
@@ -2485,7 +2485,7 @@ ctrl = 0
 ;-------------------------------------------------------------------------------
 ;Shippuga strong
 [Statedef 1202]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -2602,7 +2602,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 11
+ground.hittime = 11
 ground.velocity = -3
 airguard.velocity = -1.9
 air.type = High
@@ -2667,7 +2667,7 @@ ctrl = 1
 ;========================<AIR SENTSUIZAN>=======================
 ;Weak Sentsuizan
 [Statedef 1206]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0
@@ -2803,7 +2803,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 11
+ground.hittime = 11
 ground.velocity = -3
 airguard.velocity = -1.9
 air.type = High
@@ -2838,7 +2838,7 @@ ctrl = 0
 ;-------------------------------------------------------------------------------
 ;medium Sentsuizan
 [Statedef 1207]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0
@@ -2974,7 +2974,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 11
+ground.hittime = 11
 ground.velocity = -3
 airguard.velocity = -1.9
 air.type = High
@@ -3009,7 +3009,7 @@ ctrl = 0
 ;-------------------------------------------------------------------------------
 ;strong Sentsuizan
 [Statedef 1208]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0
@@ -3151,7 +3151,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 11
+ground.hittime = 11
 ground.velocity = -3
 airguard.velocity = -1.9
 air.type = High
@@ -3956,7 +3956,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -8
 air.type = Low
 air.hittime = 18
@@ -4128,7 +4128,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -8
 air.type = Low
 air.hittime = 18
@@ -4301,7 +4301,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -8
 air.type = Low
 air.hittime = 18
@@ -4675,11 +4675,11 @@ envshake.ampl=3
 air.fall=1
 fall= 1
 fall.recover = 0
-palfx.Time        = 32
-palfx.add         = 0,50,240
-palfx.sinadd      = 85,55,110,10
-palfx.color       = 0
-palfx.invertall   = 0
+palfx.Time = 32
+palfx.add = 0,50,240
+palfx.sinadd = 85,55,110,10
+palfx.color = 0
+palfx.invertall = 0
 
 ;[State 1560, 2]
 ;type = HitDef
@@ -4709,11 +4709,11 @@ palfx.invertall   = 0
 ;air.fall=1
 ;fall= 1
 ;fall.recover = 0
-;palfx.Time        = 32
-;palfx.add         = 0,50,240
-;palfx.sinadd      = 85,55,110,10
-;palfx.color       = 256
-;palfx.invertall   = 1
+;palfx.Time = 32
+;palfx.add = 0,50,240
+;palfx.sinadd = 85,55,110,10
+;palfx.color = 256
+;palfx.invertall = 1
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -5582,7 +5582,7 @@ ctrl = 0
 ;========================<SHOUENZAN>=======================
 ;Shouenzan weak
 [Statedef 1330]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd = 0
@@ -5647,7 +5647,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -10
 air.velocity = -1.8,-10
@@ -5742,7 +5742,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ;Shouenzan medium
 [Statedef 1331]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd = 0
@@ -5808,7 +5808,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -10
 air.velocity = -1.8,-10
@@ -5903,7 +5903,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ;Shouenzan strong
 [Statedef 1332]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd = 0
@@ -5975,7 +5975,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -10
 air.velocity = -1.8,-10

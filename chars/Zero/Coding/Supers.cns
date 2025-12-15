@@ -1,6 +1,6 @@
 ;======================<BUSTER SHOT COMBO>===================
 [Statedef 3000]
-type    = S
+type = S
 movetype= A
 physics = N
 ctrl = 0
@@ -198,7 +198,7 @@ ctrl = 0
 
 ;-------------------------------------------------------------------------------
 [Statedef 3001]
-type    = S
+type = S
 movetype= A
 physics = N
 ctrl = 0
@@ -268,7 +268,7 @@ ctrl = 1
 
 ;======================<BUSTER SHOT COMBO lV2>===================
 [Statedef 3002]
-type    = S
+type = S
 movetype= A
 physics = N
 ctrl = 0
@@ -503,7 +503,7 @@ ctrl = 0
 
 ;-------------------------------------------------------------------------------
 [Statedef 3003]
-type    = S
+type = S
 movetype= A
 physics = N
 ctrl = 0
@@ -630,7 +630,7 @@ ctrl = 1
 ;======================<GENMU ZERO>===================
 ;Stand
 [Statedef 3025]
-type    = S
+type = S
 movetype= A
 physics = N
 ctrl = 0
@@ -866,7 +866,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ;Aerial
 [Statedef 3026]
-type    = S
+type = S
 movetype= A
 physics = S
 ctrl = 0
@@ -1097,7 +1097,7 @@ ctrl = 1
 
 ;======================<REKKOUHA MVC3>===================
 [Statedef 3100]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -2062,7 +2062,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Opponent Hit High
 [Statedef 2101]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0, 0
@@ -2106,7 +2106,7 @@ value = 1
 ;---------------------------------------------------------------------------
 ; Send opponent into Dark Hold
 [Statedef 2102]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,ifelse(pos y <=-100,-9,-9)
@@ -2192,7 +2192,7 @@ guardsound = s130, 0
 getpower = 0
 ground.type = High
 ground.slidetime = 10
-ground.hittime  = 10
+ground.hittime = 10
 ground.velocity = 0,0
 guard.velocity = -5
 airguard.velocity = -5,0
@@ -2745,7 +2745,7 @@ hitsound = s2,11
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -50,20
 fall.recover = 0
 air.type = High
@@ -3092,7 +3092,7 @@ getpower = 0
 sparkxy = 0, -60
 ground.type = High
 ground.slidetime = 10
-ground.hittime  = 10
+ground.hittime = 10
 ground.velocity = 0
 guard.velocity = -5
 airguard.velocity = -10,0
@@ -3146,7 +3146,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Opponent Hit High
 [Statedef 3301]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 0
@@ -3238,7 +3238,7 @@ hitsound = s2,0
 guardsound = s130, 0
 ground.type = Low
 ground.slidetime = 0
-ground.hittime  = 100
+ground.hittime = 100
 ground.velocity = 0
 airguard.velocity = 0,0
 air.type = Low
@@ -3265,7 +3265,7 @@ guardsound = s130, 0
 getpower = 0
 ground.type = Low
 ground.slidetime = 0
-ground.hittime  = 100
+ground.hittime = 100
 ground.velocity = 0
 airguard.velocity = 0,0
 air.type = Low
@@ -3292,7 +3292,7 @@ guardsound = s130, 0
 getpower = 0
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 100
+ground.hittime = 100
 ground.velocity = 0
 airguard.velocity = 0,0
 air.type = High
@@ -3319,7 +3319,7 @@ guardsound = s130, 0
 getpower = 0
 ground.type = Low
 ground.slidetime = 0
-ground.hittime  = 100
+ground.hittime = 100
 ground.velocity = 0
 airguard.velocity = 0,0
 air.type = Low
@@ -3348,7 +3348,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8000)
 sparkXY = -10 + 0 * (var(35) := 70), var(36) := -38
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 100
+ground.hittime = 100
 ground.velocity = 0
 airguard.velocity = 0,0
 air.type = High
@@ -3376,7 +3376,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8000)
 sparkXY = -10 + 0 * (var(35) := 70), var(36) := -38
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 100
+ground.hittime = 100
 ground.velocity = 0
 airguard.velocity = 0,0
 air.type = High
@@ -3401,7 +3401,7 @@ sparkXY = -10 + 0 * (var(35) := 70), var(36) := -38
 hitsound = S2, 21
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 100
+ground.hittime = 100
 ground.velocity = 0,-11.5
 airguard.velocity = 0,0
 air.type = High
@@ -3669,7 +3669,7 @@ hitsound = s2,12
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 100
+ground.hittime = 100
 ground.velocity = -10,8
 airguard.velocity = -5,4
 air.type = High
@@ -4119,7 +4119,7 @@ fall.animType = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 12 + 2 * var(9)
-ground.hittime  = 12 + 2 * var(9)
+ground.hittime = 12 + 2 * var(9)
 guard.hittime = 12
 ground.velocity = -2
 guard.velocity = -2
@@ -4272,7 +4272,7 @@ sparkXY = -10 + 0 * (var(35) := 70), var(36) := -38
 hitsound = S2, 9
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 100
+ground.hittime = 100
 ground.velocity = 0,-13.5
 airguard.velocity = 0,0
 air.type = High
@@ -4511,7 +4511,7 @@ hitsound = s2,6
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 100
+ground.hittime = 100
 ground.velocity = -4, -9
 airguard.velocity = -5,4
 air.type = High
@@ -4580,7 +4580,7 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 [Statedef 3354]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -5281,7 +5281,7 @@ fall.animType = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 12 + 2 * var(9)
-ground.hittime  = 12 + 2 * var(9)
+ground.hittime = 12 + 2 * var(9)
 guard.hittime = 12
 ground.velocity = -2
 guard.velocity = -2
@@ -5795,7 +5795,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 8
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0,-13.5
 airguard.velocity = -2,-1
 air.type = High
@@ -5932,7 +5932,7 @@ fall.animType = Back
 ground.type = Low      ;Low,Trip,None
 air.type = Low
 ground.slidetime = 10
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -2,-2
 airguard.velocity = -1,-2
 air.type = Trip
@@ -5964,8 +5964,8 @@ hitsound = S2, 9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 2*var(9)
-ground.hittime  = 12 + 2*var(9)
-guard.hittime  = 12
+ground.hittime = 12 + 2*var(9)
+guard.hittime = 12
 ground.velocity = -4
 guard.velocity = -4
 airguard.ctrlTime = 16
@@ -6028,8 +6028,8 @@ hitsound = S2, 9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 2*var(9)
-ground.hittime  = 12 + 2*var(9)
-guard.hittime  = 12
+ground.hittime = 12 + 2*var(9)
+guard.hittime = 12
 ground.velocity = -4
 guard.velocity = -4
 airguard.ctrlTime = 16
@@ -6091,8 +6091,8 @@ hitsound = S2, 9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 3*var(9)
-ground.hittime  = 12 + 3*var(9)
-guard.hittime  = 15
+ground.hittime = 12 + 3*var(9)
+guard.hittime = 15
 ground.velocity = -4
 guard.velocity = -4
 air.animType = Back
@@ -6165,7 +6165,7 @@ hitsound = S2, 9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 12
+ground.hittime = 12
 ground.velocity = -7
 air.type = Low
 airguard.velocity = -2, 5
@@ -6374,7 +6374,7 @@ air.animType = Back
 fall.animType = Back
 ground.type = High
 ground.slidetime = 12 + 2*var(9)
-ground.hittime  = 12 + 2*var(9)
+ground.hittime = 12 + 2*var(9)
 guard.hittime = 12
 ground.velocity = -4
 guard.velocity = -4
@@ -6417,7 +6417,7 @@ hitsound = S2, 5
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 12
+ground.hittime = 12
 ground.velocity = -7
 air.type = Low
 airguard.velocity = -3, 5
@@ -6452,7 +6452,7 @@ hitsound = S2, 5
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 12
+ground.hittime = 12
 ground.velocity = -7
 air.type = Low
 airguard.velocity = -3, 5
@@ -6517,7 +6517,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -6573,7 +6573,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 11
+ground.hittime = 11
 ground.velocity = -3
 airguard.velocity = -1.9
 air.type = High
@@ -6623,7 +6623,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 11
+ground.hittime = 11
 ground.velocity = -3
 airguard.velocity = -1.9
 air.type = High
@@ -6673,7 +6673,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -8
 air.type = Low
 air.hittime = 18
@@ -6733,7 +6733,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -8
 air.type = Low
 air.hittime = 18
@@ -6793,7 +6793,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -8
 air.type = Low
 air.hittime = 18

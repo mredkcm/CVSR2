@@ -1,7 +1,7 @@
 ; Standing Light Punch
 ; CNS difficulty: easy
 [Statedef 200]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -40,7 +40,7 @@ fall.animType = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 12 + 2 * var(9)
-ground.hittime  = 12 + 2 * var(9)
+ground.hittime = 12 + 2 * var(9)
 guard.hittime = 12
 ground.velocity = -2
 guard.velocity = -2
@@ -91,7 +91,7 @@ ctrl = 1
 ; Standing Medium Punch
 ;CNS Difficulty: easy
 [Statedef 210]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -192,7 +192,7 @@ ctrl = 1
 ; Standing Strong Punch
 ; CNS difficulty: easy
 [Statedef 220]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -290,7 +290,7 @@ ctrl = 1
 ; Dodge Strong Punch
 ; CNS difficulty: easy
 [Statedef 221]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -329,7 +329,7 @@ fall.animType = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 12 + 2 * var(9)
-ground.hittime  = 12 + 2 * var(9)
+ground.hittime = 12 + 2 * var(9)
 guard.hittime = 12
 ground.velocity = -4
 guard.velocity = -4
@@ -391,7 +391,7 @@ ctrl = 1
 ; Z-Counter - Slash
 ; CNS difficulty: easy
 [Statedef 222]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -461,7 +461,7 @@ trigger1 = MoveHit = 1
 persistent = 0
 anim = 8420
 id = 8420
-pos  =  10,-55
+pos =  10,-55
 postype = P2
 sprpriority = 1
 scale = .5,.5
@@ -497,7 +497,7 @@ ctrl = 1
 ; Zero Counter - Roundhouse strong kick - P2 Get Hit State
 ;---------------------------------------------------------------------------
 [Statedef 223]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -532,7 +532,7 @@ value = 5100
 ; dodge roundhouse Kick
 ; CNS difficulty: easy
 [Statedef 224]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -664,7 +664,7 @@ ctrl = 1
 ; Standing medium Kick
 ; CNS difficulty: easy
 [Statedef 240]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 10 * !var(20)
@@ -745,7 +745,7 @@ ctrl = 1
 ; Standing strong Kick
 ; CNS difficulty: easy
 [Statedef 250]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -869,7 +869,7 @@ ctrl = 1
 ; Crouching Light Punch
 ; CNS difficulty: easy
 [Statedef 400]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 10 * !var(20)
@@ -967,7 +967,7 @@ ctrl = 1
 ; Crouching Medium Punch
 ; CNS difficulty: easy
 [Statedef 410]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 20 * !var(20)
@@ -1127,7 +1127,7 @@ ctrl = 1
 ; Crouching Strong Punch- Launcher
 ;CNS difficulty: easy
 [Statedef 420]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 30 * !var(20)
@@ -1172,7 +1172,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 3
-ground.hittime  = 6
+ground.hittime = 6
 ground.velocity = -5,0
 airguard.velocity = -2,-1
 air.type = High
@@ -1239,7 +1239,7 @@ ctrl = 1
 ; Crouch light Kick - Z buster
 ; CNS difficulty: easy
 [Statedef 430]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd = 30 * !var(20)
@@ -1333,7 +1333,7 @@ ctrl = 1
 ; Crouching medium Kick
 ; CNS difficulty: easy
 [Statedef 440]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 10 * !var(20)
@@ -1434,7 +1434,7 @@ ctrl = 1
 ;Crouch strong Kick
 ; CNS difficulty: easy
 [Statedef 450]
-type    = C
+type = C
 movetype= A
 physics = N
 poweradd= 10 * !var(20)
@@ -1488,7 +1488,7 @@ fall.animType = Back
 ground.type = Low      ;Low,Trip,None
 air.type = Low
 ground.slidetime = 10
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -2,-2
 airguard.velocity = -1,-2
 air.type = Trip
@@ -1515,7 +1515,7 @@ ctrl = 1
 ; Z-Counter - Shouenzan
 ; CNS difficulty: easy
 [Statedef 451]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd = 0
@@ -1643,7 +1643,7 @@ ctrl = 1
 ; Jump Light Punch
 ; CNS difficulty: easy
 [Statedef 600]
-type    = A
+type = A
 movetype= A
 physics = A
 poweradd= 10 * !var(20)
@@ -1702,8 +1702,8 @@ hitsound = S2, 9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 2*var(9)
-ground.hittime  = 12 + 2*var(9)
-guard.hittime  = 12
+ground.hittime = 12 + 2*var(9)
+guard.hittime = 12
 ground.velocity = -4
 guard.velocity = -4
 airguard.ctrlTime = 16
@@ -1769,7 +1769,7 @@ value = 52
 ; Jump Medium Punch
 ; CNS difficulty: easy
 [Statedef 610]
-type    = A
+type = A
 movetype= A
 physics = A
 poweradd= 20 * !var(20)
@@ -1824,8 +1824,8 @@ hitsound = S2, 9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 3*var(9)
-ground.hittime  = 12 + 3*var(9)
-guard.hittime  = 15
+ground.hittime = 12 + 3*var(9)
+guard.hittime = 15
 ground.velocity = -4
 guard.velocity = -4
 air.animType = Back
@@ -1872,7 +1872,7 @@ value = 52
 ; Jump Strong Punch
 ; CNS difficulty: easy
 [Statedef 620]
-type    = A
+type = A
 movetype= A
 physics = A
 poweradd= 30 * !var(20)
@@ -1933,7 +1933,7 @@ hitsound = S2, 9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 12
+ground.hittime = 12
 ground.velocity = -7
 air.type = Low
 airguard.velocity = -2, 5
@@ -2097,7 +2097,7 @@ value = 52
 ; Jump light Kick - Z buster
 ; CNS difficulty: easy
 [Statedef 630]
-type    = A
+type = A
 movetype= A
 physics = A
 poweradd= 30 * !var(20)
@@ -2166,7 +2166,7 @@ value = 52
 ; Jump medium Kick
 ; CNS difficulty: easy
 [Statedef 640]
-type    = A
+type = A
 movetype= A
 physics = A
 poweradd= 10 * !var(20)
@@ -2223,7 +2223,7 @@ air.animType = Back
 fall.animType = Back
 ground.type = High
 ground.slidetime = 12 + 2*var(9)
-ground.hittime  = 12 + 2*var(9)
+ground.hittime = 12 + 2*var(9)
 guard.hittime = 12
 ground.velocity = -4
 guard.velocity = -4
@@ -2252,7 +2252,7 @@ value = 52
 ; Jump strong Kick
 ; CNS difficulty: easy
 [Statedef 650]
-type    = A
+type = A
 movetype= A
 physics = A
 poweradd= 20 * !var(20)
@@ -2331,7 +2331,7 @@ hitsound = S2, 5
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 12
+ground.hittime = 12
 ground.velocity = -7
 air.type = Low
 airguard.velocity = -3, 5
@@ -2361,10 +2361,10 @@ value = 52
 ;Kung Fu Throw - Attempt
 ; CNS difficulty: medium-advanced
 [Statedef 800]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 800
@@ -2594,7 +2594,7 @@ hitsound = s2,2
 guardsound = -1
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity =0,0
 air.type = Low
 air.hittime = 18
@@ -2675,7 +2675,7 @@ ctrl = 1
 ;Thrown by Z-Buster Throw
 ;---------------------------------------------------------------------------
 [Statedef 815]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2694,7 +2694,7 @@ value = 820
 
 ;-------------------------------------------------------------------------------
 [Statedef 816]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -4,-5
@@ -2736,7 +2736,7 @@ value = 5050
 ;     Controllers 821,2 and 821,3 allow the opponent to recover by
 ;     hitting his recovery command when he is falling.
 [Statedef 821]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 5.25,-7.5
@@ -2924,13 +2924,13 @@ ctrl = 1
 ;===============================================================================
 ;Z-Buster charge Throw - Attempt
 [Statedef 830]
-type     = S
+type = S
 movetype = A
-physics  = S
-juggle   = 0
-velset   = 0,0
-ctrl     = 0
-anim     = 800
+physics = S
+juggle = 0
+velset = 0,0
+ctrl = 0
+anim = 800
 sprpriority = 2
 
 [State 800, Throw Escape Reset]
@@ -2991,7 +2991,7 @@ ctrl = 1
 
 ;-----------------------------------------------------------------------------
 [Statedef 840]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 830
@@ -3097,7 +3097,7 @@ ctrl = 1
 ;Thrown by Z-Buster charge Throw
 ;---------------------------------------------------------------------------
 [Statedef 850]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

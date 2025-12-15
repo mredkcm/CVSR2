@@ -1,6 +1,6 @@
 ;======================<Ultra Argentine Backbreaker>===================
 [Statedef 3000]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -146,7 +146,7 @@ ctrl = 1
 
 ;Ultra Argentine Backbreaker (Success)
 [Statedef 3001]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 3001
@@ -352,7 +352,7 @@ ctrl=0
 
 ;Ultra Argentine Backbreaker (Success) 2
 [Statedef 3002]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 3002
@@ -538,7 +538,7 @@ ctrl=0
 
 ;Ultra Argentine Backbreaker (Success) 2
 [Statedef 3003]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 3003
@@ -727,7 +727,7 @@ ctrl=1
 
 ;Ultra Argentine Backbreaker (Target)
 [Statedef 3005]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -773,7 +773,7 @@ value = 5050
 
 ;Ultra Argentine Backbreaker (Target) 2
 [Statedef 3006]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -811,7 +811,7 @@ value = 1107
 
 ;Ultra Argentine Backbreaker (Target) 3
 [Statedef 3007]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -852,7 +852,7 @@ value = 5050
 
 ;Ultra Argentine Backbreaker (Target) 4
 [Statedef 3008]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -876,7 +876,7 @@ value = 5050
 
 ;Ultra Argentine Backbreaker (Target) 5
 [Statedef 3009]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -915,7 +915,7 @@ value = 5100
 
 ;======================<Ultra Argentine Backbreaker MAX>===================
 [Statedef 3050]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -1061,7 +1061,7 @@ ctrl = 1
 
 ;Ultra Argentine Backbreaker MAX (Success)
 [Statedef 3051]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 3001
@@ -1261,7 +1261,7 @@ ctrl=0
 
 ;Ultra Argentine Backbreaker MAX (Success) 2
 [Statedef 3052]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 3002
@@ -1447,7 +1447,7 @@ ctrl=0
 
 ;Ultra Argentine Backbreaker MAX (Success) 4
 [Statedef 3053]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 3053
@@ -1533,7 +1533,7 @@ ctrl=0
 
 ;Ultra Argentine Backbreaker MAX (Success) 5
 [Statedef 3054]
-type    = A
+type = A
 movetype = A
 physics = N
 anim = 3054
@@ -1639,7 +1639,7 @@ ctrl=0
 
 ;Ultra Argentine Backbreaker MAX (Success) 6
 [Statedef 3055]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -1767,7 +1767,7 @@ ctrl=0
 
 ;Ultra Argentine Backbreaker MAX (Target) 4
 [Statedef 3065]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -1874,7 +1874,7 @@ trigger1 = pos y>-vel y
 value = 5100
 ;======================<Napalm Strike>===================
 [Statedef 3100]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -2022,7 +2022,7 @@ ctrl = 0
 
 ;Napalm Strike (Landing)
 [Statedef 3101]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 1201
@@ -2066,7 +2066,7 @@ ctrl = 1
 
 ;Napalm Strike (Success)
 [Statedef 3110]
-type    = A
+type = A
 movetype = A
 physics = N
 poweradd = 0
@@ -2153,7 +2153,7 @@ ctrl = 0
 
 ;Napalm Strike (Success) 2
 [Statedef 3111]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -2384,7 +2384,7 @@ value = 1223
 
 ;======================<Running Three>===================
 [Statedef 3200]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -2540,7 +2540,7 @@ ctrl = 1
 
 ;Running Three (Attampt)
 [Statedef 3201]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -2593,7 +2593,7 @@ ctrl = 1
 
 ;Running Three (Success)
 [Statedef 3202]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -2840,7 +2840,7 @@ ctrl = 0
 
 ;Running Three (Success) 2
 [Statedef 3203]
-type    = S
+type = S
 movetype = A
 physics = S
 poweradd = 0
@@ -3014,7 +3014,7 @@ value = 5100
 
 ;======================<Running Pirate>===================
 [Statedef 3250]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -3170,7 +3170,7 @@ ctrl = 1
 
 ;Running Pirate (Attack)
 [Statedef 3251]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1401
@@ -3271,7 +3271,7 @@ ctrl = 1
 
 ;Running Pirate (Success)
 [Statedef 3252]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 3252
@@ -3371,7 +3371,7 @@ ctrl=0
 
 ;Running Pirate (Success) 2
 [Statedef 3253]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -3626,7 +3626,7 @@ ctrl = 0
 
 ;Running Pirate (Success) 3
 [Statedef 3254]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -3886,7 +3886,7 @@ ctrl = 0
 
 ;Running Pirate (Success) 4
 [Statedef 3255]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -4169,7 +4169,7 @@ ctrl = 0
 
 ;Running Pirate (Success) 5
 [Statedef 3256]
-type    = S
+type = S
 movetype = A
 physics = S
 poweradd = 0
@@ -4285,7 +4285,7 @@ ctrl=1
 
 ;Running Pirate (Target)
 [Statedef 3260]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -4303,7 +4303,7 @@ value = 5110
 
 ;Running Pirate (Target) 2
 [Statedef 3261]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -4327,7 +4327,7 @@ value = 5110
 
 ;Running Pirate (Target) 3
 [Statedef 3262]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -4360,7 +4360,7 @@ value = 5110
 
 ;Running Pirate (Target) 4
 [Statedef 3263]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -4531,7 +4531,7 @@ ctrl = 0
 
 ;Rolling Sphere (Stop)
 [Statedef 3301]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 1501
@@ -4554,7 +4554,7 @@ ctrl = 1
 
 ;Rolling Sphere (Attack)
 [Statedef 3302]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1502
@@ -4605,7 +4605,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = 0
 guard.velocity = 0
@@ -4649,7 +4649,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4,-7
 guard.velocity = -8
@@ -4761,7 +4761,7 @@ ctrl = 1
 
 ;Rolling Sphere (Attack) 2
 [Statedef 3303]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1301
@@ -4963,7 +4963,7 @@ ctrl=1
 
 ;Rolling Sphere (Attack) 3
 [Statedef 3304]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1440
@@ -5190,7 +5190,7 @@ ctrl=1
 
 ;Rolling Sphere (Attack) 4
 [Statedef 3305]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 3301
@@ -5414,7 +5414,7 @@ ctrl=0
 
 ;Rolling Sphere (Miss)
 [Statedef 3306]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 3003
@@ -5603,7 +5603,7 @@ ctrl=1
 
 ;Ultra Clark Buster
 [Statedef 3310];special thanks to Victorys
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 3305
@@ -5706,7 +5706,7 @@ ctrl = 0
 
 ;Ultra Clark Buster (Landing)
 [Statedef 3311]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -5864,7 +5864,7 @@ ctrl=0
 
 ;Rolling Death Cradle
 [Statedef 3315]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 3315
@@ -5950,7 +5950,7 @@ ctrl=0
 
 ;Rolling Death Cradle 2
 [Statedef 3316]
-type    = A
+type = A
 movetype = A
 physics = N
 poweradd = 0
@@ -6023,7 +6023,7 @@ ctrl = 0
 
 ;Rolling Death Cradle 3
 [Statedef 3317]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -6139,7 +6139,7 @@ ctrl=0
 
 ;Rolling Death Cradle 4
 [Statedef 3318]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 3316
@@ -6403,7 +6403,7 @@ ctrl=1
 
 ;Rolling Death Cradle (Target)
 [Statedef 3319]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -6426,7 +6426,7 @@ value = 5100
 
 ;Rolling Sphere (Target)
 [Statedef 3320]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -6444,7 +6444,7 @@ value = 5050
 
 ;Rolling Sphere (Target) 2
 [Statedef 3321]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -6485,7 +6485,7 @@ value = 5050
 
 ;Ultra Clark Buster (Target)
 [Statedef 3325]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -6503,7 +6503,7 @@ value = 5050
 
 ; Ultra Clark Buster (Target) 2
 [Statedef 3326]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

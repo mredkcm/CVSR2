@@ -272,7 +272,7 @@ trigger7 = AnimElem = 21
 trigger8 = AnimElem = 22
 trigger9 = AnimElem = 26
 attr = S, HA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=14,7
 priority = 7, Hit
@@ -286,7 +286,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = High
 ground.slidetime = 33
-ground.hittime  = 33
+ground.hittime = 33
 guard.ctrltime = 20
 ground.velocity = -3
 guard.velocity = -3
@@ -316,7 +316,7 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 27 
 attr = A, HA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Up
 damage=16,7
 priority = 7, Hit
@@ -330,7 +330,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 33
-ground.hittime  = 33
+ground.hittime = 33
 guard.ctrltime = 20
 ground.velocity = -1.5,-10.5
 guard.velocity = -8
@@ -360,7 +360,7 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 28 
 attr = A, HA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Up
 damage=16,7
 priority = 7, Hit
@@ -374,7 +374,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 33
-ground.hittime  = 33
+ground.hittime = 33
 guard.ctrltime = 20
 ground.velocity = -1.5,-10.5
 guard.velocity = -8
@@ -405,7 +405,7 @@ type = HitDef
 trigger1 = AnimElem = 29 
 trigger2 = AnimElem = 30 
 attr = A, HA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Up
 damage=16,7
 priority = 7, Hit
@@ -419,7 +419,7 @@ hitsound=S2,11
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 33
-ground.hittime  = 33
+ground.hittime = 33
 guard.ctrltime = 20
 ground.velocity = -1.5,-10.5
 guard.velocity = -8
@@ -803,7 +803,7 @@ trigger9 = AnimElem = 27
 trigger10 = AnimElem = 28
 trigger11 = AnimElem = 32
 attr = S, HA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=14,7
 priority = 7, Hit
@@ -817,7 +817,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = High
 ground.slidetime = 33
-ground.hittime  = 33
+ground.hittime = 33
 guard.ctrltime = 20
 ground.velocity = -3
 guard.velocity = -3
@@ -847,7 +847,7 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 33 
 attr = A, HA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Up
 damage=16,7
 priority = 7, Hit
@@ -861,7 +861,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 33
-ground.hittime  = 33
+ground.hittime = 33
 guard.ctrltime = 20
 ground.velocity = -1.5,-10.5
 guard.velocity = -8
@@ -896,7 +896,7 @@ trigger4 = AnimElem = 37
 trigger5 = AnimElem = 38
 trigger6 = AnimElem = 39
 attr = A, HA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Up
 damage=15,7
 priority = 7, Hit
@@ -910,7 +910,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 33
-ground.hittime  = 33
+ground.hittime = 33
 guard.ctrltime = 20
 ground.velocity = -1.5,-10.5
 guard.velocity = -8
@@ -942,7 +942,7 @@ trigger1 = AnimElem = 40
 trigger2 = AnimElem = 41 
 trigger3 = AnimElem = 42
 attr = A, HA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Up
 damage=15,7
 priority = 7, Hit
@@ -956,7 +956,7 @@ hitsound=S2,11
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 33
-ground.hittime  = 33
+ground.hittime = 33
 guard.ctrltime = 20
 ground.velocity = -1.5,-10.5
 guard.velocity = -8
@@ -1641,7 +1641,7 @@ ownPal = 1
 type = HitDef
 trigger1 = var(2)<=9
 attr = S, HA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = diagup
 damage=40,10
 priority = 7, Hit
@@ -1655,7 +1655,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity = -15,-7.5
 guard.velocity = -8
@@ -2093,7 +2093,7 @@ type = HitDef
 attr = S, HA
 trigger1 = AnimElem = 4
 animtype = Hard
-damage  = 47, 10
+damage = 47, 10
 getpower=0,0
 givepower = 36, 36
 priority=4, hit
@@ -2106,7 +2106,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity=0
 guard.velocity=-5
 air.velocity = 0,0
@@ -2212,7 +2212,7 @@ size.yscale= .25 * const(size.yscale)
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, HA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Up
 damage=47,10
 priority = 7, Hit
@@ -2226,7 +2226,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 33
-ground.hittime  = 33
+ground.hittime = 33
 guard.ctrltime = 20
 ground.velocity = 0,-12.5
 guard.velocity = -8
@@ -2276,7 +2276,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Tenha Danku Retsu Zan
 [Statedef 3402]
-type    = S
+type = S
 movetype = A
 physics = N
 juggle = 0
@@ -2420,7 +2420,7 @@ value = 3403
 ;---------------------------------------------------------------------------
 ;Tenha Danku Retsu Zan
 [Statedef 3403]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 0
@@ -2516,7 +2516,7 @@ ignorehitpause = 1
 type = HitDef
 trigger1 = time = 0
 attr = S, HA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=73,10
 priority = 7, Hit
@@ -2530,7 +2530,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity = -5.5,-6.5
 guard.velocity = -8
@@ -2737,7 +2737,7 @@ type = HitDef
 attr = S, HA
 trigger1 = AnimElem = 4
 animtype = Hard
-damage  = 36, 10
+damage = 36, 10
 getpower=0,0
 givepower = 36, 36
 priority=4, hit
@@ -2750,7 +2750,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity=0
 guard.velocity=-5
 air.velocity = 0,0
@@ -2855,7 +2855,7 @@ size.yscale= .25 * const(size.yscale)
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, HA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Up
 damage=36,10
 priority = 7, Hit
@@ -2869,7 +2869,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 33
-ground.hittime  = 33
+ground.hittime = 33
 guard.ctrltime = 20
 ground.velocity = 0,-12.5
 guard.velocity = -8
@@ -2919,7 +2919,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Max Tenha Danku Retsu Zan
 [Statedef 3452]
-type    = S
+type = S
 movetype = A
 physics = N
 juggle = 0
@@ -3062,7 +3062,7 @@ value = 3453
 ;---------------------------------------------------------------------------
 ;Max Tenha Danku Retsu Zan
 [Statedef 3453]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 0
@@ -3183,7 +3183,7 @@ ignorehitpause = 1
 type = HitDef
 trigger1= var(2)<=6
 attr = S, HA
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Back
 damage=39,10
 priority = 7, Hit
@@ -3197,7 +3197,7 @@ hitsound=S2,15
 guardsound = s130, 2
 ground.type = Low
 ground.slidetime = 30
-ground.hittime  = 30
+ground.hittime = 30
 guard.ctrltime = 30
 ground.velocity = ifelse(var(2)<6, 0, -5.5),ifelse(var(2)<6, -6.5, -6.5)
 guard.velocity = -8

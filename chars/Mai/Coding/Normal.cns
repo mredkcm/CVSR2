@@ -1,7 +1,7 @@
 ; Standing Light Punch
 ; CNS difficulty: easy
 [Statedef 200]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -48,7 +48,7 @@ fall.animType = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 12 + 2 * var(9)
-ground.hittime  = 12 + 2 * var(9)
+ground.hittime = 12 + 2 * var(9)
 guard.hittime = 12
 ground.velocity = -4
 guard.velocity = -4
@@ -88,7 +88,7 @@ ctrl = 1
 ; Standing Light Punch (close)
 ; CNS difficulty: easy
 [Statedef 201]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -135,7 +135,7 @@ fall.animType = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 12 + 2* var(9)
-ground.hittime  = 12 + 2* var(9)
+ground.hittime = 12 + 2* var(9)
 guard.hittime = 12
 ground.velocity = -4
 guard.velocity = -4
@@ -175,7 +175,7 @@ ctrl = 1
 ; Standing Medium Punch
 ; CNS difficulty: easy
 [Statedef 210]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -263,7 +263,7 @@ ctrl = 1
 ; Standing Strong Punch
 ; CNS difficulty: easy
 [Statedef 220]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -341,7 +341,7 @@ ctrl = 1
 ; Standing Strong Punch (close)
 ; CNS difficulty: easy
 [Statedef 221]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -427,7 +427,7 @@ ctrl = 1
 ; Standing Light Kick
 ; CNS difficulty: easy
 [Statedef 230]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 10 * !var(20)
@@ -514,7 +514,7 @@ ctrl = 1
 ; Standing Light Kick (close)
 ; CNS difficulty: easy
 [Statedef 231]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 10 * !var(20)
@@ -599,7 +599,7 @@ ctrl = 1
 
 ;Benitsuru no Mai
 [Statedef 232]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 10 * !var(20)
@@ -735,7 +735,7 @@ ctrl = 1
 
 ;Benitsuru no Mai(command link)
 [Statedef 234]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 10 * !var(20)
@@ -837,7 +837,7 @@ value = 233
 ; Standing Medium Kick
 ; CNS difficulty: easy
 [Statedef 240]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -916,7 +916,7 @@ ctrl = 1
 ;Dancing of Tensui
 ;Unique Attack
 [Statedef 241]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -1011,7 +1011,7 @@ ctrl = 1
 ; Standing Medium Kick (close)
 ; CNS difficulty: easy
 [Statedef 242]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -1098,7 +1098,7 @@ ctrl = 1
 ; Standing Strong Kick
 ; CNS difficulty: easy
 [Statedef 250]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -1182,7 +1182,7 @@ ctrl = 1
 ;Fierce Blossom (norm)
 ;Unique Attack
 [Statedef 251]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -1278,7 +1278,7 @@ ctrl = 1
 ;Fierce Blossom (during dodge)
 ;Unique Attack
 [Statedef 252]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -1373,7 +1373,7 @@ ctrl = 1
 ;Fierce Blossom (command link)
 ;Unique Attack
 [Statedef 253]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -1468,7 +1468,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Light Punch
 [Statedef 400]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 10 * !var(20)
@@ -1546,7 +1546,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Medium Punch
 [Statedef 410]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 20 * !var(20)
@@ -1624,7 +1624,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Strong Punch
 [Statedef 420]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 30 * !var(20)
@@ -1703,7 +1703,7 @@ ctrl = 1
 ; Crouching Light Kick
 ; CNS difficulty: easy
 [Statedef 430]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 10 * !var(20)
@@ -1782,7 +1782,7 @@ ctrl = 1
 ; Crouching Medium Kick
 ; CNS difficulty: easy
 [Statedef 440]
-type    = C
+type = C
 movetype= A
 physics = N;C
 poweradd= 20 * !var(20)
@@ -1897,7 +1897,7 @@ ctrl = 1
 ; Crouch Strong Kick
 ; CNS difficulty: easy
 [Statedef 450]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd = 30 * !var(20)
@@ -1974,7 +1974,7 @@ ctrl = 1
 ; Z-Counter Trip
 ; CNS difficulty: easy
 [Statedef 451]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd = 0
@@ -2056,7 +2056,7 @@ ctrl = 1
 ; Jump Light Punch
 ; CNS difficulty: easy
 [Statedef 600]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 10 * !var(20)
@@ -2098,8 +2098,8 @@ hitsound = S2, 0
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 2*var(9)
-ground.hittime  = 12 + 2*var(9)
-guard.hittime  = 12
+ground.hittime = 12 + 2*var(9)
+guard.hittime = 12
 ground.velocity = -4
 guard.velocity = -4
 airguard.ctrlTime = 16
@@ -2138,7 +2138,7 @@ value = 52
 ; Jump Medium Punch
 ; CNS difficulty: easy
 [Statedef 610]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 20 * !var(20)
@@ -2180,8 +2180,8 @@ hitsound = S2, 1
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 3*var(9)
-ground.hittime  = 12 + 3*var(9)
-guard.hittime  = 15
+ground.hittime = 12 + 3*var(9)
+guard.hittime = 15
 ground.velocity = -4
 guard.velocity = -4
 air.animType = Back
@@ -2220,7 +2220,7 @@ value = 52
 ; Jump Strong Punch
 ; CNS difficulty: easy
 [Statedef 620]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 30 * !var(20)
@@ -2262,8 +2262,8 @@ hitsound = S2, 2
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 4*var(9)
-ground.hittime  = 12 + 4*var(9)
-guard.hittime  = 18
+ground.hittime = 12 + 4*var(9)
+guard.hittime = 18
 ground.velocity = -5
 guard.velocity = -5
 air.animType = Back
@@ -2301,7 +2301,7 @@ value = 52
 ; Dairin Fuusha Otoshi
 ; CNS difficulty: easy
 [Statedef 621]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 30 * !var(20)
@@ -2343,8 +2343,8 @@ hitsound = S2, 2
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 4*var(9)
-ground.hittime  = 12 + 4*var(9)
-guard.hittime  = 18
+ground.hittime = 12 + 4*var(9)
+guard.hittime = 18
 ground.velocity = -5
 guard.velocity = -5
 air.animType = Back
@@ -2383,7 +2383,7 @@ value = 52
 ; Jump Light Kick
 ; CNS difficulty: easy
 [Statedef 630]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 10 * !var(20)
@@ -2427,7 +2427,7 @@ air.animType = Back
 fall.animType = Back
 ground.type = High
 ground.slidetime = 12 + 2*var(9)
-ground.hittime  = 12 + 2*var(9)
+ground.hittime = 12 + 2*var(9)
 guard.hittime = 12
 ground.velocity = -4
 guard.velocity = -4
@@ -2464,7 +2464,7 @@ value = 52
 ;-----------------------------------
 ;Ukihane
 [Statedef 631]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 10 * !var(20)
@@ -2524,7 +2524,7 @@ air.animType = Back
 fall.animType = Back
 ground.type = High
 ground.slidetime = 12 + 4*var(9)
-ground.hittime  = 12 + 4*var(9)
+ground.hittime = 12 + 4*var(9)
 guard.hittime = 15
 ground.velocity = -5.40, 0
 guard.velocity = -8
@@ -2693,7 +2693,7 @@ value = 5110
 ; Jump Medium Kick
 ; CNS difficulty: easy
 [Statedef 640]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 20 * !var(20)
@@ -2735,7 +2735,7 @@ hitsound = S2, 4
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 3*var(9)
-ground.hittime  = 12 + 3*var(9)
+ground.hittime = 12 + 3*var(9)
 guard.hittime = 15
 ground.velocity = -5
 guard.velocity = -5
@@ -2774,7 +2774,7 @@ value = 52
 ;------------------------------------------------
 ; Yusura Ume
 [Statedef 641]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 20 * !var(20)
@@ -2836,7 +2836,7 @@ hitsound = S2, 5
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 4*var(9)
-ground.hittime  = 12 + 4*var(9)
+ground.hittime = 12 + 4*var(9)
 guard.hittime = 15
 ground.velocity = -5, -6
 guard.velocity = -6
@@ -2874,7 +2874,7 @@ value = 52
 
 ;Rebound on Guard
 [Statedef 642]
-type    = A                      
+type = A                      
 movetype= I                    
 physics = N                     
 velset = -2,-2.75                  
@@ -2903,7 +2903,7 @@ value = 52
 ; Jump Strong Kick
 ; CNS difficulty: easy
 [Statedef 650]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 30 * !var(20)
@@ -2945,7 +2945,7 @@ hitsound = S2, 5
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 4*var(9)
-ground.hittime  = 12 + 4*var(9)
+ground.hittime = 12 + 4*var(9)
 guard.hittime = 18
 ground.velocity = -5
 guard.velocity = -5
@@ -2991,7 +2991,7 @@ value = 52
 ; Jump Strong Kick (No Vel X)
 ; CNS difficulty: easy
 [Statedef 651]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 30 * !var(20)
@@ -3033,7 +3033,7 @@ hitsound = S2, 5
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 4*var(9)
-ground.hittime  = 12 + 4*var(9)
+ground.hittime = 12 + 4*var(9)
 guard.hittime = 18
 ground.velocity = -5
 guard.velocity = -5
@@ -3070,10 +3070,10 @@ value = 52
 ;---------------------
 ; Throw Attempt
 [Statedef 800]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 800

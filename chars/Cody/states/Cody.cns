@@ -1,7 +1,7 @@
 ;----------------------------------------------------------------------------
 ; RUN_FWD
 [Statedef 100]
-type    = A
+type = A
 physics = N
 anim = 100
 velset = 0,0
@@ -464,7 +464,7 @@ velset = 0,0
 
 [State 0, Cloth]
 type = Helper
-trigger1 = Time  = 0
+trigger1 = Time = 0
 stateno = 7300
 postype = p1
 pos = ceil(-17*const(size.xscale)),-71
@@ -473,7 +473,7 @@ ID = 7300
 
 [State 0, Cloth]
 type = Helper
-trigger1 = Time  = 0
+trigger1 = Time = 0
 stateno = 7300
 postype = p1
 pos = ceil(-13*const(size.xscale)),1
@@ -482,7 +482,7 @@ ID = 7301
 
 [State 0, Cloth]
 type = Helper
-trigger1 = Time  = 0
+trigger1 = Time = 0
 stateno = 7300
 postype = p1
 pos = ceil(-61*const(size.xscale)),-7
@@ -491,7 +491,7 @@ ID = 7302
 
 [State 0, Cloth]
 type = Helper
-trigger1 = Time  = 0
+trigger1 = Time = 0
 stateno = 7300
 postype = p1
 pos = ceil(35*const(size.xscale)),-3
@@ -500,7 +500,7 @@ ID = 7303
 
 [State 0, Cloth]
 type = Helper
-trigger1 = Time  = 0
+trigger1 = Time = 0
 stateno = 7300
 postype = p1
 pos = ceil(-21*const(size.xscale)),-11

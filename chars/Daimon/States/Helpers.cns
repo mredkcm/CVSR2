@@ -132,7 +132,7 @@ trigger1 =roundstate<2
 ;CAMERA FOCUS
 [Statedef 6001]
 type = S
-physics  = S
+physics = S
 anim = 0
 ctrl = 0
 
@@ -2817,7 +2817,7 @@ trigger1 = RoundState = 2
 ;----------------------------------------------------------------------------
 ; Adjust from Jigoku Gokuraku Otoshi Final hit (From Add004 States)
 [Statedef 3005]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 0
@@ -2829,19 +2829,19 @@ anim = 3025
 type = HitDef
 trigger1 = time = 0
 attr = A, HP
-animtype  = hard
-damage    = 50
+animtype = hard
+damage = 50
 getpower = 0,0
 hitflag = MAFD
 pausetime = 0,0
 sparkno = s-1
 guard.sparkno = S7012
 sparkxy = -15,9999
-hitsound   = -1
+hitsound = -1
 guardsound = s130,0
 ground.type = trip
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -1,-5
 down.velocity = -1,-5
 yaccel = .48
@@ -2956,7 +2956,7 @@ value = 3058
 ;----------------------------------------------------------------------------
 ; Jiraishin (Helper from Max Jigoku Gokuraku Otoshi)
 [Statedef 3055]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 0
@@ -2968,19 +2968,19 @@ anim = 1015
 type = HitDef
 trigger1 = time = 0
 attr = A, HP
-animtype  = hard
-damage    = 50
+animtype = hard
+damage = 50
 getpower = 0,0
 hitflag = MAFD
 pausetime = 0,0
 sparkno = s-1
 guard.sparkno = S7012
 sparkxy = -15,9999
-hitsound   = -1
+hitsound = -1
 guardsound = s130,0
 ground.type = trip
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -1.5,-9
 yaccel = 0.4
 guard.velocity = -8
@@ -3131,7 +3131,7 @@ trigger2 = Target, Time <= 1 && !(Target,HitShakeOver)
 ;----------------------------------------------------------------------------
 ; Jiraishin (Helper from Hourinkazan)
 [Statedef 3515]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 0
@@ -3143,19 +3143,19 @@ anim = 1015
 type = HitDef
 trigger1 = p2statetype = S&&time = 0
 attr = A, HP
-animtype  = hard
-damage    = 100
+animtype = hard
+damage = 100
 getpower = 0,0
 hitflag = H
 pausetime = 0,2
 sparkno = s-1
 guard.sparkno = S7012
 sparkxy = -15,9999
-hitsound   = -1
+hitsound = -1
 guardsound = s130,0
 ground.type = trip
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -1.5,-9
 yaccel = 0.4
 guard.velocity = -8
@@ -3170,19 +3170,19 @@ p2stateno = 3520
 type = HitDef
 trigger1 = p2statetype = L&&time = 0
 attr = A, HP
-animtype  = hard
-damage    = 100
+animtype = hard
+damage = 100
 getpower = 0,0
 hitflag = FD
 pausetime = 0,2
 sparkno = s-1
 guard.sparkno = S7012
 sparkxy = -15,9999
-hitsound   = -1
+hitsound = -1
 guardsound = s130,0
 ground.type = trip
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -1.5,-9
 yaccel = 0.4
 guard.velocity = -8
@@ -3671,7 +3671,7 @@ trigger1 = Root, StateNo = 3611 && Root, animelem = 2
 ;----------------------------------------------------------------------------
 ; Jiraishin (Helper from Kyoutendouchi)
 [Statedef 3605]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 0
@@ -3683,19 +3683,19 @@ anim = 1015
 type = HitDef
 trigger1 = time = 0
 attr = A, HP
-animtype  = hard
-damage    = 0
+animtype = hard
+damage = 0
 getpower = 0,0
 hitflag = MAFD
 pausetime = 0,0
 sparkno = s-1
 guard.sparkno = S7012
 sparkxy = -15,9999
-hitsound   = S2,6
+hitsound = S2,6
 guardsound = s130,0
 ground.type = trip
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -1.5,-9
 yaccel = 0.4
 guard.velocity = -8

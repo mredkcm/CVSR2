@@ -550,7 +550,7 @@ value = 5100 ;Hit ground
 ;---------------------------------------------------------------------------
 ;Gaia Gear(ENEMY)
 [Statedef 3320]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -1,-1
@@ -579,7 +579,7 @@ value = 5050
 ;---------------------------------------------------------------------------
 ;Off screen Knockback
 [Statedef 4020]
-type    = A
+type = A
 movetype= H
 physics = N
 juggle = 1
@@ -607,7 +607,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Off screen Knockback Fall
 [Statedef 4021]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -641,7 +641,7 @@ value = Ifelse(Alive,5120,5150)
 ;---------------------------------------------------------------------------
 ;Wall-knockdown
 [Statedef 4060]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -684,7 +684,7 @@ value = 4061
 ;---------------------------------------------------------------------------
 ;Wall-knockdown Hit Wall
 [Statedef 4061]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -735,7 +735,7 @@ value = 4062
 ;---------------------------------------------------------------------------
 ;Wall-knockdown Fall
 [Statedef 4062]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -788,7 +788,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Custom-ceiling bounce
 [Statedef 4065]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

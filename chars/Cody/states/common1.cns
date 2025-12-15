@@ -31,7 +31,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Stand to Crouch
 [Statedef 10]
-type    = C
+type = C
 physics = C
 anim = 10 + Var(29)*10000
 
@@ -53,7 +53,7 @@ value = 11
 ;---------------------------------------------------------------------------
 ; Crouching
 [Statedef 11]
-type    = C
+type = C
 physics = C
 anim = 11 + Var(29)*10000
 sprpriority = 0
@@ -71,7 +71,7 @@ x = 0
 ;---------------------------------------------------------------------------
 ; Crouch to Stand
 [Statedef 12]
-type    = S
+type = S
 physics = S
 anim = 12 + Var(29)*10000
 
@@ -83,7 +83,7 @@ value = 0
 ;---------------------------------------------------------------------------
 ; Walk
 [Statedef 20]
-type    = S
+type = S
 physics = S
 sprpriority = 0
 
@@ -114,7 +114,7 @@ value = 21 + Var(29)*10000
 ;---------------------------------------------------------------------------
 ; Jump Start
 [Statedef 40]
-type    = S
+type = S
 physics = S
 anim = 40 + Var(29)*10000
 ctrl = 0
@@ -202,7 +202,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; AirJump Start
 [Statedef 45]
-type    = A
+type = A
 physics = N
 ctrl = 0
 velset = 0,0
@@ -247,7 +247,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Jump Up
 [Statedef 50]
-type    = A
+type = A
 physics = A
 
 [State 0, AfterImage]
@@ -261,7 +261,7 @@ PalAdd = 0,0,0
 PalMul = .5,.5,.5
 length = 9
 trans = add1
-TimeGap  = 2
+TimeGap = 2
 FrameGap = 4
 
 [State 50, 1]
@@ -285,7 +285,7 @@ value = Anim + 3
 ;---------------------------------------------------------------------------
 ; Jump Down (empty state for compatibility)
 [Statedef 51]
-type    = A
+type = A
 physics = A
 
 [State 51, 1]
@@ -295,7 +295,7 @@ trigger1 = 1
 ;---------------------------------------------------------------------------
 ; Jump Land
 [Statedef 52]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 47 + Var(29)*10000
@@ -347,7 +347,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Run forward
 [Statedef 100]
-type    = S
+type = S
 physics = S
 anim = 100
 sprpriority = 1
@@ -388,7 +388,7 @@ value = 0
 ;---------------------------------------------------------------------------
 ; Hop backwards
 [Statedef 105]
-type    = A
+type = A
 physics = A
 ctrl = 0
 anim = 105
@@ -414,7 +414,7 @@ value = 106
 ;---------------------------------------------------------------------------
 ; Hop backwards (land)
 [Statedef 106]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 47
@@ -530,7 +530,7 @@ value = 140
 ;---------------------------------------------------------------------------
 ; Stand guard (guarding)
 [Statedef 130]
-type    = S
+type = S
 physics = S
 
 [State 0, Anim]
@@ -562,7 +562,7 @@ value = 140
 ;---------------------------------------------------------------------------
 ; Crouch guard (guarding)
 [Statedef 131]
-type    = C
+type = C
 physics = C
 
 [State 0, Anim]
@@ -594,7 +594,7 @@ value = 140
 ;---------------------------------------------------------------------------
 ; Air guard (guarding)
 [Statedef 132]
-type    = A
+type = A
 physics = N
 
 [State 0, Anim]
@@ -693,7 +693,7 @@ physics = S
 ;---------------------------------------------------------------------------
 ; Stand guard hit (shaking)
 [Statedef 150]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -729,7 +729,7 @@ time = 3
 ;---------------------------------------------------------------------------
 ; Stand guard hit (knocked back)
 [Statedef 151]
-type    = S
+type = S
 movetype= H
 physics = S
 anim = 150 + Var(29)*10000
@@ -771,7 +771,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch guard hit (shaking)
 [Statedef 152]
-type    = C
+type = C
 movetype= H
 physics = N
 velset = 0,0
@@ -807,7 +807,7 @@ time = 4
 ;---------------------------------------------------------------------------
 ; Crouch guard hit (knocked back)
 [Statedef 153]
-type    = C
+type = C
 movetype= H
 physics = C
 anim = 151 + Var(29)*10000
@@ -849,7 +849,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Air guard hit (shaking)
 [Statedef 154]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -873,7 +873,7 @@ time = 4
 ;---------------------------------------------------------------------------
 ; Air guard hit (knocked away)
 [Statedef 155]
-type    = A
+type = A
 movetype= H
 physics = N
 anim = 152 + Var(29)*10000
@@ -990,7 +990,7 @@ value = 0
 ;---------------------------------------------------------------------------
 ; Stand get-hit (shaking)
 [Statedef 5000]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1086,7 +1086,7 @@ value = 5030
 ;---------------------------------------------------------------------------
 ; Stand get-hit (knocked back)
 [Statedef 5001]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -1124,7 +1124,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch get-hit (shaking)
 [Statedef 5010]
-type    = C
+type = C
 movetype= H
 physics = N
 velset = 0,0
@@ -1216,7 +1216,7 @@ ampl = 140
 ;---------------------------------------------------------------------------
 ; Crouch get-hit (knocked back)
 [Statedef 5011]
-type    = C
+type = C
 movetype= H
 physics = C
 
@@ -1254,7 +1254,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Air get-hit (shaking)
 [Statedef 5020]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1355,7 +1355,7 @@ value= ifelse(pos y, 5020, 5000)
 ;---------------------------------------------------------------------------
 ; Air get-hit (knocked away)
 [Statedef 5030]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -1401,7 +1401,7 @@ value = 5035 ;Air get-hit (transition)
 ;---------------------------------------------------------------------------
 ; Air get-hit (transition)
 [Statedef 5035]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1443,7 +1443,7 @@ value = 5050 ;Air get-hit (falling)
 ;---------------------------------------------------------------------------
 ; Air get-hit (recovering in air, not falling)
 [Statedef 5040]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1485,7 +1485,7 @@ value = 52 ;Jump land
 ;---------------------------------------------------------------------------
 ; Air get-hit (falling)
 [Statedef 5050]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1535,7 +1535,7 @@ value = 5100 ;Downed get-hit (hit ground from fall)
 ;---------------------------------------------------------------------------
 ; Tripped get-hit (shaking)
 [Statedef 5070]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1560,7 +1560,7 @@ ampl = 140
 ;---------------------------------------------------------------------------
 ; Tripped get-hit (knocked away)
 [Statedef 5071]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1584,7 +1584,7 @@ value = 5110
 ;---------------------------------------------------------------------------
 ; Downed get-hit (shaking)
 [Statedef 5080]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -1653,7 +1653,7 @@ value = 5030 ;Air get-hit (knocked away)
 ;---------------------------------------------------------------------------
 ; Downed get-hit (knocked back)
 [Statedef 5081]
-type    = L
+type = L
 movetype= H
 physics = C
 
@@ -1680,7 +1680,7 @@ value = 5110 ;Downed get-hit (lying down)
 ;---------------------------------------------------------------------------
 ; Downed get-hit (hit ground from fall)
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -1771,7 +1771,7 @@ time = 20
 ;---------------------------------------------------------------------------
 ; Downed get-hit (bounce off ground)
 [Statedef 5101]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -1817,7 +1817,7 @@ value = 5110
 ;---------------------------------------------------------------------------
 ; Downed get-hit (lying down)
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -1944,7 +1944,7 @@ waveform = sine
 ;---------------------------------------------------------------------------
 ; Downed get-hit (getting up)
 [Statedef 5120]
-type    = L
+type = L
 movetype= I
 physics = N
 
@@ -2151,7 +2151,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Downed get-hit (lying defeated)
 [Statedef 5150]
-type    = L
+type = L
 movetype= H
 physics = N
 sprpriority = -3
@@ -2366,7 +2366,7 @@ value = 5210
 ;---------------------------------------------------------------------------
 ; Air get-hit (fall recovery in air)
 [Statedef 5210]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 5210
@@ -2555,7 +2555,7 @@ value = 5301
 ;---------------------------------------------------------------------------
 ; HIT_GETUP
 [Statedef 5301]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0

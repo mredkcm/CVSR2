@@ -3,7 +3,7 @@
 ; (a custom gethit state)
 ; See State 1020 for details
 [Statedef 2990]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -21,7 +21,7 @@ value = 2989
 ; Hit by Fast Kung Fu Palm - flying through the air
 ; (a custom gethit state)
 [Statedef 2989]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -60,7 +60,7 @@ value = 5100
 ; Hit by Fast Kung Fu Palm - hit wall
 ; (a custom gethit state)
 [Statedef 2988]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -117,7 +117,7 @@ value = 2987
 ; Hit by Fast Kung Fu Palm - bounce off wall
 ; (a custom gethit state)
 [Statedef 2987]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -193,7 +193,7 @@ value = 5100
 
 ;------------------------------------------------------------------------
 [Statedef 2995]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -303,7 +303,7 @@ value = 5100
 
 ;------------------------------------------------------------------------
 [Statedef 2997]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

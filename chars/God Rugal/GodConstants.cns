@@ -50,10 +50,10 @@
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 ;====================<CONSTANTS>====================
 [Data]
-life = 1500
+life = 1000
 power = 3000
-attack = 120
-defence = 120
+attack = 100
+defence = 100
 fall.defence_up = 90
 lieDown.time = 15
 airJuggle = 15
@@ -81,9 +81,9 @@ shadowOffset = 0
 draw.offset = 0,0
 
 [Velocity]
-walk.fwd  = 3.5
+walk.fwd = 3.5
 walk.back = -3.5
-run.fwd  = 6.4, 0
+run.fwd = 6.4, 0
 run.back = -7.5, -4.5
 jump.neu = 0, -10.5
 jump.back = -4.3

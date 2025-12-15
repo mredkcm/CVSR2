@@ -369,7 +369,7 @@ guardsound = -1
 guard.sparkno = -1
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 Palfx.time = 56
 Palfx.add = 40,-70,-200
 Palfx.sinadd = 40,30,0,10
@@ -864,7 +864,7 @@ guardsound = -1
 guard.sparkno = -1
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 Palfx.time = 56
 Palfx.add = 40,-70,-200
 Palfx.sinadd = 40,30,0,10
@@ -1711,7 +1711,7 @@ hitsound = s3,1
 guardsound=s130,1
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -4.027801513671875,-6.5
 guard.velocity = -14.90625
 guard.ctrltime = 21
@@ -2439,7 +2439,7 @@ guardsound=s130,1
 guard.sparkno = s7001;1
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -4.027801513671875,-8.5
 guard.velocity = -14.90625
 guard.ctrltime = 21
@@ -3204,7 +3204,7 @@ guardsound=s130,1
 guard.sparkno = s7001;1
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -4.027801513671875,-6.5
 guard.velocity = -14.90625
 guard.ctrltime = 21
@@ -4020,7 +4020,7 @@ guardsound=s130,1
 guard.sparkno = s7001;1
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -4.027801513671875,-8.5
 guard.velocity = -14.90625
 guard.ctrltime = 21
@@ -4210,7 +4210,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; HITG_SHAKE
 [Statedef 6000]
-type    = u
+type = u
 movetype= H
 physics = N
 velset = 0,0
@@ -4235,7 +4235,7 @@ value = 7020
 ;---------------------------------------------------------------------------
 ; HITA_SHAKE
 [Statedef 7020]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -4299,7 +4299,7 @@ ampl = 140
 ;---------------------------------------------------------------------------
 ; HITA_UP (initial going up)
 [Statedef 7030]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -4339,7 +4339,7 @@ value = 7035 ;HITA_UP (transition)
 ;---------------------------------------------------------------------------
 ; HITA_UP_T (transition)
 [Statedef 7035]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -4381,7 +4381,7 @@ value = 5050 ;HITA_FALL
 ;---------------------------------------------------------------------------
 ; HITA_RECOV (recovering in air, not falling)
 [Statedef 7040]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -5350,8 +5350,8 @@ id = 1105
 type = HitDef
 trigger1 = animelem = 7
 attr = S, HA
-animtype  = hard
-damage    = 0,9
+animtype = hard
+damage = 0,9
 priority = 9, Hit
 getpower = 0,0
 guardflag = N
@@ -5363,7 +5363,7 @@ guardsound=s130,1
 guard.sparkno = s7001;
 ground.type = low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -2,-9
 air.velocity = -2,-9
 guard.velocity = -12
@@ -5539,8 +5539,8 @@ under = 2
 type = HitDef
 trigger1 = hitcount <= 2
 attr = S, HP
-animtype  = hard
-damage    = 20,2
+animtype = hard
+damage = 20,2
 priority = 8, Hit
 getpower = 0,0
 hitflag = MAFD
@@ -5554,7 +5554,7 @@ guardsound=s130,1
 guard.sparkno = s7001;
 ground.type = high
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -4,-7.2
 air.velocity = -4.5,-7.2
 yaccel = 0.47
@@ -5589,11 +5589,11 @@ trigger1 = animtime = 0
 ;Heidern's Caliburn Finish
 ;===============================================================================
 [Statedef 3600]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3520
-juggle  = 8
+juggle = 8
 velset = 0,0
 sprpriority = 2
 
@@ -5742,7 +5742,7 @@ guardsound = -1
 guard.sparkno = -1
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 p2stateno = 3531
 
 [State 0, HitAdd]
@@ -5815,7 +5815,7 @@ trigger1 = animtime = 0
 ;---------------------------------------------------------------------------
 ;(ENEMY)
 [Statedef 3530]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -5850,7 +5850,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;(ENEMY)
 [Statedef 3535]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -5879,7 +5879,7 @@ ctrl = 1
 
 ;(ENEMY)
 [Statedef 3531]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -6907,7 +6907,7 @@ guardsound = -1
 guard.sparkno = -1
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 p2stateno = 3531
 
 [State 0, Explod]

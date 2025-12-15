@@ -168,7 +168,7 @@ value=5100
 ;--------------------------------------------------------------------------------------------
 ;Kyokugen Hyaku Retsu Ken Dojo Sign - Kill Opponent - HITA_UP (initial going up)
 [Statedef 4064]
-type    = S
+type = S
 movetype= h
 physics = S
 velset = -1,-25
@@ -204,7 +204,7 @@ ctrl = 0
 ;-------------------------------------------------------------------------------------------
 ; P2 State
 [Statedef 3206]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -237,7 +237,7 @@ value = 3207 ;HITG_SLIDE
 ;---------------------------------------------------------------------------
 ; HITG_SLIDE_High
 [Statedef 3207]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -274,7 +274,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------------------
 
 [Statedef 3222]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -318,7 +318,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Off screen Knockback
 [Statedef 4020]
-type    = A
+type = A
 movetype= H
 physics = N
 juggle = 1
@@ -345,7 +345,7 @@ value = 4021
 ctrl = 0
 ;---------------------------------------------------------------------------
 [Statedef 4021]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -379,7 +379,7 @@ value = Ifelse(Alive,5120,5150)
 ;---------------------------------------------------------------------------
 ;---------------------------------------------------------------------------
 [Statedef 4056]
-type    = A
+type = A
 movetype= H
 physics = N
 juggle = 1
@@ -415,7 +415,7 @@ trigger1 = Pos Y >= 0 && Vel Y > 0
 value = 5100
 ;---------------------------------------------------------------------------
 [Statedef 4057]
-type    = A
+type = A
 movetype= H
 physics = N
 juggle = 1
@@ -452,7 +452,7 @@ trigger1 = Pos Y >= 0 && Vel Y > 0
 value = 5100
 ;---------------------------------------------------------------------------
 [Statedef 4063]
-type    = A
+type = A
 movetype= H
 physics = N
 juggle = 1
@@ -485,7 +485,7 @@ trigger1 = Pos Y >= 0 && Vel Y > 0
 value = 5100
 ;---------------------------------------------------------------------------
 [Statedef 4064]
-type    = A
+type = A
 movetype= H
 physics = N
 juggle = 1
@@ -531,7 +531,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Wall-knockdown
 [Statedef 4060]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -570,7 +570,7 @@ value = 4061
 
 ;---------------------------------------------------------------------------
 [Statedef 4061]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -634,7 +634,7 @@ trigger1=time=15
 value = 4062
 ;---------------------------------------------------------------------------
 [Statedef 4062]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -676,7 +676,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Custom-ceiling bounce
 [Statedef 4065]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

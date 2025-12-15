@@ -1,7 +1,7 @@
 ; Standing Light Punch
 ; CNS difficulty: easy
 [Statedef 200]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -53,7 +53,7 @@ fall.animType = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 12 + 2 * var(9)
-ground.hittime  = 12 + 2 * var(9)
+ground.hittime = 12 + 2 * var(9)
 guard.hittime = 12
 ground.velocity = -5.5
 guard.velocity = -5.5
@@ -84,7 +84,7 @@ ctrl = 1
 ; One Inch Punch(unique attack)
 ; CNS difficulty: easy
 [Statedef 201]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -137,7 +137,7 @@ fall.animType = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18 + 4 * var(9)
-ground.hittime  = 18 + 4 * var(9)
+ground.hittime = 18 + 4 * var(9)
 guard.hittime = 18
 ground.velocity = -4.5, -6.5
 guard.velocity = -14.5
@@ -182,7 +182,7 @@ fall.animType = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18 + 4 * var(9)
-ground.hittime  = 18 + 4 * var(9)
+ground.hittime = 18 + 4 * var(9)
 guard.hittime = 18
 ground.velocity = -14, -7
 guard.velocity = -14.5
@@ -235,7 +235,7 @@ ctrl = 1
 ; One Inch Punch(comboed)
 ; CNS difficulty: easy
 [Statedef 202]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -288,7 +288,7 @@ fall.animType = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18 + 4 * var(9)
-ground.hittime  = 18 + 4 * var(9)
+ground.hittime = 18 + 4 * var(9)
 guard.hittime = 18
 ground.velocity = -4.5, -6.5
 guard.velocity = -14.5
@@ -333,7 +333,7 @@ fall.animType = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18 + 4 * var(9)
-ground.hittime  = 18 + 4 * var(9)
+ground.hittime = 18 + 4 * var(9)
 guard.hittime = 18
 ground.velocity = -6.5
 guard.velocity = -12
@@ -372,7 +372,7 @@ ctrl = 1
 ; Standing Medium Punch
 ;CNS Difficulty: easy
 [Statedef 210]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -482,7 +482,7 @@ ctrl = 1
 ; Close MP
 ;CNS Difficulty: easy
 [Statedef 211]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -561,7 +561,7 @@ ctrl = 1
 ; Standing Strong Punch
 ; CNS difficulty: easy
 [Statedef 220]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -669,7 +669,7 @@ ctrl = 1
 ; Close HP
 ; CNS difficulty: easy
 [Statedef 221]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -789,7 +789,7 @@ ctrl = 1
 ; Critical Ice(unique attack)
 ; CNS difficulty: easy
 [Statedef 225]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -933,7 +933,7 @@ ctrl = 1
 ; Standing Light Kick
 ; CNS difficulty: easy
 [Statedef 230]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 10 * !var(20)
@@ -1016,7 +1016,7 @@ ctrl = 1
 ; Close LK
 ; CNS difficulty: easy
 [Statedef 231]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 10 * !var(20)
@@ -1095,7 +1095,7 @@ ctrl = 1
 ; Standing Medium Kick
 ; CNS difficulty: easy
 [Statedef 240]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 20 * !var(20)
@@ -1215,7 +1215,7 @@ ctrl = 1
 ; Slider Shoot(unique attack)
 ; CNS difficulty: easy
 [Statedef 245]
-type    = C
+type = C
 movetype= A
 physics = N
 poweradd= 20 * !var(20)
@@ -1321,7 +1321,7 @@ ctrl = 1
 ; Standing Strong Kick
 ; CNS difficulty: easy
 [Statedef 250]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -1446,7 +1446,7 @@ ctrl = 1
 ; Close HK
 ; CNS difficulty: easy
 [Statedef 251]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -1524,7 +1524,7 @@ ctrl = 1
 ; Dodge Kick
 ; CNS difficulty: easy
 [Statedef 252]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 30 * !var(20)
@@ -1602,7 +1602,7 @@ ctrl = 1
 ; Z-Counter Kick
 ; CNS difficulty: easy
 [Statedef 255]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 0
@@ -1687,7 +1687,7 @@ ctrl = 1
 ; Crouching Light Punch
 ; CNS difficulty: easy
 [Statedef 400]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 10 * !var(20)
@@ -1766,7 +1766,7 @@ ctrl = 1
 ; Crouching Medium Punch
 ; CNS difficulty: easy
 [Statedef 410]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 20 * !var(20)
@@ -1845,7 +1845,7 @@ ctrl = 1
 ; Crouching Strong Punch
 ;CNS difficulty: easy
 [Statedef 420]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 30 * !var(20)
@@ -1941,7 +1941,7 @@ ctrl = 1
 ; Crouching Light Kick
 ; CNS difficulty: easy
 [Statedef 430]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 10 * !var(20)
@@ -2030,7 +2030,7 @@ ctrl = 1
 ;Crouch Medium Kick
 ; CNS difficulty: easy
 [Statedef 440]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd= 20 * !var(20)
@@ -2114,7 +2114,7 @@ ctrl = 1
 ; Crouch Strong Kick
 ; CNS difficulty: easy
 [Statedef 450]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd = 30 * !var(20)
@@ -2196,7 +2196,7 @@ ctrl = 1
 ; Z-Counter Version
 ; CNS difficulty: easy
 [Statedef 451]
-type    = C
+type = C
 movetype= A
 physics = C
 poweradd = 0
@@ -2284,7 +2284,7 @@ ctrl = 1
 ; Jump Light Punch
 ; CNS difficulty: easy
 [Statedef 600]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 10 * !var(20)
@@ -2339,8 +2339,8 @@ hitsound = S2, 0
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 2*var(9)
-ground.hittime  = 12 + 2*var(9)
-guard.hittime  = 12
+ground.hittime = 12 + 2*var(9)
+guard.hittime = 12
 ground.velocity = -4
 guard.velocity = -4
 airguard.ctrlTime = 16
@@ -2379,7 +2379,7 @@ value = 52
 ; Jump Medium Punch
 ; CNS difficulty: easy
 [Statedef 610]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 20 * !var(20)
@@ -2434,8 +2434,8 @@ hitsound = S2, 1
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 3*var(9)
-ground.hittime  = 12 + 3*var(9)
-guard.hittime  = 15
+ground.hittime = 12 + 3*var(9)
+guard.hittime = 15
 ground.velocity = -4
 guard.velocity = -4
 air.animType = Back
@@ -2474,7 +2474,7 @@ value = 52
 ; Jump Strong Punch
 ; CNS difficulty: easy
 [Statedef 620]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 30 * !var(20)
@@ -2529,8 +2529,8 @@ hitsound = S2, 2
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 4*var(9)
-ground.hittime  = 12 + 4*var(9)
-guard.hittime  = 18
+ground.hittime = 12 + 4*var(9)
+guard.hittime = 18
 ground.velocity = -5
 guard.velocity = -5
 air.animType = Back
@@ -2569,7 +2569,7 @@ value = 52
 ; Jump Light Kick
 ; CNS difficulty: easy
 [Statedef 630]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 10 * !var(20)
@@ -2613,7 +2613,7 @@ air.animType = Back
 fall.animType = Back
 ground.type = High
 ground.slidetime = 12 + 2*var(9)
-ground.hittime  = 12 + 2*var(9)
+ground.hittime = 12 + 2*var(9)
 guard.hittime = 12
 ground.velocity = -4
 guard.velocity = -4
@@ -2651,7 +2651,7 @@ value = 52
 ; Jump Medium Kick
 ; CNS difficulty: easy
 [Statedef 640]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 20 * !var(20)
@@ -2693,7 +2693,7 @@ hitsound = S2, 4
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 3*var(9)
-ground.hittime  = 12 + 3*var(9)
+ground.hittime = 12 + 3*var(9)
 guard.hittime = 15
 ground.velocity = -5
 guard.velocity = -5
@@ -2742,7 +2742,7 @@ value = 52
 ; Jump Strong Kick
 ; CNS difficulty: easy
 [Statedef 650]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 30 * !var(20)
@@ -2784,7 +2784,7 @@ hitsound = S2, 5
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 12 + 4*var(9)
-ground.hittime  = 12 + 4*var(9)
+ground.hittime = 12 + 4*var(9)
 guard.hittime = 18
 ground.velocity = -5
 guard.velocity = -5
@@ -2820,10 +2820,10 @@ value = 52
 
 ;==================<THROW ATTEMPT>==================
 [Statedef 800]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 800
@@ -3811,7 +3811,7 @@ value = 5100
 ;Hit By One Inch Punch (For Pausetime)
 ;**Special Thanks to KoopaKoot**
 [Statedef 1490]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3885,7 +3885,7 @@ value = 1491
 
 ;Hit By One Inch Punch (Air Fall)
 [Statedef 1491]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3926,7 +3926,7 @@ value = 1492 ;HIT_BOUNCE
 
 ;Hit By One Inch Punch (Slide)
 [Statedef 1492]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3968,7 +3968,7 @@ value = 1493
 
 ;Hit By One Inch Punch (Liedown)
 [Statedef 1493]
-type    = S
+type = S
 movetype= H
 physics = N
 

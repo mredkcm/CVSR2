@@ -219,7 +219,7 @@ value = 1005
 ;---------------------------------------------------------------------------
 ;Zesshou Hohou  Land
 [Statedef 1005]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 1005
@@ -328,11 +328,11 @@ ownpal = 1
 type = AfterImage
 trigger1 = animelem = 1 & !Var(20)
 length = 13
-PalBright   =  30, 30, 30
+PalBright =  30, 30, 30
 PalContrast =  70, 70, 20
-PalAdd      = -10,-10,-10
-PalMul      = .85,.85,.50
-TimeGap  = 1
+PalAdd = -10,-10,-10
+PalMul = .85,.85,.50
+TimeGap = 1
 FrameGap = 2
 Trans = Add
 time = 25
@@ -661,7 +661,7 @@ value = 1105
 ;---------------------------------------------------------------------------
 ;Nishokyaku Land
 [Statedef 1105]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 1105
@@ -966,7 +966,7 @@ fall.animtype=Back
 ground.type=High
 air.type=High
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 guard.velocity = -8
 ground.velocity = -ifelse(Var(10)=2,2,ifelse(Var(10)=0,8.25,3)),-ifelse(Var(10)=2,11,ifelse(var(10)=0,0,10))
@@ -1130,7 +1130,7 @@ fall.animtype=Back
 ground.type=Low
 air.type=Low
 ground.slidetime = 30
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -3
 guard.velocity = -8
@@ -1175,7 +1175,7 @@ fall.animtype=Back
 ground.type=Low
 air.type=Low
 ground.slidetime = 30
-ground.hittime  = 25
+ground.hittime = 25
 guard.ctrltime = 20
 ground.velocity = -3
 guard.velocity = -8
@@ -1313,7 +1313,7 @@ fall.animtype=Back
 ground.type=Low
 air.type=Low
 ground.slidetime =ifelse(var(10)=0,27,ifelse(var(10)=1,12,10))
-ground.hittime  = ifelse(var(10)=0,27,ifelse(var(10)=1,17,15))
+ground.hittime = ifelse(var(10)=0,27,ifelse(var(10)=1,17,15))
 guard.ctrltime=ifelse(var(10)=0,20,ifelse(var(10)=1,15,15))
 ground.velocity = -ifelse(Var(10)=2,10,ifelse(Var(10)=0,8.25,6.5)),-ifelse(Var(10)=2,9,ifelse(var(10)=0,0,5))
 air.velocity = -6.5,-ifelse(Var(10)=2,9,5)
@@ -1354,10 +1354,10 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ;Kobokushi(Feint)
 [Statedef 1301]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 8
+juggle = 8
 poweradd = 10 * !var(20)
 velset = 0,0
 anim = 1301
@@ -1547,7 +1547,7 @@ ctrl=1
 ;-----------------------------
 ;Zenpou Tenshin 
 [Statedef 1400]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 0
@@ -1609,7 +1609,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Zenpou Tenshin  Connect
 [Statedef 1401]
-type    = A
+type = A
 movetype = A
 physics = N
 velset = 0,0
@@ -1744,7 +1744,7 @@ ctrl = 1
 ;Opp. Flipped
 ;-----------------------------
 [Statedef 1405]
-type    = S
+type = S
 movetype = H
 physics = N
 velset = 0,0
@@ -1765,7 +1765,7 @@ ctrl = 1
 ;EX Zenpou Tenshin 
 ;-----------------------------
 [Statedef 1430]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 0

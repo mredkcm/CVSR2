@@ -3,13 +3,13 @@
 ;☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
 ; 立ち弱パンチ
 [Statedef 200]
-type     = S                     
+type = S                     
 movetype = A                     
-physics  = S                     
-juggle   = 0                     
-ctrl     = 0                     
+physics = S                     
+juggle = 0                     
+ctrl = 0                     
 velset = 0,0
-anim     = ifelse(prevstateno=200,201,200) 
+anim = ifelse(prevstateno=200,201,200) 
 facep2 = 1                  
 sprpriority = 2 
 
@@ -36,7 +36,7 @@ hitsound = S2,0
 guardsound = S3,0
 ground.type = High               
 ground.slidetime = 7
-ground.hittime  = 9
+ground.hittime = 9
 guard.hittime = 9
 guard.slidetime = 9
 guard.ctrltime = 7
@@ -86,7 +86,7 @@ hitsound = S2,1
 guardsound = S3,0
 ground.type = High               
 ground.slidetime = 7
-ground.hittime  = 9
+ground.hittime = 9
 guard.hittime = 9
 guard.slidetime = 9
 guard.ctrltime = 7
@@ -161,14 +161,14 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 立ち中パンチ
 [Statedef 210]
-type     = S                     
+type = S                     
 movetype = A                     
-physics  = S                     
-juggle   = 0                     
-ctrl     = 0                     
+physics = S                     
+juggle = 0                     
+ctrl = 0                     
 velset = 0,0
-anim     = 210  
-facep2   = 1                 
+anim = 210  
+facep2 = 1                 
 sprpriority = 2
 ;poweradd = 20
 
@@ -199,7 +199,7 @@ hitsound = S2,1
 guardsound = S3,0
 ground.type = High               
 ground.slidetime = 11
-ground.hittime  = Ifelse(p2statetype = C, 15, 14)
+ground.hittime = Ifelse(p2statetype = C, 15, 14)
 guard.hittime = 13
 guard.slidetime = 11
 guard.ctrltime = 13
@@ -300,14 +300,14 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 立ち強パンチ
 [Statedef 220]
-type     = S                     
+type = S                     
 movetype = A                     
-physics  = S                     
-juggle   = 0                     
-ctrl     = 0                     
+physics = S                     
+juggle = 0                     
+ctrl = 0                     
 velset = 0,0
-anim     = 220    
-facep2   = 1               
+anim = 220    
+facep2 = 1               
 sprpriority = 2
 ;poweradd = 30
 
@@ -338,7 +338,7 @@ hitsound = S2,2
 guardsound = S3,0
 ground.type = High               
 ground.slidetime = 12
-ground.hittime  = Ifelse(p2statetype = C, 20, 18)             
+ground.hittime = Ifelse(p2statetype = C, 20, 18)             
 guard.hittime = 16
 guard.slidetime = 12
 guard.ctrltime = 16
@@ -521,14 +521,14 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 立ち弱キック
 [Statedef 230]
-type     = S                     
+type = S                     
 movetype = A                     
-physics  = S                     
-juggle   = 0                     
-ctrl     = 0                     
+physics = S                     
+juggle = 0                     
+ctrl = 0                     
 velset = 0,0
-anim     = 230   
-facep2   = 1                
+anim = 230   
+facep2 = 1                
 sprpriority = 2
 
 [State 230, ヒット定義]
@@ -553,7 +553,7 @@ hitsound = S2,3
 guardsound = S3,0
 ground.type = Low              
 ground.slidetime = 8            
-ground.hittime  = 9          
+ground.hittime = 9          
 guard.hittime = 9
 guard.slidetime = 8
 guard.ctrltime = 9
@@ -624,14 +624,14 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 立ち中キック
 [Statedef 240]
-type     = S                     
+type = S                     
 movetype = A                     
-physics  = S                     
-juggle   = 0                     
-ctrl     = 0                     
+physics = S                     
+juggle = 0                     
+ctrl = 0                     
 velset = 0,0
-anim     = 240    
-facep2   = 1               
+anim = 240    
+facep2 = 1               
 sprpriority = 2
 ;poweradd = 20
 
@@ -669,7 +669,7 @@ hitsound = S2,4
 guardsound = S3,0
 ground.type = high           
 ground.slidetime = 13
-ground.hittime  = Ifelse(p2statetype = C, 19, 17)
+ground.hittime = Ifelse(p2statetype = C, 19, 17)
 guard.hittime = 15
 guard.slidetime = 13
 guard.ctrltime = 15
@@ -718,7 +718,7 @@ hitsound = S2,4
 guardsound = S3,0
 ground.type = Low            
 ground.slidetime = 13
-ground.hittime  = Ifelse(p2statetype = C, 19, 17)
+ground.hittime = Ifelse(p2statetype = C, 19, 17)
 guard.hittime = 15
 guard.slidetime = 13
 guard.ctrltime = 15
@@ -1011,14 +1011,14 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 立ち強キック
 [Statedef 250]
-type     = S                     
+type = S                     
 movetype = A                     
-physics  = S                     
-juggle   = 0                     
+physics = S                     
+juggle = 0                     
 velset = 0,0
-ctrl     = 0                     
-anim     = 250        
-facep2   = 1           
+ctrl = 0                     
+anim = 250        
+facep2 = 1           
 sprpriority = 2
 ;poweradd = 30
 
@@ -1055,7 +1055,7 @@ hitsound = S2,5
 guardsound = S3,0
 ground.type = High               
 ground.slidetime = 17
-ground.hittime  = Ifelse(p2statetype = C, 35, 33)             
+ground.hittime = Ifelse(p2statetype = C, 35, 33)             
 guard.hittime = 17
 guard.slidetime = 17
 guard.ctrltime = 17
@@ -1188,7 +1188,7 @@ value = 251
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 立ち強キック(着地)
 [Statedef 251]
-type    = C
+type = C
 movetype = I
 physics = N
 velset = 0,0
@@ -1257,10 +1257,10 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; しゃがみ弱パンチ
 [Statedef 400]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = ifelse(prevstateno=400,401,400)
@@ -1285,10 +1285,10 @@ trigger2 = anim = 401
 trigger2 = (AnimElemtime(3) >= 0) && (AnimElemtime(6) < 0)       
 attr = C, NA
 damage = ceil(30*fvar(0)*fvar(23)*fvar(28)*fvar(31)),0
-priority  = 3,Hit
+priority = 3,Hit
 getpower = 30,20   
 givepower = 10,0            
-animtype  = Light
+animtype = Light
 hitflag = MAF
 guardflag = M
 pausetime = 9,9
@@ -1300,7 +1300,7 @@ hitsound = S2,0
 guardsound = S3,0
 ground.type = Low
 ground.slidetime = 7
-ground.hittime  = 9
+ground.hittime = 9
 guard.hittime = 9
 guard.slidetime = 7
 guard.ctrltime = 9
@@ -1358,10 +1358,10 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; しゃがみ中パンチ
 [Statedef 410]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 410
@@ -1389,7 +1389,7 @@ damage = ceil(90*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(39)),0
 priority = 4,Hit
 getpower = 40,50
 givepower = 60,0               
-animtype  = Medium
+animtype = Medium
 hitflag = MAF
 guardflag = M
 pausetime = ifelse(animelemtime(3)<0,0,15),14
@@ -1401,7 +1401,7 @@ hitsound = S2,1
 guardsound = S3,0
 ground.type = Low
 ground.slidetime = 10
-ground.hittime  = Ifelse(p2statetype = C, 14, 13)
+ground.hittime = Ifelse(p2statetype = C, 14, 13)
 guard.hittime = 12
 guard.slidetime = 10
 guard.ctrltime = 12
@@ -1473,10 +1473,10 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; しゃがみ強パンチ
 [Statedef 420]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 420
@@ -1510,7 +1510,7 @@ damage = ceil(110*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(39)),0
 priority = 5,Hit
 getpower = 40,70
 givepower = 120,0               
-animtype  = hard
+animtype = hard
 hitflag = MAF
 guardflag = M
 pausetime = 13,15
@@ -1522,7 +1522,7 @@ hitsound = S2,2
 guardsound = S3,0
 ground.type = high
 ground.slidetime = 14
-ground.hittime  = Ifelse(p2statetype = C, 19, 17)   
+ground.hittime = Ifelse(p2statetype = C, 19, 17)   
 guard.hittime = 15
 guard.slidetime = 14
 guard.ctrltime = 15         
@@ -1687,7 +1687,7 @@ value = 421
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; しゃがみ強パンチ(着地)
 [Statedef 421]
-type    = C
+type = C
 movetype = I
 physics = N
 velset = 0,0
@@ -1763,10 +1763,10 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; しゃがみ弱キック
 [Statedef 430]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 430
@@ -1794,7 +1794,7 @@ damage = ceil(40*fvar(0)*fvar(23)*fvar(28)*fvar(31)),0
 priority = 3,Hit
 getpower = 30,20             
 givepower = 10,0
-animtype  = Light
+animtype = Light
 hitflag = MAF
 guardflag = L
 pausetime = 9,11
@@ -1806,7 +1806,7 @@ hitsound = S2,3
 guardsound = S3,0
 ground.type = Low
 ground.slidetime = 9
-ground.hittime  = 9
+ground.hittime = 9
 guard.hittime = 9
 guard.slidetime = 9
 guard.ctrltime = 9
@@ -1865,10 +1865,10 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; しゃがみ中キック
 [Statedef 440]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 440
@@ -1902,7 +1902,7 @@ damage = ceil(100*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(39)),0
 priority = 4,Hit
 getpower = 40,50
 givepower = 60,0               
-animtype  = hard
+animtype = hard
 hitflag = MAF
 guardflag = L
 pausetime = 13,14
@@ -1914,7 +1914,7 @@ hitsound = S2,4
 guardsound = S3,0
 ground.type = Trip
 ground.slidetime = 12
-ground.hittime  = Ifelse(p2statetype = C,21,19)
+ground.hittime = Ifelse(p2statetype = C,21,19)
 guard.hittime = 17
 guard.slidetime = 12
 guard.ctrltime = 17
@@ -1998,10 +1998,10 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; しゃがみ強キック
 [Statedef 450]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 450
@@ -2068,7 +2068,7 @@ damage = ceil(170*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(39)),0
 priority = 5,Hit
 getpower = 40,70
 givepower = 120,0               
-animtype  = hard
+animtype = hard
 hitflag = MAF
 guardflag = M
 pausetime = 10,11
@@ -2080,7 +2080,7 @@ hitsound = S2,5
 guardsound = S3,0
 ground.type = Low
 ground.slidetime = 14
-ground.hittime  = Ifelse(p2statetype = C,19,17)
+ground.hittime = Ifelse(p2statetype = C,19,17)
 guard.hittime = 15
 guard.slidetime = 14
 guard.ctrltime = 15
@@ -2117,7 +2117,7 @@ damage = ceil(150*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(39)),0
 priority = 5,Hit
 getpower = 40,70
 givepower = 120,0               
-animtype  = hard
+animtype = hard
 hitflag = MAF
 guardflag = H
 pausetime = 10,11
@@ -2129,7 +2129,7 @@ hitsound = S2,5
 guardsound = S3,0
 ground.type = Low
 ground.slidetime = 14
-ground.hittime  = Ifelse(p2statetype = C,19,17)
+ground.hittime = Ifelse(p2statetype = C,19,17)
 guard.hittime = 15
 guard.slidetime = 14
 guard.ctrltime = 15
@@ -2270,7 +2270,7 @@ value = 451
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; しゃがみ強キック(着地)
 [Statedef 451]
-type    = C
+type = C
 movetype = I
 physics = N
 velset = 0,0
@@ -2360,10 +2360,10 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ジャンプ弱パンチ
 [Statedef 600]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 ctrl = 0
 anim = 600
 sprpriority = 2
@@ -2401,7 +2401,7 @@ hitsound = S2,1
 guardsound = S3,0
 ground.type = High
 ground.slidetime = 6
-ground.hittime  = 9
+ground.hittime = 9
 guard.hittime = 9
 guard.slidetime = 6
 guard.ctrltime = 9
@@ -2452,10 +2452,10 @@ value = 53
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ジャンプ中パンチ
 [Statedef 610]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 ctrl = 0
 anim = 610
 ;poweradd = 20
@@ -2487,7 +2487,7 @@ damage = ceil(100*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(39)),0
 priority = 4,Hit
 getpower = 40,50
 givepower = 60,0 
-animtype  = Medium              
+animtype = Medium              
 hitflag = MAF
 guardflag = H
 pausetime = 10, 9
@@ -2560,10 +2560,10 @@ value = 53
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ジャンプ大パンチ
 [Statedef 620]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 ctrl = 0
 anim = 620
 ;poweradd = 30
@@ -2595,7 +2595,7 @@ damage = ceil(150*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(39)),0
 priority = 5,Hit
 getpower = 40,70
 givepower = 120,0  
-animtype  = hard             
+animtype = hard             
 hitflag = MAF
 guardflag = H
 pausetime = 11,10
@@ -2678,10 +2678,10 @@ value = 53
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ジャンプ弱キック
 [Statedef 630]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 ctrl = 0
 anim = 630
 sprpriority = 2
@@ -2719,7 +2719,7 @@ hitsound = S2,4
 guardsound = S3,0
 ground.type = High
 ground.slidetime = 6
-ground.hittime  = 9
+ground.hittime = 9
 guard.hittime = 9
 guard.slidetime = 6
 guard.ctrltime = 9
@@ -2770,10 +2770,10 @@ value = 53
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ジャンプ中キック
 [Statedef 640]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 ctrl = 0
 anim = 640
 ;poweradd = 20
@@ -2805,7 +2805,7 @@ damage = ceil(100*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(39)),0
 priority = 4,Hit
 getpower = 40,50
 givepower = 60,0 
-animtype  = Medium              
+animtype = Medium              
 hitflag = MAF
 guardflag = H
 pausetime = 10,9
@@ -2887,10 +2887,10 @@ value = 53
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ジャンプ大キック
 [Statedef 650]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 ctrl = 0
 anim = 650
 ;poweradd = 30
@@ -2922,7 +2922,7 @@ damage = ceil(130*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(39)),0
 priority = 5,Hit
 getpower = 40,70
 givepower = 120,0 
-animtype  = hard               
+animtype = hard               
 hitflag = MAF
 guardflag = H
 pausetime = 11,10

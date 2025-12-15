@@ -69,9 +69,9 @@ shadowoffset = -1
 draw.offset = 0,0
 
 [Velocity]
-walk.fwd  = 2.5
+walk.fwd = 2.5
 walk.back = -2.2
-run.fwd  = 5.7
+run.fwd = 5.7
 run.back = -4.5,-5
 jump.neu = 0,-10.5
 jump.back = -3,-9.6
@@ -1073,10 +1073,10 @@ ctrl = 1
 
 
 [Statedef 700]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 700
@@ -2098,7 +2098,7 @@ ctrl = 1
 
 
 [Statedef 100]
-type    = S
+type = S
 movetype = I
 physics = S
 ctrl = 0
@@ -2290,7 +2290,7 @@ ctrl = 1
 
 
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2379,7 +2379,7 @@ time = 20
 
 
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3068,7 +3068,7 @@ channel = 0
 [State 5210, Recover Sound]
 type = PlaySnd
 trigger1 = !Time
-value  = 5200,0
+value = 5200,0
 channel = 1
 
 [State 5210, Flash]
@@ -3222,7 +3222,7 @@ value = 5050
 
 
 [Statedef 5150]
-type    = L
+type = L
 movetype= H
 physics = N
 sprpriority = -3
@@ -3283,7 +3283,7 @@ value = SCA
 time = 1
 
 [Statedef 6200]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3340,7 +3340,7 @@ value = 6201
 
 
 [Statedef 6201]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -3591,7 +3591,7 @@ value = 1180
 
 
 [Statedef 1180]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3841,7 +3841,7 @@ value = 1199
 
 
 [Statedef 1199]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -5004,8 +5004,8 @@ trigger2 = (gameTime%10) = 0
 Trans = add
 PalContrast = 256,0,0
 PalBright = 50,0,0
-Time    =  -1
-length  = 17
+Time =  -1
+length = 17
 TimeGap = 1
 FrameGap = 1
 

@@ -168,7 +168,7 @@ value=5100
 ;---------------------------------------------------------------------------
 ; P2 State
 [Statedef 3906]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -201,7 +201,7 @@ value = 3907 ;HITG_SLIDE
 ;---------------------------------------------------------------------------
 ; HITG_SLIDE_High
 [Statedef 3907]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -239,7 +239,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; HITA_SHAKE
 [Statedef 3820]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -275,7 +275,7 @@ value = 3830
 ;---------------------------------------------------------------------------
 ; HITA_UP (initial going up)
 [Statedef 3830]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -306,7 +306,7 @@ value = 3835 ;HITA_UP (transition)
 ;---------------------------------------------------------------------------
 ; HITA_UP_T (transition)
 [Statedef 3835]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -336,7 +336,7 @@ value = 3850 ;HITA_FALL
 ;---------------------------------------------------------------------------
 ; HITA_FALL (knocked up, falling)
 [Statedef 3850]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -372,7 +372,7 @@ value = 3900 ;HIT_BOUNCE
 ;---------------------------------------------------------------------------
 ; HITL_SHAKE
 [Statedef 3880]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -416,7 +416,7 @@ value = 3830 ;HITA_UP
 ;---------------------------------------------------------------------------
 ; HITL_SLIDE
 [Statedef 3881]
-type    = L
+type = L
 movetype= H
 physics = C
 
@@ -443,7 +443,7 @@ value = 3910 ;HIT_LIEDOWN
 ;---------------------------------------------------------------------------
 ; HIT_BOUNCE (hit ground)
 [Statedef 3900]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -526,7 +526,7 @@ value = 3901
 ;---------------------------------------------------------------------------
 ; HIT_BOUNCE (bounce into air)
 [Statedef 3901]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -567,7 +567,7 @@ value = 3910
 ;---------------------------------------------------------------------------
 ; HIT_LIEDOWN
 [Statedef 3910]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -676,7 +676,7 @@ x = 0.85
 ;---------------------------------------------------------------------------
 ;Off screen Knockback
 [Statedef 4020]
-type    = A
+type = A
 movetype= H
 physics = N
 juggle = 1
@@ -703,7 +703,7 @@ value = 4021
 ctrl = 0
 ;---------------------------------------------------------------------------
 [Statedef 4021]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -737,7 +737,7 @@ value = Ifelse(Alive,5120,5150)
 ;---------------------------------------------------------------------------
 ;Wall-knockdown
 [Statedef 4060]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -779,7 +779,7 @@ trigger2 = Time >= 60
 value = 4061
 ;---------------------------------------------------------------------------
 [Statedef 4061]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -829,7 +829,7 @@ trigger1=time=10
 value = 4062
 ;---------------------------------------------------------------------------
 [Statedef 4062]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -882,7 +882,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Custom-ceiling bounce
 [Statedef 4065]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

@@ -1,6 +1,6 @@
 ;Hebi Tsukai
 [Statedef 1000]
-type    = S
+type = S
 movetype =  A
 physics = S
 velset = 0,0
@@ -39,7 +39,7 @@ value = 1001
 ;---------------------------------------------------------------------------
 ;Hebi Tsukai Timeout
 [Statedef 1001]
-type    = S
+type = S
 movetype =  A
 physics = S
 velset = 0,0
@@ -54,7 +54,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;High Hebi Tsukai
 [Statedef 1010]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -160,7 +160,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity=Ifelse(var(20),-2.5,-6)
 guard.velocity=Ifelse(var(20),-2.5,-6)
 airguard.velocity = -2.5, -4.5
@@ -189,7 +189,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Mid Hebi Tsukai
 [Statedef 1020]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -291,7 +291,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity=Ifelse(var(20),-2.5,-9)
 guard.velocity=Ifelse(var(20),-2.5,-9)
 airguard.velocity = -2.5, -4.5
@@ -318,7 +318,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Low Hebi Tsukai
 [Statedef 1030]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -420,7 +420,7 @@ guardsound = s130, 0
 ground.type = high
 air.type = high
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity=Ifelse(var(20),-2.5,-7)
 guard.velocity=Ifelse(var(20),-2.5,-7)
 airguard.velocity = -2.5, -1.5
@@ -452,7 +452,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hebi Tsukai Feint
 [Statedef 1040]
-type    = S
+type = S
 movetype =  A
 physics = S
 velset = 0,0
@@ -478,7 +478,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------------------------------
 ;A.I. Hebi Tsukai
 [Statedef 1045]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -549,7 +549,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -6
 airguard.velocity = -4, -4.5
 air.velocity = -4, -5.5
@@ -603,7 +603,7 @@ guardsound = s130, 0
 ground.type = Trip
 air.type = Trip
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -1, -5
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -657,7 +657,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -9
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -684,7 +684,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------------------------------
 ;EX Double Hebi Tsukai
 [Statedef 1050]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -849,7 +849,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -9
 airguard.velocity = -2, -2.5
 air.velocity = -2, -2.5
@@ -876,7 +876,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;EX Double Hebi Tsukai
 [Statedef 1051]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -979,7 +979,7 @@ guardsound = s130, 0
 ground.type = Trip
 air.type = Trip
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -1, -5
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -1006,7 +1006,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Light Sabaki No Aikuchi
 [Statedef 1100]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 8
@@ -1107,7 +1107,7 @@ guardsound = s130, 0
 ground.type = high
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -1134,7 +1134,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Medium Sabaki No Aikuchi
 [Statedef 1110]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 8
@@ -1244,7 +1244,7 @@ guardsound = s130, 0
 ground.type = high
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -7
 airguard.velocity = -5, -4.5
 air.velocity = -3.5, -4.5
@@ -1283,7 +1283,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -1309,7 +1309,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Fierce Sabaki No Aikuchi
 [Statedef 1120]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 0
@@ -1424,7 +1424,7 @@ guardsound = s130, 0
 ground.type = high
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -7
 airguard.velocity = -5, -4.5
 air.velocity = -3.5, -4.5
@@ -1464,7 +1464,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -1502,7 +1502,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -1529,7 +1529,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Sabaki No Aikuchi
 [Statedef 1150]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -1687,7 +1687,7 @@ guardsound = s130, 0
 ground.type = high
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -7
 airguard.velocity = -5, -4.5
 air.velocity = -3.5, -4.5
@@ -1727,7 +1727,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -1765,7 +1765,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -1804,7 +1804,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -1831,7 +1831,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Yami Hinotama
 [Statedef 1200]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -1949,7 +1949,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Bai Gaeshi
 [Statedef 1230]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -2050,7 +2050,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 guard.ctrltime = 25
 ground.velocity = ifelse(var(20), -2, -8)
 airguard.velocity = -4, -6.5
@@ -2105,7 +2105,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Bai Gaeshi 2nd Part
 [Statedef 1231]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -2171,7 +2171,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Yami Hinotama
 [Statedef 1250]
-type    = S
+type = S
 movetype =  A
 physics = S
 velset = 0,0
@@ -2342,7 +2342,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Dokusyu: Charging
 [Statedef 1300]
-type    = S
+type = S
 movetype =  A
 physics = S
 velset = 0,0
@@ -2413,7 +2413,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Dokusyu: Dashing
 [Statedef 1305]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 8
@@ -2613,7 +2613,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 guard.velocity = -12
 airguard.velocity = -5, -4.5
@@ -2655,7 +2655,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Dokusyu: Charging
 [Statedef 1340]
-type    = S
+type = S
 movetype =  A
 physics = S
 velset = 0,0
@@ -2714,7 +2714,7 @@ value = 1341
 ;---------------------------------------------------------------------------
 ;Dokusyu: Dashing
 [Statedef 1341]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 8
@@ -2894,7 +2894,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 guard.velocity = -8
 airguard.velocity = -5, -4.5
@@ -2935,7 +2935,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Dokusyu: Finale
 [Statedef 1310]
-type    = S
+type = S
 movetype =  A
 physics = N
 velset = 0,0
@@ -3017,7 +3017,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hit By Dokusyu
 [Statedef 1315]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -3063,7 +3063,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;A.I. Dokusyu: Charging
 [Statedef 1320]
-type    = S
+type = S
 movetype =  A
 physics = S
 velset = 0,0
@@ -3125,7 +3125,7 @@ value = 1321
 ;---------------------------------------------------------------------------
 ;Dokusyu: Dashing
 [Statedef 1321]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 8
@@ -3313,7 +3313,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 guard.velocity = -12
 airguard.velocity = -5, -4.5
@@ -3354,7 +3354,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Dokusyu: Charging
 [Statedef 1350]
-type    = S
+type = S
 movetype =  A
 physics = S
 ctrl = 0
@@ -3460,7 +3460,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;EX Dokusyu: Dashing
 [Statedef 1355]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 8
@@ -3635,7 +3635,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 guard.velocity = -8
 airguard.velocity = -5, -4.5
@@ -3677,7 +3677,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Bakudan Pachiki
 [Statedef 1400]
-type    = S
+type = S
 movetype =  A
 physics = S
 velset = 0,0
@@ -3805,7 +3805,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Bakudan Pachiki 2nd Part
 [Statedef 1410]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 1410
@@ -3950,7 +3950,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hit By Bakudan Pachiki
 [Statedef 1415]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -4016,7 +4016,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;EX Bakudan Pachiki
 [Statedef 1450]
-type    = S
+type = S
 movetype =  A
 physics = S
 velset = 0,0
@@ -4175,7 +4175,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Bakudan Pachiki 2nd Part
 [Statedef 1460]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 1410
@@ -4328,7 +4328,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;EX Bakudan Pachiki 3rd Part
 [Statedef 1461]
-type    = S                                 
+type = S                                 
 movetype =  A
 physics = N
 anim = 1410
@@ -4492,7 +4492,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hit By Drill Headbutts: Flying
 [Statedef 1455]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -4546,7 +4546,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Sado Mazo_a
 [Statedef 1500]
-type    = S
+type = S
 movetype =  I
 physics = S
 velset = 0,0
@@ -4587,7 +4587,7 @@ ctrl = 1
 ;--------------------------------------------------------------------------
 ;Sado Mazo_b
 [Statedef 1501]
-type    = S
+type = S
 movetype =  I
 physics = S
 velset = 0,0
@@ -4627,7 +4627,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Sado Mazo_c
 [Statedef 1502]
-type    = S
+type = S
 movetype =  I
 physics = S
 velset = 0,0
@@ -4667,7 +4667,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Sado Mazo Debug
 [Statedef 1505]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -4687,7 +4687,7 @@ value = 5000
 ;---------------------------------------------------------------------------
 ;Sado Mazo 2nd Part_x
 [Statedef 1510]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 8
@@ -4782,7 +4782,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -4, -7.5
 airguard.velocity = -5, -4.5
 air.velocity = -4, -7.5
@@ -4810,7 +4810,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Sado Mazo 2nd Part_y
 [Statedef 1511]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 8
@@ -4906,7 +4906,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -4, -7.5
 airguard.velocity = -5, -4.5
 air.velocity = -4, -7.5
@@ -4934,7 +4934,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Sado Mazo 2nd Part_z
 [Statedef 1512]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 8
@@ -5030,7 +5030,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -4, -7.5
 airguard.velocity = -5, -4.5
 air.velocity = -4, -7.5
@@ -5059,7 +5059,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Sado Mazo
 [Statedef 1550]
-type    = S
+type = S
 movetype =  I
 physics = S
 velset = 0,0
@@ -5149,7 +5149,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Sado Mazo 2nd Part
 [Statedef 1555]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 8
@@ -5246,7 +5246,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -4, -7.5
 airguard.velocity = -5, -4.5
 air.velocity = -4, -7.5
@@ -5275,7 +5275,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Suna Kake
 [Statedef 1600]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 10
@@ -5420,7 +5420,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -4, -5.5
@@ -5448,7 +5448,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Suna Kake
 [Statedef 1650]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 10
@@ -5633,7 +5633,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -4, -5.5
@@ -5661,7 +5661,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Suna Kake
 [Statedef 1651]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 10
@@ -5791,7 +5791,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 9
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -4, -5.5
@@ -5819,7 +5819,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Yakiire
 [Statedef 1700]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 8
@@ -5914,8 +5914,8 @@ trigger1 = AnimElem = 8
 attr = S, SA
 hitflag = MAFD
 guardflag = HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 priority = 5, Hit
 damage=80+2*var(10), 10
 getpower=72* !var(20), 36 * !var(20)
@@ -5929,7 +5929,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 air.hittime = 20
 ground.velocity = -2,10
@@ -5962,7 +5962,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------------------------------------
 ;Yakiire
 [Statedef 1750]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 8
@@ -6088,8 +6088,8 @@ trigger1 = AnimElem = 7
 attr = S, SA
 hitflag = MAFD
 guardflag = HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 priority = 5, Hit
 damage=60, 10
 getpower=0,0
@@ -6103,7 +6103,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 air.hittime = 20
 ground.velocity = -2,10
@@ -6133,8 +6133,8 @@ trigger1 = AnimElem = 8
 attr = S, SA
 hitflag = MAFD
 guardflag = HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 priority = 5, Hit
 damage=60, 10
 getpower=0,0
@@ -6148,7 +6148,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 air.hittime = 20
 ground.velocity = -2,10

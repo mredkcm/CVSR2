@@ -1,7 +1,7 @@
 ;---------------------------------------------------------------------------
 ;Hou-ou Kyaku Start
 [Statedef 3000]
-type    = S
+type = S
 movetype= I
 physics = S
 anim = 3000
@@ -64,7 +64,7 @@ value = 3001
 ;---------------------------------------------------------------------------
 ;Rush Run
 [Statedef 3001]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3001
@@ -131,7 +131,7 @@ value = 3002
 ;---------------------------------------------------------------------------
 ;Rush Run stop
 [Statedef 3002]
-type    = S
+type = S
 movetype= I
 physics = N
 anim = 3002
@@ -182,7 +182,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Rush Hit
 [Statedef 3003]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3003
@@ -295,7 +295,7 @@ value = 3004
 ;---------------------------------------------------------------------------
 ;Rush Hit Going up
 [Statedef 3004]
-type    = A
+type = A
 movetype= A
 anim = 3004
 ctrl = 0
@@ -462,7 +462,7 @@ value = 1022
 
 ;---------------------------------------------------------------------------
 [Statedef 3005]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -501,7 +501,7 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 [Statedef 3006]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -542,7 +542,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hou-yoku Ten-Shou Kyaku Start
 [Statedef 3010]
-type    = S
+type = S
 movetype= I
 physics = S
 anim = 3010
@@ -605,7 +605,7 @@ value = 3011
 ;---------------------------------------------------------------------------
 ; Hou-yoku Ten-Shou Kyaku attack
 [Statedef 3011]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 3011
@@ -693,7 +693,7 @@ value = 3012
 ;---------------------------------------------------------------------------
 ;Hou-yoku Ten-Shou Kyaku (land on ground)
 [Statedef 3012]
-type    = S
+type = S
 movetype= I
 physics = S
 ownpal = 1
@@ -728,7 +728,7 @@ value = 3013
 ;---------------------------------------------------------------------------
 ;Rush Hit Going up
 [Statedef 3013]
-type    = A
+type = A
 movetype= A
 anim = 3013
 ctrl = 0
@@ -863,7 +863,7 @@ value = 1022
 ;---------------------------------------------------------------------------
 ;Hou-yoku Ten-Shou Kyaku Start
 [Statedef 3020]
-type    = S
+type = S
 movetype= I
 physics = S
 anim = 3020
@@ -925,7 +925,7 @@ value = 3021
 ;---------------------------------------------------------------------------
 ; Hou-yoku Ten-Shou Kyaku attack
 [Statedef 3021]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 3011
@@ -1012,7 +1012,7 @@ value = 3022
 ;---------------------------------------------------------------------------
 ;Hou-yoku Ten-Shou Kyaku (land on ground)
 [Statedef 3022]
-type    = S
+type = S
 movetype= I
 physics = S
 ownpal = 1
@@ -1047,7 +1047,7 @@ value = 3023
 ;---------------------------------------------------------------------------
 ;P.Hou-yoku Ten Shou-Kyaku Going up
 [Statedef 3023]
-type    = A
+type = A
 movetype= A
 anim = 3023
 ctrl = 0
@@ -1207,7 +1207,7 @@ value = 1022
 ;---------------------------------------------------------------------------
 ;Hou-yoku Ten Shou-Kyaku (land on ground)
 [Statedef 3024]
-type    = S
+type = S
 movetype= I
 physics = S
 ownpal = 1
@@ -1245,7 +1245,7 @@ value = 3025
 ;---------------------------------------------------------------------------
 ;Hou-yoku Ten Shou-Kyaku (Charge)
 [Statedef 3025]
-type    = S
+type = S
 movetype= I
 physics = S
 ownpal = 1
@@ -1266,7 +1266,7 @@ value = 3026
 ;---------------------------------------------------------------------------
 ;Hou-yoku Ten Shou-Kyaku (Charge->Attack)
 [Statedef 3026]
-type    = S
+type = S
 movetype= A
 physics = N
 ownpal = 1
@@ -1367,7 +1367,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hou-ou Kyaku Start
 [Statedef 3030]
-type    = S
+type = S
 movetype= I
 physics = S
 anim = 3000
@@ -1430,7 +1430,7 @@ value = 3031
 ;---------------------------------------------------------------------------
 ;Rush Run
 [Statedef 3031]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3001
@@ -1496,7 +1496,7 @@ value = 3032
 ;---------------------------------------------------------------------------
 ;Rush Run stop
 [Statedef 3032]
-type    = S
+type = S
 movetype= I
 physics = N
 anim = 3002
@@ -1547,7 +1547,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Rush Hit
 [Statedef 3033]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3033
@@ -1703,7 +1703,7 @@ value = 3034
 ;---------------------------------------------------------------------------
 ;Rush Hit Going up
 [Statedef 3034]
-type    = A
+type = A
 movetype= A
 anim = 3034
 ctrl = 0
@@ -1994,7 +1994,7 @@ value = 1022
 type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 3200
@@ -2154,7 +2154,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;---------------------------------------------------------------------------
 [Statedef 3050]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2194,7 +2194,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;---------------------------------------------------------------------------
 [Statedef 3051]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2235,7 +2235,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;---------------------------------------------------------------------------
 [Statedef 3052]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

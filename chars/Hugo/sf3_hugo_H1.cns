@@ -3,7 +3,7 @@
 ;☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
 ;ギガスブリーカー(始動)
 [Statedef 3000]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 3000
@@ -168,7 +168,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;ギガスブリーカー(投げた側)1
 [Statedef 3010]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3010
@@ -393,7 +393,7 @@ value = 3020
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;ギガスブリーカー(投げた側)2
 [Statedef 3020]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3020
@@ -588,7 +588,7 @@ value = ifelse(var(22)=1,3010,3030)
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;ギガスブリーカー(投げた側)3
 [Statedef 3030]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -1036,7 +1036,7 @@ value = 3040
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;ギガスブリーカー(投げた側)4
 [Statedef 3040]
-type    = C
+type = C
 movetype= A
 physics = N
 anim = 3040
@@ -1238,7 +1238,7 @@ value = 55
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ギガスブリーカー(投げられた側)1
 [Statedef 3050]
-type    = S
+type = S
 movetype= H
 physics = N
 ctrl = 0
@@ -1294,7 +1294,7 @@ physics = N
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ギガスブリーカー(投げられた側)2
 [Statedef 3060]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -1338,7 +1338,7 @@ value = 3050
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ギガスブリーカー(投げられた側)3
 [Statedef 3070]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1389,7 +1389,7 @@ value = 5101
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ギガスブリーカー(投げられた側)3rd専用anim3
 [Statedef 3071]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0

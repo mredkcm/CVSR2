@@ -562,7 +562,7 @@ pausemovetime = 9999
 
 ;Skip Intro in Watch Mode
 [Statedef 8000]
-type    = S
+type = S
 anim = 9999
 
 [State 0, DestroySelf]
@@ -571,7 +571,7 @@ trigger1 = Roundstate = 2
 
 ; - KO Sound
 [Statedef 8001]
-type    = S
+type = S
 anim = 9999
 
 [State 0, PosSet]
@@ -593,7 +593,7 @@ type = DestroySelf
 trigger1 = root,alive = 0
 
 [Statedef 8002, - Esaka KO]
-type    = S
+type = S
 anim = 9999
 
 [State 0, PosSet]
@@ -608,10 +608,10 @@ trigger1 =  1
 flag = nomusic
 
 [Statedef 1800,Super KO]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 0
 ctrl = 0
 anim = 9999

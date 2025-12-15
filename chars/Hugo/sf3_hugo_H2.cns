@@ -1,6 +1,6 @@
 ;メガトンプレス
 [Statedef 3100]
-type    = S
+type = S
 movetype = A
 physics = N
 juggle = 0
@@ -184,7 +184,7 @@ value = 54
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; メガトンプレス(投げた側)1
 [Statedef 3150]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 3150
@@ -518,7 +518,7 @@ value = 3140
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; メガトンプレス(投げられた側)1
 [Statedef 3160]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -570,7 +570,7 @@ value = 3170
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; メガトンプレス(投げられた側)1
 [Statedef 3170]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -604,7 +604,7 @@ value = 5110
 ;☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
 ;ハンマーマウンテン(始動)
 [Statedef 3200]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 3200
@@ -822,7 +822,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;ハンマーマウンテン(攻撃)
 [Statedef 3210]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 3210
@@ -868,7 +868,7 @@ hitsound = S2,6
 guardsound = S3,1
 ground.type = High
 ground.slidetime = 16
-ground.hittime  = Ifelse(p2statetype = C, 20, 18)
+ground.hittime = Ifelse(p2statetype = C, 20, 18)
 guard.hittime = 16
 guard.slidetime = 16
 guard.ctrltime = 16
@@ -934,7 +934,7 @@ hitsound = S2,6
 guardsound = S3,1
 ground.type = High
 ground.slidetime = 16
-ground.hittime  = Ifelse(p2statetype = C, 20, 18)
+ground.hittime = Ifelse(p2statetype = C, 20, 18)
 guard.hittime = 16
 guard.slidetime = 16
 guard.ctrltime = 16
@@ -991,7 +991,7 @@ hitsound = S2,6
 guardsound = S3,1
 ground.type = High               
 ground.slidetime = 16
-ground.hittime  = Ifelse(p2statetype = C, 20, 18)
+ground.hittime = Ifelse(p2statetype = C, 20, 18)
 guard.hittime = 16
 guard.slidetime = 16
 guard.ctrltime = 16
@@ -1048,7 +1048,7 @@ hitsound = S2,6
 guardsound = S3,1
 ground.type = Low              
 ground.slidetime = 16
-ground.hittime  = Ifelse(p2statetype = C, 20, 18)
+ground.hittime = Ifelse(p2statetype = C, 20, 18)
 guard.hittime = 16
 guard.slidetime = 16
 guard.ctrltime = 16
@@ -1106,8 +1106,8 @@ trigger1 = (AnimElemtime(41) >= 0) && (AnimElemtime(43) < 0)
 attr = S, HA
 getpower = 0,0
 givepower = 0,0
-animtype  = hard
-air.animtype  = back
+animtype = hard
+air.animtype = back
 damage = ceil(120*fvar(0)*fvar(23)*fvar(27)*fvar(28)*fvar(31)*fvar(34)),ceil(30*fvar(23)*fvar(31))
 priority = 6,Hit
 hitflag = MAF
@@ -1121,7 +1121,7 @@ hitsound = S2,6
 guardsound = S3,1
 ground.type = high
 ground.slidetime = 18
-ground.hittime  = Ifelse(p2statetype = C, 22, 20)
+ground.hittime = Ifelse(p2statetype = C, 22, 20)
 guard.hittime = 18
 guard.slidetime = 18
 guard.ctrltime = 18
@@ -1371,7 +1371,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;ギガスブリーカー(投げた側)4
 [Statedef 3140]
-type    = C
+type = C
 movetype= A
 physics = N
 anim = 3140

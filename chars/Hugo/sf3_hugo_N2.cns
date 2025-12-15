@@ -1,10 +1,10 @@
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 投げ掴みモーション
 [Statedef 800]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 800
@@ -88,10 +88,10 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 投げ掴みモーション
 [Statedef 801]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 801
@@ -174,7 +174,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ボディスラム(投げた側)
 [Statedef 810]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 810
@@ -610,7 +610,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ボディスラム(投げられた側)
 [Statedef 811]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -659,7 +659,7 @@ value = 815
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ボディスラム(投げられた側)3rd専用anim1
 [Statedef 812]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -697,7 +697,7 @@ value = 815
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ボディスラム(投げられた側)地面バウンド
 [Statedef 815]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -769,7 +769,7 @@ value = 5101
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ボディスラム(投げられた側)
 [Statedef 821]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -814,7 +814,7 @@ value = 815
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ボディスラム(投げられた側)3rd専用anim1
 [Statedef 822]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -857,7 +857,7 @@ value = 815
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;投げ失敗(投げた側)
 [Statedef 830]
-type    = S
+type = S
 movetype= I
 physics = S
 anim = 830
@@ -945,7 +945,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;投げ失敗(投げられた側)
 [Statedef 840]
-type    = S
+type = S
 movetype= H
 physics = S
 ctrl = 0
@@ -994,7 +994,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;ヒューゴー専用anim(その１)
 [Statedef 850]
-type    = S
+type = S
 movetype= H
 physics = N
 ctrl = 0
@@ -1041,7 +1041,7 @@ value = 851
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;ヒューゴー専用anim(その２)
 [Statedef 851]
-type    = S
+type = S
 movetype= I
 physics = S
 ctrl = 0
@@ -1089,7 +1089,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ネックハンギング(投げた側)1
 [Statedef 860]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 860
@@ -1268,7 +1268,7 @@ value = 861
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ネックハンギング(投げた側)2
 [Statedef 861]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 861
@@ -1470,7 +1470,7 @@ value = 863
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ネックハンギング(投げた側)3
 [Statedef 862]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 862
@@ -1673,7 +1673,7 @@ value = 863
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ネックハンギング(終了)
 [Statedef 863]
-type    = S
+type = S
 movetype= I
 physics = N
 anim = 863
@@ -1744,7 +1744,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ネックハンギング(投げられた側)1
 [Statedef 870]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1765,7 +1765,7 @@ value = 870
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ネックハンギング(投げられた側)2
 [Statedef 871]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1795,7 +1795,7 @@ persistent = 0
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ネックハンギング(投げられた側)3
 [Statedef 872]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1825,7 +1825,7 @@ persistent = 0
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ネックハンギング(投げられた側)4
 [Statedef 873]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1851,7 +1851,7 @@ value = 874
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ネックハンギング(投げられた側)5
 [Statedef 874]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -1931,7 +1931,7 @@ value = 5100
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ネックハンギング(投げられた側)1
 [Statedef 880]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1952,7 +1952,7 @@ value = 880
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ネックハンギング(投げられた側)2
 [Statedef 881]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1979,7 +1979,7 @@ persistent = 0
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ネックハンギング(投げられた側)3
 [Statedef 882]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2006,7 +2006,7 @@ persistent = 0
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ネックハンギング(投げられた側)4
 [Statedef 883]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2032,7 +2032,7 @@ value = 884
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ネックハンギング(投げられた側)5
 [Statedef 884]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -2107,14 +2107,14 @@ value = 5100
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ラリアット
 [Statedef 900]
-type     = S                     
+type = S                     
 movetype = A                     
-physics  = S                     
-juggle   = 0                     
-velset   = 0,0                   
-ctrl     = 0                     
-anim     = 900   
-facep2   = 1               
+physics = S                     
+juggle = 0                     
+velset = 0,0                   
+ctrl = 0                     
+anim = 900   
+facep2 = 1               
 sprpriority = 2
 ;poweradd = 30
 
@@ -2145,7 +2145,7 @@ hitsound = S2,2
 guardsound = S3,0
 ground.type = High               
 ground.slidetime = 16             
-ground.hittime  = Ifelse(p2statetype = C, 35, 33)             
+ground.hittime = Ifelse(p2statetype = C, 35, 33)             
 guard.hittime = 17
 guard.slidetime = 16
 guard.ctrltime = 17
@@ -2254,10 +2254,10 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; リープアタック
 [Statedef 910]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 ctrl = 0
 velset = 0,0
 anim = 910
@@ -2317,7 +2317,7 @@ hitsound = S2,1
 guardsound = S3,0
 ground.type = High
 ground.slidetime = 6
-ground.hittime  = Ifelse(p2statetype = C, 14, 13)
+ground.hittime = Ifelse(p2statetype = C, 14, 13)
 guard.hittime = 12
 guard.slidetime = 6
 guard.ctrltime = 12
@@ -2355,7 +2355,7 @@ value = 915
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; リープアタック(着地)
 [Statedef 915]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 915
@@ -2404,10 +2404,10 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; ボディプレス
 [Statedef 920]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 ctrl = 0
 anim = 920
 ;poweradd = 30
@@ -2439,7 +2439,7 @@ damage = ceil(100*fvar(0)*fvar(23)*fvar(28)*fvar(31)*fvar(39)),0
 priority = 5,Hit
 getpower = 40,70
 givepower = 120,0  
-animtype  = hard             
+animtype = hard             
 hitflag = MAF
 guardflag = H
 pausetime = 11,10

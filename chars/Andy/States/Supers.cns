@@ -2661,7 +2661,7 @@ value = 3402
 ;---------------------------------------------------------------------------
 ;Chou Shin Soku Zan'ei Ken-2
 [Statedef 3402]
-type    = S
+type = S
 movetype= A
 physics = N
 ctrl = 0

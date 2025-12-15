@@ -44,7 +44,7 @@
             ;Mike Haggar by Reddbrink
 
 [Data]
-life = 1100			;Amount of life to start with
+life = 1000			;Amount of life to start with
 attack = 100		;attack power (more is stronger)
 defence = 100		;defensive power (more is stronger)
 fall.defence_up = 50	;Percentage to increase defense everytime player is knocked down
@@ -80,9 +80,9 @@ shadowoffset = 0		;Number of pixels to vertically offset the shadow
 draw.offset = 0,0		;Player drawing offset in pixels (x, y)
 
 [Velocity]
-walk.fwd  = 2.2
+walk.fwd = 2.2
 walk.back = -1.7
-run.fwd  = 5.2, 0
+run.fwd = 5.2, 0
 run.back = -5,-2
 jump.neu = 0,-8.0
 jump.back = -2.5
@@ -624,7 +624,7 @@ x = 0
 ;====================<FRONT ROW OIL DRUMS>======================
 [State 0, Drum 1];Bottom Right
 type = Helper
-trigger1 = Time  = 0
+trigger1 = Time = 0
 stateno = 7300
 Name = "Drum 1" 
 postype = p1
@@ -634,7 +634,7 @@ ID = 7300
 
 [State 0, Drum 3];Center Right
 type = Helper
-trigger1 = Time  = 0
+trigger1 = Time = 0
 stateno = 7302
 Name = "Drum 3" 
 postype = p1
@@ -644,7 +644,7 @@ ID = 7302
 
 [State 0, Drum 5];Top Right
 type = Helper
-trigger1 = Time  = 0
+trigger1 = Time = 0
 stateno = 7304
 Name = "Drum 5" 
 postype = p1
@@ -655,7 +655,7 @@ ID = 7304
 ;====================<BACK ROW OIL DRUMS>======================
 [State 0, Drum 2];Bottom Left
 type = Helper
-trigger1 = Time  = 0
+trigger1 = Time = 0
 stateno = 7301
 Name = "Drum 2"
 postype = p1
@@ -665,7 +665,7 @@ ID = 7301
 
 [State 0, Drum 4];Center Left
 type = Helper
-trigger1 = Time  = 0
+trigger1 = Time = 0
 stateno = 7303
 Name = "Drum 4"
 postype = p1
@@ -675,7 +675,7 @@ ID = 7303
 
 [State 0, Drum 6];Top Left
 type = Helper
-trigger1 = Time  = 0
+trigger1 = Time = 0
 stateno = 7305
 Name = "Drum 6"
 postype = p1
@@ -2694,7 +2694,7 @@ value = 50
 ;---------------------------------------------------------------------------
 ; Stand to Crouch
 [Statedef 10]
-type    = C
+type = C
 physics = C
 anim = 10
 
@@ -2716,7 +2716,7 @@ value = 11
 ;---------------------------------------------------------------------------
 ; Crouching
 [Statedef 11]
-type    = C
+type = C
 physics = C
 anim = 11
 sprpriority = 0
@@ -2734,7 +2734,7 @@ x = 0
 ;---------------------------------------------------------------------------
 ; Crouch to Stand
 [Statedef 12]
-type    = S
+type = S
 physics = S
 anim = 12
 
@@ -2746,7 +2746,7 @@ value = 0
 ;---------------------------------------------------------------------------
 ; Walk
 [Statedef 20]
-type    = S
+type = S
 physics = S
 sprpriority = 0
 
@@ -2971,7 +2971,7 @@ ctrl = 1
 
 ; Run forward
 [Statedef 100]
-type    = S
+type = S
 physics = S
 anim = 100
 sprpriority = 1
@@ -3043,7 +3043,7 @@ value = 101
 type = S
 movetype= I
 physics = S
-juggle  = 1
+juggle = 1
 ctrl = 0
 anim = 101
 poweradd = 0
@@ -3640,7 +3640,7 @@ value = 52
 
 ;=====================<HIT GROUND(BOUNCE)>===================
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3729,7 +3729,7 @@ time = 20
 
 ;================<HIT LIEDOWN>====================
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3994,7 +3994,7 @@ channel = 0
 [State 5210, Recover Sound]
 type = PlaySnd
 trigger1 = !Time
-value  = 5200,0
+value = 5200,0
 channel = 1
 
 [State 5210, Flash]

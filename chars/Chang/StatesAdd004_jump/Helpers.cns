@@ -93,7 +93,7 @@ trigger3=root,AILevel
 ;CAMERA FOCUS
 [Statedef 6001]
 type = S
-physics  = S
+physics = S
 anim = 0
 ctrl = 0
 
@@ -2656,7 +2656,7 @@ trigger1 = RoundState = 2
 ;Tekkyu Dai Kaiten (Helper)
 ;------------------------------------------------------------------------------------------
 [Statedef 1005]
-type    = A
+type = A
 movetype = A
 physics = N
 anim = 1005
@@ -3207,7 +3207,7 @@ ignorehitpause = 1
 ;Tekkyu Dai Bousou (Helper)
 ;------------------------------------------------------------------------------------------
 [Statedef 3005]
-type    = A
+type = A
 movetype = A
 physics = N
 anim = 1005
@@ -3318,7 +3318,7 @@ guardflag = M
 animtype = Heavy
 air.animtype = back
 priority = 5,Hit
-damage    = 10
+damage = 10
 pausetime = 0, 7
 sparkno = -1
 guard.sparkno = -1
@@ -3390,7 +3390,7 @@ trigger2 = root,anim!=3010
 ;Tekkyu Dai Bousou (Helper)
 ;------------------------------------------------------------------------------------------
 [Statedef 3055]
-type    = A
+type = A
 movetype = A
 physics = N
 anim = 1005
@@ -3501,7 +3501,7 @@ guardflag = M
 animtype = Heavy
 air.animtype = back
 priority = 5,Hit
-damage    = 10
+damage = 10
 pausetime = 0, 7
 sparkno = -1
 guard.sparkno = -1
@@ -3572,7 +3572,7 @@ trigger2 = root,anim!=3050
 ;Tekkyu Dai Bousou (Helper)
 ;------------------------------------------------------------------------------------------
 [Statedef 3505]
-type    = A
+type = A
 movetype = A
 physics = N
 anim = 1005
@@ -3683,7 +3683,7 @@ guardflag = M
 animtype = Heavy
 air.animtype = back
 priority = 5,Hit
-damage    = 10
+damage = 10
 pausetime = 0, 7
 sparkno = -1
 guard.sparkno = -1

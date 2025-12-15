@@ -2409,7 +2409,7 @@ trigger1 = RoundState < 3
 ;========================<KO CAMERA FOCUS>=============================
 [Statedef 8998]
 type = S
-physics  = N;S
+physics = N;S
 anim = 0
 ctrl = 0
 

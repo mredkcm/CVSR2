@@ -1,7 +1,7 @@
 ;========================<EX HADAN GEKI>=======================
 ;EX Hadangeki
 [Statedef 1083]
-type    = S
+type = S
 movetype= A
 physics = N
 ctrl = 0
@@ -359,7 +359,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -403,7 +403,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -446,7 +446,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -536,7 +536,7 @@ value = 1104
 ;========================<EX AIR ELETRIC BLADE>=======================
 ;EX Air Eletric Blade
 [Statedef 1109]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= -500
@@ -649,7 +649,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -693,7 +693,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -737,7 +737,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -8
 air.velocity = -1.8,-8
@@ -845,7 +845,7 @@ ctrl = 0
 ;========================<EX SHIPPUGA>=======================
 ;EX Shippuga - W-Shredder
 [Statedef 1211]
-type    = S
+type = S
 physics = N
 anim = 1211
 ctrl = 0
@@ -1225,7 +1225,7 @@ hitsound = s2,5
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 12
+ground.hittime = 12
 ground.velocity = -6
 airguard.velocity = -1.9,-.8
 air.type = High
@@ -2232,9 +2232,9 @@ trigger4 = AnimElem = 7
 trigger5 = AnimElem = 8
 trigger6 = AnimElem = 9
 attr = S, SA
-damage    = 25,4
-animtype  = Heavy
-getpower  = 0
+damage = 25,4
+animtype = Heavy
+getpower = 0
 givepower = 20
 hitflag = MAF
 guardflag = MAF
@@ -2246,7 +2246,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -2
 airguard.velocity = -5
 air.type = Low
@@ -2259,9 +2259,9 @@ palfx.sinadd = 120,120,120,3
 type = Hitdef
 trigger1 = AnimElem = 9
 attr = S, SA
-damage    = 25,10
-animtype  = Heavy
-getpower  = 0
+damage = 25,10
+animtype = Heavy
+getpower = 0
 givepower = 20
 hitflag = MAF
 guardflag = MAF
@@ -2273,7 +2273,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = Trip
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -2 , -3
 airguard.velocity = -2, -3
 air.type = Low
@@ -3022,7 +3022,7 @@ ctrl = 1
 ;========================<EX SHOUENZAN>=======================
 ;EX Shouenzan
 [Statedef 1333]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd = -500
@@ -3140,7 +3140,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -10
 air.velocity = -1.8,-10

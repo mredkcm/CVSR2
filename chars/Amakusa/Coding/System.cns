@@ -80,9 +80,9 @@ shadowoffset = 0     ;Number of pixels to vertically offset the shadow
 draw.offset = 0,0    ;Player drawing offset in pixels (x, y)
 
 [Velocity]
-walk.fwd  = 2.5      ;Walk forward
+walk.fwd = 2.5      ;Walk forward
 walk.back = -2.1     ;Walk backward
-run.fwd  = 2, 0    ;Run forward (x, y)
+run.fwd = 2, 0    ;Run forward (x, y)
 run.back = -5,-4 ;Hop backward (x, y)
 jump.neu = 0,-8.15    ;Neutral jumping velocity (x, y)
 jump.back = -3.5, -10.85    ;Jump back Speed (x, y)
@@ -651,10 +651,10 @@ ctrl = 1
 ;=========<DODGE>=============
 ;dodge
 [Statedef 700]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 700
@@ -1310,7 +1310,7 @@ ctrl = 1
 ;=============<Running>====================
 ; RUN_FWD
 [Statedef 100]
-type    = S
+type = S
 physics = N
 anim = 100
 sprpriority = 1
@@ -1392,7 +1392,7 @@ ctrl = 1
 
 ;-------------------------- para corrida
 [Statedef 101]
-type    = S
+type = S
 physics = N
 ctrl = 0
 anim = 101
@@ -1438,7 +1438,7 @@ ctrl = 1
 ;------------------------ 
 ; RUN_BACK
 [Statedef 105]
-type    = S
+type = S
 physics = N
 anim = 105
 sprpriority = 1
@@ -1551,7 +1551,7 @@ ctrl = 1
 
 ;=====================<HIT GROUND(BOUNCE)>===================
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -1637,7 +1637,7 @@ time = 20
 
 ;================<HIT LIEDOWN>====================
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2315,7 +2315,7 @@ channel = 0
 [State 5210, Recover Sound]
 type = PlaySnd
 trigger1 = !Time
-value  = 5200,0
+value = 5200,0
 channel = 1
 
 [State 5210, Flash]

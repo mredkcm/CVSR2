@@ -807,7 +807,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.hittime = 18
 ground.velocity = 0, 0
 air.velocity = 0,0
@@ -946,7 +946,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.hittime = 18
 ground.velocity = 0, 0
 air.velocity = 0,0
@@ -1029,7 +1029,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.hittime = 18
 ground.velocity = -1,0
 air.velocity = -1,0
@@ -1076,7 +1076,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.hittime = 18
 ground.velocity = -1,0
 air.velocity = -1,0
@@ -1123,7 +1123,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.hittime = 18
 ground.velocity = -1,-10
 air.velocity = -1,-10
@@ -1584,10 +1584,10 @@ value = 1490
 ;-------------------------------------------------------------------------------
 ;Teleport pileviver
 [Statedef 1050]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 800
@@ -1664,7 +1664,7 @@ ctrl = 1
 
 ;-------------------------------------------------------------------------------
 [Statedef 1055]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1055
@@ -1716,8 +1716,8 @@ value = 0, 6
 type = HitDef
 trigger1 = AnimElem = 10
 attr = S, SA
-animtype  = Up
-damage    = 70, 0
+animtype = Up
+damage = 70, 0
 guardflag = MA
 pausetime = 20,24
 sparkNo = -1 + 0 * (var(33) := 8013)
@@ -1727,7 +1727,7 @@ hitsound = s2,2
 guardsound = s110, 0
 ground.type = High
 ground.slidetime = 400
-ground.hittime  = 400
+ground.hittime = 400
 ground.velocity = -0.7, -15.5
 air.hittime = 400
 air.velocity = -0.7,-12.5
@@ -1801,7 +1801,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ;Teleport
 [Statedef 1060]
-type    = S
+type = S
 movetype= I
 physics = S
 velset = 0,0
@@ -1859,7 +1859,7 @@ value = 1065
 
 ;-------------------------------------------------------------------------------
 [Statedef 1065]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 12.5,-40.5
@@ -1896,7 +1896,7 @@ value = 1070
 
 ;-------------------------------------------------------------------------------
 [Statedef 1070]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -1956,7 +1956,7 @@ ctrl = 1
 
 ;-------------------------------------------------------------------------------
 [Statedef 1075]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -2219,7 +2219,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ; Hop backwards
 [Statedef 1080]
-type    = A
+type = A
 physics = A
 ctrl = 0
 anim = 41
@@ -2254,7 +2254,7 @@ value = 106
 
 ;-------------------------------------------------------------------------------
 [Statedef 10850]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2271,7 +2271,7 @@ value = 5030
 
 ;-------------------------------------------------------------------------------
 [Statedef 1090]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2324,7 +2324,7 @@ value = 5100
 ;Yoga Teleport Far Forward
 
 [Statedef 1500]
-type    = S
+type = S
 movetype= I
 physics = S
 ctrl = 0
@@ -2387,7 +2387,7 @@ ctrl = 0
 ;Yoga Teleport Far Back
 
 [Statedef 1501]
-type    = S
+type = S
 movetype= I
 physics = S
 ctrl = 0
@@ -2450,7 +2450,7 @@ ctrl = 0
 ;Yoga Teleport Close Forward
 
 [Statedef 1502]
-type    = S
+type = S
 movetype= I
 physics = S
 ctrl = 0
@@ -2513,7 +2513,7 @@ ctrl = 0
 ;Yoga Teleport Close Back
 
 [Statedef 1503]
-type    = S
+type = S
 movetype= I
 physics = S
 ctrl = 0
@@ -2575,7 +2575,7 @@ ctrl = 0
 ;======================================================================
 ;Bison Warp End
 [Statedef 1599]
-type    = S
+type = S
 movetype= I
 physics = S
 ctrl = 0

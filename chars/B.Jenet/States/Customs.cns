@@ -114,7 +114,7 @@ value=0
 ctrl=1
 ;---------------------------------------------------------------------------
 [Statedef 858]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -130,7 +130,7 @@ Trigger1 = Time = 0
 value = 858
 ;---------------------------------------------------------------------------
 [Statedef 860]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -153,7 +153,7 @@ value = 861
 ctrl = 0
 ;-----------------------------------------------
 [Statedef 861]
-type    = L
+type = L
 movetype= H
 physics = C
 velset = 0,0
@@ -175,7 +175,7 @@ trigger1 = time = 0
 value = 861
 ;---------------------------------------------
 [Statedef 865]
-type    = L
+type = L
 movetype= H
 physics = C
 velset = 0,0
@@ -359,7 +359,7 @@ trigger1= vel y>0 && pos y>=0
 value=5100
 ;---------------------------------------------------------------------------
 [Statedef 1240]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -496,7 +496,7 @@ trigger1 = Pos Y >= 0 && vel Y > 0
 value = 5100
 ;---------------------------------------------------------------------------
 [Statedef 3420]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -520,7 +520,7 @@ value = 3421
 ctrl = 0
 ;---------------------------------------------------------------------------
 [Statedef 3421]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -554,7 +554,7 @@ trigger1 = time>=180
 value = Ifelse(Alive,5120,5150)
 ;---------------------------------------------------------------------------
 [Statedef 3422]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -2,-10
@@ -585,7 +585,7 @@ trigger1 = Pos Y >= 0 && Vel Y > 0
 value = 5100
 ;---------------------------------------------------------------------------
 [Statedef 3520]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -601,7 +601,7 @@ Trigger1 = Time = 0
 value = 3520
 ;---------------------------------------------------------------------------
 [Statedef 3521]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -624,7 +624,7 @@ value = 3522
 ctrl = 0
 ;-----------------------------------------------
 [Statedef 3522]
-type    = L
+type = L
 movetype= H
 physics = C
 velset = 0,0
@@ -646,7 +646,7 @@ trigger1 = time = 0
 value = 3522
 ;---------------------------------------------------------------------------
 [Statedef 3523]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -2,-10
@@ -678,7 +678,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Off screen Knockback
 [Statedef 4020]
-type    = A
+type = A
 movetype= H
 physics = N
 juggle = 1
@@ -705,7 +705,7 @@ value = 4021
 ctrl = 0
 ;---------------------------------------------------------------------------
 [Statedef 4021]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -738,7 +738,7 @@ trigger1 = time>=70
 value = Ifelse(Alive,5120,5150)
 ;---------------------------------------------------------------------------
 [Statedef 4058]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -776,7 +776,7 @@ value = 0
 ctrl = 1
 ;---------------------------------------------------------------------------
 [Statedef 4059]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -814,7 +814,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Wall-knockdown
 [Statedef 4060]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -856,7 +856,7 @@ trigger2 = Time >= 60
 value = 4061
 ;---------------------------------------------------------------------------
 [Statedef 4061]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -906,7 +906,7 @@ trigger1=time=10
 value = 4062
 ;---------------------------------------------------------------------------
 [Statedef 4062]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -959,7 +959,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Custom-ceiling bounce
 [Statedef 4065]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

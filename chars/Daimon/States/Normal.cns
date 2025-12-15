@@ -1390,7 +1390,7 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ; Tripped get-hit (shaking)
 [Statedef 455]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1415,7 +1415,7 @@ ampl = 140
 
 ; Tripped get-hit (knocked away)
 [Statedef 456]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -2199,11 +2199,11 @@ value=ifelse(var(10),820,830)
 ;---------------------------------------------------------------------------
 ;Juuji Shime
 [Statedef 810]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 810
-juggle  = 8
+juggle = 8
 sprpriority = 4
 
 [State 805, Throw]
@@ -2297,7 +2297,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Juuji Shime Gethit States
 [Statedef 815]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2339,11 +2339,11 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Okuri Ashi Barai
 [Statedef 820]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 820
-juggle  = 8
+juggle = 8
 sprpriority = 4
 
 [State 805, Throw]
@@ -2429,7 +2429,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Okuri Ashi Barai Gethit States
 [Statedef 825]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2469,7 +2469,7 @@ value = 5100
 ;-----------------------------------------------------------------------------
 ;Tsukami Tataki Tsuke
 [Statedef 830]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 830
@@ -2599,7 +2599,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Tsukami Tataki Tsuke Gethit States
 [Statedef 835]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2635,7 +2635,7 @@ value = 836
 
 ;Tsukami Tataki Tsuke Gethit States (2)
 [Statedef 836]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

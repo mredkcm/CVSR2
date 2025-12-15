@@ -878,7 +878,7 @@ type = Turn
 trigger1 = AnimElem = 6
 
 [Statedef 816]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 6.5,-5
@@ -1201,7 +1201,7 @@ value = 11
 ctrl = 1
 
 [Statedef 825]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1223,7 +1223,7 @@ Trigger1 = !Time
 value = 825
 
 [Statedef 826]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1245,7 +1245,7 @@ Trigger1 = Time%8 = 0
 value = 5080
 
 [Statedef 827]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = -5,-5

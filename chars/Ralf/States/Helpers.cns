@@ -235,7 +235,7 @@ ignorehitpause =1
 ;---------------------------------------------------------------------------
 ;Gear Second Skin
 [Statedef 3401]
-physics  = N
+physics = N
 anim = 3401
 ctrl = 0
 velset=0,0
@@ -270,7 +270,7 @@ ignorehitpause =1
 ;---------------------------------------------------------------------------
 ;Gear Second Skin2
 [Statedef 3403]
-physics  = N
+physics = N
 anim = 3403
 ctrl = 0
 velset=0,0
@@ -308,7 +308,7 @@ ignorehitpause =1
 ;---------------------------------------------------------------------------
 ;Left
 [Statedef 3405]
-physics  = N
+physics = N
 anim = 3405
 ctrl = 0
 velset=0,0
@@ -329,7 +329,7 @@ ignorehitpause =1
 ;---------------------------------------------------------------------------
 ;Right
 [Statedef 3406]
-physics  = N
+physics = N
 anim = 3406
 ctrl = 0
 velset=0,0
@@ -350,7 +350,7 @@ ignorehitpause =1
 ;---------------------------------------------------------------------------
 ;Jet FX1
 [Statedef 3410]
-physics  = N
+physics = N
 anim = 3410
 ctrl = 0
 velset=0,0
@@ -377,7 +377,7 @@ ignorehitpause =1
 ;---------------------------------------------------------------------------
 ;Jet FX2
 [Statedef 3411]
-physics  = N
+physics = N
 anim = 3411
 ctrl = 0
 velset=0,0
@@ -404,7 +404,7 @@ ignorehitpause =1
 ;---------------------------------------------------------------------------
 ;Jet FX3
 [Statedef 3412]
-physics  = N
+physics = N
 anim = 3412
 ctrl = 0
 velset=0,0
@@ -430,7 +430,7 @@ ignorehitpause =1
 ;---------------------------------------------------------------------------
 ;Jet Steam1
 [Statedef 3415]
-physics  = N
+physics = N
 anim = 3415
 ctrl = 0
 velset=0,0
@@ -455,7 +455,7 @@ ignorehitpause =1
 ;---------------------------------------------------------------------------
 ;Jet Steam2
 [Statedef 3416]
-physics  = N
+physics = N
 anim = 3416
 ctrl = 0
 velset=0,0

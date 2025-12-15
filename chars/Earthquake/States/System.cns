@@ -411,10 +411,10 @@ value = 0
 ctrl = 1
 ;=========<DODGE>=============
 [Statedef 700]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 700
@@ -1422,7 +1422,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------------------------------------
 ;Running
 [Statedef 100]
-type    = S
+type = S
 movetype = I
 physics = S
 ctrl = 0
@@ -1722,7 +1722,7 @@ value = 50
 ctrl = 1
 ;=====================<HIT GROUND(BOUNCE)>===================
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -1811,7 +1811,7 @@ time = 20
 
 ;================<HIT LIEDOWN>====================
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2478,7 +2478,7 @@ channel = 0
 [State 5210, Recover Sound]
 type = PlaySnd
 trigger1 = !Time
-value  = 5200,0
+value = 5200,0
 channel = 1
 
 [State 5210, Flash]
@@ -2913,7 +2913,7 @@ trigger1 = Enemy(1),statetype = L || Enemy(1),movetype != H
 value = 7828
 ;-------------------------------------------------------------------------------
 [Statedef 7828]
-type    = S
+type = S
 physics = S
 anim = 100
 ctrl = 0
@@ -2977,7 +2977,7 @@ value = 7829
 ctrl = 0
 ;-------------------------------------------------------------------------------
 [Statedef 7829]
-type    = S
+type = S
 physics = S
 anim = 101
 ctrl = 0
@@ -3974,7 +3974,7 @@ postype = right
 ;光效初始位置
 ;--------------------------------------------------------------
 [Statedef 23680]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -4018,7 +4018,7 @@ pos = (1+ifelse(Parent,fvar(36) = 1,-1,0)+ifelse(Parent,fvar(36) = 2,-2,0))*ifel
 ;光效左
 ;--------------------------------------------------------------
 [Statedef 23681]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -4043,7 +4043,7 @@ value = SCA
 ;光效右
 ;--------------------------------------------------------------
 [Statedef 23682]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0

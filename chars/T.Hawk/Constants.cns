@@ -81,9 +81,9 @@ shadowOffset = 0
 draw.offset = 0,0
 
 [Velocity]
-walk.fwd  = 2.1
+walk.fwd = 2.1
 walk.back = -2.1
-run.fwd  = 4.1,0
+run.fwd = 4.1,0
 run.back = -5.5,-3.4
 jump.neu = 0, -8.4
 jump.fwd = 3.2

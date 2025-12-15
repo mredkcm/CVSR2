@@ -4010,7 +4010,7 @@ trigger1 = RoundState < 3
 ;======================<P2 DISTANCE DETECT HELPER>==================
 ;Used for jacket/Shine Knuckle KO
 [Statedef 8997]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 1
@@ -4029,7 +4029,7 @@ x = P2Dist x
 ;========================<KO CAMERA FOCUS>=============================
 [Statedef 8998]
 type = S
-physics  = N;S
+physics = N;S
 anim = 0
 ctrl = 0
 

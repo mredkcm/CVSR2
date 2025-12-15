@@ -216,7 +216,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -4, -6
 air.velocity = -4, -6
 air.hittime = 22
@@ -250,7 +250,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -4, -6
 air.velocity = -4, -6
 air.hittime = 22
@@ -325,7 +325,7 @@ value = ifelse((p2stateno = 3005 && movehit),3010, 3001)
 ;---------------------------------------------------------------------------
 ;Guillotine: Missed
 [Statedef 3001]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 3001
@@ -387,7 +387,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Guillotine: Running
 [Statedef 3010]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3010
@@ -563,7 +563,7 @@ value = 3020
 ;---------------------------------------------------------------------------
 ;Guillotine: Throwing
 [Statedef 3020]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3020
@@ -694,7 +694,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hit By Guillotine: Going Down
 [Statedef 3005]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -719,7 +719,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Hit By Guillotine: Being Dragged
 [Statedef 3015]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -744,7 +744,7 @@ value = 3015
 ;---------------------------------------------------------------------------
 ;Hit By Guillotine: Flying
 [Statedef 3025]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -1009,7 +1009,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -4, -6
 air.velocity = -4, -6
 air.hittime = 22
@@ -1043,7 +1043,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -4, -6
 air.velocity = -4, -6
 air.hittime = 22
@@ -1116,7 +1116,7 @@ value = ifelse((p2stateno = 3005 && movehit),3060, 3001)
 ;---------------------------------------------------------------------------
 ;Max Guillotine: Running
 [Statedef 3060]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3010
@@ -1292,7 +1292,7 @@ value = 3070
 ;---------------------------------------------------------------------------
 ;Max Guillotine: Finale
 [Statedef 3070]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3070
@@ -1436,7 +1436,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hit By Max Guillotine: Being Stomped
 [Statedef 3075]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -1467,7 +1467,7 @@ value = 1
 ;---------------------------------------------------------------------------
 ;Hit By Max Guillotine: Flying
 [Statedef 3080]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -1711,7 +1711,7 @@ guardsound = s130, 0
 ground.type = high
 air.type = Low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -1750,7 +1750,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = Low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -1815,7 +1815,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Madness: Finale
 [Statedef 3610]
-type    = S
+type = S
 movetype =  A
 physics = N
 anim = 3610+5*(numtarget(999))
@@ -2482,7 +2482,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hit By Madness: Debug
 [Statedef 3605]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2507,7 +2507,7 @@ value = 5012
 ;---------------------------------------------------------------------------
 ;Hit By Madness: Headbutt
 [Statedef 3615]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2565,7 +2565,7 @@ value = 3125
 ;---------------------------------------------------------------------------
 ;Hit By Madness: Sand Kick
 [Statedef 3620]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2623,7 +2623,7 @@ value = 3125
 ;---------------------------------------------------------------------------
 ;Hit By Madness: Punch
 [Statedef 3625]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2681,7 +2681,7 @@ value = 3125
 ;---------------------------------------------------------------------------
 ;Hit By Madness: Kicks
 [Statedef 3630]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2739,7 +2739,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Hit By Madness: Throw
 [Statedef 3635]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2808,7 +2808,7 @@ value = 3125
 ;---------------------------------------------------------------------------
 ;Hit By Madness: Uppercut
 [Statedef 3640]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2866,7 +2866,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Hit By Madness: Pillar
 [Statedef 3645]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -3098,7 +3098,7 @@ guardsound = s130, 0
 ground.type = high
 air.type = Low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -3286,7 +3286,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -3
 airguard.velocity = -5, -4.5
 air.velocity = -2, -5.5
@@ -3325,7 +3325,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -1
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -3368,7 +3368,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 2
 airguard.velocity = -5, -4.5
 air.velocity = -1, -5.5
@@ -3407,7 +3407,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -1
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -3447,7 +3447,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -1
 airguard.velocity = -5, -4.5
 air.velocity = -1, -5.5
@@ -3486,7 +3486,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 2
 airguard.velocity = -5, -4.5
 air.velocity = 0, -4.5
@@ -3525,7 +3525,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -1
 airguard.velocity = -5, -4.5
 air.velocity = -1, -5.5
@@ -3563,7 +3563,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -3
 airguard.velocity = -5, -4.5
 air.velocity = -2, -4.5
@@ -3603,7 +3603,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -15,-9
 airguard.velocity = -5, -4.5
 air.velocity = -15, -5.5
@@ -3819,7 +3819,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = Low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -4020,7 +4020,7 @@ guardsound = s130, 0
 ground.type = high
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -3
 airguard.velocity = -5, -4.5
 air.velocity = -3.5, -4.5
@@ -4060,7 +4060,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -3
 airguard.velocity = -5, -4.5
 air.velocity = -2, -5.5
@@ -4099,7 +4099,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -1
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -4139,7 +4139,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 2
 airguard.velocity = -5, -4.5
 air.velocity = -1, -5.5
@@ -4178,7 +4178,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -1
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -4218,7 +4218,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -1
 airguard.velocity = -5, -4.5
 air.velocity = -1, -5.5
@@ -4257,7 +4257,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 2
 airguard.velocity = -5, -4.5
 air.velocity = 0, -4.5
@@ -4296,7 +4296,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -1
 airguard.velocity = -5, -4.5
 air.velocity = -1, -5.5
@@ -4334,7 +4334,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -3
 airguard.velocity = -5, -4.5
 air.velocity = -2, -4.5
@@ -4374,7 +4374,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -15,-9
 airguard.velocity = -5, -4.5
 air.velocity = -15, -5.5
@@ -4564,7 +4564,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -3
 airguard.velocity = -5, -4.5
 air.velocity = -3.5, -4.5
@@ -4604,7 +4604,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -3
 airguard.velocity = -5, -4.5
 air.velocity = -2, -5.5
@@ -4643,7 +4643,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -1
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -4683,7 +4683,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 2
 airguard.velocity = -5, -4.5
 air.velocity = -1, -5.5
@@ -4722,7 +4722,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -1
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -4762,7 +4762,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -1
 airguard.velocity = -5, -4.5
 air.velocity = -1, -5.5
@@ -4801,7 +4801,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 2
 airguard.velocity = -5, -4.5
 air.velocity = 0, -4.5
@@ -4840,7 +4840,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 30
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = -1
 airguard.velocity = -5, -4.5
 air.velocity = -1, -5.5
@@ -4878,7 +4878,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 60
-ground.hittime  = 60
+ground.hittime = 60
 ground.velocity = -3
 airguard.velocity = -5, -4.5
 air.velocity = -2, -4.5
@@ -4918,7 +4918,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -15,-9
 airguard.velocity = -5, -4.5
 air.velocity = -15, -5.5
@@ -5370,7 +5370,7 @@ ctrl = 1
 ;--------------------------------------------------------------------------------------------
 ;Violent Hebi Tsukai
 [Statedef 3900]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -5567,7 +5567,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -5595,7 +5595,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Violent Hebi Tsukai
 [Statedef 3901]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -5713,7 +5713,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = Trip
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -5742,7 +5742,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Violent Hebi Tsukai
 [Statedef 3902]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -5851,7 +5851,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -5879,7 +5879,7 @@ ctrl =0
 ;---------------------------------------------------------------------------
 ;Violent Hebi Tsukai
 [Statedef 3903]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -5995,7 +5995,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = Trip
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -6024,7 +6024,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Violent Hebi Tsukai
 [Statedef 3904]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -6132,7 +6132,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -6159,7 +6159,7 @@ ctrl =0
 ;----------------------------------------------------------------------------------
 ;Violent Hebi Tsukai
 [Statedef 3905]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -6274,7 +6274,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = Trip
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -6304,7 +6304,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Violent Hebi Tsukai
 [Statedef 3906]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -6405,7 +6405,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -10,-6
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -6433,7 +6433,7 @@ ctrl =1
 ;----------------------------------------------------------------------------------------------
 ;Max Violent Hebi Tsukai
 [Statedef 3950]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -6627,7 +6627,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -6655,7 +6655,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Max Violent Hebi Tsukai
 [Statedef 3951]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -6767,7 +6767,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = Trip
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -6796,7 +6796,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Max Violent Hebi Tsukai
 [Statedef 3952]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -6901,7 +6901,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -6929,7 +6929,7 @@ ctrl =0
 ;---------------------------------------------------------------------------
 ;Max Violent Hebi Tsukai
 [Statedef 3953]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -7040,7 +7040,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = Trip
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -7069,7 +7069,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Max Violent Hebi Tsukai
 [Statedef 3954]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -7173,7 +7173,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -7200,7 +7200,7 @@ ctrl =0
 ;----------------------------------------------------------------------------------
 ;Max Violent Hebi Tsukai
 [Statedef 3955]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -7311,7 +7311,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = Trip
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -7340,7 +7340,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Max Violent Hebi Tsukai
 [Statedef 3956]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -7444,7 +7444,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -7472,7 +7472,7 @@ ctrl =0
 ;---------------------------------------------------------------------------
 ;Max Violent Hebi Tsukai
 [Statedef 3957]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -7583,7 +7583,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = Trip
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -7612,7 +7612,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Max Violent Hebi Tsukai
 [Statedef 3958]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -7715,7 +7715,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -7742,7 +7742,7 @@ ctrl =0
 ;----------------------------------------------------------------------------------
 ;Max Violent Hebi Tsukai
 [Statedef 3959]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -7852,7 +7852,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = Trip
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 0
 airguard.velocity = -5, -4.5
 air.velocity = -1, -4.5
@@ -7881,7 +7881,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Max Violent Hebi Tsukai
 [Statedef 3960]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 0
@@ -7982,7 +7982,7 @@ guardsound = s130, 0
 ground.type = High
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -10,-6
 airguard.velocity = -5, -4.5
 air.velocity = -6, -5.5
@@ -8529,7 +8529,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------------------------
 ;Killer Orochi Snakebite: Charging
 [Statedef 4000]
-type    = S
+type = S
 movetype =  A
 physics = S
 velset = 0,0
@@ -8558,7 +8558,7 @@ value = 4001
 ;------------------------------------------------------------------------------------------------------------
 ;Killer Orochi Snakebite: Charging
 [Statedef 4001]
-type    = S
+type = S
 movetype =  A
 physics = S
 velset = 0,0
@@ -8696,7 +8696,7 @@ value = 4005
 ;---------------------------------------------------------------------------
 ;Killer Orochi Snakebite: Strike
 [Statedef 4005]
-type    = S
+type = S
 movetype =  A
 physics = N
 juggle = 8
@@ -9052,7 +9052,7 @@ guardsound = s130, 0
 ground.type = Low
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -10,-8
 guard.velocity = -8
 airguard.velocity = -5, -4.5

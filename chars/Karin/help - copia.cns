@@ -4522,7 +4522,7 @@ trigger1 = roundstate = 2
 ;CAMERA FOCUS
 [Statedef 6009]
 type = S
-physics  = S
+physics = S
 anim = 0
 ctrl = 0
 

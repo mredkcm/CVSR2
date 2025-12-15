@@ -442,8 +442,8 @@ ctrl= 0
 
 ;-------------------------------------------------------------------------------
 [Statedef 3601]
-type     = S
-physics  = S
+type = S
+physics = S
 movetype = A
 anim = 20011
 ctrl=0
@@ -1072,7 +1072,7 @@ value=5120
 ;-----------------
 ;Kyouja Renbu Shun Goku satsu - miss
 [Statedef 7202]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 101

@@ -1,6 +1,6 @@
 ;======================<Tandem Storm>===================
 [Statedef 3000]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -251,7 +251,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.hittime = 18
 ground.velocity = 0,0
 air.velocity = 0,-1
@@ -296,7 +296,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.hittime = 18
 ground.velocity = -5,-7
 air.velocity = -5,-7
@@ -378,7 +378,7 @@ ctrl = 1
 
 ;======================<Tandem Storm Lv2>===================
 [Statedef 3025]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -631,7 +631,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.hittime = 18
 ground.velocity = 0,0
 air.velocity = 0,-1
@@ -676,7 +676,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.hittime = 18
 ground.velocity = -5,-7
 air.velocity = -5,-7
@@ -975,7 +975,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.hittime = 18
 ground.velocity = 0,-5
 air.velocity = 0,-5
@@ -1245,7 +1245,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.hittime = 18
 ground.velocity = 0,-5
 air.velocity = 0,-5
@@ -1461,7 +1461,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -20,-9
 air.velocity = -20,-9
@@ -1492,7 +1492,7 @@ ctrl = 1
 
 ;======================<Tandem Stream Waiting===================
 [Statedef 3101]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -1538,7 +1538,7 @@ ctrl = 1
 
 ;======================<Tandem Stream Finish>===================
 [Statedef 3104]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0

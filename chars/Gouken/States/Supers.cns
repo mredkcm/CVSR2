@@ -6475,7 +6475,7 @@ value=3105
 ;---------------------------------------------------------------------------
 ;Denjin-Shoryu-1
 [Statedef 3401]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -6670,7 +6670,7 @@ ctrl=0
 ;---------------------------------------------------------------------------
 ;Denjin-Shoryu-2
 [Statedef 3402]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0

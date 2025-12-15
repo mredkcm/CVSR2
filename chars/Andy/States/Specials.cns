@@ -4405,7 +4405,7 @@ envshake.time=12
 envshake.ampl=3
 envShake.freq=120
 p1stateno = 1601
-p2facing  = 1
+p2facing = 1
 kill = 0
 
 [State 1600, Brake]
@@ -4416,7 +4416,7 @@ ctrl = 1
 ;-----------------------------------------------------
 ; Baku Shin Grab Attempt
 [Statedef 1601]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -4477,7 +4477,7 @@ value = 1610
 ;-------------------------------------------------------------------------
 ; Bakushin Success
 [Statedef 1602]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = Ifelse(var(20),1609,1608)
@@ -4774,7 +4774,7 @@ envshake.time=12
 envshake.ampl=3
 envShake.freq=120
 p1stateno = 1626
-p2facing  = 1
+p2facing = 1
 kill = 0
 
 [State 1600, Brake]
@@ -4785,7 +4785,7 @@ ctrl = 1
 ;-----------------------------------------------------
 ;EX-Baku Shin Grab Attempt
 [Statedef 1626]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -4847,7 +4847,7 @@ value = 1610
 ;-------------------------------------------------------------------------
 ; EX Bakushin Success
 [Statedef 1627]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 1609

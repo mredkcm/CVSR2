@@ -1197,7 +1197,7 @@ ctrl = 0
 ;---------------------------------------------------------------------
 ;The Hind Follow up
 [Statedef 1310]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 1310
@@ -1315,7 +1315,7 @@ ctrl = 0
 ;---------------------------------------------------------------------
 ;EX The Hind Follow up
 [Statedef 1320]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 1310
@@ -1433,7 +1433,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Harrier Bee
 [Statedef 1400]
-type    = A
+type = A
 movetype= I
 physics = N
 ctrl=0
@@ -1517,7 +1517,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Harrier Bee-Kick1
 [Statedef 1410]
-type    = A
+type = A
 movetype= A
 physics = N
 anim=1410
@@ -1631,7 +1631,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Harrier Bee-Kick2
 [Statedef 1420]
-type    = A
+type = A
 movetype= A
 physics = N
 anim=1420
@@ -1746,7 +1746,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Harrier Bee-Kick3
 [Statedef 1430]
-type    = A
+type = A
 movetype= A
 physics = N
 anim=1410
@@ -1862,7 +1862,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Harrier Bee-Kick4
 [Statedef 1440]
-type    = A
+type = A
 movetype= A
 physics = N
 anim=1430
@@ -1961,7 +1961,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Harrier Bee EX
 [Statedef 1403]
-type    = A
+type = A
 movetype= I
 physics = N
 anim=1403
@@ -2063,7 +2063,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Harrier Bee-Kick1
 [Statedef 1450]
-type    = A
+type = A
 movetype= A
 physics = N
 anim=1410
@@ -2161,7 +2161,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Harrier Bee-Kick2
 [Statedef 1460]
-type    = A
+type = A
 movetype= A
 physics = N
 anim=1420
@@ -2260,7 +2260,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Harrier Bee-Kick3
 [Statedef 1470]
-type    = A
+type = A
 movetype= A
 physics = N
 anim=1410
@@ -2360,7 +2360,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Harrier Bee-Kick4
 [Statedef 1480]
-type    = A
+type = A
 movetype= A
 physics = N
 anim=1430
@@ -2756,7 +2756,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Rolling Thunder-2
 [Statedef 1510]
-type    = A
+type = A
 movetype= A
 physics = N
 anim=1510
@@ -2825,7 +2825,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; EX Rolling Thunder-2
 [Statedef 1520]
-type    = A
+type = A
 movetype= A
 physics = N
 anim=1510

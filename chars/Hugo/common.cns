@@ -44,7 +44,7 @@ value = 5050
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; Stand to Crouch
 [Statedef 10]
-type    = C
+type = C
 physics = C
 anim = 10
 
@@ -61,7 +61,7 @@ value = 11
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; Crouching
 [Statedef 11]
-type    = C
+type = C
 physics = C
 anim = 11
 sprpriority = 0
@@ -80,7 +80,7 @@ value = 11
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; Crouch to Stand
 [Statedef 12]
-type    = S
+type = S
 physics = S
 anim = 12
 
@@ -92,7 +92,7 @@ value = 0
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; Walk
 [Statedef 20]
-type    = S
+type = S
 physics = S
 sprpriority = 0
 
@@ -123,7 +123,7 @@ value = 21
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; Walk(AI用)
 [Statedef 21]
-type    = S
+type = S
 physics = N
 ctrl = 0
 sprpriority = 0
@@ -193,7 +193,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; Jump Start
 [Statedef 40]
-type    = S
+type = S
 physics = S
 ;anim = 40
 facep2 = 1
@@ -308,7 +308,7 @@ type = AfterImage
 trigger1 = AnimTime = 0 && var(3) = 1
 time = 4
 length = 4
-TimeGap  = 2
+TimeGap = 2
 FrameGap = 2
 palbright = 0,0,0
 palcontrast = 255,255,255
@@ -327,7 +327,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; AirJump Start
 [Statedef 45]
-type    = A
+type = A
 physics = N
 ctrl = 0
 velset = 0,0
@@ -372,7 +372,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; Jump Up
 [Statedef 50]
-type    = A
+type = A
 physics = N
 
 [State -3, 音を鳴らす]
@@ -410,7 +410,7 @@ value = 52
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; Jump Down (empty state for compatibility)
 [Statedef 51]
-type    = A
+type = A
 physics = A
 
 [State 51, 1]
@@ -420,7 +420,7 @@ trigger1 = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; Jump Land
 [Statedef 52]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 47
@@ -499,7 +499,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; Jump Land
 [Statedef 53]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 47
@@ -578,7 +578,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; Jump Land
 [Statedef 54]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 48
@@ -627,7 +627,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; Jump Land
 [Statedef 55]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 49
@@ -738,7 +738,7 @@ value = 140
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; STAND GUARD (guarding)
 [Statedef 130]
-type    = S
+type = S
 physics = S
 
 [State 130, 1]
@@ -767,7 +767,7 @@ value = 140
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; CROUCH GUARD (guarding)
 [Statedef 131]
-type    = C
+type = C
 physics = C
 
 [State 131, 1]
@@ -796,7 +796,7 @@ value = 140
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; AIR GUARD (guarding)
 [Statedef 132]
-type    = A
+type = A
 physics = N
 
 [State 132, 1]
@@ -908,7 +908,7 @@ physics = S
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; SGUARDHIT (shaking)
 [Statedef 150]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -976,7 +976,7 @@ time = 3
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; SGUARDHIT2 (knocked back)
 [Statedef 151]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -1057,7 +1057,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; CGUARDHIT (shaking)
 [Statedef 152]
-type    = C
+type = C
 movetype= H
 physics = N
 velset = 0,0
@@ -1119,7 +1119,7 @@ time = 4
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; CGUARDHIT2 (knocked back)
 [Statedef 153]
-type    = C
+type = C
 movetype= H
 physics = C
 anim = 151
@@ -1195,7 +1195,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; AGUARDHIT (shaking)
 [Statedef 154]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1229,7 +1229,7 @@ time = 4
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; AGUARDHIT2 (knocked away)
 [Statedef 155]
-type    = A
+type = A
 movetype= H
 physics = N
 anim = 152
@@ -1367,7 +1367,7 @@ value = 0
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HITG_SHAKE
 [Statedef 5000]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1477,7 +1477,7 @@ ampl = 140
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HITG_SLIDE
 [Statedef 5001]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -1548,7 +1548,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HITC_SHAKE
 [Statedef 5010]
-type    = C
+type = C
 movetype= H
 physics = N
 velset = 0,0
@@ -1654,7 +1654,7 @@ ampl = 140
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HITC_SLIDE
 [Statedef 5011]
-type    = C
+type = C
 movetype= H
 physics = C
 
@@ -1726,7 +1726,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HITA_SHAKE
 [Statedef 5020]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1790,7 +1790,7 @@ ampl = 140
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HITA_UP (initial going up)
 [Statedef 5030]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -1839,7 +1839,7 @@ value = 5035 ;HITA_UP (transition)
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HITA_UP_T (transition)
 [Statedef 5035]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1882,7 +1882,7 @@ value = 5050 ;HITA_FALL
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HITA_RECOV (recovering in air, not falling)
 [Statedef 5040]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1925,7 +1925,7 @@ value = 52 ;JUMPLAND
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HITA_FALL (knocked up, falling)
 [Statedef 5050]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1981,7 +1981,7 @@ value = 5100 ;HIT_BOUNCE
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HIT_TRIP (shaking)
 [Statedef 5070]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2011,7 +2011,7 @@ ampl = 140
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HIT_TRIP2 (fall through air)
 [Statedef 5071]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -2035,7 +2035,7 @@ value = 5110
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HITL_SHAKE
 [Statedef 5080]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -2079,7 +2079,7 @@ value = 5030 ;HITA_UP
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HITL_SLIDE
 [Statedef 5081]
-type    = L
+type = L
 movetype= H
 physics = C
 
@@ -2106,7 +2106,7 @@ value = 5110 ;HIT_LIEDOWN
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HIT_BOUNCE (hit ground)
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2241,7 +2241,7 @@ time = 20
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HIT_BOUNCE (bounce into air)
 [Statedef 5101]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2298,7 +2298,7 @@ value = 5110
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HIT_LIEDOWN
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 ctrl = 0
@@ -2567,7 +2567,7 @@ waveform = sine
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HIT_GETUP
 [Statedef 5120]
-type    = L
+type = L
 movetype= I
 physics = N
 ctrl = 0
@@ -2678,7 +2678,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HIT_LIEDEAD
 [Statedef 5150]
-type    = L
+type = L
 movetype= H
 physics = N
 sprpriority = -3
@@ -2764,7 +2764,7 @@ flag = RoundNotOver
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 削りＫＯ
 [Statedef 5190]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2839,7 +2839,7 @@ value = 5150
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HIT_FALLRECOVER (still falling)
 [Statedef 5200]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -2863,7 +2863,7 @@ value = 5201
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HIT_FALLRECOVER (on the ground)
 [Statedef 5201]
-type    = A
+type = A
 movetype= H
 physics = A
 anim = 5200
@@ -2906,7 +2906,7 @@ under = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; HIT_AIRFALLRECOVER
 [Statedef 5210]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 5210
@@ -2972,11 +2972,11 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;気絶(開始)
 [Statedef 5300]
-type    = C
+type = C
 movetype= I
 physics = N
-ctrl    = 0
-velset  = 0,0
+ctrl = 0
+velset = 0,0
 
 [State 5300, ChangeAnim]
 type = ChangeAnim
@@ -3062,11 +3062,11 @@ ctrl = 1
 
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 [Statedef 5301]
-type    = C
+type = C
 movetype= I
 physics = N
-ctrl    = 0
-velset  = 0,0
+ctrl = 0
+velset = 0,0
 sprpriority = -1
 
 [State 5300, ChangeAnim]
@@ -3132,7 +3132,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;クイックスタンディング(前転)
 [Statedef 5400]
-type    = C
+type = C
 movetype= I
 physics = N
 ctrl = 0
@@ -3218,7 +3218,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ;クイックスタンディング(後転)
 [Statedef 5410]
-type    = C
+type = C
 movetype= I
 physics = N
 ctrl = 0
@@ -3318,7 +3318,7 @@ value = 5500
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 特殊反転仰け反り(HITSHAKE)3rdキャラ専用
 [Statedef 5600]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3383,7 +3383,7 @@ ampl = 140
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 特殊反転仰け反り(HITBACK)3rdキャラ専用
 [Statedef 5610]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -3441,7 +3441,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 特殊反転仰け反り(HITSHAKE)汎用
 [Statedef 5620]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3514,7 +3514,7 @@ ampl = 140
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 特殊反転仰け反り(HITBACK)汎用
 [Statedef 5630]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -3548,7 +3548,7 @@ ctrl = 1
 ;△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△△
 ; 特殊吹き飛び(HITSHAKE)3rdキャラ専用
 [Statedef 5700]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

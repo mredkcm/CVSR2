@@ -416,9 +416,9 @@ ignorehitpause=1
 type = HitDef
 trigger1 = animelem = 1
 attr = A, SP
-damage    = 30,5
-animtype  = Heavy
-getpower  = 10
+damage = 30,5
+animtype = Heavy
+getpower = 10
 givepower = 20
 guardflag = MA
 pausetime = 5,5
@@ -429,7 +429,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -5
 airguard.velocity = -5
 air.type = Low
@@ -491,9 +491,9 @@ ignorehitpause=1
 type = HitDef
 trigger1 = animelem = 1
 attr = A, SP
-damage    = 30,5
-animtype  = Heavy
-getpower  = 10
+damage = 30,5
+animtype = Heavy
+getpower = 10
 givepower = 20
 guardflag = MA
 pausetime = 5,5
@@ -504,7 +504,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -5
 airguard.velocity = -5
 air.type = Low
@@ -566,9 +566,9 @@ ignorehitpause=1
 type = HitDef
 trigger1 = animelem = 1
 attr = A, SP
-damage    = 30,5
-animtype  = Heavy
-getpower  = 10
+damage = 30,5
+animtype = Heavy
+getpower = 10
 givepower = 20
 guardflag = MA
 pausetime = 5,5
@@ -579,7 +579,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -5
 airguard.velocity = -5
 air.type = Low
@@ -710,7 +710,7 @@ trigger1= time>= 30
 ;========================<BUSTER CHARGE>=============================
 ; Z-Charge
 [Statedef 1050]
-type    = A
+type = A
 movetype= I
 physics = N
 sprpriority = 5
@@ -890,9 +890,9 @@ flag = noshadow
 type = Hitdef
 trigger1 = Animelem = 3
 attr = A, SA
-damage    = 40,3
-animtype  = Heavy
-getpower  = 10
+damage = 40,3
+animtype = Heavy
+getpower = 10
 givepower = 10
 hitflag = MAF
 guardflag = MAF
@@ -904,7 +904,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -2 ,0
 airguard.velocity = -2, 0
 air.type = Low
@@ -976,9 +976,9 @@ flag = noshadow
 type = Hitdef
 trigger1 = Animelem = 3
 attr = A, SA
-damage    = 40,3
-animtype  = Heavy
-getpower  = 10
+damage = 40,3
+animtype = Heavy
+getpower = 10
 givepower = 10
 hitflag = MAFD
 guardflag = MAF
@@ -990,7 +990,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -2 ,0
 airguard.velocity = -2, 0
 air.type = Low
@@ -1073,9 +1073,9 @@ flag = noshadow
 type = Hitdef
 trigger1 = Animelem = 3
 attr = A, SA
-damage    = 40,3
-animtype  = Heavy
-getpower  = 0
+damage = 40,3
+animtype = Heavy
+getpower = 0
 givepower = 10
 hitflag = MAFD
 guardflag = MAF
@@ -1087,7 +1087,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -2 ,0
 airguard.velocity = -2, 0
 air.type = Low
@@ -1169,9 +1169,9 @@ flag = noshadow
 type = Hitdef
 trigger1 = Animelem = 3
 attr = A, SA
-damage    = 40,3
-animtype  = Heavy
-getpower  = 0
+damage = 40,3
+animtype = Heavy
+getpower = 0
 givepower = 10
 hitflag = MAF
 guardflag = MAF
@@ -1183,7 +1183,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -2 ,0
 airguard.velocity = -2, 0
 air.type = Low
@@ -1239,7 +1239,7 @@ trigger1= !animtime
 ;==============================<Z-BUSTER>=======================================
 ;Z BUSTER SHOT
 [Statedef 1404]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0
@@ -1270,9 +1270,9 @@ type = HitDef
 trigger1 = time
 attr = S,SA
 attr = S, SP
-damage    = 20,5
-animtype  = Heavy
-getpower  = 10
+damage = 20,5
+animtype = Heavy
+getpower = 10
 givepower = 20
 guardflag = MA
 pausetime = 0,5
@@ -1283,7 +1283,7 @@ hitsound = s2,10
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -5
 airguard.velocity = -5
 air.type = Low
@@ -1345,7 +1345,7 @@ trigger2 = movecontact = 1
 ;---------------------------------------------------------------------------
 ;LVL 3 CHARGED SHOT
 [Statedef 1405]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0
@@ -1492,7 +1492,7 @@ trigger1 = pos x != [ -240, 240]
 ;-----------------------------------------------------------------------------
 ;LVL 2 CHARGED SHOT
 [Statedef 1406]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0
@@ -1568,7 +1568,7 @@ hitsound = s2,10
 guardsound = s130, 0
 ground.type = low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -10
 air.type = low
 air.hittime = 18
@@ -1890,7 +1890,7 @@ trigger1= time>= 30
 ;-----------------------------------------------------------------------------
 ;Z-BUSTER TRHOW CHARGED SHOT
 [Statedef 1410]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0
@@ -1945,7 +1945,7 @@ hitsound = s2,10
 guardsound = s130, 0
 ground.type = low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -5
 air.type = low
 air.hittime = 18
@@ -1984,7 +1984,7 @@ trigger2 = movecontact = 1
 ;-------------------------------------------------------------------------------
 ;LVL 3 CHARGED SHOT
 [Statedef 1411]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0
@@ -2127,7 +2127,7 @@ value=1414
 ;-----------------------------------------------------------------------------
 ;LVL 2 CHARGED SHOT
 [Statedef 1412]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0
@@ -2204,7 +2204,7 @@ hitsound = s2,10
 guardsound = s130, 0
 ground.type = low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -10
 air.type = low
 air.hittime = 18
@@ -2499,7 +2499,7 @@ trigger3 = root,movetype = H
 
 ;========================<EX SHIPPUGA SHADOW>=============================
 [Statedef 1600]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 1600
@@ -2551,7 +2551,7 @@ value = 1601
 
 ;-------------------------------------------------------------------------------
 [Statedef 1601]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 1601
@@ -2619,7 +2619,7 @@ hitsound = s2,9
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 11
+ground.hittime = 11
 ground.velocity = -3
 airguard.velocity = -1.9
 air.type = High
@@ -2700,7 +2700,7 @@ value= 1408
 ignorehitpause=1
 
 [State 20000,HitDef]
-type  = HitDef
+type = HitDef
 trigger1 = !time
 attr = S,NA
 animtype = Heavy
@@ -2737,9 +2737,9 @@ trigger1 = 1
 value = -90
 
 [State 10000, No Shadow]
-Type             = AssertSpecial
-Trigger1         = 1
-Flag             = NoShadow
+Type = AssertSpecial
+Trigger1 = 1
+Flag = NoShadow
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -2795,7 +2795,7 @@ value= 1408
 ignorehitpause=1
 
 [State 20000,HitDef]
-type  = HitDef
+type = HitDef
 trigger1 = !time
 attr = S,NA
 animtype = Heavy
@@ -2827,9 +2827,9 @@ ignorehitpause = 1
 persistent = 1
 
 [State 10000, No Shadow]
-Type             = AssertSpecial
-Trigger1         = 1
-Flag             = NoShadow
+Type = AssertSpecial
+Trigger1 = 1
+Flag = NoShadow
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -2876,7 +2876,7 @@ value= 1408
 ignorehitpause=1
 
 [State 20000,HitDef]
-type  = HitDef
+type = HitDef
 trigger1 = !time
 attr = S,NA
 animtype = Heavy
@@ -2913,9 +2913,9 @@ trigger1 = 1
 value = 20
 
 [State 10000, No Shadow]
-Type             = AssertSpecial
-Trigger1         = 1
-Flag             = NoShadow
+Type = AssertSpecial
+Trigger1 = 1
+Flag = NoShadow
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -2962,7 +2962,7 @@ value= 1408
 ignorehitpause=1
 
 [State 20000,HitDef]
-type  = HitDef
+type = HitDef
 trigger1 = !time
 attr = S,NA
 animtype = Heavy
@@ -2999,9 +2999,9 @@ trigger1 = 1
 value = 45
 
 [State 10000, No Shadow]
-Type             = AssertSpecial
-Trigger1         = 1
-Flag             = NoShadow
+Type = AssertSpecial
+Trigger1 = 1
+Flag = NoShadow
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -3048,7 +3048,7 @@ value= 1408
 ignorehitpause=1
 
 [State 20000,HitDef]
-type  = HitDef
+type = HitDef
 trigger1 = !time
 attr = S,NA
 animtype = Heavy
@@ -3085,9 +3085,9 @@ trigger1 = 1
 value = 60
 
 [State 10000, No Shadow]
-Type             = AssertSpecial
-Trigger1         = 1
-Flag             = NoShadow
+Type = AssertSpecial
+Trigger1 = 1
+Flag = NoShadow
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -3134,7 +3134,7 @@ value= 1408
 ignorehitpause=1
 
 [State 20000,HitDef]
-type  = HitDef
+type = HitDef
 trigger1 = !time
 attr = S,NA
 animtype = Heavy
@@ -3171,9 +3171,9 @@ trigger1 = 1
 value = 90
 
 [State 10000, No Shadow]
-Type             = AssertSpecial
-Trigger1         = 1
-Flag             = NoShadow
+Type = AssertSpecial
+Trigger1 = 1
+Flag = NoShadow
 
 [State 0, PlaySnd]
 type = PlaySnd
@@ -3226,7 +3226,7 @@ attr = sca, aa, ap, at
 stateno = 1408
 
 [State 20000,HitDef]
-type  = HitDef
+type = HitDef
 trigger1 = !time
 attr = S,NA
 animtype = Heavy
@@ -3321,7 +3321,7 @@ guard.sparkNo = -1
 sparkXY = -1
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -1,-12
 airguard.velocity = -1,-12
 air.type = High
@@ -3449,7 +3449,7 @@ guard.sparkNo = -1
 sparkXY = -1
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -20,-6
 airguard.velocity = -3,-3
 air.type = High
@@ -3554,7 +3554,7 @@ trigger1= time > 46
 
 ;====================<BUSTER SHOT COMBO SHOTS Lv1>====================
 [Statedef 3005]
-type    = S
+type = S
 movetype= A
 physics = N
 ctrl = 0
@@ -3611,9 +3611,9 @@ time = 1
 type = HitDef
 trigger1 = AnimElem = 1
 attr = A, HP
-damage    = 50,10
-animtype  = Heavy
-getpower  = 10
+damage = 50,10
+animtype = Heavy
+getpower = 10
 givepower = 20
 guardflag = MA
 pausetime = 0,10
@@ -3624,7 +3624,7 @@ hitsound = s2,10
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -2,-7.5
 airguard.velocity = -2,-5
 air.type = Low
@@ -3680,7 +3680,7 @@ trigger2 = movecontact = 1
 
 ;-------------------------------------------------------------------------------
 [Statedef 3006]
-type    = S
+type = S
 movetype= A
 physics = N
 ctrl = 0
@@ -3724,9 +3724,9 @@ stateno = 1009
 type = HitDef
 trigger1 = AnimElem = 1
 attr = A, SP
-damage    = 70,10
-animtype  = Heavy
-getpower  = 0
+damage = 70,10
+animtype = Heavy
+getpower = 0
 givepower = 20
 guardflag = MA
 pausetime = 0,10
@@ -3737,7 +3737,7 @@ hitsound = s2,10
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -2,-3
 airguard.velocity = -5,-1
 air.type = Low
@@ -3755,7 +3755,7 @@ ignorehitpause=1
 
 ;-------------------------------------------------------------------------------
 [Statedef 3007]
-type    = S
+type = S
 movetype= A
 physics = N
 ctrl = 0
@@ -3812,9 +3812,9 @@ time = 1
 type = HitDef
 trigger1 = AnimElem = 1
 attr = A, HP
-damage    = 95,10
-animtype  = Heavy
-getpower  = 10
+damage = 95,10
+animtype = Heavy
+getpower = 10
 givepower = 20
 guardflag = MA
 pausetime = 0,10
@@ -3825,7 +3825,7 @@ hitsound = s2,10
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -2,-7.5
 airguard.velocity = -2,-5
 air.type = Low
@@ -3881,7 +3881,7 @@ trigger2 = movecontact = 1
 
 ;-------------------------------------------------------------------------------
 [Statedef 3008]
-type    = S
+type = S
 movetype= A
 physics = N
 ctrl = 0
@@ -3925,9 +3925,9 @@ stateno = 1009
 type = HitDef
 trigger1 = AnimElem = 1
 attr = A, SP
-damage    = 35,10
-animtype  = Heavy
-getpower  = 0
+damage = 35,10
+animtype = Heavy
+getpower = 0
 givepower = 20
 guardflag = MA
 pausetime = 0,10
@@ -3938,7 +3938,7 @@ hitsound = s2,10
 guardsound = s130, 0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -2,-3
 airguard.velocity = -5,-1
 air.type = Low
@@ -4006,20 +4006,20 @@ stateno = 2501
 type = HitDef
 trigger1 = AnimElem = 1
 attr = A, SP
-damage    = 400,40
-animtype  = Heavy
-getpower  = 10
+damage = 400,40
+animtype = Heavy
+getpower = 10
 givepower = 20
 guardflag = MA
 pausetime = 0,10
 guard.sparkno = -1
 sparkno = -1
 sparkxy = 0, 0
-hitsound   = S2,6
+hitsound = S2,6
 guardsound = S130,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -15,-5
 airguard.velocity = -5,-1
 air.type = Low
@@ -4050,7 +4050,7 @@ ignoreHitPause = 1
 
 ;====================<DARK HOLD>====================
 [Statedef 3206]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 1
@@ -4332,7 +4332,7 @@ fall.animType = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 12 + 2 * var(9)
-ground.hittime  = 12 + 2 * var(9)
+ground.hittime = 12 + 2 * var(9)
 guard.hittime = 12
 ground.velocity = -2
 guard.velocity = -2

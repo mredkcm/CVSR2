@@ -1,6 +1,6 @@
 ;========================<Gatling Attack>=======================
 [Statedef 1000]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1000
@@ -87,7 +87,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4
 guard.velocity = -4
@@ -133,7 +133,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -2.5,-10
 air.velocity = -2.5,-10
@@ -173,7 +173,7 @@ ctrl = 1
 
 ;Medium
 [Statedef 1010]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1010
@@ -260,7 +260,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4
 guard.velocity = -4
@@ -306,7 +306,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -2.5,-10
 air.velocity = -2.5,-10
@@ -351,7 +351,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -2.5,-10
 air.velocity = -2.5,-10
@@ -412,7 +412,7 @@ ctrl = 1
 
 ;Strong
 [Statedef 1020]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1020
@@ -499,7 +499,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4
 guard.velocity = -4
@@ -545,7 +545,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -2.5,-10
 air.velocity = -2.5,-10
@@ -590,7 +590,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -2.5,-10
 air.velocity = -2.5,-10
@@ -651,7 +651,7 @@ ctrl = 1
 
 ;=======================<EX Gatling Attack>===========================
 [Statedef 1030]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1030
@@ -786,7 +786,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4
 guard.velocity = -4
@@ -834,7 +834,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -2.5,-10
 air.velocity = -2.5,-10
@@ -881,7 +881,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -2.5,-10
 air.velocity = -2.5,-10
@@ -954,7 +954,7 @@ ctrl = 1
 
 ;Death Lake Drive
 [Statedef 1050]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -1044,7 +1044,7 @@ ctrl = 0
 
 ;Death Lake Drive (Success)
 [Statedef 1051]
-type    = A
+type = A
 movetype = A
 physics = N
 velset = 0,0
@@ -1163,7 +1163,7 @@ value = 52
 
 ;Napalm Stretch
 [Statedef 1060]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -1246,7 +1246,7 @@ ctrl = 0
 
 ;Napalm Stretch (Success)
 [Statedef 1061]
-type    = A
+type = A
 movetype = A
 physics = N
 poweradd = 0
@@ -1320,7 +1320,7 @@ ctrl = 0
 
 ;Napalm Stretch (Success) 2
 [Statedef 1062]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -1457,7 +1457,7 @@ ctrl=1
 
 ;========================<Super Argentine Backbreaker>=======================
 [Statedef 1100];special thanks to Infinite
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -1524,7 +1524,7 @@ ctrl = 1
 
 ;Medium
 [Statedef 1110]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -1591,7 +1591,7 @@ ctrl = 1
 
 ;Strong
 [Statedef 1120]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -1648,7 +1648,7 @@ ctrl = 1
 
 ;Super Argentine Backbreaker (Success)
 [Statedef 1101]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1101
@@ -1924,7 +1924,7 @@ ctrl=1
 
 ;Super Argentine Backbreaker (Target)
 [Statedef 1105]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -1970,7 +1970,7 @@ value = 5050
 
 ;Super Argentine Backbreaker (Target) 2
 [Statedef 1106]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -2105,7 +2105,7 @@ value = 5110
 
 ;=======================<EX Super Argentine Backbreaker>===========================
 [Statedef 1130]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1120
@@ -2197,7 +2197,7 @@ ctrl = 1
 
 ;EX Super Argentine Backbreaker (Success)
 [Statedef 1131]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1131
@@ -2460,7 +2460,7 @@ ctrl=1
 
 ;EX Super Argentine Backbreaker (Target) 2
 [Statedef 1136]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -2571,7 +2571,7 @@ value = 5100
 
 ;========================<Napalm Stretch>=======================
 [Statedef 1200]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -2661,7 +2661,7 @@ ctrl = 0
 
 ;Napalm Stretch (Landing)
 [Statedef 1201]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 1201
@@ -2705,7 +2705,7 @@ ctrl = 1
 
 ;Napalm Stretch (Success)
 [Statedef 1210]
-type    = A
+type = A
 movetype = A
 physics = N
 poweradd = 0
@@ -2779,7 +2779,7 @@ ctrl = 0
 
 ;Napalm Stretch (Success) 2
 [Statedef 1211]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -3117,7 +3117,7 @@ value = 5110
 
 ;========================<EX Napalm Stretch>=======================
 [Statedef 1230]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -3231,7 +3231,7 @@ ctrl = 0
 
 ;EX Napalm Stretch (Success)
 [Statedef 1240]
-type    = A
+type = A
 movetype = A
 physics = N
 poweradd = 0
@@ -3305,7 +3305,7 @@ ctrl = 0
 
 ;EX Napalm Stretch (Success) 2
 [Statedef 1241]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -3443,7 +3443,7 @@ ctrl=1
 
 ;========================<Frankensteiner>=======================
 [Statedef 1300]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -3505,7 +3505,7 @@ ctrl = 1
 
 ;Medium
 [Statedef 1310]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -3567,7 +3567,7 @@ ctrl = 1
 
 ;Heavy
 [Statedef 1320]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -3629,7 +3629,7 @@ ctrl = 1
 
 ;Frankensteiner (Success)
 [Statedef 1301]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1301
@@ -3825,7 +3825,7 @@ ctrl=1
 
 ;Frankensteiner (Target)
 [Statedef 1305]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -3843,7 +3843,7 @@ value = 5050
 
 ;Frankensteiner (Target) 2
 [Statedef 1306]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -3971,7 +3971,7 @@ trigger1 = pos y >= 12
 value = 5110
 ;========================<EX Frankensteiner>=======================
 [Statedef 1330]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -4061,7 +4061,7 @@ ctrl = 1
 
 ;EX Frankensteiner (Success)
 [Statedef 1331]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1301
@@ -4253,7 +4253,7 @@ ctrl=1
 
 ;========================<Mount Tackle>=======================
 [Statedef 1400]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1400
@@ -4341,7 +4341,7 @@ ctrl = 1
 
 ;Medium
 [Statedef 1410]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1410
@@ -4429,7 +4429,7 @@ ctrl = 1
 
 ;Heavy
 [Statedef 1420]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1420
@@ -4523,7 +4523,7 @@ ctrl = 1
 
 ;Mount Tackle (Attempt)
 [Statedef 1401]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1401
@@ -4623,7 +4623,7 @@ ctrl = 1
 
 ;Mount Tackle (Success)
 [Statedef 1402]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1402
@@ -4787,7 +4787,7 @@ ctrl=1
 
 ;Mount Tackle (Target)
 [Statedef 1405]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -4805,7 +4805,7 @@ value = 5110
 
 ;========================<EX Mount Tackle>=======================
 [Statedef 1430]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1430
@@ -4927,7 +4927,7 @@ ctrl = 1
 
 ;EX Mount Tackle (Attempt)
 [Statedef 1431]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1401
@@ -5027,7 +5027,7 @@ ctrl = 1
 
 ;EX Mount Tackle (Success)
 [Statedef 1432]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1402
@@ -5191,7 +5191,7 @@ ctrl=1
 
 ;Clark Lift
 [Statedef 1440]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1440
@@ -5415,7 +5415,7 @@ ctrl=1
 
 ;EX Clark Lift
 [Statedef 1441]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1440
@@ -5633,7 +5633,7 @@ ctrl=1
 
 ;Clark Lift (Target)
 [Statedef 1445]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -5657,7 +5657,7 @@ value = 5050
 
 ;Clark Lift (Target) 2
 [Statedef 1446]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = -2,16
@@ -5701,7 +5701,7 @@ value = 5100
 
 ;Reverse D.D.T
 [Statedef 1450]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1450
@@ -5957,7 +5957,7 @@ ctrl=1
 
 ;EX Reverse D.D.T
 [Statedef 1451]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1450
@@ -6207,7 +6207,7 @@ ctrl=1
 
 ;Reverse D.D.T (Target)
 [Statedef 1455]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -6230,7 +6230,7 @@ value = 5100
 
 ;Reverse D.D.T (Target) 2
 [Statedef 1456]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -6362,7 +6362,7 @@ value = 5110
 
 ;Rolling Cradle
 [Statedef 1460]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1460
@@ -6644,7 +6644,7 @@ ctrl=1
 
 ;EX Rolling Cradle
 [Statedef 1461]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1460
@@ -6940,7 +6940,7 @@ ctrl=1
 
 ;Rolling Cradle (Target)
 [Statedef 1465]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -7052,7 +7052,7 @@ value = 5110
 
 ;========================<Shining Wizard>=======================
 [Statedef 1500]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1500
@@ -7113,7 +7113,7 @@ ctrl = 0
 
 ;Medium
 [Statedef 1510]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1510
@@ -7174,7 +7174,7 @@ ctrl = 0
 
 ;Heavy
 [Statedef 1520]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1520
@@ -7235,7 +7235,7 @@ ctrl = 0
 
 ;Shining Wizard (Stop)
 [Statedef 1501]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 1501
@@ -7258,7 +7258,7 @@ ctrl = 1
 
 ;Shining Wizard (Attack)
 [Statedef 1502]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1502
@@ -7303,7 +7303,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = 0
 guard.velocity = 0
@@ -7346,7 +7346,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4,-7
 guard.velocity = -8
@@ -7424,7 +7424,7 @@ ctrl = 1
 
 ;========================<EX Shining Wizard>=======================
 [Statedef 1530]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1520
@@ -7515,7 +7515,7 @@ ctrl = 0
 
 ;EX Shining Wizard (Stop)
 [Statedef 1531]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 1501
@@ -7544,7 +7544,7 @@ ctrl = 1
 
 ;EX Shining Wizard (Attack)
 [Statedef 1532]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1502
@@ -7589,7 +7589,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = 0
 guard.velocity = 0
@@ -7633,7 +7633,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4,-7
 guard.velocity = -8
@@ -7726,7 +7726,7 @@ ctrl = 1
 
 ;Frankensteiner
 [Statedef 1533]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1301
@@ -7922,7 +7922,7 @@ ctrl=1
 
 ;========================<Flashing Elbow>=======================
 [Statedef 1600]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 100
@@ -7976,7 +7976,7 @@ ctrl = 1
 
 ;Flashing Elbow (Attempt)
 [Statedef 1610]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1610
@@ -8165,7 +8165,7 @@ value = 5100
 
 ;========================<EX Flashing Elbow>=======================
 [Statedef 1630]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 100
@@ -8219,7 +8219,7 @@ ctrl = 1
 
 ;EX Flashing Elbow (Attempt)
 [Statedef 1640]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1610

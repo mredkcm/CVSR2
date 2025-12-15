@@ -673,7 +673,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -7.5, -6.5
 air.velocity = -7.5, -5.85
@@ -719,7 +719,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -7.5, -6.5
 air.velocity = -7.5, -5.85
@@ -942,7 +942,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 38
-ground.hittime  = 38
+ground.hittime = 38
 guard.hittime = 18
 ground.velocity = -8
 air.velocity = -6, -7.5
@@ -1124,7 +1124,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 38
-ground.hittime  = 38
+ground.hittime = 38
 guard.hittime = 18
 ground.velocity = -4
 air.velocity = -4, -6.5
@@ -1170,7 +1170,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 24
-ground.hittime  = 24
+ground.hittime = 24
 guard.hittime = 18
 ground.velocity = -2, -9.5
 air.velocity = -2, -9.5
@@ -1215,7 +1215,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.5, -10.5
 air.velocity = -1.5, -10.5
@@ -1285,7 +1285,7 @@ ctrl = 1
 
 ;======================<NEO DEADLY RAVE>===================
 [Statedef 3200]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -1432,7 +1432,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 36
-ground.hittime  = 36
+ground.hittime = 36
 guard.hittime = 18
 ground.velocity = 0
 air.velocity = -4.5, -8
@@ -1552,7 +1552,7 @@ ctrl = 1
 
 ;1st Attack(Success)
 [Statedef 3202]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 3,0
@@ -1625,7 +1625,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 36
-ground.hittime  = 36
+ground.hittime = 36
 guard.hittime = 18
 ground.velocity = 0
 air.velocity = -4.5, -8
@@ -1666,7 +1666,7 @@ ctrl = 1
 
 ;2nd Attack(Success)
 [Statedef 3203]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 3,0
@@ -1739,7 +1739,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 36
-ground.hittime  = 36
+ground.hittime = 36
 guard.hittime = 18
 ground.velocity = 0
 air.velocity = -4.5, -8
@@ -1780,7 +1780,7 @@ ctrl = 1
 
 ;3rd Attack(Success)
 [Statedef 3204]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 3,0
@@ -1853,7 +1853,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 36
-ground.hittime  = 36
+ground.hittime = 36
 guard.hittime = 18
 ground.velocity = 0
 air.velocity = -4.5, -8
@@ -1894,7 +1894,7 @@ ctrl = 1
 
 ;4th Attack(Success)
 [Statedef 3205]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 3,0
@@ -1967,7 +1967,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 36
-ground.hittime  = 36
+ground.hittime = 36
 guard.hittime = 18
 ground.velocity = 0
 air.velocity = -4.5, -8
@@ -2008,7 +2008,7 @@ ctrl = 1
 
 ;5th Attack(Success)
 [Statedef 3206]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 3,0
@@ -2081,7 +2081,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 36
-ground.hittime  = 36
+ground.hittime = 36
 guard.hittime = 18
 ground.velocity = 0
 air.velocity = -4.5, -8
@@ -2122,7 +2122,7 @@ ctrl = 1
 
 ;6th Attack(Success)
 [Statedef 3207]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 3,0
@@ -2195,7 +2195,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 36
-ground.hittime  = 36
+ground.hittime = 36
 guard.hittime = 18
 ground.velocity = 0
 air.velocity = -4.5, -8
@@ -2236,7 +2236,7 @@ ctrl = 1
 
 ;7th Attack(Success)
 [Statedef 3208]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 3,0
@@ -2309,7 +2309,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 36
-ground.hittime  = 36
+ground.hittime = 36
 guard.hittime = 18
 ground.velocity = 0
 air.velocity = -4.5, -8
@@ -2350,7 +2350,7 @@ ctrl = 1
 
 ;8th Attack(Success)
 [Statedef 3209]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 3,0
@@ -2424,7 +2424,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 36
-ground.hittime  = 36
+ground.hittime = 36
 guard.hittime = 18
 ground.velocity = 0
 air.velocity = -4.5, -8
@@ -2577,7 +2577,7 @@ ctrl = 1
 [StateDef 3290]
 type = S
 moveType = H
-physics  = N
+physics = N
 velSet = 0,0
 
 [State 3290, PosSet]

@@ -168,7 +168,7 @@ value=5100
 ;---------------------------------------------------------------------------
 ;Off screen Knockback
 [Statedef 4020]
-type    = A
+type = A
 movetype= H
 physics = N
 juggle = 1
@@ -196,7 +196,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Off screen Knockback Fall
 [Statedef 4021]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -229,7 +229,7 @@ trigger1 = time>=100
 value = Ifelse(Alive,5120,5150)
 ;---------------------------------------------------------------------------
 [Statedef 4058]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -266,7 +266,7 @@ value = 0
 ctrl = 1
 ;---------------------------------------------------------------------------
 [Statedef 4059]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -320,7 +320,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Wall-knockdown
 [Statedef 4060]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -363,7 +363,7 @@ value = 4061
 ;---------------------------------------------------------------------------
 ;Wall-knockdown Hit Wall
 [Statedef 4061]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -414,7 +414,7 @@ value = 4062
 ;---------------------------------------------------------------------------
 ;Wall-knockdown Fall
 [Statedef 4062]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -467,7 +467,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Custom-ceiling bounce
 [Statedef 4065]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

@@ -593,7 +593,7 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ;ShunSetsuZan
 [Statedef 1201]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -649,7 +649,7 @@ fall.animtype=Back
 ground.type=High
 air.type=High
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -3.6
 guard.velocity = -2.5
@@ -692,7 +692,7 @@ fall.animtype=Back
 ground.type=High
 air.type=High
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity=-ifelse(Var(10)=2,2,ifelse(Var(10)=0,8.25,3)),-ifelse(Var(10)=2,11,ifelse(var(10)=0,0,10))
 air.velocity=Ifelse(var(20),-3,-6),Ifelse(var(20),-6.5,-5)
@@ -1452,7 +1452,7 @@ ctrl=1
 ;------------------------------------------------------------------
 ;Hyoukyou(Counter)
 [Statedef 1405]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -1572,7 +1572,7 @@ ctrl = 1
 ;------------------------------------------------------------------
 ;Hyoukyou(Counter2)
 [Statedef 1406]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0

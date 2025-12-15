@@ -2384,7 +2384,7 @@ value = 5050
 ;---------------------------------------------------------------------------
 ;Throw - Target 2
 [Statedef 816]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 5.25,-7.5
@@ -2612,7 +2612,7 @@ value = 826
 ;---------------------------------------------------------------------------
 ;Throw - Target 2
 [Statedef 826]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 5.25,-7.5

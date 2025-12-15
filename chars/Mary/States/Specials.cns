@@ -307,7 +307,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Spin Fall (Land)
 [Statedef 1005]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 1005
@@ -393,7 +393,7 @@ value = -4
 
 [State 1007]
 type = ChangeAnim
-triggerall = anim  = 5970
+triggerall = anim = 5970
 trigger1 = animtime = 0
 value = anim
 elem = 3
@@ -1039,7 +1039,7 @@ value = 106
 ;---------------------------------------------------------------------------
 ;Vertical Arrow (Land)
 [Statedef 1106]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 1106
@@ -1727,7 +1727,7 @@ value = 5975
 
 [State 1204]
 type = ChangeAnim
-triggerall = anim  = 5975
+triggerall = anim = 5975
 trigger1 = animtime = 0
 value = anim
 elem = 3

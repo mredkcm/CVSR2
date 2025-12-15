@@ -1,10 +1,10 @@
 ;--------------------------------------------------------------------
 ; Crescent Moon Slash weak
 [Statedef 1000]
-type     = S
+type = S
 movetype = A
-physics  = N
-juggle   = 4
+physics = N
+juggle = 4
 poweradd= 120
 velset = 0,0
 anim = 1000
@@ -41,20 +41,20 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem = 9
 trigger2 = AnimElem = 10
 attr = A, SA
-animtype  = Hard
-damage    = 33,2
-priority  = 5
+animtype = Hard
+damage = 33,2
+priority = 5
 guardflag = MA
 pausetime = 6,7
 hitflag = MAF
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -60
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s10,6
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -7
 air.velocity = -4,-2.5
 palfx.time = 20
@@ -75,20 +75,20 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem = 12
 attr = S, SA
-animtype  = Hard
-damage    = 50,2
-priority  = 5
+animtype = Hard
+damage = 50,2
+priority = 5
 guardflag = MA
 pausetime = 12,12
 hitflag = MAF
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -30
-hitsound   = s2,4
+hitsound = s2,4
 guardsound = s10,7
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -5,-3.5     
 air.velocity = -4,-3
 fall = 1
@@ -194,10 +194,10 @@ ctrl = 1
 ;--------------------------------------------------------------------
 ; Crescent Moon Slash hard
 [Statedef 1010]
-type     = S
+type = S
 movetype = A
-physics  = N
-juggle   = 4
+physics = N
+juggle = 4
 poweradd= 100
 velset = 0,0
 anim = 1010
@@ -288,20 +288,20 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem = 9
 trigger2 = AnimElem = 10
 attr = A, SA
-animtype  = Hard
-damage    = 40,2
-priority  = 5
+animtype = Hard
+damage = 40,2
+priority = 5
 hitflag = MAF
 guardflag = MA
 pausetime = 8,9
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -60
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s10,6
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -7
 air.velocity = -4,-2.5
 palfx.time = 30
@@ -322,20 +322,20 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem = 12
 attr = S, SA
-animtype  = Hard
-damage    = 70,2
-priority  = 5
+animtype = Hard
+damage = 70,2
+priority = 5
 hitflag = MAF
 guardflag = MA
 pausetime = 12,12
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -30
-hitsound   = s2,4
+hitsound = s2,4
 guardsound = s10,7
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -5,-4.5     
 air.velocity = -4,-3
 fall = 1
@@ -387,7 +387,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hienzan Weak
 [Statedef 1020]
-type    = S
+type = S
 movetype= A
 physics= S
 anim = 1020
@@ -407,7 +407,7 @@ value = 1021
 ;---------------------------------------------------------------------------
 ;Hienzan Weak going up
 [Statedef 1021]
-type    = A
+type = A
 movetype= A
 anim = 1021
 ctrl = 0
@@ -565,7 +565,7 @@ value = 1022
 ;---------------------------------------------------------------------------
 ;Hienzan (land on ground)
 [Statedef 1022]
-type    = S
+type = S
 movetype= I
 physics = S
 ownpal = 1
@@ -574,9 +574,9 @@ ownpal = 1
 type = AfterImage
 trigger1 = time = 0
 time = 0
-PalBright   =   0,  0,  0
+PalBright =   0,  0,  0
 PalContrast = 128,128,128
-PalMul      =  1,1,1
+PalMul =  1,1,1
 framegap = 6
 
 [State 1022, 1]
@@ -608,7 +608,7 @@ value = 0
 ;---------------------------------------------------------------------------
 ;Hienzan Strong
 [Statedef 1030]
-type    = S
+type = S
 movetype= A
 physics= S
 anim = 1030
@@ -628,7 +628,7 @@ value = 1031
 ;---------------------------------------------------------------------------
 ;Hienzan Strong
 [Statedef 1031]
-type    = A
+type = A
 movetype= A
 anim = 1031
 ctrl = 0
@@ -832,7 +832,7 @@ value = 1022
 ;---------------------------------------------------------------------------
 ; Hienzan Extra Hit
 [Statedef 1032]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 1032
@@ -952,9 +952,9 @@ value = 1022
 ;--------------------------------------------------------------------
 ; Ryuusei Raku weak
 [Statedef 1040]
-type     = S
+type = S
 movetype = A
-physics  = N
+physics = N
 poweradd= 120
 velset = 0,0
 anim = 1040
@@ -975,20 +975,20 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem = 5
 attr = S, SA
-animtype  = Hard
-damage    = 60,6
-priority  = 5
+animtype = Hard
+damage = 60,6
+priority = 5
 hitflag = MAF
 guardflag = L
 pausetime = 15,15
-hitsound   = s2,13
+hitsound = s2,13
 guardsound = s10,7
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -20
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -2.5,-7   
 air.velocity = -2.5,-7
 ground.cornerpush.veloff = -5.5
@@ -1025,7 +1025,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Ryuusei Raku going up
 [Statedef 1041]
-type    = A
+type = A
 movetype= A
 phsyics = N
 anim = 1041
@@ -1134,9 +1134,9 @@ value = 1022
 ;--------------------------------------------------------------------
 ; Ryuusei Raku strong
 [Statedef 1050]
-type     = S
+type = S
 movetype = A
-physics  = N
+physics = N
 poweradd= 120
 velset = 0,0
 anim = 1050
@@ -1157,20 +1157,20 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem = 5
 attr = S, SA
-animtype  = Hard
-damage    = 65,6
-priority  = 5
+animtype = Hard
+damage = 65,6
+priority = 5
 guardflag = L
 pausetime = 15,15
 hitflag = MAF
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -20
-hitsound   = s2,13
+hitsound = s2,13
 guardsound = s10,7
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -3, -7   
 air.velocity = -3,-7
 envshake.time = 5
@@ -1204,7 +1204,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Ryuusei Raku going up
 [Statedef 1051]
-type    = A
+type = A
 movetype= A
 anim = 1041
 ctrl = 0
@@ -1312,7 +1312,7 @@ value = 1022
 ;---------------------------------------------------------------------------
 ; Shakka Shuu 
 [Statedef 1060]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 1060
@@ -1370,7 +1370,7 @@ value = 1061
 ;---------------------------------------------------------------------------
 ; Shakka Shuu Cont
 [Statedef 1061]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 1061
@@ -1379,13 +1379,13 @@ ownpal = 1
 
 [State 1061, 1]
 type = velset
-trigger1  = Time = 0
+trigger1 = Time = 0
 x = 8.5
 y = 0
 
 [State 1061, 1]
 type = velset
-trigger1  = AnimElem = 4
+trigger1 = AnimElem = 4
 x = 0
 y = 0
 
@@ -1476,7 +1476,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Shakka Shuu 
 [Statedef 1070]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 1070
@@ -1554,7 +1554,7 @@ value = 1071
 ;---------------------------------------------------------------------------
 ; Shakka Shuu Cont
 [Statedef 1071]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 1071
@@ -1563,13 +1563,13 @@ ownpal = 1
 
 [State 1071, 1]
 type = velset
-trigger1  = Time = 0
+trigger1 = Time = 0
 x = 15
 y = 0
 
 [State 1071, 1]
 type = velset
-trigger1  = AnimElem = 4
+trigger1 = AnimElem = 4
 x = 0
 y = 0
 
@@ -1658,9 +1658,9 @@ ctrl = 1
 ;-------------------------------------------------------------------
 ;Hishou KYAKU 
 [Statedef 1080]
-type    = A
+type = A
 movetype= A
-juggle  = 4
+juggle = 4
 poweradd= 110
 anim = 1080
 velset = 0,0
@@ -1687,20 +1687,20 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = Time >= 9
 attr = S, SA
-animtype  = Hard
-damage    = 25,10
-priority  = 6
+animtype = Hard
+damage = 25,10
+priority = 6
 hitflag = MAF
 guardflag = MA
 pausetime = 7,7
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -10
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s10,6
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -5
 air.velocity = -3
 envshake.time = 5
@@ -1724,9 +1724,9 @@ value = 1022
 ;--------------------------------------------------------------------
 ;Hishou KYAKU HIT 
 [Statedef 1081]
-type    = A
+type = A
 movetype= A
-juggle  = 1
+juggle = 1
 anim = 1081
 velset = 0,0
 ctrl = 0
@@ -1744,22 +1744,22 @@ trigger1 = AnimElem = 3
 trigger2 = AnimElem = 6
 trigger3 = AnimElem = 9
 attr = S, SA
-animtype  = Hard
-damage    = 25,4
+animtype = Hard
+damage = 25,4
 getpower = 30
 givepower = 25
-priority  = 7
+priority = 7
 hitflag = MAF
 guardflag = MA
 pausetime = 7,9
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -10
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s10,6
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -5
 air.velocity = -3
 envshake.time = 5
@@ -1792,7 +1792,7 @@ value = 1082
 ;--------------------------------------------------------------------
 ;HI SHO KYAKU (land on ground)
 [Statedef 1082]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 1022
@@ -1821,9 +1821,9 @@ value = 0
 ;-------------------------------------------------------------------
 ;Hishou KYAKU 
 [Statedef 1090]
-type    = A
+type = A
 movetype= A
-juggle  = 4
+juggle = 4
 poweradd= 110
 anim = 1080
 velset = 0,0
@@ -1850,20 +1850,20 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = Time >= 9
 attr = S, SA
-animtype  = Hard
-damage    = 25,10
-priority  = 6
+animtype = Hard
+damage = 25,10
+priority = 6
 hitflag = MAF
 guardflag = MA
 pausetime = 7,7
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -10
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s10,6
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -5
 air.velocity = -5
 envshake.time = 5
@@ -1887,9 +1887,9 @@ value = 1022
 ;--------------------------------------------------------------------
 ;Hishou KYAKU HIT 
 [Statedef 1091]
-type    = A
+type = A
 movetype= A
-juggle  = 1
+juggle = 1
 anim = 1081
 velset = 0,0
 ctrl = 0
@@ -1907,22 +1907,22 @@ trigger1 = AnimElem = 3
 trigger2 = AnimElem = 6
 trigger3 = AnimElem = 9
 attr = S, SA
-animtype  = Hard
-damage    = 30,5
+animtype = Hard
+damage = 30,5
 getpower = 30
 givepower = 25
-priority  = 5
+priority = 5
 hitflag = MAF
 guardflag = MA
 pausetime = 7,9
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -10
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s10,6
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -5
 air.velocity = -5
 envshake.time = 5
@@ -1955,7 +1955,7 @@ value = 1082
 ;--------------------------------------------------------------------
 ;HI SHO KYAKU Extra Hit
 [Statedef 1083]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1083
@@ -1994,17 +1994,17 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem = 5
 attr = C, SA
-damage   = 55,10
+damage = 55,10
 guardflag = L
 pausetime = 12,12
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -16
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s10,7
 ground.type = Trip
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -3,-4.5     
 guard.velocity = -5
 air.velocity = -3,-3
@@ -2044,7 +2044,7 @@ ctrl = 1
 ;-------------------------------------------------------------------
 ;Hishou KYAKU into QCB+K
 [Statedef 1095]
-type    = A
+type = A
 movetype= A
 poweradd= 100
 anim = 1090
@@ -2092,20 +2092,20 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem = 14
 attr = S, SA
-animtype  = Hard
-damage    = 80,10
-priority  = 6
+animtype = Hard
+damage = 80,10
+priority = 6
 guardflag = MA
 pausetime = 7,10
 hitflag = MAF
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -15
-hitsound   = s2,4
+hitsound = s2,4
 guardsound = s10,7
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -3, -4    
 air.velocity = -3, -4
 fall = 1
@@ -2160,10 +2160,10 @@ value = 1022
 ;---------------------------------------------------------------------------
 ;DP_A (on the ground)
 [Statedef 2000]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 5
+juggle = 5
 poweradd= 100
 anim = 2000
 velset = 0,0
@@ -2179,9 +2179,9 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem = 4
 attr = S, SA
-damage    = 40, 5
-animtype  = Med
-getpower  = 25
+damage = 40, 5
+animtype = Med
+getpower = 25
 givepower = 15
 priority = 5
 hitflag = MAF
@@ -2190,11 +2190,11 @@ pausetime = 14,14
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -15 + 0 * (var(35) := 155), var(36) := -50
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s10,6
 ground.type = Low
 ground.slidetime = 10
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -1.2, -3
 air.velocity = -1.2,-4
 envshake.time = 5
@@ -2213,10 +2213,10 @@ value = 2001
 ;---------------------------------------------------------------------------
 ;DP_A (going up)
 [Statedef 2001]
-type   = A
+type = A
 movetype = A
 physics = N
-juggle  = 8
+juggle = 8
 poweradd= 10
 
 [State 2001, 2]
@@ -2244,19 +2244,19 @@ trigger3 = AnimElem = 18
 trigger4 = AnimElem = 24
 attr = A, SA
 priority = 5
-damage    = 20, 5
-getpower  = 20
+damage = 20, 5
+getpower = 20
 givepower = 15
 guardflag = MA
 pausetime = 8,8
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -15 + 0 * (var(35) := 155), var(36) := -90
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s10,6
 ground.type = High
 ground.slidetime = 10
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -1.2,-7.5
 air.velocity = -1.8,-7.5
 guard.velocity = -7
@@ -2290,10 +2290,10 @@ value = 52
 ;---------------------------------------------------------------------------
 ;DP_X (on the ground)
 [Statedef 2010]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 5
+juggle = 5
 poweradd = 100
 anim = 2000
 velset = 0,0
@@ -2309,9 +2309,9 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem = 4
 attr = S, SA
-damage    = 60, 5
-animtype  = Med
-getpower  = 25
+damage = 60, 5
+animtype = Med
+getpower = 25
 givepower = 15
 priority = 5
 hitflag = MAF
@@ -2320,11 +2320,11 @@ pausetime = 15,15
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -15 + 0 * (var(35) := 155), var(36) := -50
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s10,6
 ground.type = Low
 ground.slidetime = 10
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -1.2, -3
 air.velocity = -1.2,-4
 envshake.time = 5
@@ -2343,10 +2343,10 @@ value = 2011
 ;---------------------------------------------------------------------------
 ;DP_X (going up)
 [Statedef 2011]
-type   = A
+type = A
 movetype = A
 physics = N
-juggle  = 8
+juggle = 8
 poweradd = 15
 
 [State 2011, 2]
@@ -2374,19 +2374,19 @@ trigger3 = AnimElem = 18
 trigger4 = AnimElem = 24
 attr = A, SA
 priority = 5
-damage    = 22, 5
-getpower  = 20
+damage = 22, 5
+getpower = 20
 givepower = 15
 guardflag = MA
 pausetime = 9,9
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -20 + 0 * (var(35) := 155), var(36) := -90
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s10,6
 ground.type = High
 ground.slidetime = 10
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -1,-6
 air.velocity = -1.5,-5
 guard.velocity = -7
@@ -2427,11 +2427,11 @@ value = 52
 ;---------------------------------------------------------------------------
 ;DP_X (Extra Hit)
 [Statedef 2013]
-type   = A
+type = A
 movetype = A
 anim = 2002
 physics = N
-;juggle  = 8
+;juggle = 8
 poweradd = 15
 
 [State 2013, 1]
@@ -2452,19 +2452,19 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem = 10
 attr = A, SA
 priority = 5
-damage    = 25, 5
-getpower  = 20
+damage = 25, 5
+getpower = 20
 givepower = 15
 guardflag = MA
 pausetime = 12,12
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -23 + 0 * (var(35) := 155), var(36) := -50
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s10,6
 ground.type = low
 ground.slidetime = 10
-ground.hittime  = 15
+ground.hittime = 15
 air.type = low
 ground.velocity = -1.8,7.5
 air.velocity = -1.8,7.5
@@ -2499,10 +2499,10 @@ value = 52
 ;--------------------------------------------------------------------
 ; EX Crescent Moon Slash hard
 [Statedef 1100]
-type     = S
+type = S
 movetype = A
-physics  = N
-juggle   = 4
+physics = N
+juggle = 4
 velset = 0,0
 anim = 1010
 ctrl = 0
@@ -2633,20 +2633,20 @@ trigger1 = AnimElem = 9
 trigger2 = AnimElem = 10
 trigger3 = AnimElem = 11
 attr = A, SA
-animtype  = Hard
-damage    = 40,2
-priority  = 5
+animtype = Hard
+damage = 40,2
+priority = 5
 hitflag = MAF
 guardflag = MA
 pausetime = 8,9
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -60
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s10,6
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -7
 air.velocity = -4,-2.5
 palfx.time = 30
@@ -2667,20 +2667,20 @@ type = Hitdef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem = 12
 attr = S, SA
-animtype  = Hard
-damage    = 70,2
-priority  = 5
+animtype = Hard
+damage = 70,2
+priority = 5
 hitflag = MAF
 guardflag = MA
 pausetime = 12,12
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -30
-hitsound   = s2,4
+hitsound = s2,4
 guardsound = s10,7
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -5,-4.5     
 air.velocity = -4,-3
 fall = 1
@@ -2732,7 +2732,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Hienzan Strong
 [Statedef 1200]
-type    = S
+type = S
 movetype= A
 physics= S
 anim = 1030
@@ -2781,7 +2781,7 @@ value = 1201
 ;---------------------------------------------------------------------------
 ;EXHienzan Strong
 [Statedef 1201]
-type    = A
+type = A
 movetype= A
 anim = 1031
 ctrl = 0
@@ -3025,9 +3025,9 @@ value = 1022
 ;--------------------------------------------------------------------
 ;EX Ryuusei Raku strong
 [Statedef 1300]
-type     = S
+type = S
 movetype = A
-physics  = N
+physics = N
 velset = 0,0
 anim = 1050
 ctrl = 0
@@ -3089,20 +3089,20 @@ trigger1 = AnimElem = 5
 trigger2 = AnimElem = 6
 trigger3 = AnimElem = 7
 attr = S, SA
-animtype  = Hard
-damage    = 65,6
-priority  = 5
+animtype = Hard
+damage = 65,6
+priority = 5
 guardflag = L
 pausetime = 15,15
 hitflag = MAF
 sparkno = -1 + 0 * (var(33) := 8013)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -20
-hitsound   = s2,13
+hitsound = s2,13
 guardsound = s10,7
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -3, -7   
 air.velocity = -3,-7
 envshake.time = 5
@@ -3136,7 +3136,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;EX Ryuusei Raku going up
 [Statedef 1301]
-type    = A
+type = A
 movetype= A
 anim = 1041
 ctrl = 0
@@ -3246,7 +3246,7 @@ value = 1022
 ;---------------------------------------------------------------------------
 ; EX Shakka Shuu 
 [Statedef 1400]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 1070
@@ -3362,7 +3362,7 @@ value = 1401
 ;---------------------------------------------------------------------------
 ; EX Shakka Shuu Cont
 [Statedef 1401]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 1072
@@ -3371,13 +3371,13 @@ ownpal = 1
 
 [State 1071, 1]
 type = velset
-trigger1  = Time = 0
+trigger1 = Time = 0
 x = 15
 y = 0
 
 [State 1071, 1]
 type = velset
-trigger1  = AnimElem = 4
+trigger1 = AnimElem = 4
 x = 0
 y = 0
 

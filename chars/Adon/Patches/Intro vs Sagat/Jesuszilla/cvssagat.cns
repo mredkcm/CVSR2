@@ -135,11 +135,11 @@
 
 
 [Data]
-life = 1028
+life = 1000
 attack = 100
 defence = 100
 fall.defence_up = 0
-liedown.time = 15
+lieDown.time = 15
 airjuggle = 15
 sparkno = 2
 guard.sparkno = 40
@@ -165,9 +165,9 @@ shadowoffset = 0				;Number of pixels to vertically offset the shadow
 draw.offset = 0,0				;Player drawing offset in pixels (x, y)
 
 [Velocity]
-walk.fwd  = 2.5		;Walk forward
+walk.fwd = 2.5		;Walk forward
 walk.back = -2		;Walk backward
-run.fwd  = 4.5, 0		;Run forward (x, y)
+run.fwd = 4.5, 0		;Run forward (x, y)
 run.back = -5.5,-2		;Hop backward (x, y)
 jump.neu = 0,-7.375		;Neutral jumping velocity (x, y)
 jump.back = -2.75,-7.625	;Jump back Speed (x, y)
@@ -194,7 +194,7 @@ victory8 = "I will make your pride and confidence wither the same way I broke yo
 ;---------------------------------------------------------------------------
 ; Jump Start
 [Statedef 40]
-type    = S
+type = S
 physics = S
 anim = ifElse(Var(6)>0,50,40)
 ctrl = 0
@@ -324,7 +324,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Jump Up
 [Statedef 50]
-type    = A
+type = A
 physics = N
 movetype = I
 
@@ -352,7 +352,7 @@ PalAdd = 0,0,0
 PalMul = .5,.5,.5
 length = 9
 trans = add1
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 
 [State 50, VelAdd]
@@ -376,7 +376,7 @@ value = 52
 ;---------------------------------------------------------------------------
 ; RUN_FWD
 [Statedef 100]
-type    = S
+type = S
 physics = S
 anim = 100
 sprpriority = 1
@@ -488,7 +488,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Dash Forward
 [Statedef 102]
-type    = A
+type = A
 physics = N
 ctrl = 0
 anim = 102
@@ -530,7 +530,7 @@ value = 103
 ;---------------------------------------------------------------------------
 ; Dash Forward Land
 [Statedef 103]
-type    = S
+type = S
 physics = N
 ctrl = 1
 anim = 103
@@ -1029,7 +1029,7 @@ x = -(var(10)) * facing
 
 [State 194, 3]
 type = ChangeState
-trigger1 = AnimTime  = 0
+trigger1 = AnimTime = 0
 value = 192
 
 ;---------------------------------------------------------------------------
@@ -1058,10 +1058,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Light Punch
 [Statedef 200]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 velset = 0,0
 ctrl = 0
 anim = 200
@@ -1107,7 +1107,7 @@ hitsound = S3,0
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 10+(Var(21)*2)
-ground.hittime  = 10+(Var(21)*2)
+ground.hittime = 10+(Var(21)*2)
 ground.velocity = -5.77*(2-(Var(30)>0))/2
 guard.velocity = -5.77*(2-(Var(30)>0))/2
 guard.ctrltime = 11
@@ -1137,10 +1137,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Punch
 [Statedef 210]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 poweradd= 17*(1000+Var(40))/1000*ifElse((Var(29)||Var(30)),0,1)
 ctrl = 0
 velset = 0,0
@@ -1187,7 +1187,7 @@ hitsound = S3,1
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 14+(Var(21)*3)
-ground.hittime  = 14+(Var(21)*3)
+ground.hittime = 14+(Var(21)*3)
 ground.velocity = -7.66*(2-(Var(30)>0))/2
 guard.velocity = -7.66*(2-(Var(30)>0))/2
 guard.ctrltime = 15
@@ -1216,10 +1216,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Strong Punch
 [Statedef 220]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 poweradd= 17*(1000+Var(40))/1000*ifElse((Var(29)||Var(30)),0,1)
 ctrl = 0
 velset = 0,0
@@ -1266,7 +1266,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 17+(Var(21)*4)
-ground.hittime  = 17+(Var(21)*4)
+ground.hittime = 17+(Var(21)*4)
 ground.velocity = -8.125*(2-(Var(30)>0))/2
 guard.velocity = -8.125*(2-(Var(30)>0))/2
 guard.ctrltime = 17
@@ -1310,7 +1310,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 17+(Var(21)*4)
-ground.hittime  = 17+(Var(21)*4)
+ground.hittime = 17+(Var(21)*4)
 ground.velocity = (fvar(4):=-5),(fvar(5):=-4.296875*(5.0/4.0))
 guard.velocity = -8.125*(2-(Var(30)>0))/2
 guard.ctrltime = 17
@@ -1337,10 +1337,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Strong Punch (close)
 [Statedef 225]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 poweradd= 17*(1000+Var(40))/1000*ifElse((Var(29)||Var(30)),0,1)
 ctrl = 0
 velset = 0,0
@@ -1392,7 +1392,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 17+(Var(21)*4)
-ground.hittime  = 17+(Var(21)*4)
+ground.hittime = 17+(Var(21)*4)
 ground.velocity = -8.125*(2-(Var(30)>0))/2
 guard.velocity = -8.125*(2-(Var(30)>0))/2
 guard.ctrltime = 17
@@ -1434,7 +1434,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 17+(Var(21)*4)
-ground.hittime  = 17+(Var(21)*4)
+ground.hittime = 17+(Var(21)*4)
 ground.velocity = -8.125*(2-(Var(30)>0))/2
 guard.velocity = -8.125*(2-(Var(30)>0))/2
 guard.ctrltime = 17
@@ -1463,10 +1463,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Light Kick
 [Statedef 230]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 poweradd= 0
 ctrl = 0
 velset = 0,0
@@ -1513,7 +1513,7 @@ hitsound = S4,0
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 10+(Var(21)*2)
-ground.hittime  = 10+(Var(21)*2)
+ground.hittime = 10+(Var(21)*2)
 ground.velocity = -5.77*(2-(Var(30)>0))/2
 guard.velocity = -5.77*(2-(Var(30)>0))/2
 guard.ctrltime = 11
@@ -1554,7 +1554,7 @@ hitsound = S4,0
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 10+(Var(21)*2)
-ground.hittime  = 10+(Var(21)*2)
+ground.hittime = 10+(Var(21)*2)
 ground.velocity = -5.77*(2-(Var(30)>0))/2
 guard.velocity = -5.77*(2-(Var(30)>0))/2
 guard.ctrltime = 11
@@ -1598,10 +1598,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Kick
 [Statedef 240]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 poweradd= 17*(1000+Var(40))/1000*ifElse((Var(29)||Var(30)),0,1)
 ctrl = 0
 velset = 0,0
@@ -1648,7 +1648,7 @@ hitsound = S4,1
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 14+(Var(21)*3)
-ground.hittime  = 14+(Var(21)*3)
+ground.hittime = 14+(Var(21)*3)
 ground.velocity = -7.66*(2-(Var(30)>0))/2
 guard.velocity = -7.66*(2-(Var(30)>0))/2
 guard.ctrltime = 15
@@ -1690,7 +1690,7 @@ hitsound = S4,1
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 14+(Var(21)*3)
-ground.hittime  = 14+(Var(21)*3)
+ground.hittime = 14+(Var(21)*3)
 ground.velocity = -7.66*(2-(Var(30)>0))/2
 guard.velocity = -7.66*(2-(Var(30)>0))/2
 guard.ctrltime = 15
@@ -1720,10 +1720,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Strong Kick
 [Statedef 250]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 8
+juggle = 8
 poweradd= 17*(1000+Var(40))/1000*ifElse((Var(29)||Var(30)),0,1)
 ctrl = 0
 velset = 0,0
@@ -1770,7 +1770,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 17+(Var(21)*4)
-ground.hittime  = 17+(Var(21)*4)
+ground.hittime = 17+(Var(21)*4)
 ground.velocity = -8.125*(2-(Var(30)>0))/2
 guard.velocity = -8.125*(2-(Var(30)>0))/2
 guard.ctrltime = 17
@@ -1811,7 +1811,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 17+(Var(21)*4)
-ground.hittime  = 17+(Var(21)*4)
+ground.hittime = 17+(Var(21)*4)
 ground.velocity = -8.125*(2-(Var(30)>0))/2
 guard.velocity = -8.125*(2-(Var(30)>0))/2
 guard.ctrltime = 17
@@ -1840,10 +1840,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Light Punch
 [Statedef 400]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 8
+juggle = 8
 poweradd= 0
 ctrl = 0
 anim = 400
@@ -1890,7 +1890,7 @@ hitsound = S3,0
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 10+(Var(21)*2)
-ground.hittime  = 10+(Var(21)*2)
+ground.hittime = 10+(Var(21)*2)
 ground.velocity = -5.77*(2-(Var(30)>0))/2
 guard.velocity = -5.77*(2-(Var(30)>0))/2
 guard.ctrltime = 11
@@ -1919,10 +1919,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Medium Punch
 [Statedef 410]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 8
+juggle = 8
 poweradd= 17*(1000+Var(40))/1000*ifElse((Var(29)||Var(30)),0,1)
 ctrl = 0
 anim = 410
@@ -1969,7 +1969,7 @@ hitsound = S3,1
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 14+(Var(21)*3)
-ground.hittime  = 14+(Var(21)*3)
+ground.hittime = 14+(Var(21)*3)
 ground.velocity = -7.66*(2-(Var(30)>0))/2
 guard.velocity = -7.66*(2-(Var(30)>0))/2
 guard.ctrltime = 15
@@ -1998,10 +1998,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Strong Punch
 [Statedef 420]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 8
+juggle = 8
 poweradd= 17*(1000+Var(40))/1000*ifElse((Var(29)||Var(30)),0,1)
 ctrl = 0
 anim = 420
@@ -2048,7 +2048,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 17+(Var(21)*4)
-ground.hittime  = 17+(Var(21)*4)
+ground.hittime = 17+(Var(21)*4)
 ground.velocity = -8.125*(2-(Var(30)>0))/2
 guard.velocity = -8.125*(2-(Var(30)>0))/2
 guard.ctrltime = 17
@@ -2077,10 +2077,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Light Kick
 [Statedef 430]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 8
+juggle = 8
 poweradd= 0
 ctrl = 0
 anim = 430
@@ -2127,7 +2127,7 @@ hitsound = S4,0
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 10+(Var(21)*2)
-ground.hittime  = 10+(Var(21)*2)
+ground.hittime = 10+(Var(21)*2)
 ground.velocity = -5.77*(2-(Var(30)>0))/2
 guard.velocity = -5.77*(2-(Var(30)>0))/2
 guard.ctrltime = 11
@@ -2157,10 +2157,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Medium Kick
 [Statedef 440]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 8
+juggle = 8
 poweradd= 17*(1000+Var(40))/1000*ifElse((Var(29)||Var(30)),0,1)
 ctrl = 0
 anim = 440
@@ -2207,7 +2207,7 @@ hitsound = S4,1
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 14+(Var(21)*3)
-ground.hittime  = 14+(Var(21)*3)
+ground.hittime = 14+(Var(21)*3)
 ground.velocity = -7.66*(2-(Var(30)>0))/2
 guard.velocity = -7.66*(2-(Var(30)>0))/2
 guard.ctrltime = 15
@@ -2237,10 +2237,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch Strong Kick
 [Statedef 450]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 8
+juggle = 8
 poweradd= 17*(1000+Var(40))/1000*ifElse((Var(29)||Var(30)),0,1)
 ctrl = 0
 anim = 450
@@ -2287,7 +2287,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = Trip
 ground.slidetime = 17+(Var(21)*4)
-ground.hittime  = 17+(Var(21)*4)
+ground.hittime = 17+(Var(21)*4)
 ground.velocity = (fvar(4):=-1),(fvar(5):=-5.3671875*(5.0/4.0))
 guard.velocity = -8.125*(2-(Var(30)>0))/2
 guard.ctrltime = 17
@@ -2318,10 +2318,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Jump Light Punch
 [Statedef 600]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 8
+juggle = 8
 poweradd= 0
 ctrl = 0
 anim = 600
@@ -2367,7 +2367,7 @@ guardsound = S5,0
 guard.ctrltime = 12
 ground.type = High
 ground.slidetime = 10+(Var(21)*2)
-ground.hittime  = 11+(Var(21)*2)
+ground.hittime = 11+(Var(21)*2)
 ground.velocity = -5.77*(2-(Var(30)>0))/2
 guard.velocity = -5.77*(2-(Var(30)>0))/2
 air.type = High
@@ -2399,10 +2399,10 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Jump Medium Punch
 [Statedef 610]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 8
+juggle = 8
 poweradd= 17*(1000+Var(40))/1000*ifElse((Var(29)||Var(30)),0,1)
 ctrl = 0
 anim = 610
@@ -2447,7 +2447,7 @@ hitsound = S3,1
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 10+(Var(21)*2)
-ground.hittime  = 11+(Var(21)*2)
+ground.hittime = 11+(Var(21)*2)
 ground.velocity = -5.77*(2-(Var(30)>0))/2
 guard.velocity = -5.77*(2-(Var(30)>0))/2
 guard.ctrltime = 11
@@ -2480,10 +2480,10 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Jump Strong Punch
 [Statedef 620]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 8
+juggle = 8
 poweradd= 17*(1000+Var(40))/1000*ifElse((Var(29)||Var(30)),0,1)
 ctrl = 0
 anim = 620
@@ -2528,7 +2528,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 10+(Var(21)*4)
-ground.hittime  = 11+(Var(21)*4)
+ground.hittime = 11+(Var(21)*4)
 ground.velocity = -5.77*(2-(Var(30)>0))/2
 guard.velocity = -5.77*(2-(Var(30)>0))/2
 guard.ctrltime = 11
@@ -2560,10 +2560,10 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Jump Light Kick
 [Statedef 630]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 8
+juggle = 8
 poweradd= 0
 ctrl = 0
 anim = 630
@@ -2609,7 +2609,7 @@ guardsound = S5,0
 guard.ctrltime = 11
 ground.type = High
 ground.slidetime = 10+(Var(21)*2)
-ground.hittime  = 11+(Var(21)*2)
+ground.hittime = 11+(Var(21)*2)
 ground.velocity = -5.77*(2-(Var(30)>0))/2
 guard.velocity = -5.77*(2-(Var(30)>0))/2
 air.type = High
@@ -2641,10 +2641,10 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Jump Medium Kick
 [Statedef 640]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 8
+juggle = 8
 poweradd= 17*(1000+Var(40))/1000*ifElse((Var(29)||Var(30)),0,1)
 ctrl = 0
 anim = ifElse(Vel X, 645, 640)
@@ -2689,7 +2689,7 @@ hitsound = S4,1
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 10+(Var(21)*3)
-ground.hittime  = 11+(Var(21)*3)
+ground.hittime = 11+(Var(21)*3)
 ground.velocity = -5.77*(2-(Var(30)>0))/2
 guard.velocity = -5.77*(2-(Var(30)>0))/2
 guard.ctrltime = 11
@@ -2722,10 +2722,10 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Jump Strong Kick
 [Statedef 650]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 8
+juggle = 8
 poweradd= 17*(1000+Var(40))/1000*ifElse((Var(29)||Var(30)),0,1)
 ctrl = 0
 anim = 650
@@ -2770,7 +2770,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 10+(Var(21)*4)
-ground.hittime  = 11+(Var(21)*4)
+ground.hittime = 11+(Var(21)*4)
 ground.velocity = -5.77*(2-(Var(30)>0))/2
 guard.velocity = -5.77*(2-(Var(30)>0))/2
 guard.ctrltime = 11
@@ -4065,7 +4065,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; HITA_FALL (knocked up, falling)
 [Statedef 888]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -4123,7 +4123,7 @@ value = 5100 ;HIT_BOUNCE
 ;----------------------------------------------------------------------------------
 ; Tiger Shot
 [Statedef 1000]
-type    = S
+type = S
 physics = N
 movetype= A
 ctrl = 0
@@ -4185,7 +4185,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------------
 ; Ground Tiger Shot
 [Statedef 1100]
-type    = S
+type = S
 physics = N
 movetype= A
 ctrl = 0
@@ -4247,7 +4247,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Tiger Shot Proj
 [Statedef 1005]
-type    = S
+type = S
 movetype= A
 physics = N
 juggle = 8
@@ -4349,7 +4349,7 @@ hitsound = S3,3
 guardsound = S5,1
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -8.125
 guard.velocity = -8.125
 guard.ctrltime = 17
@@ -4582,9 +4582,9 @@ value = stateNo+1
 ;---------------------------------------------------------------------------
 ; Projectile Hit
 [Statedef 1006]
-type     = S
+type = S
 movetype = I
-physics  = N
+physics = N
 ctrl = 0
 velset = 0,0
 sprpriority = 4
@@ -4714,7 +4714,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 14
-ground.hittime  = 14
+ground.hittime = 14
 ground.velocity = (fvar(4):=-2),(fvar(5):=-8.625*(5.0/4.0))
 guard.velocity = -8.125
 guard.ctrltime = 14
@@ -4759,7 +4759,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 14
-ground.hittime  = 14
+ground.hittime = 14
 ground.velocity = (fvar(4):=-2),(fvar(5):=-8.625*(5.0/4.0))
 guard.velocity = -8.125
 guard.ctrltime = 14
@@ -4806,7 +4806,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 14
-ground.hittime  = 14
+ground.hittime = 14
 ground.velocity = (fvar(4):=-2),(fvar(5):=-8.625*(5.0/4.0))
 guard.velocity = -8.125
 guard.ctrltime = 14
@@ -4852,7 +4852,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 14
-ground.hittime  = 14
+ground.hittime = 14
 ground.velocity = (fvar(4):=-2),(fvar(5):=-8.625*(5.0/4.0))
 guard.velocity = -8.125
 guard.ctrltime = 14
@@ -4897,7 +4897,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 14
-ground.hittime  = 14
+ground.hittime = 14
 ground.velocity = (fvar(4):=-2),(fvar(5):=-8.625*(5.0/4.0))
 guard.velocity = -8.125
 guard.ctrltime = 14
@@ -4943,7 +4943,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 14
-ground.hittime  = 14
+ground.hittime = 14
 ground.velocity = (fvar(4):=-2),(fvar(5):=-8.625*(5.0/4.0))
 guard.velocity = -8.125
 guard.ctrltime = 14
@@ -4976,7 +4976,7 @@ value = 1205
 ;----------------------------------------------------------------------------------
 ; Custom Land State
 [Statedef 1205]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 1205
@@ -5111,7 +5111,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 14
-ground.hittime  = 14
+ground.hittime = 14
 ground.velocity = -8.125
 guard.velocity = -8.125
 guard.ctrltime = 14
@@ -5155,7 +5155,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 14
-ground.hittime  = 14
+ground.hittime = 14
 ground.velocity = (fvar(4):=-6),(fvar(5):=-3.671875*(5.0/4.0))
 guard.velocity = -8.125
 guard.ctrltime = 14
@@ -5191,7 +5191,7 @@ value = 1205
 ;----------------------------------------------------------------------------------
 ; Tiger Cannon
 [Statedef 3000]
-type    = S
+type = S
 physics = N
 movetype= A
 ctrl = 0
@@ -5321,7 +5321,7 @@ type = AfterImage
 triggerall = !Var(31) && PrevStateNo != [3000,3999]
 trigger1 = Time = 4
 time = 999
-TimeGap  = 3
+TimeGap = 3
 FrameGap = 4
 length = 10
 PalBright = 1,1,1
@@ -5396,7 +5396,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------------
 ; Ground Tiger Cannon
 [Statedef 3100]
-type    = S
+type = S
 physics = N
 movetype= A
 ctrl = 0
@@ -5526,7 +5526,7 @@ type = AfterImage
 triggerall = !Var(31) && PrevStateNo != [3000,3999]
 trigger1 = Time = 4
 time = 999
-TimeGap  = 3
+TimeGap = 3
 FrameGap = 4
 length = 10
 PalBright = 1,1,1
@@ -5601,7 +5601,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------------
 ; Tiger Genocide (start)
 [Statedef 3200]
-type    = S
+type = S
 physics = N
 movetype= A
 ctrl = 0
@@ -5729,7 +5729,7 @@ type = AfterImage
 triggerall = !Var(31) && PrevStateNo != [3000,3999]
 trigger1 = Time = 4
 time = 999
-TimeGap  = 3
+TimeGap = 3
 FrameGap = 4
 length = 10
 PalBright = 1,1,1
@@ -5841,7 +5841,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -5.77
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -5883,7 +5883,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -5.77
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -5927,7 +5927,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -5.77
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -5958,7 +5958,7 @@ value = 3201+(Var(22)=2)
 ;----------------------------------------------------------------------------------
 ; Tiger Genocide (light, medium part 2)
 [Statedef 3201]
-type    = S
+type = S
 physics = N
 movetype= A
 ctrl = 0
@@ -6046,7 +6046,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -2,-8.625*(5.0/4.0)
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -6089,7 +6089,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -2,-8.625*(5.0/4.0)
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -6132,7 +6132,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -2,-8.625*(5.0/4.0)
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -6182,7 +6182,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -2,-8.625*(5.0/4.0)
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -6211,7 +6211,7 @@ value = 3205
 ;----------------------------------------------------------------------------------
 ; Tiger Genocide (heavy part 2)
 [Statedef 3202]
-type    = S
+type = S
 physics = N
 movetype= A
 ctrl = 0
@@ -6299,7 +6299,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -5.77
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -6340,7 +6340,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -5.77
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -6381,7 +6381,7 @@ hitsound = S3,2
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 33
-ground.hittime  = 33
+ground.hittime = 33
 ground.velocity = -5.77
 guard.velocity = -5.77
 guard.ctrltime = 33
@@ -6409,7 +6409,7 @@ value = 3201
 ;----------------------------------------------------------------------------------
 ; Custom Land State
 [Statedef 3205]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 3205
@@ -6447,7 +6447,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------------
 ; Tiger Raid
 [Statedef 3300]
-type    = S
+type = S
 physics = N
 movetype= A
 ctrl = 0
@@ -6575,7 +6575,7 @@ type = AfterImage
 triggerall = !Var(31) && PrevStateNo != [3000,3999]
 trigger1 = Time = 4
 time = 999
-TimeGap  = 3
+TimeGap = 3
 FrameGap = 4
 length = 10
 PalBright = 1,1,1
@@ -6713,7 +6713,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -5.77
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -6757,7 +6757,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -5.77
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -6801,7 +6801,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -5.77
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -6854,7 +6854,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -5.77
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -6900,7 +6900,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -5,-4.296875*(5.0/4.0)
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -6946,7 +6946,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = Low
 ground.slidetime = 23
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -5,-4.296875*(5.0/4.0)
 guard.velocity = -5.77
 guard.ctrltime = 23
@@ -7023,7 +7023,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Tiger Cannon Proj
 [Statedef 2005]
-type    = S
+type = S
 movetype= A
 physics = N
 juggle = 8
@@ -7126,7 +7126,7 @@ hitsound = S3,3
 guardsound = S5,1
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -8.125
 guard.velocity = -8.125
 guard.ctrltime = 17
@@ -7360,7 +7360,7 @@ value = stateNo+1
 ;---------------------------------------------------------------------------
 ; Tiger Cannon Proj
 [Statedef 2006]
-type    = S
+type = S
 movetype= A
 physics = N
 juggle = 0
@@ -7460,7 +7460,7 @@ hitsound = S3,3
 guardsound = S5,1
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -8.125
 guard.velocity = -8.125
 guard.ctrltime = 17
@@ -7502,7 +7502,7 @@ hitsound = S3,3
 guardsound = S5,1
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -4,-4.921875
 guard.velocity = -8.125
 guard.ctrltime = 17
@@ -7753,9 +7753,9 @@ trigger1 = FrontEdgeDist <= -40 && !Var(1)
 ;---------------------------------------------------------------------------
 ; Projectile Hit
 [Statedef 2010]
-type     = S
+type = S
 movetype = I
-physics  = N
+physics = N
 ctrl = 0
 velset = 0,0
 sprpriority = 4
@@ -7820,7 +7820,7 @@ trigger3 = Anim = 2201 && AnimTime = 0
 ;----------------------------------------------------------------------------------
 ; Roll
 [Statedef 300]
-type    = S
+type = S
 physics = N
 movetype= I
 anim = 300
@@ -8461,7 +8461,7 @@ channel = 0
 type = AfterImage
 trigger1 = Time = 4
 time = 9999
-TimeGap  = 3
+TimeGap = 3
 FrameGap = 4
 length = 10
 PalBright = 1,1,1
@@ -8556,7 +8556,7 @@ channel = 0
 type = AfterImage
 trigger1 = Time = 4
 time = 9999
-TimeGap  = 3
+TimeGap = 3
 FrameGap = 4
 length = 10
 PalBright = 1,1,1
@@ -8601,7 +8601,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------------
 ; Counter Attack
 [Statedef 2800]
-type    = S
+type = S
 movetype = A
 physics = N
 juggle = 8
@@ -8788,7 +8788,7 @@ hitsound = S4,2
 guardsound = S5,0
 ground.type = High
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = (fvar(4):=-2),(fvar(5):=-8.625*(5.0/4.0))
 guard.velocity = -8.125
@@ -9011,10 +9011,10 @@ ignorehitpause = 1
 ;---------------------------------------------------------------------------------------------------
 ; AI Helper
 [Statedef 9999]
-type    = A
+type = A
 movetype= I
 physics = N
-juggle  = 8
+juggle = 8
 velset=0,0
 poweradd= 0
 ctrl = 0
@@ -12681,7 +12681,7 @@ type = PalFX
 trigger1 = RoundState = 0
 trigger2 = RoundState = 3
 time = 1
-add  = 0,0,0
+add = 0,0,0
 ignorehitpause = 1
 [State -2, 1]
 type = AfterImageTime

@@ -167,7 +167,7 @@ trigger1= vel y>0 && pos y>=0
 value=5100
 ;---------------------------------------------------------------------------
 [Statedef 1130]
-type    = A
+type = A
 movetype= H
 physics = N
 juggle = 1
@@ -230,7 +230,7 @@ color = 0
 ;---------------------------------------------------------------------------
 ;Himmlische Brennen Falling (Target)
 [Statedef 3321]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -1,-18
@@ -265,7 +265,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Off screen Knockback
 [Statedef 4020]
-type    = A
+type = A
 movetype= H
 physics = N
 juggle = 1
@@ -292,7 +292,7 @@ value = 4021
 ctrl = 0
 ;---------------------------------------------------------------------------
 [Statedef 4021]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -326,7 +326,7 @@ value = Ifelse(Alive,5120,5150)
 ;---------------------------------------------------------------------------
 ;Wall-knockdown
 [Statedef 4060]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -368,7 +368,7 @@ trigger2 = Time >= 60
 value = 4061
 ;---------------------------------------------------------------------------
 [Statedef 4061]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -418,7 +418,7 @@ trigger1=time=10
 value = 4062
 ;---------------------------------------------------------------------------
 [Statedef 4062]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -471,7 +471,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Custom-ceiling bounce
 [Statedef 4065]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

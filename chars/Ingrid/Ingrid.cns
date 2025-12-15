@@ -2,10 +2,10 @@
 ;---------------------------------------------------------------------------
 ; Standing Light Punch
 [Statedef 200]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 200
@@ -72,10 +72,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Punch
 [Statedef 210]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 4
+juggle = 0 ; 4
 poweradd= 18*!var(20)
 ctrl = 0
 velset = 0,0
@@ -147,10 +147,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Forward Medium Punch
 [Statedef 225]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 4
+juggle = 0 ; 4
 poweradd= 18*!var(20)
 ctrl = 0
 velset = 0,0
@@ -283,10 +283,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Strong Punch
 [Statedef 220]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 4
+juggle = 0 ; 4
 poweradd= 18*!var(20)
 ctrl = 0
 velset = 0,0
@@ -390,10 +390,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Strong Punch
 [Statedef 221]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 4
+juggle = 0 ; 4
 poweradd= 18*!var(20)
 ctrl = 0
 velset = 0,0
@@ -489,10 +489,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Light Kick
 [Statedef 230]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 4
+juggle = 0 ; 4
 poweradd= 0
 ctrl = 0
 velset = 0,0
@@ -558,10 +558,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Kick
 [Statedef 240]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 5
+juggle = 0 ; 5
 poweradd= 18*!var(20)
 ctrl = 0
 velset = 0,0
@@ -628,10 +628,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Kick
 [Statedef 241]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 5
+juggle = 0 ; 5
 poweradd= 18*!var(20)
 ctrl = 0
 velset = 0,0
@@ -698,10 +698,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Forward Medium Kick
 [Statedef 245]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 4
+juggle = 0 ; 4
 poweradd= 18*!var(20)
 ctrl = 0
 velset = 0,0
@@ -798,10 +798,10 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Forward Medium Kick
 [Statedef 256]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0 ; 4
+juggle = 0 ; 4
 poweradd= 0
 ctrl = 0
 velset = 0,0
@@ -838,10 +838,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Strong Kick
 [Statedef 250]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 5
+juggle = 0 ; 5
 poweradd= 18*!var(20)
 ctrl = 0
 velset = 0,0
@@ -916,10 +916,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Light Punch
 [Statedef 400]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 0 ; 5
+juggle = 0 ; 5
 poweradd = 0
 ctrl = 0
 anim = 400
@@ -986,10 +986,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Medium Punch
 [Statedef 410]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 0 ; 6
+juggle = 0 ; 6
 poweradd= 18 * !var(20)
 ctrl = 0
 anim = 410
@@ -1057,10 +1057,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Strong Punch
 [Statedef 420]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 0 ; 6
+juggle = 0 ; 6
 poweradd= 18 * !var(20)
 ctrl = 0
 anim = 420
@@ -1154,10 +1154,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Light Kick
 [Statedef 430]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 0 ; 5
+juggle = 0 ; 5
 poweradd= 0
 ctrl = 0
 anim = 430
@@ -1224,10 +1224,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Medium Kick
 [Statedef 440]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 0 ; 5
+juggle = 0 ; 5
 poweradd= 18*!var(20)
 ctrl = 0
 anim = 440
@@ -1294,10 +1294,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Medium Kick
 [Statedef 445]
-type    = C
+type = C
 movetype= A
 physics = N
-juggle  = 0 ; 5
+juggle = 0 ; 5
 poweradd= 18*!var(20)
 ctrl = 0
 anim = 445
@@ -1398,10 +1398,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch Strong Kick
 [Statedef 450]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 0 ; 7
+juggle = 0 ; 7
 poweradd= 18*!var(20)
 ctrl = 0
 anim = 450
@@ -1469,10 +1469,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Jump Light Punch
 [Statedef 600]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0 ; 2
+juggle = 0 ; 2
 poweradd= 0
 ctrl = 0
 anim = ifelse(vel x,600,601)
@@ -1540,10 +1540,10 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Jump Medium Punch
 [Statedef 610]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0 ; 4
+juggle = 0 ; 4
 poweradd= 18 * !var(20)
 ctrl = 0
 anim = ifelse(vel x,610,611)
@@ -1610,10 +1610,10 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Jump Strong Punch
 [Statedef 620]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0 ; 4
+juggle = 0 ; 4
 poweradd= 18 * !var(20)
 ctrl = 0
 anim = 620
@@ -1707,10 +1707,10 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Jump Light Kick
 [Statedef 630]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0 ; 3
+juggle = 0 ; 3
 poweradd= 0
 ctrl = 0
 anim = 630
@@ -1777,10 +1777,10 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Jump Medium Kick
 [Statedef 640]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0 ; 4
+juggle = 0 ; 4
 poweradd= 18 * !var(20)
 ctrl = 0
 anim = 640
@@ -1847,10 +1847,10 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Jump Strong Kick
 [Statedef 650]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0 ; 4
+juggle = 0 ; 4
 poweradd= 18 * !var(20)
 ctrl = 0
 anim = 650
@@ -1922,10 +1922,10 @@ value = 1
 ;---------------------------------------------------------------------------
 ; Jump Strong Kick
 [Statedef 651]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0 ; 4
+juggle = 0 ; 4
 poweradd= 18 * !var(20)
 ctrl = 0
 anim = 651
@@ -1998,10 +1998,10 @@ value = 1
 ;---------------------------------------------------------------------------
 ; Throw - Attempt
 [Statedef 800]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 800
@@ -2174,7 +2174,7 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ; Throwing the opponent
 [Statedef 810]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd = 60
@@ -2404,7 +2404,7 @@ ctrl = 0
 
 ;---------------------------------------------------------------------------
 [Statedef 811]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -2532,7 +2532,7 @@ value = 812
 
 ;---------------------------------------------------------------------------
 [Statedef 812]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -2717,7 +2717,7 @@ trigger1 = root,stateno = 812 && root,animelem = 5
 ;---------------------------------------------------------------------------
 ; Opponent Thrown
 [Statedef 815]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2730,7 +2730,7 @@ value = ifelse(name = "cvsfelicia" && authorname = "Jesuszilla", 816,815)
 ;---------------------------------------------------------------------------
 ;Opponent Thrown 2
 [Statedef 816]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -2764,7 +2764,7 @@ value = 5100
 
 ;---------------------------------------------------------------------------
 [Statedef 820]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -2935,7 +2935,7 @@ ctrl = 1
 
 ;---------------------------------------------------------------------------
 [Statedef 825]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -2953,7 +2953,7 @@ value = 825
 
 ;---------------------------------------------------------------------------
 [Statedef 826]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -2987,10 +2987,10 @@ value = 5100
 ;---------------------------------------------------------------------------
 ; Throw - Attempt
 [Statedef 830]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0 ; 0
+juggle = 0 ; 0
 ctrl = 0
 anim = 830
 
@@ -3036,7 +3036,7 @@ value = 50
 ;---------------------------------------------------------------------------
 ; Throwing the opponent
 [Statedef 835]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd = 60
@@ -3155,7 +3155,7 @@ value = 50
 
 ;---------------------------------------------------------------------------
 [Statedef 836]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3173,7 +3173,7 @@ value = 836
 
 ;---------------------------------------------------------------------------
 [Statedef 837]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = -2,2
@@ -3332,10 +3332,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Sun Shot
 [Statedef 1000]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1000
@@ -3403,10 +3403,10 @@ value = 0
 ctrl = 1
 
 [Statedef 1005]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1005
@@ -3648,10 +3648,10 @@ trigger2 = target, time <= 1 && !(target, hitshakeover)
 ;---------------------------------------------------------------------------
 ;Sun Shot
 [Statedef 1050]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1050
@@ -3742,10 +3742,10 @@ value = 0
 ctrl = 1
 
 [Statedef 1055]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1005
@@ -3987,10 +3987,10 @@ trigger2 = target, time <= 1 && !(target, hitshakeover)
 
 ;Sun Arch
 [Statedef 1100]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1100
@@ -4131,10 +4131,10 @@ value = 1105
 ctrl = 0
 
 [Statedef 1105]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1105
@@ -4169,10 +4169,10 @@ value = 0
 ctrl = 1
 
 [Statedef 1200]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1200
@@ -4297,10 +4297,10 @@ value = 1201
 
 ;Sun Arch
 [Statedef 1150]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1100
@@ -4508,10 +4508,10 @@ ctrl = 0
 
 
 [Statedef 1201]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1100
@@ -4647,10 +4647,10 @@ value = 1105
 ctrl = 0
 
 [Statedef 1250]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1250
@@ -4793,10 +4793,10 @@ trigger1 = AnimElemTime(3) > 0
 value = 1251
 
 [Statedef 1251]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1100
@@ -4928,10 +4928,10 @@ ctrl = 0
 
 ;Sun Upper
 [Statedef 1300]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1300
@@ -4997,10 +4997,10 @@ ctrl = 1
 
 ;Success
 [Statedef 1301]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1301
@@ -5077,10 +5077,10 @@ ctrl = 1
 
 ;Sun Lower
 [Statedef 1350]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1350
@@ -5145,10 +5145,10 @@ ctrl = 1
 
 ;Success
 [Statedef 1351]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1351
@@ -5284,7 +5284,7 @@ movecamera = 0,0
 ;---------------------------------------------------------------------------
 ;Opponent Thrown 3
 [Statedef 1307]
-type    = A
+type = A
 movetype = H
 physics = N
 sprpriority = -1
@@ -5335,10 +5335,10 @@ value = 5100
 
 ;Sun Upper
 [Statedef 1400]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0 ; 0
+juggle = 0 ; 0
 ctrl = 0
 anim = 1400
 poweradd = 72 * !var(20)
@@ -5524,10 +5524,10 @@ ctrl = 0
 
 ;Sun Upper
 [Statedef 1405]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 1405
@@ -5562,10 +5562,10 @@ value = 0
 ctrl = 1
 
 [Statedef 3000]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 3000
@@ -5684,10 +5684,10 @@ ctrl = 1
 ;persistent =
 
 [Statedef 3005]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 7300
@@ -5764,10 +5764,10 @@ ctrl = 0
 
 
 [Statedef 3006]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 7305
@@ -6099,10 +6099,10 @@ trigger1 = !animtime
 ;persistent =
 
 [Statedef 3100]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 3100
@@ -6315,10 +6315,10 @@ value = 256
 ctrl = 0
 
 [Statedef 3200]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 3200
@@ -6496,10 +6496,10 @@ ctrl = 1
 
 
 [Statedef 3201]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 3203
@@ -6633,10 +6633,10 @@ ctrl = 1
 ;persistent =
 
 [Statedef 3205]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0 ; 0
+juggle = 0 ; 0
 velset = 0,0
 ctrl = 0
 anim = 3205
@@ -6779,7 +6779,7 @@ trigger2 = root,stateno != 3201
 ;---------------------------------------------------------------------------
 ; Opponent Thrown
 [Statedef 3210]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -6810,7 +6810,7 @@ y = 0
 ;---------------------------------------------------------------------------
 ; Opponent Thrown
 [Statedef 3211]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -6840,7 +6840,7 @@ value = 3212
 ;---------------------------------------------------------------------------
 ; HIT_BOUNCE (hit ground)
 [Statedef 3212]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -6921,7 +6921,7 @@ value = 3213
 ;---------------------------------------------------------------------------
 ; HIT_BOUNCE (bounce into air)
 [Statedef 3213]
-type    = L
+type = L
 movetype= H
 physics = N
 

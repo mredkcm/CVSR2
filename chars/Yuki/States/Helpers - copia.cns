@@ -411,7 +411,7 @@ trigger1=!animtime
 ;------------------------------------------------------------------
 ; Hyoukyou
 [Statedef 1401]
-type    = S
+type = S
 movetype= I
 physics = S
 velset = 0,0
@@ -470,7 +470,7 @@ trigger4 = AnimElemTime(10) < 0
 ;------------------------------------------------------------------
 ; Hyoukyou
 [Statedef 1402]
-type    = S
+type = S
 movetype= H
 physics = S
 velset = 0,0
@@ -516,7 +516,7 @@ trigger3 =Parent,stateno = 1406
 ;------------------------------------------------------------------
 ; Hyoukyou
 [Statedef 1403]
-type    = S
+type = S
 movetype= H
 physics = S
 velset = 0,0
@@ -551,7 +551,7 @@ ctrl = 1
 ;------------------------------------------------------------------
 ; Hyoukyou
 [Statedef 1404]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 6,0
@@ -594,8 +594,8 @@ sprpriority = 4
 type = HitDef
 trigger1 = !time 
 attr = S, SP
-animtype  = hard
-damage    = 60,10
+animtype = hard
+damage = 60,10
 getpower = 55,50
 guardflag = M
 numhits = 1
@@ -607,7 +607,7 @@ hitsound=s2,6
 guardsound=s130,1
 ground.type = high
 ground.slidetime = 60
-ground.hittime  = 60
+ground.hittime = 60
 ground.velocity = -8,0
 air.velocity = -5,-4.5
 fall = 0
@@ -681,7 +681,7 @@ value = 1006
 type = S
 movetype= H
 physics = N
-juggle  = 1
+juggle = 1
 velset = 0,0
 ctrl = 0
 poweradd = 20
@@ -830,7 +830,7 @@ trigger2 = parent,time = 1
 ;CAMERA FOCUS
 [Statedef 6001]
 type = S
-physics  = S
+physics = S
 anim = 0
 ctrl = 0
 

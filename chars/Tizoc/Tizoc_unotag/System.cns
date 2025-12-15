@@ -520,10 +520,10 @@ ctrl = 1
 
 
 [Statedef 700]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 700
@@ -1428,7 +1428,7 @@ ctrl = 1
 
 
 [Statedef 110]
-type    = S
+type = S
 physics = N
 ctrl = 0
 anim = 110
@@ -1479,7 +1479,7 @@ value = 111
 
 
 [Statedef 111]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 111
@@ -1667,7 +1667,7 @@ value = 50
 ctrl = 1
 
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -1756,7 +1756,7 @@ time = 20
 
 
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2423,7 +2423,7 @@ channel = 0
 [State 5210, Recover Sound]
 type = PlaySnd
 trigger1 = !Time
-value  = 5200,0
+value = 5200,0
 channel = 1
 
 [State 5210, Flash]
@@ -2843,7 +2843,7 @@ trigger1 = Enemy(1),statetype = L || Enemy(1),movetype != H
 value = 7828
 
 [Statedef 7828]
-type    = S
+type = S
 physics = S
 anim = 100
 ctrl = 0
@@ -2907,7 +2907,7 @@ value = 7829
 ctrl = 0
 
 [Statedef 7829]
-type    = S
+type = S
 physics = S
 anim = 101
 ctrl = 0
@@ -3944,7 +3944,7 @@ postype = right
 
 
 [Statedef 23680]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3988,7 +3988,7 @@ pos = (1+ifelse(Parent,fvar(36) = 1,-1,0)+ifelse(Parent,fvar(36) = 2,-2,0))*ifel
 
 
 [Statedef 23681]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -4013,7 +4013,7 @@ value = SCA
 
 
 [Statedef 23682]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -4086,21 +4086,21 @@ flag = noshadow
 
 [State -2, nokoslow]
 type = assertspecial
-trigger1  = roundno != 1
+trigger1 = roundno != 1
 trigger1 = stagevar(info.name) = "Howard Arena"
-trigger2  = roundno != 1
+trigger2 = roundno != 1
 trigger2 = stagevar(info.name) = "Howard Arena Storm"
-trigger3  = roundno != 1
+trigger3 = roundno != 1
 trigger3 = stagevar(info.name) = "Howard Arena Thunder"
-trigger4  = roundno != 1
+trigger4 = roundno != 1
 trigger4 = stagevar(info.name) = "The Dead Pool"
-trigger5  = roundno != 1
+trigger5 = roundno != 1
 trigger5 = stagevar(info.name) = "Green Hell"
-trigger6  = roundno != 1
+trigger6 = roundno != 1
 trigger6 = stagevar(info.name) = "Vagnad Stage"
-trigger7  = roundno != 1
+trigger7 = roundno != 1
 trigger7 = stagevar(info.name) = "Ultimate_Capcom_Building"
-trigger8  = roundno != 1
+trigger8 = roundno != 1
 trigger8 =stagevar(info.name) = "Ultimate_USSR"
 flag = nokoslow
 
@@ -5145,7 +5145,7 @@ ctrl = 0
 type = AssertSpecial
 trigger1 = 1
 trigger1 = stagevar(info.name) = "Belgrave Square Labs"
-trigger1  = roundno != 1
+trigger1 = roundno != 1
 flag = nokoslow
 
 
@@ -5665,11 +5665,11 @@ ctrl = 0
 
 [State -2, Pit1nokoslow]
 type = assertspecial
-trigger1  = roundno != 1
+trigger1 = roundno != 1
 trigger1 = stagevar(info.name) = "The Pit"
-trigger2  = roundno != 1
+trigger2 = roundno != 1
 trigger2 = stagevar(info.name) = "SF1 China"
-trigger3  = roundno != 1
+trigger3 = roundno != 1
 trigger3 = stagevar(info.name) = "The Pit I"
 flag = nokoslow
 flag2 = nokosnd
@@ -6949,8 +6949,8 @@ trigger2 = (gameTime%10) = 0
 Trans = add
 PalContrast = 256,0,0
 PalBright = 50,0,0
-Time    =  -1
-length  = 17
+Time =  -1
+length = 17
 TimeGap = 1
 FrameGap = 1
 

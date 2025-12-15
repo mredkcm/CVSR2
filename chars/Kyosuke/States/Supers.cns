@@ -718,7 +718,7 @@ hitsound = S2, 5
 guardsound = S130, 0
 ground.type = High
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = 0.5,5
 air.velocity = 0.5,5
 fall.xvelocity = -2
@@ -903,7 +903,7 @@ hitsound = S2, 2
 guardsound = S130, 0
 ground.type = Low
 ground.slidetime = 40
-ground.hittime  = 40
+ground.hittime = 40
 ground.velocity = 0
 air.velocity = -3,-7
 yaccel = .55
@@ -942,7 +942,7 @@ guardsound = S130,0
 pausetime = 1,1
 ground.type = Low
 ground.slidetime = 40
-ground.hittime  = 40
+ground.hittime = 40
 ground.velocity = 0,-25.75
 air.velocity = 0,-25.75
 guard.velocity = -12
@@ -983,7 +983,7 @@ hitsound = -1
 guardsound = S130, 0
 ground.type = High
 ground.slidetime = 40
-ground.hittime  = 40
+ground.hittime = 40
 ground.velocity = 0.5,5
 air.velocity = 0.5,5
 fall.xvelocity = -2
@@ -1183,7 +1183,7 @@ hitsound = S2, 2
 guardsound = S130, 0
 ground.type = Low
 ground.slidetime = 40
-ground.hittime  = 40
+ground.hittime = 40
 ground.velocity = ifelse((AnimElem=14),-5.5,0)
 air.velocity = -3,-7
 yaccel = .55
@@ -1215,7 +1215,7 @@ hitsound = S2, 2
 guardsound = S130, 0
 ground.type = Low
 ground.slidetime = 40
-ground.hittime  = 40
+ground.hittime = 40
 ground.velocity = ifelse((AnimElem=14),-5.5,0)
 air.velocity = -3,-7
 yaccel = .55
@@ -1247,7 +1247,7 @@ hitsound = S2, 2
 guardsound = S130, 0
 ground.type = High
 ground.slidetime = 40
-ground.hittime  = 40
+ground.hittime = 40
 ground.velocity = ifelse((AnimElem=10),0,-4)
 air.velocity = -3,-7
 yaccel = .55
@@ -1311,7 +1311,7 @@ hitsound = S2, 2
 guardsound = S130, 0
 ground.type = High
 ground.slidetime = 40
-ground.hittime  = 40
+ground.hittime = 40
 ground.velocity = ifelse((AnimElem=10),0,-4)
 air.velocity = -3,-7
 yaccel = .55
@@ -1343,7 +1343,7 @@ hitsound = -1
 guardsound = S130, 0
 ground.type = High
 ground.slidetime = 40
-ground.hittime  = 40
+ground.hittime = 40
 ground.velocity = 0.5,5
 air.velocity = 0.5,5
 fall.xvelocity = -2
@@ -1414,7 +1414,7 @@ trigger1 = AnimTime = 0
 ;---------------------------------------------------------------------------
 ; HITG_SHAKE
 [Statedef 3250]
-type    = S
+type = S
 movetype= H
 physics = S
 velset = 0,0
@@ -1455,7 +1455,7 @@ ampl = 140
 ;---------------------------------------------------------------------------
 ; HITG_SLIDE
 [Statedef 3251]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -1493,7 +1493,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; HITG_SHAKE
 [Statedef 3253]
-type    = S
+type = S
 movetype= H
 physics = S
 velset = 0,0
@@ -1525,7 +1525,7 @@ ampl = 140
 ;---------------------------------------------------------------------------
 ; HITA_UP (initial going up)
 [Statedef 3254]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -1557,7 +1557,7 @@ value = 3260
 ;---------------------------------------------------------------------------
 ; HITA_UP (initial going up)
 [Statedef 3255]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -1611,7 +1611,7 @@ value = 3260
 ;---------------------------------------------------------------------------
 ; HITA_FALL (knocked up, falling)
 [Statedef 3260]
-type    = A
+type = A
 movetype= H
 physics = N
 

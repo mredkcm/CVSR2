@@ -129,13 +129,13 @@ guard.pauseTime = 4,0
 sparkno = -1
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkXY = 1 + 0 * (var(35) := 90), var(36) := 9999
-hitsound   = S800,0
+hitsound = S800,0
 guardsound = S130,0
 damage = 0,0
 guard.dist = 0
 ground.type = low
 ground.slidetime = 35
-ground.hittime  = 35
+ground.hittime = 35
 guard.ctrltime = 35
 ground.velocity = 0
 air.velocity = 0,0
@@ -179,7 +179,7 @@ ctrl = 0
 ;-----------------------------------------------------------------------------------------------------------------
 ;Heaven's Gate Failed
 [Statedef 3005]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -201,7 +201,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------------------------------------------------
 ;Heaven's Gate Success (Run)
 [Statedef 3010]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -265,7 +265,7 @@ value = 3011
 ;----------------------------------------------------------------------------------------------------------------------
 ;Heaven's Gate Success (Finish)
 [Statedef 3011]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 0
@@ -417,7 +417,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------------------------------------------------
 ;Heaven's Gate Gethit 1
 [Statedef 3015]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -442,7 +442,7 @@ value = 3015
 ;----------------------------------------------------------------------------------------------------------------------
 ;Heaven's Gate Gethit 2
 [Statedef 3016]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = -6,-6
@@ -484,7 +484,7 @@ time = 20
 ;----------------------------------------------------------------------------------------------------------------------
 ;Max Heaven's Gate Gethit 1
 [Statedef 3017]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -635,13 +635,13 @@ guard.pauseTime = 4,0
 sparkno = -1
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkXY = 1 + 0 * (var(35) := 90), var(36) := 9999
-hitsound   = S800,0
+hitsound = S800,0
 guardsound = S130,0
 damage = 0,0
 guard.dist = 0
 ground.type = low
 ground.slidetime = 35
-ground.hittime  = 35
+ground.hittime = 35
 guard.ctrltime = 35
 ground.velocity = 0
 air.velocity = 0,0
@@ -686,7 +686,7 @@ ctrl = 0
 ;----------------------------------------------------------------------------------------------------------------------
 ;Heaven's Gate Success (Run)
 [Statedef 3060]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -750,7 +750,7 @@ value = Ifelse(var(10), 3010, 3061)
 ;----------------------------------------------------------------------------------------------------------------------
 ;Heaven's Gate Success (First Impact)
 [Statedef 3061]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -1197,14 +1197,14 @@ attr = S, HA
 animtype = Heavy
 air.animtype = Back
 damage=25,5
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pauseTime = ifElse(var(20), 2, 4), ifElse(var(20), 2, 4)
 guard.pauseTime = ifElse(var(20), 2, 4), ifElse(var(20), 2, 4)
 ground.type = High
 ground.slidetime = 35
-ground.hittime  = 35
+ground.hittime = 35
 guard.ctrltime = 35
 ground.velocity = -4
 guard.velocity = -4
@@ -1242,14 +1242,14 @@ attr = S, HA
 animtype = Heavy
 air.animtype = Back
 damage=35,5
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pauseTime = ifElse(var(20), 2, 4), ifElse(var(20), 2, 4)
 guard.pauseTime = ifElse(var(20), 2, 4), ifElse(var(20), 2, 4)
 ground.type = Low
 ground.slidetime = 35
-ground.hittime  = 35
+ground.hittime = 35
 guard.ctrltime = 35
 ground.velocity = -4
 guard.velocity = -4
@@ -1284,17 +1284,17 @@ id = 3100
 type = HitDef
 trigger1 = AnimElem = 39
 attr = A, HA
-animtype  = Heavy
-air.animtype  = Up
+animtype = Heavy
+air.animtype = Up
 damage=70,10
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pauseTime = ifElse(var(20), 2, 4), ifElse(var(20), 2, 4)
 guard.pauseTime = ifElse(var(20), 2, 4), ifElse(var(20), 2, 4)
 ground.type = Low
 ground.slidetime = 35
-ground.hittime  = 35
+ground.hittime = 35
 guard.ctrltime = 35
 ground.velocity = -5,-7.5
 guard.velocity = -8
@@ -1747,14 +1747,14 @@ attr = S, HA
 animtype = Heavy
 air.animtype = Back
 damage=25,5
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pauseTime = ifElse(var(20), 2, 4), ifElse(var(20), 2, 4)
 guard.pauseTime = ifElse(var(20), 2, 4), ifElse(var(20), 2, 4)
 ground.type = High
 ground.slidetime = 35
-ground.hittime  = 35
+ground.hittime = 35
 guard.ctrltime = 35
 ground.velocity = -4
 guard.velocity = -4
@@ -1794,14 +1794,14 @@ attr = S, HA
 animtype = Heavy
 air.animtype = Back
 damage=25,5
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pauseTime = ifElse(var(20), 2, 4), ifElse(var(20), 2, 4)
 guard.pauseTime = ifElse(var(20), 2, 4), ifElse(var(20), 2, 4)
 ground.type = Low
 ground.slidetime = 35
-ground.hittime  = 35
+ground.hittime = 35
 guard.ctrltime = 35
 ground.velocity = -4
 guard.velocity = -4
@@ -1839,17 +1839,17 @@ trigger2 = AnimElem = 56
 trigger3 = AnimElem = 57
 trigger4 = AnimElem = 58
 attr = A, HA
-animtype  = Heavy
-air.animtype  = Up
+animtype = Heavy
+air.animtype = Up
 damage=30,10
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pauseTime = ifElse(var(20), 2, 4), ifElse(var(20), 2, 4)
 guard.pauseTime = ifElse(var(20), 2, 4), ifElse(var(20), 2, 4)
 ground.type = Low
 ground.slidetime = 35
-ground.hittime  = 35
+ground.hittime = 35
 guard.ctrltime = 35
 ground.velocity = -5,-7.5
 guard.velocity = -8
@@ -2113,7 +2113,7 @@ value = 1310
 ;-------------------------------------------------------------------------------------------------------------
 ;Eternal Illusion (Success)
 [Statedef 3510]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3510
@@ -2191,7 +2191,7 @@ value = 3520
 ;----------------------------------------------------------------------------------------------------------------------
 ;Eternal Illusion (Sequence)
 [Statedef 3520]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3520
@@ -2688,7 +2688,7 @@ value = 3530
 ;----------------------------------------------------------------------------------------------------------------------
 ;Eternal Illusion (Finish)
 [Statedef 3530]
-type    = s
+type = s
 movetype= A
 physics = N
 anim = 3530
@@ -2847,7 +2847,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------------------------------------
 ;Eternal Illusion (Gethit - Dizzy 1)
 [Statedef 3550]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2892,7 +2892,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------------------------------------------------
 ;Eternal Illusion (Gethit - Stand Hit High)
 [Statedef 3560]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2917,7 +2917,7 @@ value = 3560
 ;----------------------------------------------------------------------------------------------------------------------
 ;Eternal Illusion (Gethit - Stand Hit Low)
 [Statedef 3561]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2942,7 +2942,7 @@ value = 3561
 ;----------------------------------------------------------------------------------------------------------------------
 ;Eternal Illusion (Gethit - Shock)
 [Statedef 3562]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2975,7 +2975,7 @@ value = 3560
 ;-------------------------------------------------------------------------------------------------------------
 ;Eternal Illusion (Gethit - Dizzy 2)
 [Statedef 3565]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3015,7 +3015,7 @@ ctrl = 1
 ;----------------------------------------------------------------------------------------------------------------------
 ;Eternal Illusion (Gethit - Explosion)
 [Statedef 3570]
-type    = A
+type = A
 movetype= H
 physics = N
 

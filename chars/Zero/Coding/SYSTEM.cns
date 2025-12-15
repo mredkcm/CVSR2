@@ -63,7 +63,7 @@
 
 [Data]
 life = 1000
-Power = 3000			;Amount of life to start with
+power = 3000			;Amount of life to start with
 attack = 100		;attack power (more is stronger)
 defence = 100		;defensive power (more is stronger)
 fall.defence_up = 50	;Percentage to increase defense everytime player is knocked down
@@ -98,9 +98,9 @@ shadowoffset = 0     ;Number of pixels to vertically offset the shadow
 draw.offset = 0,0    ;Player drawing offset in pixels (x, y)
 
 [Velocity]
-walk.fwd  = 3.5     ;Walk forward
+walk.fwd = 3.5     ;Walk forward
 walk.back = -2.3   ;Walk backward
-run.fwd  = 4.0, 0    ;Run forward (x, y)
+run.fwd = 4.0, 0    ;Run forward (x, y)
 run.back = -6,-3 ;Hop backward (x, y)
 jump.neu = 0,-9		;Neutral jumping velocity (x, y)
 jump.back = -2.5		;Jump back Speed (x, y)
@@ -697,10 +697,10 @@ ctrl = 1
 
 ;=========<DODGE>=============
 [Statedef 700]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 700
@@ -1811,7 +1811,7 @@ ctrl = 1
 ;=============<RUNNING - DASH>====================
 ;Dash
 [Statedef 100]
-type    = S
+type = S
 physics = N
 anim = 100
 ctrl = 0
@@ -1986,7 +1986,7 @@ ctrl = 1
 
 ;=====================<HIT GROUND(BOUNCE)>===================
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2075,7 +2075,7 @@ time = 20
 
 ;================<HIT LIEDOWN>====================
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2195,7 +2195,7 @@ waveform = sine
 ;---------------------------------------------------------------------------
 ; HIT_LIEDEAD by Mr.Infinite
 [Statedef 5150]
-type    = L
+type = L
 movetype= H
 physics = N
 velset=0,0
@@ -2921,7 +2921,7 @@ value = 52
 
 ;==========<DARK HOLD CUSTOM STATES>==========
 [Statedef 662]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2982,7 +2982,7 @@ value = 663
 
 ;---------------------------------------------------------------------------
 [Statedef 663]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,-6.2
@@ -3024,7 +3024,7 @@ value = 664
 ;---------------------------------------------------------------------------
 ; Lyingdown
 [Statedef 664]
-type    = L
+type = L
 movetype= H
 physics = N
 anim = 5110
@@ -3247,7 +3247,7 @@ channel = 0
 [State 5210, Recover Sound]
 type = PlaySnd
 trigger1 = !Time
-value  = 5200,0
+value = 5200,0
 channel = 1
 
 [State 5210, Flash]
@@ -3690,7 +3690,7 @@ var(2) = 0
 ;scale = .4,.4
 ;sprpriority = ifelse(random<500,-3,3)
 ;ownpal = 1
-;pausemovetime   = 1000
+;pausemovetime = 1000
 
 ;[State -2, aura 1]
 ;type = Explod
@@ -3725,7 +3725,7 @@ var(2) = 0
 ;scale = .4,.4
 ;sprpriority = ifelse(random<500,-3,3)
 ;ownpal = 1
-;pausemovetime   = 1000
+;pausemovetime = 1000
 
 ;[State -2, aura 1]
 ;type = Explod
@@ -4694,7 +4694,7 @@ triggerall = NumHelper(330) = 0
 triggerAll = Time = 1 
 trigger1 = StateNo = 50 && (var(3) = 2 || var(3) = 3)
 time = 30
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 length = 15
 palbright=0,0,0
@@ -4746,7 +4746,7 @@ triggerall = NumHelper(330) = 0
 trigger1 = StateNo = 100 && Time = 3
 trigger2 = StateNo = 102 && Time = 3
 time = 20
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 length = 15
 
@@ -4756,7 +4756,7 @@ triggerall = NumHelper(330) = 0
 trigger1 = StateNo = 100 && Time = 3
 trigger2 = StateNo = 102 && Time = 3
 time = 20
-TimeGap  = 1
+TimeGap = 1
 FrameGap = 4
 length = 15
 palbright=0,0,0

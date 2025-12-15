@@ -1990,7 +1990,7 @@ value=52
 ;---------------------------------------------------------------------------
 ;Matador Slash Throw 1 1st Part
 [Statedef 800]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 14
@@ -2043,7 +2043,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------
 ;Matador Slash Throw 1 2nd Part
 [Statedef 810]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 810
@@ -2223,7 +2223,7 @@ ctrl = 0
 ;-------------------------------------------------------------------------
 ;Throw 1 p2 state
 [Statedef 820]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2237,7 +2237,7 @@ value = 820
 ;---------------------------------------------------------------------------
 ;Throw 1 p2 state
 [Statedef 821]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -1.0,-2
@@ -2264,7 +2264,7 @@ value = 5100
 ;-------------------------------------------------------------------------
 ;Flying Buster Throw 2 
 [Statedef 830]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 14
@@ -2289,7 +2289,7 @@ p1stateno = 831
 p2stateno = 820
 hitsound = S800,0
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -3
 air.velocity = -3,0
 guard.dist = 0
@@ -2322,7 +2322,7 @@ ctrl = 1
 ;----------------------------------------------------
 ;Throw 2 part 1
 [Statedef 831]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -2717,11 +2717,11 @@ animtype = Hard
 pausetime = 0,0
 sparkno = -1
 guard.sparkno = -1
-hitsound   = S800,0
+hitsound = S800,0
 guardsound = 130,0
 ground.type = high
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -3
 air.velocity = -3,0
 p1stateno = 831

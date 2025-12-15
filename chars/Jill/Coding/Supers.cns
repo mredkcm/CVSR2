@@ -1,6 +1,6 @@
 ;======================<HYPER S.T.A.R.S CHARGE>===================
 [Statedef 3000]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -201,7 +201,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -6
 air.velocity = -6, -0.8
@@ -247,7 +247,7 @@ fall.animtype = Diagup
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -9, -5
 air.velocity = -9, -4.5
@@ -313,7 +313,7 @@ ctrl = 1
 
 ;======================<AIR HYPER S.T.A.R.S CHARGE>===================
 [Statedef 3010]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -490,7 +490,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -6
 air.velocity = -6, -0.85
@@ -536,7 +536,7 @@ fall.animtype = Diagup
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -9, -5
 air.velocity = -9, -4.5
@@ -602,7 +602,7 @@ value = 52
 
 ;======================<HYPER S.T.A.R.S CHARGE MAX>===================
 [Statedef 3050]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -803,7 +803,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -6
 air.velocity = -6, -0.8
@@ -849,7 +849,7 @@ fall.animtype = Diagup
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -9, -5
 air.velocity = -9, -4.5
@@ -915,7 +915,7 @@ ctrl = 1
 
 ;======================<AIR HYPER S.T.A.R.S CHARGE MAX>===================
 [Statedef 3060]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -1092,7 +1092,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -6
 air.velocity = -6, -0.85
@@ -1138,7 +1138,7 @@ fall.animtype = Diagup
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -9, -5
 air.velocity = -9, -4.5
@@ -1204,7 +1204,7 @@ value = 52
 
 ;===========================<ARSENAL>=============================
 [Statedef 3100]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -1582,7 +1582,7 @@ fall.animtype = Up
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4.5, -9.5
 air.velocity = -4.5, -9.5
@@ -1780,7 +1780,7 @@ value = 3205
 
 ;Hitting ground from Rocket Launcher
 [Statedef 3205]
-type    = A;S
+type = A;S
 movetype= I
 physics = N
 ctrl = 0
@@ -1853,7 +1853,7 @@ value = 3206
 
 ;Liedown from Rocket Launcher
 [Statedef 3206]
-type    = S
+type = S
 movetype= I
 physics = N
 ctrl = 0
@@ -1918,7 +1918,7 @@ value = 3207
 
 ;Get up from Rocket Launcher
 [Statedef 3207]
-type    = S
+type = S
 movetype= I
 physics = N
 ctrl = 0

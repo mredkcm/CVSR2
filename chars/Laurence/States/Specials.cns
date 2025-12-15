@@ -1,10 +1,10 @@
 ;------------------------------------------------------------------
 ;Bloody Spin Start Up
 [Statedef 1000]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 10
+juggle = 10
 velset = 0,0
 ctrl = 0
 poweradd = 72 * !var(20)
@@ -66,7 +66,7 @@ edge=10,0
 type = HitDef
 attr = S, SA
 trigger1 = AnimElem = 4
-animtype  = Hard
+animtype = Hard
 damage=5,2
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -80,7 +80,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = Low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity=Ifelse(var(20),-2.5,-7)
 guard.velocity=Ifelse(var(20),-2.5,-7)
 air.velocity = Ifelse(var(20),-2,-4),Ifelse(var(20),-2.5,-2.5)
@@ -116,10 +116,10 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Bloody Spin Lunging
 [Statedef 1001]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 0
 velset = 0,0
 anim = 1030
@@ -180,7 +180,7 @@ edge=10,0
 type = HitDef
 attr = S, SA
 trigger1= var(2)<=1
-animtype  = Hard
+animtype = Hard
 damage=35,10
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -194,7 +194,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = Low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity=Ifelse(var(20),-2.5,-3),-5
 guard.velocity=Ifelse(var(20),-2.5,-3)
 air.velocity = Ifelse(var(20),-1,-5),Ifelse(var(20),-2.5,-2.5)
@@ -251,10 +251,10 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Bloody Spin Lunging
 [Statedef 1002]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 0
 velset = 0,0
 anim = 1031
@@ -314,7 +314,7 @@ edge=10,0
 type = HitDef
 attr = S, SA
 trigger1= var(2)<=2
-animtype  = Hard
+animtype = Hard
 damage=26,10
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -328,7 +328,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = Low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity=Ifelse(var(20),-2.5,-3),-5
 guard.velocity=Ifelse(var(20),-2.5,-3)
 air.velocity = Ifelse(var(20),-1,-5),Ifelse(var(20),-2.5,-2.5)
@@ -385,10 +385,10 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Bloody Spin Lunging
 [Statedef 1003]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 2
+juggle = 2
 poweradd= 0
 velset = 0,0
 anim = 1032
@@ -450,7 +450,7 @@ type = HitDef
 attr = S, SA
 trigger1= var(2)<=2
 trigger2 = Animelem = 5
-animtype  = Hard
+animtype = Hard
 damage=20,10
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -464,7 +464,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = Low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity=Ifelse(var(20),-2.5,-3),-5
 guard.velocity=Ifelse(var(20),-2.5,-3)
 air.velocity = Ifelse(var(20),-1,-5),Ifelse(var(20),-2.5,-2.5)
@@ -505,10 +505,10 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Bloody Spin Landing 
 [Statedef 1004]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 0
 velset = 0,0
 anim = 1008
@@ -569,7 +569,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Bloody Spin Start Up
 [Statedef 1050]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -672,7 +672,7 @@ edge=10,0
 type = HitDef
 attr = S, SA
 trigger1 = AnimElem = 4
-animtype  = Hard
+animtype = Hard
 damage=5,2
 getpower=0,0
 givepower=35, 35
@@ -686,7 +686,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = Low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity=Ifelse(var(20),-2.5,-7)
 guard.velocity=Ifelse(var(20),-2.5,-7)
 air.velocity = Ifelse(var(20),-2,-4),Ifelse(var(20),-2.5,-2.5)
@@ -740,10 +740,10 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;EX Bloody Spin Lunging
 [Statedef 1051]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 2
+juggle = 2
 poweradd = 0
 velset = 0,0
 anim = 1051
@@ -811,7 +811,7 @@ edge=10,0
 type = HitDef
 attr = S, SA
 trigger1= var(2)<=6
-animtype  = Hard
+animtype = Hard
 damage=17,10
 getpower=0,0
 givepower=35, 35
@@ -825,7 +825,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = Low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity=Ifelse(var(20),-2.5,-3),-5
 guard.velocity=Ifelse(var(20),-2.5,-3)
 air.velocity = Ifelse(var(20),-1,-5),Ifelse(var(20),-2.5,-2.5)
@@ -883,10 +883,10 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;EX Bloody Spin Landing
 [Statedef 1052]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 0
 velset = 0,0
 anim = 1052
@@ -942,10 +942,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Bloody Impaler
 [Statedef 1100]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd = 72 * !var(20)
 velset = 0,0
 ctrl = 0
@@ -1105,7 +1105,7 @@ guardsound = s130, 0
 ground.type = high
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -4, -5.5
@@ -1142,7 +1142,7 @@ guardsound = s130, 0
 ground.type = high
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -4, -5.5
@@ -1179,7 +1179,7 @@ guardsound = s130, 0
 ground.type = high
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -4, -5.5
@@ -1238,7 +1238,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Bloody Impaler Penertrating
 [Statedef 1105]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -1275,10 +1275,10 @@ trigger2 = Root,Movetype = H
 ;---------------------------------------------------------------------------
 ;EX Bloody Impaler
 [Statedef 1150]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 velset = 0,0
 anim = 1150
 ctrl = 0
@@ -1472,7 +1472,7 @@ guardsound = s130, 0
 ground.type = high
 air.type = High
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -8
 airguard.velocity = -5, -4.5
 air.velocity = -4, -5.5
@@ -1529,10 +1529,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Bloody Mixer
 [Statedef 1200]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd = 72 * !var(20)
 velset = 0,0
 ctrl = 0
@@ -1616,7 +1616,7 @@ attr = S, SA
 triggerall=var(10)=0
 trigger1 = AnimElem = 9
 trigger2 = AnimElem = 12
-animtype  = Hard
+animtype = Hard
 damage=26,5
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -1630,7 +1630,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 9.5
 guard.velocity = 9.5
 air.velocity = 3,-2
@@ -1656,7 +1656,7 @@ type = HitDef
 triggerall=var(10)=0
 attr = S, SA
 trigger1 = AnimElem = 15
-animtype  = Hard
+animtype = Hard
 damage=26,5
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -1670,7 +1670,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 30
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = -20
 guard.velocity = -20
 air.velocity = -8,-2
@@ -1698,7 +1698,7 @@ trigger1 = AnimElem = 9
 trigger2 = AnimElem = 12
 trigger3 = AnimElem = 15
 trigger4 = AnimElem = 18
-animtype  = Hard
+animtype = Hard
 damage=17,5
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -1712,7 +1712,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 6
 guard.velocity = 6
 air.velocity = 3,-2
@@ -1737,7 +1737,7 @@ type = HitDef
 triggerall=var(10)=1
 attr = S, SA
 trigger1 = AnimElem = 21
-animtype  = Hard
+animtype = Hard
 damage=17,5
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -1751,7 +1751,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -21
 guard.velocity = -21
 air.velocity = -8,-2
@@ -1781,7 +1781,7 @@ trigger3 = AnimElem = 15
 trigger4 = AnimElem = 18
 trigger5 = AnimElem = 21
 trigger6 = AnimElem = 24
-animtype  = Hard
+animtype = Hard
 damage=13,5
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -1795,7 +1795,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 5
 guard.velocity = 5
 air.velocity = 3,-2
@@ -1820,7 +1820,7 @@ type = HitDef
 triggerall=var(10)=2
 attr = S, SA
 trigger1 = AnimElem = 27
-animtype  = Hard
+animtype = Hard
 damage=13,4
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -1834,7 +1834,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -21
 guard.velocity = -21
 air.velocity = -6,-2
@@ -1897,10 +1897,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Bloody Mixer
 [Statedef 1250]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 anim = 1250
 poweradd = -500
 velset = 0,0
@@ -2024,7 +2024,7 @@ trigger5 = AnimElem = 21
 trigger6 = AnimElem = 24
 trigger7 = AnimElem = 27
 trigger8 = AnimElem = 30
-animtype  = Hard
+animtype = Hard
 damage=14,5
 getpower=0,0
 givepower=35, 35
@@ -2038,7 +2038,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = 3
 guard.velocity = 3
 air.velocity = 3,-2
@@ -2062,7 +2062,7 @@ fall.envshake.ampl = 7
 type = HitDef
 attr = S, SA
 trigger1 = AnimElem = 33
-animtype  = Hard
+animtype = Hard
 damage=14,5
 getpower=0,0
 givepower=35, 35
@@ -2076,7 +2076,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -13
 guard.velocity = -13
 air.velocity = -6,-2
@@ -2139,10 +2139,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Bloody Saber Start
 [Statedef 1300]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd = 72 * !var(20)
 velset = 0,0
 ctrl = 0
@@ -2210,7 +2210,7 @@ type = HitDef
 attr = S, SA
 trigger1 = AnimElem = 3
 animtype = Hard
-damage  = 25+2*var(10), 7
+damage = 25+2*var(10), 7
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
 priority=4, hit
@@ -2223,7 +2223,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity=Ifelse(var(20),-2.5,-7)
 guard.velocity=Ifelse(var(20),-2.5,-7)
 air.velocity = Ifelse(var(20),-2,-4),Ifelse(var(20),-2.5,-2.5)
@@ -2262,10 +2262,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Bloody Saber Punch
 [Statedef 1310]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd = 72 * !var(20)
 velset = 0,0
 anim = 1310
@@ -2328,7 +2328,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity=Ifelse(var(20),-2.5,-7)
 guard.velocity=Ifelse(var(20),-2.5,-7)
 air.velocity = Ifelse(var(20),-2,-4),Ifelse(var(20),-2.5,-2.5)
@@ -2368,10 +2368,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Bloody Saber Slashes
 [Statedef 1320]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd = 72 * !var(20)
 velset = 0,0
 anim = 1320
@@ -2444,7 +2444,7 @@ trigger3 = AnimElem = 18
 trigger4 = AnimElem = 26
 trigger5 = AnimElem = 31
 trigger6 = AnimElem = 32
-animtype  = Hard
+animtype = Hard
 damage = 16, 7
 getpower=0,0
 givepower=35, 35
@@ -2458,7 +2458,7 @@ hitsound=S2,11
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity=Ifelse(var(20),-2.5,-3),-4
 guard.velocity=Ifelse(var(20),-2.5,-7)
 air.velocity = Ifelse(var(20),-2,-4),Ifelse(var(20),-1,-1.5)
@@ -2484,10 +2484,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Bloody Saber Ending
 [Statedef 1330]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 0
 velset = 0,0
 anim = 1330
@@ -2503,10 +2503,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Bloody Saber Ending
 [Statedef 1340]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 0
 velset = 0,0
 anim = 1330
@@ -2522,10 +2522,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Bloody Saber Ending 2
 [Statedef 1345]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 0
 velset = 0,0
 anim = 1304
@@ -2546,10 +2546,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Bloody Saber Start
 [Statedef 1350]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 anim = 1350
 poweradd = -500
 velset = 0,0
@@ -2650,7 +2650,7 @@ type = HitDef
 attr = S, SA
 trigger1 = AnimElem = 3
 animtype = Hard
-damage  = 17,10
+damage = 17,10
 getpower=0,0
 givepower=35, 35
 priority=4, hit
@@ -2663,7 +2663,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity=Ifelse(var(20),-2.5,-7)
 guard.velocity=Ifelse(var(20),-2.5,-7)
 air.velocity = Ifelse(var(20),-2,-4),Ifelse(var(20),-2.5,-2.5)
@@ -2682,10 +2682,10 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;EX Bloody Saber Punch
 [Statedef 1351]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd = 0
 velset = 0,0
 anim = 1351
@@ -2748,7 +2748,7 @@ hitsound=S2+10*var(44),2
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity=Ifelse(var(20),-2.5,-7)
 guard.velocity=Ifelse(var(20),-2.5,-7)
 air.velocity = Ifelse(var(20),-2,-4),Ifelse(var(20),-2.5,-2.5)
@@ -2767,10 +2767,10 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;EX Bloody Saber Slashes
 [Statedef 1352]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd = 0 
 velset = 0,0
 anim = 1352
@@ -2842,7 +2842,7 @@ trigger3 = AnimElem = 18
 trigger4 = AnimElem = 26
 trigger5 = AnimElem = 31
 trigger6 = AnimElem = 32
-animtype  = Hard
+animtype = Hard
 damage = 16, 7
 getpower=0,0
 givepower=35, 35
@@ -2856,7 +2856,7 @@ hitsound=S2,11
 guardsound = s130, 0
 ground.type = high
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity=Ifelse(var(20),-2.5,-3),-4
 guard.velocity=Ifelse(var(20),-2.5,-7)
 air.velocity = Ifelse(var(20),-2,-4),Ifelse(var(20),-1,-1.5)
@@ -2884,10 +2884,10 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Bloody Shooter
 [Statedef 1400]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 4
+juggle = 4
 velset = 0,0
 ctrl = 0
 sprpriority = 2
@@ -2983,10 +2983,10 @@ value = 1
 ;--------------------------------------------------------------------------
 ;EX Bloody Shooter
 [Statedef 1450]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 4
+juggle = 4
 velset = 0,0
 ctrl = 0
 sprpriority = 2
@@ -3129,10 +3129,10 @@ value = 1
 ;---------------------------------------------------------------------------
 ;Bloody Press
 [Statedef 1500]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 poweradd = 72 * !var(20)
 ctrl = 0
@@ -3195,7 +3195,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Bloody Press Grabbed
 [Statedef 1510]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1510
@@ -3375,7 +3375,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Bloody Press
 [Statedef 1520]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3389,7 +3389,7 @@ value = 1520
 ;---------------------------------------------------------------------------
 ;Bloody Press
 [Statedef 1521]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -4,10
@@ -3412,10 +3412,10 @@ value = 5101
 ;---------------------------------------------------------------------------
 ;EX Bloody Press
 [Statedef 1550]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 anim = 1550
 poweradd = -500
@@ -3515,7 +3515,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Bloody Press Grabbed
 [Statedef 1551]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1510
@@ -3789,10 +3789,10 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;Bloody Cutter
 [Statedef 1601]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 poweradd= 0
 ctrl = 0
 velset = 0,0
@@ -3890,7 +3890,7 @@ type = HitDef
 trigger1=var(10)=0&&var(2)<=1
 attr = A, SA
 priority = 4,Hit
-animtype  = Heavy
+animtype = Heavy
 damage=30, 10
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -3929,7 +3929,7 @@ type = HitDef
 trigger1=var(10)=1&&var(2)<=2
 attr = A, SA
 priority = 4,Hit
-animtype  = Heavy
+animtype = Heavy
 damage=20, 10
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -3968,7 +3968,7 @@ type = HitDef
 trigger1=var(10)=2&&var(2)<=3
 attr = A, SA
 priority = 4,Hit
-animtype  = Heavy
+animtype = Heavy
 damage=16, 10
 getpower=72* !var(20), 36 * !var(20)
 givepower=35, 35
@@ -4278,10 +4278,10 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ;EX Bloody Cutter
 [Statedef 1651]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 poweradd= 0
 ctrl = 0
 velset = 0,0
@@ -4370,7 +4370,7 @@ type = HitDef
 trigger1=var(2)<=4
 attr = A, SA
 priority = 4,Hit
-animtype  = Heavy
+animtype = Heavy
 damage=21, 10
 getpower=0,0
 givepower=35, 35

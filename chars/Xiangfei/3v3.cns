@@ -136,7 +136,7 @@ ctrl = 0
 
 ; Crouching
 [Statedef 11]
-type    = C
+type = C
 physics = C
 anim = 11
 sprpriority = 0
@@ -178,7 +178,7 @@ y = 0
 
 ; Jump Start
 [Statedef 40]
-type    = S
+type = S
 physics = S
 anim = 40
 ctrl = 0
@@ -254,7 +254,7 @@ ctrl = 1
 
 ; Jump Up
 [Statedef 50]
-type    = A
+type = A
 physics = A
 
 [State 0, PlaySnd]
@@ -277,10 +277,10 @@ time = 160
 length = 5
 timegap = 2
 framegap = 1
-PalBright   =   0,  0,  0
+PalBright =   0,  0,  0
 PalContrast = 100,100,100;255,255,255
-PalAdd      =   0,  0,  0
-PalMul      =  1,1,1
+PalAdd =   0,  0,  0
+PalMul =  1,1,1
 trans = add1
 
 [State 50, 1]
@@ -302,7 +302,7 @@ persistent = 0
 value = Anim + 3
 
 [Statedef 52, Jump Land]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 47
@@ -360,7 +360,7 @@ ctrl = 1
 
 ; Run Start
 [Statedef 100]
-type    = S
+type = S
 physics = S
 anim = 100
 sprpriority = 1
@@ -575,7 +575,7 @@ ctrl = 1
 
 ; Hop backwards
 [Statedef 105]
-type    = A
+type = A
 physics = A
 ctrl = 0
 anim = 105
@@ -589,10 +589,10 @@ time = 24
 length = 5
 timegap = 2
 framegap = 1
-PalBright   =   0,  0,  0
+PalBright =   0,  0,  0
 PalContrast = 100,100,100;255,255,255
-PalAdd      =   0,  0,  0
-PalMul      =  1,1,1
+PalAdd =   0,  0,  0
+PalMul =  1,1,1
 trans = add1
 
 [State 0, HitBy]
@@ -643,7 +643,7 @@ value = 106
 
 ; Hop backwards (land)
 [Statedef 106]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 106
@@ -679,7 +679,7 @@ ctrl = 1
 
 ; Dash Forward
 [Statedef 107]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 107
@@ -691,10 +691,10 @@ time = 20
 length = 5
 timegap = 2
 framegap = 1
-PalBright   =   0,  0,  0
+PalBright =   0,  0,  0
 PalContrast = 100,100,100;255,255,255
-PalAdd      =   0,  0,  0
-PalMul      =  1,1,1
+PalAdd =   0,  0,  0
+PalMul =  1,1,1
 trans = add1
 
 [State 0, Step]
@@ -1565,7 +1565,7 @@ flag = Intro
 [State 180, That Looks Good]
 type = ChangeState
 triggerall = Time = 0
-trigger1 = enemy, name = "Sie Kensou"|| enemy, name  = "Kensou"
+trigger1 = enemy, name = "Sie Kensou"|| enemy, name = "Kensou"
 trigger2 = enemy, name = "Li Xiangfei" && enemy, authorname = "Amanojaku"
 trigger2 = facing = 1
 value = 196
@@ -2123,10 +2123,10 @@ value = 0
 ;---------------------------------------------------------------------------
 ; Stand Jab
 [Statedef 200]
-type    = S			;State-type: S-stand, C-crouch, A-air, L-liedown
+type = S			;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= A			;Move-type: A-attack, I-idle, H-gethit
 physics = S			;Physics: S-stand, C-crouch, A-air
-juggle  = 1			;Number of air juggle points move takes
+juggle = 1			;Number of air juggle points move takes
 ;Commonly-used controllers:
 velset = 0,0			;Set velocity (x,y) (Def: no change)
 ctrl = 0			;Set ctrl (Def: no change)
@@ -2173,7 +2173,7 @@ hitsound = s2, 0			;Sound to play on hit
 guardsound = s0, 0		;Sound to play on guard
 ground.type = High		;Type: High, Low, Trip (def: Normal)
 ground.slidetime = 5		;Time that the opponent slides back
-ground.hittime  = 12		;Time opponent is in hit state
+ground.hittime = 12		;Time opponent is in hit state
 ground.velocity = -4		;Velocity at which opponent is pushed
 airguard.velocity = -1.9,-.8	;Guard velocity in air (def: (air.xvel*1.5, air.yvel/2))
 air.type = High			;Type: High, Low, Trip (def: same as ground.type)
@@ -2228,10 +2228,10 @@ value = 0
 ctrl = 1
 
 [Statedef 205, - Stand Jab2]
-type    = S			;State-type: S-stand, C-crouch, A-air, L-liedown
+type = S			;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= A			;Move-type: A-attack, I-idle, H-gethit
 physics = S			;Physics: S-stand, C-crouch, A-air
-juggle  = 0			;Number of air juggle points move takes
+juggle = 0			;Number of air juggle points move takes
 ;Commonly-used controllers:
 velset = 0,0			;Set velocity (x,y) (Def: no change)
 ctrl = 0			;Set ctrl (Def: no change)
@@ -2277,7 +2277,7 @@ hitsound = s3, 0			;Sound to play on hit
 guardsound = s0, 0		;Sound to play on guard
 ground.type = High		;Type: High, Low, Trip (def: Normal)
 ground.slidetime = 12		;Time that the opponent slides back
-ground.hittime  = 16		;Time opponent is in hit state
+ground.hittime = 16		;Time opponent is in hit state
 ground.velocity = -3		;Velocity at which opponent is pushed
 airguard.velocity = -1.9,-.8	;Guard velocity in air (def: (air.xvel*1.5, air.yvel/2))
 air.type = High			;Type: High, Low, Trip (def: same as ground.type)
@@ -2318,10 +2318,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Stand Strong
 [Statedef 210]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 3
+juggle = 3
 poweradd= 65
 ctrl = 0
 velset = 0,0
@@ -2352,19 +2352,19 @@ persistent = 0
 type = HitDef
 trigger1 = Time = 0
 attr = S, NA
-animtype  = Medium
-damage    = 23
+animtype = Medium
+damage = 23
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 10,8
 sparkno = -1 + 0*(var(33):=8011)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 43), var(36) := -68
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 8
-ground.hittime  = 13
+ground.hittime = 13
 ground.velocity = -4.7
 air.velocity = -2,-2.5
 guard.sparkno = -1 + 0*(var(34):=8001)
@@ -2392,10 +2392,10 @@ value = 0
 ctrl = 1
 
 [Statedef 215, - Stand Strong2]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 1
+juggle = 1
 poweradd= 125
 ctrl = 0
 velset = 0,0
@@ -2426,19 +2426,19 @@ value = S1,1
 type = HitDef
 trigger1 = Time = 0
 attr = S, NA
-animtype  = Medium
-damage    = ifelse(prevstateno = 210,12,17),0
+animtype = Medium
+damage = ifelse(prevstateno = 210,12,17),0
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 10,8
 sparkno = -1 + 0*(var(33):=8011)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 46), var(36) := -68
-hitsound   = s3,1
+hitsound = s3,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -4.7
 air.velocity = -2,-2.5
 guard.sparkno = -1 + 0*(var(34):=8001)
@@ -2469,10 +2469,10 @@ ctrl = 1
 ; Stand Fierce
 
 [Statedef 220, Stand Fierce]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 65
 ctrl = 0
 velset = 0,0
@@ -2503,19 +2503,19 @@ persistent = 0
 type = HitDef
 trigger1 = Time = 0
 attr = S, NA
-animtype  = Hard
-damage    = 39
+animtype = Hard
+damage = 39
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8012)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 59), var(36) := -60
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -5.5
 air.velocity = -2.5,-3
 
@@ -2542,10 +2542,10 @@ value = 0
 ctrl = 1
 
 [Statedef 225, - Stand Fierce2]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 2
+juggle = 2
 poweradd= 125
 ctrl = 0
 velset = 0,0
@@ -2576,19 +2576,19 @@ persistent = 0
 type = HitDef
 trigger1 = Time = 0
 attr = S, NA
-animtype  = Hard
-damage    = ifelse(prevstateno = 220,20,34),0
+animtype = Hard
+damage = ifelse(prevstateno = 220,20,34),0
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8012)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 64), var(36) := -43
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -5.5
 air.velocity = -2.5,-3
 
@@ -2610,10 +2610,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Stand Short
 [Statedef 230]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 1
+juggle = 1
 poweradd= 22
 ctrl = 0
 velset = 0,0
@@ -2662,7 +2662,7 @@ hitsound = s3, 0			;Sound to play on hit
 guardsound = s0, 0		;Sound to play on guard
 ground.type = High		;Type: High, Low, Trip (def: Normal)
 ground.slidetime =8		;Time that the opponent slides back
-ground.hittime  = 15		;Time opponent is in hit state
+ground.hittime = 15		;Time opponent is in hit state
 ground.velocity = -4		;Velocity at which opponent is pushed
 airguard.velocity = -1.9,-.8	;Guard velocity in air (def: (air.xvel*1.5, air.yvel/2))
 air.type = High			;Type: High, Low, Trip (def: same as ground.type)
@@ -2716,10 +2716,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Stand Forward
 [Statedef 240]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 3
+juggle = 3
 poweradd= 65
 ctrl = 0
 velset = 0,0
@@ -2764,19 +2764,19 @@ type = HitDef
 trigger1 = Time = 0
 trigger1 = anim = 240
 attr = S, NA
-animtype  = Medium
-damage    = 27
+animtype = Medium
+damage = 27
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 10,8
 sparkno = -1 + 0*(var(33):=8011)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 42), var(36) := -94
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 8
-ground.hittime  = 13
+ground.hittime = 13
 ground.velocity = -4.7
 air.velocity = -2,-2.5
 guard.sparkno = -1 + 0*(var(34):=8001)
@@ -2786,19 +2786,19 @@ type = HitDef
 trigger1 = Time = 0
 trigger1 = anim = 235
 attr = S, NA
-animtype  = Medium
-damage    = 47
+animtype = Medium
+damage = 47
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 8,10
 sparkno = -1 + 0*(var(33):=8011)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 71), var(36) := -65
-hitsound   = s3,1
+hitsound = s3,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 8
-ground.hittime  = 13
+ground.hittime = 13
 ground.velocity = -1.7
 air.velocity = -2,-3.5
 guard.sparkno = -1 + 0*(var(34):=8001)
@@ -2830,10 +2830,10 @@ value = 0
 ctrl = 1
 
 [Statedef 245, - Stand Forward2]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 1
+juggle = 1
 poweradd= 125
 ctrl = 0
 velset = 0,0
@@ -2864,19 +2864,19 @@ value = S1,1
 type = HitDef
 trigger1 = Time = 0
 attr = S, NA
-animtype  = Medium
-damage    = 20
+animtype = Medium
+damage = 20
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 10,8
 sparkno = -1 + 0*(var(33):=8011)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 79), var(36) := -65
-hitsound   = s3,1
+hitsound = s3,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 13
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -4.7
 air.velocity = -2,-2.5
 guard.sparkno = -1 + 0*(var(34):=8001)
@@ -2941,10 +2941,10 @@ value = 5100 ;Hit ground
 ;---------------------------------------------------------------------------
 ; Stand Roundhouse
 [Statedef 250]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 5
+juggle = 5
 poweradd= 65
 ctrl = 0
 velset = 0,0
@@ -2988,19 +2988,19 @@ type = HitDef
 trigger1 = Time = 0
 trigger1 = prevstateno != 245
 attr = S, NA
-animtype  = Hard
-damage    = 45
+animtype = Hard
+damage = 45
 guardflag = L
 hitflag = MAFD                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8012)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 82), var(36) := ifelse(p2dist x <=70,-9,-3)
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -5.5
 air.velocity = -2.5,-4
 
@@ -3009,19 +3009,19 @@ type = HitDef
 trigger1 = Time = 0
 trigger1 = prevstateno = 245
 attr = S, NA
-animtype  = Hard
-damage    = 45
+animtype = Hard
+damage = 45
 guardflag = L
 hitflag = MAFD                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8012)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 82), var(36) := ifelse(p2dist x <=70,-9,-3)
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = Trip
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -2.5,-3
 air.velocity = -2.5,-4
 fall = 1
@@ -3044,7 +3044,7 @@ value = 0
 ctrl = 1
 
 [Statedef 255,- Overhead Kick]
-type    = A
+type = A
 physics = A
 movetype= A
 ctrl = 0
@@ -3082,19 +3082,19 @@ y = -4
 type = HitDef
 trigger1 = Time = 0
 attr = S, NA
-animtype  = Hard
-damage    = 19
+animtype = Hard
+damage = 19
 guardflag = H
 hitflag = MAFD                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8012)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 60), var(36) := -47
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 16
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -11
 air.velocity = -2.5,-4
 ground.cornerpush.veloff = -17
@@ -3146,10 +3146,10 @@ value = 106
 
 ; Crouch Jab
 [Statedef 400]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 1
+juggle = 1
 poweradd= 15
 ctrl = 0
 anim = 400
@@ -3192,7 +3192,7 @@ hitsound = s2, 0			;Sound to play on hit
 guardsound = s0, 0		;Sound to play on guard
 ground.type = Low		;Type: High, Low, Trip (def: Normal)
 ground.slidetime = 5		;Time that the opponent slides back
-ground.hittime  = 12		;Time opponent is in hit state
+ground.hittime = 12		;Time opponent is in hit state
 ground.velocity = -3		;Velocity at which opponent is pushed
 airguard.velocity = -1.9,-.8	;Guard velocity in air (def: (air.xvel*1.5, air.yvel/2))
 air.type = Low			;Type: High, Low, Trip (def: same as ground.type)
@@ -3246,10 +3246,10 @@ value = 11
 ctrl = 1
 
 [Statedef 405, - Crouch Jab2]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 0
+juggle = 0
 poweradd= 30
 ctrl = 0
 anim = 405
@@ -3292,7 +3292,7 @@ hitsound = s2, 0			;Sound to play on hit
 guardsound = s0, 0		;Sound to play on guard
 ground.type = Low		;Type: High, Low, Trip (def: Normal)
 ground.slidetime = 5		;Time that the opponent slides back
-ground.hittime  = 12		;Time opponent is in hit state
+ground.hittime = 12		;Time opponent is in hit state
 ground.velocity = -3		;Velocity at which opponent is pushed
 airguard.velocity = -1.9,-.8	;Guard velocity in air (def: (air.xvel*1.5, air.yvel/2))
 air.type = Low			;Type: High, Low, Trip (def: same as ground.type)
@@ -3324,10 +3324,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch Strong
 [Statedef 410]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 3
+juggle = 3
 poweradd= 50
 ctrl = 0
 anim = 410
@@ -3357,19 +3357,19 @@ value = S1,1
 type = HitDef
 trigger1 = Time = 0
 attr = C, NA
-animtype  = Medium
-damage    = 23,0
+animtype = Medium
+damage = 23,0
 guardflag = L
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 10,10
 sparkno = -1 + 0*(var(33):=8011)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 31), var(36) := -53
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s0,0
 ground.type = Low
 ground.slidetime = 8
-ground.hittime  = 13
+ground.hittime = 13
 ground.velocity = -4.7
 air.velocity = -2,-3.5
 guard.sparkno = -1 + 0*(var(34):=8001)
@@ -3398,10 +3398,10 @@ value = 11
 ctrl = 1
 
 [Statedef 415, - Crouch Strong2]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 1
+juggle = 1
 poweradd= 100
 ctrl = 0
 anim = 415
@@ -3431,19 +3431,19 @@ persistent = 0
 type = HitDef
 trigger1 = Time = 0
 attr = C, NA
-animtype  = Medium
-damage    = 17,0
+animtype = Medium
+damage = 17,0
 guardflag = L
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 10,10
 sparkno = -1 + 0*(var(33):=8011)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 34), var(36) := -53
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s0,0
 ground.type = Low
 ground.slidetime = 8
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -2
 air.velocity = -2,-3.5
 guard.sparkno = -1 + 0*(var(34):=8001)
@@ -3473,10 +3473,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch Fierce
 [Statedef 420]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 6
+juggle = 6
 poweradd= 50
 ctrl = 0
 anim = 420
@@ -3507,19 +3507,19 @@ type = HitDef
 trigger1 = Time = 0
 trigger1 = prevstateno != 415
 attr = C, NA
-animtype  = Hard
-damage    = 39,0
+animtype = Hard
+damage = 39,0
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8012)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 36), var(36) := -101
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -5.5
 air.velocity = -2.5,-4
 
@@ -3528,19 +3528,19 @@ type = HitDef
 trigger1 = Time = 0
 trigger1 = prevstateno = 415
 attr = C, NA
-animtype  = Up
-damage    = 39,0
+animtype = Up
+damage = 39,0
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8012)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 36), var(36) := -101
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -.5,-8
 air.velocity = -1.5,-4
 fall = 1
@@ -3556,10 +3556,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch Short
 [Statedef 430]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 1
+juggle = 1
 poweradd= 22
 ctrl = 0
 
@@ -3607,7 +3607,7 @@ hitsound = s3,0			;Sound to play on hit
 guardsound = s0, 0		;Sound to play on guard
 ground.type = Low		;Type: High, Low, Trip (def: Normal)
 ground.slidetime = 5		;Time that the opponent slides back
-ground.hittime  = 12		;Time opponent is in hit state
+ground.hittime = 12		;Time opponent is in hit state
 ground.velocity = -4		;Velocity at which opponent is pushed
 airguard.velocity = -1.9,-.8	;Guard velocity in air (def: (air.xvel*1.5, air.yvel/2))
 air.type = Low			;Type: High, Low, Trip (def: same as ground.type)
@@ -3663,10 +3663,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch Forward
 [Statedef 440]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 3
+juggle = 3
 poweradd= 22
 ctrl = 0
 anim = 440
@@ -3714,19 +3714,19 @@ y = 0
 type = HitDef
 trigger1 = Time = 0
 attr = C, NA
-animtype  = Medium
-damage    = 30
+animtype = Medium
+damage = 30
 guardflag = L
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 10,10
 sparkno = -1 + 0*(var(33):=8011)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 52), var(36) := -4
-hitsound   = s3,1
+hitsound = s3,1
 guardsound = s0,0
 ground.type = Low
 ground.slidetime = 8
-ground.hittime  = 13
+ground.hittime = 13
 ground.velocity = -4.7
 air.velocity = -2,-3.5
 guard.sparkno = -1 + 0*(var(34):=8001)
@@ -3748,10 +3748,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Sweep
 [Statedef 450]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 7
+juggle = 7
 poweradd= 70
 ctrl = 0
 anim = 450
@@ -3804,19 +3804,19 @@ y = 0
 type = HitDef
 trigger1 = Time = 0
 attr = C, NA
-animtype  = Hard
-damage    = 51
+animtype = Hard
+damage = 51
 guardflag = L
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 9,9
 sparkno = -1 + 0*(var(33):=8012)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 60), var(36) := -5
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = Trip
 ground.slidetime = 16
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -3,-4
 air.velocity = -3,-4
 guard.velocity = -6.5
@@ -3835,10 +3835,10 @@ value = 11
 ctrl = 1
 
 [Statedef 451, - Leaping Roundhouse]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 poweradd= 140
 ctrl = 0
 anim = 451
@@ -3885,19 +3885,19 @@ y = .5
 type = HitDef
 trigger1 = animelem = 2
 attr = C, NA
-animtype  = Up
-damage    = 19,0
+animtype = Up
+damage = 19,0
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8012)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 33), var(36) := -40
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -.8,-8
 air.velocity = -1.5,-4
 fall = 1
@@ -3910,10 +3910,10 @@ trigger1 = Pos Y >= 0
 value = 452
 
 [Statedef 452, - Leaping Roundhouse 2]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 3
+juggle = 3
 poweradd= 0
 ctrl = 0
 anim = 452
@@ -3982,19 +3982,19 @@ persistent = 0
 type = HitDef
 trigger1 = time = 0
 attr = C, NA
-animtype  = Up
-damage    = 19,0
+animtype = Up
+damage = 19,0
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8012)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 26), var(36) := -93
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -.8,-8
 air.velocity = -1.5,-4
 fall = 1
@@ -4003,10 +4003,10 @@ fall.recover = 0
 ;---------------------------------------------------------------------------
 ; Jump Jab
 [Statedef 600]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 2
+juggle = 2
 poweradd= 11
 ctrl = 0
 anim = 600
@@ -4049,7 +4049,7 @@ hitsound = s2, 0			;Sound to play on hit
 guardsound = s0, 0		;Sound to play on guard
 ground.type = High		;Type: High, Low, Trip (def: Normal)
 ground.slidetime = 5		;Time that the opponent slides back
-ground.hittime  = 12		;Time opponent is in hit state
+ground.hittime = 12		;Time opponent is in hit state
 ground.velocity = -4		;Velocity at which opponent is pushed
 airguard.velocity = -1.9,-.8	;Guard velocity in air (def: (air.xvel*1.5, air.yvel/2))
 air.type = High			;Type: High, Low, Trip (def: same as ground.type)
@@ -4107,10 +4107,10 @@ value = 1
 ;---------------------------------------------------------------------------
 ; Jump Strong
 [Statedef 610]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 4
+juggle = 4
 poweradd= 65
 ctrl = 0
 anim = 610
@@ -4140,8 +4140,8 @@ value = S1,1
 type = HitDef
 trigger1 = Time = 0
 attr = A, NA			;Attribute: Standing, Normal Attack
-animtype  = Medium
-damage    = 27,0
+animtype = Medium
+damage = 27,0
 guardflag = HA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
 priority = 3, Hit		;Attack priority: 0 (least) to 7 (most), 4 default;Hit/Miss/Dodge type (Def: Hit)
@@ -4153,7 +4153,7 @@ hitsound = s2, 1			;Sound to play on hit
 guardsound = s0, 0		;Sound to play on guard
 ground.type = High		;Type: High, Low, Trip (def: Normal)
 ground.slidetime = 5		;Time that the opponent slides back
-ground.hittime  = 12		;Time opponent is in hit state
+ground.hittime = 12		;Time opponent is in hit state
 ground.velocity = -4		;Velocity at which opponent is pushed
 airguard.velocity = -1.9,-.8	;Guard velocity in air (def: (air.xvel*1.5, air.yvel/2))
 air.type = High			;Type: High, Low, Trip (def: same as ground.type)
@@ -4189,10 +4189,10 @@ value = 1
 ;---------------------------------------------------------------------------
 ; Jump Fierce
 [Statedef 620]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 4
+juggle = 4
 poweradd= 70
 ctrl = 0
 anim = 620
@@ -4222,19 +4222,19 @@ persistent = 0
 type = HitDef
 trigger1 = time = 0
 attr = A, NA
-animtype  = Hard
-damage    = 45
+animtype = Hard
+damage = 45
 guardflag = HA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 10,12
 sparkno = -1 + 0*(var(33):=8012)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 38), var(36) := -47
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -5.5
 air.velocity = -2.5,-4
 air.hittime = 120
@@ -4247,10 +4247,10 @@ value = 1
 ;---------------------------------------------------------------------------
 ; Jump Short
 [Statedef 630]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 3
+juggle = 3
 poweradd= 20
 ctrl = 0
 anim = 630
@@ -4293,7 +4293,7 @@ hitsound = s3, 0			;Sound to play on hit
 guardsound = s0, 0		;Sound to play on guard
 ground.type = High		;Type: High, Low, Trip (def: Normal)
 ground.slidetime = 5		;Time that the opponent slides back
-ground.hittime  = 12		;Time opponent is in hit state
+ground.hittime = 12		;Time opponent is in hit state
 ground.velocity = -4		;Velocity at which opponent is pushed
 airguard.velocity = -1.9,-.8	;Guard velocity in air (def: (air.xvel*1.5, air.yvel/2))
 air.type = High			;Type: High, Low, Trip (def: same as ground.type)
@@ -4350,10 +4350,10 @@ value = 1
 ;---------------------------------------------------------------------------
 ; Jump Forward
 [Statedef 640]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 4
+juggle = 4
 poweradd= 65
 ctrl = 0
 anim = ifelse(prevstateno = 640 || prevstateno = 610,640,635)
@@ -4384,8 +4384,8 @@ type = HitDef
 trigger1 = Time = 0
 trigger1 = anim = 635
 attr = A, NA			;Attribute: Standing, Normal Attack
-animtype  = Medium
-damage    = 37,0
+animtype = Medium
+damage = 37,0
 guardflag = HA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
 priority = 3, Hit		;Attack priority: 0 (least) to 7 (most), 4 default;Hit/Miss/Dodge type (Def: Hit)
@@ -4397,7 +4397,7 @@ hitsound = s3, 1			;Sound to play on hit
 guardsound = s0, 0		;Sound to play on guard
 ground.type = High		;Type: High, Low, Trip (def: Normal)
 ground.slidetime = 5		;Time that the opponent slides back
-ground.hittime  = 12		;Time opponent is in hit state
+ground.hittime = 12		;Time opponent is in hit state
 ground.velocity = -4		;Velocity at which opponent is pushed
 airguard.velocity = -1.9,-.8	;Guard velocity in air (def: (air.xvel*1.5, air.yvel/2))
 air.type = High			;Type: High, Low, Trip (def: same as ground.type)
@@ -4409,8 +4409,8 @@ type = HitDef
 trigger1 = Time = 0
 trigger1 = anim = 640
 attr = A, NA			;Attribute: Standing, Normal Attack
-animtype  = Medium
-damage    = 47,0
+animtype = Medium
+damage = 47,0
 guardflag = HA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
 priority = 3, Hit		;Attack priority: 0 (least) to 7 (most), 4 default;Hit/Miss/Dodge type (Def: Hit)
@@ -4422,7 +4422,7 @@ hitsound = s3, 1			;Sound to play on hit
 guardsound = s0, 0		;Sound to play on guard
 ground.type = High		;Type: High, Low, Trip (def: Normal)
 ground.slidetime = 5		;Time that the opponent slides back
-ground.hittime  = 12		;Time opponent is in hit state
+ground.hittime = 12		;Time opponent is in hit state
 ground.velocity = -4		;Velocity at which opponent is pushed
 airguard.velocity = -1.9,-.8	;Guard velocity in air (def: (air.xvel*1.5, air.yvel/2))
 air.type = High			;Type: High, Low, Trip (def: same as ground.type)
@@ -4459,10 +4459,10 @@ value = 1
 ;---------------------------------------------------------------------------
 ; Jump Roundhouse
 [Statedef 650]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 4
+juggle = 4
 poweradd= 70
 ctrl = 0
 anim = 650
@@ -4492,19 +4492,19 @@ persistent = 0
 type = HitDef
 trigger1 = time = 0
 attr = A, NA
-animtype  = Hard
-damage    = 56
+animtype = Hard
+damage = 56
 guardflag = HA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 10,12
 sparkno = -1 + 0*(var(33):=8012)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 60), var(36) := -44
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -5.5
 air.velocity = -2.5,-4
 air.hittime = 120
@@ -4539,10 +4539,10 @@ type = Afterimage
 trigger1 = Time = 0
 time = 33
 length =5
-PalBright   =   0,  0,  0
+PalBright =   0,  0,  0
 PalContrast = 100,100,100
-PalAdd      =   0,  0,  0
-PalMul      =  1,1,1
+PalAdd =   0,  0,  0
+PalMul =  1,1,1
 Trans = Add1
 timegap = 2
 framegap = 1
@@ -4665,8 +4665,8 @@ y = 3
 type = HitDef
 trigger1 = Time = 15
 attr = A, NA			;Attribute: Standing, Normal Attack
-animtype  = Hard
-damage    = 17,0
+animtype = Hard
+damage = 17,0
 guardflag = HA			;Flags on how move is to be guarded against
 hitflag = MAF			;Flags of conditions that move can hit
 priority = 3, Hit		;Attack priority: 0 (least) to 7 (most), 4 default;Hit/Miss/Dodge type (Def: Hit)
@@ -4678,7 +4678,7 @@ hitsound = s2, 1			;Sound to play on hit
 guardsound = s0, 0		;Sound to play on guard
 ground.type = High		;Type: High, Low, Trip (def: Normal)
 ground.slidetime = 9		;Time that the opponent slides back
-ground.hittime  = 12		;Time opponent is in hit state
+ground.hittime = 12		;Time opponent is in hit state
 ground.velocity = -7		;Velocity at which opponent is pushed
 airguard.velocity = -1.9,-.8	;Guard velocity in air (def: (air.xvel*1.5, air.yvel/2))
 air.type = High			;Type: High, Low, Trip (def: same as ground.type)
@@ -4735,19 +4735,19 @@ y = 1
 type = HitDef
 trigger1 = Time = 16
 attr = C, NA
-animtype  = Hard
-damage    = 31
+animtype = Hard
+damage = 31
 guardflag = L
 hitflag = MAFD                    ;Flags of conditions that move can hit
 pausetime = 7,7
 sparkno = -1 + 0*(var(33):=8012)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 22), var(36) := -0
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = Trip
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -4,-4
 air.velocity = -1.5,-4
 fall = 1
@@ -4804,19 +4804,19 @@ y = 1
 type = HitDef
 trigger1 = Time = 25
 attr = S, NA
-animtype  = Hard
-damage    = 39
+animtype = Hard
+damage = 39
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8012)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 49), var(36) := -44
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 19
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -3.5
 air.velocity = -2.5,-4
 
@@ -4861,10 +4861,10 @@ type = Afterimage
 trigger1 = Time = 0
 time = 30
 length =5
-PalBright   =   0,  0,  0
+PalBright =   0,  0,  0
 PalContrast = 100,100,100
-PalAdd      =   0,  0,  0
-PalMul      =  1,1,1
+PalAdd =   0,  0,  0
+PalMul =  1,1,1
 Trans = Add1
 timegap = 2
 framegap = 1
@@ -4969,10 +4969,10 @@ type = Afterimage
 trigger1 = Time = 0
 time = 33
 length =5
-PalBright   =   0,  0,  0
+PalBright =   0,  0,  0
 PalContrast = 100,100,100
-PalAdd      =   0,  0,  0
-PalMul      =  1,1,1
+PalAdd =   0,  0,  0
+PalMul =  1,1,1
 Trans = Add1
 timegap = 2
 framegap = 1
@@ -5875,10 +5875,10 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Throw - Attempt
 [Statedef 800]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 800
@@ -5926,7 +5926,7 @@ value = 0
 ctrl = 1
 
 [Statedef 810, P1 Throw Forward]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 810
@@ -6007,7 +6007,7 @@ value = 0
 ctrl = 1
 
 [Statedef 815, P1 Throw Back]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 815
@@ -6098,7 +6098,7 @@ value = 0
 ctrl = 1
 
 [Statedef 820, P2 Throw Forward]
-type    = S
+type = S
 movetype= H
 physics = S
 velset = 0,0
@@ -6120,7 +6120,7 @@ trigger1 = Time = 25
 value = 821
 
 [Statedef 821, - P2 Throw End]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -4,-3
@@ -6143,7 +6143,7 @@ trigger1 = Pos Y >= 0
 value = 5100 ;Hit ground
 
 [Statedef 825, P2 Throw Back]
-type    = S
+type = S
 movetype= H
 physics = S
 velset = 0,0
@@ -6165,7 +6165,7 @@ trigger1 = Time = 41
 value = 826
 
 [Statedef 826, - P2 Throw End]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 4,-3
@@ -6188,7 +6188,7 @@ trigger1 = Pos Y >= 0
 value = 5100 ;Hit ground
 
 [Statedef 900, Esaka]
-type    = S
+type = S
 movetype= I
 physics = S
 ctrl = 0
@@ -6394,7 +6394,7 @@ trigger2 = var(20)<4
 value = 920
 
 [Statedef 901, - Override]
-type    = S
+type = S
 movetype= I
 physics = S
 ctrl = 0
@@ -6565,7 +6565,7 @@ trigger3 = p2dist x < 100
 value = 920
 
 [Statedef 905, - KO]
-type    = S
+type = S
 movetype= I
 physics = S
 ctrl = 0
@@ -6622,7 +6622,7 @@ value = 0
 ctrl = 1
 
 [Statedef 910, - High Box]
-type    = S
+type = S
 movetype= A
 physics = S
 ctrl = 0
@@ -6636,10 +6636,10 @@ time = 16
 length = 5
 timegap = 2
 framegap = 1
-PalBright   =   0,  0,  0
+PalBright =   0,  0,  0
 PalContrast = 100,100,100;255,255,255
-PalAdd      =   0,  0,  0
-PalMul      =  1,1,1
+PalAdd =   0,  0,  0
+PalMul =  1,1,1
 trans = add1
 
 [State 0, Width]
@@ -6681,19 +6681,19 @@ trigger1 = p2movetype != A
 trigger2 = p2stateno = 960
 trigger3 = p2statetype != A
 attr = S, CA
-animtype  = Hard
-damage    = 40
+animtype = Hard
+damage = 40
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 17,17
 sparkno = -1 + 0*(var(33):=8010)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 58), var(36) := -94
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 40
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -11.5,-4
 air.velocity = -2.5,-4
 getpower = 0,0
@@ -6707,19 +6707,19 @@ trigger1 = var(2) = 1
 trigger2 = var(2) = 0
 trigger2 = p2movetype = A
 attr = S, SA
-animtype  = Hard
-damage    = 60
+animtype = Hard
+damage = 60
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8010)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 58), var(36) := -94
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ;ground.velocity = -5.5
 ;air.velocity = -2.5,-4
 p2stateno = 960
@@ -6732,19 +6732,19 @@ triggerall = p2statetype = A
 trigger1 = Time = 0
 trigger1 = var(2) = 2
 attr = S, SA
-animtype  = Hard
-damage    = 80
+animtype = Hard
+damage = 80
 guardflag =
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8010)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 58), var(36) := -94
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -5.5
 air.velocity = -2.5,-4
 p2stateno = 960
@@ -6780,7 +6780,7 @@ trigger1 = animtime = 0
 value = 940
 
 [Statedef 920, - Mid Box]
-type    = S
+type = S
 movetype= A
 physics = S
 ctrl = 0
@@ -6794,10 +6794,10 @@ time = 16
 length = 5
 timegap = 2
 framegap = 1
-PalBright   =   0,  0,  0
+PalBright =   0,  0,  0
 PalContrast = 100,100,100;255,255,255
-PalAdd      =   0,  0,  0
-PalMul      =  1,1,1
+PalAdd =   0,  0,  0
+PalMul =  1,1,1
 trans = add1
 
 [State 0, Width]
@@ -6838,19 +6838,19 @@ trigger1 = var(2) = 0
 trigger1 = p2movetype != A
 trigger2 = p2statetype = A || p2dist Y < 0
 attr = S, SA
-animtype  = Hard
-damage    = 40
+animtype = Hard
+damage = 40
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 17,17
 sparkno = -1 + 0*(var(33):=8010)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 86), var(36) := -72
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 40
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -11.5
 air.velocity = -7.5,-4
 getpower = 0,0
@@ -6863,19 +6863,19 @@ trigger1 = var(2) = 1
 trigger2 = var(2) = 0
 trigger2 = p2movetype = A
 attr = S, SA
-animtype  = Hard
-damage    = 60
+animtype = Hard
+damage = 60
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8010)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 86), var(36) := -72
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 p2stateno = 950
 air.velocity = -7.5,-4
 getpower = 0,0
@@ -6886,19 +6886,19 @@ triggerall = p2statetype != A
 trigger1 = Time = 0
 trigger1 = var(2) = 2
 attr = S, SA
-animtype  = Hard
-damage    = 80
+animtype = Hard
+damage = 80
 guardflag =
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8010)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 86), var(36) := -72
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 air.velocity = -7.5,-4
 p2stateno = 950
 getpower = 0,0
@@ -6933,7 +6933,7 @@ trigger1 = animtime = 0
 value = 940
 
 [Statedef 930, - Low Box]
-type    = S
+type = S
 movetype= A
 physics = S
 ctrl = 0
@@ -6947,10 +6947,10 @@ time = 13
 length = 5
 timegap = 2
 framegap = 1
-PalBright   =   0,  0,  0
+PalBright =   0,  0,  0
 PalContrast = 100,100,100;255,255,255
-PalAdd      =   0,  0,  0
-PalMul      =  1,1,1
+PalAdd =   0,  0,  0
+PalMul =  1,1,1
 trans = add1
 
 [State 0, Width]
@@ -6990,19 +6990,19 @@ trigger1 = Time = 0
 trigger1 = var(2) = 0
 trigger1 = p2movetype != A
 attr = S, SA
-animtype  = Hard
-damage    = 40
+animtype = Hard
+damage = 40
 guardflag = L
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 17,17
 sparkno = -1 + 0*(var(33):=8010)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 75), var(36) := -32
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = Low
 ground.slidetime = 40
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -11.5
 air.velocity = -7.5,-4
 getpower = 0,0
@@ -7014,19 +7014,19 @@ trigger1 = var(2) = 1
 trigger2 = var(2) = 0
 trigger2 = p2movetype = A
 attr = S, SA
-animtype  = Hard
-damage    = 80
+animtype = Hard
+damage = 80
 guardflag = L
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8010)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 75), var(36) := -32
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -4.5,-6
 air.velocity = -4.5,-4
 ;p2stateno = 960
@@ -7039,19 +7039,19 @@ type = HitDef
 trigger1 = Time = 0
 trigger1 = var(2) = 2
 attr = S, SA
-animtype  = Hard
-damage    = 100
+animtype = Hard
+damage = 100
 guardflag =
 hitflag = MAFD                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8010)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 75), var(36) := -32
-hitsound   = s3,2
+hitsound = s3,2
 guardsound = s0,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -4.5,-6
 air.velocity = -4.5,-4
 ;p2stateno = 960
@@ -7090,7 +7090,7 @@ trigger1 = animtime = 0
 value = 940
 
 [Statedef 940, - Recover]
-type    = S
+type = S
 movetype= I
 physics = S
 ctrl = 0
@@ -7104,10 +7104,10 @@ time = 46
 length = 5
 timegap = 2
 framegap = 1
-PalBright   =   0,  0,  0
+PalBright =   0,  0,  0
 PalContrast = 100,100,100;255,255,255
-PalAdd      =   0,  0,  0
-PalMul      =  1,1,1
+PalAdd =   0,  0,  0
+PalMul =  1,1,1
 trans = add1
 
 [State 0, VarSet]
@@ -7227,7 +7227,7 @@ trigger1 = Pos Y  >= -20
 value = 5100 ;Hit ground
 
 [Statedef 970, - Damage Limiter]
-type    = S
+type = S
 anim = 9999
 
 [State 0, DestroySelf]
@@ -7236,7 +7236,7 @@ trigger1 = p2movetype != H
 trigger1 = enemy,alive
 
 [Statedef 980, - Defense Down]
-type    = S
+type = S
 anim = 9999
 
 [State 0, DestroySelf]
@@ -7244,10 +7244,10 @@ type = DestroySelf
 trigger1 = time = 500
 
 [Statedef 1000, Nanpa Light]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 100
 velset = 0,0
 anim = 1000
@@ -7296,19 +7296,19 @@ offset = 98,-57
 postype = p1         ;p2,front,back,left,right
 projshadow = 0,0,0
 attr = S,SP
-animtype  = Hard
-damage    = 50,5
+animtype = Hard
+damage = 50,5
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 0,10
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno =-1 + 0*(var(34):=8001)
 sparkxy = -10,-10
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = Low
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -7,0
 air.velocity = -2.5,-3
 envshake.time = 15
@@ -7361,7 +7361,7 @@ value = 0
 ctrl = 1
 
 [Statedef 1002, - Nanpa Projectile]
-type    = S
+type = S
 anim = 1002;9999
 sprpriority = 999
 
@@ -7431,10 +7431,10 @@ type = DestroySelf
 trigger1 = time = 23
 
 [Statedef 1010, Nanpa Medium]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 100
 velset = 0,0
 anim = 1010
@@ -7483,20 +7483,20 @@ offset = 98,-57
 postype = p1         ;p2,front,back,left,right
 projshadow = 0,0,0
 attr = S,SP
-animtype  = Hard
-damage    = 65,7
+animtype = Hard
+damage = 65,7
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 0,10
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno =-1 + 0*(var(34):=8001)
 sparkxy = -10,-10
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = Low
 guard.hittime = 15
 ground.slidetime = 25
-ground.hittime  = 25
+ground.hittime = 25
 ground.velocity = -10,0
 air.velocity = -4.5,-3
 envshake.time = 15
@@ -7550,10 +7550,10 @@ value = 0
 ctrl = 1
 
 [Statedef 1020, Nanpa Hard]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 100
 velset = 0,0
 anim = 1020
@@ -7602,20 +7602,20 @@ offset = 98,-57
 postype = p1         ;p2,front,back,left,right
 projshadow = 0,0,0
 attr = S,SP
-animtype  = Hard
-damage    = 80,10
+animtype = Hard
+damage = 80,10
 guardflag = MA
 hitflag = MAFD                    ;Flags of conditions that move can hit
 pausetime = 0,0
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno =-1 + 0*(var(34):=8001)
 sparkxy = -10,-10
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 guard.hittime = 15
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -5,-3
 air.velocity = -5,-3
 envshake.time = 15
@@ -7669,10 +7669,10 @@ value = 0
 ctrl = 1
 
 [Statedef 1030, Nanpa EX]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd = ifelse(var(53) > 0, 0, -500)
 velset = 0,0
 anim = 1020
@@ -7762,20 +7762,20 @@ offset = 98,-57
 postype = p1         ;p2,front,back,left,right
 projshadow = 0,0,0
 attr = S,SP
-animtype  = Hard
-damage    = 80,10
+animtype = Hard
+damage = 80,10
 guardflag = MA
 hitflag = MAFD                    ;Flags of conditions that move can hit
 ;pausetime = 10,10
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno =-1 + 0*(var(34):=8001)
 sparkxy = -10,-10
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = Low
 guard.hittime = 5
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -5,-3
 air.velocity = -5,-3
 envshake.time = 10
@@ -7813,20 +7813,20 @@ offset = 128,-57
 postype = p1         ;p2,front,back,left,right
 projshadow = 0,0,0
 attr = S,SP
-animtype  = Hard
-damage    = 30,5
+animtype = Hard
+damage = 30,5
 guardflag = MA
 hitflag = MAFD                    ;Flags of conditions that move can hit
 ;pausetime = 10,10
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno =-1 + 0*(var(34):=8001)
 sparkxy = -10,-10
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = Low
 guard.hittime = 15
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -5,-3
 air.velocity = -5,-3
 envshake.time = 15
@@ -7885,10 +7885,10 @@ value = 0
 ctrl = 1
 
 [Statedef 1100, Banhaku Kou'en]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 60
 velset = 0,0
 anim = 1100
@@ -7934,7 +7934,7 @@ value = 0
 ctrl = 1
 
 [Statedef 1101, - P1 Throw State]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1101
@@ -7997,7 +7997,7 @@ value = 0
 ctrl = 1
 
 [Statedef 1102, - P2 Throw State]
-type    = S
+type = S
 movetype= H
 physics = S
 velset = 0,0
@@ -8008,7 +8008,7 @@ Trigger1 = Time = 0
 value = 1102
 
 [Statedef 1103, - P2 Throw State 2]
-type    = S
+type = S
 movetype= H
 physics = S
 velset = 14,0
@@ -8025,10 +8025,10 @@ value = 0
 ctrl = 1
 
 [Statedef 1110, Senri Chukou M]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 100
 velset = 0,0
 anim = 1110
@@ -8079,10 +8079,10 @@ Trigger1 = AnimTime = 0
 value = 1111
 
 [Statedef 1111, - Action]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 100
 velset = 0,0
 anim = 1100
@@ -8133,7 +8133,7 @@ value = 0
 ctrl = 1
 
 [Statedef 1112, - P1 Throw State]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1112
@@ -8199,7 +8199,7 @@ value = 0
 ctrl = 1
 
 [Statedef 1113, - P2 Throw State]
-type    = S
+type = S
 movetype= H
 physics = S
 velset = 0,0
@@ -8216,7 +8216,7 @@ Trigger1 = Time = 0
 value = 1113
 
 [Statedef 1114, - P2 Fly]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -8275,7 +8275,7 @@ trigger1 = Time = 3
 value = 1116
 
 [Statedef 1116, - P2 Wall Bounce 2]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -8327,10 +8327,10 @@ trigger1 = (Vel y > 0) && (Pos y >= 0)
 value = 5100
 
 [Statedef 1120, Senri Chukou H]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 100
 velset = 0,0
 anim = 1120
@@ -8381,10 +8381,10 @@ Trigger1 = AnimTime = 0
 value = 1121
 
 [Statedef 1121, - Action]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 100
 velset = 0,0
 anim = 1100
@@ -8435,10 +8435,10 @@ value = 0
 ctrl = 1
 
 [Statedef 1130, Senri Chukou EX]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd = ifelse(var(53) > 0, 0, -500)
 velset = 0,0
 anim = 1130
@@ -8518,10 +8518,10 @@ Trigger1 = AnimTime = 0
 value = 1131
 
 [Statedef 1131, - Action]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 anim = 1100
 ctrl = 0
@@ -8573,7 +8573,7 @@ value = 0
 ctrl = 1
 
 [Statedef 1132, - P1 Throw State]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1101
@@ -8630,7 +8630,7 @@ trigger1 = AnimTime = 0
 value = 1135
 
 [Statedef 1133, - P2 Throw State]
-type    = S
+type = S
 movetype= H
 physics = S
 velset = 0,0
@@ -8641,7 +8641,7 @@ Trigger1 = Time = 0
 value = 1102
 
 [Statedef 1134, - P2 Throw State 2]
-type    = S
+type = S
 movetype= H
 physics = S
 velset = 14,0
@@ -8658,7 +8658,7 @@ value = 0
 ctrl = 1
 
 [Statedef 1135, - P1 Ekisupo]
-type    = S
+type = S
 movetype= A
 physics = N
 
@@ -8714,19 +8714,19 @@ physics = A         ;A,C,S,N
 type = HitDef
 trigger1 = time = 0
 attr = S, NA
-animtype  = Hard
-damage  = 80
+animtype = Hard
+damage = 80
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 12,12
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 45), var(36) := -67
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 21
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = -2.5,-7
 air.velocity = -2.5,-7
 getpower = 0,0
@@ -8736,16 +8736,16 @@ getpower = 0,0
 
 [State 105, 3]
 type = ChangeState
-triggerall  = time > 15
+triggerall = time > 15
 trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 106
 
 [Statedef 1200, Tenpou Zan L]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 6
+juggle = 6
 poweradd= 100
 velset = 0,0
 anim = 1200
@@ -8765,19 +8765,19 @@ persistent = 0
 type = HitDef
 trigger1 = Time = 0
 attr = S, SA
-animtype  = Hard
-damage    = 49,4
+animtype = Hard
+damage = 49,4
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 15,15
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 36), var(36) := -47
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -4.5,-7
 air.velocity = -4.5,-3
 fall = 1
@@ -8808,10 +8808,10 @@ Trigger1 = AnimTime = 0
 value = 1201
 
 [Statedef 1201, - Rise]
-type    = A
+type = A
 movetype= U
 physics = N
-juggle  = 6
+juggle = 6
 anim = 1201
 
 [State 0, EnvShake]
@@ -8848,19 +8848,19 @@ ownPal = 1
 type = HitDef
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Hard
-damage    = 49,4
+animtype = Hard
+damage = 49,4
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 15,15
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 30), var(36) := -72
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -4.5,-6
 air.velocity = -4.5,-3
 fall = 1
@@ -8873,10 +8873,10 @@ Trigger1 = Vel Y > -1
 value = 1202
 
 [Statedef 1202, - Recover]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 anim = 1202
 
 [State 1522, 1] ;Gravity
@@ -8898,10 +8898,10 @@ trigger1 = Pos Y >= 0
 value = 52
 
 [Statedef 1210, Tenpou Zan M]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 3
+juggle = 3
 poweradd= 100
 velset = 0,0
 anim = 1210
@@ -8927,19 +8927,19 @@ persistent = 0
 type = HitDef
 trigger1 = Time = 0
 attr = S, SA
-animtype  = Hard
-damage    = 35,4
+animtype = Hard
+damage = 35,4
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 15,15
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 36), var(36) := -47
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -4.5,-7
 air.velocity = -4.5,-3
 fall = 1
@@ -8964,10 +8964,10 @@ Trigger1 = AnimTime = 0
 value = 1211
 
 [Statedef 1211, - Rise]
-type    = A
+type = A
 movetype= U
 physics = N
-juggle  = 3
+juggle = 3
 anim = 1201
 
 [State 0, EnvShake]
@@ -9010,19 +9010,19 @@ ownPal = 1
 type = HitDef
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Hard
-damage    = 49,4
+animtype = Hard
+damage = 49,4
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 15,15
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 30), var(36) := -72
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -4.5,-6
 air.velocity = -4.5,-3
 fall = 1
@@ -9035,10 +9035,10 @@ Trigger1 = Vel Y > -1
 value = 1202
 
 [Statedef 1220, Tenpou Zan H]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 3
+juggle = 3
 poweradd= 100
 velset = 0,0
 anim = 1220
@@ -9064,19 +9064,19 @@ x =10
 type = HitDef
 trigger1 = Time = 0
 attr = S, SA
-animtype  = Hard
-damage    = 49,4
+animtype = Hard
+damage = 49,4
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 15,15
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 36), var(36) := -47
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -4.5,-7
 air.velocity = -4.5,-3
 fall = 1
@@ -9101,10 +9101,10 @@ Trigger1 = AnimTime = 0
 value = 1221
 
 [Statedef 1221, - Rise]
-type    = A
+type = A
 movetype= U
 physics = N
-juggle  = 3
+juggle = 3
 anim = 1201
 
 [State 0, EnvShake]
@@ -9147,19 +9147,19 @@ ownPal = 1
 type = HitDef
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Hard
-damage    = 49,4
+animtype = Hard
+damage = 49,4
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 15,15
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 30), var(36) := -72
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -4.5,-6
 air.velocity = -4.5,-6
 fall = 1
@@ -9172,10 +9172,10 @@ Trigger1 = Vel Y > -1
 value = 1202
 
 [Statedef 1230, Tenpou Zan EX]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd = ifelse(var(53) > 0, 0, -500)
 velset = 0,0
 anim = 1230
@@ -9260,19 +9260,19 @@ ownPal = 1
 type = HitDef
 trigger1 = Time = 0
 attr = S, SA
-animtype  = Hard
-damage    = 59,4
+animtype = Hard
+damage = 59,4
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 15,15
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 36), var(36) := -47
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -4.5,-7
 air.velocity = -4.5,-7
 fall = 1
@@ -9307,10 +9307,10 @@ Trigger1 = AnimTime = 0
 value = 1221
 
 [Statedef 1221, - Rise]
-type    = A
+type = A
 movetype= U
 physics = N
-juggle  = 3
+juggle = 3
 anim = 1201
 
 [State 0, EnvShake]
@@ -9353,19 +9353,19 @@ ownPal = 1
 type = HitDef
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Hard
-damage    = 59,4
+animtype = Hard
+damage = 59,4
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 15,15
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 30), var(36) := -72
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -4.5,-6
 air.velocity = -4.5,-6
 fall = 1
@@ -9379,10 +9379,10 @@ Trigger1 = Vel Y > -1
 value = 1202
 
 [Statedef 3000, Chou Pai-Long Light]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd = ifelse(var(53) > 0, 0, -1000)
 velset = 0,0
 anim = 3000
@@ -9475,19 +9475,19 @@ persistent = 0
 type = HitDef
 trigger1 = Time = 0
 attr = S, HA
-animtype  = Hard
-damage    = 200,10
+animtype = Hard
+damage = 200,10
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 0,12
 sparkno = -1 
 guard.sparkno = -1 ;+ 0 * (var(34) := 2010)
 sparkxy = 0,0;-10 + 0 * (var(35) := ifelse(p2dist x < 0,-14,58)), var(36) := -51
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 guard.velocity = -15.5
 air.velocity = -2.5,-4
 getpower = 0,0
@@ -9529,10 +9529,10 @@ value = 0
 ctrl = 1
 
 [Statedef 3010, Chou Pai-Long Medium]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= -1000
 velset = 0,0
 anim = 3010
@@ -9618,19 +9618,19 @@ darken = 0
 type = HitDef
 trigger1 = Animelem = 5
 attr = S, HA
-animtype  = Hard
-damage  = ifelse(prevstateno = 3000,150,200),10
+animtype = Hard
+damage = ifelse(prevstateno = 3000,150,200),10
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 17,17
 sparkno = -1 + 0*(var(33):=8014)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 66), var(36) := -55
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 21
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = -10.5
 air.velocity = -2.5,-4
 getpower = 0,0
@@ -9649,10 +9649,10 @@ value = 0
 ctrl = 1
 
 [Statedef 3020, Chou Pai-Long Hard]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= -1000
 velset = 0,0
 anim = 3020
@@ -9720,19 +9720,19 @@ value = 15,10
 type = HitDef
 trigger1 = time = 0
 attr = S, HA
-animtype  = Hard
-damage  = ifelse(prevstateno = 3010,150,200),10
+animtype = Hard
+damage = ifelse(prevstateno = 3010,150,200),10
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 17,17
 sparkno = -1 + 0*(var(33):=8014)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 39), var(36) := -47
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 p2stateno = 3030       ;If hit, p2 changes to state 820 in player's cns
 getpower = 0,0
 
@@ -9760,7 +9760,7 @@ value = 0
 ctrl = 1
 
 [Statedef 3030, - P2 State]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -9777,7 +9777,7 @@ Trigger1 = time = 12
 value = 3031
 
 [Statedef 3031, - P2 Fly]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -9841,7 +9841,7 @@ trigger1 = Time = 3
 value = 3033
 
 [Statedef 3033, - P2 Wall Bounce 2]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -9894,10 +9894,10 @@ value = 5100
 
 ;Chou Pai-Long(MAX)
 [Statedef 3050]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 6
+juggle = 6
 velset = 0,0
 anim = 3050
 poweradd = ifelse(var(53) > 0, -1000, -2000)
@@ -10032,19 +10032,19 @@ persistent = 0
 type = HitDef
 trigger1 = AnimElem = 5
 attr = S, HA
-animtype  = Hard
-damage    = 100,10
+animtype = Hard
+damage = 100,10
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 15,15
 sparkno = -1 + 0 * (var(33) := 8014)
 guard.sparkno=-1 + 0*(var(34):=8001)
 sparkxy = -10 + 0 * (var(35) := 155), var(36) := -54
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 guard.velocity = -15.5
 air.velocity = -2.5,-4
 getpower = 0,0
@@ -10057,10 +10057,10 @@ p2stateno = ifelse(p2statetype = A || p2dist y < 0, 3031,950)
 type = HitDef
 trigger1 = AnimElem = 10
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=50,10
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 15,15
@@ -10071,7 +10071,7 @@ hitsound = S2,2
 guardsound = S6,0
 ground.type = High
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -4
 guard.velocity = -4
@@ -10119,10 +10119,10 @@ value = 15,0
 type = HitDef
 trigger1 = AnimElem = 19  
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=50,10
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 20,20
@@ -10133,7 +10133,7 @@ hitsound = S2,2
 guardsound = S0,0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -4
 guard.velocity = -4
@@ -10159,10 +10159,10 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 20  
 attr = S, HA
-animtype  = Heavy
-air.animtype  = Back
+animtype = Heavy
+air.animtype = Back
 damage=25,3
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 20,20
@@ -10173,7 +10173,7 @@ hitsound = S2,2
 guardsound = S0,0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -4
 guard.velocity = -4
@@ -10200,19 +10200,19 @@ kill = 0
 type = HitDef
 trigger1 = AnimElem = 21 
 attr = S, HA
-animtype  = Hard
-damage  = 200,10
+animtype = Hard
+damage = 200,10
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 20,20
 sparkno = -1 + 0*(var(33):=8014)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 39), var(36) := -47
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 p2stateno = 3030       ;If hit, p2 changes to state 820 in player's cns
 getpower = 0,0
 
@@ -10252,10 +10252,10 @@ value = 0
 ctrl = 1
 
 [Statedef 3100, Dai Tetsujin]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0
+juggle = 0
 poweradd = ifelse(var(53) > 0, 0, -1000)
 velset = 0,0
 anim = 3100
@@ -10333,10 +10333,10 @@ Trigger1 = AnimTime = 0
 value = 3110
 
 [Statedef 3150, Dai Tetsujin(Max)]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0
+juggle = 0
 poweradd = ifelse(var(53) > 0, -1000, -2000)
 velset = 0,0
 anim = 3100
@@ -10414,10 +10414,10 @@ Trigger1 = AnimTime = 0
 value = 3115
 
 [Statedef 3110, - Shoulder Charge]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 poweradd= 0
 velset = 13,0
 anim = 3110
@@ -10466,19 +10466,19 @@ x = -.1
 type = HitDef
 trigger1 = time = 0
 attr = A, HA
-animtype  = Hard
-damage  = 230,10
+animtype = Hard
+damage = 230,10
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 17,17
 sparkno = -1 + 0*(var(33):=8014)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 31), var(36) := -60
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 21
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = -2.5,-7
 air.velocity = -2.5,-7
 getpower = 0,0
@@ -10491,10 +10491,10 @@ Trigger1 = AnimTime = 0
 value = 3120
 
 [Statedef 3115, - Shoulder Charge(Max)]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 poweradd= 0
 velset = 13,0
 anim = 3110
@@ -10543,19 +10543,19 @@ x = 1
 type = HitDef
 trigger1 = time = 0
 attr = A, HA
-animtype  = Hard
-damage  = 350,10
+animtype = Hard
+damage = 350,10
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 17,17
 sparkno = -1 + 0*(var(33):=8014)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 31), var(36) := -60
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 21
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = -2.5,-7
 air.velocity = -2.5,-7
 getpower = 0,0
@@ -10568,10 +10568,10 @@ Trigger1 = AnimTime = 0
 value = 3120
 
 [Statedef 3120, - Land]
-type    = A
+type = A
 movetype= I
 physics = N
-juggle  = 0
+juggle = 0
 poweradd= 0
 anim = 3120
 ctrl = 0
@@ -10591,10 +10591,10 @@ value = 11
 ctrl = 1
 
 [Statedef 3200, Majinga]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd = ifelse(var(53) > 0, -1000, -3000)
 velset = 0,0
 anim = 3200
@@ -10674,10 +10674,10 @@ Trigger1 = AnimTime = 0
 value = ifelse(p2stateno = 3230,3220,3210)
 
 [Statedef 3210, - Projectile]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 0
 velset = 0,0
 anim = 3210
@@ -10738,19 +10738,19 @@ offset = 0,0
 postype = p1         ;p2,front,back,left,right
 projshadow = 0,0,0
 attr = S,HP
-animtype  = Hard
-damage    = 300,18
+animtype = Hard
+damage = 300,18
 guardflag = MA
 hitflag = MAFD                    ;Flags of conditions that move can hit
 pausetime = 10,10
 sparkno = -1 + 0*(var(33):=8013)
 guard.sparkno =-1 + 0*(var(34):=8001)
 sparkxy = -10,-10
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = -7,-3
 air.velocity = -7.5,-3
 fall = 1
@@ -10767,10 +10767,10 @@ value = 0
 ctrl = 1
 
 [Statedef 3220, - Silent Charge]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 0
 velset = 0,0
 anim = 3220
@@ -10886,10 +10886,10 @@ Trigger1 = time = 135;130
 value = 3225
 
 [Statedef 3225, - Chi Blast]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 0
 velset = 0,0
 anim = 3225
@@ -11004,7 +11004,7 @@ value = 0
 ctrl = 1
 
 [Statedef 3230, - P2 State]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -11020,7 +11020,7 @@ Trigger1 = time = 110
 value = 3231
 
 [Statedef 3231, - P2 Fly]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -11070,7 +11070,7 @@ trigger1 = Time = 3
 value = 3233
 
 [Statedef 3233, - P2 Wall Bounce 2]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -11122,10 +11122,10 @@ trigger1 = (Vel y > 0) && (Pos y >= 0)
 value = 5100
 
 [Statedef 3300, Tenpou Zan]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 3
+juggle = 3
 poweradd = ifelse(var(53) > 0, 0, -1000)
 velset = 0,0
 anim = 3300
@@ -11195,19 +11195,19 @@ x =20
 type = HitDef
 trigger1 = Time = 0
 attr = S, SA
-animtype  = Hard
-damage    = 49,4
+animtype = Hard
+damage = 49,4
 guardflag = M
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 20,20
 sparkno = -1 + 0*(var(33):=8014)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 36), var(36) := -47
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -4.5,-7
 air.velocity = -4.5,-3
 fall = 1
@@ -11226,10 +11226,10 @@ Trigger1 = AnimTime = 0
 value = 3301
 
 [Statedef 3301, - Rise]
-type    = A
+type = A
 movetype= U
 physics = N
-juggle  = 3
+juggle = 3
 anim = 3301
 
 [State 0, EnvShake]
@@ -11272,19 +11272,19 @@ ownPal = 1
 type = HitDef
 trigger1 = Timemod =5, 0
 attr = A, SA
-animtype  = Hard
-damage    = 49,4
+animtype = Hard
+damage = 49,4
 guardflag = MA
 hitflag = MAF                    ;Flags of conditions that move can hit
 pausetime = 10,10
 sparkno = -1 + 0*(var(33):=8014)
 guard.sparkno = -1 + 0 * (var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 30), var(36) := -72
-hitsound   = s2,1
+hitsound = s2,1
 guardsound = s0,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -4.5,-6
 air.velocity = -4.5,-6
 fall = 1
@@ -11298,7 +11298,7 @@ Trigger1 = Vel Y > -1
 value = 1202
 
 [Statedef 2000, Hitsparks Light]
-type    = S
+type = S
 physics = S
 velset = 0,0
 anim = 6005
@@ -11650,7 +11650,7 @@ type = DestroySelf
 trigger1 = Time = 19
 
 [Statedef 2001, Hitsparks Medium]
-type    = S
+type = S
 physics = S
 velset = 0,0
 anim = 7010
@@ -12003,7 +12003,7 @@ trigger1 = Time = 19
 
 
 [Statedef 2002, Hitsparks Hard]
-type    = S
+type = S
 physics = S
 velset = 0,0
 anim =4408;7020
@@ -12358,7 +12358,7 @@ trigger1 = Time = 32
 
 
 [Statedef 2010, Block Sparks]
-type    = S
+type = S
 physics = S
 velset = 0,0
 anim = 9999
@@ -12458,7 +12458,7 @@ type = DestroySelf
 trigger1 = Time = 20
 
 [Statedef 2020, Hitsparks Esaka]
-type    = S
+type = S
 physics = S
 velset = 0,0
 anim = 4102
@@ -12550,7 +12550,7 @@ type = DestroySelf
 trigger1 = Time = 25
 
 [Statedef 2021, Hitsparks Projectile]
-type    = S
+type = S
 physics = S
 velset = 0,0
 anim = 4422
@@ -12612,7 +12612,7 @@ type = DestroySelf
 trigger1 = Time = 25
 
 [Statedef 2022, Hitsparks Specials]
-type    = S
+type = S
 physics = S
 velset = 0,0
 anim = 4427
@@ -12734,7 +12734,7 @@ trigger1 = Time = 25
 
 
 [Statedef 2051, Hitsparks Supers]
-type    = S
+type = S
 physics = S
 velset = 0,0
 anim = 4121;9999
@@ -12809,7 +12809,7 @@ type = DestroySelf
 trigger1 = Time = 32
 
 [Statedef 999, Esaka FX]
-type    = S
+type = S
 physics = S
 velset = 0,0
 anim = 999
@@ -12843,7 +12843,7 @@ type = DestroySelf
 trigger1 = time = 30
 
 [Statedef 2901, Esaka Cancel]
-type    = S
+type = S
 physics = S
 velset = 0,0
 anim = 9999
@@ -12977,7 +12977,7 @@ value = 0
 
 ;=====================<HIT GROUND(BOUNCE)>===================
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -13066,7 +13066,7 @@ time = 20
 
 ;================<HIT LIEDOWN>====================
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -14021,7 +14021,7 @@ postype = right
 ;1aD§3oE?I?OA
 ;--------------------------------------------------------------
 [Statedef 23680]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -14065,7 +14065,7 @@ pos = (1+ifelse(Parent,fvar(36) = 1,-1,0)+ifelse(Parent,fvar(36) = 2,-2,0))*ifel
 ;1aD§×o
 ;--------------------------------------------------------------
 [Statedef 23681]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -14090,7 +14090,7 @@ value = SCA
 ;1aD§OO
 ;--------------------------------------------------------------
 [Statedef 23682]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -14163,21 +14163,21 @@ flag = noshadow
 
 [State -2, nokoslow]
 type = assertspecial
-trigger1  = roundno != 1
+trigger1 = roundno != 1
 trigger1 = stagevar(info.name) = "Howard Arena"
-trigger2  = roundno != 1
+trigger2 = roundno != 1
 trigger2 = stagevar(info.name) = "Howard Arena Storm"
-trigger3  = roundno != 1
+trigger3 = roundno != 1
 trigger3 = stagevar(info.name) = "Howard Arena Thunder"
-trigger4  = roundno != 1
+trigger4 = roundno != 1
 trigger4 = stagevar(info.name) = "The Dead Pool"
-trigger5  = roundno != 1
+trigger5 = roundno != 1
 trigger5 = stagevar(info.name) = "Green Hell"
-trigger6  = roundno != 1
+trigger6 = roundno != 1
 trigger6 = stagevar(info.name) = "Vagnad Stage"
-trigger7  = roundno != 1
+trigger7 = roundno != 1
 trigger7 = stagevar(info.name) = "Ultimate_Capcom_Building"
-trigger8  = roundno != 1
+trigger8 = roundno != 1
 trigger8 =stagevar(info.name) = "Ultimate_USSR" 
 flag = nokoslow
 
@@ -15222,7 +15222,7 @@ ctrl = 0
 type = AssertSpecial
 trigger1 = 1
 trigger1 = stagevar(info.name) = "Belgrave Square Labs"
-trigger1  = roundno != 1
+trigger1 = roundno != 1
 flag = nokoslow
 
 ;-----------------------------------------------------
@@ -15742,11 +15742,11 @@ ctrl = 0
 
 [State -2, Pit1nokoslow]
 type = assertspecial
-trigger1  = roundno != 1
+trigger1 = roundno != 1
 trigger1 = stagevar(info.name) = "The Pit"
-trigger2  = roundno != 1
+trigger2 = roundno != 1
 trigger2 = stagevar(info.name) = "SF1 China"
-trigger3  = roundno != 1
+trigger3 = roundno != 1
 trigger3 = stagevar(info.name) = "The Pit I"
 flag = nokoslow
 flag2 = nokosnd
@@ -17205,7 +17205,7 @@ ignoreHitPause = 1
 
 ; - KO Sound
 [Statedef 8002]
-type    = S
+type = S
 anim = 9999
 
 [State 0, PosSet]
@@ -17227,7 +17227,7 @@ type = DestroySelf
 trigger1 = root,alive = 0
 
 [Statedef 8003, - Esaka KO]
-type    = S
+type = S
 anim = 9999
 
 [State 0, PosSet]

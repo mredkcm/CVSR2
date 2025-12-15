@@ -81,9 +81,9 @@ shadowoffset = -1     ;Number of pixels to vertically offset the shadow
 draw.offset = 0,0    ;Player drawing offset in pixels (x, y)
 
 [Velocity]
-walk.fwd  = 2.5
+walk.fwd = 2.5
 walk.back = -2.2
-run.fwd  = 5.7
+run.fwd = 5.7
 run.back = -4.5,-5
 jump.neu = 0,-10.5
 jump.back = -3,-9.6
@@ -863,10 +863,10 @@ ctrl = 1
 
 ;=========<DODGE>=============
 [Statedef 700]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 700
@@ -1822,7 +1822,7 @@ ctrl = 1
 
 ;=============<Running>====================
 [Statedef 100]
-type    = S
+type = S
 movetype = I
 physics = S
 ctrl = 0
@@ -2014,7 +2014,7 @@ ctrl = 1
 
 ;=====================<HIT GROUND(BOUNCE)>===================
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2103,7 +2103,7 @@ time = 20
 
 ;================<HIT LIEDOWN>====================
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2784,7 +2784,7 @@ channel = 0
 [State 5210, Recover Sound]
 type = PlaySnd
 trigger1 = !Time
-value  = 5200,0
+value = 5200,0
 channel = 1
 
 [State 5210, Flash]
@@ -2931,7 +2931,7 @@ value = 5050
 ;---------------------------------------------------------------------------
 ; Downed get-hit (lying defeated)
 [Statedef 5150]
-type    = L
+type = L
 movetype= H
 physics = N
 sprpriority = -3
@@ -2992,7 +2992,7 @@ value = SCA
 time = 1
 
 [Statedef 6200] ;;Special thanks to Don Drago
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3049,7 +3049,7 @@ value = 6201
 ;---------------------------------------------------------------------------
 ; HITG_SLIDE
 [Statedef 6201]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -3300,7 +3300,7 @@ value = 1180
 ;---------------------------------------------------------------------------
 ; HIT_LIEDOWN
 [Statedef 1180]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3550,7 +3550,7 @@ value = 1199
 ;---------------------------------------------------------------------------
 ; HIT_LIEDOWN
 [Statedef 1199]
-type    = L
+type = L
 movetype= H
 physics = N
 

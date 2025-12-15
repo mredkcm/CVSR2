@@ -1196,7 +1196,7 @@ ground.hittime = 24
 ground.velocity = -4,-5
 ground.cornerpush.veloff = -1
 air.velocity = -4,-2
-p2facing  = 1
+p2facing = 1
 fall = 1
 fall.recover = 0
 getpower = 0
@@ -1365,7 +1365,7 @@ trigger1=time>=30
 ;-------------------------------------------------------------------------------
 ;Shouki Hatsudou blast
 [Statedef 3602]
-type    = A
+type = A
 movetype= A
 anim = 30050
 sprpriority = 3
@@ -1396,7 +1396,7 @@ hitsound =  s171,12
 guardsound = S2, 4
 ground.type = Low
 ground.slidetime = 57;27
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -5
 airguard.velocity = -1
 air.type = Low
@@ -1426,7 +1426,7 @@ hitsound = S171, 12
 guardsound = S2, 4
 ground.type = High
 ground.slidetime = 50
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -26, -7
 airguard.velocity = -5
 air.type = High
@@ -2935,7 +2935,7 @@ value = 6060
 ;-------------------------------------------------------------------
 ;------------------------ 3-1
 [Statedef 8003]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 8003
@@ -2994,7 +2994,7 @@ trigger1 = time = 31
 
 ;------------------------ 3-2
 [Statedef 8004]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 8003
@@ -3053,7 +3053,7 @@ trigger1 = time = 31
 
 ;------------------------ 3-3
 [Statedef 8005]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 8003
@@ -3112,7 +3112,7 @@ trigger1 = time = 31
 
 ;------------------------ 3-4
 [Statedef 8006]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 8003
@@ -3171,7 +3171,7 @@ trigger1 = time = 31
 
 ;------------------------ 3-5
 [Statedef 8007]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 8003
@@ -3230,7 +3230,7 @@ trigger1 = time = 31
 
 ;------------------------ 3-6
 [Statedef 8008]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 8003

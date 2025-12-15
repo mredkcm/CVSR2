@@ -2246,7 +2246,7 @@ value = 5050
 ;---------------------------------------------------------------------------
 ;Ankoku Otoshi - Target 2
 [Statedef 816]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -1,2
@@ -2468,7 +2468,7 @@ value = 5050
 ;---------------------------------------------------------------------------
 ;Ramuzuhon - Target 2
 [Statedef 826]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -5.25,-3.5
@@ -2741,7 +2741,7 @@ movecamera = 0, 0
 ;---------------------------------------------------------------------------
 ;Ankoku Orochi - Target 2
 [Statedef 846]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,2

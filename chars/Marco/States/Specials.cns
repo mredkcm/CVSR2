@@ -1,6 +1,6 @@
 ;Ko'ouken
 [Statedef 1000]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -81,7 +81,7 @@ ctrl = 1
 ;------------------------------------------------------------------------------------
 ;EX Ko'ouken
 [Statedef 1010]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -560,7 +560,7 @@ ctrl = 1
 ;-----------------------------------------------------------------------------------
 ;EX Hien Shippukyaku
 [Statedef 1200]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 8
@@ -882,7 +882,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------------------
 ;Harai
 [Statedef 1300]
-type    = S
+type = S
 movetype =  I
 physics = S
 ctrl = 0
@@ -910,7 +910,7 @@ trigger1 = AnimTime = 0
 value = 1310
 ;---------------------------------------------------------------------------------------------------------
 [Statedef 1310]
-type    = S
+type = S
 movetype =  I
 physics = S
 anim = 1310
@@ -1346,7 +1346,7 @@ envshake.freq = 120
 
 [State 1400, Hit]
 type=hitdef
-trigger1= var(10) = 0 && Animelem  = 4
+trigger1= var(10) = 0 && Animelem = 4
 trigger2 = var(10) = 1 && AnimElem = 4
 trigger3 = var(10) = 2 && AnimElem = 4
 attr = A,SA
@@ -2555,7 +2555,7 @@ trigger1=time>500
 value=5100
 ;---------------------------------------------------------------------------
 [Statedef 1511]
-type    = A
+type = A
 movetype = H
 physics = N
 sprpriority = -1
@@ -3092,7 +3092,7 @@ trigger1=time>500
 value=5100
 ;---------------------------------------------------------------------------
 [Statedef 1541]
-type    = A
+type = A
 movetype = H
 physics = N
 sprpriority = -1

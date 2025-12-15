@@ -183,35 +183,35 @@ value = ifelse(BackEdgeBodyDist > 0,1,0)
 [State 1251102, hit]
 type 					= HitDef
 trigger1 				= !MoveContact && !(NumTarget)
-attr                    = A, SA
-damage                  = 5, 1
-animtype                = heavy
+attr = A, SA
+damage = 5, 1
+animtype = heavy
 air.animtype 			= back
 fall.animtype			= diagup
-guardflag               = HA
-hitflag                 = MAFD
-priority                = 5, Hit
-pauseTime               = 8, ifelse((EnemyNear, statetype = A),2,12)
+guardflag = HA
+hitflag = MAFD
+priority = 5, Hit
+pauseTime = 8, ifelse((EnemyNear, statetype = A),2,12)
 sparkXY = -10 + 0 * (var(45) := 60), var(46) := -45
 guard.sparkno= -1 * (var(43):=8000)**0
 sparkno = -1 * (var(44):=8010)**0
-hitsound                = 5,2
-guardsound              = 6,0
-ground.type             = High
-ground.slideTime        = 3
-ground.hitTime          = 33
+hitsound = 5,2
+guardsound = 6,0
+ground.type = High
+ground.slideTime = 3
+ground.hitTime = 33
 guard.hitTime 			= 18
-ground.velocity         = -0.25, 0
-airguard.velocity       = -3, -2
-air.type                = high
-air.velocity            = -1.2, ifelse(Pos Y >= -50,-7.5,-6)
-air.hitTime             = 8
-getpower                = 0
+ground.velocity = -0.25, 0
+airguard.velocity = -3, -2
+air.type = high
+air.velocity = -1.2, ifelse(Pos Y >= -50,-7.5,-6)
+air.hitTime = 8
+getpower = 0
 givepower      			= 50
-fall                    = 0
-fall.recover            = 0
-air.fall                = 1
-air.recover             = 0
+fall = 0
+fall.recover = 0
+air.fall = 1
+air.recover = 0
 down.bounce 			= 0
 down.velocity			= -1.1,-6.2
 guard.kill = 0
@@ -413,7 +413,7 @@ y = (ifelse((Facing = Partner, Facing),(Partner, BackEdgeBodyDist+20),(Partner, 
 
 [State 1251104, Vel]
 type = VelSet
-trigger1 = Partner, sysvar(4)  = 1 || Partner, sysvar(4)  = 15
+trigger1 = Partner, sysvar(4) = 1 || Partner, sysvar(4) = 15
 trigger2 = Time = [1,2]
 x = (abs(BackEdgeDist)+abs(pos y * 2))/13
 y = (abs(pos y )/12)

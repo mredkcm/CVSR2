@@ -53,8 +53,8 @@
 ;======================================================================================
 [Data]
 life = 1000			
-attack = 108		
-defence = 108		
+attack = 100		
+defence = 100		
 fall.defence_up = 55
 lieDown.time = 15		
 airjuggle = 0		
@@ -82,9 +82,9 @@ shadowoffset = 0
 draw.offset = 0,0
 
 [Velocity]
-walk.fwd  = 3.4
+walk.fwd = 3.4
 walk.back = -2.4
-run.fwd  = 5.403125, 0
+run.fwd = 5.403125, 0
 run.back = -5.2, -2.5
 jump.neu = 0, -8.5
 jump.back = -3.4

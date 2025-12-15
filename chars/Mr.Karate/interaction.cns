@@ -5,7 +5,7 @@
 ;----------------------------------
 ;Fire Ropes for J. Carn's World Heroes Deathmatch stage
 [Statedef 88910]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889366 ; Hitbox
@@ -22,8 +22,8 @@ flag2 = noautoturn
 type = HitDef
 trigger1 = !time
 attr = S, HA
-animtype  = light
-damage    = 70,0
+animtype = light
+damage = 70,0
 getpower = 0,0
 givepower = 0,0
 hitflag = MAF
@@ -31,12 +31,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = 31,random%3
+hitsound = 31,random%3
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -59,7 +59,7 @@ ctrl = 0
 ;------------------------------
 ;Fire Ropes cool down time
 [Statedef 88911]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -151,7 +151,7 @@ ignorehitpause=1
 ;-------------------------------------------
 ;Electric Ropes for Hanzo's World heroes Death Match stage
 [Statedef 88920]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889366 ; hitbox
@@ -168,8 +168,8 @@ flag2 = noautoturn
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 70,0
+animtype = light
+damage = 70,0
 getpower = 0,0
 givepower = 0,0
 hitflag = MAF
@@ -177,12 +177,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = 30,random%3
+hitsound = 30,random%3
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -205,7 +205,7 @@ ctrl = 0
 ;------------------------------
 ;cool down time for Electric Ropes
 [Statedef 88921]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -297,7 +297,7 @@ ignorehitpause=1
 ;----------------------------------
 ;Spiked Wall for Fumma's World Heroes Death Match 3 stage
 [Statedef 88926]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 88926 ;Hitbox
@@ -314,8 +314,8 @@ flag2 = noautoturn
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 70,0
+animtype = light
+damage = 70,0
 getpower = 0,0
 givepower = 0,0
 hitflag = MAF
@@ -323,12 +323,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = 32,random%4
+hitsound = 32,random%4
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -352,7 +352,7 @@ ctrl = 0
 ;------------------------------
 ;cool down time for Spiked Wall
 [Statedef 88927]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;invisible
@@ -539,7 +539,7 @@ ignorehitpause=1
 ;-------------------------------------------------------------
 ;Blood drop (temp)
 [Statedef 88932]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ; invisible
@@ -627,7 +627,7 @@ ignorehitpause = 1
 ;-------------------------------------------------------------
 ;Blood drop (stay)
 [Statedef 88933]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ; invisible
@@ -686,7 +686,7 @@ value = 88934
 ;-------------------------------
 ;blood on ground
 [Statedef 88934]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -720,7 +720,7 @@ trigger1 = animtime = 0
 ;----------------------------------
 ;Galford Barrel #1 "SS2 Galford" stage
 [Statedef 889109]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 88002 ;hitbox
@@ -825,7 +825,7 @@ ctrl = 0
 ;----------------------------------
 ;   Galford Barrel #1 "SS2 Galford" stage Cont...
 [Statedef 889110]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 88002 ;hitbox
@@ -912,7 +912,7 @@ ctrl = 0
 ;----------------------------------
 ;   Galford Barrel #1 "SS2 Galford" stage Cont...
 [Statedef 889111]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 88002 ;hitbox
@@ -999,7 +999,7 @@ ctrl = 0
 ;------------------------------
 ; Galford Barrel #1 "SS2 Galford" stage End
 [Statedef 889112]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -1062,7 +1062,7 @@ ctrl = 0
 ;----------------------------------
 ;   Galford Barrel #2 for "SS2 Galford" stage
 [Statedef 889113]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 88002 ;Hitbox
@@ -1166,7 +1166,7 @@ ctrl = 0
 ;----------------------------------
 ;   Galford Barrel #2 for "SS2 Galford" stage Cont...
 [Statedef 889114]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 88002 ;Hitbox
@@ -1252,7 +1252,7 @@ ctrl = 0
 ;----------------------------------
 ;   Galford Barrel #2 for "SS2 Galford" stage Cont...
 [Statedef 889115]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 88002 ;Hitbox
@@ -1338,7 +1338,7 @@ ctrl = 0
 ;------------------------------
 ; Galford Barrel #2 for "SS2 Galford" stage End
 [Statedef 889116]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -1389,7 +1389,7 @@ ctrl = 0
 ;----------------------------------
 ;   Barrel O goodies for "Subway Train FF" stage + Health
 [Statedef 889120]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -1442,7 +1442,7 @@ stateno = 889121
 ;----------------------------------
 ;   Barrel O goodies for "Subway Train FF" stage + Health Cont...
 [Statedef 889121]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -1472,7 +1472,7 @@ stateno = 889122
 ;----------------------------------
 ;   Barrel O goodies for "Subway Train FF" stage + Health Cont...
 [Statedef 889122]
-type    = S
+type = S
 movetype= I;A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -1502,7 +1502,7 @@ stateno = 889123
 ;------------------------------
 ; broken barrel + health Broken
 [Statedef 889123]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -1648,7 +1648,7 @@ ctrl = 0
 ;-------------------------------------------------------------
 ;wood Drop big
 [Statedef 889124]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -1710,7 +1710,7 @@ value = 889125
 ;-------------------------------
 ;wood on ground
 [Statedef 889125]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -1742,7 +1742,7 @@ trigger1 = time = 335
 ;-------------------------------------------------------------
 ;barrel bottom drop
 [Statedef 889126]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -1805,7 +1805,7 @@ value = 889132
 ;-------------------------------
 ;barrel bottom ground
 [Statedef 889132]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -1837,7 +1837,7 @@ trigger1 = time = 335
 ;-------------------------------------------------------------
 ;square wood Drop
 [Statedef 889127]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -1899,7 +1899,7 @@ value = 889128
 ;-------------------------------
 ;sqaure wood on ground
 [Statedef 889128]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -1936,7 +1936,7 @@ trigger1 = time = 10
 ;-------------------------------------------------------------
 ;medium wood Drop
 [Statedef 889129]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -1998,7 +1998,7 @@ value = 889128
 ;-------------------------------------------------------------
 ;small wood Drop
 [Statedef 889130]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -2060,7 +2060,7 @@ value = 889128
 ;-------------------------------------------------------------
 ;fragments wood Drop
 [Statedef 889131]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -2122,7 +2122,7 @@ value = 889128
 ;------------------------------
 ;FF Goodie Health
 [Statedef 889137]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -2178,7 +2178,7 @@ trigger1 = time = 700
 ;------------------------------
 ;goodie health from barrel cont...
 [Statedef 889133]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -2211,7 +2211,7 @@ trigger1 = time = 300
 ;----------------------------------
 ;   Barrel FF goodies Health cont...
 [Statedef 889134]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 888888 ;hitbox
@@ -2229,8 +2229,8 @@ type = HitDef
 trigger1 = !time
 trigger1 = p2statetype = C
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 hitflag = MA
@@ -2238,12 +2238,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = S1,80
+hitsound = S1,80
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -2277,7 +2277,7 @@ ctrl = 0
 ;------------------------------
 ;Final Fight Graveyard!!!!!!
 [Statedef 889135]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;invisible
@@ -2363,7 +2363,7 @@ ctrl = 11
 ;----------------------------------
 ;   Barrel O goodies for "Subway Train FF" stage Energy #1
 [Statedef 889140]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -2416,7 +2416,7 @@ stateno = 889141
 ;----------------------------------
 ;   Barrel O goodies for "Subway Train FF" stage Energy #1 Cont...
 [Statedef 889141]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -2446,7 +2446,7 @@ stateno = 889142
 ;----------------------------------
 ;   Barrel O goodies for "Subway Train FF" stage Energy #1 Cont...
 [Statedef 889142]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -2476,7 +2476,7 @@ stateno = 889143
 ;------------------------------
 ; broken FF barrel Energy #1 end
 [Statedef 889143]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -2622,7 +2622,7 @@ ctrl = 0
 ;------------------------------
 ;FF goodie cool down time Energy #1
 [Statedef 889144]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;invisible
@@ -2678,7 +2678,7 @@ trigger1 = time = 700
 ;----------------------------------
 ;   Barrel FF goodies Energy #1 hitbox
 [Statedef 889145]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 888888 ;Hitbox
@@ -2696,8 +2696,8 @@ type = HitDef
 trigger1 = !time
 trigger1 = p2statetype = C
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 hitflag = MA
@@ -2705,12 +2705,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = S1523,0
+hitsound = S1523,0
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -2721,10 +2721,10 @@ air.fall = 0
 p2stateno = 889146
 p1facing = 1
 fall.recovertime = 0
-Palfx.time      = 70
-Palfx.add       = -104,-104,7
-Palfx.sinadd   = 60,60,0,10
-Palfx.color     = 0
+Palfx.time = 70
+Palfx.add = -104,-104,7
+Palfx.sinadd = 60,60,0,10
+Palfx.color = 0
 ID = 889145
 nochainID = 889145
 Attack.Dist = 0
@@ -2744,7 +2744,7 @@ ctrl = 0
 ;------------------------------
 ;FF goodie Energy #1 perpetual loop
 [Statedef 889147]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800
@@ -2814,7 +2814,7 @@ ctrl = 1
 ;----------------------------------
 ;   Barrel O goodies for "Subway Train FF" stage Energy #2
 [Statedef 889150]
-type    = S
+type = S
 movetype= I                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -2867,7 +2867,7 @@ stateno = 889151
 ;----------------------------------
 ;   Barrel O goodies for "Subway Train FF" stage Energy #2 Cont...
 [Statedef 889151]
-type    = S
+type = S
 movetype= I                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -2897,7 +2897,7 @@ stateno = 889152
 ;----------------------------------
 ;   Barrel O goodies for "Subway Train FF" stage Energy #2 Cont...
 [Statedef 889152]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -2927,7 +2927,7 @@ stateno = 889153
 ;------------------------------
 ; broken barrel end
 [Statedef 889153]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -3073,7 +3073,7 @@ ctrl = 0
 ;------------------------------
 ;goodie cool down time
 [Statedef 889154]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;invisible
@@ -3129,7 +3129,7 @@ trigger1 = time = 700
 ;----------------------------------
 ;Barrel FF goodies Energy #2 hitbox
 [Statedef 889155]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 888888 ;Hitbox
@@ -3147,8 +3147,8 @@ type = HitDef
 trigger1 = !time
 trigger1 = p2statetype = C
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 hitflag = MA
@@ -3156,12 +3156,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = S1,80
+hitsound = S1,80
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -3172,10 +3172,10 @@ air.fall = 0
 p2stateno = 889156
 p1facing = 1
 fall.recovertime = 0
-Palfx.time      = 70
-Palfx.add       = -104,-104,7
-Palfx.sinadd   = 60,60,0,10
-Palfx.color     = 0
+Palfx.time = 70
+Palfx.add = -104,-104,7
+Palfx.sinadd = 60,60,0,10
+Palfx.color = 0
 ID = 889134
 nochainID = 889134
 Attack.Dist = 0
@@ -3195,7 +3195,7 @@ ctrl = 0
 ;------------------------------
 ;FF goodie cool down time Energy #2 perpetual loop
 [Statedef 889157]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;invisible
@@ -3322,7 +3322,7 @@ trigger1 = time = 700
 ;------------------------------
 ;Monger Food Graveyard!!!!
 [Statedef 889161]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;invisible
@@ -3472,7 +3472,7 @@ ignorehitpause = 1
 ;-------------------------------
 ; Monger Food on ground cool off
 [Statedef 889164]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3530,7 +3530,7 @@ ctrl = 0
 ;-------------------------------
 ; Monger Food on ground hitbox
 [Statedef 889165]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -3590,8 +3590,8 @@ flag2 = noshadow
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -3600,12 +3600,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = 43,0
+hitsound = 43,0
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -3641,7 +3641,7 @@ trigger1 = movecontact
 ;-------------------------------
 ;Monger Food cont...
 [Statedef 889166]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -3733,7 +3733,7 @@ ignorehitpause=1
 ;-------------------------------
 ;Bomb on ground
 [Statedef 889168]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3774,7 +3774,7 @@ value = 889169
 ;-------------------------------
 ;Bomb on ground explode
 [Statedef 889169]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3811,8 +3811,8 @@ removeongethit = 0
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 100,0
+animtype = light
+damage = 100,0
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -3821,12 +3821,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F31,random%3
+hitsound = F31,random%3
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -3910,7 +3910,7 @@ trigger1 = time = 700
 ;------------------------------
 ;Monger Food Graveyard!!!!
 [Statedef 889171]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;invisible
@@ -4060,7 +4060,7 @@ ignorehitpause = 1
 ;-------------------------------
 ;Food on ground cool off
 [Statedef 889174]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -4118,7 +4118,7 @@ ctrl = 0
 ;-------------------------------
 ;food on ground hitbox
 [Statedef 889175]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -4178,8 +4178,8 @@ flag2 = noshadow
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -4188,12 +4188,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = 43,0
+hitsound = 43,0
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -4229,7 +4229,7 @@ trigger1 = movecontact
 ;-------------------------------
 ;Monger Food cont...
 [Statedef 889176]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -4321,7 +4321,7 @@ ignorehitpause=1
 ;-------------------------------
 ;Bomb on ground
 [Statedef 889178]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -4362,7 +4362,7 @@ value = 889179
 ;-------------------------------
 ;Bomb on ground explode
 [Statedef 889179]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -4399,8 +4399,8 @@ removeongethit = 0
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 100,0
+animtype = light
+damage = 100,0
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -4409,12 +4409,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F31,random%3
+hitsound = F31,random%3
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -4439,7 +4439,7 @@ trigger1 = time = 39
 ;----------------------------------
 ;Telephone O goodies for "Subway Station - FF" stage Health
 [Statedef 889180]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889346 ;Hitbox
@@ -4492,7 +4492,7 @@ stateno = 889181
 ;----------------------------------
 ;Telephone O goodies for "Subway Station - FF" stage Health Cont...
 [Statedef 889181]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889346 ; Telephone booth Hitbox
@@ -4522,7 +4522,7 @@ stateno = 889182
 ;----------------------------------
 ;   Telephone O goodies for "Subway Train FF" stage Cont...
 [Statedef 889182]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889346 ; Telephone booth Hitbox
@@ -4552,7 +4552,7 @@ stateno = 889183
 ;------------------------------
 ; broken Telephone end
 [Statedef 889183]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -4774,7 +4774,7 @@ ignorehitpause = 1
 ;-------------------------------------------------------------
 ;Glass
 [Statedef 889185]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -4842,7 +4842,7 @@ value = 889186
 ;-------------------------------
 ;Glass on ground
 [Statedef 889186]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -4892,7 +4892,7 @@ trigger1 = time = 335
 ;-------------------------------------------------------------
 ; metal sparkle Drop
 [Statedef 889187]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -4965,7 +4965,7 @@ trigger1 = Vel Y > 0
 ;------------------------------
 ;goodie telephone cool down time
 [Statedef 889189]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -5028,7 +5028,7 @@ trigger1 = time = 700
 ;------------------------------
 ;goodie telephone Cont...
 [Statedef 889192]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -5063,7 +5063,7 @@ trigger1 = time = 300
 ;----------------------------------
 ;   telephone FF goodies health
 [Statedef 889190]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 888888 ;Hitbox
@@ -5082,8 +5082,8 @@ type = HitDef
 trigger1 = !time
 trigger1 = p2statetype = C
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 hitflag = MA
@@ -5091,12 +5091,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = S1523,0
+hitsound = S1523,0
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -5130,7 +5130,7 @@ ctrl = 0
 ;----------------------------------
 ; trashcan#1 O goodies for "Subway Station - FF" stage Energy
 [Statedef 889195]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -5182,7 +5182,7 @@ stateno = 889196
 ;----------------------------------
 ; trashcan#1 O goodies for "Subway Station - FF" stage Energy Cont...
 [Statedef 889196]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -5211,7 +5211,7 @@ stateno = 889197
 ;----------------------------------
 ; trashcan#1 O goodies for "Subway Train FF" stage Energy Cont...
 [Statedef 889197]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Trashcan Hitbox
@@ -5240,7 +5240,7 @@ stateno = 889198
 ;------------------------------
 ; broken trashcan#1 end Energy
 [Statedef 889198]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -5301,7 +5301,7 @@ ctrl = 0
 ;-------------------------------------------------------------
 ;wasted can
 [Statedef 889200]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -5368,7 +5368,7 @@ value = 889201
 ;-------------------------------
 ;wasted can on ground
 [Statedef 889201]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -5412,7 +5412,7 @@ trigger1 = time = 335
 ;------------------------------
 ;goodie trashcan #1 cool down time Energy
 [Statedef 889202]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -5469,7 +5469,7 @@ trigger1 = time = 700
 ;------------------------------
 ;goodie trashcan cool down time Cont...
 [Statedef 889203]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -5504,7 +5504,7 @@ trigger1 = time = 300
 ;--------------------------------
 ; Trashcan FF goodies Energy #1
 [Statedef 889204]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 888888 ;Hitbox
@@ -5522,8 +5522,8 @@ type = HitDef
 trigger1 = !time
 trigger1 = p2statetype = C
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 hitflag = MA
@@ -5531,12 +5531,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = S1523,0
+hitsound = S1523,0
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -5547,10 +5547,10 @@ air.fall = 0
 p2stateno = 889146
 p1facing = 1
 fall.recovertime = 0
-Palfx.time      = 70
-Palfx.add       = -104,-104,7
-Palfx.sinadd   = 60,60,0,10
-Palfx.color     = 0
+Palfx.time = 70
+Palfx.add = -104,-104,7
+Palfx.sinadd = 60,60,0,10
+Palfx.color = 0
 ID = 889145
 nochainID = 889145
 Attack.Dist = 0
@@ -5570,7 +5570,7 @@ ctrl = 0
 ;----------------------------------
 ; trashcan#2 O empty for "Subway Station - FF" stage
 [Statedef 889205]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -5623,7 +5623,7 @@ stateno = 889206
 ;----------------------------------
 ; trashcan#2 O empty for "Subway Station - FF" stage Cont...
 [Statedef 889206]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -5653,7 +5653,7 @@ stateno = 889207
 ;----------------------------------
 ; trashcan#2 O empty for "Subway Train FF" stage Cont...
 [Statedef 889207]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -5683,7 +5683,7 @@ stateno = 889208
 ;------------------------------
 ; broken trashcan#2 end
 [Statedef 889208]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -5731,7 +5731,7 @@ ctrl = 0
 ;-------------------------------------------------------------
 ;wasted can
 [Statedef 889209]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -5799,7 +5799,7 @@ value = 889210
 ;-------------------------------
 ;wasted can on ground
 [Statedef 889210]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -5843,7 +5843,7 @@ trigger1 = time = 335
 ;----------------------------------
 ; Ryu sign
 [Statedef 889211]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -5899,7 +5899,7 @@ ctrl = 0
 ;----------------------------------
 ; Ryu sign Cont...
 [Statedef 889212]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -5933,7 +5933,7 @@ ctrl = 0
 ;----------------------------------
 ; Ryu sign Cont...
 [Statedef 889213]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -5966,7 +5966,7 @@ ctrl = 0
 ;----------------------------------
 ; Ryu sign Cont...
 [Statedef 889214]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -5999,7 +5999,7 @@ ctrl = 0
 ;----------------------------------
 ; Ryu sign Cont...
 [Statedef 889215]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -6032,7 +6032,7 @@ ctrl = 0
 ;------------------------------
 ; broken ryu sign end
 [Statedef 889216]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -6147,7 +6147,7 @@ ctrl = 0
 ;-------------------------------------------------------------
 ;ryu broke sign drop big
 [Statedef 889217]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -6192,7 +6192,7 @@ trigger1 = time = 250
 ;-------------------------------------------------------------
 ;ryu broke sign drop medium
 [Statedef 889218]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -6237,7 +6237,7 @@ trigger1 = time = 250
 ;-------------------------------------------------------------
 ;ryu broke sign drop big
 [Statedef 889219]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -6282,7 +6282,7 @@ trigger1 = time = 250
 ;-------------------------------------------------------------
 ;ryu broke sign drop medium
 [Statedef 889220]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -6326,7 +6326,7 @@ trigger1 = time = 250
 ;----------------------------------
 ; Ryu sign #2
 [Statedef 889221]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -6382,7 +6382,7 @@ ctrl = 0
 ;----------------------------------
 ; Crate O goodies for "FF" stage Health
 [Statedef 889225]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889348 ;hitbox
@@ -6435,7 +6435,7 @@ flag = noshadow
 ;----------------------------------
 ;Crate O goodies for "FF" stage Health
 [Statedef 889226]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889348 ; crate hitbox
@@ -6465,7 +6465,7 @@ flag2 = noshadow
 ;----------------------------------
 ;Crate O goodies for "FF" stage Health
 [Statedef 889227]
-type    = S
+type = S
 movetype= I;A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889348 ;hitbox
@@ -6495,7 +6495,7 @@ flag2 = noshadow
 ;------------------------------
 ; broken crate end
 [Statedef 889228]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -6662,7 +6662,7 @@ ctrl = 0
 ;------------------------------
 ;goodie cool down time
 [Statedef 889229]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -6708,7 +6708,7 @@ ctrl = 0
 ;----------------------------------
 ;Crate FF goodies health
 [Statedef 889230]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 888888 ;hitbox
@@ -6726,8 +6726,8 @@ type = HitDef
 trigger1 = !time
 trigger1 = p2statetype = C
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 hitflag = MA
@@ -6735,12 +6735,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = S1523,0
+hitsound = S1523,0
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -6768,7 +6768,7 @@ ctrl = 0
 ;----------------------------------
 ;Barrel O goodies for "Deposit FF" stage Energy
 [Statedef 889235]
-type    = S
+type = S
 movetype= I                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -6815,7 +6815,7 @@ removeongethit = 0
 ;----------------------------------
 ;Barrel O goodies for "Subway Train FF" stage
 [Statedef 889236]
-type    = S
+type = S
 movetype= I                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -6845,7 +6845,7 @@ flag2 = noshadow
 ;----------------------------------
 ;Barrel O goodies for "Subway Train FF" stage
 [Statedef 889237]
-type    = S
+type = S
 movetype= I                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -6875,7 +6875,7 @@ flag2 = noshadow
 ;------------------------------
 ;broken barrel end
 [Statedef 889238]
-type    = S
+type = S
 movetype= I;A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -7021,7 +7021,7 @@ ctrl = 0
 ;----------------------------------
 ;Guile Crate
 [Statedef 889240]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -7097,7 +7097,7 @@ ctrl = 0
 ;----------------------------------
 ;Guile Crate Cont...
 [Statedef 889241]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -7129,7 +7129,7 @@ ctrl = 0
 ;----------------------------------
 ;Guile Crate Cont...
 [Statedef 889242]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -7161,7 +7161,7 @@ ctrl = 0
 ;----------------------------------
 ;Guile Crate Cont...
 [Statedef 889243]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -7193,7 +7193,7 @@ ctrl = 0
 ;----------------------------------
 ;Guile Crate Cont...
 [Statedef 889244]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -7225,7 +7225,7 @@ ctrl = 0
 ;------------------------------
 ;Broken Guile Crate end
 [Statedef 889245]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -7303,7 +7303,7 @@ ctrl = 0
 ;----------------------------------
 ;Ken Barrels/Crates
 [Statedef 889248]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -7358,7 +7358,7 @@ ctrl = 0
 ;----------------------------------
 ;Ken Barrels/Crates Cont...
 [Statedef 889249]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -7390,7 +7390,7 @@ ctrl = 0
 ;----------------------------------
 ;Ken Barrels/Crates Cont...
 [Statedef 889250]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -7422,7 +7422,7 @@ ctrl = 0
 ;----------------------------------
 ;Ken Barrels/Crates Cont...
 [Statedef 889251]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -7454,7 +7454,7 @@ ctrl = 0
 ;----------------------------------
 ;Ken Barrels/Crates Cont...
 [Statedef 889252]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -7486,7 +7486,7 @@ ctrl = 0
 ;------------------------------
 ;Broken Ken Barrels/Crates end
 [Statedef 889253]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -7975,7 +7975,7 @@ ignorehitpause=1
 ;------------------------------
 ;end round faster "Vagnad Stage"
 [Statedef 889310]
-type    = S
+type = S
 movetype= H
 physics = N
 anim = 9800 ;invisible
@@ -8209,7 +8209,7 @@ ignorehitpause = 1
 ;-------------------------------
 ;Bounce on ground "Vagnad Stage"
 [Statedef 889312]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -8355,7 +8355,7 @@ value = 889313
 ;-------------------------------
 ;Bounce on ground "Vagnad Stage"
 [Statedef 889313]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -8521,7 +8521,7 @@ value = 889314
 ;-------------------------------
 ;Into the train "Vagnad Stage"
 [Statedef 889314]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -8593,7 +8593,7 @@ removetime = -1
 ;----------------------------------------
 ;Train Floor "Vagnad Stage"
 [Statedef 889315]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;invisible
@@ -8633,7 +8633,7 @@ ctrl = 0
 ;------------------------------
 ;end round faster "Andy FF3 stage finisher"
 [Statedef 889320]
-type    = S
+type = S
 movetype= H
 physics = N
 anim = 9800 ;invisible
@@ -8864,7 +8864,7 @@ ignorehitpause = 1
 ;-------------------------------
 ;Into the lake "Andy FF3 finisher stage"
 [Statedef 889322]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -8905,7 +8905,7 @@ value = 5110
 ;----------------------------------------
 ;Into the lake "Andy FF3 finisher stage Floor"
 [Statedef 889323]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800
@@ -9010,7 +9010,7 @@ ctrl = 0
 ;----------------------------------
 ;Totem for "Green Hell" stage Behind/Bottom
 [Statedef 889360]
-type    = S
+type = S
 movetype= I  ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889343 ;hitbox
@@ -9057,7 +9057,7 @@ stateno = 889361
 ;----------------------------------
 ;Totem for "Green Hell" stage Behind/Bottom
 [Statedef 889361]
-type    = S
+type = S
 movetype= I  ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889343 ;hitbox
@@ -9086,7 +9086,7 @@ stateno = 889362
 ;----------------------------------
 ;Totem for "Green Hell" stage Behind/Bottom
 [Statedef 889362]
-type    = S
+type = S
 movetype= I  ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889343 ;hitbox
@@ -9115,7 +9115,7 @@ stateno = 889363
 ;------------------------------
 ;Totem for "Green Hell" stage ENDING Behind/Bottom
 [Statedef 889363]
-type    = S
+type = S
 movetype= I  ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800
@@ -9172,7 +9172,7 @@ ctrl = 0
 ;----------------------------------
 ;Totem for "Green Hell" stage Front/Higher
 [Statedef 889365]
-type    = S
+type = S
 movetype= I  ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889343 ;hitbox
@@ -9219,7 +9219,7 @@ stateno = 889366
 ;----------------------------------
 ;Totem for "Green Hell" stage Front/Higher
 [Statedef 889366]
-type    = S
+type = S
 movetype= I  ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889343 ;hitbox
@@ -9248,7 +9248,7 @@ stateno = 889367
 ;----------------------------------
 ;Totem for "Green Hell" stage Front/Higher
 [Statedef 889367]
-type    = S
+type = S
 movetype= I  ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889343 ;hitbox
@@ -9277,7 +9277,7 @@ stateno = 889368
 ;------------------------------
 ;Totem for "Green Hell" stage ENDING Front/Higher
 [Statedef 889368]
-type    = S
+type = S
 movetype= I  ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800
@@ -9334,7 +9334,7 @@ ctrl = 0
 ;------------------------------
 ;end round faster "Green Hell stage finisher"
 [Statedef 889370]
-type    = S
+type = S
 movetype= H
 physics = N
 anim = 9800 ;invisible
@@ -9553,7 +9553,7 @@ value = 889372
 ;-------------------------------
 ;Into the lake "Green Hell stage finisher"
 [Statedef 889372]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -9582,7 +9582,7 @@ removetime = 78
 ;----------------------------------
 ;M. Bison Statue #1
 [Statedef 889400]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -9637,7 +9637,7 @@ ctrl = 0
 ;----------------------------------
 ;M. Bison Statue #1 Cont...
 [Statedef 889401]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -9669,7 +9669,7 @@ ctrl = 0
 ;----------------------------------
 ;M. Bison Statue #1 Cont...
 [Statedef 889402]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -9701,7 +9701,7 @@ ctrl = 0
 ;----------------------------------
 ;M. Bison Statue #1 Cont...
 [Statedef 889403]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -9733,7 +9733,7 @@ ctrl = 0
 ;----------------------------------
 ;M. Bison Statue #1 Cont...
 [Statedef 889404]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -9765,7 +9765,7 @@ ctrl = 0
 ;------------------------------
 ;broken M. Bison Statue #1 end
 [Statedef 889405]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -9990,7 +9990,7 @@ ctrl = 0
 ;-------------------------------------------------------------
 ;M. Bison Statue #1 Rubble 1
 [Statedef 889406]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -10049,7 +10049,7 @@ value = 889407
 ;-------------------------------
 ;M. Bison Rubble #1 on ground
 [Statedef 889407]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -10086,7 +10086,7 @@ trigger1 = time = 87
 ;-------------------------------------------------------------
 ;M. Bison Statue #1 Rubble 2
 [Statedef 889408]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -10145,7 +10145,7 @@ value = 889409
 ;-------------------------------
 ;M. Bison Rubble #2 on ground
 [Statedef 889409]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -10182,7 +10182,7 @@ trigger1 = time = 87
 ;-------------------------------------------------------------
 ;M. Bison Statue #1 Rubble 3
 [Statedef 889410]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -10241,7 +10241,7 @@ value = 889291
 ;-------------------------------
 ;M. Bison Rubble #3 on ground
 [Statedef 889411]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -10278,7 +10278,7 @@ trigger1 = time = 87
 ;-------------------------------------------------------------
 ;M. Bison Statue #1 Rubble 4
 [Statedef 889412]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -10337,7 +10337,7 @@ value = 889413
 ;-------------------------------
 ;M. Bison Rubble #4 on ground
 [Statedef 889413]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -10374,7 +10374,7 @@ trigger1 = time = 87
 ;-------------------------------------------------------------
 ;M. Bison Statue #1 Rubble 5
 [Statedef 889414]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -10433,7 +10433,7 @@ value = 889415
 ;-------------------------------
 ;M. Bison Rubble #5 on ground
 [Statedef 889415]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -10470,7 +10470,7 @@ trigger1 = time = 87
 ;-------------------------------------------------------------
 ;M. Bison Statue #1 Rubble 6
 [Statedef 889416]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -10529,7 +10529,7 @@ value = 889417
 ;-------------------------------
 ;M. Bison Rubble #6 on ground
 [Statedef 889417]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -10566,7 +10566,7 @@ trigger1 = time = 87
 ;-------------------------------------------------------------
 ;M. Bison Statue #1 Rubble 7
 [Statedef 889418]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -10625,7 +10625,7 @@ value = 889419
 ;-------------------------------
 ;M. Bison Rubble #7 on ground
 [Statedef 889419]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -10662,7 +10662,7 @@ trigger1 = time = 87
 ;-------------------------------------------------------------
 ;M. Bison Statue #1 Rubble 8
 [Statedef 889420]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -10721,7 +10721,7 @@ value = 889421
 ;-------------------------------
 ;M. Bison Rubble #8 on ground
 [Statedef 889421]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -10758,7 +10758,7 @@ trigger1 = time = 87
 ;-------------------------------------------------------------
 ;M. Bison Statue #1 Rubble 9
 [Statedef 889422]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -10817,7 +10817,7 @@ value = 889423
 ;-------------------------------
 ;M. Bison Rubble #9 on ground
 [Statedef 889423]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -10854,7 +10854,7 @@ trigger1 = time = 87
 ;-------------------------------------------------------------
 ;M. Bison Statue #1 Rubble 10
 [Statedef 889424]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -10913,7 +10913,7 @@ value = 889425
 ;-------------------------------
 ;M. Bison Rubble #10 on ground
 [Statedef 889425]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -10950,7 +10950,7 @@ trigger1 = time = 87
 ;-------------------------------------------------------------
 ;M. Bison Statue #1 Rubble 11
 [Statedef 889426]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -11009,7 +11009,7 @@ value = 889427
 ;-------------------------------
 ;M. Bison Rubble #11 on ground
 [Statedef 889427]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -11046,7 +11046,7 @@ trigger1 = time = 87
 ;-------------------------------------------------------------
 ;M. Bison Statue #1 Rubble 12
 [Statedef 889428]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -11105,7 +11105,7 @@ value = 889429
 ;-------------------------------
 ;M. Bison Rubble #12 on ground
 [Statedef 889429]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -11142,7 +11142,7 @@ trigger1 = time = 87
 ;----------------------------------
 ; M. Bison Statue #1
 [Statedef 889430]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -11197,7 +11197,7 @@ ctrl = 0
 ;----------------------------------
 ;M. Bison Statue #1 Cont...
 [Statedef 889431]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -11229,7 +11229,7 @@ ctrl = 0
 ;----------------------------------
 ; M. Bison Statue #1 Cont...
 [Statedef 889432]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -11261,7 +11261,7 @@ ctrl = 0
 ;----------------------------------
 ; M. Bison Statue #1 Cont...
 [Statedef 889433]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -11293,7 +11293,7 @@ ctrl = 0
 ;----------------------------------
 ; M. Bison Statue #1 Cont...
 [Statedef 889434]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -11325,7 +11325,7 @@ ctrl = 0
 ;------------------------------
 ; broken M. Bison Statue #1 end
 [Statedef 889435]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -11550,7 +11550,7 @@ ctrl = 0
 ;----------------------------------
 ; Barrel O goodies for "Sodom's Back Alley FF" stage + Health
 [Statedef 889440]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -11654,7 +11654,7 @@ ctrl = 0
 ;----------------------------------
 ; Barrel O goodies for "Sodom's Back Alley FF" stage + Health Cont...
 [Statedef 889441]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -11740,7 +11740,7 @@ ctrl = 0
 ;----------------------------------
 ; Barrel O goodies for "Sodom's Back Alley FF" stage + Health Cont...
 [Statedef 889442]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -11826,7 +11826,7 @@ ctrl = 0
 ;------------------------------
 ; broken barrel + health Broken
 [Statedef 889443]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -11971,7 +11971,7 @@ ctrl = 0
 ;-------------------------------------------------------------
 ;wood Drop big
 [Statedef 889444]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -12033,7 +12033,7 @@ value = 889445
 ;-------------------------------
 ;wood on ground
 [Statedef 889445]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -12065,7 +12065,7 @@ trigger1 = time = 335
 ;-------------------------------------------------------------
 ;barrel bottom drop
 [Statedef 889446]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -12127,7 +12127,7 @@ value = 889447
 ;-------------------------------
 ;barrel bottom ground
 [Statedef 889447]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -12159,7 +12159,7 @@ trigger1 = time = 335
 ;-------------------------------------------------------------
 ;square wood Drop
 [Statedef 889448]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -12227,7 +12227,7 @@ value = 889449
 ;-------------------------------
 ;sqaure wood on ground
 [Statedef 889449]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -12249,7 +12249,7 @@ trigger1 = time = 2
  ;-------------------------------------------------------------
 ;medium wood Drop
 [Statedef 889450]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -12316,7 +12316,7 @@ trigger1 = Vel Y > 0
  ;-------------------------------------------------------------
 ;small wood Drop
 [Statedef 889451]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -12383,7 +12383,7 @@ trigger1 = Vel Y > 0
 ;-------------------------------------------------------------
 ;small wood Drop 2
 [Statedef 889452]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -12449,7 +12449,7 @@ trigger1 = Vel Y > 0
 ;------------------------------
 ;FF Goodie Health
 [Statedef 889453]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -12509,7 +12509,7 @@ trigger1 = time = 700
 ;------------------------------
 ;goodie health from barrel cont...
 [Statedef 889454]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -12547,7 +12547,7 @@ trigger1 = time = 300
 ;----------------------------------
 ;Barrel FF goodies Health Hitbox
 [Statedef 889455]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 888888 ;hitbox
@@ -12564,8 +12564,8 @@ flag = noshadow
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -12574,12 +12574,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = S1,80
+hitsound = S1,80
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -12615,7 +12615,7 @@ ctrl = 0
 ;----------------------------------
 ;trashcan#1 O goodies for "Sodom's Back Alley - FF" stage Energy
 [Statedef 889458]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -12719,7 +12719,7 @@ stateno = 889459
 ;----------------------------------
 ;trashcan#1 O goodies for "Sodom's Back Alley - FF" stage Energy Cont...
 [Statedef 889459]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -12805,7 +12805,7 @@ stateno = 889460
 ;----------------------------------
 ;trashcan#1 O goodies for "Sodom's Back Alley - FF" stage Energy Cont...
 [Statedef 889460]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Trashcan Hitbox
@@ -12891,7 +12891,7 @@ stateno = 889461
 ;------------------------------
 ;SBA broken trashcan#1 end Energy
 [Statedef 889461]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -12952,7 +12952,7 @@ ctrl = 0
 ;-------------------------------------------------------------
 ;wasted can SBA
 [Statedef 889462]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -13025,7 +13025,7 @@ value = 889463
 ;-------------------------------
 ;SBA wasted can on ground
 [Statedef 889463]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -13070,7 +13070,7 @@ trigger1 = time = 335
 ;------------------------------
 ;SBA goodie trashcan #1 cool down time Energy
 [Statedef 889464]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -13130,7 +13130,7 @@ trigger1 = time = 700
 ;------------------------------
 ;SBA goodie trashcan cool down time Perpetual Loop
 [Statedef 889465]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -13168,7 +13168,7 @@ trigger1 = time = 300
 ;--------------------------------
 ; SBA Trashcan FF goodies Energy #1
 [Statedef 889466]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 888888 ;Hitbox
@@ -13184,8 +13184,8 @@ flag = noshadow
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -13194,12 +13194,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = S1523,0
+hitsound = S1523,0
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -13209,10 +13209,10 @@ air.velocity = 0,0
 air.fall = 0
 p2stateno = 889146
 fall.recovertime = 0
-Palfx.time      = 70
-Palfx.add       = -104,-104,7
-Palfx.sinadd   = 60,60,0,10
-Palfx.color     = 0
+Palfx.time = 70
+Palfx.add = -104,-104,7
+Palfx.sinadd = 60,60,0,10
+Palfx.color = 0
 ID = 889145
 nochainID = 889145
 guard.Dist = 0
@@ -13235,7 +13235,7 @@ trigger1 = movecontact
 ;----------------------------------
 ; trashcan#2 O empty for "Sodom's Back Alley - FF" stage
 [Statedef 889467]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -13339,7 +13339,7 @@ stateno = 889468
 ;----------------------------------
 ; trashcan#2 O empty for "Sodom's Back Alley - FF" stage Cont...
 [Statedef 889468]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -13425,7 +13425,7 @@ stateno = 889469
 ;----------------------------------
 ; trashcan#2 O empty for "Sodom's Back Alley - FF" stage Cont...
 [Statedef 889469]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -13511,7 +13511,7 @@ stateno = 889470
 ;------------------------------
 ; SBA broken trashcan#2 end
 [Statedef 889470]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -13558,7 +13558,7 @@ ctrl = 0
 ;-------------------------------------------------------------
 ;SBA wasted can
 [Statedef 889471]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -13626,7 +13626,7 @@ value = 889472
 ;-------------------------------
 ;SBA wasted can on ground
 [Statedef 889472]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -13670,7 +13670,7 @@ trigger1 = time = 335
 ;---------------------------------------------------
 ; Barrel Metal FF Rolling for Sodom Alley Way stage
 [Statedef 889475]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -13691,7 +13691,7 @@ trigger1 = time = 1001
 ;----------------------------------
 ;Barrel Metal FF Rolling for Sodom Alley Way stage
 [Statedef 889476]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889349 ;hitbox
@@ -13718,8 +13718,8 @@ type = HitDef
 trigger1 = !time
 attr = S, SP
 affectteam=B
-animtype  = Hard
-damage    = 100,0
+animtype = Hard
+damage = 100,0
 getpower = 0,0
 givepower = 50,50
 hitflag = MA
@@ -13727,12 +13727,12 @@ guardflag = ;unblockable
 pausetime = 0,20
 sparkno = 89127
 sparkxy = 15,-40
-hitsound   = 54,0
+hitsound = 54,0
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = low
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 2,-7
 guard.slidetime = 0
 guard.hittime = 0
@@ -13765,7 +13765,7 @@ ctrl = 0
 ;---------------------------------------------------------
 ; Position Marker for Belgrave Square Labs Player #1
 [Statedef 889478]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -13788,7 +13788,7 @@ ctrl = 0
 ;---------------------------------------------------------
 ; Position Marker for Belgrave Square Labs Player #2
 [Statedef 889479]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -13811,7 +13811,7 @@ ctrl = 0
 ;---------------------------------------------------------
 ; Position Marker for Belgrave Square Labs Player #1
 [Statedef 889480]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -13834,7 +13834,7 @@ ctrl = 0
 ;---------------------------------------------------------
 ; Position Marker for Belgrave Square Labs Player #2
 [Statedef 889481]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -13857,7 +13857,7 @@ ctrl = 0
 ;---------------------------------------------------------
 ; Position Marker2 for Belgrave Square Labs Player #1
 [Statedef 889482]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -13880,7 +13880,7 @@ ctrl = 0
 ;---------------------------------------------------------
 ; Position Marker2 for Belgrave Square Labs Player #2
 [Statedef 889483]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -13903,7 +13903,7 @@ ctrl = 0
 ;------------------------------
 ; end round faster "Belgrave Square Labs finisher"
 [Statedef 889485]
-type    = S
+type = S
 movetype= H
 physics = N
 anim = 9800 ;invisible
@@ -16121,7 +16121,7 @@ flag2 = timerfreeze
 ;------------------------------
 ; end round faster "Belgrave Square Labs finisher2"
 [Statedef 889494]
-type    = S
+type = S
 movetype= H
 physics = N
 anim = 9800 ;invisible
@@ -16635,7 +16635,7 @@ flag2 = timerfreeze
 ;--------------------------------------------------
 ;AiroJet Spawner
 [Statedef 889500]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -16982,8 +16982,8 @@ removeongethit = 1
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 80,8
+animtype = light
+damage = 80,8
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -16992,12 +16992,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F31,random%3
+hitsound = F31,random%3
 ;guardsound = S2, 6
 ;guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -17095,8 +17095,8 @@ removeongethit = 0
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 80,8
+animtype = light
+damage = 80,8
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -17105,12 +17105,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F31,random%3
+hitsound = F31,random%3
 ;guardsound = S2, 6
 ;guard.sparkno = S711
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -17150,7 +17150,7 @@ value = 889507
 ;-------------------------------------------
 ;Destroy Bomb and Explode
 [Statedef 889507]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -17413,8 +17413,8 @@ x = -4
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 100,0
+animtype = light
+damage = 100,0
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -17423,12 +17423,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F31,random%3
+hitsound = F31,random%3
 ;guardsound = S2, 6
 ;guard.sparkno = S711
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -17514,8 +17514,8 @@ x = -3.9
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -17524,12 +17524,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1
+hitsound = -1
 ;guardsound = 
 ;guard.sparkno = S711
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -17590,7 +17590,7 @@ ctrl = 1
 ;-----------------------------------------------------------
 ;Airo Tanker jump
 [Statedef 889515]
-type    = A
+type = A
 physics = A
 ctrl = 1
 anim = 41
@@ -17682,8 +17682,8 @@ removeongethit = 1
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 80,8
+animtype = light
+damage = 80,8
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -17692,12 +17692,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F31,random%3
+hitsound = F31,random%3
 ;guardsound = S2, 6
 ;guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -17795,8 +17795,8 @@ removeongethit = 0
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 80,8
+animtype = light
+damage = 80,8
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -17805,12 +17805,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F31,random%3
+hitsound = F31,random%3
 ;guardsound = S2, 6
 ;guard.sparkno = S711
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -17850,7 +17850,7 @@ value = 889518
 ;-------------------------------------------
 ;Destroy Bomb and Explode #2
 [Statedef 889518]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -17897,7 +17897,7 @@ trigger1 = time = 2
 ;-------------------------------------------
 ;Destroy Mine and Explode
 [Statedef 889519]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -17939,7 +17939,7 @@ trigger1 = time = 2
 ;----------------------------------
 ;Shinobi Box Time Bomb #1
 [Statedef 889520]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -18044,7 +18044,7 @@ stateno = 889521
 ;----------------------------------
 ;Shinobi Box Time Bomb Cont...
 [Statedef 889521]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -18131,7 +18131,7 @@ stateno = 889522
 ;----------------------------------
 ;Shinobi Box Time Bomb Cont...
 [Statedef 889522]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -18218,7 +18218,7 @@ stateno = 889523
 ;------------------------------
 ;Shinobi Box Time Bomb end
 [Statedef 889523]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible 
@@ -18323,8 +18323,8 @@ volume = 250
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 200,20
+animtype = light
+damage = 200,20
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -18333,12 +18333,12 @@ guardflag = ;Unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F31,random%3
+hitsound = F31,random%3
 ;guardsound = S2, 6
 ;guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -18365,7 +18365,7 @@ trigger1 = time = 300;273
 ;----------------------------------
 ;Shinobi Box Time Bomb #2
 [Statedef 889525]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -18470,7 +18470,7 @@ stateno = 889526
 ;----------------------------------
 ;Shinobi Box Time Bomb #2 Cont...
 [Statedef 889526]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -18557,7 +18557,7 @@ stateno = 889527
 ;----------------------------------
 ;Shinobi Box Time Bomb #2 Cont...
 [Statedef 889527]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -18644,7 +18644,7 @@ stateno = 889528
 ;------------------------------
 ;Shinobi Box Time Bomb #2 end
 [Statedef 889528]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible 
@@ -18749,8 +18749,8 @@ volume = 250
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 200,20
+animtype = light
+damage = 200,20
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -18759,12 +18759,12 @@ guardflag = ;Unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F31,random%3
+hitsound = F31,random%3
 ;guardsound = S2, 6
 ;guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -18791,7 +18791,7 @@ trigger1 = time = 300;273
 ;----------------------------------
 ;Shinobi Box Time Bomb #3
 [Statedef 889530]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -18896,7 +18896,7 @@ stateno = 889531
 ;----------------------------------
 ;Shinobi Box Time Bomb #3 Cont...
 [Statedef 889531]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -18983,7 +18983,7 @@ stateno = 889532
 ;----------------------------------
 ;Shinobi Box Time Bomb #3 Cont...
 [Statedef 889532]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -19070,7 +19070,7 @@ stateno = 889533
 ;------------------------------
 ;Shinobi Box Time Bomb #3 end
 [Statedef 889533]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible 
@@ -19175,8 +19175,8 @@ volume = 250
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 200,20
+animtype = light
+damage = 200,20
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -19185,12 +19185,12 @@ guardflag = ;Unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F31,random%3
+hitsound = F31,random%3
 ;guardsound = S2, 6
 ;guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -19217,7 +19217,7 @@ trigger1 = time = 300
 ;----------------------------------
 ;Shinobi Knife
 [Statedef 889535]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -19322,7 +19322,7 @@ stateno = 889536
 ;----------------------------------
 ;Shinobi Knife Cont...
 [Statedef 889536]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -19409,7 +19409,7 @@ stateno = 889537
 ;----------------------------------
 ;Shinobi Knife Cont...
 [Statedef 889537]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -19496,7 +19496,7 @@ stateno = 889538
 ;------------------------------
 ;Shinobi Knife limbo
 [Statedef 889538]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible 
@@ -19555,7 +19555,7 @@ ctrl = 0
 ;------------------------------
 ;Shin Knife #1 Goodie
 [Statedef 889539]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -19608,7 +19608,7 @@ trigger1 = time = 700
 ;--------------------------------
 ; Shin Knife Box hit player
 [Statedef 889540]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 888888 ;Hitbox
@@ -19625,8 +19625,8 @@ flag = noshadow
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -19635,12 +19635,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F43,0
+hitsound = F43,0
 guardsound = -1
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -19650,10 +19650,10 @@ air.velocity = 0,0
 air.fall = 0
 p2stateno = 889541
 fall.recovertime = 0
-;Palfx.time      = 70
-;Palfx.add       = -104,-104,7
-;Palfx.sinadd   = 60,60,0,10
-;Palfx.color     = 0
+;Palfx.time = 70
+;Palfx.add = -104,-104,7
+;Palfx.sinadd = 60,60,0,10
+;Palfx.color = 0
 ID = 889145
 nochainID = 889145
 Attack.Dist = 0
@@ -19727,7 +19727,7 @@ ctrl = 1
 ;-------------------------------------------------------------
 ;Shin Knife #1 for player
 [Statedef 889542]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -19782,7 +19782,7 @@ trigger1 = time > 450
 ;------------------------------
 ;Shin Knife Loop
 [Statedef 889544]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -19855,8 +19855,8 @@ removeongethit = 1
 type = HitDef
 trigger1 = !time
 attr = S, HP
-animtype  = light
-damage    = 10,4
+animtype = light
+damage = 10,4
 getpower = 0,0
 givepower = 0,0
 affectteam = E
@@ -19865,12 +19865,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F32,3
+hitsound = F32,3
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -19942,7 +19942,7 @@ trigger4 = time >= 120
 ;----------------------------------
 ;Shinobi Knife #2
 [Statedef 889546]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -20047,7 +20047,7 @@ stateno = 889547
 ;----------------------------------
 ;Shinobi Knife Cont...
 [Statedef 889547]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -20134,7 +20134,7 @@ stateno = 889548
 ;----------------------------------
 ;Shinobi Knife Cont...
 [Statedef 889548]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -20221,7 +20221,7 @@ stateno = 889549
 ;------------------------------
 ;Shinobi Knife limbo
 [Statedef 889549]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible 
@@ -20280,7 +20280,7 @@ ctrl = 0
 ;------------------------------
 ;Shin Knife #2 Goodie
 [Statedef 889550]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -20333,7 +20333,7 @@ trigger1 = time = 700
 ;--------------------------------
 ; Shin Knife Box hit player
 [Statedef 889551]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 888888 ;Hitbox
@@ -20350,8 +20350,8 @@ flag = noshadow
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -20360,12 +20360,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F43,0
+hitsound = F43,0
 guardsound = -1
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -20375,10 +20375,10 @@ air.velocity = 0,0
 air.fall = 0
 p2stateno = 889541
 fall.recovertime = 0
-;Palfx.time      = 70
-;Palfx.add       = -104,-104,7
-;Palfx.sinadd   = 60,60,0,10
-;Palfx.color     = 0
+;Palfx.time = 70
+;Palfx.add = -104,-104,7
+;Palfx.sinadd = 60,60,0,10
+;Palfx.color = 0
 ID = 889145
 nochainID = 889145
 Attack.Dist = 0
@@ -20452,7 +20452,7 @@ ctrl = 1
 ;-------------------------------------------------------------
 ;Shin Knife #2 for player
 [Statedef 889553]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -20507,7 +20507,7 @@ trigger1 = time > 450
 ;------------------------------
 ;Shin Knife Loop
 [Statedef 889554]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -20580,8 +20580,8 @@ removeongethit = 1
 type = HitDef
 trigger1 = !time
 attr = C, HP
-animtype  = light
-damage    = 10,4
+animtype = light
+damage = 10,4
 getpower = 0,0
 givepower = 0,0
 affectteam = E
@@ -20590,12 +20590,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F32,3
+hitsound = F32,3
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = low
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -20663,7 +20663,7 @@ trigger4 = time >= 120
 ;----------------------------------
 ;Shinobi Pow #1
 [Statedef 889556]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -20768,7 +20768,7 @@ stateno = 889557
 ;----------------------------------
 ;Shinobi Pow Cont...
 [Statedef 889557]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -20855,7 +20855,7 @@ stateno = 889558
 ;----------------------------------
 ;Shinobi Pow Cont...
 [Statedef 889558]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -20942,7 +20942,7 @@ stateno = 889559
 ;------------------------------
 ;Shinobi Pow limbo
 [Statedef 889559]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible 
@@ -21001,7 +21001,7 @@ ctrl = 0
 ;------------------------------
 ;Shin Pow Goodie
 [Statedef 889560]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -21054,7 +21054,7 @@ trigger1 = time >= 700
 ;--------------------------------
 ; Shin Pow Box hit player
 [Statedef 889561]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 888888 ;Hitbox
@@ -21072,8 +21072,8 @@ type = HitDef
 trigger1 = !time
 ;trigger1 = p2statetype = C
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -21082,12 +21082,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = S1523,0
+hitsound = S1523,0
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -21098,10 +21098,10 @@ air.fall = 0
 p2stateno = 889146
 p1facing = 1
 fall.recovertime = 0
-Palfx.time      = 70
-Palfx.add       = -104,-104,7
-Palfx.sinadd   = 60,60,0,10
-Palfx.color     = 0
+Palfx.time = 70
+Palfx.add = -104,-104,7
+Palfx.sinadd = 60,60,0,10
+Palfx.color = 0
 ID = 889145
 nochainID = 889145
 ;Attack.Dist = 0
@@ -21140,7 +21140,7 @@ trigger1 = movecontact
 ;------------------------------
 ;Shin Pow Loop
 [Statedef 889562]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -21179,7 +21179,7 @@ trigger1 = time >= 300
 ;----------------------------------
 ;Shinobi Pow #2
 [Statedef 889563]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -21284,7 +21284,7 @@ stateno = 889564
 ;----------------------------------
 ;Shinobi Pow Cont...
 [Statedef 889564]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -21371,7 +21371,7 @@ stateno = 889565
 ;----------------------------------
 ;Shinobi Pow Cont...
 [Statedef 889565]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889353 ;Hitbox
@@ -21458,7 +21458,7 @@ stateno = 889566
 ;------------------------------
 ;Shinobi Knife limbo
 [Statedef 889566]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible 
@@ -21517,7 +21517,7 @@ ctrl = 0
 ;------------------------------
 ;Shin Pow Goodie
 [Statedef 889567]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -21570,7 +21570,7 @@ trigger1 = time >= 700
 ;--------------------------------
 ; Shin Pow Box hit player
 [Statedef 889568]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 888888 ;Hitbox
@@ -21588,8 +21588,8 @@ type = HitDef
 trigger1 = !time
 ;trigger1 = p2statetype = C
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -21598,12 +21598,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = S1523,0
+hitsound = S1523,0
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -21614,10 +21614,10 @@ air.fall = 0
 p2stateno = 889146
 p1facing = 1
 fall.recovertime = 0
-Palfx.time      = 70
-Palfx.add       = -104,-104,7
-Palfx.sinadd   = 60,60,0,10
-Palfx.color     = 0
+Palfx.time = 70
+Palfx.add = -104,-104,7
+Palfx.sinadd = 60,60,0,10
+Palfx.color = 0
 ID = 889145
 nochainID = 889145
 ;Attack.Dist = 0
@@ -21656,7 +21656,7 @@ trigger1 = movecontact
 ;------------------------------
 ;Shin Pow Loop
 [Statedef 889569]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -22385,8 +22385,8 @@ value = F62,0
 type = HitDef
 trigger1 = !time
 attr = S, NP
-animtype  = light
-damage    = 50,6
+animtype = light
+damage = 50,6
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -22395,12 +22395,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F32,3
+hitsound = F32,3
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -22518,8 +22518,8 @@ value = F62,0
 type = HitDef
 trigger1 = !time
 attr = S, NP
-animtype  = light
-damage    = 50,6
+animtype = light
+damage = 50,6
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -22528,12 +22528,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F32,3
+hitsound = F32,3
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -23611,8 +23611,8 @@ value = F32,1
 type = HitDef
 trigger1 = !time
 attr = S, NP
-animtype  = heavy
-damage    = 90,9
+animtype = heavy
+damage = 90,9
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -23621,12 +23621,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F59,0
+hitsound = F59,0
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -24048,8 +24048,8 @@ value = F32,1
 type = HitDef
 trigger1 = !time
 attr = S, NP
-animtype  = heavy
-damage    = 90,9
+animtype = heavy
+damage = 90,9
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -24058,12 +24058,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F59,0
+hitsound = F59,0
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -24484,8 +24484,8 @@ value = F32,1
 type = HitDef
 trigger1 = !time
 attr = S, NP
-animtype  = heavy
-damage    = 90,9
+animtype = heavy
+damage = 90,9
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -24494,12 +24494,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F59,0
+hitsound = F59,0
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -25119,7 +25119,7 @@ ignorehitpause=1
 ;--------------------------------------------------
 ;Ninja Spawner
 [Statedef 889600]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -26185,8 +26185,8 @@ value = F63,0
 type = HitDef
 trigger1 = !time
 attr = S, NP
-animtype  = light
-damage    = 50,6
+animtype = light
+damage = 50,6
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -26195,12 +26195,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F32,3
+hitsound = F32,3
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -26395,8 +26395,8 @@ value = F63,0
 type = HitDef
 trigger1 = !time
 attr = S, NP
-animtype  = light
-damage    = 50,6
+animtype = light
+damage = 50,6
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -26405,12 +26405,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F32,3
+hitsound = F32,3
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -26929,8 +26929,8 @@ value = F63,0
 type = HitDef
 trigger1 = !time
 attr = S, NP
-animtype  = light
-damage    = 50,6
+animtype = light
+damage = 50,6
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -26939,12 +26939,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F32,3
+hitsound = F32,3
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -28037,8 +28037,8 @@ value = F63,0
 type = HitDef
 trigger1 = !time
 attr = S, NP
-animtype  = light
-damage    = 50,6
+animtype = light
+damage = 50,6
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -28047,12 +28047,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F32,3
+hitsound = F32,3
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -28247,8 +28247,8 @@ value = F63,0
 type = HitDef
 trigger1 = !time
 attr = S, NP
-animtype  = light
-damage    = 50,6
+animtype = light
+damage = 50,6
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -28257,12 +28257,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F32,3
+hitsound = F32,3
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -28781,8 +28781,8 @@ value = F63,0
 type = HitDef
 trigger1 = !time
 attr = S, NP
-animtype  = light
-damage    = 50,6
+animtype = light
+damage = 50,6
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -28791,12 +28791,12 @@ guardflag = M
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F32,3
+hitsound = F32,3
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -28871,7 +28871,7 @@ trigger4 = time >= 60
 ;------------------------------
 ;end round faster "Deadpool MK stage finisher"
 [Statedef 889629]
-type    = S
+type = S
 movetype= H
 physics = N
 anim = 9800 ;invisible
@@ -29097,7 +29097,7 @@ ignorehitpause = 1
 ;-------------------------------
 ;Splash into the deadpool "Deadpool MK finisher stage"
 [Statedef 889631]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -29155,7 +29155,7 @@ value = 5110
 ;--------------------------------------------------
 ;Sheep Spawner
 [Statedef 889632]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -29227,7 +29227,7 @@ ctrl = 0
 ;----------------------------------
 ;Flaffy standing
 [Statedef 889633]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889358 ;Hitbox
@@ -29804,7 +29804,7 @@ ctrl = 0
 ;----------------------------------
 ;Flaffy walk to enemy
 [Statedef 889637]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889358 ;Hitbox
@@ -29947,7 +29947,7 @@ ctrl = 0
 ;----------------------------------
 ;Flaffy #2 standing
 [Statedef 889638]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889358 ;Hitbox
@@ -30524,7 +30524,7 @@ ctrl = 0
 ;----------------------------------
 ;Flaffy walk to enemy
 [Statedef 889642]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889358 ;Hitbox
@@ -30667,7 +30667,7 @@ ctrl = 0
 ;----------------------------------
 ;Flaffy #3 standing
 [Statedef 889643]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889358 ;Hitbox
@@ -31244,7 +31244,7 @@ ctrl = 0
 ;----------------------------------
 ;Flaffy walk to root
 [Statedef 889647]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889358 ;Hitbox
@@ -31387,7 +31387,7 @@ ctrl = 0
 ;----------------------------------
 ;Flaffy #4 standing
 [Statedef 889648]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889358 ;Hitbox
@@ -31964,7 +31964,7 @@ ctrl = 0
 ;----------------------------------
 ;Flaffy walk to root
 [Statedef 889652]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889358 ;Hitbox
@@ -32162,10 +32162,10 @@ ctrl = 1
 ;-----------------------------------
 ;Zone
 [Statedef 889659]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 1
+juggle = 1
 velset = 0,0
 anim = 9800
 ctrl = 0
@@ -32189,10 +32189,10 @@ trigger1 = time = 200
 ;-------------------------
 ;Pit 1 enemy react
 [Statedef 889660]
-type    = S
+type = S
 movetype= H
 physics = S
-juggle  = 1
+juggle = 1
 velset = 0,0
 anim = 5030
 ctrl = 0
@@ -32379,7 +32379,7 @@ value = 5150
 ;-------------------------------------------------------------
 ;MK1 blood drop
 [Statedef 889661]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ; invisible
@@ -32439,7 +32439,7 @@ ctrl = 0
 ;-------------------------------------------------------------
 ;MK1 blood drop #2
 [Statedef 889662]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ; invisible
@@ -32499,7 +32499,7 @@ ctrl = 0
 ;-------------------------------------------------------------
 ;MK1 blood on ground
 [Statedef 889663]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ; invisible
@@ -32548,7 +32548,7 @@ ignorehitpause = 1
 ;--------------------------------
 ;RBFF Train1 HitBox1
 [Statedef 889665]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889359 ;Hitbox
@@ -32568,8 +32568,8 @@ trigger1 = StateType != A
 trigger2 = !time
 trigger2 = P2StateType != A
 attr = S, HA
-animtype  = light
-damage    = 2000,2000
+animtype = light
+damage = 2000,2000
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -32578,12 +32578,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1;F43,0
+hitsound = -1;F43,0
 guardsound = -1
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -32655,7 +32655,7 @@ ignorehitpause = 1
 ;------------------------------
 ;RBFF Train2 leaveing
 [Statedef 889666]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -32722,10 +32722,10 @@ id = 889665
 ;-------------------------
 ;RBFF Train2 enemy react
 [Statedef 889667]
-type    = S
+type = S
 movetype= H
 physics = S
-juggle  = 1
+juggle = 1
 velset = 0,0
 anim = 5120
 ctrl = 0
@@ -32756,7 +32756,7 @@ ctrl = 0
 ;-------------------------
 ;RBFF Train2 enemy react End
 [Statedef 889668]
-type    = S
+type = S
 movetype= H
 physics = S
 velset = 0,0
@@ -33421,7 +33421,7 @@ value = 5150
 ;--------------------------------
 ;RBFF HitBox 2
 [Statedef 889669]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889360 ;Hitbox
@@ -33441,8 +33441,8 @@ trigger1 = StateType != A
 trigger2 = !time
 trigger2 = P2StateType != A
 attr = S, HA
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -33451,12 +33451,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1;F43,0
+hitsound = -1;F43,0
 guardsound = -1
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -33478,10 +33478,10 @@ trigger1 = stagevar(info.name) = "Ultimate_RBFF_Subway_3"
 ;-------------------------
 ;RBFF Train2 react walk out of Train
 [Statedef 889670]
-type    = S
+type = S
 movetype= H
 physics = S
-juggle  = 1
+juggle = 1
 velset = 0,0
 anim = 21
 ctrl = 0
@@ -33527,7 +33527,7 @@ ctrl = 1
 ;--------------------------------
 ;RBFF Train2 Marker for Player1
 [Statedef 889671]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -33617,10 +33617,10 @@ ignorehitpause = 1
 ;----------------------------------------------
 ;Hit react Subway Train finisher
 [Statedef 889672]
-type    = A
+type = A
 movetype= I
 physics = N
-juggle  = 0
+juggle = 0
 poweradd= 0
 ctrl = 0
 velset = 0,0
@@ -33878,10 +33878,10 @@ ctrl = 0
 ;----------------------------------------------
 ;Hit react Subway Train finisher on ground
 [Statedef 889673]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 0
 ctrl = 0
 velset = 0,0
@@ -33924,10 +33924,10 @@ ctrl = 0
 ;----------------------------------------------
 ;Hit react Subway Train finisher hit by Train
 [Statedef 889674]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 0
 ctrl = 0
 velset = 0,0
@@ -34158,10 +34158,10 @@ ctrl = 1
 ;-------------------------
 ;RBFF Train2 react walk out of Train Path
 [Statedef 889675]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 1
+juggle = 1
 velset = 0,0
 anim = 0
 ctrl = 0
@@ -34244,7 +34244,7 @@ ctrl = 1
 ;--------------------------------
 ;RBFF Train2 Marker for Player2
 [Statedef 889676]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -34333,7 +34333,7 @@ ignorehitpause = 1
 ;----------------------------------
 ;Barrel O goodies for "WestSide FF" stage Energy #1
 [Statedef 889680]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -34438,7 +34438,7 @@ ctrl = 0
 ;----------------------------------
 ;Barrel O goodies for "West Side FF" stage Energy #1 Cont...
 [Statedef 889681]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -34525,7 +34525,7 @@ ctrl = 0
 ;----------------------------------
 ;Barrel O goodies for "West Side FF" stage Energy #1 Cont...
 [Statedef 889682]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889345 ;hitbox
@@ -34612,7 +34612,7 @@ ctrl = 0
 ;------------------------------
 ; broken FF barrel Energy #1 end
 [Statedef 889683]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -34758,7 +34758,7 @@ ctrl = 0
 ;------------------------------
 ;FF goodie cool down time Energy #1
 [Statedef 889684]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;invisible
@@ -34818,7 +34818,7 @@ trigger1 = time = 700
 ;----------------------------------
 ;   Barrel FF goodies Energy #1 hitbox
 [Statedef 889685]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 888888 ;Hitbox
@@ -34835,8 +34835,8 @@ flag = noshadow
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -34845,12 +34845,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = S1523,0
+hitsound = S1523,0
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -34861,10 +34861,10 @@ air.fall = 0
 p2stateno = 889146
 p1facing = 1
 fall.recovertime = 0
-Palfx.time      = 70
-Palfx.add       = -104,-104,7
-Palfx.sinadd   = 60,60,0,10
-Palfx.color     = 0
+Palfx.time = 70
+Palfx.add = -104,-104,7
+Palfx.sinadd = 60,60,0,10
+Palfx.color = 0
 ID = 889145
 nochainID = 889145
 guard.Dist = 0
@@ -34887,7 +34887,7 @@ trigger1 = movecontact
 ;------------------------------
 ;FF goodie Energy #1 perpetual loop
 [Statedef 889686]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800
@@ -34925,7 +34925,7 @@ trigger1 = time = 300
 ;----------------------------------
 ; trashcan#1 O goodies for "WestSide - FF" stage Energy
 [Statedef 889690]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -35030,7 +35030,7 @@ stateno = 889691
 ;----------------------------------
 ; trashcan#1 O goodies for "Subway Station - FF" stage Energy Cont...
 [Statedef 889691]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -35117,7 +35117,7 @@ stateno = 889692
 ;----------------------------------
 ; trashcan#1 O goodies for "Subway Train FF" stage Energy Cont...
 [Statedef 889692]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Trashcan Hitbox
@@ -35204,7 +35204,7 @@ stateno = 889693
 ;------------------------------
 ; broken trashcan#1 end Energy
 [Statedef 889693]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -35264,7 +35264,7 @@ ctrl = 0
 ;-------------------------------------------------------------
 ;wasted can
 [Statedef 889694]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -35331,7 +35331,7 @@ value = 889695
 ;-------------------------------
 ;wasted can on ground
 [Statedef 889695]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -35376,7 +35376,7 @@ trigger1 = time = 335
 ;------------------------------
 ;goodie trashcan #1 cool down time Energy
 [Statedef 889696]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -35436,7 +35436,7 @@ trigger1 = time = 700
 ;------------------------------
 ;goodie trashcan cool down time Cont...
 [Statedef 889697]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -35475,7 +35475,7 @@ trigger1 = time = 300
 ;--------------------------------
 ; Trashcan FF goodies Energy #1
 [Statedef 889698]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 888888 ;Hitbox
@@ -35492,8 +35492,8 @@ flag = noshadow
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -35502,12 +35502,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = S1523,0
+hitsound = S1523,0
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -35518,10 +35518,10 @@ air.fall = 0
 p2stateno = 889146
 p1facing = 1
 fall.recovertime = 0
-Palfx.time      = 70
-Palfx.add       = -104,-104,7
-Palfx.sinadd   = 60,60,0,10
-Palfx.color     = 0
+Palfx.time = 70
+Palfx.add = -104,-104,7
+Palfx.sinadd = 60,60,0,10
+Palfx.color = 0
 ID = 889145
 nochainID = 889145
 guard.Dist = 0
@@ -35544,7 +35544,7 @@ trigger1 = movecontact
 ;----------------------------------
 ; trashcan#1 O empty for "WestSide - FF" stage
 [Statedef 889700]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -35648,7 +35648,7 @@ stateno = 889701
 ;----------------------------------
 ; trashcan#2 O empty for "Subway Station - FF" stage Cont...
 [Statedef 889701]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -35734,7 +35734,7 @@ stateno = 889702
 ;----------------------------------
 ; trashcan#2 O empty for "Subway Train FF" stage Cont...
 [Statedef 889702]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -35820,7 +35820,7 @@ stateno = 889703
 ;------------------------------
 ; broken trashcan#2 end
 [Statedef 889703]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -35867,7 +35867,7 @@ ctrl = 0
 ;-------------------------------------------------------------
 ;wasted can
 [Statedef 889704]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -35935,7 +35935,7 @@ value = 889705
 ;-------------------------------
 ;wasted can on ground
 [Statedef 889705]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -35980,7 +35980,7 @@ trigger1 = time = 335
 ;----------------------------------
 ; trashcan#2 O empty for "WestSide - FF" stage
 [Statedef 889706]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -36084,7 +36084,7 @@ stateno = 889707
 ;----------------------------------
 ; trashcan#2 O empty for "Subway Station - FF" stage Cont...
 [Statedef 889707]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -36170,7 +36170,7 @@ stateno = 889708
 ;----------------------------------
 ; trashcan#2 O empty for "Subway Train FF" stage Cont...
 [Statedef 889708]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889347 ;Hitbox
@@ -36256,7 +36256,7 @@ stateno = 889709
 ;------------------------------
 ; broken trashcan#2 end
 [Statedef 889709]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -36303,7 +36303,7 @@ ctrl = 0
 ;-------------------------------------------------------------
 ;wasted can
 [Statedef 889710]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 9800 ;Invisible
@@ -36371,7 +36371,7 @@ value = 889711
 ;-------------------------------
 ;wasted can on ground
 [Statedef 889711]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -36416,7 +36416,7 @@ trigger1 = time = 335
 ;--------------------------------
 ;WestSide Wall#1
 [Statedef 889712]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889361 ;Hitbox
@@ -36452,8 +36452,8 @@ trigger4 = enemy,facing = -1
 trigger4 = enemy,StateType = A 
 trigger4=P2dist X = [1,200]
 attr = S, HA
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -36462,12 +36462,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1
+hitsound = -1
 guardsound = -1
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -36503,8 +36503,8 @@ trigger4 = enemy,facing = 1
 trigger4 = enemy,StateType = A 
 trigger4=P2dist X = [-200,0]
 attr = S, HA
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -36513,12 +36513,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1
+hitsound = -1
 guardsound = -1
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -36534,7 +36534,7 @@ numhits = 0
 ;--------------------------------
 ;WestSide Wall#2
 [Statedef 889713]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889361 ;Hitbox
@@ -36570,8 +36570,8 @@ trigger4 = enemy,facing = -1
 trigger4 = enemy,StateType = A 
 trigger4=P2dist X = [1,200]
 attr = S, HA
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -36580,12 +36580,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1
+hitsound = -1
 guardsound = -1
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -36621,8 +36621,8 @@ trigger4 = enemy,facing = 1
 trigger4 = enemy,StateType = A 
 trigger4=P2dist X = [-200,0]
 attr = S, HA
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -36631,12 +36631,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1
+hitsound = -1
 guardsound = -1
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -36652,7 +36652,7 @@ numhits = 0
 ;--------------------------------
 ;WestSide Wall#3
 [Statedef 889714]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889361 ;Hitbox
@@ -36688,8 +36688,8 @@ trigger4 = enemy,facing = -1
 trigger4 = enemy,StateType = A 
 trigger4=P2dist X = [1,200]
 attr = S, HA
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -36698,12 +36698,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1
+hitsound = -1
 guardsound = -1
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -36739,8 +36739,8 @@ trigger4 = enemy,facing = 1
 trigger4 = enemy,StateType = A 
 trigger4=P2dist X = [-200,0]
 attr = S, HA
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -36749,12 +36749,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1
+hitsound = -1
 guardsound = -1
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = 0,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -36770,7 +36770,7 @@ numhits = 0
 ;--------------------------------
 ;WestSide Door#1
 [Statedef 889715]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889362 ;Hitbox
@@ -36827,8 +36827,8 @@ trigger4 = enemy,facing = -1
 ;trigger4 = enemy,StateType = A 
 trigger4=P2dist X = [1,200]
 attr = S, HA
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -36837,12 +36837,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1
+hitsound = -1
 guardsound = -1
 guard.sparkno = -1
 ground.type = low
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = -.1,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -36878,8 +36878,8 @@ trigger4 = enemy,facing = 1
 ;trigger4 = enemy,StateType = A 
 trigger4=P2dist X = [-200,0]
 attr = S, HA
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -36888,12 +36888,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1
+hitsound = -1
 guardsound = -1
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = .1,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -36916,7 +36916,7 @@ ignorehitpause = 1
 ;--------------------------------
 ;WestSide Door#1 destroyed
 [Statedef 889716]
-type    = S
+type = S
 movetype= I                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -37026,7 +37026,7 @@ ctrl = 0
 ;--------------------------------
 ;WestSide Door#2
 [Statedef 889717]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889362 ;Hitbox
@@ -37083,8 +37083,8 @@ trigger4 = enemy,facing = -1
 ;trigger4 = enemy,StateType = A 
 trigger4=P2dist X = [1,200]
 attr = S, HA
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -37093,12 +37093,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1
+hitsound = -1
 guardsound = -1
 guard.sparkno = -1
 ground.type = low
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = -.1,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -37134,8 +37134,8 @@ trigger4 = enemy,facing = 1
 ;trigger4 = enemy,StateType = A 
 trigger4=P2dist X = [-200,0]
 attr = S, HA
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -37144,12 +37144,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1
+hitsound = -1
 guardsound = -1
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = .1,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -37172,7 +37172,7 @@ ignorehitpause = 1
 ;--------------------------------
 ;WestSide Door#1 destroyed
 [Statedef 889718]
-type    = S
+type = S
 movetype= I                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -37282,7 +37282,7 @@ ctrl = 0
 ;--------------------------------
 ;WestSide Door#3
 [Statedef 889719]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889362 ;Hitbox
@@ -37339,8 +37339,8 @@ trigger4 = enemy,facing = -1
 ;trigger4 = enemy,StateType = A 
 trigger4=P2dist X = [1,200]
 attr = S, HA
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -37349,12 +37349,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1
+hitsound = -1
 guardsound = -1
 guard.sparkno = -1
 ground.type = low
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = -.1,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -37390,8 +37390,8 @@ trigger4 = enemy,facing = 1
 ;trigger4 = enemy,StateType = A 
 trigger4=P2dist X = [-200,0]
 attr = S, HA
-animtype  = light
-damage    = 0,0
+animtype = light
+damage = 0,0
 affectteam = B
 getpower = 0,0
 givepower = 0,0
@@ -37400,12 +37400,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = -1
+hitsound = -1
 guardsound = -1
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 ground.velocity = .1,0
 guard.slidetime = 0
 guard.hittime = 0
@@ -37428,7 +37428,7 @@ ignorehitpause = 1
 ;--------------------------------
 ;WestSide Door#1 destroyed
 [Statedef 889720]
-type    = S
+type = S
 movetype= I                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -37538,7 +37538,7 @@ ctrl = 0
 ;--------------------------------
 ;WestSide Edi E Spawner
 [Statedef 889724]
-type    = S
+type = S
 movetype= I                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -37594,7 +37594,7 @@ ignorehitpause = 1
 ;--------------------------------
 ;WestSide Edi E Stance
 [Statedef 889725]
-type    = S
+type = S
 movetype= I                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889363 ;HitBox
@@ -37843,7 +37843,7 @@ ignorehitpause = 1
 ;--------------------------------
 ;WestSide Edi E Light react
 [Statedef 889726]
-type    = S
+type = S
 movetype= H                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889363 ;HitBox
@@ -38082,7 +38082,7 @@ ignorehitpause = 1
 ;--------------------------------
 ;WestSide Edi E Medium react
 [Statedef 889727]
-type    = S
+type = S
 movetype= H                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889363 ;HitBox
@@ -38321,7 +38321,7 @@ ignorehitpause = 1
 ;--------------------------------
 ;WestSide Edi E heavy react
 [Statedef 889728]
-type    = S
+type = S
 movetype= H                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889363 ;HitBox
@@ -38560,7 +38560,7 @@ ignorehitpause = 1
 ;--------------------------------
 ;WestSide Edi E air react
 [Statedef 889729]
-type    = S
+type = S
 movetype= H                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -38672,7 +38672,7 @@ ignorehitpause = 1
 ;--------------------------------
 ;WestSide Edi E ground getup react
 [Statedef 889730]
-type    = S
+type = S
 movetype= H                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -38723,7 +38723,7 @@ ignorehitpause = 1
 ;--------------------------------
 ;WestSide Edi E Death
 [Statedef 889731]
-type    = S
+type = S
 movetype= I                     ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -40163,19 +40163,19 @@ x = 0
 type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
-animtype  = Heavy
-damage    = 80,5
+animtype = Heavy
+damage = 80,5
 hitflag = MAF
 guardflag = MA
 affectteam = B
 pausetime = 12,12
 sparkno = 89172
 sparkxy = -10,-70
-hitsound   = 45,0
+hitsound = 45,0
 guardsound = 6,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -5.5,-4
 air.velocity = -2.5,-4
 fall = 1
@@ -40951,19 +40951,19 @@ x = 0
 type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
-animtype  = Heavy
-damage    = 80,5
+animtype = Heavy
+damage = 80,5
 hitflag = MAF
 guardflag = MA
 affectteam = B
 pausetime = 12,12
 sparkno = 89172
 sparkxy = -10,-70
-hitsound   = 45,0
+hitsound = 45,0
 guardsound = 6,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -5.5,-4
 air.velocity = -2.5,-4
 fall = 1
@@ -41176,8 +41176,8 @@ value = F80,0
 type = HitDef
 trigger1 = !time
 attr = S, NP
-animtype  = light
-damage    = 50,6
+animtype = light
+damage = 50,6
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -41186,12 +41186,12 @@ guardflag = MA
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F32,3
+hitsound = F32,3
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -41309,8 +41309,8 @@ value = F80,0
 type = HitDef
 trigger1 = !time
 attr = S, NP
-animtype  = light
-damage    = 50,6
+animtype = light
+damage = 50,6
 getpower = 0,0
 givepower = 0,0
 affectteam = B
@@ -41319,12 +41319,12 @@ guardflag = MA
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = F32,3
+hitsound = F32,3
 guardsound = F49,0
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,0
 guard.slidetime = 11
 guard.hittime = 11
@@ -41403,7 +41403,7 @@ trigger4 = time >= 70
 ;----------------------------------
 ;WestSide Surf Sign #1
 [Statedef 889743]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -41458,7 +41458,7 @@ ctrl = 0
 ;----------------------------------
 ;Surf sign Cont...
 [Statedef 889744]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -41492,7 +41492,7 @@ ctrl = 0
 ;----------------------------------
 ; Surf sign Cont...
 [Statedef 889745]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -41525,7 +41525,7 @@ ctrl = 0
 ;----------------------------------
 ;Surf sign Cont...
 [Statedef 889746]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -41558,7 +41558,7 @@ ctrl = 0
 ;----------------------------------
 ; Surf sign Cont...
 [Statedef 889747]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -41591,7 +41591,7 @@ ctrl = 0
 ;------------------------------
 ; broken Surf sign end
 [Statedef 889748]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -41726,7 +41726,7 @@ ctrl = 0
 ;----------------------------------
 ;WestSide Surf Sign #2
 [Statedef 889749]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -41781,7 +41781,7 @@ ctrl = 0
 ;----------------------------------
 ;Surf sign Cont...
 [Statedef 889750]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -41814,7 +41814,7 @@ ctrl = 0
 ;----------------------------------
 ; Surf sign Cont...
 [Statedef 889751]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -41847,7 +41847,7 @@ ctrl = 0
 ;----------------------------------
 ;Surf sign Cont...
 [Statedef 889752]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -41879,7 +41879,7 @@ ctrl = 0
 ;----------------------------------
 ; Surf sign Cont...
 [Statedef 889753]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -41912,7 +41912,7 @@ ctrl = 0
 ;------------------------------
 ; broken Surf sign end
 [Statedef 889754]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -42262,7 +42262,7 @@ value = 889756
 ;-------------------------------
 ;Fall to ground "Capcom Building stage finisher"
 [Statedef 889756]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -42368,7 +42368,7 @@ ctrl = 1
 ;-------------------------------
 ;Street Fighter Crowd "Capcom Building stage finisher"
 [Statedef 889757]
-type    = S
+type = S
 movetype= I
 physics = N
 velset = 0,0
@@ -42544,7 +42544,7 @@ ctrl = 0
 ;----------------------------------------
 ;Railing "Capcom Building stage finisher"
 [Statedef 889758]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -42596,7 +42596,7 @@ ctrl = 0
 ;----------------------------------
 ;Spiked Wall for World Heroes Needle stage
 [Statedef 889759]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889365 ;Hitbox
@@ -42613,8 +42613,8 @@ flag2 = noautoturn
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 70,0
+animtype = light
+damage = 70,0
 getpower = 0,0
 givepower = 0,0
 hitflag = MAF
@@ -42622,12 +42622,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = 32,random%4
+hitsound = 32,random%4
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -42651,7 +42651,7 @@ ctrl = 0
 ;------------------------------
 ;cool down time for Needle Wall
 [Statedef 889760]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;invisible
@@ -42672,7 +42672,7 @@ ctrl = 0
 ;--------------------------------
 ;USSR Marker for Player1
 [Statedef 889761]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -42717,7 +42717,7 @@ ignorehitpause = 1
 ;--------------------------------
 ;USSR Marker for Player2
 [Statedef 889762]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -43639,7 +43639,7 @@ ignorehitpause = 1
 ;-------------------------------------------
 ;Electric Ropes for Axel's Fatal Fury 2 stage
 [Statedef 889770]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889367 ; hitbox
@@ -43656,8 +43656,8 @@ flag2 = noautoturn
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 70,0
+animtype = light
+damage = 70,0
 getpower = 0,0
 givepower = 0,0
 hitflag = MAF
@@ -43665,12 +43665,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = 30,random%3
+hitsound = 30,random%3
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -43693,7 +43693,7 @@ ctrl = 0
 ;------------------------------
 ;cool down time for Electric Ropes
 [Statedef 889771]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -43715,7 +43715,7 @@ ctrl = 0
 ;----------------------------------
 ;Explode Ropes for Neo Deo World Heroes Deathmatch stage
 [Statedef 889772]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889368 ; Hitbox
@@ -43732,8 +43732,8 @@ flag2 = noautoturn
 type = HitDef
 trigger1 = !time
 attr = S, HA
-animtype  = light
-damage    = 70,0
+animtype = light
+damage = 70,0
 getpower = 0,0
 givepower = 0,0
 hitflag = MAF
@@ -43741,12 +43741,12 @@ guardflag = ;unblockable
 pausetime = 5,5
 sparkno = -1
 sparkxy = 0,0
-hitsound   = 37,0
+hitsound = 37,0
 guardsound = S2, 6
 guard.sparkno = S711
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11
@@ -43769,7 +43769,7 @@ ctrl = 0
 ;------------------------------
 ;Explode Ropes cool down time
 [Statedef 889773]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -44436,7 +44436,7 @@ value = 0
 ;--------------------------------
 ;VFGowcaizer Stage Marker for Player1
 [Statedef 889780]
-type    = S
+type = S
 movetype= I                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 9800 ;Invisible
@@ -44460,7 +44460,7 @@ ignorehitpause = 1
 ;--------------------------------
 ;VFGowcaizer Stage Marker for Player1
 [Statedef 889781]
-type    = S
+type = S
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S
 anim = 889369 ;HitBox
@@ -44500,8 +44500,8 @@ pausemove = 99999
 type = HitDef
 trigger1 = !time
 attr = S, SP
-animtype  = light
-damage    = 85,0
+animtype = light
+damage = 85,0
 getpower = 0,0
 givepower = 0,0
 hitflag = MAF
@@ -44510,12 +44510,12 @@ guardflag = ;unblockable
 pausetime = 0,0
 sparkno = -1
 sparkxy = 0,0
-hitsound   = 31,random%3
+hitsound = 31,random%3
 guardsound = S2, 6
 guard.sparkno = -1
 ground.type = high
 ground.slidetime = 21
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -3,-7
 guard.slidetime = 11
 guard.hittime = 11

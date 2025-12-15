@@ -1804,7 +1804,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Ma o oku koto kanyou nari
 [Statedef 1402]
-type    = A
+type = A
 physics = N
 ctrl = 0
 anim = 105

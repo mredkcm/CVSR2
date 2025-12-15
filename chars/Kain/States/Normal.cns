@@ -2585,7 +2585,7 @@ value = 5050
 ;---------------------------------------------------------------------------
 ;Schwarze Mond (Target)
 [Statedef 816]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -1.5,-12
@@ -2832,7 +2832,7 @@ value = 5050
 ;---------------------------------------------------------------------------
 ;Schwarze Werfen (Target)
 [Statedef 826]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

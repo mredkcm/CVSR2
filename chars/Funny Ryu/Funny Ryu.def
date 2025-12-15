@@ -1,0 +1,39 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Ryu"
+displayname = "F.Ryu"
+versiondate = 12,30,2012
+mugenversion = 1.0
+author = "Phantom.of.the.Server"
+pal.defaults = 4,2,3,1,5,6
+localcoord = 427,240
+
+[Files]
+sprite = Sprite.sff
+anim = Anim.air
+sound = Sound.snd
+cmd = Command.cmd
+cns = Constants.cns
+stcommon = common1.cns
+st = States\System.st
+st1 = States\Normal.st
+st2 = States\Specials.st
+st3 = States\EX-Specials.st
+st4 = States\Supers.st
+st5 = States\Helpers.st
+st6 = States\Custom.st
+st7 = States\FunnyRyu.st
+pal1 = FunnyPalettes\grey.act
+pal2 = FunnyPalettes\dirty.act
+pal3 = MasterPalettes\SF1.act
+pal4 = FunnyPalettes\CvS.act
+pal5 = FunnyPalettes\green.act
+pal6 = FunnyPalettes\pink.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

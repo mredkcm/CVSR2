@@ -2205,7 +2205,7 @@ value=52
 ;---------------------------------------------------------------------------
 ;One Arm Throw 1 1st Part
 [Statedef 800]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 14
@@ -2258,7 +2258,7 @@ ctrl = 1
 ;-----------------------------------------------------------------------------------------
 ;Throw 1 2nd Part
 [Statedef 801]
-type    = S
+type = S
 movetype =  A
 physics = N
 velset = 0,0
@@ -2458,7 +2458,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Throw 1 P2 State 1
 [Statedef 805]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2501,7 +2501,7 @@ value = ifelse(alive, 5120, 5150)
 ;---------------------------------------------------------------------------
 ;Throw 1 P2 State 2
 [Statedef 809]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2521,7 +2521,7 @@ value = SCA
 ;---------------------------------------------------------------------------
 ;Sword Butt Throw 2 1st Part
 [Statedef 810]
-type    = S
+type = S
 movetype =  A
 physics = S
 juggle = 14
@@ -2574,7 +2574,7 @@ ctrl = 1
 ;-----------------------------------------------------------------------------------------
 ;Throw 2 2nd Part
 [Statedef 811]
-type    = S
+type = S
 movetype =  A
 physics = N
 velset = 0,0
@@ -2707,7 +2707,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Throw 2 P2 State 1
 [Statedef 815]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0
@@ -2731,7 +2731,7 @@ value = 816
 ;---------------------------------------------------------------------------
 ;Throw 2 P2 State 2
 [Statedef 816]
-type    = A
+type = A
 movetype =  H
 physics = N
 sprpriority = -1
@@ -2772,7 +2772,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Throw 2 P2 State 3
 [Statedef 819]
-type    = A
+type = A
 movetype =  H
 physics = N
 velset = 0,0

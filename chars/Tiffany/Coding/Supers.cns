@@ -1,6 +1,6 @@
 ;======================<GROOVY SPECIAL>===================
 [Statedef 3000]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -283,7 +283,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4
 air.velocity = -3.5, -3
@@ -326,7 +326,7 @@ ctrl = 1
 
 ;Contact GP
 [Statedef 3005]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -425,7 +425,7 @@ fall.animtype = DiagUp
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -6, -6;-7,-7
 air.velocity = -6, -6
@@ -460,7 +460,7 @@ ctrl = 1
 
 ;======================<EX GROOVY SPECIAL>===================
 [Statedef 3050]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -751,7 +751,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4
 air.velocity = -4, -2.5
@@ -797,7 +797,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4
 air.velocity = -3.5, -3
@@ -970,7 +970,7 @@ ctrl = 0
 ;------------------------------------------------------
 ;Contact GP
 [Statedef 3060]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0 
@@ -1102,7 +1102,7 @@ fall.animtype = DiagUp
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -7, -7
 guard.velocity = -7
@@ -1200,7 +1200,7 @@ ctrl = 1
 
 ;======================<WONDERFUL KICK>===================
 [Statedef 3100]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -1385,7 +1385,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 air.hittime = 18
 ground.velocity = -1.8,-11.5
@@ -1600,7 +1600,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8,-7.5
 guard.velocity = -8
@@ -1647,7 +1647,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -7.1
 air.velocity = -1.8, -7.1
@@ -1676,7 +1676,7 @@ ctrl = 0
 
 ;======================<EX WONDERFUL KICK>===================
 [Statedef 3150]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -1861,7 +1861,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 air.hittime = 18
 ground.velocity = -1.8,-11.5
@@ -2076,7 +2076,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8,-9.5
 guard.velocity = -8
@@ -2129,7 +2129,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.8, -5.1
 air.velocity = -1.8, -5.1
@@ -2276,7 +2276,7 @@ type = HitDef
 trigger1 = !var(16) && var(15) < 1
 trigger1 = AnimElem = 8
 attr = S, SA
-damage    = ceil(ifElse(fvar(11) * 21 < 7, 7, fvar(11) * 21)), 4
+damage = ceil(ifElse(fvar(11) * 21 < 7, 7, fvar(11) * 21)), 4
 priority = 4, hit
 animtype = Hard
 getpower = 0, 0
@@ -2295,8 +2295,8 @@ air.animType = Back
 fall.animType = Back
 air.type = High
 ground.slidetime = 20
-ground.hittime  = 20
-guard.hittime  = 20
+ground.hittime = 20
+guard.hittime = 20
 ground.velocity = 0,-14.5
 guard.velocity = -8
 air.velocity = 0,-14.5
@@ -2615,7 +2615,7 @@ type = HitDef
 trigger1 = !var(16) && var(15) < 12
 trigger1 = AnimElem = 5
 attr = A, HA
-damage    = ceil(ifElse(fvar(11) * 98 < 7, 7, fvar(11) * 98)), 7
+damage = ceil(ifElse(fvar(11) * 98 < 7, 7, fvar(11) * 98)), 7
 animtype = Heavy
 guardflag = MA
 hitflag = MAF
@@ -2627,7 +2627,7 @@ hitsound = s2,2
 guardsound = s0,130
 ground.type = High
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -2.5,-10.5
 guard.velocity = -8

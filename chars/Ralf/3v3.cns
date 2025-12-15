@@ -2136,7 +2136,7 @@ value=Ifelse(pos y, 5020, 5000)
 ;==========<Lie Dead>==========
 ;Lie Dead
 [Statedef 5150]
-type    = L
+type = L
 movetype= H
 physics = N
 sprpriority = -3

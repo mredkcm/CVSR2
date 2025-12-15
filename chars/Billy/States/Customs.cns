@@ -22,7 +22,7 @@ value = 815
 elem=2
 ;---------------------------------------------------------------------------
 [Statedef 816]
-type    = A
+type = A
 movetype= H
 physics = N
 anim=5080
@@ -78,7 +78,7 @@ value = 825
 elem=2
 ;---------------------------------------------------------------------------
 [Statedef 826]
-type    = A
+type = A
 movetype= H
 physics = N
 anim=5080
@@ -306,7 +306,7 @@ trigger1= vel y>0 && pos y>=0
 value=5100
 ;---------------------------------------------------------------------------
 [Statedef 1215]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -342,7 +342,7 @@ value = 1216
 ctrl = 0
 ;---------------------------------------------------------------------------
 [Statedef 1216]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -407,7 +407,7 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ;Off screen Knockback
 [Statedef 4020]
-type    = A
+type = A
 movetype= H
 physics = N
 juggle = 1
@@ -437,7 +437,7 @@ value = 4021
 ctrl = 0
 ;---------------------------------------------------------------------------
 [Statedef 4021]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -473,7 +473,7 @@ trigger1 = time>=100
 value = Ifelse(Alive,5120,5150)
 ;---------------------------------------------------------------------------
 [Statedef 4058]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -509,7 +509,7 @@ value = 0
 ctrl = 1
 ;---------------------------------------------------------------------------
 [Statedef 4059]
-type    = S
+type = S
 movetype= H
 physics = S
 juggle = 1
@@ -544,7 +544,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Wall-knockdown
 [Statedef 4060]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -583,7 +583,7 @@ value = 4061
 
 ;---------------------------------------------------------------------------
 [Statedef 4061]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -629,7 +629,7 @@ trigger1=time=20
 value = 4062
 ;---------------------------------------------------------------------------
 [Statedef 4062]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -675,7 +675,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Custom-ceiling bounce
 [Statedef 4065]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -706,7 +706,7 @@ value = 4066
 ;---------------------------------------------------------------------------
 ;Blow up
 [Statedef 4070]
-type    = A
+type = A
 movetype= H
 physics = N
 juggle = 1

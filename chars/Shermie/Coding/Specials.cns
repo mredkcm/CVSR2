@@ -1,6 +1,6 @@
 ;========================<Shermie Clutch>=======================
 [Statedef 1000]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -91,7 +91,7 @@ ctrl = 0
 
 ;Shermie Clutch (Landing)
 [Statedef 1001]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 1001
@@ -135,7 +135,7 @@ ctrl = 1
 
 ;Shermie Clutch (Success)
 [Statedef 1002]
-type    = A
+type = A
 movetype = A
 physics = N
 poweradd = 0
@@ -200,7 +200,7 @@ ctrl = 0
 
 ;Shermie Clutch (Success) 2
 [Statedef 1003]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -530,7 +530,7 @@ value = 5110
 
 ;Medium
 [Statedef 1010]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -621,7 +621,7 @@ ctrl = 0
 
 ;Shermie Clutch 2 (Landing)
 [Statedef 1011]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 1011
@@ -665,7 +665,7 @@ ctrl = 1
 
 ;Shermie Clutch 2 (Success)
 [Statedef 1012]
-type    = A
+type = A
 movetype = A
 physics = N
 poweradd = 0
@@ -730,7 +730,7 @@ ctrl = 0
 
 ;Shermie Clutch 2 (Success) 2
 [Statedef 1013]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -866,7 +866,7 @@ ctrl=1
 
 ;Heavy
 [Statedef 1020]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -957,7 +957,7 @@ ctrl = 0
 
 ;Shermie Clutch 3 (Landing)
 [Statedef 1021]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 1021
@@ -1001,7 +1001,7 @@ ctrl = 1
 
 ;Shermie Clutch 3 (Success)
 [Statedef 1022]
-type    = A
+type = A
 movetype = A
 physics = N
 poweradd = 0
@@ -1066,7 +1066,7 @@ ctrl = 0
 
 ;Shermie Clutch 3 (Success) 2
 [Statedef 1023]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -1202,7 +1202,7 @@ ctrl=1
 
 ;========================<EX Shermie Clutch>=======================
 [Statedef 1030]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -1322,7 +1322,7 @@ ctrl = 0
 
 ;EX Shermie Clutch (Landing)
 [Statedef 1031]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 1031
@@ -1366,7 +1366,7 @@ ctrl = 1
 
 ;EX Shermie Clutch (Success)
 [Statedef 1032]
-type    = A
+type = A
 movetype = A
 physics = N
 poweradd = 0
@@ -1431,7 +1431,7 @@ ctrl = 0
 
 ;EX Shermie Clutch (Success) 2
 [Statedef 1033]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -1562,7 +1562,7 @@ ctrl=1
 
 ;========================<Shermie Spiral>=======================
 [Statedef 1100]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -1629,7 +1629,7 @@ ctrl = 1
 
 ;Shermie Spiral (Success)
 [Statedef 1110]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1110
@@ -1756,7 +1756,7 @@ ctrl = 0
 
 ;Shermie Spiral (Success) 2
 [Statedef 1111]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -1891,7 +1891,7 @@ ctrl=1
 
 ;Shermie Spiral (Target)
 [Statedef 1120]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -1916,7 +1916,7 @@ value = 5050
 
 ;========================<EX Shermie Spiral>=======================
 [Statedef 1130]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -2018,7 +2018,7 @@ ctrl = 1
 
 ;EX Shermie Spiral (Success)
 [Statedef 1140]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1140
@@ -2146,7 +2146,7 @@ ctrl = 0
 
 ;EX Shermie Spiral (Success) 2
 [Statedef 1141]
-type    = S
+type = S
 movetype = A
 physics = N
 poweradd = 0
@@ -2276,7 +2276,7 @@ ctrl=1
 
 ;EX Shermie Spiral (Target)
 [Statedef 1150]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -2301,7 +2301,7 @@ value = 5050
 
 ;========================<Shermie Whip>=======================
 [Statedef 1200]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1200
@@ -2373,7 +2373,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -9
 guard.velocity = -9
@@ -2423,7 +2423,7 @@ ctrl = 1
 
 ;Medium
 [Statedef 1210]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1210
@@ -2495,7 +2495,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -9
 guard.velocity = -9
@@ -2545,7 +2545,7 @@ ctrl = 1
 
 ;Heavy
 [Statedef 1220]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1220
@@ -2617,7 +2617,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -9
 guard.velocity = -9
@@ -2667,7 +2667,7 @@ ctrl = 1
 
 ;Shermie Whip (Success)
 [Statedef 1201]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1201
@@ -2914,7 +2914,7 @@ ctrl=1
 
 ;Shermie Whip (Target)
 [Statedef 1205]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -2943,7 +2943,7 @@ value = 5050
 
 ;Shermie Whip (Target) 2
 [Statedef 1206]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -7,-5
@@ -3068,7 +3068,7 @@ value = 5110
 
 ;========================<EX Shermie Whip>=======================
 [Statedef 1230]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1230
@@ -3174,7 +3174,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -9
 guard.velocity = -9
@@ -3224,7 +3224,7 @@ ctrl = 1
 
 ;EX Shermie Whip (Success)
 [Statedef 1231]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1231
@@ -3489,7 +3489,7 @@ ctrl=1
 
 ;EX Shermie Whip (Target)
 [Statedef 1235]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -3518,7 +3518,7 @@ value = 5050
 
 ;EX Shermie Whip (Target) 2
 [Statedef 1236]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -4,-6
@@ -3638,7 +3638,7 @@ value = 5110
 
 ;========================<Diamond Dust>=======================
 [Statedef 1300]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1300
@@ -3713,7 +3713,7 @@ ctrl = 1
 
 ;Medium
 [Statedef 1310]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1310
@@ -3788,7 +3788,7 @@ ctrl = 1
 
 ;Heavy
 [Statedef 1320]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1320
@@ -3863,7 +3863,7 @@ ctrl = 1
 
 ;Diamond Dust (Attempt)
 [Statedef 1301]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -3930,7 +3930,7 @@ ctrl = 1
 
 ;Diamond Dust (Success)
 [Statedef 1302]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1302
@@ -4120,7 +4120,7 @@ ctrl=1
 
 ;Diamond Dust (Target)
 [Statedef 1305]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -4145,7 +4145,7 @@ value = 5050
 
 ;Diamond Dust (Target) 2
 [Statedef 1306]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -6,-6
@@ -4180,7 +4180,7 @@ value = 5100 ;Hit ground
 
 ;========================<EX Diamond Dust (Shermie Shoot)>=======================
 [Statedef 1330]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1330
@@ -4283,7 +4283,7 @@ ctrl = 1
 
 ;EX Diamond Dust (Attempt)
 [Statedef 1331]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -4350,7 +4350,7 @@ ctrl = 1
 
 ;EX Diamond Dust (Success)
 [Statedef 1332]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1332
@@ -4531,7 +4531,7 @@ ctrl = 0
 
 ;EX Diamond Dust (Landing)
 [Statedef 1333]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 106
@@ -4575,7 +4575,7 @@ ctrl = 1
 
 ;EX Diamond Dust (Target)
 [Statedef 1335]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -4600,7 +4600,7 @@ value = 5050
 
 ;EX Diamond Dust (Target) 2
 [Statedef 1336]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 6,-6
@@ -4635,7 +4635,7 @@ value = 5100 ;Hit ground
 
 ;========================<Axle Spin Kick>=======================
 [Statedef 1400]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -4707,7 +4707,7 @@ ctrl = 0
 
 ;Medium
 [Statedef 1410]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -4779,7 +4779,7 @@ ctrl = 0
 
 ;Heavy
 [Statedef 1420]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -4922,7 +4922,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -4,-6
 air.velocity = -4,-6
@@ -5000,7 +5000,7 @@ ctrl = 1
 
 ;========================<EX Axle Spin Kick>=======================
 [Statedef 1430]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -5113,7 +5113,7 @@ fall.animtype = Back
 ground.type = High
 air.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -1.5,0
 air.velocity = -1.5,-4
@@ -5214,7 +5214,7 @@ fall.animtype = DiagUp
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -5,-8
 air.velocity = -5,-8
@@ -5416,7 +5416,7 @@ ctrl = 1
 
 ;F. Captured (Success)
 [Statedef 1501]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1501
@@ -5775,7 +5775,7 @@ ctrl = 1
 
 ;EX F. Captured (Success)
 [Statedef 1531]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1501
@@ -5982,7 +5982,7 @@ ctrl=1
 
 ;========================<Shermie Catch>=======================
 [Statedef 1600]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -6067,7 +6067,7 @@ ctrl = 0
 
 ;Shermie Catch (Landing)
 [Statedef 1601]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 1601
@@ -6111,7 +6111,7 @@ ctrl = 1
 
 ;Medium
 [Statedef 1610]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -6196,7 +6196,7 @@ ctrl = 0
 
 ;Shermie Catch 2 (Landing)
 [Statedef 1611]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 1611
@@ -6240,7 +6240,7 @@ ctrl = 1
 
 ;Heavy
 [Statedef 1620]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -6325,7 +6325,7 @@ ctrl = 0
 
 ;Shermie Catch 3 (Landing)
 [Statedef 1621]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 1621
@@ -6369,7 +6369,7 @@ ctrl = 1
 
 ;Shermie Catch (Success)
 [Statedef 1602]
-type    = A
+type = A
 movetype = A
 physics = N
 poweradd = 0
@@ -6467,7 +6467,7 @@ ctrl = 1
 
 ;Shermie Flash Original
 [Statedef 1603]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -6759,7 +6759,7 @@ ctrl = 1
 
 ;Shermie Flash Original (Target)
 [Statedef 1606]
-type    = A
+type = A
 movetype = H
 physics = N
 ctrl = 0
@@ -6784,7 +6784,7 @@ value = 5050
 
 ;========================<EX Shermie Catch>=======================
 [Statedef 1630]
-type    = S
+type = S
 movetype = A
 physics = S
 ctrl = 0
@@ -6898,7 +6898,7 @@ ctrl = 0
 
 ;EX Shermie Catch (Landing)
 [Statedef 1631]
-type    = S
+type = S
 movetype = I
 physics = S
 anim = 1601
@@ -6942,7 +6942,7 @@ ctrl = 1
 
 ;EX Shermie Catch (Success)
 [Statedef 1632]
-type    = A
+type = A
 movetype = A
 physics = N
 poweradd = 0
@@ -7106,7 +7106,7 @@ fall.animtype = Up
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = 0, 0
 air.velocity = -5, 13
@@ -7248,7 +7248,7 @@ fall.animtype = Up
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = 0, 0
 air.velocity = -5, 13
@@ -7390,7 +7390,7 @@ fall.animtype = Up
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = 0, 0
 air.velocity = -5, 13
@@ -7651,7 +7651,7 @@ fall.animtype = Hard
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = 0, 0
 air.velocity = -5, 13
@@ -8045,7 +8045,7 @@ value = 5100
 
 ;========================<Shermie Cute>=======================
 [Statedef 1800]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 100
@@ -8099,7 +8099,7 @@ ctrl = 1
 
 ;Shermie Cute (Attempt)
 [Statedef 1810]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1810
@@ -8299,7 +8299,7 @@ value = 5100
 
 ;========================<EX Shermie Cute>=======================
 [Statedef 1830]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 100
@@ -8353,7 +8353,7 @@ ctrl = 1
 
 ;EX Shermie Cute (Attempt)
 [Statedef 1840]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1810

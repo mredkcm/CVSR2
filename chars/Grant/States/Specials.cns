@@ -970,7 +970,7 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ; Messhou Hisetsu
 [Statedef 1200]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl=0
