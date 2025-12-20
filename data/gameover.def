@@ -1,0 +1,57 @@
+[Info]
+mugenversion = 1.0
+localcoord = 1280,720
+
+[SceneDef]
+spr = gameover.sff
+startscene = 0
+
+
+[Scene 0]
+clearcolor = 0,0,0
+fadein.time = 0
+fadeout.time = 60
+bgm = gameover.mp3
+bgm.loop = 0
+bg.name = Scene0bg
+end.time = 280
+
+[Scene0bgDef]
+
+;[Scene0bg gameover]
+;type = normal
+;spriteno = 0,0
+
+[Scene0bg Fundo]
+type  = normal
+spriteno = 0,1
+layerno = 0
+start = -640,0
+tile  = 0,0
+tilespacing = 0,0
+velocity = 0, 0
+mask = 1
+
+[Scene0bg Static]
+type  = normal
+spriteno = 0,3
+layerno = 0
+start = -640,0
+tile  = 0,1
+tilespacing = 0,0
+velocity = 0, -80
+mask = 1
+trans = sub
+alpha = 40,250
+
+
+[Scene0bg Fundo]
+type  = normal
+spriteno = 0,2
+layerno = 1
+start = -640,0
+tile  = 0,0
+tilespacing = 0,0
+velocity = 0, 0
+mask = 1
+

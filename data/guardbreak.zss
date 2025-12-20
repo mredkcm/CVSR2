@@ -1,0 +1,179 @@
+# Guard Break code adopted from Shiyo Kakuge's add004
+#===============================================================================
+# StateGuardBreakHit
+#===============================================================================
+[StateDef const(StateGuardBreakHit); type: U; movetype: I; physics: N; velset: 0, 0; ctrl: 0;]
+
+if !guardBreak {
+	guardBreakSet{value: 1}
+}
+
+if time = 0 {
+	if pos y < 0 {
+		stateTypeSet{statetype: A} # Just in case
+	}
+	playSnd{value: GO 5400, 0}
+	explod{
+		# Do note all anims and playsnds on this file are called from gofx.def, not fightfx.air/common.snd
+		anim: GO const(FxGuardBreakShockwave);
+		postype: p1;
+		pos: floor((const(size.mid.pos.x)) * const(size.xscale)), floor(const(size.mid.pos.y) * const(size.yscale) * ifElse(stateType = C, 0.5, 1));
+		sprpriority: 7;
+		ownpal: 1;
+		scale: 0.15, 4.5;
+		trans: add;
+		alpha: 256, 256;
+		pausemovetime: -1;
+		ignorehitpause: 1;
+	}
+}
+
+if time < 13 {
+	explod{
+		anim: GO const(FxGuardBreakSpark) + randomRange(0, 2);
+		postype: p1;
+		pos: floor((const(size.mid.pos.x)) * const(size.xscale)), floor(const(size.mid.pos.y) * const(size.yscale) * ifElse(stateType = C, 0.5, 1));
+		sprpriority: 6;
+		ownpal: 1;
+		random: floor(const(size.height) / 8 * const(size.xscale)), floor(const(size.height) * const(size.yscale));
+		scale: randomRange(0, 8) * 0.03 + 0.25, randomRange(0, 8) * 0.03 + 0.25;
+		vel: -(randomRange(0, 17) + 5) * 0.36, (randomRange(0, 18) - 8) * 0.36;
+		accel: 0.038, 0;
+		facing: ifElse(random < 500, 1, -1);
+		vfacing: ifElse(random < 500, 1, -1);
+		pausemovetime: -1;
+		ignorehitpause: 1;
+	}
+}
+
+if time = 0 {
+	explod{
+		anim: GO const(FxBackgroundColor);
+		sprpriority: -6000;
+		space: screen;
+		postype: left;
+		pos: 0, screenHeight / 2; # color 0 (blue)
+		scale: 320, 7.5 * screenHeight / const240p(240);
+		bindtime: -1;
+		supermovetime: -1;
+		pausemovetime: -1;
+		ownpal: 1;
+		ignorehitpause: 1;
+	}
+	# Removed the pause as it doesn't exist in the main reference game and it affected every player on screen
+	stateTypeSet{physics: stateType}
+	# Changed animations a bit. I think all of them could use common guard break constants later
+	if stateType = S {
+		changeAnim{value: const(AnimStandOrAirHitHigh_hard)}
+	} else if stateType = C {
+		changeAnim{value: const(AnimCrouchHit_hard)}
+	} else {
+		changeAnim{value: const(AnimStandOrAirHitHigh_hard)} # High hit makes the character look more open than low hit
+	}
+} else {
+	changeAnim{value: anim}
+}
+
+# Every character stays in these states the same time, regardless of animation timing
+if time >= 20 {
+	if vel y >= 0 && pos y >= -vel y { # If at ground level now or in the next frame
+		selfState{value: const(StateGuardBreakRecover)}
+	} else {
+		velAdd{y: const240p(1.0)} # Characters fall down fast regardless of their own acceleration constants
+	}
+}
+
+#===============================================================================
+# StateGuardBreakRecover
+#===============================================================================
+[StateDef const(StateGuardBreakRecover); type: U; movetype: I; physics: N; velset: 0, 0; ctrl: 0;]
+
+if time = 0 {
+	posSet{y: 0}
+	if stateType = A {
+		stateTypeSet{statetype: S; physics: S}
+		if anim != const(AnimStandOrAirHitHigh_hard) {
+			changeAnim{value: const(AnimStandOrAirHitHigh_hard)} # If using actual guard break animations the character would have a transition here
+		}
+	} else if stateType = C {
+		stateTypeSet{statetype: C; physics: C}
+	} else {
+		stateTypeSet{statetype: S; physics: S}
+	}
+}
+
+if time < 45 {
+	if anim = [const(AnimStandOrAirHitHigh_light), const(AnimCrouchRecover_hard)] {
+		if animTime = -1 {
+			changeAnim{value: anim; elem: animElemNo(-1)} # Freeze last frame if reusing one of the required hit animations
+		}
+	}
+	if (time % 2) = 0 {
+		if (time % 4) {
+			offset{x: -const240p(1)}
+		} else {
+			offset{x: const240p(1)}
+		}
+	}
+}
+
+# Change to recovery animation
+if time = 45 {
+	if stateType = S {
+		changeAnim{value: const(AnimStandRecoverHigh_hard)}
+	} else if stateType = C {
+		changeAnim{value: const(AnimCrouchRecover_hard)}
+	} else {
+		changeAnim{value: const(AnimStandRecoverHigh_hard)}
+	}
+}
+
+# Return to neutral
+if time >= 60 {
+	if stateType = S {
+		selfState{value: const(StateStand); ctrl: 1}
+	} else if stateType = C {
+		selfState{value: const(StateCrouching); ctrl: 1}
+	} else {
+		selfState{value: const(StateAirGetHit_recoveringInAirNotFalling); ctrl: 1}
+	}
+}
+
+#===============================================================================
+# Global states
+#===============================================================================
+[StateDef -2]
+
+if !const(Default.Enable.GuardBreak) || isHelper || teamSide = 0 {
+	# Do nothing, global code disabled locally or executed by helper/stage
+} else if roundState = 0 {
+	guardPointsSet{value: guardPointsMax}
+	map(_iksys_guardPointsTimer) := 0;
+} else if roundState = 2 && alive {
+	# Manage cooldown timer
+	ignoreHitPause if moveType = H {
+		map(_iksys_guardPointsTimer) := 60;
+	} else if map(_iksys_guardPointsTimer) > 0 {
+		mapAdd{map: "_iksys_guardPointsTimer"; value: -1}
+	}
+	# Upon block
+	ignoreHitPause if stateNo = const(StateStandGuardHit_shaking) || stateNo = const(StateCrouchGuardHit_shaking) || stateNo = const(StateAirGuardHit_shaking) {
+		# Coloring if guard points left are under 333 or 50% for characters with a small guard bar
+		if (gameTime % 5) = 0 && guardPoints <= min((0.5 * guardPointsMax), 333) {
+			palFx{time: 2; add: 200, 0, 0}
+		}
+		# Enter guard break state
+		if !guardBreak && guardPoints = 0 {
+			selfState{value: const(StateGuardBreakHit)}
+		}
+	}
+	# Reset guard points and remove guard break flag if player is no longer in one of guard break states
+	ignoreHitPause if guardBreak && stateNo != [const(StateGuardBreakHit), const(StateGuardBreakRecover)] {
+		guardPointsSet{value: guardPointsMax}
+		guardBreakSet{value: 0}
+	}
+	# Guard points recovery
+	ignoreHitPause if !guardBreak && guardPoints < guardPointsMax && map(_iksys_guardPointsTimer) <= 0 {
+		guardPointsAdd{value: 2; absolute: 1}
+	}
+}

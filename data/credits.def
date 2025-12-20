@@ -1,0 +1,30 @@
+[Info]
+Localcoord = 800,600
+
+[SceneDef]
+spr = credits.sff
+;------------------------------------
+startscene = 0
+
+[Scene 0]
+clearcolor = 0,0,0
+fadein.time = 0
+fadeout.time = 50
+bgm = credits.mp3
+bgm.loop = 1
+bg.name = Scene0bg
+end.time = 6000
+
+[Scene0bgDef]
+
+[Scene0bg ending]
+type = normal
+spriteno = 0,0
+start = -400,0
+tile  = 0,0
+velocity = 0,-1
+
+
+
+
+

@@ -1,0 +1,34 @@
+; =======================================================
+; Capcom vs SNK EVOLUTION
+; =======================================================
+
+[Info]
+name = "Capcom vs SNK Evolution REV2"
+author = "AHS"
+versiondate = 07-21-2012
+mugenversion = 1.0
+localcoord = 1280,720
+
+;---------------------------------------------------------------------
+[SceneDef]
+spr = intro.sff
+startscene = 0
+;------------------------------------
+; -------------------------------------------------------------------
+
+[Scene 0]
+fadein.time = 0
+fadeout.time = 0
+end.time = 600
+bg.name = BG0
+;bgm = 
+;bgm.loop = 0
+;bgm.volume = 255
+
+[BG0Def]
+
+[BG0 LOADING]
+type = normal
+spriteno = 5,0
+start = -640,0
+

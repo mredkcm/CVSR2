@@ -1,0 +1,100 @@
+#===============================================================================
+# Global states (not halted by Pause/SuperPause, no helper limitations)
+#===============================================================================
+[StateDef -4]
+
+if !const(Default.Enable.Action) || isHelper || teamSide = 0 {
+	# Do nothing, global code disabled locally or executed by helper or stage
+} else ignoreHitPause if roundState >= 2 {
+	# First Attack
+	let ret = call FirstAttack();
+	if $ret {
+		lifebarAction{spr: const(MsgFirstAttack), 0; top: 1}
+	}
+	# Counter Hit
+	let ret = call CounterHit();
+	if $ret {
+		lifebarAction{spr: const(MsgCounterHit), 0; top: 1}
+	}
+	# Technical
+	let ret = call Technical();
+	if $ret {
+		lifebarAction{spr: const(MsgTechnical), 0; top: 1}
+	}
+	# Reversal
+	let ret = call Reversal();
+	if $ret {
+		lifebarAction{spr: const(MsgReversal), 0; top: 1}
+	}
+	# Parry
+	let ret = call Parry();
+	if $ret {
+		lifebarAction{spr: const(MsgParry), 0; top: 1; redirectId: enemy,id}
+	}
+	# Just Defend
+	let ret = call JustDefend();
+	if $ret {
+		lifebarAction{spr: const(MsgJustDefend), 0; top: 1}
+	}
+	# Danger
+	let ret = call Danger();
+	if $ret {
+		lifebarAction{spr: const(MsgDanger), 0; timeMul: 2; top: 1}
+	}
+	# Dizzy
+	let ret = call Dizzy();
+	if $ret {
+		lifebarAction{spr: const(MsgDizzy), 0; timeMul: 2; top: 1}
+	}
+	# Guard Break
+	let ret = call GuardBreak();
+	if $ret {
+		lifebarAction{spr: const(MsgGuardBreak), 0; timeMul: 2; top: 1}
+	}
+	# Partner Down
+	let ret = call PartnerDown();
+	if $ret {
+		lifebarAction{spr: const(MsgPartnerDown), 0; timeMul: 2; top: 1}
+	}
+	# code executed only by P1 and P2
+	if playerNo = teamSide {
+		# Combo Count
+		let ret = call ComboCount();
+		if $ret {
+			# gdlk combo (mugen)
+			if $ret >= 25 {
+				lifebarAction{spr: const(MsgCombo25), 0; top: 1}
+			# amazing combo (marvelous)
+			} else if $ret >= 20 {
+				lifebarAction{spr: const(MsgCombo20), 0; top: 1}
+			# great combo (fantastic)
+			} else if $ret >= 15 {
+				lifebarAction{spr: const(MsgCombo15), 0; top: 1}
+			# sweet combo (beautiful)
+			} else if $ret >= 10 {
+				lifebarAction{spr: const(MsgCombo10), 0; top: 1}
+			# good combo (great)
+			} else if $ret >= 5 {
+				lifebarAction{spr: const(MsgCombo5), 0; top: 1}
+			# nice combo (good)
+			} else if $ret >= 3 {
+				lifebarAction{spr: const(MsgCombo3), 0; top: 1}
+			}
+		}
+		# Win Perfect
+		let ret = call WinPerfect();
+		if $ret {
+			lifebarAction{spr: const(MsgWinPerfect), 0; timeMul: 3; top: 1}
+		}
+		# Win Hyper
+		let ret = call WinHyper();
+		if $ret {
+			lifebarAction{spr: const(MsgWinHyper), 0; timeMul: 3; top: 1}
+		}
+		# Win Special
+		let ret = call WinSpecial();
+		if $ret {
+			lifebarAction{spr: const(MsgWinSpecial), 0; timeMul: 3; top: 1}
+		}
+	}
+}
