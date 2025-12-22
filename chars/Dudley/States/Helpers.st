@@ -1,9 +1,9 @@
 ; _______________________________________
 ;| Dudley by Dick Buckus & Mr.Ansatsuken |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< HELPER STATES >========================================
-;==============================================================================================
+;==
+;===< HELPER STATES >====
+;==
 
 ;===<DIALOGUE>===
 [Statedef 9200]
@@ -184,7 +184,7 @@ triggerall = time >= 2200
 trigger1 = var(10) = 6
 
 
-;========================< SPARKS >=============================
+;====< SPARKS >=
 ;--- Guard Normal ---
 [Statedef 8000]
 type = A
@@ -845,7 +845,7 @@ type = destroyself
 trigger1 = time >= 8
 
 
-;========================< DUSTS >=============================
+;====< DUSTS >=
 ;--- Jump ---
 [Statedef 8100]
 type = S
@@ -1008,7 +1008,7 @@ trigger1 = time >= 8
 type = destroyself
 trigger1 = !numexplod
 
-;========================< RECOVER FX >=============================
+;====< RECOVER FX >=
 [Statedef 8200]
 type = A
 velset = 0, 0
@@ -1034,7 +1034,7 @@ type = destroyself
 trigger1 = time >= 15
 
 
-;========================< COUNTER FX >=============================
+;====< COUNTER FX >=
 [Statedef 8290]
 type = A
 physics = N
@@ -1077,7 +1077,7 @@ type = destroyself
 trigger1 = time >= 16
 
 
-;====================< POWER CHARGE >====================
+;====< POWER CHARGE >====
 ;--- MAIN FX ---
 [Statedef 8330]
 type = A
@@ -1179,7 +1179,7 @@ type = destroyself
 trigger1 = root, anim != 740
 
 
-;====================< ZERO COUNTER PAUSE >====================
+;====< ZERO COUNTER PAUSE >====
 [Statedef 8350]
 type = A
 physics = N
@@ -1230,7 +1230,7 @@ type = destroyself
 trigger1 = time >= 16
 
 
-;========================< EXCEL COMBO CHARGE >=============================
+;====< EXCEL COMBO CHARGE >=
 [Statedef 8400]
 type = A
 velset = 0, 0
@@ -1333,7 +1333,7 @@ type = destroyself
 trigger1 = time >= 30
 
 
-;========================< EXCEL TIMER >=============================
+;====< EXCEL TIMER >=
 [Statedef 8405]
 physics = N
 velset = 0, 0
@@ -1400,7 +1400,7 @@ type = destroyself
 trigger1 = (root, var(20) <= 0)
 
 
-;========================< SUPERPAUSE FX >=============================
+;====< SUPERPAUSE FX >=
 ;--- --Level 1 -----
 [Statedef 8500]
 type = A
@@ -1912,7 +1912,7 @@ trigger1 = time >= 40
 type = destroyself
 trigger1 = time >= 40
 
-;========================< END ROUND ANIMATION. >=============================
+;====< END ROUND ANIMATION. >=
 [Statedef 8800]
 physics = N
 velset = 0, 0
@@ -1941,7 +1941,7 @@ trigger1 = time >= 6
 ID = 8800
 scale = 0.5 * (1.3333333 * gameheight / gamewidth), 0.5 * (1.3333333 * gameheight / gamewidth)
 
-;========================< SUPER FINISH >=============================
+;====< SUPER FINISH >=
 [Statedef 8600]
 type = A
 velset = 0, 0
@@ -2097,7 +2097,7 @@ type = destroyself
 trigger1 = roundstate < 3
 
 
-;========================< CAMERA CONTROL >=============================
+;====< CAMERA CONTROL >=
 [Statedef 8999]
 type = S
 velset = 0, 0
@@ -2326,7 +2326,7 @@ removeongethit = 0
 [State 0, DestroySelf]
 type = DestroySelf
 trigger1 = !numexplod(3015)
-;========================< B&W DUST >=============================
+;====< B&W DUST >=
 [Statedef 3125]
 physics = N
 anim = 9741
@@ -2359,7 +2359,7 @@ scale = 0.2 + (0.05 * time) * const(size.xscale), 0.05 + (0.0125 * time) * const
 type = destroyself
 trigger1 = time >= 17
 
-;========================<Rose>=============================
+;====<Rose>=
 [Statedef 196]
 type=A
 physics=N
@@ -2415,7 +2415,7 @@ hitsound = S2, 1
 guardsound = S6, 0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 10
+ground.hittime = 10
 ground.velocity = -1
 airguard.velocity = -1
 air.type = High
@@ -2494,7 +2494,7 @@ type = PosSet
 trigger1 = 1
 y = 0
 
-;========================<Rose>=============================
+;====<Rose>=
 [Statedef 199]
 type=A
 physics=N

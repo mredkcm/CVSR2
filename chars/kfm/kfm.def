@@ -14,14 +14,14 @@ localcoord = 320,240        ;Local coordinate space width and height
 
 ; Files for the player
 [Files]
-cmd     = kfm.cmd           ;Command set
-cns     = kfm.cns           ;Constants
-st      = kfm.cns           ;States
+cmd = kfm.cmd           ;Command set
+cns = kfm.cns           ;Constants
+st = kfm.cns           ;States
 stcommon = common1.cns      ;Common states (from data/ or motif)
-sprite  = kfm.sff           ;Sprite
-anim    = kfm.air           ;Animation
-sound   = kfm.snd           ;Sound
-ai      = kfm.ai            ;AI hints data (not used)
+sprite = kfm.sff           ;Sprite
+anim = kfm.air           ;Animation
+sound = kfm.snd           ;Sound
+ai = kfm.ai            ;AI hints data (not used)
 movelist = movelist.dat     ;Ikemen feature: Movelist
 
 ; Maps character selection buttons to palette numbers.

@@ -7,9 +7,9 @@
 ;***************************************************************************;
 ;***************************************************************************;
 
-;==============================================================================================
-;=======================================< HELPER STATES >========================================
-;==============================================================================================
+;==
+;===< HELPER STATES >====
+;==
 
 ;Pal Select
 [Statedef 256]
@@ -98,7 +98,7 @@ trigger3=root,AILevel
 ;CAMERA FOCUS
 [Statedef 6001]
 type = S
-physics  = S
+physics = S
 anim = 0
 ctrl = 0
 
@@ -153,10 +153,10 @@ type = destroyself
 trigger1 = Time = 50
 trigger1 = enemy, Life >= 1
 trigger2=numhelper(6001)>=2
-;=========================================================================
+;=
 ;HI Res Hitspark Coding 1.0
-;=========================================================================
-;========================<SPARKS>=============================
+;=
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -229,9 +229,9 @@ type = DestroySelf
 trigger1 = Time >= 8
 
 
-;=========================================================================
+;=
 ;HI Res Hitspark Coding 1.0
-;=========================================================================
+;=
 ;Hit Spark for Helpers and Throws
 [StateDef 8005]
 physics = N
@@ -2020,7 +2020,7 @@ type = destroyself
 trigger1 = time >= 26
 
 
-;========================< SUPERPAUSE FX >=============================
+;====< SUPERPAUSE FX >=
 ;--- --Level 1 -----
 [Statedef 8500]
 type = A
@@ -2785,7 +2785,7 @@ id = 10
 type = destroyself
 trigger1 = time >= 50
 
-;;========================= SPECIAL FINISH =================
+;;= SPECIAL FINISH =
 [Statedef 8550]
 ctrl = 0
 anim = 1
@@ -3079,7 +3079,7 @@ trigger1= !numenemy || time>=60
 ;---------------------------------------------------------------------------
 ;Wall-knockdown
 [Statedef 4060]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3121,7 +3121,7 @@ trigger2 = Time >= 60
 value = 4061
 ;---------------------------------------------------------------------------
 [Statedef 4061]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3171,7 +3171,7 @@ trigger1=time=10
 value = 4062
 ;---------------------------------------------------------------------------
 [Statedef 4062]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3224,7 +3224,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Custom-ceiling bounce
 [Statedef 4065]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3874,7 +3874,7 @@ var(10) = Root, var(10)
 type = DestroySelf
 trigger1 = time > 30
 
-;========================< EX REPPUKEN >=============================
+;====< EX REPPUKEN >=
 [Statedef 3005]
 type = S
 physics = N
@@ -4119,7 +4119,7 @@ value = 1008
 
 
 
-;========================< EX REPPUKEN >=============================
+;====< EX REPPUKEN >=
 [Statedef 3055]
 type = S
 physics = N
@@ -4340,7 +4340,7 @@ trigger2 = pos x != [ -240, 240]
 value = 3006
 
 
-;========================< EX REPPUKEN >=============================
+;====< EX REPPUKEN >=
 [Statedef 3505]
 type = S
 physics = N
@@ -4559,7 +4559,7 @@ trigger1 = time > 36 && !numexplod(3005)
 trigger2 = pos x != [ -240, 240]
 value = 3006
 
-;========================< EX REPPUKEN >=============================
+;====< EX REPPUKEN >=
 [Statedef 3506]
 type = S
 physics = N
@@ -5057,7 +5057,7 @@ trigger1 = AnimElem = 2, > 0 && Vel Y > 0 && Pos Y >= 0
 value = 3595
 
 ;---------------------------------------------------------------------
-; ãNÇ´Ç Ç™ÇË
+; ãNÇ´ÅEÇ™ÇË
 [Statedef 3595]
 type = S
 movetype = I

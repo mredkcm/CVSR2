@@ -1,7 +1,7 @@
 ;---------------------------------------------------------------------------
 ; Standing Light Punch
 [Statedef 200]
-type    = S				;State-type: S-stand, C-crouch, A-air, L-liedown
+type = S				;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= A				;Move-type: A-attack, I-idle, H-gethit
 physics = S				;Physics: S-stand, C-crouch, A-air
 juggle = 0 ; 1				;Number of air juggle points move takes
@@ -78,7 +78,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Punch
 [Statedef 210]
-type    = S
+type = S
 movetype= A
 physics = S
 juggle = 0 ; 4
@@ -197,7 +197,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Strong Punch
 [Statedef 220]
-type    = S
+type = S
 movetype= A
 physics = S
 juggle = 0 ; 4
@@ -272,7 +272,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Strong Punch
 [Statedef 225]
-type    = S
+type = S
 movetype= A
 physics = S
 juggle = 0 ; 4
@@ -348,7 +348,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Light Kick
 [Statedef 230]
-type    = S
+type = S
 movetype= A
 physics = S
 juggle = 0 ; 4
@@ -423,7 +423,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Kick
 [Statedef 240]
-type    = S
+type = S
 movetype= A
 physics = S
 juggle = 0 ; 5
@@ -498,7 +498,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Strong Kick
 [Statedef 250]
-type    = S
+type = S
 movetype= A
 physics = S
 juggle = 0 ; 5
@@ -573,7 +573,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Strong Kick
 [Statedef 255]
-type    = S
+type = S
 movetype= A
 physics = S
 juggle = 0 ; 5
@@ -649,7 +649,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Light Punch
 [Statedef 400]
-type    = C
+type = C
 movetype= A
 physics = C
 juggle = 0 ; 5
@@ -724,7 +724,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Medium Punch
 [Statedef 410]
-type    = C
+type = C
 movetype= A
 physics = C
 juggle = 0 ; 6
@@ -841,7 +841,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Strong Punch
 [Statedef 420]
-type    = C
+type = C
 movetype= A
 physics = C
 juggle = 0 ; 6
@@ -957,7 +957,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Light Kick
 [Statedef 430]
-type    = C
+type = C
 movetype= A
 physics = C
 juggle = 0 ; 5
@@ -1032,7 +1032,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouching Medium Kick
 [Statedef 440]
-type    = C
+type = C
 movetype= A
 physics = C
 juggle = 0 ; 5
@@ -1108,7 +1108,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch Strong Kick
 [Statedef 450]
-type    = C
+type = C
 movetype= A
 physics = C
 juggle = 0 ; 7
@@ -1338,7 +1338,7 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Jump Strong Punch
 [Statedef 620]
-type    = A
+type = A
 movetype= A
 physics = N
 juggle = 0 ; 4
@@ -1415,7 +1415,7 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Jump Light Kick
 [Statedef 630]
-type    = A
+type = A
 movetype= A
 physics = N
 juggle = 0 ; 3
@@ -1492,7 +1492,7 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Jump Medium Kick
 [Statedef 640]
-type    = A
+type = A
 movetype= A
 physics = N
 juggle = 0 ; 4
@@ -1572,7 +1572,7 @@ value = 52
 ;---------------------------------------------------------------------------
 ; Jump Strong Kick
 [Statedef 650]
-type    = A
+type = A
 movetype= A
 physics = N
 juggle = 0 ; 4
@@ -1833,7 +1833,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Throwing the opponent
 [Statedef 810]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 810
@@ -2030,7 +2030,7 @@ value = 106
 ;     own AIR file. Look at Action 820 in kfm.air for some extra
 ;     comments.
 [Statedef 815]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2243,7 +2243,7 @@ ctrl = 1
 
 ;Target
 [Statedef 825]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2303,7 +2303,7 @@ value = 5100
 
 
 
-;===========<THROW ESCAPED>==========
+;===<THROW ESCAPED>==
 [StateDef 890]
 type = S
 physics = N

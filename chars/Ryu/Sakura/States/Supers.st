@@ -1,11 +1,11 @@
 ; _________________________________
 ;| Sakura by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;======================================< SUPER STATES >========================================
-;============================================================================================
+;====
+;==< SUPER STATES >====
+;====
 
-;======================< SHINKUU HADOU KEN >=============================
+;==< SHINKUU HADOU KEN >=
 [Statedef 3000]
 type = S
 physics = S
@@ -135,7 +135,7 @@ value = 0
 ctrl = 1
 
 
-;======================< SHINKUU TENGYOU HADOU KEN >=============================
+;==< SHINKUU TENGYOU HADOU KEN >=
 [Statedef 3020]
 type = S
 physics = S
@@ -265,7 +265,7 @@ value = 0
 ctrl = 1
 
 
-;======================< MIDARE ZAKURA >=============================
+;==< MIDARE ZAKURA >=
 [Statedef 3100]
 type = S
 physics = S
@@ -536,7 +536,7 @@ trigger1 = anim = 1103
 movetype = I
 
 
-;======================< HARU ICHIBAN >=============================
+;==< HARU ICHIBAN >=
 [Statedef 3200]
 type = S
 physics = S
@@ -764,7 +764,7 @@ value = 0
 ctrl = 1
 
 
-;======================< SHUN GOKU SATSU >=============================
+;==< SHUN GOKU SATSU >=
 [Statedef 4000]
 type = S
 physics = S
@@ -1200,7 +1200,7 @@ trigger1 = time >= 80 && alive
 value = 5120
 
 
-;======================< HARU ISSEN >=============================
+;==< HARU ISSEN >=
 [Statedef 4100]
 type = S
 physics = S
@@ -1701,7 +1701,7 @@ value = 0
 ctrl = 1
 
 
-;======================< SHUNPUU CHOU RASEN >=============================
+;==< SHUNPUU CHOU RASEN >=
 [Statedef 4200]
 type = S
 physics = S
@@ -2055,7 +2055,7 @@ trigger1 = vel y > 0 && pos y >= 0
 value = 52
 
 
-;======================< NEKKETSU HADOU KEN >=============================
+;==< NEKKETSU HADOU KEN >=
 [Statedef 4300]
 type = S
 physics = S
@@ -2232,7 +2232,7 @@ value = ifelse((backedgebodydist < 0 || frontedgebodydist < 0), 110, 0)
 ctrl = 1
 
 
-;======================< MODE CHANGE >=============================
+;==< MODE CHANGE >=
 [Statedef 4400]
 type = S
 physics = S

@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Ken by Phantom.of.the.Server & Jmorphman|
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<SYSTEM STATES>========================================
-;==============================================================================================
+;==
+;===<SYSTEM STATES>====
+;==
 
-;====================<STANDING>====================
+;====<STANDING>====
 [StateDef 0]
 type = S
 physics = S
@@ -56,7 +56,7 @@ value = 50
 
 
 
-;====================<CROUCHING>====================
+;====<CROUCHING>====
 ;Stand to Crouch
 [StateDef 10]
 type = C
@@ -164,7 +164,7 @@ value = 0
 
 
 
-;====================<WALKING>====================
+;====<WALKING>====
 [StateDef 20]
 type = S
 physics = S
@@ -197,7 +197,7 @@ value = 21
 
 
 
-;====================<JUMPING>====================
+;====<JUMPING>====
 ;Jumping
 [StateDef 40]
 type = S
@@ -428,7 +428,7 @@ ctrl = 1
 
 
 
-;======================<RUN>===========================
+;==<RUN>===
 [StateDef 100]
 type = S
 physics = N
@@ -505,7 +505,7 @@ ctrl = 1
 
 
 
-;========================<DASH BACKWARDS>==========================
+;====<DASH BACKWARDS>==
 [StateDef 105]
 type = A
 physics = N
@@ -587,7 +587,7 @@ ctrl = 1
 
 
 
-;=================<DASH FORWARD>=================
+;=<DASH FORWARD>=
 [StateDef 110]
 type = S
 physics = N
@@ -677,7 +677,7 @@ ctrl = 1
 
 
 
-;====================<DODGE>====================
+;====<DODGE>====
 [StateDef 700]
 type = S
 physics = S
@@ -731,7 +731,7 @@ ctrl = 1
 
 
 
-;================<ROLL FORWARD>================
+;====<ROLL FORWARD>====
 [StateDef 710]
 type = S
 physics = N
@@ -791,7 +791,7 @@ ctrl = 1
 
 
 
-;===============<ROLL BACKWARDS>===============
+;===<ROLL BACKWARDS>===
 [StateDef 715]
 type = S
 physics = N
@@ -851,7 +851,7 @@ ctrl = 1
 
 
 
-;==========<POWER CHARGE>==========
+;==<POWER CHARGE>==
 [StateDef 730]
 type = S
 physics = S
@@ -956,7 +956,7 @@ ctrl = 1
 
 
 
-;====================<ZERO COUNTER>====================
+;====<ZERO COUNTER>====
 [StateDef 750]
 type = S
 physics = S
@@ -1026,7 +1026,7 @@ value = ifElse(var(10) = 1, 2910, 2900)
 
 
 
-;====================<PARRY>====================
+;====<PARRY>====
 ;Standing Parry
 [StateDef 760]
 type = S
@@ -1286,7 +1286,7 @@ value = 52
 
 
 
-;====================<CUSTOM COMBO>====================
+;====<CUSTOM COMBO>====
 ;Ground Version
 [StateDef 900]
 type = S
@@ -1495,7 +1495,7 @@ value = 52
 
 
 
-;==========<TARGET SAFE FALL>==========
+;==<TARGET SAFE FALL>==
 [StateDef 5205]
 type = A
 physics = N
@@ -1526,7 +1526,7 @@ value = 5210
 
 
 
-;==========<FALL RECOVERY>==========
+;==<FALL RECOVERY>==
 [StateDef 5200]
 type = A
 moveType = H
@@ -1645,7 +1645,7 @@ channel = 0
 [State 5210, Recover Sound]
 type = PlaySnd
 trigger1 = !Time
-value  = 5200,0
+value = 5200,0
 
 [State 5210, Flash]
 type = PalFX
@@ -1686,7 +1686,7 @@ value = 52
 
 
 
-;===================<GUARD>================
+;===<GUARD>====
 ;Guard Start
 [StateDef 120]
 type = U
@@ -2158,7 +2158,7 @@ value = 52
 
 
 
-;====================<LOSE>====================
+;====<LOSE>====
 [StateDef 170]
 type = S
 ctrl = 0
@@ -2172,7 +2172,7 @@ flag = RoundNotOver
 
 
 
-;====================<DRAW GAME>====================
+;====<DRAW GAME>====
 [StateDef 175]
 type = S
 ctrl = 0
@@ -2185,7 +2185,7 @@ value = 170
 
 
 
-;====================<CONTINUE?>====================
+;====<CONTINUE?>====
 [StateDef 5500]
 type = S
 anim = 5300
@@ -2199,7 +2199,7 @@ value = ifElse(var(40) = 1, 5501, 5500)
 
 
 
-;====================<INITIALIZE (PART 2)>====================
+;====<INITIALIZE (PART 2)>====
 [StateDef 5901]
 type = S
 
@@ -2329,7 +2329,7 @@ trigger1 = 1
 value = 0
 
 
-;====================<INTRO 1>====================
+;====<INTRO 1>====
 [StateDef 188]
 type = S
 physics = S
@@ -2375,7 +2375,7 @@ value = 0
 
 
 
-;====================<INTRO 2>====================
+;====<INTRO 2>====
 [StateDef 189]
 type = S
 physics = S
@@ -2415,7 +2415,7 @@ value = 0
 
 
 
-;====================<INTRO 3>====================
+;====<INTRO 3>====
 [StateDef 190]
 type = S
 physics = S
@@ -2460,7 +2460,7 @@ value = 0
 
 
 
-;====================<INTRO 4>====================
+;====<INTRO 4>====
 [StateDef 191]
 type = S
 physics = S
@@ -2507,7 +2507,7 @@ value = 0
 
 
 
-;====================<INTRO 5>====================
+;====<INTRO 5>====
 [StateDef 192]
 type = S
 physics = S
@@ -2559,7 +2559,7 @@ value = 0
 
 
 
-;====================<INTRO VS RYU (FIST BUMP)>====================
+;====<INTRO VS RYU (FIST BUMP)>====
 [StateDef 193]
 type = S
 moveType = I
@@ -2664,7 +2664,7 @@ value = 0
 
 
 
-;====================<INTRO VS RYU (NOOGIE)>====================
+;====<INTRO VS RYU (NOOGIE)>====
 [StateDef 194]
 type = S
 physics = N
@@ -2872,7 +2872,7 @@ value = 0
 
 
 
-;====================<INTRO VS TERRY BOGARD>====================
+;====<INTRO VS TERRY BOGARD>====
 [StateDef 199]
 type = S
 physics = S
@@ -2901,7 +2901,7 @@ trigger1 = !AnimTime
 value = 0
 
 
-;====================<INTRO VS VIOLENT>====================
+;====<INTRO VS VIOLENT>====
 [StateDef 5971]
 type = S
 anim = 5971
@@ -3035,7 +3035,7 @@ value = 0
 
 
 
-;====================<INTRO VS KEN (VIOLENT)>====================
+;====<INTRO VS KEN (VIOLENT)>====
 [StateDef 5972]
 type = S
 anim = 5972
@@ -3259,7 +3259,7 @@ value = 0
 
 
 
-;====================<VIOLENT KEN INTRO>====================
+;====<VIOLENT KEN INTRO>====
 [StateDef 5981]
 type = S
 physics = S
@@ -3309,7 +3309,7 @@ value = 0
 
 
 
-;====================<INTRO VS VEGA (VIOLENT)>====================
+;====<INTRO VS VEGA (VIOLENT)>====
 [StateDef 5982]
 type = S
 physics = S
@@ -3333,7 +3333,7 @@ value = 0
 
 
 
-;====================<INTRO VS EVIL RYU (VIOLENT)>====================
+;====<INTRO VS EVIL RYU (VIOLENT)>====
 [StateDef 5983]
 type = S
 anim = 2
@@ -3517,7 +3517,7 @@ trigger1 = pos y > -vel y
 value = 5973
 
 
-;====================<INTRO VS GUILE (MASTER)>====================
+;====<INTRO VS GUILE (MASTER)>====
 [StateDef 5984]
 type = S
 physics = S
@@ -3541,7 +3541,7 @@ value = 0
 
 
 
-;====================<VIOLENT INTRO VS RYU>====================
+;====<VIOLENT INTRO VS RYU>====
 [StateDef 5990]
 type = S
 physics = S
@@ -3591,7 +3591,7 @@ trigger1 = !AnimTime
 value = 0
 
 
-;====================<TURNS INTRO>====================
+;====<TURNS INTRO>====
 [StateDef 6900]
 type = A
 anim = 42
@@ -3703,7 +3703,7 @@ value = 0
 
 
 
-;====================<SIMUL MODE INTRO>====================
+;====<SIMUL MODE INTRO>====
 [StateDef 6910]
 type = S
 physics = S
@@ -3730,7 +3730,7 @@ value = 0
 
 
 
-;====================<WIN POSE DECIDER>====================
+;====<WIN POSE DECIDER>====
 [StateDef 180]
 type = S
 
@@ -4034,7 +4034,7 @@ value = 185 + (Random % 2)
 
 
 
-;====================<WIN 1>====================
+;====<WIN 1>====
 [StateDef 181]
 type = S
 physics = S
@@ -4054,7 +4054,7 @@ channel = 0
 
 
 
-;====================<WIN 2>====================
+;====<WIN 2>====
 [StateDef 182]
 type = S
 physics = S
@@ -4074,7 +4074,7 @@ channel = 0
 
 
 
-;====================<WIN 3>====================
+;====<WIN 3>====
 [StateDef 183]
 type = S
 physics = S
@@ -4093,7 +4093,7 @@ value = 181,1
 channel = 0
 
 
-;====================<WIN VS RYU>====================
+;====<WIN VS RYU>====
 [StateDef 184]
 type = S
 physics = S
@@ -4134,7 +4134,7 @@ trigger1 = Anim = 184
 x = 0
 
 
-;====================<VIOLENT WIN 1>====================
+;====<VIOLENT WIN 1>====
 [StateDef 185]
 type = S
 physics = S
@@ -4154,7 +4154,7 @@ channel = 0
 
 
 
-;====================<VIOLENT WIN 2>====================
+;====<VIOLENT WIN 2>====
 [StateDef 186]
 type = S
 physics = S
@@ -4174,7 +4174,7 @@ channel = 0
 
 
 
-;====================<VIOLENT WIN VS VEGA>====================
+;====<VIOLENT WIN VS VEGA>====
 [StateDef 187]
 type = S
 anim = 187
@@ -4221,13 +4221,13 @@ color = 256
 
 
 
-;==========<TAUNT>==========
+;==<TAUNT>==
 [StateDef 195]
 type = S
 moveType = I
 physics = S
 anim = 195
-velSet  = 0,0
+velSet = 0,0
 sprPriority = 1
 ctrl = 0
 
@@ -4341,13 +4341,13 @@ ctrl = 1
 
 
 
-;==========<VIOLENT TAUNT>==========
+;==<VIOLENT TAUNT>==
 [StateDef 198]
 type = S
 moveType = I
 physics = S
 anim = 198
-velSet  = 0,0
+velSet = 0,0
 sprPriority = 1
 ctrl = 0
 
@@ -4365,7 +4365,7 @@ ctrl = 1
 
 
 
-;====================<K.O.>====================
+;====<K.O.>====
 [StateDef 5150]
 type = L
 movetype = H
@@ -4408,7 +4408,7 @@ time = 1
 
 
 
-;====================<CHEAP K.O.>====================
+;====<CHEAP K.O.>====
 [StateDef 5950]
 type = S
 moveType = H
@@ -4462,7 +4462,7 @@ value = ifElse(Alive, 5110, 5150)
 
 
 
-;====================<AIR HIT TRANSITION>====================
+;====<AIR HIT TRANSITION>====
 [Statedef 5035]
 type = A
 movetype = H
@@ -4502,9 +4502,9 @@ value = 5050
 
 
 
-;===========================================================================
-;===============================<-2 STATES>=================================
-;===========================================================================
+;===
+;===<-2 STATES>=
+;===
 [StateDef -2]
 
 [State -2, Lv3 Super Finish Detection]
@@ -4877,9 +4877,9 @@ ignoreHitPause = 1
 
 
 
-;===========================================================================
-;===============================<-3 STATES>=================================
-;===========================================================================
+;===
+;===<-3 STATES>=
+;===
 [StateDef -3]
 
 [State -3, GameTime]

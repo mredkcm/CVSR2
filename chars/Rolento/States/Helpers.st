@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Rolento by Jmorphman                    |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<HELPER STATES>========================================
-;==============================================================================================
+;==
+;===<HELPER STATES>====
+;==
 
-;====================<PARRY HELPER>=========================
+;====<PARRY HELPER>=
 [StateDef 765]
 type = A
 physics = N
@@ -117,7 +117,7 @@ trigger2 = Time >= 2
 
 
 
-;=====================<GRENADE (LOSE)>=========================
+;=<GRENADE (LOSE)>=
 [StateDef 10170]
 type = A
 physics = N
@@ -201,7 +201,7 @@ trigger1 = Root, Anim = 5100
 
 
 
-;=====================<GRENADE (WIN)>=========================
+;=<GRENADE (WIN)>=
 [StateDef 10181]
 type = A
 physics = N
@@ -322,7 +322,7 @@ trigger2 = Time >= 50
 
 
 
-;=====================<HOLLY WOOD (KNIFE STAB)>=========================
+;=<HOLLY WOOD (KNIFE STAB)>=
 [StateDef 10182]
 type = A
 physics = N
@@ -346,7 +346,7 @@ ignoreHitPause = 1
 
 
 
-;=====================<HOLLY WOOD (HOOK, INTRO)>=========================
+;=<HOLLY WOOD (HOOK, INTRO)>=
 [StateDef 10184]
 type = A
 physics = N
@@ -367,7 +367,7 @@ ignoreHitPause = 1
 
 
 
-;=====================<EL GADO (KNIFE STAB)>=========================
+;=<EL GADO (KNIFE STAB)>=
 [StateDef 11182]
 type = A
 physics = N
@@ -391,7 +391,7 @@ ignoreHitPause = 1
 
 
 
-;=====================<KNIVES (INTRO VS. HIBIKI)>=========================
+;=<KNIVES (INTRO VS. HIBIKI)>=
 [StateDef 10191]
 type = A
 physics = N
@@ -440,7 +440,7 @@ value = 1110
 
 
 
-;=====================<KNIVES (INTRO VS. MAKI)>=========================
+;=<KNIVES (INTRO VS. MAKI)>=
 [StateDef 10192]
 type = A
 physics = N
@@ -490,7 +490,7 @@ value = 1110
 
 
 
-;=====================<GRENADE (TAUNT)>=========================
+;=<GRENADE (TAUNT)>=
 [StateDef 10195]
 type = A
 physics = N
@@ -729,7 +729,7 @@ value = 1108
 
 
 
-;=====================<GRENADES (DEADLY PACKAGE)>=========================
+;=<GRENADES (DEADLY PACKAGE)>=
 [StateDef 10820]
 type = A
 physics = N
@@ -793,7 +793,7 @@ trigger2 = Root, StateNo != 820
 
 
 
-;=====================<HOLLY WOOD (GRENADE THROW)>=========================
+;=<HOLLY WOOD (GRENADE THROW)>=
 [StateDef 13311]
 type = A
 physics = N
@@ -834,7 +834,7 @@ trigger1 = !AnimTime
 
 
 
-;=====================<EL GADO (GRENADE THROW)>=========================
+;=<EL GADO (GRENADE THROW)>=
 [StateDef 23311]
 type = A
 physics = N
@@ -875,7 +875,7 @@ trigger1 = !AnimTime
 
 
 
-;====================<KNIFE (STINGER)>=========================
+;====<KNIFE (STINGER)>=
 [StateDef 1105]
 type = A
 physics = N
@@ -1469,7 +1469,7 @@ value = 5120
 
 
 
-;====================<KNIFE (EX STINGER, LOWER)>=========================
+;====<KNIFE (EX STINGER, LOWER)>=
 [StateDef 1135]
 type = A
 physics = N
@@ -1622,7 +1622,7 @@ trigger1 = pos x != [-200,200]
 
 
 
-;====================<KNIFE (EX STINGER, MIDDLE)>=========================
+;====<KNIFE (EX STINGER, MIDDLE)>=
 [StateDef 1145]
 type = A
 physics = N
@@ -1785,7 +1785,7 @@ trigger1 = pos x != [-200,200]
 
 
 
-;====================<KNIFE (EX STINGER, UPPER)>=========================
+;====<KNIFE (EX STINGER, UPPER)>=
 [StateDef 1155]
 type = A
 physics = N
@@ -1938,7 +1938,7 @@ trigger1 = pos x != [-200,200]
 
 
 
-;=====================<TRIPWIRE>=========================
+;=<TRIPWIRE>=
 [StateDef 3003]
 type = A
 physics = N
@@ -2070,7 +2070,7 @@ trigger5 = Root, MoveHit && !(Root, NumTarget)
 
 
 
-;=====================<GRENADE (MINE SWEEPER)>=========================
+;=<GRENADE (MINE SWEEPER)>=
 ;Falling
 [StateDef 3103]
 type = A
@@ -2394,7 +2394,7 @@ value = 1108
 
 
 
-;=====================<HOLLY WOOD (HOOK)>=========================
+;=<HOLLY WOOD (HOOK)>=
 [StateDef 13010]
 type = A
 physics = N
@@ -2420,7 +2420,7 @@ ignoreHitPause = 1
 
 
 
-;====================<KNIVES (STEEL RAIN, INTRO)>=========================
+;====<KNIVES (STEEL RAIN, INTRO)>=
 [StateDef 3204]
 type = A
 physics = N
@@ -2452,7 +2452,7 @@ trigger2 = Time = 60
 
 
 
-;====================<KNIFE (STEEL RAIN, FALLING)>=========================
+;====<KNIFE (STEEL RAIN, FALLING)>=
 [StateDef 3205]
 type = A
 physics = N
@@ -2613,7 +2613,7 @@ trigger1 = pos x != [-200,200]
 
 
 
-;=====================<GRENADE (PATRIOT SWEEPER)>=========================
+;=<GRENADE (PATRIOT SWEEPER)>=
 ;Falling
 [StateDef 13313]
 type = A
@@ -2850,7 +2850,7 @@ trigger1 = Time = 1
 
 
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -3840,7 +3840,7 @@ trigger1 = Time >= 8
 
 
 
-;======================<JUMP DUST>===========================
+;==<JUMP DUST>===
 [StateDef 8100]
 type = S
 anim = 1
@@ -3879,7 +3879,7 @@ trigger1 = Time >= 7
 
 
 
-;======================<DASH DUST>===========================
+;==<DASH DUST>===
 [StateDef 8103]
 type = A
 anim = 1
@@ -3941,7 +3941,7 @@ trigger1 = !NumExplod
 
 
 
-;======================<IMPACT DUST>===========================
+;==<IMPACT DUST>===
 [StateDef 8110]
 type = A
 anim = 1
@@ -3987,7 +3987,7 @@ trigger1 = !NumExplod
 
 
 
-;========================<FLAMES>=============================
+;====<FLAMES>=
 [StateDef 8150]
 type = A
 velSet = 0,0
@@ -4057,7 +4057,7 @@ trigger4 = Root, MoveHit
 
 
 
-;========================<FLAMES (GRENADE WINPOSE>=============================
+;====<FLAMES (GRENADE WINPOSE>=
 [StateDef 8151]
 type = A
 velSet = 0,0
@@ -4106,7 +4106,7 @@ trigger1 = Time >= 24
 
 
 
-;========================<RECOVER FX>=============================
+;====<RECOVER FX>=
 [StateDef 8200]
 type = A
 velSet = 0,0
@@ -4138,7 +4138,7 @@ trigger1 = Time >= 15
 
 
 
-;========================<COUNTER FX>=============================
+;====<COUNTER FX>=
 [StateDef 8290]
 type = A
 physics = N
@@ -4184,7 +4184,7 @@ trigger1 = Time >= 16
 
 
 
-;==================<POWER CHARGE FX>==================
+;==<POWER CHARGE FX>==
 ;Aura and Dust
 [StateDef 8330]
 type = A
@@ -4293,7 +4293,7 @@ trigger1 = Root, StateNo != 730
 
 
 
-;==================<ZERO COUNTER FX>==================
+;==<ZERO COUNTER FX>==
 [StateDef 8350]
 type = A
 physics = N
@@ -4345,7 +4345,7 @@ trigger1 = Time >= 16
 
 
 
-;========================<CUSTOM COMBO>=============================
+;====<CUSTOM COMBO>=
 [StateDef 8400]
 type = A
 physics = N
@@ -4451,7 +4451,7 @@ trigger1 = Time >= 26
 
 
 
-;========================<SUPER PAUSE FX>=============================
+;====<SUPER PAUSE FX>=
 ;Level 1 Super FX
 [StateDef 8500]
 type = A
@@ -4895,7 +4895,7 @@ trigger1 = Time >= 40
 
 
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [StateDef 8600]
 type = A
 velSet = 0,0
@@ -5056,7 +5056,7 @@ trigger1 = RoundState < 3
 
 
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0

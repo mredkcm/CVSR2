@@ -1,18 +1,18 @@
 ; ADD004 BASIC PIEs ReBuilded CNS (27/12/2018)
-;==============================================
+;==
 ; This file is Made by PIE.
 ; there is a backup of this file in the same folder, named "<samename>.a4bk".
 ; to Restore, use assist tool, or delete this file, then remove ".a4bk" from the neme of backup.
-;==============================================
+;==
 
 ; _______________________________________
 ;| Geese Howard by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< SYSTEM STATES >========================================
-;==============================================================================================
+;==
+;===< SYSTEM STATES >====
+;==
 
-;====================< STANDING >====================
+;====< STANDING >====
 [Statedef 0]
 type = S
 physics = S
@@ -50,7 +50,7 @@ trigger3 = (enemy(1), name = "M -NES Game 1" + enemy(1), name = "M -NES Game 2" 
 value = 50
 
 
-;====================< CROUCHING >====================
+;====< CROUCHING >====
 [Statedef 10]
 type = C
 physics = C
@@ -115,7 +115,7 @@ trigger1 = !animtime
 value = 0
 
 
-;====================< WALKING >====================
+;====< WALKING >====
 [Statedef 20]
 type = S
 physics = S
@@ -147,7 +147,7 @@ trigger2 = anim = 5 && animelemtime(1) >= 1
 value = 21
 
 
-;====================< JUMPING >====================
+;====< JUMPING >====
 [Statedef 40]
 type = S
 physics = S
@@ -347,7 +347,7 @@ value = 0
 ctrl = 1
 
 
-;======================< RUN >===========================
+;==< RUN >===
 [Statedef 100]
 type = S
 physics = N
@@ -421,7 +421,7 @@ value = ifelse(command = "holddown", 10, 0)
 ctrl = 1
 
 
-;======================< DASH >===========================
+;==< DASH >===
 [Statedef 102]
 type = S
 physics = N
@@ -501,7 +501,7 @@ value = 0
 ctrl = 1
 
 
-;========================< BACK DASH >==========================
+;====< BACK DASH >==
 [Statedef 105]
 type = A
 physics = N
@@ -579,7 +579,7 @@ value = 0
 ctrl = 1
 
 
-;====================< DODGE >====================
+;====< DODGE >====
 [Statedef 700]
 type = S
 physics = S
@@ -627,7 +627,7 @@ value = 0
 ctrl = 1
 
 
-;====================< ROLL >====================
+;====< ROLL >====
 ;--- Forward ---
 [Statedef 710]
 type = S
@@ -720,7 +720,7 @@ value = 0
 ctrl = 1
 
 
-;==========< POWER CHARGE >==========
+;==< POWER CHARGE >==
 [Statedef 730]
 type = S
 physics = S
@@ -804,7 +804,7 @@ value = 0
 ctrl = 1
 
 
-;====================< ZERO COUNTER >====================
+;====< ZERO COUNTER >====
 [Statedef 750]
 type = S
 physics = S
@@ -870,7 +870,7 @@ trigger1 = time >= 15
 value = ifelse(var(10) = 1, 2910, 2900)
 
 
-;====================< PARRY >====================
+;====< PARRY >====
 ;--- STANDING ---
 [Statedef 760]
 type = S
@@ -1209,7 +1209,7 @@ trigger1 = root, stateno = [760, 762]
 trigger2 = time >= 2
 
 
-;====================< CUSTOM COMBO >====================
+;====< CUSTOM COMBO >====
 ;--- GROUND ---
 [Statedef 900]
 type = S
@@ -1394,7 +1394,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 
-;==========< TARGET SAFE FALL >==========
+;==< TARGET SAFE FALL >==
 [Statedef 5205]
 type = A
 physics = N
@@ -1423,7 +1423,7 @@ trigger1 = time >= 60
 value = 5210
 
 
-;==========< FALL RECOVERY >==========
+;==< FALL RECOVERY >==
 [Statedef 5200]
 type = A
 movetype = H
@@ -1578,7 +1578,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 
-;===================< GUARD >================
+;===< GUARD >====
 ;--- START ---
 [Statedef 120]
 type = U
@@ -1984,7 +1984,7 @@ trigger1 = sysvar(0)
 value = 52
 
 
-;====================< LOSE >====================
+;====< LOSE >====
 [Statedef 170]
 type = S
 ctrl = 0
@@ -2004,7 +2004,7 @@ channel = 0
 volume = -128
 
 
-;====================< DRAW GAME >====================
+;====< DRAW GAME >====
 [Statedef 175]
 type = S
 ctrl = 0
@@ -2015,7 +2015,7 @@ trigger1 = !time
 value = 170
 
 
-;====================< CONTINUE? >====================
+;====< CONTINUE? >====
 [Statedef 5500]
 type = S
 anim = 5300
@@ -2027,7 +2027,7 @@ trigger1 = !time
 value = 5500
 
 
-;====================< INITIALIZE >====================
+;====< INITIALIZE >====
 [Statedef 5900]
 type = S
 
@@ -2084,7 +2084,7 @@ trigger1 = 1
 value = 0
 
 
-;====================< INTRO 1 >====================
+;====< INTRO 1 >====
 [Statedef 190]
 type = S
 physics = S
@@ -2106,7 +2106,7 @@ trigger1 = !animtime
 value = 0
 
 
-;====================< INTRO 2 >====================
+;====< INTRO 2 >====
 [Statedef 191]
 type = S
 physics = S
@@ -2142,7 +2142,7 @@ trigger1 = !animtime
 value = 0
 
 
-;====================< TURNS INTRO >====================
+;====< TURNS INTRO >====
 [Statedef 6900]
 type = A
 anim = 6900
@@ -2232,7 +2232,7 @@ trigger1 = !animtime
 value = 0
 
 
-;====================< INTRO vs TERRY >====================
+;====< INTRO vs TERRY >====
 [Statedef 6910]
 type = S
 physics = S
@@ -2254,7 +2254,7 @@ trigger1 = !animtime
 value = 0
 
 
-;====================< INTRO vs ROCK >====================
+;====< INTRO vs ROCK >====
 [Statedef 6911]
 type = S
 physics = S
@@ -2281,7 +2281,7 @@ trigger1 = !animtime
 value = 0
 
 
-;====================< INTRO vs VEGA >====================
+;====< INTRO vs VEGA >====
 [Statedef 6912]
 type = S
 physics = S
@@ -2324,7 +2324,7 @@ trigger1 = !animtime
 value = 0
 
 
-;====================< WIN POSE DECIDER >====================
+;====< WIN POSE DECIDER >====
 [Statedef 180]
 type = S
 
@@ -2361,7 +2361,7 @@ trigger1 = 1
 value = 181 + (random % 4)
 
 
-;====================< WIN 1 >====================
+;====< WIN 1 >====
 [Statedef 181]
 type = S
 physics = S
@@ -2379,7 +2379,7 @@ value = 6, 1
 channel = 0
 
 
-;====================< WIN 2 >====================
+;====< WIN 2 >====
 [Statedef 182]
 type = S
 physics = S
@@ -2397,7 +2397,7 @@ value = 6, 0
 channel = 0
 
 
-;====================< WIN 3 >====================
+;====< WIN 3 >====
 [Statedef 183]
 type = S
 physics = S
@@ -2409,7 +2409,7 @@ trigger1 = time < 300
 flag = roundnotover
 
 
-;====================< WIN 4 >====================
+;====< WIN 4 >====
 [Statedef 184]
 type = S
 physics = S
@@ -2427,7 +2427,7 @@ value = 6, 9
 channel = 0
 
 
-;====================< WIN NIGHTMARE >====================
+;====< WIN NIGHTMARE >====
 [Statedef 6913]
 type = S
 physics = S
@@ -2445,7 +2445,7 @@ value = 6, 13
 channel = 0
 
 
-;====================< TAUNT >====================
+;====< TAUNT >====
 [Statedef 195]
 type = S
 physics = S
@@ -2467,7 +2467,7 @@ value = 0
 ctrl = 1
 
 
-;====================< K.O. >====================
+;====< K.O. >====
 [Statedef 5150]
 type = L
 movetype = H
@@ -2513,7 +2513,7 @@ value = SCA
 time = 1
 
 
-;====================< CHEAP K.O. >====================
+;====< CHEAP K.O. >====
 [Statedef 5950]
 type = S
 movetype = H
@@ -2565,7 +2565,7 @@ trigger1 = !animtime
 value = ifelse(alive, 5110, 5150)
 
 
-;====================< AIR HIT TRANSITION >====================
+;====< AIR HIT TRANSITION >====
 [Statedef 5035]
 type = A
 movetype = H
@@ -2604,15 +2604,15 @@ trigger4 = anim != 5035
 value = 5050
 
 
-;===========================================================================
-;===============================< -2 STATES >=================================
-;===========================================================================
+;===
+;===< -2 STATES >=
+;===
 [Statedef -2]
 
 ;#ADD004BASIC PIEs#
-;//==========================
+;//==
 ;// add004-sctrls-start
-;//==========================
+;//==
 ;sys::-2::partners_standby ; ???????
 [state 0]
 	type=selfstate
@@ -2682,7 +2682,7 @@ value = 5050
 	time=1
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;;>>@Config.Face>>
 ;sys::-2::face_d ; portrait (?)
 [state 0]
@@ -2717,7 +2717,7 @@ value = 5050
 	id=490600
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;;>>@Config.Camera>>
 ;sys::-2::camera_nc ; ????
 [state 0]
@@ -2743,7 +2743,7 @@ value = 5050
 	movecamera=0,0 ;; [x,y]
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;sys::-2::add.option2-noko
 [state 0] ;; opt-noko
 	type=assertspecial
@@ -2762,7 +2762,7 @@ value = 5050
 	kill=0
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;// optional settings
 ;sys::-2::guard_crush_fx ; ????????
 [state 0]
@@ -2824,9 +2824,9 @@ value = 5050
 	trigger1=playerid(id-3),ishelper=0 && playerid(id-3),teamside=teamside
 	x=const240p(144)*ifelse(teamside=1,-1,1)
 
-;//==========================
+;//==
 ;// add004-sctrls-end
-;//==========================
+;//==
 
 
 [State -2, Hit Detection]
@@ -3100,9 +3100,9 @@ text = "\nBy PotS - http://www.mugenguild.com/pots/"
 ignorehitpause = 1
 
 
-;===========================================================================
-;===============================< -3 STATES >=================================
-;===========================================================================
+;===
+;===< -3 STATES >=
+;===
 [Statedef -3]
 
 [State -3, Gametime Var]

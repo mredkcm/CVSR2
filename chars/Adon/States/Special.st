@@ -1,11 +1,11 @@
 ; _______________________________________
 ;| Adon by Trololo                       |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;========================<JAGUAR KICK>=============================
+;====<JAGUAR KICK>=
 [StateDef 1000]
 type = S
 physics = N
@@ -285,7 +285,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX JAGUAR KICK>=============================
+;====<EX JAGUAR KICK>=
 [StateDef 1030]
 type = S
 physics = N
@@ -501,7 +501,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 1001
 
-;========================<AIRBORNE JAGUAR KICK>=============================
+;====<AIRBORNE JAGUAR KICK>=
 [StateDef 1040]
 type = A
 physics = N
@@ -671,7 +671,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 1001
 
-;========================<EX AIRBORNE JAGUAR KICK>=============================
+;====<EX AIRBORNE JAGUAR KICK>=
 [StateDef 1050]
 type = A
 physics = N
@@ -873,7 +873,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 1001
 
-;========================<RISING JAGUAR>=============================
+;====<RISING JAGUAR>=
 [StateDef 1100]
 type = S
 physics = N
@@ -1104,7 +1104,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX RISING JAGUAR>=============================
+;====<EX RISING JAGUAR>=
 [StateDef 1130]
 type = S
 physics = N
@@ -1347,7 +1347,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 1101
 
-;========================<JAGUAR TOOTH>=============================
+;====<JAGUAR TOOTH>=
 [StateDef 1200]
 type = S
 physics = N
@@ -1606,7 +1606,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX JAGUAR TOOTH>=============================
+;====<EX JAGUAR TOOTH>=
 [StateDef 1230]
 type = S
 physics = N
@@ -1811,7 +1811,7 @@ trigger1 = anim = 1200 && animelemtime(9)>=0
 trigger2 = anim = 1230
 value = 1201
 
-;========================<THOUSAND JAGUAR>=============================
+;====<THOUSAND JAGUAR>=
 ;Startup
 [StateDef 1300]
 type = S
@@ -2038,7 +2038,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX THOSAND JAGUAR>=============================
+;====<EX THOSAND JAGUAR>=
 [StateDef 1330]
 type = S
 physics = N
@@ -2347,7 +2347,7 @@ type = ChangeState
 trigger1 = !AnimTime
 value = 1302
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -2487,7 +2487,7 @@ ctrl = 1
 
 
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

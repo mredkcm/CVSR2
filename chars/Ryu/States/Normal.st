@@ -2,7 +2,7 @@
 ;| Ryu by Phantom.of.the.Server and Mwryly |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 ;===
-;======NORMAL STATES===========
+;==NORMAL STATES===
 ;===
 
 ;Stand Light Punch
@@ -2897,7 +2897,7 @@ movetype = I
 
 
 ;===
-;THROWS=====
+;THROWS=
 ;===
 ;THROW CONTROLLER
 [Statedef 800]

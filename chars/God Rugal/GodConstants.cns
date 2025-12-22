@@ -95,7 +95,7 @@ airjump.back = -2.55
 airjump.fwd = 2.5
 
 [Movement]
-airJump.num = 1
+airJump.num = 99999
 airJump.height = 0
 yAccel = .55
 stand.friction = 0.85

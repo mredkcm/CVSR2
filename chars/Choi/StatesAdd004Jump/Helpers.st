@@ -1,9 +1,9 @@
 ; _________________________________________
 ;| CVS Choi Bounge by Falcon Rapper        |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< HELPER STATES >========================================
-;==============================================================================================
+;==
+;===< HELPER STATES >====
+;==
 ;--------------------------------------------------------------------------------------
 ;Pal Select
 [Statedef 256]
@@ -92,7 +92,7 @@ trigger3=root,AILevel
 ;CAMERA FOCUS
 [Statedef 6001]
 type = S
-physics  = S
+physics = S
 anim = 0
 ctrl = 0
 
@@ -148,10 +148,10 @@ trigger1 = Time = 50
 trigger1 = enemy, Life >= 1
 trigger2=numhelper(6001)>=2
 
-;=========================================================================
+;=
 ;HI Res Hitspark Coding 1.0
-;=========================================================================
-;========================<SPARKS>=============================
+;=
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -224,9 +224,9 @@ type = DestroySelf
 trigger1 = Time >= 8
 
 
-;=========================================================================
+;=
 ;HI Res Hitspark Coding 1.0
-;=========================================================================
+;=
 ;Hit Spark for Helpers and Throws
 [StateDef 8005]
 physics = N
@@ -1934,7 +1934,7 @@ type = destroyself
 trigger1 = time >= 26
 
 
-;========================< SUPERPAUSE FX >=============================
+;====< SUPERPAUSE FX >=
 ;--- --Level 1 -----
 [Statedef 8500]
 type = A
@@ -2511,7 +2511,7 @@ type=DestroySelf
 trigger1=Time >= 40
 trigger2=root,stateno!=[3050,3510]
 
-;;========================= SPECIAL FINISH =================
+;;= SPECIAL FINISH =
 [Statedef 8550]
 ctrl = 0
 anim = 1
@@ -2805,7 +2805,7 @@ trigger1= !numenemy || time>=60
 ;---------------------------------------------------------------------------
 ;Tatsumaki Shippuzan Helper
 [Statedef 1005]
-type    = A
+type = A
 movetype = I
 physics = N
 ctrl = 0
@@ -2895,7 +2895,7 @@ var(8)=1
 type = HitDef 
 trigger1 = time = 0
 attr = A, HA
-animtype  = Hard
+animtype = Hard
 damage    =180,10
 getpower = 0,0
 guardflag = M
@@ -2909,7 +2909,7 @@ guardsound=S3,1
 sparkXY=-10 + 0 * (var(35) :=150), var(36) :=9999
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 9
+ground.hittime = 9
 ground.velocity = -3.5,-6
 guard.velocity = -9
 air.velocity = -3.5,-6
@@ -2993,7 +2993,7 @@ value = 3006
 
 ; Shin! Chouzetsu Tatsumaki Shinkuu Zan Helper Guardtime
 [Statedef 30051]
-type    = S
+type = S
 movetype = I
 physics = N
 ctrl = 0
@@ -3025,7 +3025,7 @@ value = 3005
 
 ; Shin! Chouzetsu Tatsumaki Shinkuu Zan Helper End
 [Statedef 3006]
-type    = S
+type = S
 movetype = I
 physics = N
 ctrl = 0
@@ -3136,7 +3136,7 @@ var(8)=1
 type = HitDef 
 trigger1 = time%15=0
 attr = A, HA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(!numtarget(3005),220,30),10
 getpower = 0,0
 guardflag = M
@@ -3150,7 +3150,7 @@ guardsound=-1
 sparkXY=-10 + 0 * (var(35) :=150), var(36) :=9999
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 9
+ground.hittime = 9
 ground.velocity = -3.5,-6
 guard.velocity = -9
 air.velocity = -3.5,-6
@@ -3253,7 +3253,7 @@ value = 3006
 
 ; Shin! Chouzetsu Tatsumaki Shinkuu Zan Helper Guardtime
 [Statedef 35051]
-type    = S
+type = S
 movetype = I
 physics = N
 ctrl = 0
@@ -3323,7 +3323,7 @@ trigger3 = !Parent, Alive
 
 ; Shakushi Helper
 [Statedef 3510]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = IfElse((IsHelper(3505)=1),3505,3506)
@@ -3385,7 +3385,7 @@ hitsound = S2,9
 guardsound = s3,1
 ground.type = High
 ground.slidetime = 16
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -6,-8
 guard.velocity = -10
 air.hittime = 13
@@ -3461,7 +3461,7 @@ value = 3511
 
 ; Shakushi Helper End
 [Statedef 3511]
-type    = S
+type = S
 movetype = I
 physics = N
 ctrl = 0

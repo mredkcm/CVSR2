@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Blanka by varo_hades                    |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<Direct Lightning>=============================
+;====<Direct Lightning>=
 [StateDef 3000]
 type = S
 physics = S
@@ -134,7 +134,7 @@ type = HitDef
 trigger1 = !var(16) && var(15) < 3
 trigger1 = AnimElem=6
 attr = A, HA
-damage    = ceil(ifElse(fvar(11) * 200 < 7, 7, fvar(11) * 200)), 7
+damage = ceil(ifElse(fvar(11) * 200 < 7, 7, fvar(11) * 200)), 7
 animtype = Hard
 guardflag = M
 hitflag = MAF
@@ -146,7 +146,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 43), var(36) := -45
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -3.5,-7.5
 guard.velocity = -9.5
 air.velocity = -4.0,-3.5
@@ -284,7 +284,7 @@ trigger1 = Anim=3050 && AnimTime=0
 value = 11
 ctrl = 1
 
-;========================<Max Direct Lightning>=============================
+;====<Max Direct Lightning>=
 [StateDef 3050]
 type = S
 physics = S
@@ -419,7 +419,7 @@ type = HitDef
 trigger1 = !var(16) && var(15) < 3
 trigger1 = AnimElem=6
 attr = A, HA
-damage    = ceil(ifElse(fvar(11) * 350 < 7, 7, fvar(11) * 350)), 7
+damage = ceil(ifElse(fvar(11) * 350 < 7, 7, fvar(11) * 350)), 7
 animtype = Hard
 guardflag = M
 hitflag = MAF
@@ -431,7 +431,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 43), var(36) := -45
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -3.5,-7.5
 guard.velocity = -9.5
 air.velocity = -4.0,-3.5
@@ -496,7 +496,7 @@ type = ChangeState
 trigger1 = time= 78 || movecontact || movereversed || FrontEdgeBodyDist <10
 value = 3010
 
-;========================<Ground Shave Rolling>=============================
+;====<Ground Shave Rolling>=
 [StateDef 3100]
 type = S
 physics = N
@@ -645,7 +645,7 @@ type = HitDef
 trigger1 = !var(16) && var(15) < 1
 trigger1 = AnimElem=2
 attr = A, HA
-damage    = ceil(ifElse(fvar(11) * 67 < 7, 7, fvar(11) * 67)), 7
+damage = ceil(ifElse(fvar(11) * 67 < 7, 7, fvar(11) * 67)), 7
 animtype = Hard
 guardflag = M
 hitflag = MAF
@@ -657,7 +657,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 83), var(36) := -45
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -2.0,-7.5
 guard.velocity = -11.0
 ground.cornerpush.veloff = 0
@@ -763,7 +763,7 @@ value = 3106
 type = S
 movetype = A
 physics = N
-juggle   = 1
+juggle = 1
 ctrl = 0
 velset = 0,0
 sprpriority = 2
@@ -814,8 +814,8 @@ type = HitDef
 trigger1 = !var(16) && var(15) < 4
 trigger1 = var(2) <= 4
 attr = S, HA
-animtype  = Hard
-damage    = ceil(ifElse(fvar(11) * 50 < 7, 7, fvar(11) * 50)), 7
+animtype = Hard
+damage = ceil(ifElse(fvar(11) * 50 < 7, 7, fvar(11) * 50)), 7
 guardflag = M
 pausetime = 6,6
 hitSound = -1 + 0 * (var(31) := 5)
@@ -825,7 +825,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 83), var(36) := -45
 ground.type = H
 ground.slidetime = 10
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -8,0
 air.velocity = -5,-4
 envshake.time = 20
@@ -907,7 +907,7 @@ type = ChangeState
 trigger1 = Vel Y > 0 && Pos Y >= 10
 value = 52
 
-;========================<MAX Ground Shave Rolling>=============================
+;====<MAX Ground Shave Rolling>=
 [StateDef 3150]
 type = S
 physics = N
@@ -1072,7 +1072,7 @@ type = HitDef
 trigger1 = !var(16) && var(15) < 1
 trigger1 = AnimElem=2
 attr = A, HA
-damage    = ceil(ifElse(fvar(11) * 67 < 7, 7, fvar(11) * 67)), 7
+damage = ceil(ifElse(fvar(11) * 67 < 7, 7, fvar(11) * 67)), 7
 animtype = Hard
 guardflag = M
 hitflag = MAF
@@ -1084,7 +1084,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 83), var(36) := -45
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -2.0,-7.5
 guard.velocity = -11.0
 ground.cornerpush.veloff = 0
@@ -1191,7 +1191,7 @@ value = 3156
 type = S
 movetype = A
 physics = N
-juggle   = 1
+juggle = 1
 ctrl = 0
 velset = 0,0
 sprpriority = 2
@@ -1242,8 +1242,8 @@ type = HitDef
 trigger1 = !var(16) && var(15) < 5
 trigger1 = var(2) <= 5
 attr = S, HA
-animtype  = Hard
-damage    = ceil(ifElse(fvar(11) * 65 < 7, 7, fvar(11) * 65)), 7
+animtype = Hard
+damage = ceil(ifElse(fvar(11) * 65 < 7, 7, fvar(11) * 65)), 7
 guardflag = M
 pausetime = 6,6
 hitSound = -1 + 0 * (var(31) := 5)
@@ -1253,7 +1253,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 83), var(36) := -45
 ground.type = H
 ground.slidetime = 10
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -8,0
 air.velocity = -5,-4
 envshake.time = 20
@@ -1297,7 +1297,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<Shout of Thunder>=============================
+;====<Shout of Thunder>=
 [StateDef 3200]
 type = S
 physics = S
@@ -1658,8 +1658,8 @@ type = HitDef
 trigger1 = !var(16) && var(15) < 3
 trigger1 = var(2) <= 9
 attr = C, HA
-animtype  = Hard
-damage    = ceil(ifElse(fvar(11) * 45 < 7, 7, fvar(11) * 45)), 7
+animtype = Hard
+damage = ceil(ifElse(fvar(11) * 45 < 7, 7, fvar(11) * 45)), 7
 hitflag = MP
 guardflag = L
 pausetime = 6,8
@@ -1670,7 +1670,7 @@ guard.sparkNo = -1
 sparkXY = -1
 ground.type = H
 ground.slidetime = 10
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = 0
 air.velocity = 0
 envshake.time = 20
@@ -1754,7 +1754,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<Shout of Thunder>=============================
+;====<Shout of Thunder>=
 [StateDef 3250]
 type = S
 physics = S
@@ -1925,8 +1925,8 @@ value = 3251
 type = HitDef
 trigger1 = var(2) <= 9
 attr = S, HA
-animtype  = Hard
-damage    = ceil(ifElse(fvar(11) * 48 < 7, 7, fvar(11) * 48)), 7
+animtype = Hard
+damage = ceil(ifElse(fvar(11) * 48 < 7, 7, fvar(11) * 48)), 7
 hitflag = MAFP
 guardflag = M
 pausetime = 2,8
@@ -1937,7 +1937,7 @@ guard.sparkNo = -1
 sparkxy = -1
 ground.type = H
 ground.slidetime = 10
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -8,-10
 air.velocity = -4,-10
 envshake.time = 20
@@ -1984,7 +1984,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<Shout of Earth>=============================
+;====<Shout of Earth>=
 [StateDef 3300]
 type = S
 physics = N
@@ -2140,7 +2140,7 @@ trigger28 = AnimElem=32
 trigger29 = AnimElem=33
 trigger30 = AnimElem=34
 attr = S, HA
-damage    = ceil(ifElse(fvar(11) * 28 < 7, 7, fvar(11) * 28)), 7
+damage = ceil(ifElse(fvar(11) * 28 < 7, 7, fvar(11) * 28)), 7
 animtype = Hard
 guardflag = M
 hitflag = MAF
@@ -2152,7 +2152,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 146), var(36) := -80
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = 1,-8
 guard.velocity = -8.25
 air.velocity = 1,-8
@@ -2180,7 +2180,7 @@ triggerall = !var(16) && var(15) < 1
 triggerall = var(18)<7||var(56)
 trigger1 = AnimElem=44
 attr = S, HA
-damage    = ceil(ifElse(fvar(11) * 56 < 7, 7, fvar(11) * 56)), 7
+damage = ceil(ifElse(fvar(11) * 56 < 7, 7, fvar(11) * 56)), 7
 animtype = Hard
 guardflag = M
 hitflag = MAF
@@ -2192,7 +2192,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 146), var(36) := -80
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -2,-10
 guard.velocity = -8.25
 air.velocity = -2,-10
@@ -2255,7 +2255,7 @@ trigger1 = Animtime= 0
 value = 0
 ctrl=1
 
-;========================<MAX Shout of Earth>=============================
+;====<MAX Shout of Earth>=
 [StateDef 3350]
 type = S
 physics = N
@@ -2411,7 +2411,7 @@ trigger28 = AnimElem=32
 trigger29 = AnimElem=33
 trigger30 = AnimElem=34
 attr = S, HA
-damage    = ceil(ifElse(fvar(11) * 33 < 7, 7, fvar(11) * 33)), 7
+damage = ceil(ifElse(fvar(11) * 33 < 7, 7, fvar(11) * 33)), 7
 animtype = Hard
 guardflag = M
 hitflag = MAF
@@ -2423,7 +2423,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 146), var(36) := -80
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = 1,-8
 guard.velocity = -8.25
 air.velocity = 1,-8
@@ -2451,7 +2451,7 @@ triggerall = !var(16) && var(15) < 1
 triggerall = var(18)<15||var(56)
 trigger1 = AnimElem=44
 attr = S, HA
-damage    = ceil(ifElse(fvar(11) * 56 < 7, 7, fvar(11) * 56)), 7
+damage = ceil(ifElse(fvar(11) * 56 < 7, 7, fvar(11) * 56)), 7
 animtype = Hard
 guardflag = M
 hitflag = MAF
@@ -2463,7 +2463,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkxy = -10 + 0 * (var(35) := 146), var(36) := -80
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -2,-10
 guard.velocity = -8.25
 air.velocity = -2,-10
@@ -2526,7 +2526,7 @@ trigger1 = Animtime= 0
 value = 0
 ctrl=1
 
-;========================<Tropical Hazard>=============================
+;====<Tropical Hazard>=
 [StateDef 3400]
 type = S
 physics = S
@@ -2595,7 +2595,7 @@ value = 3401
 
 ;
 [Statedef 3401]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -2630,7 +2630,7 @@ value = 3402
 
 ;
 [Statedef 3402]
-type    = A
+type = A
 movetype= I
 physics = N
 ctrl = 0
@@ -2669,7 +2669,7 @@ value = 3403
 
 ;
 [Statedef 3403]
-type    = A
+type = A
 movetype= I
 physics = N
 ctrl = 0
@@ -2740,7 +2740,7 @@ value = 3404
 
 ;
 [Statedef 3404]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0
@@ -2757,9 +2757,9 @@ type = HitDef
 triggerall = UniqHitCount < 3
 trigger1 = TimeMod = 1, 0
 attr = A, HA
-animtype  = diagup
-damage    = ceil(ifElse(fvar(11) * 67 < 7, 7, fvar(11) * 67)), 7
-priority  = 5
+animtype = diagup
+damage = ceil(ifElse(fvar(11) * 67 < 7, 7, fvar(11) * 67)), 7
+priority = 5
 hitflag = MAFD
 guardflag = MA
 pausetime = 5,6
@@ -2770,7 +2770,7 @@ sparkNo = -1 + 0 * (var(33) := 8014)
 guard.sparkNo = -1 + 0*(var(34) := 8001)
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -3,-7
 guard.velocity = -7
 air.velocity = -3,-7
@@ -2915,7 +2915,7 @@ trigger1 = AnimTime = 0
 value = 11
 ctrl = 1
 
-;========================<Max Tropical Hazard>=============================
+;====<Max Tropical Hazard>=
 [StateDef 3450]
 type = S
 physics = S
@@ -2984,7 +2984,7 @@ value = 3451
 
 ;
 [Statedef 3451]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -3019,7 +3019,7 @@ value = 3452
 
 ;
 [Statedef 3452]
-type    = A
+type = A
 movetype= I
 physics = N
 ctrl = 0
@@ -3058,7 +3058,7 @@ value = 3453
 
 ;
 [Statedef 3453]
-type    = A
+type = A
 movetype= I
 physics = N
 ctrl = 0
@@ -3153,7 +3153,7 @@ value = 3454
 
 ;
 [Statedef 3454]
-type    = A
+type = A
 movetype= A
 physics = N
 ctrl = 0
@@ -3170,9 +3170,9 @@ type = HitDef
 triggerall = UniqHitCount < 5
 trigger1 = TimeMod = 1, 0
 attr = A, HA
-animtype  = diagup
-damage    = ceil(ifElse(fvar(11) * 67 < 7, 7, fvar(11) * 67)), 7
-priority  = 5
+animtype = diagup
+damage = ceil(ifElse(fvar(11) * 67 < 7, 7, fvar(11) * 67)), 7
+priority = 5
 hitflag = MAFD
 guardflag = MA
 pausetime = 5,6
@@ -3183,7 +3183,7 @@ sparkNo = -1 + 0 * (var(33) := 8014)
 guard.sparkNo = -1 + 0*(var(34) := 8001)
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -3,-7
 guard.velocity = -7
 air.velocity = -3,-7
@@ -3264,7 +3264,7 @@ type = ChangeState
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 3405
 
-;========================<Jungle Heat>=============================
+;====<Jungle Heat>=
 [StateDef 3500]
 type = S
 physics = S
@@ -3425,10 +3425,10 @@ trigger1 = pos y >=0
 value = 1250
 
 [statedef 3501]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 sprpriority = 4
 poweradd = 0
@@ -3602,7 +3602,7 @@ trigger1 =  time = 260
 value = 3503
 
 [Statedef 3503]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -3672,7 +3672,7 @@ value = 0
 ctrl = 1
 
 [Statedef 3504]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -3680,11 +3680,11 @@ velset = 0,0
 
 [State 3504, ChangeAnim]
 type = ChangeAnim2
-trigger1  = time = 0
+trigger1 = time = 0
 value = 3502
 
 [Statedef 3505]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3706,7 +3706,7 @@ Trigger1 = enemynear,Anim = 812
 value = 3507
 
 [Statedef 3506]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -2.0,-14.0
@@ -3727,7 +3727,7 @@ trigger1 = Pos Y>=0 && Vel Y>0
 value = 5100
 
 [Statedef 3507]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -1,-8.0
@@ -3747,7 +3747,7 @@ type = SelfState
 trigger1 = Pos Y>=0 && Vel Y>0
 value = 5100
 
-;========================<Max Jungle Heat>=============================
+;====<Max Jungle Heat>=
 [StateDef 3550]
 type = S
 physics = S
@@ -3908,10 +3908,10 @@ trigger1 = pos y >=0
 value = 1250
 
 [statedef 3551]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 sprpriority = 4
 poweradd = 0
@@ -4077,7 +4077,7 @@ trigger1 =  time = 260
 value = 3553
 
 [Statedef 3553]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -4147,7 +4147,7 @@ value = 3560
 ctrl = 1
 
 [Statedef 3560]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -4215,7 +4215,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 [Statedef 3554]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -4223,11 +4223,11 @@ velset = 0,0
 
 [State 3504, ChangeAnim]
 type = ChangeAnim2
-trigger1  = time = 0
+trigger1 = time = 0
 value = 3502
 
 [Statedef 3555]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -4249,7 +4249,7 @@ Trigger1 = enemynear,Anim = 812
 value = 3507
 
 [Statedef 3556]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -4279,7 +4279,7 @@ trigger1 = Vel Y>0
 value = 5100
 
 [Statedef 3557]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -1,-8.0

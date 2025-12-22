@@ -501,7 +501,7 @@ value = 106
 [Statedef 106]
 type = S
 physics = S
-movetype  = I
+movetype = I
 ctrl = 0
 anim = 106
 velSet = 0,0
@@ -2574,7 +2574,7 @@ type = S
 moveType = I
 physics = S
 anim = 195
-velSet  = 0,0
+velSet = 0,0
 sprPriority = 1
 ctrl = 0
 
@@ -3787,8 +3787,8 @@ trigger2 = (gameTime%10) = 0
 Trans = add
 PalContrast = 256,0,0
 PalBright = 50,0,0
-Time    =  -1
-length  = 17
+Time =  -1
+length = 17
 TimeGap = 1
 FrameGap = 1
 

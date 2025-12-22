@@ -336,7 +336,7 @@ type = selfstate
 trigger1 = vel y > 0 && pos y >= 0
 value = 5100
 
-;GROUND BOUNCE FROM RYUSOKYAKU>=========
+;GROUND BOUNCE FROM RYUSOKYAKU>=
 ;Being Slammed
 [StateDef 1111500]
 type = A

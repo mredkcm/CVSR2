@@ -1,12 +1,12 @@
 ; ________________________
 ;| Haohmaru by Chazzanova |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
 
-;========================<HIOUGI TENHA: FUJIN ZAN>=============================
+;====<HIOUGI TENHA: FUJIN ZAN>=
 [StateDef 3000]
 type = S
 physics = N
@@ -457,7 +457,7 @@ ctrl = 1
 
 
 
-;========================<MAX HIOUGI TENHA: FUJIN ZAN>=============================
+;====<MAX HIOUGI TENHA: FUJIN ZAN>=
 [StateDef 3050]
 type = S
 physics = N
@@ -885,7 +885,7 @@ value = 3001
 
 
 
-;========================<ISSEN>=============================
+;====<ISSEN>=
 [StateDef 3100]
 type = S
 physics = S
@@ -1142,7 +1142,7 @@ ctrl = 1
 
 
 
-;========================<ISSEN (SUCCESS 1)>=============================
+;====<ISSEN (SUCCESS 1)>=
 [StateDef 3110]
 type = A
 anim = 3110
@@ -1192,7 +1192,7 @@ trigger1 = pos y > -vel y
 value = 3111
 
 
-;========================<ISSEN (SUCCESS)>=============================
+;====<ISSEN (SUCCESS)>=
 [StateDef 3111]
 type = S
 anim = 3111
@@ -1334,11 +1334,11 @@ ctrl = 1
 
 
 
-;========================<ISSEN (TARGET 1)>=============================
+;====<ISSEN (TARGET 1)>=
 [StateDef 3115]
 type = S
 moveType = H
-physics  = S
+physics = S
 ctrl = 0
 velSet = 0,0
 
@@ -1392,11 +1392,11 @@ trigger4 = vel x >= 0 && pos x < 0 && facing = -1
 x = 0
 
 
-;========================<ISSEN (TARGET 2)>=============================
+;====<ISSEN (TARGET 2)>=
 [StateDef 3116]
 type = S
 moveType = H
-physics  = S
+physics = S
 velSet = 0,0
 ctrl=0
 
@@ -1435,11 +1435,11 @@ trigger3 = Anim = 5080 && AnimElemTime(AnimElemNo(0) + 1) = 0
 value = 3117
 
 
-;========================<ISSEN (TARGET 3)>=============================
+;====<ISSEN (TARGET 3)>=
 [StateDef 3117]
 type = L
 moveType = H
-physics  = N
+physics = N
 velSet = 0,0
 ctrl = 0
 
@@ -1483,7 +1483,7 @@ value = ifElse(Alive, 5120, 5150)
 
 
 
-;========================<HIOUGI TENHA: DENKU RETSU ZAN>=============================
+;====<HIOUGI TENHA: DENKU RETSU ZAN>=
 [StateDef 3200]
 type = S
 physics = N
@@ -1674,9 +1674,9 @@ value = 0
 ctrl = 1
 
 
-;========================<HIOUGI TENHA: DENKU RETSU ZAN (CONECTS)>=============================
+;====<HIOUGI TENHA: DENKU RETSU ZAN (CONECTS)>=
 [StateDef 3201]
-type    = S
+type = S
 movetype = A
 physics = N
 juggle = 0
@@ -1808,7 +1808,7 @@ trigger1 = pos y > -vel y
 value = 3202
 
 
-;========================<HIOUGI TENHA: DENKU RETSU ZAN (END)>=============================
+;====<HIOUGI TENHA: DENKU RETSU ZAN (END)>=
 [StateDef 3202]
 type = S
 anim = 3202
@@ -1908,7 +1908,7 @@ ctrl = 1
 
 
 
-;========================<MAX HIOUGI TENHA: DENKU RETSU ZAN>=============================
+;====<MAX HIOUGI TENHA: DENKU RETSU ZAN>=
 [StateDef 3250]
 type = S
 physics = N
@@ -2099,7 +2099,7 @@ value = 0
 ctrl = 1
 
 
-;========================<HIOUGI TENHA: DENKU RETSU ZAN (CONECTS)>=============================
+;====<HIOUGI TENHA: DENKU RETSU ZAN (CONECTS)>=
 [StateDef 3251]
 type = S
 anim = 3201
@@ -2233,7 +2233,7 @@ trigger1 = pos y > -vel y
 value = 3252
 
 
-;========================<HIOUGI TENHA: DENKU RETSU ZAN (END)>=============================
+;====<HIOUGI TENHA: DENKU RETSU ZAN (END)>=
 [StateDef 3252]
 type = S
 anim = 3202
@@ -2420,7 +2420,7 @@ ctrl = 1
 
 
 
-;========================<TENHA: SEIOU ZAN>=============================
+;====<TENHA: SEIOU ZAN>=
 [StateDef 3300]
 type = S
 physics = N
@@ -2669,7 +2669,7 @@ ctrl = 1
 
 
 
-;========================<ZOUBU EGURI>=============================
+;====<ZOUBU EGURI>=
 [StateDef 3400]
 type = S
 physics = S
@@ -3116,7 +3116,7 @@ value = 3117
 
 
 
-;========================<TOTSUZENSHI>=============================
+;====<TOTSUZENSHI>=
 [StateDef 3500]
 type = S
 physics = S
@@ -3246,7 +3246,7 @@ value = 3510
 ctrl = 0
 
 
-;========================<TOTSUZENSHI (AIR)>=============================
+;====<TOTSUZENSHI (AIR)>=
 [Statedef 3510]
 type = A
 physics = N
@@ -3280,7 +3280,7 @@ value = 3511
 ctrl = 0
 
 
-;========================<TOTSUZENSHI (HIT)>=============================
+;====<TOTSUZENSHI (HIT)>=
 [Statedef 3511]
 type = S
 physics = N
@@ -3427,7 +3427,7 @@ value = 0
 Ctrl = 1
 
 
-;========================<TOTSUZENSHI (TARGET)>=============================
+;====<TOTSUZENSHI (TARGET)>=
 [Statedef 3515]
 type = A
 physics = N
@@ -3493,7 +3493,7 @@ value = ifElse(Alive, 5120, 5150)
 
 
 
-;========================<MAX ISSEN>=============================
+;====<MAX ISSEN>=
 [StateDef 3600]
 type = S
 physics = S
@@ -3690,7 +3690,7 @@ value = 3105
 
 
 
-;========================<ISSEN (SUCCESS 1)>=============================
+;====<ISSEN (SUCCESS 1)>=
 [StateDef 3610]
 type = A
 anim = 3110
@@ -3740,7 +3740,7 @@ trigger1 = pos y > -vel y
 value = 3611
 
 
-;========================<ISSEN (SUCCESS)>=============================
+;====<ISSEN (SUCCESS)>=
 [StateDef 3611]
 type = S
 anim = 3111

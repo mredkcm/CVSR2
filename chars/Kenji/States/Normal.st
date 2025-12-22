@@ -1,14 +1,14 @@
 ; _________________________________________
 ;|Kenji by K6666orochi
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<NORMAL MOVES>========================================
-;==============================================================================================
+;==
+;====<NORMAL MOVES>====
+;==
 
 ;---------------------------------------------------------------------------
 ; Standing Light Punch
 [Statedef 200]
-type    = S
+type = S
 physics = S
 movetype= A
 anim = 200
@@ -117,7 +117,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Close Light Punch
 [Statedef 201]
-type    = S
+type = S
 physics = S
 movetype= A
 anim = 201
@@ -226,7 +226,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Light Punch
 [Statedef 202]
-type    = S
+type = S
 physics = S
 movetype= A
 anim = 202
@@ -318,7 +318,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Light Punch
 [Statedef 203]
-type    = S
+type = S
 physics = S
 movetype= A
 anim = 203
@@ -410,7 +410,7 @@ ctrl = 1
 ;------------------------------
 ;Stand atack recover
 [Statedef 300]
-type    = S
+type = S
 movetype= I
 physics = S
 poweradd= 0
@@ -427,7 +427,7 @@ ctrl = 1
 ;---------------------------------------
 ;crouch atack recover
 [Statedef 460]
-type    = C
+type = C
 movetype= I
 physics = C
 poweradd= 00
@@ -444,7 +444,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Punch
 [Statedef 210]
-type    = S
+type = S
 physics = S
 movetype= A
 anim = 210+1*(p2bodydist x <= (const(size.xscale) * 29))
@@ -543,7 +543,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Punch
 [Statedef 211]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 212
@@ -889,7 +889,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Light Kick
 [Statedef 230]
-type    = S
+type = S
 physics = S
 moveType = A
 anim = 230
@@ -1044,7 +1044,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Kick
 [Statedef 240]
-type    = S
+type = S
 physics = S
 moveType = A
 anim = 240
@@ -1074,17 +1074,17 @@ ownpal = 1
 type = null;HitDef
 trigger1 = Time = 0
 attr = S, NA
-animtype  = Medium
-damage    = 80
+animtype = Medium
+damage = 80
 guardflag = MA
 pausetime = 12,12
 sparkno = 1
 sparkxy = -10,-60
-hitsound   = S5,1
+hitsound = S5,1
 guardsound = S6,0
 ground.type = Low
 ground.slidetime = 5
-ground.hittime  = 5
+ground.hittime = 5
 ground.velocity = -1,-10
 air.velocity = -1,-10
 fall = 1
@@ -1152,7 +1152,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Kick
 [Statedef 241]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 241
@@ -1188,7 +1188,7 @@ ownpal = 1
 type = HitDef
 trigger1 = Time = 0
 attr = S, NA
-animtype  = Medium
+animtype = Medium
 damage = ceil(ifelse(fvar(11)*70<7, 7, fvar(11)*70)), 0
 getpower = ifelse(!var(13),144,72)*!var(20), 36*!var(20)
 givepower = 36, 36
@@ -1204,7 +1204,7 @@ palfx.add = 255,255,255
 palfx.sinadd= -255,-255,-255,48
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -3,-8
 air.velocity = -3,-8
 yaccel = .55
@@ -2106,7 +2106,7 @@ palfx.add = 255,255,255
 palfx.sinadd= -255,-255,-255,48
 
 [State 430, ChangeAnimElem]
-type  = ChangeAnim
+type = ChangeAnim
 trigger1 = MoveContact = 1 && HitPauseTime
 trigger1 = AnimElemTime(3) >= 0 && AnimElemTime(4) <= 0
 trigger1 = HitPauseTime <= ifElse(var(20), 2, 6)
@@ -2232,17 +2232,17 @@ channel=1
 type =null; HitDef
 trigger1 = Time = 0
 attr = S, NA
-animtype  = Medium
-damage    = 70
+animtype = Medium
+damage = 70
 guardflag = MA
 pausetime = 12,12
 sparkno = 1
 sparkxy = -10,-60
-hitsound   = S5,1
+hitsound = S5,1
 guardsound = S6,0
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -1,-10
 air.velocity = -1,-10
 fall = 1
@@ -2257,7 +2257,7 @@ trigger1= !var(16) && (var(15)<1 || var(20))
 trigger1= animelem=4
 forcenofall = !var(20)
 attr = S, NA
-animtype  = Medium
+animtype = Medium
 hitflag = MAF
 guardflag = MA
 priority = 4, Hit
@@ -2466,7 +2466,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Tripped get-hit (shaking)
 [Statedef 455]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2491,7 +2491,7 @@ ampl = 140
 
 ; Tripped get-hit (knocked away)
 [Statedef 456]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -2693,7 +2693,7 @@ value=52
 ; Jump Medium Punch
 [Statedef 610]
 type = A
-physics  = N
+physics = N
 moveType = A
 anim = 610
 ctrl = 0
@@ -4011,10 +4011,10 @@ value = 52
 
 ;------------------------------------------------------------------------------;
 [Statedef 800]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = ifelse(var(40)!=2 && command = "pp",800,ifelse(var(40)=2 && command = "kk",800,801))
@@ -4081,7 +4081,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ;
 [Statedef 801]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -4233,7 +4233,7 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ;
 [Statedef 802]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -4303,7 +4303,7 @@ trigger1 = Pos Y >= 0
 value = 5100
 ;-------------------------------------------------------------------------------
 [Statedef 804]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -4455,7 +4455,7 @@ ctrl = 0
 
 ;-------------------------------------------------------------------------------
 [Statedef 805]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -4471,7 +4471,7 @@ type = NotHitBy
 trigger1 = 1
 value = SCA
 
-;===========< Target Escaped >==========
+;===< Target Escaped >==
 [Statedef 890]
 type = S
 physics = N

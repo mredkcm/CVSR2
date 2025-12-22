@@ -373,7 +373,7 @@ value = 1101
 ;---------------------------------------------------------------------------
 ; Sun Arch Landing
 [Statedef 1101]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 1101
@@ -1976,7 +1976,7 @@ value = 1401
 ;---------------------------------------------------------------------------
 ; Sundive Landing
 [Statedef 1401]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 1401

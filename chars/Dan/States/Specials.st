@@ -1,11 +1,11 @@
 ; ________________________________________________
 ;| Dan by Phantom.of.the.Server and Mr.Ansatsuken |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;=====================================< SPECIAL STATES >=======================================
-;============================================================================================
+;====
+;=< SPECIAL STATES >===
+;====
 	
-;======================< GADOU KEN >=============================
+;==< GADOU KEN >=
 ; Gadouken
 [Statedef 1000]
 type = S
@@ -62,7 +62,7 @@ value = 0
 ctrl = 1
 
 
-;======================< SHAKUNETSU GADOU KEN >=============================
+;==< SHAKUNETSU GADOU KEN >=
 ; Shakunetsu Gadouken
 [Statedef 1020]
 type = S
@@ -119,7 +119,7 @@ value = 0
 ctrl = 1
 
 
-;======================< KOURYUU KEN >=============================
+;==< KOURYUU KEN >=
 ; Koryuuken
 [Statedef 1100]
 type = S
@@ -287,7 +287,7 @@ trigger1 = anim != 1100
 movetype = I
 
 
-;======================< DANRETSU KEN >=============================
+;==< DANRETSU KEN >=
 ; Danretsuken
 [Statedef 1130]
 type = S
@@ -315,7 +315,7 @@ value = 1129 + var(10)
 
 
 
-;======================< COUNTER >=============================
+;==< COUNTER >=
 ; Zero-Counter Taunt
 [Statedef 1160]
 type = S
@@ -389,7 +389,7 @@ value = 0
 ctrl = 1
 
 
-;======================< DANKUU KYAKU >=============================
+;==< DANKUU KYAKU >=
 ; Dankuu Kyaku
 [Statedef 1200]
 type = S
@@ -607,7 +607,7 @@ trigger3 = anim = 1202 && animelemtime(12) >= 0
 movetype = I
 
 
-;======================< KUUCHUU DANKUU KYAKU >=============================
+;==< KUUCHUU DANKUU KYAKU >=
 ; Kuuchuu Dankuu Kyaku
 [Statedef 1250]
 type = A
@@ -818,7 +818,7 @@ trigger4 = anim = 41
 movetype = I
 
 
-;======================< PREMIUM SIGN >=============================
+;==< PREMIUM SIGN >=
 ; Premium Sign
 [Statedef 1300]
 type = S
@@ -950,7 +950,7 @@ value = 0
 ctrl = 1
 
 
-;======================< GADOU SHOUKOU KEN >=============================
+;==< GADOU SHOUKOU KEN >=
 ; Gadou Shoukouken
 [Statedef 1400]
 type = S
@@ -1023,7 +1023,7 @@ value = 0
 ctrl = 1
 
 
-;======================< SAIKYOU -RYUU BOUGYO >=============================
+;==< SAIKYOU -RYUU BOUGYO >=
 ;--- STANDING ---
 [Statedef 1500]
 type = S
@@ -1154,7 +1154,7 @@ size.height = 240
 ownpal = 1
 
 
-;======================< KYUUKYOKU TENCHI GADOU ZUKI >=============================
+;==< KYUUKYOKU TENCHI GADOU ZUKI >=
 ; Kyuuk. Ten. Gadou Zuki
 [Statedef 1600]
 type = S
@@ -1450,7 +1450,7 @@ value = 0
 ctrl = 1
 
 
-;======================< ROLLING ATTACK >=============================
+;==< ROLLING ATTACK >=
 ; Rolling Attack
 [Statedef 1700]
 type = S
@@ -1596,7 +1596,7 @@ trigger1 = anim = 1700 && vel y > 0 && (pos y >= -90 * const(size.yscale))
 value = 52
 
 
-;======================< SAIKYO TENJINSAI >=============================
+;==< SAIKYO TENJINSAI >=
 ; Sakikyo Tenjinsai
 [Statedef 1800]
 type = S
@@ -1623,7 +1623,7 @@ trigger1 = !time
 value = 1799 + var(10)
 
 
-;======================< DANSHURA SENKUU >=============================
+;==< DANSHURA SENKUU >=
 ; Danshura Senkuu
 [Statedef 1900]
 type = S

@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Gen by mwryly & varo_hades              |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<Zanei>=============================
+;====<Zanei>=
 [StateDef 3000]
 type = S
 physics = S
@@ -266,7 +266,7 @@ type = SelfState
 trigger1 = time >= 90
 value = 5001
 
-;========================<Zanei Max>=============================
+;====<Zanei Max>=
 [StateDef 3050]
 type = S
 physics = S
@@ -315,7 +315,7 @@ type = AfterImage
 trigger1 = time = 0
 time = 999999999
 length = 9
-TimeGap  = 2
+TimeGap = 2
 FrameGap = 3
 palbright = 0,0,0
 palcontrast = 0,0,150
@@ -533,7 +533,7 @@ type = SelfState
 trigger1 = time >= 90
 value = 5001
 
-;========================<Zetsuei>=============================
+;====<Zetsuei>=
 [StateDef 3100]
 type = S
 physics = S
@@ -633,7 +633,7 @@ ctrl = 1
 type = S
 movetype = A
 physics = N
-juggle   = 1
+juggle = 1
 ctrl = 0
 velset = 0,0
 anim = 3010
@@ -2276,7 +2276,7 @@ ctrl = 1
 ;ignorehitpause = 0
 ;persistent = 1
 
-;========================<Shitenshuu>=============================
+;====<Shitenshuu>=
 [StateDef 3200]
 type = S
 physics = S
@@ -2320,7 +2320,7 @@ type = AfterImage
 trigger1 = time = 0
 time = 999999999
 length = 9
-TimeGap  = 2
+TimeGap = 2
 FrameGap = 3
 palbright = 0,0,0
 palcontrast = 255,255,255
@@ -2385,8 +2385,8 @@ type = HitDef
 trigger1 = Anim = 3200
 trigger1 = Animelem = 11||Animelem = 13
 attr = S, HA
-animtype  = H
-damage    = 20,10
+animtype = H
+damage = 20,10
 guardflag = M
 pausetime = 2,3
 sparkNo = -1 + 0 * (var(33) := 8014)
@@ -2396,7 +2396,7 @@ hitSound = -1 + 0 * (var(31) := 2)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = H
 ground.slidetime = 10
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = 0,0
 air.velocity = 0,0
 envshake.time = 10
@@ -2415,8 +2415,8 @@ type = HitDef
 trigger1 = Anim = 3200
 trigger1 = Animelem = 15
 attr = S, HA
-animtype  = H
-damage    = ifelse(var(1)=1,100,ifelse(var(1)=2,170,90)),10
+animtype = H
+damage = ifelse(var(1)=1,100,ifelse(var(1)=2,170,90)),10
 guardflag = M
 pausetime = 0,0
 sparkNo = -1 + 0 * (var(33) := 8014)
@@ -2426,7 +2426,7 @@ hitSound = -1 + 0 * (var(31) := 2)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = H
 ground.slidetime = 10
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = -15
 air.velocity = -5,-4
 envshake.time = 20
@@ -2463,7 +2463,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<Shitenshuu Max>=============================
+;====<Shitenshuu Max>=
 [StateDef 3250]
 type = S
 physics = S
@@ -2507,7 +2507,7 @@ type = AfterImage
 trigger1 = time = 0
 time = 999999999
 length = 9
-TimeGap  = 2
+TimeGap = 2
 FrameGap = 3
 palbright = 0,0,0
 palcontrast = 0,0,150
@@ -2576,8 +2576,8 @@ trigger1 = Animelem = 11||Animelem = 13
 trigger2 = Anim = 3201
 trigger2 = Animelem = 11||Animelem = 13||Animelem = 15||Animelem = 17
 attr = S, HA
-animtype  = H
-damage    = 20,10
+animtype = H
+damage = 20,10
 guardflag = M
 pausetime = 2,3
 sparkNo = -1 + 0 * (var(33) := 8014)
@@ -2587,7 +2587,7 @@ hitSound = -1 + 0 * (var(31) := 2)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = H
 ground.slidetime = 10
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = 0,0
 air.velocity = 0,0
 envshake.time = 10
@@ -2608,8 +2608,8 @@ trigger1 = Animelem = 15
 trigger2 = Anim = 3201
 trigger2 = Animelem = 20
 attr = S, HA
-animtype  = H
-damage    = ifelse(var(1)=1,100,ifelse(var(1)=2,170,90)),10
+animtype = H
+damage = ifelse(var(1)=1,100,ifelse(var(1)=2,170,90)),10
 guardflag = M
 pausetime = 0,0
 sparkNo = -1 + 0 * (var(33) := 8014)
@@ -2619,7 +2619,7 @@ hitSound = -1 + 0 * (var(31) := 2)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = H
 ground.slidetime = 10
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = -15
 air.velocity = -5,-4
 envshake.time = 20
@@ -2721,17 +2721,17 @@ value = SCA
 type = HitDef
 trigger1 = Anim != 3219
 attr = S, HT
-animtype  = H
-damage    = 15
+animtype = H
+damage = 15
 pausetime = 0,0
 hitflag = MA-
 sparkno = -1
 guard.sparkno = -1
-hitsound   = S3200,0
+hitsound = S3200,0
 guardsound = -1
 ground.type = L
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 getpower = 0
 givepower = 0
 down.bounce = 0
@@ -2739,7 +2739,7 @@ guard.dist = 0
 p1stateno = 3210
 id = 3200
 palfx.time = 10
-palfx.add  = 80,-70,-200
+palfx.add = 80,-70,-200
 palfx.sinadd = 0,30,0,10
 palfx.color = 0
 
@@ -2747,17 +2747,17 @@ palfx.color = 0
 type = HitDef
 trigger1 = Anim = 3219
 attr = S, HT
-animtype  = H
-damage    = 15
+animtype = H
+damage = 15
 pausetime = 0,0
 hitflag = MA-
 sparkno = -1
 guard.sparkno = -1
-hitsound   = S3200,1
+hitsound = S3200,1
 guardsound = -1
 ground.type = L
 ground.slidetime = 0
-ground.hittime  = 0
+ground.hittime = 0
 getpower = 0
 givepower = 0
 down.bounce = 0
@@ -2765,7 +2765,7 @@ guard.dist = 0
 p2stateno = 3215
 id = 3200
 palfx.time = 10
-palfx.add  = 80,-70,-200
+palfx.add = 80,-70,-200
 palfx.sinadd = 0,30,0,10
 palfx.color = 0
 
@@ -2781,9 +2781,9 @@ ignorehitpause=1
 ;------------
 ;Dizzy anim
 [Statedef 3215]
-type     = S
+type = S
 movetype = H
-velset   = 0,0
+velset = 0,0
 sprpriority = 2
 
 [State 2021, Dizzy]
@@ -2802,7 +2802,7 @@ trigger1 = time > 140
 value = 0
 ctrl = 1
 
-;========================<Shitenketsu>=============================
+;====<Shitenketsu>=
 [StateDef 3300]
 type = S
 physics = N
@@ -3986,7 +3986,7 @@ type = selfstate
 trigger1 = Pos Y >= 0
 value = 5100
 
-;========================<Yasen>=============================
+;====<Yasen>=
 [StateDef 3400]
 type = S
 physics = S
@@ -4284,7 +4284,7 @@ trigger1 = animtime = 0
 value = 0
 ctrl = 1
 
-;========================<Yasen Max>=============================
+;====<Yasen Max>=
 [StateDef 3450]
 type = S
 physics = S
@@ -4880,7 +4880,7 @@ trigger1 = animtime = 0
 value = 0
 ctrl = 1
 
-;========================<JYAKOHA>=============================
+;====<JYAKOHA>=
 [StateDef 13000]
 type = S
 physics = N
@@ -5346,7 +5346,7 @@ type = SelfState
 trigger1 = Time >= 72 && Alive
 value = 5120
 
-;========================<JYAKOHA Max>=============================
+;====<JYAKOHA Max>=
 [StateDef 13050]
 type = S
 physics = N
@@ -5408,7 +5408,7 @@ type = AfterImage
 trigger1 = time = 0
 time = 999999999
 length = 9
-TimeGap  = 2
+TimeGap = 2
 FrameGap = 3
 palbright = 0,0,0
 palcontrast = 0,0,150
@@ -5635,9 +5635,9 @@ value = 13055
 ;-------------------
 ;???
 [Statedef 13055]
-type     = A
+type = A
 movetype = A
-physics  = N
+physics = N
 anim = 13055
 VelSet = 0,0
 
@@ -5745,7 +5745,7 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 13045
 
-;========================<Ryukoha>=============================
+;====<Ryukoha>=
 [StateDef 13100]
 type = S
 physics = N
@@ -6650,14 +6650,14 @@ type = selfstate
 trigger1 = Pos Y >= -60 && vel Y > 0
 value = 5100
 
-;========================<Kouga>=============================
+;====<Kouga>=
 [StateDef 13200]
 type = S
 physics = N
 moveType = A
 anim = 13200
 ctrl = 0
-juggle   = 1
+juggle = 1
 velSet = 0,0
 sprPriority = 1
 powerAdd = -1000
@@ -7399,14 +7399,14 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<Kouga Max>=============================
+;====<Kouga Max>=
 [StateDef 13250]
 type = S
 physics = N
 moveType = A
 anim = 13200
 ctrl = 0
-juggle   = 1
+juggle = 1
 velSet = 0,0
 sprPriority = 1
 powerAdd = -2000
@@ -7470,7 +7470,7 @@ type = AfterImage
 trigger1 = time = 0
 time = 999999999
 length = 9
-TimeGap  = 2
+TimeGap = 2
 FrameGap = 3
 palbright = 0,0,0
 palcontrast = 0,0,150
@@ -8406,14 +8406,14 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<Teiga>=============================
+;====<Teiga>=
 [StateDef 13300]
 type = S
 physics = N
 moveType = A
 anim = 13300
 ctrl = 0
-juggle   = 1
+juggle = 1
 velSet = 0,0
 sprPriority = 1
 powerAdd = -3000

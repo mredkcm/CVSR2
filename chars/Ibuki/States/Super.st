@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Ibuki by varo_hades                     |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<YOROI DOOSHI>=============================
+;====<YOROI DOOSHI>=
 [StateDef 3000]
 type = S
 physics = N
@@ -739,7 +739,7 @@ trigger1 = Pos Y >= 0
 trigger1 = Vel Y > 0
 value = 5100
 
-;========================<MAX YOROI DOOSHI>=============================
+;====<MAX YOROI DOOSHI>=
 [StateDef 3050]
 type = S
 physics = N
@@ -1467,7 +1467,7 @@ trigger1 = Pos Y >= 0
 trigger1 = Vel Y > 0
 value = 5100
 
-;========================<KASUMI SUZAKU>=============================
+;====<KASUMI SUZAKU>=
 [StateDef 3100]
 type = A
 physics = N
@@ -1985,7 +1985,7 @@ trigger1 = animtime = 0
 value = 0
 ctrl = 1
 
-;========================<MAX KASUMI SUZAKU>=============================
+;====<MAX KASUMI SUZAKU>=
 [StateDef 3150]
 type = A
 physics = N
@@ -2566,7 +2566,7 @@ trigger1 = Vel Y > 0
 value = 3130
 ctrl = 0
 
-;========================<HASHINSHO>=============================
+;====<HASHINSHO>=
 [StateDef 3200]
 type = S
 physics = N
@@ -3392,7 +3392,7 @@ ctrl = 0
 
 ;Player 2
 [Statedef 3255]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -4306,7 +4306,7 @@ ctrl = 0
 
 ;Player 2
 [Statedef 3275]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -4335,7 +4335,7 @@ ctrl = 0
 
 ;Player 2 part 4
 [Statedef 3276]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -4858,7 +4858,7 @@ trigger1 = Pos Y >= -60
 trigger1 = Vel Y > 0
 value = 5100
 
-;========================<YAMI SHINGURE>=============================
+;====<YAMI SHINGURE>=
 [StateDef 3300]
 type = S
 physics = N
@@ -5603,7 +5603,7 @@ trigger1 = Pos Y >= -60
 trigger1 = Vel Y > 0
 value = 5100
 
-;========================<MAX YAMI SHINGURE>=============================
+;====<MAX YAMI SHINGURE>=
 [StateDef 3350]
 type = S
 physics = N

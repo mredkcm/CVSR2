@@ -47,7 +47,7 @@ runjump.back = -5, -10
 runjump.fwd = 5, -10 
 
 [Movement]
-airjump.num = 1
+airjump.num = 99999
 airjump.height = 0
 yaccel = 0.5
 stand.friction = 0.85

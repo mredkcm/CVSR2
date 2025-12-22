@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Charlie by varo_hades                   |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<HELPER STATES>========================================
-;==============================================================================================
+;==
+;===<HELPER STATES>====
+;==
 
-;====================<PARRY HELPER>=========================
+;====<PARRY HELPER>=
 [StateDef 765]
 type = A
 physics = N
@@ -114,7 +114,7 @@ type = DestroySelf
 trigger1 = Root, StateNo = [760,762]
 trigger2 = Time >= 2
 
-;=====================<SONIC BOOM PROJECTILE>=========================
+;=<SONIC BOOM PROJECTILE>=
 [StateDef 1005]
 type = S
 physics = N
@@ -371,7 +371,7 @@ trigger1 = !NumTarget
 trigger2 = NumTarget
 trigger2 = Target, Time <= 1 && !(Target,HitShakeOver)
 
-;========================<SONIC BOOM FX>=============================
+;====<SONIC BOOM FX>=
 [Statedef 1010]
 type = A
 velset = 0,0
@@ -466,7 +466,7 @@ trigger2 = root,anim = 3300 && root,animelemtime(25) >= 0 && root,animelemtime(2
 value = 1010
 elem = 9
 
-;=====================<EX SONIC BOOM PROJECTILE>=========================
+;=<EX SONIC BOOM PROJECTILE>=
 [StateDef 1035]
 type = S
 physics = N
@@ -709,7 +709,7 @@ ignoreHitPause = 1
 type = DestroySelf
 trigger1 = pos x != [-300,300]
 
-;========================<SOMMERSAULT FX>=============================
+;====<SOMMERSAULT FX>=
 [Statedef 1105]
 type = A
 velset = 0,0
@@ -951,7 +951,7 @@ trigger1 = (root,animelemtime(17) >= 0 && root,animelemtime(18) < 0)
 value = 1105
 elem = 6
 
-;========================<EX SOMMERSAULT SHELL>=============================
+;====<EX SOMMERSAULT SHELL>=
 [Statedef 1125]
 type = A
 physics = N
@@ -1239,7 +1239,7 @@ y = .75
 type = destroyself
 trigger1 = time >= 10
 
-;========================<MOONSAULT FX>=============================
+;====<MOONSAULT FX>=
 [Statedef 1205]
 type = A
 velset = 0,0
@@ -1346,7 +1346,7 @@ trigger2 = root,animelemtime(17) >= 0 && root,animelemtime(18) < 0
 value = 1205
 elem = 3
 
-;========================<SONIC BREAK>=============================
+;====<SONIC BREAK>=
 [Statedef 3005]
 type = S
 physics = N
@@ -1569,7 +1569,7 @@ type = destroyself
 trigger1 = time >= 30
 trigger2 = animelemtime(9) >= 0 && !numtarget
 
-;========================<SONIC BLADE>=============================
+;====<SONIC BLADE>=
 [Statedef 3205]
 type = S
 physics = N
@@ -1802,7 +1802,7 @@ trigger1 = !animtime
 trigger2 = anim = 3205 && animelemtime(7) < 0
 trigger2 = root,movetype = H
 
-;========================<Moonsault Strike Effect>=============================
+;====<Moonsault Strike Effect>=
 [Statedef 3605]
 type = A
 physics = N
@@ -2048,7 +2048,7 @@ volume = -128
 type = destroyself
 trigger1 = !animtime
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -2783,7 +2783,7 @@ ignoreHitPause = 1
 type = DestroySelf
 trigger1 = Time >= 8
 
-;======================<JUMP DUST>===========================
+;==<JUMP DUST>===
 [StateDef 8100]
 type = S
 anim = 1
@@ -2820,7 +2820,7 @@ ownpal = 1
 type = DestroySelf
 trigger1 = Time >= 7
 
-;======================<DASH DUST>===========================
+;==<DASH DUST>===
 [StateDef 8103]
 type = A
 anim = 1
@@ -2880,7 +2880,7 @@ trigger1 = Time >= 22
 type = DestroySelf
 trigger1 = !NumExplod
 
-;======================<IMPACT DUST>===========================
+;==<IMPACT DUST>===
 [StateDef 8110]
 type = A
 anim = 1
@@ -2924,7 +2924,7 @@ trigger1 = Time >= 8
 type = DestroySelf
 trigger1 = !NumExplod
 
-;======================<WALL IMPACT DUST>===========================
+;==<WALL IMPACT DUST>===
 [StateDef 8111]
 type = A
 anim = 1
@@ -2968,7 +2968,7 @@ trigger1 = Time >= 8
 type = DestroySelf
 trigger1 = !NumExplod
 
-;========================<RECOVER FX>=============================
+;====<RECOVER FX>=
 [StateDef 8200]
 type = A
 velSet = 0,0
@@ -2998,7 +2998,7 @@ ignoreHitPause = 1
 type = DestroySelf
 trigger1 = Time >= 15
 
-;========================<COUNTER FX>=============================
+;====<COUNTER FX>=
 [StateDef 8290]
 type = A
 physics = N
@@ -3042,7 +3042,7 @@ trigger1 = Time >= 16
 type = DestroySelf
 trigger1 = Time >= 16
 
-;==================<POWER CHARGE FX>==================
+;==<POWER CHARGE FX>==
 ;Aura and Dust
 [StateDef 8330]
 type = A
@@ -3148,7 +3148,7 @@ trigger1 = Root, StateNo != 730
 type = DestroySelf
 trigger1 = Root, StateNo != 730
 
-;==================<VIOLENT WIN VS VEGA PARTICLES>==================
+;==<VIOLENT WIN VS VEGA PARTICLES>==
 [StateDef 8332]
 type = A
 physics = N
@@ -3183,7 +3183,7 @@ trigger1 = Root, StateNo != 187 || Root, AnimElemTime(60) >= 0
 type = DestroySelf
 trigger1 = Root, StateNo != 187 || Root, AnimElemTime(60) >= 0
 
-;==================<ZERO COUNTER FX>==================
+;==<ZERO COUNTER FX>==
 [StateDef 8350]
 type = A
 physics = N
@@ -3233,7 +3233,7 @@ ownPal = 1
 type = DestroySelf
 trigger1 = Time >= 16
 
-;========================<CUSTOM COMBO>=============================
+;====<CUSTOM COMBO>=
 [StateDef 8400]
 type = A
 physics = N
@@ -3337,7 +3337,7 @@ trigger1 = Time >= 26
 type = DestroySelf
 trigger1 = Time >= 26
 
-;========================<SUPER PAUSE FX>=============================
+;====<SUPER PAUSE FX>=
 ;Level 1 Super FX
 [StateDef 8500]
 type = A
@@ -3767,7 +3767,7 @@ trigger1 = Time >= 40
 type = DestroySelf
 trigger1 = Time >= 40
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [StateDef 8600]
 type = A
 velSet = 0,0
@@ -3936,7 +3936,7 @@ trigger2 = RoundState < 3
 type = DestroySelf
 trigger1 = RoundState < 3
 
-;========================<CAMERA FOCUS>=============================
+;====<CAMERA FOCUS>=
 [Statedef 6002]
 type= S
 physics = S
@@ -3980,7 +3980,7 @@ value = 0
 type = destroyself
 trigger1 = root, stateno = 1332
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0

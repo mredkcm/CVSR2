@@ -1,9 +1,9 @@
 ; _________________________________________
 ;| Kasumi Todoh by Falcon Rapper              |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>========================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>====
+;==
 
 ;---------------------------------------------------------------------------
 ;Kasane Ate
@@ -364,7 +364,7 @@ value = 52
 ;---------------------------------------------------------------------------
 ;Senkou Nagashi
 [Statedef 1100]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd=72*!var(20)
@@ -429,7 +429,7 @@ channel = 0
 type = HitDef
 trigger1 = AnimElem = 5
 attr = S, SA
-animtype  = Hard
+animtype = Hard
 damage = IfElse(var(10) = 0,20,IfElse(var(10) = 1,22,24)),5
 getpower=72* !var(20), 0
 givepower=35, 35
@@ -438,7 +438,7 @@ hitflag = MAF
 pausetime = 8,11
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 22
+ground.hittime = 22
 ground.cornerpush.veloff = 0
 ground.velocity = -1
 guard.velocity = -3
@@ -458,7 +458,7 @@ envshake.ampl = Ifelse(random<=500,-3,3)
 type = HitDef
 trigger1 = AnimElem = 11
 attr = S, SA
-animtype  = Hard
+animtype = Hard
 damage = IfElse(var(10) = 0,20,IfElse(var(10) = 1,22,24)),5
 getpower=72* !var(20), 0
 givepower=35, 35
@@ -467,7 +467,7 @@ hitflag = MAF
 pausetime = 8,12
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 22
+ground.hittime = 22
 ground.cornerpush.veloff = 0
 ground.velocity = -6
 air.velocity = -2.2,-3.2
@@ -515,7 +515,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Senkou Nagashi 2
 [Statedef 1110]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd=12*!var(20)
@@ -545,14 +545,14 @@ channel = 1
 type = HitDef
 trigger1 = AnimElem = 5
 attr = S, SA
-animtype  = Hard
+animtype = Hard
 damage = IfElse(var(10) = 0,20,IfElse(var(10) = 1,22,24)),5
 guardflag = MA
 hitflag = MAF
 pausetime = 1,4
 ground.type = low
 ground.slidetime = 0
-ground.hittime  = 22
+ground.hittime = 22
 ground.cornerpush.veloff = 0
 ground.velocity = 0
 air.velocity = -2.2,-3.2
@@ -588,7 +588,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Senkou Nagashi 3
 [Statedef 1120]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd=12*!var(20)
@@ -617,14 +617,14 @@ channel = 1
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, SA
-animtype  = Hard
+animtype = Hard
 damage = IfElse(var(10) = 0,20,IfElse(var(10) = 1,22,24)),5
 guardflag = MA
 hitflag = MAF
 pausetime = 2,4
 ground.type = High
 ground.slidetime = 22
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -6,-5
 air.velocity = -2.2,-3.2
 fall = 1
@@ -649,7 +649,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Senkou Nagashi EX
 [Statedef 1150]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd= -500
@@ -749,14 +749,14 @@ channel = 0
 type = HitDef
 trigger1 = AnimElem = 5
 attr = S, SA
-animtype  = Hard
+animtype = Hard
 damage = 30,5
 guardflag = MA
 hitflag = MAF
 pausetime = 8,11
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 22
+ground.hittime = 22
 ground.cornerpush.veloff = 0
 ground.velocity = -1
 guard.velocity = -3
@@ -776,14 +776,14 @@ envshake.ampl = Ifelse(random<=500,-3,3)
 type = HitDef
 trigger1 = AnimElem = 11
 attr = S, SA
-animtype  = Hard
+animtype = Hard
 damage = 30,5
 guardflag = MA
 hitflag = MAF
 pausetime = 8,12
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 22
+ground.hittime = 22
 ground.cornerpush.veloff = 0
 ground.velocity = -6
 air.velocity = -2.2,-3.2
@@ -831,7 +831,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Senkou Nagashi EX 2
 [Statedef 1160]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd=0
@@ -870,14 +870,14 @@ channel = 1
 type = HitDef
 trigger1 = AnimElem = 5
 attr = S, SA
-animtype  = Hard
+animtype = Hard
 damage = 30,5
 guardflag = MA
 hitflag = MAF
 pausetime = 1,4
 ground.type = low
 ground.slidetime = 0
-ground.hittime  = 22
+ground.hittime = 22
 ground.cornerpush.veloff = 0
 ground.velocity = 0
 air.velocity = -2.2,-3.2
@@ -913,7 +913,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Senkou Nagashi EX 3
 [Statedef 1170]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd=0
@@ -951,14 +951,14 @@ channel = 1
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, SA
-animtype  = Hard
+animtype = Hard
 damage = 30,5
 guardflag = MA
 hitflag = MAF
 pausetime = 2,4
 ground.type = High
 ground.slidetime = 22
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -6,-5
 air.velocity = -2.2,-3.2
 fall = 1
@@ -984,7 +984,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Tatsumaki Souda
 [Statedef 1200]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd=72*!var(20)
@@ -1045,7 +1045,7 @@ value = s1200,2
 type = HitDef
 trigger1 = AnimElem = 2
 attr = S, SA
-animtype  = Hard
+animtype = Hard
 damage = IfElse(var(10) = 0,20,IfElse(var(10) = 1,22,24)),5
 getpower=72* !var(20), 0
 givepower=35, 35
@@ -1053,7 +1053,7 @@ hitflag = M
 pausetime = 7,9
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 22
+ground.hittime = 22
 ground.cornerpush.veloff = 0
 ground.velocity = 0
 air.velocity = -2.2,-3.2
@@ -1072,14 +1072,14 @@ envshake.ampl = Ifelse(random<=500,-3,3)
 type = HitDef
 trigger1 = AnimElem = 8
 attr = S, SA
-animtype  = Hard
+animtype = Hard
 damage = IfElse(var(10) = 0,20,IfElse(var(10) = 1,22,24)),5
 guardflag = MA
 hitflag = MAF
 pausetime = 7,9
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 22
+ground.hittime = 22
 ground.cornerpush.veloff = 0
 ground.velocity = 0
 air.velocity = -2.2,-3.2
@@ -1098,14 +1098,14 @@ envshake.ampl = Ifelse(random<=500,-3,3)
 type = HitDef
 trigger1 = AnimElem = 14
 attr = S, SA
-animtype  = Hard
+animtype = Hard
 damage = IfElse(var(10) = 0,20,IfElse(var(10) = 1,22,24)),5
 guardflag = MA
 hitflag = MAF
 pausetime = 10,13
 ground.type = High
 ground.slidetime = 22
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -1,-8.5
 air.velocity = -1,-8
 fall = 1
@@ -1125,14 +1125,14 @@ envshake.ampl = Ifelse(random<=500,-3,3)
 type = HitDef
 trigger1 = AnimElem = 16
 attr = S, SA
-animtype  = Hard
+animtype = Hard
 damage = IfElse(var(10) = 0,20,IfElse(var(10) = 1,22,24)),5
 guardflag = MA
 hitflag = MAF
 pausetime = 10,10
 ground.type = High
 ground.slidetime = 22
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -2,-8.5
 air.velocity = -2,-8
 fall = 1
@@ -1177,7 +1177,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Tatsumaki Souda
 [Statedef 1250]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd=72*!var(20)
@@ -1273,13 +1273,13 @@ value = s1200,2
 type = HitDef
 trigger1 = AnimElem = 2
 attr = S, SA
-animtype  = Hard
-damage    = 20,5
+animtype = Hard
+damage = 20,5
 hitflag = M
 pausetime = 7,9
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 22
+ground.hittime = 22
 ground.cornerpush.veloff = 0
 ground.velocity = 0
 air.velocity = -2.2,-3.2
@@ -1298,14 +1298,14 @@ envshake.ampl = Ifelse(random<=500,-3,3)
 type = HitDef
 trigger1 = AnimElem = 8
 attr = S, SA
-animtype  = Hard
-damage    = 20,5
+animtype = Hard
+damage = 20,5
 guardflag = MA
 hitflag = MAF
 pausetime = 7,9
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 22
+ground.hittime = 22
 ground.cornerpush.veloff = 0
 ground.velocity = 0
 air.velocity = -2.2,-3.2
@@ -1324,14 +1324,14 @@ envshake.ampl = Ifelse(random<=500,-3,3)
 type = HitDef
 trigger1 = AnimElem = 15
 attr = C, SA
-animtype  = Hard
-damage    = 40,5
+animtype = Hard
+damage = 40,5
 guardflag = MA
 hitflag = MAF
 pausetime = 7,9
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 22
+ground.hittime = 22
 ground.cornerpush.veloff = 0
 ground.velocity = 0
 air.velocity = -2.2,-3.2
@@ -1350,14 +1350,14 @@ envshake.ampl = Ifelse(random<=500,-3,3)
 type = HitDef
 trigger1 = AnimElem = 20||AnimElem = 22
 attr = S, SA
-animtype  = Hard
-damage    = 20,5
+animtype = Hard
+damage = 20,5
 guardflag = MA
 hitflag = MAF
 pausetime = 10,13
 ground.type = High
 ground.slidetime = 22
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -2,-8
 air.velocity = -2,-8
 fall = 1
@@ -1402,7 +1402,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Atemi Nage (Morote Gaeshi, Sasshou Inshuu & Messhin Mutou)
 [Statedef 1300]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd=72*!var(20)
@@ -1504,7 +1504,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Messhin Mutou (P1)
 [Statedef 1310]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1310
@@ -1590,7 +1590,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Sasshou Inshuu (P1)
 [Statedef 1311]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1311
@@ -1695,7 +1695,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Morote Gaeshi (P1)
 [Statedef 1312]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1312
@@ -1785,7 +1785,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Messhin Mutou (P2) 1
 [Statedef 1320]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1798,7 +1798,7 @@ value = 1320
 ;---------------------------------------------------------------------------
 ;Sasshou Inshuu (P2) 1
 [Statedef 1321]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1811,7 +1811,7 @@ value = 1321
 ;---------------------------------------------------------------------------
 ;Morote Gaeshi (P2) 1
 [Statedef 1322]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1824,7 +1824,7 @@ value = 1322
 ;---------------------------------------------------------------------------
 ;Messhin Mutou (P2) 2
 [Statedef 1330]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 4,-4.5
@@ -1845,7 +1845,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Sasshou Inshuu (P2) 2
 [Statedef 1331]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -4.5,-5
@@ -1865,7 +1865,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Morote Gaeshi (P2) 2
 [Statedef 1332]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 4,-5.5
@@ -1885,7 +1885,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Atemi Nage EX
 [Statedef 1350]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1350
@@ -1973,7 +1973,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Morote Gaeshi (P1)
 [Statedef 1360]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1360
@@ -2090,7 +2090,7 @@ value = 1370
 ;---------------------------------------------------------------------------
 ;Messhin Mutou (P1)
 [Statedef 1370]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1312
@@ -2171,7 +2171,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Messhin Mutou (P2) 1
 [Statedef 1380]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2188,7 +2188,7 @@ value = 1322
 ;---------------------------------------------------------------------------
 ;Morote Gaeshi (P2) 2
 [Statedef 1390]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -4,-7.5
@@ -2208,7 +2208,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Tenchi Shuuten
 [Statedef 1400]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd=72*!var(20)
@@ -2273,7 +2273,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Tenchi Shuuten (P1)
 [Statedef 1410]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1410
@@ -2342,7 +2342,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Tenchi Shuuten (P2)
 [Statedef 1420]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2396,7 +2396,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;Tenchi Shuuten EX
 [Statedef 1450]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd=-500
@@ -2496,7 +2496,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hakusan Tou
 [Statedef 1500]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd=72*!var(20)
@@ -2541,15 +2541,15 @@ numhits = 0
 type = HitDef
 trigger1 = AnimElem = 5 && enemy,stateno!=1599
 attr = S, SA
-animtype  = Hard
-damage    = 32 + (var(10) * 2),5
+animtype = Hard
+damage = 32 + (var(10) * 2),5
 getpower=72* !var(20), 0
 guardflag = MA
 hitflag = MAF
 pausetime = 10,10
 ground.type = High
 ground.slidetime = 22
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -1,-8
 air.velocity = -1,-4
 fall = 1
@@ -2569,14 +2569,14 @@ envshake.ampl = Ifelse(random<=500,-3,3)
 type = HitDef
 trigger1 = AnimElem = 7 && enemy,stateno!=1599
 attr = S, SA
-animtype  = Hard
-damage    = 48 + (var(10) * 2),10
+animtype = Hard
+damage = 48 + (var(10) * 2),10
 guardflag = MA
 hitflag = MAF
 pausetime = 10,10
 ground.type = High
 ground.slidetime = 22
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -1,-8
 air.velocity = -1,-7
 fall = 1
@@ -2615,7 +2615,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Hakusan Tou
 [Statedef 1550]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd=-500
@@ -2695,15 +2695,15 @@ numhits = 0
 type = HitDef
 trigger1 = AnimElem = 5
 attr = S, SA
-animtype  = Hard
-damage    = 32 + (var(10) * 2),5
+animtype = Hard
+damage = 32 + (var(10) * 2),5
 getpower=72* !var(20), 0
 guardflag = MA
 hitflag = MAF
 pausetime = 15,15
 ground.type = High
 ground.slidetime = 22
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -1,-8
 air.velocity = -1,-4
 yaccel = .5
@@ -2724,14 +2724,14 @@ envshake.ampl = Ifelse(random<=500,-3,3)
 type = HitDef
 trigger1 = AnimElem = 7
 attr = S, SA
-animtype  = Hard
-damage    = 48 + (var(10) * 2),10
+animtype = Hard
+damage = 48 + (var(10) * 2),10
 guardflag = MA
 hitflag = MAF
 pausetime = 10,10
 ground.type = High
 ground.slidetime = 22
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -1,-8
 air.velocity = -1,-7
 fall = 1
@@ -2764,7 +2764,7 @@ ctrl = 1
 
 ; Hakusan Gethit State
 [Statedef 1599]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -1,-7

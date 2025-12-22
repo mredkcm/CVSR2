@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Demitri by varo_hades                   |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<MIDNIGHT BLISS>=============================
+;====<MIDNIGHT BLISS>=
 [StateDef 3000]
 type = S
 physics = S
@@ -108,7 +108,7 @@ attr = S, HT
 hitflag = M
 getPower = 0,0
 givePower = 36, 36
-priority  = 5, Miss
+priority = 5, Miss
 guardflag = None
 pausetime = 0, 0
 hitSound = -1 + 0 * (var(31) := 800)
@@ -125,7 +125,7 @@ trigger1 = AnimTime = 0
 value = 3051
 ctrl = 0
 
-;========================<MIDNIGHT BLISS>=============================
+;====<MIDNIGHT BLISS>=
 [Statedef 3002]
 type = S
 movetype = A
@@ -387,7 +387,7 @@ trigger1 = AnimTime = 0
 value = 3053
 ctrl = 0
 
-;========================<MIDNIGHT BLISS>=============================
+;====<MIDNIGHT BLISS>=
 [Statedef 3004]
 type = S
 movetype = H
@@ -790,7 +790,7 @@ type = SelfState
 trigger1 = Time = 82
 value = 5120
 
-;========================<MAX MIDNIGHT BLISS>=============================
+;====<MAX MIDNIGHT BLISS>=
 [StateDef 3050]
 type = S
 physics = S
@@ -893,7 +893,7 @@ attr = S, HT
 hitflag = M
 getPower = 0,0
 givePower = 36, 36
-priority  = 5, Miss
+priority = 5, Miss
 guardflag = None
 pausetime = 0, 0
 hitSound = -1 + 0 * (var(31) := 800)
@@ -910,7 +910,7 @@ trigger1 = AnimTime = 0
 value = 3051
 ctrl = 0
 
-;========================<MAX MIDNIGHT BLISS>=============================
+;====<MAX MIDNIGHT BLISS>=
 [Statedef 3051]
 type = S
 movetype = A
@@ -942,7 +942,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<MAX MIDNIGHT BLISS>=============================
+;====<MAX MIDNIGHT BLISS>=
 [Statedef 3052]
 type = S
 movetype = A
@@ -1204,7 +1204,7 @@ trigger1 = AnimTime = 0
 value = 3053
 ctrl = 0
 
-;========================<MAX MIDNIGHT BLISS>=============================
+;====<MAX MIDNIGHT BLISS>=
 [Statedef 3053]
 type = S
 movetype = A
@@ -1242,7 +1242,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<MAX MIDNIGHT BLISS>=============================
+;====<MAX MIDNIGHT BLISS>=
 [Statedef 3054]
 type = S
 movetype = H
@@ -1304,7 +1304,7 @@ trigger1 = SelfAnimExist(9020) = 1
 value = 9020
 elem = 6
 
-;========================<MAX MIDNIGHT BLISS>=============================
+;====<MAX MIDNIGHT BLISS>=
 [Statedef 3055]
 type = A
 movetype = H
@@ -1385,7 +1385,7 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 5110 ;Hit ground
 
-;========================<DEMON BLAST>=============================
+;====<DEMON BLAST>=
 [StateDef 3100]
 type = S
 physics = N
@@ -1728,7 +1728,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<MAX DEMON BLAST>=============================
+;====<MAX DEMON BLAST>=
 [StateDef 3150]
 type = S
 physics = N
@@ -1940,7 +1940,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<MIDNIGHT PLEASURE>=============================
+;====<MIDNIGHT PLEASURE>=
 [StateDef 3200]
 type = S
 physics = S
@@ -2043,7 +2043,7 @@ attr = S, HT
 hitflag = M
 getPower = 0,0
 givePower = 36, 36
-priority  = 1, Miss
+priority = 1, Miss
 guardflag = None
 pausetime = 0, 0
 hitSound = -1 + 0 * (var(31) := 800)
@@ -2060,13 +2060,13 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<MIDNIGHT PLEASURE>=============================
+;====<MIDNIGHT PLEASURE>=
 [Statedef 3201]
 type = S
 movetype = A
 physics = S
 velset = 0, 0
-juggle  = 11
+juggle = 11
 anim = 3201
 ctrl = 0
 sprpriority = 2
@@ -2337,7 +2337,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<MIDNIGHT PLEASURE>=============================
+;====<MIDNIGHT PLEASURE>=
 [Statedef 3202]
 type = S
 movetype = H
@@ -2350,7 +2350,7 @@ type = ChangeAnim2
 Trigger1 = Time = 0
 value = 3205
 
-;========================<MIDNIGHT PLEASURE>=============================
+;====<MIDNIGHT PLEASURE>=
 [Statedef 3203]
 type = A
 movetype = H

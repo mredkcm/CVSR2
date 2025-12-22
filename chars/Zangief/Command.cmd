@@ -213,384 +213,414 @@ time = 1
 
 [Command]
 name = "Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, x
-time = 32
+command = ~F, D, B, F, D, B, x
+time = 40
 
 [Command]
 name = "Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, y
-time = 32
+command = ~F, D, B, F, D, B, y
+time = 40
 
 [Command]
 name = "Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, z
-time = 32
+command = ~F, D, B, F, D, B, z
+time = 40
 
 [Command]
 name = "Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, ~x
-time = 32
+command = ~F, D, B, F, D, B, ~x
+time = 40
 
 [Command]
 name = "Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, ~y
-time = 32
+command = ~F, D, B, F, D, B, ~y
+time = 40
 
 [Command]
 name = "Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, ~z
-time = 32
+command = ~F, D, B, F, D, B, ~z
+time = 40
 
 [Command]
 name = "MAXFinal Atomic Buster"
-command = ~F, D, DB, F, D, DB, x+y
-time = 32
+command = ~F, D, B, F, D, B, x+y
+time = 40
 
 [Command]
 name = "MAXFinal Atomic Buster"
-command = ~F, D, DB, F, D, DB, y+z
-time = 32
+command = ~F, D, B, F, D, B, y+z
+time = 40
 
 [Command]
 name = "MAXFinal Atomic Buster"
-command = ~F, D, DB, F, D, DB, x+z
-time = 32
+command = ~F, D, B, F, D, B, x+z
+time = 40
 
 [Command]
 name = "Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, x
-time = 32
+command = ~B, D, F, B, D, F, x
+time = 40
 
 [Command]
 name = "Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, y
-time = 32
+command = ~B, D, F, B, D, F, y
+time = 40
 
 [Command]
 name = "Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, z
-time = 32
+command = ~B, D, F, B, D, F, z
+time = 40
 
 [Command]
 name = "Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, ~x
-time = 32
+command = ~B, D, F, B, D, F, ~x
+time = 40
 
 [Command]
 name = "Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, ~y
-time = 32
+command = ~B, D, F, B, D, F, ~y
+time = 40
 
 [Command]
 name = "Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, ~z
-time = 32
+command = ~B, D, F, B, D, F, ~z
+time = 40
 
 [Command]
 name = "MAXFinal Atomic Buster"
-command = ~B, D, DF, B, D, DF, x+y
-time = 32
+command = ~B, D, F, B, D, F, x+y
+time = 40
 
 [Command]
 name = "MAXFinal Atomic Buster"
-command = ~B, D, DF, B, D, DF, y+z
-time = 32
+command = ~B, D, F, B, D, F, y+z
+time = 40
 
 [Command]
 name = "MAXFinal Atomic Buster"
-command = ~B, D, DF, B, D, DF, x+z
-time = 32
+command = ~B, D, F, B, D, F, x+z
+time = 40
 
 [Command]
 name = "Super Aerial Russian Slam"
 command = ~D, DF, F, D, DF, F, a
-time = 32
+time = 40
 
 [Command]
 name = "Super Aerial Russian Slam"
 command = ~D, DF, F, D, DF, F, b
-time = 32
+time = 40
 
 [Command]
 name = "Super Aerial Russian Slam"
 command = ~D, DF, F, D, DF, F, c
-time = 32
+time = 40
 
 [Command]
 name = "Super Aerial Russian Slam"
 command = ~D, DF, F, D, DF, F, ~a
-time = 32
+time = 40
 
 [Command]
 name = "Super Aerial Russian Slam"
 command = ~D, DF, F, D, DF, F, ~b
-time = 32
+time = 40
 
 [Command]
 name = "Super Aerial Russian Slam"
 command = ~D, DF, F, D, DF, F, ~c
-time = 32
+time = 40
 
 [Command]
 name = "MAXSuper Aerial Russian Slam"
 command = ~D, DF, F, D, DF, F, a+b
-time = 32
+time = 40
 
 [Command]
 name = "MAXSuper Aerial Russian Slam"
 command = ~D, DF, F, D, DF, F, a+c
-time = 32
+time = 40
 
 [Command]
 name = "MAXSuper Aerial Russian Slam"
 command = ~D, DF, F, D, DF, F, b+c
-time = 32
+time = 40
 
 [Command]
 name = "Siberian Blizzard"
 command = ~D, DB, B, D, DB, B, a
-time = 32
+time = 40
 
 [Command]
 name = "Siberian Blizzard"
 command = ~D, DB, B, D, DB, B, b
-time = 32
+time = 40
 
 [Command]
 name = "Siberian Blizzard"
 command = ~D, DB, B, D, DB, B, c
-time = 32
+time = 40
 
 [Command]
 name = "Siberian Blizzard"
 command = ~D, DB, B, D, DB, B, ~a
-time = 32
+time = 40
 
 [Command]
 name = "Siberian Blizzard"
 command = ~D, DB, B, D, DB, B, ~b
-time = 32
+time = 40
 
 [Command]
 name = "Siberian Blizzard"
 command = ~D, DB, B, D, DB, B, ~c
-time = 32
+time = 40
 
 [Command]
 name = "MAXSiberian Blizzard"
 command = ~D, DB, B, D, DB, B, a+b
-time = 32
+time = 40
 
 [Command]
 name = "MAXSiberian Blizzard"
 command = ~D, DB, B, D, DB, B, b+c
-time = 32
+time = 40
 
 [Command]
 name = "MAXSiberian Blizzard"
 command = ~D, DB, B, D, DB, B, a+c
-time = 32
+time = 40
 
 [Command]
 name = "Ultimate Atomic Buster"
-command = ~B, D, DF, B, D, DF, x+y+z
-time = 32
+command = ~B, D, F, B, D, F, x+y+z
+time = 40
 
 [Command]
 name = "Ultimate Atomic Buster"
-command = ~F, D, DB, F, D, DB, x+y+z
-time = 32
+command = ~F, D, B, F, D, B, x+y+z
+time = 40
 
 [Command]
 name = "Power Atomic Destruction"
-command = ~B, D, DF, B, D, DF, a+b+c
-time = 32
+command = ~B, D, F, B, D, F, a+b+c
+time = 40
 
 [Command]
 name = "Power Atomic Destruction"
-command = ~F, D, DB, F, D, DB, a+b+c
-time = 32
+command = ~F, D, B, F, D, B, a+b+c
+time = 40
 
 [Command]
 name = "Ultra Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, a
-time = 32
+command = ~B, D, F, B, D, F, a
+time = 40
 
 [Command]
 name = "Ultra Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, b
-time = 32
+command = ~B, D, F, B, D, F, b
+time = 40
 
 [Command]
 name = "Ultra Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, c
-time = 32
+command = ~B, D, F, B, D, F, c
+time = 40
 
 [Command]
 name = "Ultra Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, ~a
-time = 32
+command = ~B, D, F, B, D, F, ~a
+time = 40
 
 [Command]
 name = "Ultra Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, ~b
-time = 32
+command = ~B, D, F, B, D, F, ~b
+time = 40
 
 [Command]
 name = "Ultra Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, ~c
-time = 32
+command = ~B, D, F, B, D, F, ~c
+time = 40
 
 [Command]
 name = "MAXUltra Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, a+b
-time = 32
+command = ~B, D, F, B, D, F, a+b
+time = 40
 
 [Command]
 name = "MAXUltra Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, b+c
-time = 32
+command = ~B, D, F, B, D, F, b+c
+time = 40
 
 [Command]
 name = "MAXUltra Final Atomic Buster"
-command = ~B, D, DF, B, D, DF, a+c
-time = 32
+command = ~B, D, F, B, D, F, a+c
+time = 40
 
 [Command]
 name = "Ultra Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, a
-time = 32
+command = ~F, D, B, F, D, B, a
+time = 40
 
 [Command]
 name = "Ultra Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, b
-time = 32
+command = ~F, D, B, F, D, B, b
+time = 40
 
 [Command]
 name = "Ultra Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, c
-time = 32
+command = ~F, D, B, F, D, B, c
+time = 40
 
 [Command]
 name = "Ultra Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, ~a
-time = 32
+command = ~F, D, B, F, D, B, ~a
+time = 40
 
 [Command]
 name = "Ultra Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, ~b
-time = 32
+command = ~F, D, B, F, D, B, ~b
+time = 40
 
 [Command]
 name = "Ultra Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, ~c
-time = 32
+command = ~F, D, B, F, D, B, ~c
+time = 40
 
 [Command]
 name = "MAXUltra Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, a+b
-time = 32
+command = ~F, D, B, F, D, B, a+b
+time = 40
 
 [Command]
 name = "MAXUltra Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, b+c
-time = 32
+command = ~F, D, B, F, D, B, b+c
+time = 40
 
 [Command]
 name = "MAXUltra Final Atomic Buster"
-command = ~F, D, DB, F, D, DB, a+c
-time = 32
+command = ~F, D, B, F, D, B, a+c
+time = 40
 
 ;====================<SPECIAL MOTIONS>====================
 
 [Command]
 name = "Screw Piledriver"
-command = ~F, D, DB, x
+command = ~F, D, B, x
 time = 16
 
 [Command]
 name = "Screw Piledriver"
-command = ~F, D, DB, y
+command = ~B, D, F, x
 time = 16
 
 [Command]
 name = "Screw Piledriver"
-command = ~F, D, DB, z
+command = ~F, D, B, ~x
 time = 16
 
 [Command]
 name = "Screw Piledriver"
-command = ~F, D, DB, ~x
+command = ~B, D, F, ~x
 time = 16
 
 [Command]
 name = "Screw Piledriver"
-command = ~F, D, DB, ~y
+command = ~F, D, B, y
 time = 16
 
 [Command]
 name = "Screw Piledriver"
-command = ~F, D, DB, ~z
+command = ~B, D, F, y
+time = 16
+
+[Command]
+name = "Screw Piledriver"
+command = ~F, D, B, ~y
+time = 16
+
+[Command]
+name = "Screw Piledriver"
+command = ~B, D, F, ~y
+time = 16
+
+[Command]
+name = "Screw Piledriver"
+command = ~F, D, B, z
+time = 16
+
+[Command]
+name = "Screw Piledriver"
+command = ~B, D, F, z
+time = 16
+
+[Command]
+name = "Screw Piledriver"
+command = ~F, D, B, ~z
+time = 16
+
+[Command]
+name = "Screw Piledriver"
+command = ~B, D, F, ~z
 time = 16
 
 [Command]
 name = "EXScrew Piledriver"
-command = ~F, D, DB, x+y
+command = ~F, D, B, x+y
 time = 16
 
 [Command]
 name = "EXScrew Piledriver"
-command = ~F, D, DB, y+z
+command = ~B, D, F, x+y
 time = 16
 
 [Command]
 name = "EXScrew Piledriver"
-command = ~F, D, DB, x+z
-time = 16
-
-[Command]
-name = "Screw Piledriver"
-command = ~B, D, DF, x
-time = 16
-
-[Command]
-name = "Screw Piledriver"
-command = ~B, D, DF, y
-time = 16
-
-[Command]
-name = "Screw Piledriver"
-command = ~B, D, DF, z
-time = 16
-
-[Command]
-name = "Screw Piledriver"
-command = ~B, D, DF, ~x
-time = 16
-
-[Command]
-name = "Screw Piledriver"
-command = ~B, D, DF, ~y
-time = 16
-
-[Command]
-name = "Screw Piledriver"
-command = ~B, D, DF, ~z
+command = ~F, D, B, ~x+y
 time = 16
 
 [Command]
 name = "EXScrew Piledriver"
-command = ~B, D, DF, x+y
+command = ~B, D, F, ~x+y
 time = 16
 
 [Command]
 name = "EXScrew Piledriver"
-command = ~B, D, DF, y+z
+command = ~F, D, B, y+z
 time = 16
 
 [Command]
 name = "EXScrew Piledriver"
-command = ~B, D, DF, x+z
+command = ~B, D, F, y+z
+time = 16
+
+[Command]
+name = "EXScrew Piledriver"
+command = ~F, D, B, ~y+z
+time = 16
+
+[Command]
+name = "EXScrew Piledriver"
+command = ~B, D, F, ~y+z
+time = 16
+
+[Command]
+name = "EXScrew Piledriver"
+command = ~F, D, B, x+z
+time = 16
+
+[Command]
+name = "EXScrew Piledriver"
+command = ~B, D, F, x+z
+time = 16
+
+[Command]
+name = "EXScrew Piledriver"
+command = ~F, D, B, ~x+z
+time = 16
+
+[Command]
+name = "EXScrew Piledriver"
+command = ~B, D, F, ~x+z
 time = 16
 
 [Command]
@@ -685,92 +715,92 @@ time = 16
 
 [Command]
 name = "Flying Powerbomb"
-command = ~F, D, DB, a
+command = ~F, D, B, a
 time = 16
 
 [Command]
 name = "Flying Powerbomb"
-command = ~F, D, DB, b
+command = ~F, D, B, b
 time = 16
 
 [Command]
 name = "Flying Powerbomb"
-command = ~F, D, DB, c
+command = ~F, D, B, c
 time = 16
 
 [Command]
 name = "Flying Powerbomb"
-command = ~F, D, DB, ~a
+command = ~F, D, B, ~a
 time = 16
 
 [Command]
 name = "Flying Powerbomb"
-command = ~F, D, DB, ~b
+command = ~F, D, B, ~b
 time = 16
 
 [Command]
 name = "Flying Powerbomb"
-command = ~F, D, DB, ~c
+command = ~F, D, B, ~c
 time = 16
 
 [Command]
 name = "EXFlying Powerbomb"
-command = ~F, D, DB, a+b
+command = ~F, D, B, a+b
 time = 16
 
 [Command]
 name = "EXFlying Powerbomb"
-command = ~F, D, DB, b+c
+command = ~F, D, B, b+c
 time = 16
 
 [Command]
 name = "EXFlying Powerbomb"
-command = ~F, D, DB, a+c
+command = ~F, D, B, a+c
 time = 16
 
 [Command]
 name = "Atomic Suplex"
-command = ~B, D, DF, a
+command = ~B, D, F, a
 time = 16
 
 [Command]
 name = "Atomic Suplex"
-command = ~B, D, DF, b
+command = ~B, D, F, b
 time = 16
 
 [Command]
 name = "Atomic Suplex"
-command = ~B, D, DF, c
+command = ~B, D, F, c
 time = 16
 
 [Command]
 name = "Atomic Suplex"
-command = ~B, D, DF, ~a
+command = ~B, D, F, ~a
 time = 16
 
 [Command]
 name = "Atomic Suplex"
-command = ~B, D, DF, ~b
+command = ~B, D, F, ~b
 time = 16
 
 [Command]
 name = "Atomic Suplex"
-command = ~B, D, DF, ~c
+command = ~B, D, F, ~c
 time = 16
 
 [Command]
 name = "EXAtomic Suplex"
-command = ~B, D, DF, a+b
+command = ~B, D, F, a+b
 time = 16
 
 [Command]
 name = "EXAtomic Suplex"
-command = ~B, D, DF, b+c
+command = ~B, D, F, b+c
 time = 16
 
 [Command]
 name = "EXAtomic Suplex"
-command = ~B, D, DF, a+c
+command = ~B, D, F, a+c
 time = 16
 
 [Command]

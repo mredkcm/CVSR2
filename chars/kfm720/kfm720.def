@@ -14,14 +14,14 @@ localcoord = 1280,720       ;Local coordinate space width and height
 
 ; Files for the player
 [Files]
-cmd     = kfm720.cmd        ;Command set
-cns     = kfm720.cns        ;Constants
-st      = kfm720.cns        ;States
+cmd = kfm720.cmd        ;Command set
+cns = kfm720.cns        ;Constants
+st = kfm720.cns        ;States
 stcommon = common1.cns      ;Common states (from data/ or motif)
-sprite  = kfm720.sff        ;Sprite
-anim    = kfm720.air        ;Animation
-sound   = kfm.snd           ;Sound
-ai      = kfm720.ai         ;AI hints data (not used)
+sprite = kfm720.sff        ;Sprite
+anim = kfm720.air        ;Animation
+sound = kfm.snd           ;Sound
+ai = kfm720.ai         ;AI hints data (not used)
 movelist = movelist.dat     ;Ikemen feature: Movelist
 
 ; Maps character selection buttons to palette numbers.

@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Kyo Kusanagi by Jmorphman               |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<URA 108 SHIKI: OROCHINAGI>=============================
+;====<URA 108 SHIKI: OROCHINAGI>=
 ;Startup
 [StateDef 3000]
 type = S
@@ -278,7 +278,7 @@ ctrl = 1
 
 
 
-;========================<MAX URA 108 SHIKI: OROCHINAGI>=============================
+;====<MAX URA 108 SHIKI: OROCHINAGI>=
 ;Startup
 [StateDef 3050]
 type = S
@@ -636,7 +636,7 @@ ctrl = 1
 
 
 
-;========================<SAISHU KESSEN OUGI "MU-SHIKI">=============================
+;====<SAISHU KESSEN OUGI "MU-SHIKI">=
 [StateDef 3100]
 type = S
 physics = N
@@ -1246,7 +1246,7 @@ ctrl = 1
 
 
 
-;========================<MAX SAISHU KESSEN OUGI "MU-SHIKI">=============================
+;====<MAX SAISHU KESSEN OUGI "MU-SHIKI">=
 [StateDef 3150]
 type = S
 physics = N
@@ -2269,7 +2269,7 @@ ctrl = 1
 
 
 
-;========================<524 SHIKI: KAMUKURA>=============================
+;====<524 SHIKI: KAMUKURA>=
 [StateDef 3200]
 type = S
 physics = N
@@ -3936,7 +3936,7 @@ ctrl = 1
 
 
 
-;===========<KAMUKURA (TARGET)>==========
+;===<KAMUKURA (TARGET)>==
 ;Normal Kyo
 [StateDef 3215]
 type = A
@@ -4040,7 +4040,7 @@ ctrl = 1
 
 
 
-;========================<1999 SHIKI: KIRI HOMURA>=============================
+;====<1999 SHIKI: KIRI HOMURA>=
 [StateDef 3300]
 type = S
 physics = N
@@ -4462,7 +4462,7 @@ ctrl = 1
 
 
 
-;========================<MAX 1999 SHIKI: KIRI HOMURA>=============================
+;====<MAX 1999 SHIKI: KIRI HOMURA>=
 [StateDef 3350]
 type = S
 physics = N
@@ -5049,7 +5049,7 @@ ctrl = 1
 
 
 
-;========================<SAISHU KESSEN OUGI "ZERO SHIKI">=============================
+;====<SAISHU KESSEN OUGI "ZERO SHIKI">=
 [StateDef 3400]
 type = S
 physics = N
@@ -5718,7 +5718,7 @@ value = 3161
 
 
 
-;========================<182 SHIKI>=============================
+;====<182 SHIKI>=
 ;Startup
 [StateDef 3500]
 type = S
@@ -6155,7 +6155,7 @@ ctrl = 1
 
 
 
-;========================<MAX 182 SHIKI>=============================
+;====<MAX 182 SHIKI>=
 ;Startup
 [StateDef 3550]
 type = S

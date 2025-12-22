@@ -1,11 +1,11 @@
 ; _______________________________________
 ;| Geese Howard by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================< SUPER STATES >========================================
-;==============================================================================================
+;==
+;====< SUPER STATES >====
+;==
 
-;========================< RAISING STORM >=============================
+;====< RAISING STORM >=
 [Statedef 3000]
 type = S
 physics = S
@@ -165,7 +165,7 @@ value = 0
 ctrl = 1
 
 
-;========================< THUNDER BREAK >=============================
+;====< THUNDER BREAK >=
 [Statedef 3050]
 type = S
 physics = S
@@ -363,7 +363,7 @@ value = 0
 ctrl = 1
 
 
-;========================< DEADLY RAVE >=============================
+;====< DEADLY RAVE >=
 [Statedef 3100]
 type = S
 physics = S
@@ -1396,7 +1396,7 @@ ctrl = 1
 
 
 
-;========================< RASHOUMON >=============================
+;====< RASHOUMON >=
 [Statedef 3200]
 type = S
 physics = S
@@ -1882,7 +1882,7 @@ trigger1 = pos y >= ifelse((anim = [5051, 5059]) || (anim = [5061, 5069]), 0, 25
 value = 5100
 
 
-;========================< MAX RASHOUMON >=============================
+;====< MAX RASHOUMON >=
 [Statedef 3250]
 type = S
 physics = S
@@ -2670,7 +2670,7 @@ value = 0
 ctrl = 1
 
 
-;========================< KYOKUU REPPUU ZAN >=============================
+;====< KYOKUU REPPUU ZAN >=
 [Statedef 3300]
 type = S
 physics = N
@@ -2833,7 +2833,7 @@ value = 0
 ctrl = 1
 
 
-;========================< MAX KYOKUU REPPUU ZAN >=============================
+;====< MAX KYOKUU REPPUU ZAN >=
 [Statedef 3350]
 type = S
 physics = N
@@ -3286,7 +3286,7 @@ trigger1 = time >= 32
 value = ifelse(alive, 5120, 5150)
 
 
-;========================< RAISING DEAD END >=============================
+;====< RAISING DEAD END >=
 [Statedef 3400]
 type = S
 physics = S

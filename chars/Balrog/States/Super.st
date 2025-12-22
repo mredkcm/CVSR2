@@ -1,13 +1,13 @@
 ; _________________________________________
 ;| Character by Author Name                |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER MOVES>========================================
-;==============================================================================================
+;==
+;====<SUPER MOVES>====
+;==
 
-;======================<CRAZY BUFFALO>===================
+;==<CRAZY BUFFALO>===
 [Statedef 3000]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -193,7 +193,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -8, 0
 air.velocity = -6,-5
@@ -239,7 +239,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -8, 0
 air.velocity = -4, -2
@@ -286,7 +286,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -8, 0
 air.velocity = -4, -2
@@ -376,7 +376,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -8, 0
 air.velocity = -6,-5
@@ -412,9 +412,9 @@ trigger1 = !Animtime
 value = 0
 ctrl = 1
 
-;====================<MAX CRAZY BUFFALO>=================
+;====<MAX CRAZY BUFFALO>=
 [Statedef 3050]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -600,7 +600,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -8, 0
 air.velocity = -6,-5
@@ -646,7 +646,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -8, 0
 air.velocity = -4, -2
@@ -693,7 +693,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -8, 0
 air.velocity = -4, -2
@@ -721,9 +721,9 @@ trigger1 = time = 92
 value = 3003
 ctrl = 0
 
-;====================<GIGATON BLOW>=================
+;====<GIGATON BLOW>=
 [Statedef 3100]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -893,7 +893,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -8, 0
 air.velocity = -6,-1
@@ -939,7 +939,7 @@ fall.animtype = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -8, 0
 air.velocity = -6,-1
@@ -985,7 +985,7 @@ fall.animtype = Back
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -8, -3
 air.velocity = -6,-1
@@ -1179,7 +1179,7 @@ fall.animtype = Up
 ground.type = High
 air.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 guard.hittime = 18
 ground.velocity = -6, -16
 air.velocity = -6,-5

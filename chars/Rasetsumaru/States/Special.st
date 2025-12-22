@@ -1,12 +1,12 @@
 ; ________________________
 ;| Haohmaru by Chazzanova |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
 
-;========================<OUGI: SENPUU RETSU ZAN>=============================
+;====<OUGI: SENPUU RETSU ZAN>=
 [StateDef 1000]
 type = S
 physics = N
@@ -106,7 +106,7 @@ ctrl = 1
 
 
 
-;========================<EX OUGI: SENPUU RETSU ZAN>=============================
+;====<EX OUGI: SENPUU RETSU ZAN>=
 [StateDef 1030]
 type = S
 physics = N
@@ -229,7 +229,7 @@ ctrl = 1
 
 
 
-;========================<FAKE SENPUU RETSU ZAN>=============================
+;====<FAKE SENPUU RETSU ZAN>=
 [StateDef 1050]
 type = S
 physics = N
@@ -268,7 +268,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<OUGI: KOGETSU ZAN>=============================
+;====<OUGI: KOGETSU ZAN>=
 [StateDef 1100]
 type = S
 physics = N
@@ -785,7 +785,7 @@ ctrl = 1
 
 
 
-;========================<EX OUGI: KOGETSU ZAN>=============================
+;====<EX OUGI: KOGETSU ZAN>=
 [StateDef 1130]
 type = S
 physics = N
@@ -1076,7 +1076,7 @@ value = 1101
 
 
 
-;========================<OUGI: RESSHIN ZAN>=============================
+;====<OUGI: RESSHIN ZAN>=
 [StateDef 1200]
 type = S
 physics = N
@@ -1139,7 +1139,7 @@ value = 1201
 
 
 
-;========================<OUGI: KOGETSU ZAN>=============================
+;====<OUGI: KOGETSU ZAN>=
 [StateDef 1201]
 type = S
 physics = S
@@ -1264,7 +1264,7 @@ ctrl = 1
 
 
 
-;========================<EX OUGI: RESSHIN ZAN>=============================
+;====<EX OUGI: RESSHIN ZAN>=
 [StateDef 1230]
 type = S
 physics = N
@@ -1353,7 +1353,7 @@ value = 1231
 
 
 
-;========================<OUGI: KOGETSU ZAN>=============================
+;====<OUGI: KOGETSU ZAN>=
 [StateDef 1231]
 type = S
 physics = S
@@ -1521,7 +1521,7 @@ ctrl = 1
 
 
 
-;========================<SAKE KOGEKI>=============================
+;====<SAKE KOGEKI>=
 [StateDef 1300]
 type = S
 physics = N
@@ -1639,7 +1639,7 @@ ctrl = 1
 
 
 
-;========================<EX SAKE KOGEKI>=============================
+;====<EX SAKE KOGEKI>=
 [StateDef 1330]
 type = S
 physics = N
@@ -1782,7 +1782,7 @@ ctrl = 1
 
 
 
-;========================<OUGI: ZANKOUSEN>=============================
+;====<OUGI: ZANKOUSEN>=
 [StateDef 1400]
 type = S
 physics = N
@@ -1969,7 +1969,7 @@ ctrl = 1
 
 
 
-;========================<AERIAL OUGI: SENPUU RETSU ZAN>=============================
+;====<AERIAL OUGI: SENPUU RETSU ZAN>=
 [Statedef 1500]
 type = A
 physics = N
@@ -2083,7 +2083,7 @@ ctrl = 1
 
 
 
-;========================<EX AERIAL OUGI: SENPUU RETSU ZAN>=============================
+;====<EX AERIAL OUGI: SENPUU RETSU ZAN>=
 [Statedef 1530]
 type = A
 physics = N
@@ -2185,7 +2185,7 @@ value = 1501
 
 
 
-;========================<GOUHA>=============================
+;====<GOUHA>=
 [StateDef 1600]
 type = S
 physics = N
@@ -2305,7 +2305,7 @@ ctrl = 1
 
 
 
-;========================<SHITATARI>=============================
+;====<SHITATARI>=
 [StateDef 1700]
 type = S
 physics = S
@@ -2360,7 +2360,7 @@ ctrl = 1
 
 
 
-;========================<SENPUU HA>=============================
+;====<SENPUU HA>=
 [StateDef 1800]
 type = S
 physics = N
@@ -2440,7 +2440,7 @@ ctrl = 1
 
 
 
-;========================<NAGI YAIBA>=============================
+;====<NAGI YAIBA>=
 [StateDef 1900]
 type = S
 physics = S
@@ -2518,7 +2518,7 @@ ctrl = 1
 
 
 
-;========================<NAGI YAIBA (SUCCESS)>=============================
+;====<NAGI YAIBA (SUCCESS)>=
 [StateDef 1901]
 type = S
 physics = N
@@ -2739,7 +2739,7 @@ value = 1101
 
 
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -3029,7 +3029,7 @@ value = 1101
 
 
 
-;========================<PUNCH ZERO COUNTER (RASETSUMARU)>=============================
+;====<PUNCH ZERO COUNTER (RASETSUMARU)>=
 [StateDef 2901]
 type = S
 physics = N
@@ -3141,7 +3141,7 @@ ctrl = 1
 
 
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

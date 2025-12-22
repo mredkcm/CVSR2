@@ -1,11 +1,11 @@
 ; _____________________________________
 ;| K' by Chazzanova & Dampir           |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<HEAT DRIVE>=============================
+;====<HEAT DRIVE>=
 [StateDef 3000]
 type = S
 physics = S
@@ -144,9 +144,9 @@ ctrl = 0
 
 
 
-;========================<HEAT DRIVE RELEASE>=============================
+;====<HEAT DRIVE RELEASE>=
 [Statedef 3001]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -482,7 +482,7 @@ ctrl = 1
 
 
 
-;========================<HIT BY HEAT DRIVE>=============================
+;====<HIT BY HEAT DRIVE>=
 [Statedef 3015]
 type = A
 movetype = H
@@ -610,7 +610,7 @@ value = 5110
 
 
 
-;========================<MAX HEAT DRIVE>=============================
+;====<MAX HEAT DRIVE>=
 [StateDef 3050]
 type = S
 physics = S
@@ -749,9 +749,9 @@ ctrl = 0
 
 
 
-;========================<HEAT DRIVE RELEASE>=============================
+;====<HEAT DRIVE RELEASE>=
 [Statedef 3051]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -1102,7 +1102,7 @@ ctrl = 1
 
 
 
-;========================<CHAIN DRIVE (START)>=============================
+;====<CHAIN DRIVE (START)>=
 [StateDef 3100]
 type = S
 physics = N
@@ -1263,7 +1263,7 @@ ctrl = 1
 
 
 
-;========================<CHAIN DRIVE (ATTEMPT)>=============================
+;====<CHAIN DRIVE (ATTEMPT)>=
 [StateDef 3101]
 type = S
 physics = N
@@ -1412,7 +1412,7 @@ ctrl = 1
 
 
 
-;========================<CHAIN DRIVE (SUCCESS)>=============================
+;====<CHAIN DRIVE (SUCCESS)>=
 [StateDef 3110]
 type = S
 anim = 3110
@@ -1912,11 +1912,11 @@ ctrl = 1
 
 
 
-;========================<CHAIN DRIVE(TARGET)>=============================
+;====<CHAIN DRIVE(TARGET)>=
 [StateDef 3115]
 type = S
 moveType = H
-physics  = N
+physics = N
 velSet = 0,0
 
 [State 3115, PosSet]
@@ -1947,7 +1947,7 @@ ctrl = 1
 
 
 
-;========================<MAX CHAIN DRIVE>=============================
+;====<MAX CHAIN DRIVE>=
 [StateDef 3150]
 type = S
 physics = S
@@ -2106,7 +2106,7 @@ ctrl = 1
 
 
 
-;========================<MAX CHAIN DRIVE (ATTEMPT)>=============================
+;====<MAX CHAIN DRIVE (ATTEMPT)>=
 [StateDef 3151]
 type = S
 physics = N
@@ -2255,7 +2255,7 @@ ctrl = 1
 
 
 
-;========================<MAX CHAIN DRIVE (SUCCESS)>=============================
+;====<MAX CHAIN DRIVE (SUCCESS)>=
 [StateDef 3160]
 type = S
 anim = 3160
@@ -3044,7 +3044,7 @@ ctrl = 1
 
 
 
-;========================<CRIMSON STAR ROAD (ATTEMPT)>=============================
+;====<CRIMSON STAR ROAD (ATTEMPT)>=
 [StateDef 3200]
 type = S
 physics = N
@@ -3226,7 +3226,7 @@ ctrl = 1
 
 
 
-;========================<CRIMSON STAR ROAD (SUCCESS)>=============================
+;====<CRIMSON STAR ROAD (SUCCESS)>=
 [StateDef 3201]
 type = S
 physics = N
@@ -3290,11 +3290,11 @@ ctrl = 1
 
 
 
-;========================<CRIMSON STAR ROAD(TARGET)>=============================
+;====<CRIMSON STAR ROAD(TARGET)>=
 [StateDef 3215]
 type = S
 moveType = H
-physics  = N
+physics = N
 velSet = 0,0
 sprPriority = 2
 
@@ -3326,7 +3326,7 @@ ctrl = 1
 
 
 
-;========================<HYPER CHAIN DRIVE>=============================
+;====<HYPER CHAIN DRIVE>=
 [StateDef 3300]
 type = S
 physics = S

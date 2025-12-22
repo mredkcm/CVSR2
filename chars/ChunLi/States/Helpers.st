@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Chun-Li by Jmorphman                    |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<HELPER STATES>========================================
-;==============================================================================================
+;==
+;===<HELPER STATES>====
+;==
 
-;====================<PARRY HELPER>=========================
+;====<PARRY HELPER>=
 [StateDef 765]
 type = A
 physics = N
@@ -141,7 +141,7 @@ trigger2 = Time >= 2
 
 
 
-;====================<KIKOKEN PROJECTILE>=========================
+;====<KIKOKEN PROJECTILE>=
 [StateDef 1005]
 type = A
 physics = N
@@ -528,7 +528,7 @@ trigger2 = Target, Time <= 1 && !(Target, HitShakeOver)
 
 
 
-;====================<KIKOKEN PROJECTILE (REFLECTED)>=========================
+;====<KIKOKEN PROJECTILE (REFLECTED)>=
 [StateDef 1015]
 type = A
 physics = N
@@ -745,7 +745,7 @@ trigger2 = Anim = 1006 && !AnimTime
 
 
 
-;====================<KIKOSHO PROJECTILE SHIELD>=========================
+;====<KIKOSHO PROJECTILE SHIELD>=
 [StateDef 3004]
 type = A
 physics = N
@@ -798,7 +798,7 @@ trigger4 = Root, StateNo = 3050 && Root, AnimElemTime(36) = 3
 
 
 
-;====================<HOSENKA TORNADO EFFECT>=========================
+;====<HOSENKA TORNADO EFFECT>=
 [StateDef 3315]
 type = S
 physics = N
@@ -857,7 +857,7 @@ trigger3 = Time >= 8
 
 
 
-;====================<SHADOW DISTORTION>====================
+;====<SHADOW DISTORTION>====
 [StateDef 6010]
 type = A
 physics = N
@@ -924,7 +924,7 @@ value = 1
 
 
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -1913,7 +1913,7 @@ trigger1 = Time >= 8
 
 
 
-;======================<JUMP DUST>===========================
+;==<JUMP DUST>===
 [StateDef 8100]
 type = S
 anim = 1
@@ -1952,7 +1952,7 @@ trigger1 = Time >= 7
 
 
 
-;======================<DASH DUST>===========================
+;==<DASH DUST>===
 [StateDef 8103]
 type = A
 anim = 1
@@ -2014,7 +2014,7 @@ trigger1 = !NumExplod
 
 
 
-;======================<IMPACT DUST>===========================
+;==<IMPACT DUST>===
 [StateDef 8110]
 type = A
 anim = 1
@@ -2060,7 +2060,7 @@ trigger1 = !NumExplod
 
 
 
-;========================<FLAMES>=============================
+;====<FLAMES>=
 [StateDef 8150]
 type = A
 velSet = 0,0
@@ -2130,7 +2130,7 @@ trigger4 = Root, MoveHit
 
 
 
-;========================<RECOVER FX>=============================
+;====<RECOVER FX>=
 [StateDef 8200]
 type = A
 velSet = 0,0
@@ -2162,7 +2162,7 @@ trigger1 = Time >= 15
 
 
 
-;========================<COUNTER FX>=============================
+;====<COUNTER FX>=
 [StateDef 8290]
 type = A
 physics = N
@@ -2208,7 +2208,7 @@ trigger1 = Time >= 16
 
 
 
-;==================<POWER CHARGE FX>==================
+;==<POWER CHARGE FX>==
 ;Aura and Dust
 [StateDef 8330]
 type = A
@@ -2317,7 +2317,7 @@ trigger1 = Root, StateNo != 730
 
 
 
-;==================<ZERO COUNTER FX>==================
+;==<ZERO COUNTER FX>==
 [StateDef 8350]
 type = A
 physics = N
@@ -2369,7 +2369,7 @@ trigger1 = Time >= 16
 
 
 
-;========================<CUSTOM COMBO>=============================
+;====<CUSTOM COMBO>=
 [StateDef 8400]
 type = A
 physics = N
@@ -2475,7 +2475,7 @@ trigger1 = Time >= 26
 
 
 
-;========================<SUPER PAUSE FX>=============================
+;====<SUPER PAUSE FX>=
 ;Level 1 Super FX
 [StateDef 8500]
 type = A
@@ -2919,7 +2919,7 @@ trigger1 = Time >= 40
 
 
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [StateDef 8600]
 type = A
 velSet = 0,0
@@ -3095,7 +3095,7 @@ trigger1 = RoundState < 3
 
 
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0
@@ -3114,7 +3114,7 @@ trigger1 = RoundState = 2
 
 
 
-;========================<EXPLODSIVE BUFFERING HELPER>=============================
+;====<EXPLODSIVE BUFFERING HELPER>=
 [StateDef 90000005]
 type = A
 physics = N

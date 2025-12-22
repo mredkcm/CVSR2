@@ -1,16 +1,16 @@
 ; ADD004 BASIC PIEs ReBuilded CNS (27/12/2018)
-;==============================================
+;==
 ; This file is Made by PIE.
 ; there is a backup of this file in the same folder, named "<samename>.a4bk".
 ; to Restore, use assist tool, or delete this file, then remove ".a4bk" from the neme of backup.
-;==============================================
+;==
 
 ; _______________________________________
 ;| Edmond Honda by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< SYSTEM STATES====================
-;==============================================================================================
+;==
+;===< SYSTEM STATES====
+;==
 
 ;STANDING
 [Statedef 0]
@@ -362,7 +362,7 @@ value = 0
 ctrl = 1
 
 
-;======================< RUN=======
+;==< RUN===
 [Statedef 100]
 type = S
 physics = N
@@ -459,7 +459,7 @@ value = ifelse(command = "holddown", 10, 0)
 ctrl = 1
 
 
-;======================< DASH=======
+;==< DASH===
 [Statedef 102]
 type = S
 physics = N
@@ -557,7 +557,7 @@ value = 0
 ctrl = 1
 
 
-;========================< BACK DASH======
+;====< BACK DASH==
 [Statedef 105]
 type = A
 physics = N
@@ -784,7 +784,7 @@ value = 0
 ctrl = 1
 
 
-;==========< POWER CHARGE >==========
+;==< POWER CHARGE >==
 [Statedef 730]
 type = S
 physics = S
@@ -2547,7 +2547,7 @@ trigger4 = anim != 5035
 value = 5050
 
 
-;==========< FALL RECOVERY >==========
+;==< FALL RECOVERY >==
 [Statedef 5200]
 type = A
 movetype = H
@@ -2703,7 +2703,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 
-;==========< TARGET SAFE FALL >==========
+;==< TARGET SAFE FALL >==
 [Statedef 5205]
 type = A
 physics = N
@@ -2732,15 +2732,15 @@ trigger1 = time >= 60
 value = 5210
 
 
-;===========================================================================
-;===============================< -2 STATES=============
-;===========================================================================
+;===
+;===< -2 STATES=
+;===
 [Statedef -2]
 
 ;#ADD004BASIC PIEs#
-;//==========================
+;//==
 ;// add004-sctrls-start
-;//==========================
+;//==
 ;sys::-2::partners_standby ; ???????
 [state 0]
 	type=selfstate
@@ -2810,7 +2810,7 @@ value = 5210
 	time=1
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;;>>@Config.Face>>
 ;sys::-2::face_d ; portrait (?)
 [state 0]
@@ -2845,7 +2845,7 @@ value = 5210
 	id=490600
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;;>>@Config.Camera>>
 ;sys::-2::camera_nc ; ????
 [state 0]
@@ -2871,7 +2871,7 @@ value = 5210
 	movecamera=0,0 ;; [x,y]
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;sys::-2::add.option2-noko
 [state 0] ;; opt-noko
 	type=assertspecial
@@ -2890,7 +2890,7 @@ value = 5210
 	kill=0
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;// optional settings
 ;sys::-2::guard_crush_fx ; ????????
 [state 0]
@@ -2952,9 +2952,9 @@ value = 5210
 	trigger1=playerid(id-3),ishelper=0 && playerid(id-3),teamside=teamside
 	x=const240p(144)*ifelse(teamside=1,-1,1)
 
-;//==========================
+;//==
 ;// add004-sctrls-end
-;//==========================
+;//==
 
 
 [State -2, Hit Detection]
@@ -3310,9 +3310,9 @@ text = "\nBy PotS - http://www.mugenguild.com/pots/"
 ignorehitpause = 1
 
 
-;===========================================================================
-;===============================< -3 STATES=============
-;===========================================================================
+;===
+;===< -3 STATES=
+;===
 [Statedef -3]
 
 [State -3, Gametime Var]

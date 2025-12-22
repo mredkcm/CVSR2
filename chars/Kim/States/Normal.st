@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Kim Kaphwan by Jmorphman                |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<NORMAL MOVES>========================================
-;==============================================================================================
+;==
+;====<NORMAL MOVES>====
+;==
 
-;===========<STANDING LIGHT PUNCH>==========
+;===<STANDING LIGHT PUNCH>==
 [StateDef 200]
 type = S
 physics = S
@@ -93,7 +93,7 @@ ctrl = 1
 
 
 
-;===========<STANDING MEDIUM PUNCH>==========
+;===<STANDING MEDIUM PUNCH>==
 [StateDef 210]
 type = S
 physics = S
@@ -181,7 +181,7 @@ ctrl = 1
 
 
 
-;===========<STANDING FAR HEAVY PUNCH>==========
+;===<STANDING FAR HEAVY PUNCH>==
 [StateDef 220]
 type = S
 physics = S
@@ -269,7 +269,7 @@ ctrl = 1
 
 
 
-;===========<STANDING CLOSE HEAVY PUNCH>==========
+;===<STANDING CLOSE HEAVY PUNCH>==
 [StateDef 225]
 type = S
 physics = S
@@ -406,7 +406,7 @@ ctrl = 1
 
 
 
-;===========<STANDING LIGHT KICK>==========
+;===<STANDING LIGHT KICK>==
 [StateDef 230]
 type = S
 physics = S
@@ -494,7 +494,7 @@ ctrl = 1
 
 
 
-;===========<STANDING CLOSE LIGHT KICK>==========
+;===<STANDING CLOSE LIGHT KICK>==
 [StateDef 235]
 type = S
 physics = S
@@ -582,7 +582,7 @@ ctrl = 1
 
 
 
-;===========<STANDING MEDIUM KICK>==========
+;===<STANDING MEDIUM KICK>==
 [StateDef 240]
 type = S
 physics = S
@@ -670,7 +670,7 @@ ctrl = 1
 
 
 
-;===========<STANDING HEAVY KICK>==========
+;===<STANDING HEAVY KICK>==
 [StateDef 250]
 type = S
 physics = S
@@ -790,7 +790,7 @@ ctrl = 1
 
 
 
-;===========<NERICHAGI>==========
+;===<NERICHAGI>==
 [StateDef 257]
 type = S
 physics = S
@@ -899,7 +899,7 @@ ctrl = 1
 
 
 
-;===========<NERICHAGI (CANCELED)>==========
+;===<NERICHAGI (CANCELED)>==
 [StateDef 258]
 type = S
 physics = S
@@ -1050,7 +1050,7 @@ ctrl = 1
 
 
 
-;===========<SUZUMUASHI>==========
+;===<SUZUMUASHI>==
 [StateDef 300]
 type = S
 physics = S
@@ -1155,7 +1155,7 @@ ctrl = 1
 
 
 
-;===========<SEKASANEASHI>==========
+;===<SEKASANEASHI>==
 [StateDef 310]
 type = S
 physics = N
@@ -1271,7 +1271,7 @@ ctrl = 1
 
 
 
-;===========<SESENKYAKU>==========
+;===<SESENKYAKU>==
 [StateDef 320]
 type = S
 physics = S
@@ -1365,7 +1365,7 @@ ctrl = 1
 
 
 
-;===========<SETENGEDANASHI>==========
+;===<SETENGEDANASHI>==
 [StateDef 330]
 type = S
 physics = S
@@ -1470,7 +1470,7 @@ ctrl = 1
 
 
 
-;===========<REVERSE NERICHAGI>==========
+;===<REVERSE NERICHAGI>==
 [StateDef 340]
 type = S
 physics = S
@@ -1572,7 +1572,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING LIGHT PUNCH>==========
+;===<CROUCHING LIGHT PUNCH>==
 [StateDef 400]
 type = C
 physics = C
@@ -1651,7 +1651,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING MEDIUM PUNCH>==========
+;===<CROUCHING MEDIUM PUNCH>==
 [StateDef 410]
 type = C
 physics = C
@@ -1730,7 +1730,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING HEAVY PUNCH>==========
+;===<CROUCHING HEAVY PUNCH>==
 [StateDef 420]
 type = C
 physics = C
@@ -1819,7 +1819,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING LIGHT KICK>==========
+;===<CROUCHING LIGHT KICK>==
 [StateDef 430]
 type = C
 physics = C
@@ -1898,7 +1898,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING MEDIUM KICK>==========
+;===<CROUCHING MEDIUM KICK>==
 [StateDef 440]
 type = C
 physics = C
@@ -1965,7 +1965,7 @@ palFX.add = 255, 255, 255
 palFX.sinAdd= -255, -255, -255, 48
 
 [State 440, ChangeAnimElem]
-type  = ChangeAnim
+type = ChangeAnim
 trigger1 = MoveContact = 1 && HitPauseTime
 trigger1 = AnimElemTime(3) >= 0 && AnimElemTime(4) <= 0
 trigger1 = HitPauseTime <= ifElse(var(20), 3, 8)
@@ -1986,7 +1986,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING HEAVY KICK>==========
+;===<CROUCHING HEAVY KICK>==
 [StateDef 450]
 type = C
 physics = C
@@ -2073,7 +2073,7 @@ ctrl = 1
 
 
 
-;===========<JUMPING LIGHT PUNCH>==========
+;===<JUMPING LIGHT PUNCH>==
 [StateDef 600]
 type = A
 physics = N
@@ -2165,10 +2165,10 @@ value = 52
 
 
 
-;===========<JUMPING MEDIUM PUNCH>==========
+;===<JUMPING MEDIUM PUNCH>==
 [StateDef 610]
 type = A
-physics  = N
+physics = N
 moveType = A
 anim = 610
 ctrl = 0
@@ -2257,7 +2257,7 @@ value = 52
 
 
 
-;===========<JUMPING HEAVY PUNCH>==========
+;===<JUMPING HEAVY PUNCH>==
 [StateDef 620]
 type = A
 physics = N
@@ -2349,7 +2349,7 @@ value = 52
 
 
 
-;===========<JUMPING LIGHT KICK>==========
+;===<JUMPING LIGHT KICK>==
 [StateDef 630]
 type = A
 physics = N
@@ -2441,7 +2441,7 @@ value = 52
 
 
 
-;===========<JUMPING MEDIUM KICK>==========
+;===<JUMPING MEDIUM KICK>==
 [StateDef 640]
 type = A
 physics = N
@@ -2533,7 +2533,7 @@ value = 52
 
 
 
-;===========<JUMPING HEAVY KICK>==========
+;===<JUMPING HEAVY KICK>==
 [StateDef 650]
 type = A
 physics = N
@@ -2625,7 +2625,7 @@ value = 52
 
 
 
-;===========<THROW ATTEMPT>==========
+;===<THROW ATTEMPT>==
 [StateDef 800]
 type = S
 physics = S
@@ -2729,7 +2729,7 @@ ctrl = 1
 
 
 
-;===========<THROW SWITCHING SIDES>==========
+;===<THROW SWITCHING SIDES>==
 [StateDef 805]
 type = S
 moveType = A
@@ -2813,7 +2813,7 @@ trigger1 = AnimElemTime(5) >= 0
 value = ifElse(var(10), 820, 810)
 
 
-;===========<THROW SWITCHING SIDES (TARGET)>==========
+;===<THROW SWITCHING SIDES (TARGET)>==
 [StateDef 806]
 type = S
 moveType = H
@@ -2854,7 +2854,7 @@ ctrl = 1
 
 
 
-;===========<SAKKYAKU NAGE>==========
+;===<SAKKYAKU NAGE>==
 [Statedef 810]
 type = S
 physics = N
@@ -2993,7 +2993,7 @@ ctrl = 1
 
 
 
-;===========<SAKKYAKU NAGE (TARGET)>==========
+;===<SAKKYAKU NAGE (TARGET)>==
 ;Being Thrown
 [StateDef 815]
 type = A
@@ -3073,7 +3073,7 @@ value = 5100
 
 
 
-;===========<SANKYAKU NAGE>==========
+;===<SANKYAKU NAGE>==
 [Statedef 820]
 type = S
 physics = N
@@ -3283,7 +3283,7 @@ ctrl = 1
 
 
 
-;===========<SAKKYAKU NAGE (TARGET)>==========
+;===<SAKKYAKU NAGE (TARGET)>==
 ;Being Thrown
 [StateDef 825]
 type = A
@@ -3389,7 +3389,7 @@ value = 5100
 
 
 
-;===========<THROW ESCAPED>==========
+;===<THROW ESCAPED>==
 [StateDef 890]
 type = S
 physics = N

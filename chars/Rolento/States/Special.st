@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Rolento by Jmorphman                    |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;========================<PATRIOT CIRCLE>=============================
+;====<PATRIOT CIRCLE>=
 [StateDef 1000]
 type = S
 physics = N
@@ -768,7 +768,7 @@ ctrl = 1
 
 
 
-;========================<EX PATRIOT CIRCLE>=============================
+;====<EX PATRIOT CIRCLE>=
 [StateDef 1030]
 type = S
 physics = N
@@ -1226,7 +1226,7 @@ ctrl = 1
 
 
 
-;========================<STINGER>=============================
+;====<STINGER>=
 [StateDef 1100]
 type = S
 physics = S
@@ -1449,7 +1449,7 @@ ctrl = 1
 
 
 
-;========================<EX STINGER>=============================
+;====<EX STINGER>=
 [StateDef 1130]
 type = S
 physics = N
@@ -1676,7 +1676,7 @@ value = 1102
 
 
 
-;=====================<MEKONG DELTA ATTACK>==========================
+;=<MEKONG DELTA ATTACK>==
 ;Jump
 [StateDef 1200]
 type = S
@@ -2098,7 +2098,7 @@ ctrl = 1
 
 
 
-;========================<EX MEKONG DELTA ATTACK>=============================
+;====<EX MEKONG DELTA ATTACK>=
 [StateDef 1232]
 type = S
 anim = 1232
@@ -2331,7 +2331,7 @@ ctrl = 1
 
 
 
-;=====================<MEKONG DELTA AIR RAID>==========================
+;=<MEKONG DELTA AIR RAID>==
 ;Rolling
 [StateDef 1300]
 type = S
@@ -2671,7 +2671,7 @@ ctrl = 1
 
 
 
-;========================<EX MEKONG DELTA AIR RAID>=============================
+;====<EX MEKONG DELTA AIR RAID>=
 ;Rolling
 [StateDef 1330]
 type = S
@@ -2896,7 +2896,7 @@ value = 1302
 
 
 
-;========================<MEKONG DELTA ESCAPE>=============================
+;====<MEKONG DELTA ESCAPE>=
 [StateDef 1400]
 type = S
 physics = N
@@ -3046,7 +3046,7 @@ ctrl = 1
 
 
 
-;========================<EX MEKONG DELTA ESCAPE>=============================
+;====<EX MEKONG DELTA ESCAPE>=
 [StateDef 1430]
 type = S
 physics = N
@@ -3151,7 +3151,7 @@ value = 1402
 
 
 
-;=====================<SCOUTER JUMP>==========================
+;=<SCOUTER JUMP>==
 [StateDef 1500]
 type = S
 physics = N
@@ -3240,7 +3240,7 @@ value = 52
 
 
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -3491,7 +3491,7 @@ ctrl = 1
 
 
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

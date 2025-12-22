@@ -1,11 +1,11 @@
 ; ________________________________________
 ;| Gouki by Phantom.of.the.Server and Mwryly |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;======================================< HYPER STATES >========================================
-;============================================================================================
+;====
+;==< HYPER STATES >====
+;====
 
-;======================< MESSATSU GOU HADOU >=============================
+;==< MESSATSU GOU HADOU >=
 [Statedef 3000]
 type = S
 physics = S
@@ -147,7 +147,7 @@ trigger1 = anim = 3001 && !animtime
 value = 0
 ctrl = 1
 
-;======================< MESSATSU GOU HADOU AGYO >=============================
+;==< MESSATSU GOU HADOU AGYO >=
 [Statedef 3020]
 type = S
 physics = S
@@ -339,7 +339,7 @@ trigger1 = anim = 3020 && !animtime
 value = 0
 ctrl = 1
 
-;======================< TENMA GOU ZANKUU >=============================
+;==< TENMA GOU ZANKUU >=
 [Statedef 3050]
 type = A
 physics = N
@@ -461,7 +461,7 @@ trigger1 = animelemtime(8) > 0
 physics = A
 
 
-;======================< TENMA GOU ZANKUU AGYO >=============================
+;==< TENMA GOU ZANKUU AGYO >=
 [Statedef 3070]
 type = A
 physics = N
@@ -630,7 +630,7 @@ trigger1 = animelemtime(32) >= 0
 physics = A
 
 
-;======================< MESSATSU GOU SHORYUU >=============================
+;==< MESSATSU GOU SHORYUU >=
 [Statedef 3100]
 type = S
 physics = S
@@ -1094,7 +1094,7 @@ trigger1 = anim = 1101
 movetype = I
 
 
-;======================< MESSATSU GOU RASEN >=============================
+;==< MESSATSU GOU RASEN >=
 [Statedef 3200]
 type = S
 physics = S
@@ -1434,7 +1434,7 @@ trigger1 = anim = 3205
 movetype = I
 
 
-;======================< MESSATSU GOU SENPUU >=============================
+;==< MESSATSU GOU SENPUU >=
 [Statedef 3250]
 type = A
 physics = N
@@ -1716,7 +1716,7 @@ type = statetypeset
 trigger1 = anim = 3205
 movetype = I
 
-;======================< TENMA SHINZUI WARI >=============================
+;==< TENMA SHINZUI WARI >=
 [Statedef 3300]
 type = A
 physics = N
@@ -1975,7 +1975,7 @@ trigger1 = anim = 3301 && !animtime
 value = 0
 ctrl = 1
 
-;======================< SHUN GOKU SATSU >=============================
+;==< SHUN GOKU SATSU >=
 [Statedef 4000]
 type = S
 physics = S
@@ -2849,7 +2849,7 @@ trigger2 = anim = 0 && time >= 54
 value = 0
 ctrl = 1
 
-;======================< MISOGI >=============================
+;==< MISOGI >=
 [Statedef 4100]
 type = S
 physics = S
@@ -3317,7 +3317,7 @@ type = selfstate
 trigger1 = animelemtime(7) >= 110
 value = ifelse(alive, 5120, 5150)
 
-;======================< KONGOU KOKURETSU ZAN >=============================
+;==< KONGOU KOKURETSU ZAN >=
 [Statedef 4200]
 type = S
 physics = S

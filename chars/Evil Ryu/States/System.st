@@ -3795,7 +3795,7 @@ trigger4 = Anim != 5035
 value = 5050
 
 ;===
-;====< -2 STATES=====
+;====< -2 STATES=
 ;===
 [Statedef -2]
 
@@ -4515,7 +4515,7 @@ ignorehitpause = 1
 
 
 ;===
-;====< -3 STATES=====
+;====< -3 STATES=
 ;===
 [Statedef -3]
 

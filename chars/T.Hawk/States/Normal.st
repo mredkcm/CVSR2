@@ -2,7 +2,7 @@
 ;| T.Hawk by varo_hades                    |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 ;===
-;==<NORMAL MOVES=====
+;==<NORMAL MOVES=
 ;===
 
 ;STANDING LIGHT PUNCH
@@ -1776,7 +1776,7 @@ value = 52
 ;JUMPING MEDIUM PUNCH
 [StateDef 610]
 type = A
-physics  = N
+physics = N
 moveType = A
 anim = 610
 ctrl = 0
@@ -2768,7 +2768,7 @@ trigger3 = AILevel && Random < 800
 var(42) = 2
 
 [State 820, Mashing Increment]
-type  = VarAdd
+type = VarAdd
 trigger1 = var(42) = 2
 var(12) = 1
 

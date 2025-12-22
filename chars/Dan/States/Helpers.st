@@ -1,11 +1,11 @@
 ; ________________________________________________
 ;| Dan by Phantom.of.the.Server and Mr.Ansatsuken |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< HELPER STATES >========================================
-;==============================================================================================
+;==
+;===< HELPER STATES >====
+;==
 
-;========================< PALETTE SELECTOR >=============================
+;====< PALETTE SELECTOR >=
 ;Palette Selector
 [Statedef 256]
 physics = N
@@ -89,7 +89,7 @@ trigger2=var(29)<=0
 trigger3=root,AILevel
 
 
-;========================< GADOU KEN >=============================
+;====< GADOU KEN >=
 ; Gadouken
 [Statedef 1005]
 type = S
@@ -304,7 +304,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< SAIKYO GADOU KEN >=============================
+;====< SAIKYO GADOU KEN >=
 ; Saikyo Gadouken
 [Statedef 1015]
 type = S
@@ -487,7 +487,7 @@ ignorehitpause = 1
 type = destroyself
 trigger1 = pos x != [ -280/camerazoom , 280/camerazoom]
 
-;========================< SHAKUNETSU GADOU KEN >=============================
+;====< SHAKUNETSU GADOU KEN >=
 ; Shakunetsu
 [Statedef 1025]
 type = S
@@ -718,7 +718,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< PREMIUM SIGN >=============================
+;====< PREMIUM SIGN >=
 ; Premium Sign
 [Statedef 1305]
 type = S
@@ -929,7 +929,7 @@ type = destroyself
 trigger1 = time >= 20
 
 
-;========================< PROJECTILE NULIFIER >=============================
+;====< PROJECTILE NULIFIER >=
 ;Projectile Nulifier
 [Statedef 1315]
 type=A
@@ -976,7 +976,7 @@ trigger4= root,anim=1302 && root,animelemtime(20)>=0
 trigger5= root,anim=1310 && root,animelemtime(9)>=0
 
 
-;========================< GADOU SHOUKOU KEN >=============================
+;====< GADOU SHOUKOU KEN >=
 ; Gadou Shoukouken
 [Statedef 1405]
 type = S
@@ -1211,7 +1211,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< SHINKUU GADOU KEN >=============================
+;====< SHINKUU GADOU KEN >=
 ; Shinkuu Gadouken
 [Statedef 3005]
 type = S
@@ -1414,7 +1414,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< SHINKUU GADOU KEN >=============================
+;====< SHINKUU GADOU KEN >=
 ; MAX Shinku Gadoken
 [Statedef 3405]
 type = S
@@ -1620,7 +1620,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;======================< OYAJI BLAST >=============================
+;==< OYAJI BLAST >=
 ; Oyaji Blast
 [Statedef 3750]
 type = S
@@ -1926,7 +1926,7 @@ ignorehitpause = 1
 persistent = 1
 
 
-;========================< OYAJI BEAM >=============================
+;====< OYAJI BEAM >=
 ;== Oyaji Beam ==
 [Statedef 3705]
 type = S
@@ -2210,7 +2210,7 @@ trigger1 = !animtime
 
 
 
-;========================< METSU GADOU KEN >=============================
+;====< METSU GADOU KEN >=
 ; Metsu Gadouken
 [Statedef 3805]
 type = S
@@ -2437,7 +2437,7 @@ trigger1 = pos x != [ -280/camerazoom , 280/camerazoom]
 
 
 
-;======================< JUN KOKU SATSU >=============================
+;==< JUN KOKU SATSU >=
 ;=Jun Koku Satsu=
 [Statedef 4250]
 type = S
@@ -3377,7 +3377,7 @@ value = 3751
 ctrl = 0
 
 
-;========================< HAOH GADOU KEN >=============================
+;====< HAOH GADOU KEN >=
 ; Haoh Gadouken
 [Statedef 4305]
 type = S
@@ -3808,7 +3808,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< SAIKYOU -RYUU BOUGYO >=============================
+;====< SAIKYOU -RYUU BOUGYO >=
 [Statedef 1505]
 physics = N
 velset = 0, 0
@@ -3869,7 +3869,7 @@ type = destroyself
 trigger1 = var(1) >= ifelse((var(10)=[6,7]),3,20)
 
 
-;========================< OTOKO CHARGE >=============================
+;====< OTOKO CHARGE >=
 [Statedef 4006]
 physics = N
 velset = 0, 0
@@ -3952,7 +3952,7 @@ trigger1 = root, animelemtime(6)>=0
 
 
 
-;========================< OTOKO PORTRAIT >=============================
+;====< OTOKO PORTRAIT >=
 [Statedef 4008]
 physics = N
 velset = 0, 0
@@ -3998,7 +3998,7 @@ type = destroyself
 trigger1 = time >= 30
 
 
-;========================< JUMP DUST >=============================
+;====< JUMP DUST >=
 [Statedef 7100]
 physics = N
 velset = 0, 0
@@ -4035,7 +4035,7 @@ flag = invisible
 type = destroyself
 trigger1 = time >= 7
 
-;========================< FLAMES >=============================
+;====< FLAMES >=
 ;--- ORANGE ---
 [Statedef 7180]
 physics = N
@@ -4231,7 +4231,7 @@ type = destroyself
 trigger1 = !numenemy || time >= 120
 
 
-;========================< SANDALS >=============================
+;====< SANDALS >=
 [Statedef 6005]
 type = A
 physics = N
@@ -4374,7 +4374,7 @@ trigger1 = time >= 17
 
 
 
-;========================< KANJI B.G. >=============================
+;====< KANJI B.G. >=
 ;=<Kanji BG>=
 [Statedef 7610]
 physics = N
@@ -4547,7 +4547,7 @@ trigger1 = time = ifelse(winko,85,60)
 
 
 
-;========================< SPARKS >=============================
+;====< SPARKS >=
 ;--- Guard Normal ---
 [Statedef 8000]
 type = A
@@ -5730,7 +5730,7 @@ type = destroyself
 trigger1 = time >= 8
 
 
-;========================< DUSTS >=============================
+;====< DUSTS >=
 ;--- Jump ---
 [Statedef 8100]
 type = S
@@ -5869,7 +5869,7 @@ type = destroyself
 trigger1 = !numexplod
 
 
-;========================< RECOVER FX >=============================
+;====< RECOVER FX >=
 [Statedef 8200]
 type = A
 velset = 0, 0
@@ -5895,7 +5895,7 @@ type = destroyself
 trigger1 = time >= 15
 
 
-;========================< COUNTER FX >=============================
+;====< COUNTER FX >=
 [Statedef 8290]
 type = A
 physics = N
@@ -5938,7 +5938,7 @@ type = destroyself
 trigger1 = time >= 16
 
 
-;====================< POWER CHARGE >====================
+;====< POWER CHARGE >====
 ;--- MAIN FX ---
 [Statedef 8330]
 type = A
@@ -6041,7 +6041,7 @@ type = destroyself
 trigger1 = root, stateno != 740
 
 
-;====================< ZERO COUNTER PAUSE >====================
+;====< ZERO COUNTER PAUSE >====
 [Statedef 8350]
 type = A
 physics = N
@@ -6091,7 +6091,7 @@ ownpal = 1
 type = destroyself
 trigger1 = time >= 16
 
-;========================< CUSTOM COMBO >=============================
+;====< CUSTOM COMBO >=
 [Statedef 8400]
 type = A
 physics = N
@@ -6187,7 +6187,7 @@ trigger1 = time >= 26
 
 
 
-;========================< SUPERPAUSE FX >=============================
+;====< SUPERPAUSE FX >=
 ;--- --Level 1 -----
 [Statedef 8500]
 type = A
@@ -6630,7 +6630,7 @@ type = DestroySelf
 trigger1 = Time >= 40
 
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [StateDef 8600]
 type = A
 velSet = 0,0
@@ -6853,7 +6853,7 @@ trigger1 = RoundState < 3
 
 
 
-;========================< CAMERA CONTROL >=============================
+;====< CAMERA CONTROL >=
 [Statedef 7650]
 physics = N
 velset = 0, 0

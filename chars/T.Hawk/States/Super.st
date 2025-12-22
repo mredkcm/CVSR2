@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| T.Hawk by varo_hades                    |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;===============================================================================
-;================================<SUPER STATES>=================================
-;===============================================================================
+;===
+;====<SUPER STATES>=
+;===
 
-;========================<DOUBLE TYPHOON>=============================
+;====<DOUBLE TYPHOON>=
 [StateDef 3000]
 type = S
 physics = S
@@ -739,7 +739,7 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 5100 ;Hit ground
 
-;========================<MAX DOUBLE TYPHOON>=========================
+;====<MAX DOUBLE TYPHOON>=
 [StateDef 3050]
 type = S
 physics = S
@@ -927,7 +927,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<CANYON SPLITTER>=============================
+;====<CANYON SPLITTER>=
 [StateDef 3100]
 type = S
 physics = N
@@ -1477,7 +1477,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<MAX CANYON SPLITTER>========================
+;====<MAX CANYON SPLITTER>====
 [StateDef 3150]
 type = S
 physics = N
@@ -1990,7 +1990,7 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 3105
 
-;========================<RAGING SLASH>==============================
+;====<RAGING SLASH>==
 [StateDef 3200]
 type = S
 physics = N
@@ -3253,7 +3253,7 @@ type = DestroySelf
 trigger1 = Time >= 12
 ignorehitpause = 1
 
-;========================<CONDOR SPLITTER>============================
+;====<CONDOR SPLITTER>====
 [StateDef 3300]
 type = A
 physics = N
@@ -3684,7 +3684,7 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 3105
 
-;========================<MAX CONDOR SPLITTER>========================
+;====<MAX CONDOR SPLITTER>====
 [StateDef 3350]
 type = A
 physics = N
@@ -4115,7 +4115,7 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 3105
 
-;========================<RAGING TYPHOON>=============================
+;====<RAGING TYPHOON>=
 [StateDef 3400]
 type = S
 physics = S

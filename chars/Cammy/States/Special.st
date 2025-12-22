@@ -1,11 +1,11 @@
 ; ________________________________
 ;| Cammy by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================< SPECIAL MOVES >=======================================
-;==============================================================================================
+;==
+;====< SPECIAL MOVES >===
+;==
 
-;========================< CANNON DRILL >=============================
+;====< CANNON DRILL >=
 [Statedef 1000]
 type = S
 physics = N
@@ -278,7 +278,7 @@ value = 0
 ctrl = 1
 
 
-;========================< CANNON DRILL >=============================
+;====< CANNON DRILL >=
 [Statedef 1020]
 type = S
 physics = N
@@ -545,7 +545,7 @@ value = 0
 ctrl = 1
 
 
-;========================< AIR CANNON DRILL >=============================
+;====< AIR CANNON DRILL >=
 [Statedef 1050]
 type = A
 physics = N
@@ -776,7 +776,7 @@ value = 0
 ctrl = 1
 
 
-;========================< EX AIR CANNON DRILL >=============================
+;====< EX AIR CANNON DRILL >=
 [Statedef 1060]
 type = A
 physics = N
@@ -985,7 +985,7 @@ trigger1 = pos y > -vel y
 value = 1052
 
 
-;========================< CANNON SPIKE >=============================
+;====< CANNON SPIKE >=
 [Statedef 1100]
 type = S
 physics = N
@@ -1270,7 +1270,7 @@ value = 0
 ctrl = 1
 
 
-;========================< CANNON SPIKE >=============================
+;====< CANNON SPIKE >=
 [Statedef 1120]
 type = S
 physics = N
@@ -1601,7 +1601,7 @@ value = 0
 ctrl = 1
 
 
-;========================< AXLE SPIN KNUCKLE >=============================
+;====< AXLE SPIN KNUCKLE >=
 [Statedef 1200]
 type = S
 physics = N
@@ -1827,7 +1827,7 @@ value = 0
 ctrl = 1
 
 
-;========================< EX AXLE SPIN KNUCKLE >=============================
+;====< EX AXLE SPIN KNUCKLE >=
 [Statedef 1220]
 type = S
 physics = N
@@ -2277,7 +2277,7 @@ trigger1 = vel y > 0 && pos y >= 0
 value = 5100
 
 
-;========================< HOOLIGAN COMBINATION >=============================
+;====< HOOLIGAN COMBINATION >=
 [Statedef 1300]
 type = S
 physics = N
@@ -2717,7 +2717,7 @@ value = 0
 ctrl = 1
 
 
-;========================< FATAL LEG TWISTER >=============================
+;====< FATAL LEG TWISTER >=
 [Statedef 1330]
 type = A
 physics = N
@@ -3063,7 +3063,7 @@ trigger1 = pos y > -vel y
 value = 5100
 
 
-;========================< CROSS SCISSOR PRESSURE >=============================
+;====< CROSS SCISSOR PRESSURE >=
 [Statedef 1340]
 type = A
 physics = N
@@ -3406,7 +3406,7 @@ trigger1 = pos y > -vel y
 value = 5100
 
 
-;========================< CANNON STRIKE >=============================
+;====< CANNON STRIKE >=
 [Statedef 1400]
 type = A
 physics = N
@@ -3553,7 +3553,7 @@ value = 0
 ctrl = 1
 
 
-;========================< EX CANNON STRIKE >=============================
+;====< EX CANNON STRIKE >=
 [Statedef 1420]
 type = A
 physics = N
@@ -3746,7 +3746,7 @@ value = 0
 ctrl = 1
 
 
-;========================< CANNON REVENGE >=============================
+;====< CANNON REVENGE >=
 ;--- High ---
 [Statedef 1500]
 type = S
@@ -4125,7 +4125,7 @@ value = 0
 ctrl = 1
 
 
-;========================< SNIPING ARROW >=============================
+;====< SNIPING ARROW >=
 [Statedef 1600]
 type = S
 physics = N
@@ -4284,7 +4284,7 @@ value = 0
 ctrl = 1
 
 
-;========================< EX SNIPING ARROW >=============================
+;====< EX SNIPING ARROW >=
 [Statedef 1620]
 type = S
 physics = N
@@ -4500,7 +4500,7 @@ trigger1 = (pos y -8) > -vel y
 value = 1603
 
 
-;========================< EARTH DIRECT >=============================
+;====< EARTH DIRECT >=
 [Statedef 1700]
 type = S
 physics = S
@@ -4937,7 +4937,7 @@ trigger1 = pos y > -vel y
 value = 5100
 
 
-;========================< EX EARTH DIRECT >=============================
+;====< EX EARTH DIRECT >=
 [Statedef 1730]
 type = S
 physics = S
@@ -5286,7 +5286,7 @@ trigger1 = !time
 y = 0
 
 
-;========================< PUNCH ZERO COUNTER >=============================
+;====< PUNCH ZERO COUNTER >=
 [Statedef 2900]
 type = S
 physics = N
@@ -5372,7 +5372,7 @@ value = 0
 ctrl = 1
 
 
-;========================< KICK ZERO COUNTER >=============================
+;====< KICK ZERO COUNTER >=
 [Statedef 2910]
 type = S
 physics = N

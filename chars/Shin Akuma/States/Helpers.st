@@ -2,7 +2,7 @@
 ;| Gouki by Phantom.of.the.Server and Mwryly |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 ;
-;===============HELPER STATES===========
+;===HELPER STATES===
 ;
 
 ;JUMP DUST
@@ -715,7 +715,7 @@ persistent = 0
 type = destroyself
 trigger1 = !animtime
 
-;==============================<EX SHAKUNETSU HADOUKEN>============================
+;==<EX SHAKUNETSU HADOUKEN>====
 [Statedef 1035]
 type = S
 physics = N
@@ -917,7 +917,7 @@ persistent = 0
 type = destroyself
 trigger1 = !animtime
 
-;========================<ZANKUU HADOUKEN
+;====<ZANKUU HADOUKEN
 [Statedef 1055]
 type = A
 physics = N
@@ -1251,7 +1251,7 @@ supermovetime = -1
 type = destroyself
 trigger1 = !animtime
 
-;=============================<EX ZANKUU HADOUKEN>============================
+;=<EX ZANKUU HADOUKEN>====
 [Statedef 1065]
 type = A
 physics = N
@@ -1660,7 +1660,7 @@ ignorehitpause = 1
 type = destroyself
 trigger1 = !animtime
 
-;MESSATSU GOU HADO AGYO===========
+;MESSATSU GOU HADO AGYO===
 [Statedef 3025]
 type = A
 physics = N
@@ -4331,7 +4331,7 @@ movecamera = 1, 1
 type = destroyself
 trigger1 = roundstate = 2
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -5298,7 +5298,7 @@ ignoreHitPause = 1
 type = DestroySelf
 trigger1 = Time >= 8
 
-;======================<IMPACT DUST>===========================
+;==<IMPACT DUST>===
 [StateDef 8110]
 type = A
 anim = 9741
@@ -5342,7 +5342,7 @@ trigger1 = Time >= 8
 type = DestroySelf
 trigger1 = !NumExplod
 
-;========================<COUNTER FX>=============================
+;====<COUNTER FX>=
 [StateDef 8290]
 type = A
 physics = N
@@ -5827,7 +5827,7 @@ trigger1 = Time >= 40
 type = DestroySelf
 trigger1 = Time >= 40
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0

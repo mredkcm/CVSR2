@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Chun-Li by Jmorphman                    |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;========================<KIKOKEN>=============================
+;====<KIKOKEN>=
 [StateDef 1000]
 type = S
 physics = N
@@ -71,7 +71,7 @@ ctrl = 1
 
 
 
-;========================<EX KIKOKEN>=============================
+;====<EX KIKOKEN>=
 [StateDef 1030]
 type = S
 physics = N
@@ -156,7 +156,7 @@ ctrl = 1
 
 
 
-;========================<HYAKURETSUKYAKU>=============================
+;====<HYAKURETSUKYAKU>=
 ;Startup
 [StateDef 1100]
 type = S
@@ -392,7 +392,7 @@ ctrl = 1
 
 
 
-;========================<EX HYAKURETSUKYAKU>=============================
+;====<EX HYAKURETSUKYAKU>=
 [StateDef 1130]
 type = S
 physics = N
@@ -595,7 +595,7 @@ ctrl = 1
 
 
 
-;=====================<SPINNING BIRD KICK>==========================
+;=<SPINNING BIRD KICK>==
 [StateDef 1200]
 type = S
 physics = N
@@ -845,7 +845,7 @@ ctrl = 1
 
 
 
-;========================<EX SPINNING BIRD KICK>=============================
+;====<EX SPINNING BIRD KICK>=
 [StateDef 1230]
 type = S
 physics = N
@@ -1195,7 +1195,7 @@ ctrl = 1
 
 
 
-;=====================<HAZANSHU>==========================
+;=<HAZANSHU>==
 [StateDef 1300]
 type = S
 physics = N
@@ -1443,7 +1443,7 @@ ctrl = 1
 
 
 
-;========================<SLAMMED AGAINST THE GROUND>=============================
+;====<SLAMMED AGAINST THE GROUND>=
 ;Being Slammed (Standing)
 [StateDef 5420]
 type = U
@@ -1630,7 +1630,7 @@ value = 5421
 
 
 
-;========================<EX HAZANSHU>=============================
+;====<EX HAZANSHU>=
 [StateDef 1330]
 type = S
 physics = N
@@ -1729,7 +1729,7 @@ value = 1301
 
 
 
-;=====================<TENSHOKYAKU>==========================
+;=<TENSHOKYAKU>==
 [StateDef 1400]
 type = S
 physics = N
@@ -2121,7 +2121,7 @@ ctrl = 1
 
 
 
-;========================<EX TENSHOKYAKU>=============================
+;====<EX TENSHOKYAKU>=
 [StateDef 1430]
 type = S
 physics = N
@@ -2496,7 +2496,7 @@ value = 1401
 
 
 
-;=====================<SEN'ENSHU>==========================
+;=<SEN'ENSHU>==
 [StateDef 1500]
 type = S
 physics = N
@@ -2668,7 +2668,7 @@ ctrl = 1
 
 
 
-;=====================<EX SEN'ENSHU>==========================
+;=<EX SEN'ENSHU>==
 [StateDef 1530]
 type = S
 physics = N
@@ -2874,7 +2874,7 @@ ctrl = 1
 
 
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -2971,7 +2971,7 @@ ctrl = 1
 
 
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

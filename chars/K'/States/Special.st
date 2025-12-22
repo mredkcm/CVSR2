@@ -1,12 +1,12 @@
 ; _____________________________________
 ;| K' by Chazzanova & Dampir           |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
 
-;========================<EIN TRIGGER>=============================
+;====<EIN TRIGGER>=
 [StateDef 1000]
 type = S
 physics = N
@@ -132,7 +132,7 @@ ctrl = 1
 
 
 
-;========================<SECOND SHOOT>=============================
+;====<SECOND SHOOT>=
 [StateDef 1010]
 type = A
 physics = S
@@ -248,7 +248,7 @@ ctrl = 1
 
 
 
-;========================<SECOND SHELL>=============================
+;====<SECOND SHELL>=
 [StateDef 1020]
 type = S
 physics = N
@@ -403,7 +403,7 @@ ctrl = 1
 
 
 
-;========================<EX EIN TRIGGER>=============================
+;====<EX EIN TRIGGER>=
 [StateDef 1030]
 type = S
 physics = N
@@ -554,7 +554,7 @@ ctrl = 1
 
 
 
-;========================<EX SECOND SHOOT>=============================
+;====<EX SECOND SHOOT>=
 [StateDef 1040]
 type = A
 physics = S
@@ -629,7 +629,7 @@ value = 1013
 
 
 
-;========================<EX SECOND SHELL>=============================
+;====<EX SECOND SHELL>=
 [StateDef 1050]
 type = S
 physics = N
@@ -821,7 +821,7 @@ ctrl = 1
 
 
 
-;========================<CR0W BITES>=============================
+;====<CR0W BITES>=
 [StateDef 1100]
 type = S
 physics = N
@@ -1172,7 +1172,7 @@ ctrl = 1
 
 
 
-;========================<EX CR0W BITES>=============================
+;====<EX CR0W BITES>=
 [StateDef 1130]
 type = S
 physics = N
@@ -1706,7 +1706,7 @@ value = 1105
 
 
 
-;========================<SECONDARY BITES>=============================
+;====<SECONDARY BITES>=
 [StateDef 1150]
 type = A
 physics = N
@@ -1791,7 +1791,7 @@ value = 1105
 
 
 
-;========================<MINUTES SPIKE>=============================
+;====<MINUTES SPIKE>=
 [StateDef 1200]
 type = S
 physics = S
@@ -1999,7 +1999,7 @@ ctrl = 1
 
 
 
-;========================<EX MINUTES SPIKE>=============================
+;====<EX MINUTES SPIKE>=
 [StateDef 1230]
 type = S
 physics = S
@@ -2193,7 +2193,7 @@ value = 1205
 
 
 
-;========================<NARROW SPIKE>=============================
+;====<NARROW SPIKE>=
 [StateDef 1250]
 type = S
 physics = S
@@ -2302,7 +2302,7 @@ ctrl = 1
 
 
 
-;========================<EX NARROW SPIKE>=============================
+;====<EX NARROW SPIKE>=
 [StateDef 1280]
 type = S
 physics = S
@@ -2406,7 +2406,7 @@ ctrl = 1
 
 
 
-;========================<MINUTES SPIKE (AIR)>=============================
+;====<MINUTES SPIKE (AIR)>=
 [StateDef 1300]
 type = A
 physics = N
@@ -2526,7 +2526,7 @@ value = 1205
 
 
 
-;========================<EX MINUTES SPIKE (AIR)>=============================
+;====<EX MINUTES SPIKE (AIR)>=
 [StateDef 1330]
 type = A
 physics = N
@@ -2681,7 +2681,7 @@ value = 1205
 
 
 
-;========================<BLACK OUT>=============================
+;====<BLACK OUT>=
 [StateDef 1400]
 type = S
 physics = N
@@ -2776,7 +2776,7 @@ ctrl = 1
 
 
 
-;========================<BLACK OUT (FROM EINS TRIGGER)>=============================
+;====<BLACK OUT (FROM EINS TRIGGER)>=
 [StateDef 1410]
 type = S
 physics = N
@@ -2866,7 +2866,7 @@ ctrl = 1
 
 
 
-;========================<EX BLACK OUT>=============================
+;====<EX BLACK OUT>=
 [StateDef 1430]
 type = S
 physics = N
@@ -2987,7 +2987,7 @@ ctrl = 1
 
 
 
-;========================<AIR TRIGGER>=============================
+;====<AIR TRIGGER>=
 [Statedef 1500]
 type = A
 physics = N
@@ -3078,7 +3078,7 @@ value = 1013
 
 
 
-;========================<EX AIR TRIGGER>=============================
+;====<EX AIR TRIGGER>=
 [Statedef 1530]
 type = A
 physics = N
@@ -3188,7 +3188,7 @@ value = 1013
 
 
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -3457,7 +3457,7 @@ value = 1105
 
 
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

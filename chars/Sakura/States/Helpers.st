@@ -1,11 +1,11 @@
 ; _________________________________
 ;| Sakura by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< HELPER STATES >========================================
-;==============================================================================================
+;==
+;===< HELPER STATES >====
+;==
 
-;========================< HADOU KEN >=============================
+;====< HADOU KEN >=
 [Statedef 1005]
 type = S
 physics = N
@@ -433,7 +433,7 @@ type = destroyself
 trigger1 = time >= 16
 
 
-;========================< HADOU SHOU >=============================
+;====< HADOU SHOU >=
 [Statedef 1015]
 type = S
 physics = N
@@ -619,7 +619,7 @@ value = 1015
 ignorehitpause = 1
 
 
-;========================< PROJECTILE SHIELD >=============================
+;====< PROJECTILE SHIELD >=
 [Statedef 1115]
 type = A
 physics = N
@@ -664,7 +664,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< PROJECTILE HITTER >=============================
+;====< PROJECTILE HITTER >=
 [Statedef 1306]
 type = A
 physics = N
@@ -725,7 +725,7 @@ trigger1 = root, stateno != 1305 || root, anim != 1305
 trigger2 = root, stateno = 1305 && !(root, time)
 
 
-;========================< SHINKUU HADOU KEN >=============================
+;====< SHINKUU HADOU KEN >=
 [Statedef 3005]
 type = S
 physics = N
@@ -1037,7 +1037,7 @@ type = destroyself
 trigger1 = time >= 10
 
 
-;========================< NEKKETSU HADOU KEN >=============================
+;====< NEKKETSU HADOU KEN >=
 [Statedef 4305]
 type = S
 physics = N
@@ -1288,7 +1288,7 @@ trigger1 = time >= 16
 trigger1 = !numhelper(4310) || time >= 180
 
 
-;========================< NEKKETSU FRAGMENT >=============================
+;====< NEKKETSU FRAGMENT >=
 [Statedef 4310]
 type = S
 physics = N
@@ -1410,7 +1410,7 @@ type = destroyself
 trigger1 = time >= 12
 
 
-;========================< HADOUKEN CHARGE >=============================
+;====< HADOUKEN CHARGE >=
 [Statedef 1002]
 physics = N
 velset = 0, 0
@@ -1648,7 +1648,7 @@ trigger1 = root, stateno != 4300 || (root, anim != [4300, 4301])
 trigger2 = root, anim = 4301 && root, animelemtime(2) >= 0
 
 
-;========================< HADOUKEN INTRO >=============================
+;====< HADOUKEN INTRO >=
 [Statedef 1003]
 physics = N
 velset = 0, 0
@@ -1737,7 +1737,7 @@ trigger1 = root, stateno != 352
 trigger2 = anim = 1006 && !animtime
 
 
-;========================< 7251 CIRCLE >=============================
+;====< 7251 CIRCLE >=
 [Statedef 7251]
 physics = N
 velset = 0, 0
@@ -1772,7 +1772,7 @@ type = destroyself
 trigger1 = !numexplod(7251)
 
 
-;========================< JUMP DUST >=============================
+;====< JUMP DUST >=
 [Statedef 7100]
 physics = N
 velset = 0, 0
@@ -1810,7 +1810,7 @@ type = destroyself
 trigger1 = time >= 7
 
 
-;========================< SUPER CHARGE >=============================
+;====< SUPER CHARGE >=
 [Statedef 7500]
 physics = N
 velset = 0, 0
@@ -2446,7 +2446,7 @@ trigger1 = time >= 40
 type = destroyself
 trigger1 = time >= 40
 
-;========================< POWER CHARGE >=============================
+;====< POWER CHARGE >=
 ;--- MAIN FX ---
 [Statedef 7240]
 type = S
@@ -2539,7 +2539,7 @@ type = destroyself
 trigger1 = (root, stateno != 740) || (root, anim != 740) || (root, movetype = H)
 
 
-;========================< ZERO COUNTER CHARGE >=============================
+;====< ZERO COUNTER CHARGE >=
 [Statedef 7250]
 physics = N
 velset = 0, 0
@@ -2605,7 +2605,7 @@ type = destroyself
 trigger1 = time >= 20
 
 
-;========================< EXCEL COMBO CHARGE >=============================
+;====< EXCEL COMBO CHARGE >=
 [Statedef 7260]
 physics = N
 velset = 0, 0
@@ -2686,7 +2686,7 @@ type = destroyself
 trigger1 = time >= 30
 
 
-;========================< COUNTER F.X. >=============================
+;====< COUNTER F.X. >=
 [Statedef 7400]
 type = A
 physics = N
@@ -2709,7 +2709,7 @@ type = destroyself
 trigger1 = time >= 8
 
 
-;========================< SUPER FINISH >=============================
+;====< SUPER FINISH >=
 [Statedef 7600]
 type = A
 velset = 0, 0
@@ -2819,7 +2819,7 @@ type = destroyself
 trigger1 = roundstate < 3
 
 
-;========================< HARU KANJI >=============================
+;====< HARU KANJI >=
 [Statedef 7610]
 type = A
 physics = N
@@ -2902,7 +2902,7 @@ trans = AddAlpha
 alpha = 256 - (32 * Time), 32 * Time
 
 
-;==========< KEI INTRO >==========
+;==< KEI INTRO >==
 [Statedef 6000]
 type = S
 physics = N
@@ -2961,7 +2961,7 @@ trigger1 = anim = 6001
 trigger1 = frontedgedist < -50
 
 
-;==========< KEI WIN POSE 1 >==========
+;==< KEI WIN POSE 1 >==
 [Statedef 6002]
 type = S
 physics = N
@@ -3017,7 +3017,7 @@ statetype = L
 physics = C
 
 
-;==========< KEI WIN POSE 2 >==========
+;==< KEI WIN POSE 2 >==
 [Statedef 6004]
 type = S
 physics = N
@@ -3051,7 +3051,7 @@ trigger1 = anim = 6004
 physics = S
 
 
-;==========< KEI SHUN GOKU SATSU >==========
+;==< KEI SHUN GOKU SATSU >==
 [Statedef 6010]
 type = S
 physics = N
@@ -3200,7 +3200,7 @@ trigger1 = anim = 6002
 trigger1 = frontedgedist < -50
 
 
-;========================< SHOE >=============================
+;====< SHOE >=
 [Statedef 1475]
 type = A
 physics = N
@@ -3407,7 +3407,7 @@ ownpal = 1
 persistent = 0
 
 
-;========================< CAMERA CONTROL >=============================
+;====< CAMERA CONTROL >=
 [Statedef 7650]
 physics = N
 velset = 0, 0
@@ -3422,7 +3422,7 @@ movecamera = 1, 1
 type = destroyself
 trigger1 = roundstate = 2
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -4802,7 +4802,7 @@ type = destroyself
 trigger1 = time >= 26
 
 
-;========================< SUPERPAUSE FX >=============================
+;====< SUPERPAUSE FX >=
 ;--- --Level 1 -----
 [Statedef 8500]
 type = A
@@ -5245,7 +5245,7 @@ type = destroyself
 trigger1 = time >= 40
 
 
-;========================< SUPER FINISH >=============================
+;====< SUPER FINISH >=
 [Statedef 8600]
 type = A
 velset = 0, 0
@@ -5419,7 +5419,7 @@ trigger2 = roundstate < 3
 type = destroyself
 trigger1 = roundstate < 3
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0
@@ -5623,7 +5623,7 @@ trigger1 =time>=32
 ;CAMERA FOCUS
 [Statedef 6001]
 type = S
-physics  = S
+physics = S
 anim = 0
 ctrl = 0
 

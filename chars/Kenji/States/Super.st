@@ -1,9 +1,9 @@
 ; _________________________________________
 ;|Kenji by K6666orochi
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER MOVES>========================================
-;==============================================================================================
+;==
+;====<SUPER MOVES>====
+;==
 
 ;---------------------------------------------------------------------------
 ;Super 1
@@ -153,7 +153,7 @@ ctrl = 1
 
 ;FIre
 [Statedef 3002]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -177,20 +177,20 @@ type = HitDef
 Trigger1= Movecontact!=[1,10]
 Trigger1=Hitcount<5
 attr = S, SP
-animtype  = Heavy
-damage    = 40,5
+animtype = Heavy
+damage = 40,5
 guardflag = MA
 pausetime = 0,5
 sparkno = S27004
 sparkxy = 0,-70
-hitsound   = S3000,1
+hitsound = S3000,1
 guardsound = S3,0
 ground.type = High
 ground.slidetime = 10
-ground.hittime  = 10
+ground.hittime = 10
 cornerpush = 0
 guard.slidetime = 10
-guard.hittime  = 30
+guard.hittime = 30
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 air.hittime = 30
@@ -256,7 +256,7 @@ trigger1 = parent, movetype = H
 
 ;FIre
 [Statedef 3003]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -384,7 +384,7 @@ ctrl = 1
 
 ;FIre
 [Statedef 3052]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -407,20 +407,20 @@ type = HitDef
 Trigger1= Movecontact!=[1,10]
 Trigger1=Hitcount<5
 attr = S, SP
-animtype  = Heavy
-damage    = 60,5
+animtype = Heavy
+damage = 60,5
 guardflag = MA
 pausetime = 0,5
 sparkno = S27004
 sparkxy = 0,-70
-hitsound   = S3000,1
+hitsound = S3000,1
 guardsound = S3,0
 ground.type = High
 ground.slidetime = 10
-ground.hittime  = 10
+ground.hittime = 10
 cornerpush = 0
 guard.slidetime = 10
-guard.hittime  = 30
+guard.hittime = 30
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 air.hittime = 30
@@ -497,7 +497,7 @@ trigger1 = parent, movetype = H
 
 ;FIre
 [Statedef 3053]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -761,7 +761,7 @@ ctrl = 1
 
 ;jumonji rows ready
 [Statedef 3102]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -837,7 +837,7 @@ value = 3103
 
 ;Jumonji go
 [Statedef 3103]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -873,21 +873,21 @@ flag = noshadow
 type = hitdef
 trigger1 = time = 0
 attr = S, SP
-damage    = 55,5
-animtype  = Medium
+damage = 55,5
+animtype = Medium
 guardflag = MA
 hitflag = MAF
 pausetime = 2,4
 sparkno = s7210+random%64
 guard.sparkno = s7010
 sparkxy = 20, 0
-hitsound   = S5,0
+hitsound = S5,0
 guardsound = S6,0
 ground.type = Low
 ground.slidetime = 15
 guard.slidetime = 15
-ground.hittime  = 15
-guard.hittime  = 15
+ground.hittime = 15
+guard.hittime = 15
 air.hittime = 13
 ground.velocity = -3
 guard.velocity = -3
@@ -933,7 +933,7 @@ trigger1 = FrontEdgeDist <= -40
 
 ; shuri hit
 [Statedef 6035]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -962,7 +962,7 @@ trigger1 = Animtime = 0
 
 ; shuri hit ground
 [Statedef 6045]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -976,7 +976,7 @@ trigger1 = Animtime = 0
 
 ; shuri hit
 [Statedef 6036]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -1005,7 +1005,7 @@ trigger1 = Animtime = 0
 
 ; shuri hit ground
 [Statedef 6046]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -1019,7 +1019,7 @@ trigger1 = Animtime = 0
 
 ; shuri hit
 [Statedef 6037]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -1048,7 +1048,7 @@ trigger1 = Animtime = 0
 
 ; shuri hit ground
 [Statedef 6047]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -1253,7 +1253,7 @@ ctrl = 1
 
 ;Jumonji1
 [Statedef 3110]
-type    = S
+type = S
 movetype = A
 physics = N
 ctrl = 0
@@ -1283,7 +1283,7 @@ value = 3118
 
 ;Jumonji2
 [Statedef 3111]
-type    = S
+type = S
 movetype = A
 physics = N
 ctrl = 0
@@ -1313,7 +1313,7 @@ value = 3118
 
 ;Jumonji3
 [Statedef 3112]
-type    = S
+type = S
 movetype = A
 physics = N
 ctrl = 0
@@ -1343,7 +1343,7 @@ value = 3118
 
 ;Jumonji4
 [Statedef 3113]
-type    = S
+type = S
 movetype = A
 physics = N
 ctrl = 0
@@ -1373,7 +1373,7 @@ value = 3118
 
 ;Jumonji5
 [Statedef 3114]
-type    = S
+type = S
 movetype = A
 physics = N
 ctrl = 0
@@ -1403,7 +1403,7 @@ value = 3118
 
 ;Jumonji6
 [Statedef 3115]
-type    = S
+type = S
 movetype = A
 physics = N
 ctrl = 0
@@ -1433,7 +1433,7 @@ value = 3118
 
 ;Jumonji7
 [Statedef 3116]
-type    = S
+type = S
 movetype = A
 physics = N
 ctrl = 0
@@ -1463,7 +1463,7 @@ value = 3118
 
 ;Jumonji8
 [Statedef 3117]
-type    = S
+type = S
 movetype = A
 physics = N
 ctrl = 0
@@ -1493,7 +1493,7 @@ value = 3118
 
 ;Jumonji wait
 [Statedef 3118]
-type    = S
+type = S
 movetype = A
 physics = N
 ctrl = 0
@@ -1589,7 +1589,7 @@ value = 3119
 
 ;Jumonji go
 [Statedef 3119]
-type    = S
+type = S
 movetype = A
 physics = N
 ctrl = 0
@@ -1674,21 +1674,21 @@ envShake.freq = 120
 type = hitdef
 trigger1 = time = 0
 attr = S, SP
-damage    = 40,5
-animtype  = Medium
+damage = 40,5
+animtype = Medium
 guardflag = MA
 hitflag = MAF
 pausetime = 2,4
 sparkno = s7210+random%64
 guard.sparkno = s7010
 sparkxy = 20, 0
-hitsound   = S5,0
+hitsound = S5,0
 guardsound = S6,0
 ground.type = Low
 ground.slidetime = 15
 guard.slidetime = 15
-ground.hittime  = 15
-guard.hittime  = 15
+ground.hittime = 15
+guard.hittime = 15
 air.hittime = 13
 ground.velocity = -3
 guard.velocity = -3
@@ -2236,7 +2236,7 @@ ctrl = 1
 ;--------------------------------------------
 ;Super 3 (Miss)
 [Statedef 3301]
-type    = S
+type = S
 physics = S
 movetype=I
 ctrl = 0

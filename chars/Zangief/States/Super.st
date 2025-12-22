@@ -1,13 +1,13 @@
 ; _________________________________________
 ;| Zangief by varo_hades                   |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;SUPER STATES>====
+;==
 
-;========================<Final Atomic Buster>=============================
+;Final Atomic Buster>=
 [StateDef 3000]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -172,7 +172,7 @@ ctrl = 1
 
 ;Part 2
 [Statedef 3001]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -435,7 +435,7 @@ value = 1
 [State 901, Hurt]
 type = TargetLifeAdd
 trigger1 = AnimElem = 9
-value = -85
+value = -100
 kill = 0
 
 [State 903, EnvShake]
@@ -451,7 +451,7 @@ value = 3002
 
 ;Part 3
 [Statedef 3022]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -634,7 +634,7 @@ value = 1
 [State 901, Hurt]
 type = TargetLifeAdd
 trigger1 = time = 1
-value = -155
+value = -150
 kill = 0
 
 [State 903, EnvShake]
@@ -650,7 +650,7 @@ value = 3002
 
 ;Part 4
 [Statedef 3002]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -759,7 +759,7 @@ value = 1
 [State 901, Hurt]
 type = TargetLifeAdd
 trigger1 = time = 1
-value = -135
+value = -150
 
 [State 901, State End]
 type = ChangeState
@@ -769,7 +769,7 @@ value = 3003
 
 ;Part 5
 [Statedef 3003]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 812
@@ -822,7 +822,7 @@ ctrl = 1
 
 ;Player 2
 [Statedef 3005]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -840,7 +840,7 @@ value = 3005
 
 ;Player 2 part 2
 [Statedef 3015]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -865,7 +865,7 @@ persistent = 0
 
 ;Player 2 part 3
 [Statedef 3026]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -883,7 +883,7 @@ value = 3026
 
 ;Player 2 part 4
 [Statedef 3006]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -926,7 +926,7 @@ value = 5100
 
 ;Player 2 part 6
 [Statedef 3009]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -942,7 +942,7 @@ type = NotHitBy
 trigger1 = 1
 value = SCA
 
-;========================<MAX Final Atomic Buster>=============================
+;MAX Final Atomic Buster>=
 [StateDef 3050]
 type = S
 physics = S
@@ -1108,7 +1108,7 @@ ctrl = 1
 
 ;Part 2
 [Statedef 3051]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -1371,7 +1371,7 @@ value = 1
 [State 901, Hurt]
 type = TargetLifeAdd
 trigger1 = AnimElem = 9
-value = -70
+value = -100
 kill = 0
 
 [State 903, EnvShake]
@@ -1385,9 +1385,9 @@ trigger1 = AnimElemTime(16) > 0
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 3022
 
-;========================<Super Aerial Russian Slam>=============================
+;Super Aerial Russian Slam>=
 [StateDef 3100]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -1622,7 +1622,7 @@ value = 3105
 
 ;Player stand
 [Statedef 3105]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 812
@@ -1671,7 +1671,7 @@ ctrl = 1
 
 ;Player 2
 [Statedef 3109]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -1689,7 +1689,7 @@ value = SCA
 
 ;Part 2
 [Statedef 3121]
-type    = A
+type = A
 movetype = A
 physics = N
 velset = 0,0
@@ -1739,7 +1739,7 @@ value = 3122
 
 ;Part 3
 [Statedef 3122]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -1848,7 +1848,7 @@ value = 1
 [State 901, Hurt]
 type = TargetLifeAdd
 trigger1 = time = 1
-value = -209
+value = -200
 
 [State 901, State End]
 type = ChangeState
@@ -1858,7 +1858,7 @@ value = 3123
 
 ;Part 4
 [Statedef 3123]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 812
@@ -1911,7 +1911,7 @@ ctrl = 1
 
 ;Player 2
 [Statedef 3125]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -1929,7 +1929,7 @@ value = 3125
 
 ;Player 2 part 2
 [Statedef 3126]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -1972,7 +1972,7 @@ value = 5100
 
 ;Part 2
 [Statedef 3131]
-type    = A
+type = A
 movetype = A
 physics = N
 velset = 0,0
@@ -2062,7 +2062,7 @@ value = 3132
 
 ;Part 3
 [Statedef 3132]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -2165,7 +2165,7 @@ value = 1
 [State 901, Hurt]
 type = TargetLifeAdd
 trigger1 = time = 1
-value = -332
+value = -300
 
 [State 901, State End]
 type = ChangeState
@@ -2175,7 +2175,7 @@ value = 3133
 
 ;Part 4
 [Statedef 3133]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 812
@@ -2224,7 +2224,7 @@ ctrl = 1
 
 ;Player 2
 [Statedef 3135]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -2242,7 +2242,7 @@ value = 3135
 
 ;Player 2 part 2
 [Statedef 3136]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -2283,9 +2283,9 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 5100
 
-;========================<MAX Super Aerial Russian Slam>=============================
+;MAX Super Aerial Russian Slam>=
 [StateDef 3150]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -2518,7 +2518,7 @@ trigger1 = AnimElemTime(5) >= 0
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 3105
 
-;========================<Ultimate Atomic Buster>=============================
+;Ultimate Atomic Buster>=
 [StateDef 3200]
 type = S
 movetype= A
@@ -2698,7 +2698,7 @@ ctrl = 1
 
 ;Part 2
 [Statedef 3201]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -2971,7 +2971,7 @@ ctrl = 0
 
 ;Part 4
 [Statedef 3205]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -3137,7 +3137,7 @@ value = 52
 
 ;Part 5
 [Statedef 3206]
-type    = A
+type = A
 movetype = A
 physics = N
 anim = 3206
@@ -3330,39 +3330,39 @@ value = 1
 
 [State 0, PlaySnd]
 type = PlaySnd
-trigger1  = animelem = 4 && var(40) != 1
+trigger1 = animelem = 4 && var(40) != 1
 value = 41,0
 volume = 255
 channel = 0
 
 [State 0, PlaySnd]
 type = PlaySnd
-trigger1  = time = 0 && var(40) != 1
+trigger1 = time = 0 && var(40) != 1
 value = 820,2
 channel = 1
 
 [State 0, PlaySnd]
 type = PlaySnd
-trigger1  = time = 0 && var(40) != 1
+trigger1 = time = 0 && var(40) != 1
 value = 3200,4
 channel = 2
 
 [State 0, PlaySnd]
 type = PlaySnd
-trigger1  = animelem = 4 && var(40) != 0
+trigger1 = animelem = 4 && var(40) != 0
 value = 6,2
 volume = 255
 channel = 0
 
 [State 0, PlaySnd]
 type = PlaySnd
-trigger1  = time = 0 && var(40) != 0
+trigger1 = time = 0 && var(40) != 0
 value = 820,3
 channel = 1
 
 [State 0, PlaySnd]
 type = PlaySnd
-trigger1  = time = 0 && var(40) != 0
+trigger1 = time = 0 && var(40) != 0
 value = 3050,2
 channel = 2
 
@@ -3455,7 +3455,7 @@ ctrl = 0
 
 ;Player 2
 [Statedef 3210]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3492,7 +3492,7 @@ value = 3211
 
 ;Player 2 part 3
 [Statedef 3212]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3528,7 +3528,7 @@ value = 5100
 
 ;Player 2 part 5
 [Statedef 3213]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3546,7 +3546,7 @@ value = 3213
 
 ;Player 2 part 6
 [Statedef 3214]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3597,7 +3597,7 @@ value = 5100
 
 ;Player 2 part 9
 [Statedef 3209]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3613,9 +3613,9 @@ type = NotHitBy
 trigger1 = 1
 value = SCA
 
-;========================<Ultra Final Atomic Buster>=============================
+;Ultra Final Atomic Buster>=
 [StateDef 3300]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -3782,7 +3782,7 @@ ctrl = 1
 
 ;Part 2
 [Statedef 3351]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -3925,7 +3925,7 @@ value = 3352
 
 ;Part 3
 [Statedef 3352]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -4076,7 +4076,7 @@ value = 1
 [State 901, Hurt]
 type = TargetLifeAdd
 trigger1 = time = 1
-value = -105
+value = -150
 kill = 0
 
 [State 903, EnvShake]
@@ -4092,7 +4092,7 @@ value = 3303
 
 ;Player 2 part 2
 [Statedef 3362]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -4108,9 +4108,9 @@ type = ChangeAnim2
 trigger1 = Time = 0
 value = 3362
 
-;========================<MAX Ultra Final Atomic Buster>=============================
+;MAX Ultra Final Atomic Buster>=
 [StateDef 3350]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -4277,7 +4277,7 @@ ctrl = 1
 
 ;Part 2
 [Statedef 3301]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -4420,7 +4420,7 @@ value = 3302
 
 ;Part 3
 [Statedef 3302]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -4647,7 +4647,7 @@ value = 1
 type = TargetLifeAdd
 trigger1 = time = 1
 trigger2 = AnimElem = 8
-value = -105
+value = -125
 kill = 0
 
 [State 903, EnvShake]
@@ -4664,7 +4664,7 @@ value = 3303
 
 ;Part 4
 [Statedef 3303]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -4852,7 +4852,7 @@ value = 1
 [State 901, Hurt]
 type = TargetLifeAdd
 trigger1 = time = 1
-value = -105
+value = -125
 kill = 0
 
 [State 903, EnvShake]
@@ -4893,7 +4893,7 @@ value = 3310
 
 ;Part 5
 [Statedef 3310]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 12
@@ -4942,7 +4942,7 @@ ctrl = 1
 
 ;Part 7
 [Statedef 3304]
-type    = A
+type = A
 movetype = A
 physics = N
 anim = 3304
@@ -5061,7 +5061,7 @@ value = 3305
 
 ;Part 8
 [Statedef 3305]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -5188,7 +5188,7 @@ value = 1
 [State 901, Hurt]
 type = TargetLifeAdd
 trigger1 = time = 1
-value = -105
+value = -125
 
 [State 901, Hurt]
 type = TargetPowerAdd
@@ -5203,7 +5203,7 @@ value = 3306
 
 ;End part
 [Statedef 3306]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 812
@@ -5245,7 +5245,7 @@ ctrl = 1
 
 ;Player 2
 [Statedef 3311]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -5263,7 +5263,7 @@ value = 3311
 
 ;Player 2 part 2
 [Statedef 3312]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -5281,7 +5281,7 @@ value = 3312
 
 ;Player 2 part 3
 [Statedef 3313]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -5316,7 +5316,7 @@ value = 5100
 
 ;Player 2 part 4
 [Statedef 3314]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -5334,7 +5334,7 @@ value = 3314
 
 ;Player 2 part 5
 [Statedef 3315]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -5377,7 +5377,7 @@ value = 5100
 
 ;Player 2 end
 [Statedef 3309]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -5393,7 +5393,7 @@ type = NotHitBy
 trigger1 = 1
 value = SCA
 
-;========================<Siberian Blizzard>=============================
+;Siberian Blizzard>=
 [StateDef 3400]
 type = S
 movetype = A
@@ -5543,7 +5543,7 @@ trigger3 = AnimElem = 8
 attr = A, HA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 damage = ceil(ifElse(fvar(11) * 35 < 7, 7, fvar(11) * 35)), 7
@@ -5593,7 +5593,7 @@ trigger4 = AnimElem = 9
 attr = A, HA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 damage = ceil(ifElse(fvar(11) * 35 < 7, 7, fvar(11) * 35)), 7
@@ -5683,7 +5683,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<MAX Siberian Blizzard>=============================
+;MAX Siberian Blizzard>=
 [StateDef 3450]
 type = S
 movetype = A
@@ -5836,7 +5836,7 @@ trigger6 = AnimElem = 14
 attr = A, HA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 damage = ceil(ifElse(fvar(11) * 28 < 7, 7, fvar(11) * 28)), 7
@@ -5889,7 +5889,7 @@ trigger7 = AnimElem = 15
 attr = A, HA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 damage = ceil(ifElse(fvar(11) * 28 < 7, 7, fvar(11) * 28)), 7
@@ -5936,9 +5936,9 @@ trigger1 = Pos Y >= 0 && Vel Y > 0
 trigger1 = animelemtime(4) > 0
 value = 3405
 
-;========================<Power Atomic Destruction>=============================
+;Power Atomic Destruction>=
 [StateDef 3500]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 3500
@@ -6071,7 +6071,7 @@ ctrl = 1
 
 ; Success
 [Statedef 3501]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0

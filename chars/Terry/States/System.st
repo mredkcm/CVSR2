@@ -1,19 +1,19 @@
 ; ADD004 BASIC PIEs ReBuilded CNS (25/12/2018)
-;==============================================
+;==
 ; This file is Made by PIE.
 ; there is a backup of this file in the same folder, named "<samename>.a4bk".
 ; to Restore, use assist tool, or delete this file, then remove ".a4bk" from the neme of backup.
-;==============================================
+;==
 
 ;                          ____________________
-;=========================|Terry Bogard by Memo|=========================
+;=|Terry Bogard by Memo|=
 ;                          ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<SYSTEM STATES>========================================
-;==============================================================================================
+;==
+;===<SYSTEM STATES>====
+;==
 
 
-;====================< STANDING >====================
+;====< STANDING >====
 [Statedef 0]
 type = S
 physics = S
@@ -41,7 +41,7 @@ trigger1 = !Alive
 value = 5050
 
 
-;====================<CROUCHING>====================
+;====<CROUCHING>====
 ;Stand to Crouch
 [StateDef 10]
 type = C
@@ -113,7 +113,7 @@ value = 0
 
 
 
-;====================< WALKING >====================
+;====< WALKING >====
 [Statedef 20]
 type = S
 physics = S
@@ -145,7 +145,7 @@ trigger2 = anim = 5 && animelemtime(1) >= 1
 value = 21
 
 
-;====================< JUMPING >====================
+;====< JUMPING >====
 [Statedef 40]
 type = S
 physics = S
@@ -359,7 +359,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;======================< RUN >===========================
+;==< RUN >===
 [Statedef 100]
 type = S
 physics = N
@@ -689,7 +689,7 @@ value = 0
 ctrl = 1
 
 
-;====================< ROLL >====================
+;====< ROLL >====
 ;--- Forward ---
 [Statedef 710]
 type = S
@@ -881,7 +881,7 @@ ctrl = 1
 
 
 
-;====================< ZERO COUNTER >====================
+;====< ZERO COUNTER >====
 [Statedef 750]
 type = S
 physics = S
@@ -951,7 +951,7 @@ value = ifelse(var(10) = 1, 2910, 2900)
 
 
 
-;====================< PARRY >====================
+;====< PARRY >====
 ;--- STANDING ---
 [Statedef 760]
 type = S
@@ -1321,7 +1321,7 @@ trigger2 = time >= 2
 
 
 
-;====================< CUSTOM COMBO >====================
+;====< CUSTOM COMBO >====
 ;--- GROUND ---
 [Statedef 900]
 type = S
@@ -1516,7 +1516,7 @@ value = 52
 
 
 
-;===================< GUARD >================
+;===< GUARD >====
 ;--- START ---
 [Statedef 120]
 type = U
@@ -1918,7 +1918,7 @@ type = changestate
 trigger1 = sysvar(0)
 value = 52
 
-;====================< LOSE >====================
+;====< LOSE >====
 [Statedef 170]
 type = S
 ctrl = 0
@@ -1931,7 +1931,7 @@ trigger1 = Time < 200
 flag = roundnotover
 
 
-;====================< DRAW GAME >====================
+;====< DRAW GAME >====
 [Statedef 175]
 type = S
 ctrl = 0
@@ -2513,7 +2513,7 @@ trigger1 = time = 0
 trigger1 = SelfAnimExist(5500)
 value = 5500
 
-;====================< CHEAP K.O. >====================
+;====< CHEAP K.O. >====
 [Statedef 5950]
 type = S
 movetype = H
@@ -2567,7 +2567,7 @@ value = ifelse(alive, 5110, 5150)
 
 
 
-;====================< AIR HIT TRANSITION >====================
+;====< AIR HIT TRANSITION >====
 [Statedef 5035]
 type = A
 movetype = H
@@ -2606,7 +2606,7 @@ trigger4 = anim != 5035
 value = 5050
 
 
-;==========< FALL RECOVERY >==========
+;==< FALL RECOVERY >==
 [Statedef 5200]
 type = A
 movetype = H
@@ -2772,7 +2772,7 @@ value = 52
 
 
 
-;==========< TARGET SAFE FALL >==========
+;==< TARGET SAFE FALL >==
 [Statedef 5205]
 type = A
 physics = N
@@ -2800,7 +2800,7 @@ type = selfstate
 trigger1 = time >= 60
 value = 5210
 
-;============<OFF SCREEN STAND BY>=========
+;====<OFF SCREEN STAND BY>=
 ;Stand by
 [Statedef 7827]
 type=S
@@ -2830,7 +2830,7 @@ type=ChangeState
 trigger1=NumEnemy=2
 trigger1=Enemy(1),statetype=L || Enemy(1),movetype != H
 value=7828
-;============<OFF SCREEN RUN IN>=========
+;====<OFF SCREEN RUN IN>=
 ;Off Screen Run In
 [Statedef 7828]
 type   =S
@@ -2875,7 +2875,7 @@ type=ChangeState
 trigger1= time>=20
 value=7829
 ctrl=0
-;============<OFF SCREEN RUN STOP>=========
+;====<OFF SCREEN RUN STOP>=
 ;Off Screen Run Stop
 [Statedef 7829]
 type   =S
@@ -2906,7 +2906,7 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ; Stand get-hit (shaking)
 [Statedef 10030]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2987,7 +2987,7 @@ value = 10040
 ;---------------------------------------------------------------------------
 ; Air get-hit (KOF)
 [Statedef 10040]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -3058,7 +3058,7 @@ value = stateno+5 ;Air get-hit (transition)
 ;---------------------------------------------------------------------------
 ; Air get-hit (transition)
 [Statedef 10045]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3110,7 +3110,7 @@ value = stateno+5 ;Air get-hit (falling)
 ;---------------------------------------------------------------------------
 ; Air get-hit (falling) (KOF)
 [Statedef 10050]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3174,15 +3174,15 @@ triggerall = alive
 trigger1 = Command = "recovery"
 value = 5200 ;HITFALL_RECOVER
 
-;===========================================================================
-;===============================< -2 STATES >=================================
-;===========================================================================
+;===
+;===< -2 STATES >=
+;===
 [Statedef -2]
 
 ;#ADD004BASIC PIEs#
-;//==========================
+;//==
 ;// add004-sctrls-start
-;//==========================
+;//==
 ;sys::-2::partners_standby ; ???????
 [state 0]
 	type=selfstate
@@ -3252,7 +3252,7 @@ value = 5200 ;HITFALL_RECOVER
 	time=1
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;;>>@Config.Face>>
 ;sys::-2::face_d ; portrait (?)
 [state 0]
@@ -3287,7 +3287,7 @@ value = 5200 ;HITFALL_RECOVER
 	id=490600
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;;>>@Config.Camera>>
 ;sys::-2::camera_nc ; ????
 [state 0]
@@ -3313,7 +3313,7 @@ value = 5200 ;HITFALL_RECOVER
 	movecamera=0,0 ;; [x,y]
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;sys::-2::add.option2-noko
 [state 0] ;; opt-noko
 	type=assertspecial
@@ -3332,7 +3332,7 @@ value = 5200 ;HITFALL_RECOVER
 	kill=0
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;// optional settings
 ;sys::-2::guard_crush_fx ; ????????
 [state 0]
@@ -3394,9 +3394,9 @@ value = 5200 ;HITFALL_RECOVER
 	trigger1=playerid(id-3),ishelper=0 && playerid(id-3),teamside=teamside
 	x=const240p(144)*ifelse(teamside=1,-1,1)
 
-;//==========================
+;//==
 ;// add004-sctrls-end
-;//==========================
+;//==
 
 
 [State -2, Finish]
@@ -3888,9 +3888,9 @@ ownpal = 1
 ignorehitpause = 1
 sprpriority = 5
 
-;===========================================================================
-;===============================< -3 STATES >=================================
-;===========================================================================
+;===
+;===< -3 STATES >=
+;===
 [Statedef -3]
 
 [State -3, Gametime Var]

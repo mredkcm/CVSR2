@@ -6,7 +6,7 @@
 
 
 
-;==========< DODGE >==========
+;==< DODGE >==
 [Statedef 710]
 type = S
 physics = S
@@ -45,7 +45,7 @@ value = 0
 ctrl = 1
 
 
-;==========< FORWARD ROLL >==========
+;==< FORWARD ROLL >==
 [Statedef 720]
 type = C
 physics = C
@@ -79,7 +79,7 @@ value = 0
 ctrl = 1
 
 
-;==========< POWER CHARGE >==========
+;==< POWER CHARGE >==
 [Statedef 740]
 type = S
 physics = S
@@ -152,7 +152,7 @@ value = 0
 ctrl = 1
 
 
-;==========< ZERO COUNTER >==========
+;==< ZERO COUNTER >==
 [Statedef 750]
 type = S
 physics = S
@@ -493,7 +493,7 @@ value = 5050
 
 
 [Statedef 10]
-type    = C
+type = C
 physics = C
 velset = 0,0
 anim = 10
@@ -506,7 +506,7 @@ value = 11
 
 
 [Statedef 11]
-type    = C
+type = C
 physics = C
 anim = 11
 sprpriority = 0
@@ -519,7 +519,7 @@ value = 11
 
 
 [Statedef 12]
-type    = S
+type = S
 physics = S
 anim = 12
 
@@ -531,7 +531,7 @@ value = 0
 
 
 [Statedef 20]
-type    = S
+type = S
 physics = S
 sprpriority = 0
 
@@ -562,7 +562,7 @@ value = 21
 
 
 [Statedef 40]
-type    = S
+type = S
 physics = S
 anim = 40
 ctrl = 0
@@ -606,7 +606,7 @@ ctrl = 1
 
 
 [Statedef 45]
-type    = A
+type = A
 physics = N
 ctrl = 0
 velset = 0,0
@@ -657,7 +657,7 @@ ctrl = 1
 
 
 [Statedef 50]
-type    = A
+type = A
 physics = A
 [State -3, Jumping Dust]
 type = Helper
@@ -686,7 +686,7 @@ value = Anim + 3
 
 
 [Statedef 51]
-type    = A
+type = A
 physics = A
 
 [State 51, 1]
@@ -696,7 +696,7 @@ trigger1 = 1
 
 
 [Statedef 52]
-type    = S
+type = S
 physics = S
 ctrl = 1
 anim = 47
@@ -724,7 +724,7 @@ ctrl = 1
 
 
 [Statedef 55]
-type    = S
+type = S
 physics = S
 anim = 40
 ctrl = 0
@@ -1020,7 +1020,7 @@ ctrl=1
 
 
 [Statedef 105]
-type    = S
+type = S
 physics = S
 anim = 105
 ctrl = 0
@@ -1145,7 +1145,7 @@ ctrl=1
 
 
 [Statedef 110]
-type    = S
+type = S
 physics = N
 
 [State 110, 0]
@@ -1193,7 +1193,7 @@ value = 0
 
 
 [Statedef 115]
-type    = S
+type = S
 physics = N
 
 [State 115, 0]
@@ -1307,7 +1307,7 @@ value = 140
 
 
 [Statedef 130]
-type    = S
+type = S
 physics = S
 
 [State 130, 1]
@@ -1338,7 +1338,7 @@ value = 140
 
 
 [Statedef 131]
-type    = C
+type = C
 physics = C
 
 [State 131, 1]
@@ -1371,7 +1371,7 @@ value = 140
 
 
 [Statedef 132]
-type    = A
+type = A
 physics = N
 
 [State 132, 1]
@@ -1478,7 +1478,7 @@ physics = S
 
 
 [Statedef 150]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1514,7 +1514,7 @@ time = 3
 
 
 [Statedef 151]
-type    = S
+type = S
 movetype= H
 physics = S
 anim = 150
@@ -1556,7 +1556,7 @@ ctrl = 1
 
 
 [Statedef 152]
-type    = C
+type = C
 movetype= H
 physics = N
 velset = 0,0
@@ -1592,7 +1592,7 @@ time = 4
 
 
 [Statedef 153]
-type    = C
+type = C
 movetype= H
 physics = C
 anim = 151
@@ -1634,7 +1634,7 @@ ctrl = 1
 
 
 [Statedef 154]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1658,7 +1658,7 @@ time = 4
 
 
 [Statedef 155]
-type    = A
+type = A
 movetype= H
 physics = N
 anim = 152
@@ -2301,7 +2301,7 @@ ctrl = 1
 
 
 [Statedef 5000]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2377,7 +2377,7 @@ ampl = 140
 
 
 [Statedef 5001]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -2415,7 +2415,7 @@ ctrl = 1
 
 
 [Statedef 5010]
-type    = C
+type = C
 movetype= H
 physics = N
 velset = 0,0
@@ -2487,7 +2487,7 @@ ampl = 140
 
 
 [Statedef 5011]
-type    = C
+type = C
 movetype= H
 physics = C
 
@@ -2526,7 +2526,7 @@ ctrl = 1
 
 
 [Statedef 5020]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2590,7 +2590,7 @@ ampl = 140
 
 
 [Statedef 5030]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -2630,7 +2630,7 @@ value = 5035
 
 
 [Statedef 5035]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -2672,7 +2672,7 @@ value = 5050
 
 
 [Statedef 5040]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -2713,7 +2713,7 @@ value = 52
 
 
 [Statedef 5050]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -2766,7 +2766,7 @@ value = 5100
 
 
 [Statedef 5070]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2791,7 +2791,7 @@ ampl = 140
 
 
 [Statedef 5071]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -2815,7 +2815,7 @@ value = 5110
 
 
 [Statedef 5080]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -2859,7 +2859,7 @@ value = 5030
 
 
 [Statedef 5081]
-type    = L
+type = L
 movetype= H
 physics = C
 
@@ -2886,7 +2886,7 @@ value = 5110
 
 
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2976,7 +2976,7 @@ time = 20
 
 
 [Statedef 5101]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3017,7 +3017,7 @@ value = 5110
 
 
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3137,7 +3137,7 @@ waveform = sine
 
 
 [Statedef 5120]
-type    = L
+type = L
 movetype= I
 physics = N
 
@@ -3192,7 +3192,7 @@ ctrl = 1
 
 
 [Statedef 5150]
-type    = L
+type = L
 movetype= H
 physics = N
 sprpriority = -3
@@ -3248,7 +3248,7 @@ time = 1
 
 
 [Statedef 5200]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3272,7 +3272,7 @@ value = 5201
 
 
 [Statedef 5201]
-type    = A
+type = A
 movetype= H
 physics = A
 anim = 5200
@@ -3343,7 +3343,7 @@ under = 1
 
 
 [Statedef 5210]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 5210
@@ -4445,8 +4445,8 @@ trigger2 = (gameTime%10) = 0
 Trans = add
 PalContrast = 256,0,0
 PalBright = 50,0,0
-Time    =  -1
-length  = 17
+Time =  -1
+length = 17
 TimeGap = 1
 FrameGap = 1
 

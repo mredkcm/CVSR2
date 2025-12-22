@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Benimaru by Jmorphman                   |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;========================<RAIJINKEN>=============================
+;====<RAIJINKEN>=
 [StateDef 1000]
 type = S
 physics = N
@@ -102,7 +102,7 @@ ctrl = 1
 
 
 
-;========================<EX RAIJINKEN>=============================
+;====<EX RAIJINKEN>=
 [StateDef 1030]
 type = S
 physics = N
@@ -228,7 +228,7 @@ ctrl = 1
 
 
 
-;========================<RAIJINKEN (AIR)>=============================
+;====<RAIJINKEN (AIR)>=
 [StateDef 1050]
 type = A
 physics = N
@@ -380,7 +380,7 @@ ctrl = 1
 
 
 
-;========================<EX RAIJINKEN (AIR)>=============================
+;====<EX RAIJINKEN (AIR)>=
 [StateDef 1080]
 type = A
 physics = N
@@ -505,7 +505,7 @@ value = 1051
 
 
 
-;========================<TAIKU RAIJINKEN>=============================
+;====<TAIKU RAIJINKEN>=
 [StateDef 1100]
 type = S
 physics = N
@@ -602,7 +602,7 @@ ctrl = 1
 
 
 
-;========================<EX TAIKU RAIJINKEN>=============================
+;====<EX TAIKU RAIJINKEN>=
 [StateDef 1130]
 type = S
 physics = N
@@ -728,7 +728,7 @@ ctrl = 1
 
 
 
-;=====================<IAIGERI>==========================
+;=<IAIGERI>==
 [StateDef 1200]
 type = S
 physics = N
@@ -869,7 +869,7 @@ ctrl = 1
 
 
 
-;=====================<HANDO SANDANGERI>==========================
+;=<HANDO SANDANGERI>==
 [StateDef 1201]
 type = S
 physics = N
@@ -1164,7 +1164,7 @@ value = 1301
 
 
 
-;========================<EX IAIGERI>=============================
+;====<EX IAIGERI>=
 [StateDef 1230]
 type = S
 physics = N
@@ -1317,7 +1317,7 @@ ctrl = 1
 
 
 
-;=====================<EX HANDO SANDANGERI>==========================
+;=<EX HANDO SANDANGERI>==
 [StateDef 1231]
 type = S
 physics = N
@@ -1668,7 +1668,7 @@ value = 1301
 
 
 
-;=====================<SUPER INAZUMA KICK>==========================
+;=<SUPER INAZUMA KICK>==
 [StateDef 1300]
 type = S
 physics = N
@@ -1932,7 +1932,7 @@ ctrl = 1
 
 
 
-;========================<EX SUPER INAZUMA KICK>=============================
+;====<EX SUPER INAZUMA KICK>=
 [StateDef 1330]
 type = S
 physics = N
@@ -2234,7 +2234,7 @@ value = 1301
 
 
 
-;====================<EX SUPER INAZUMA KICK (TARGET)>=========================
+;====<EX SUPER INAZUMA KICK (TARGET)>=
 ;Hit shake
 [StateDef 1335]
 type = S
@@ -2341,7 +2341,7 @@ value = 5035
 
 
 
-;========================<SHINKU KATATEGOMA>=============================
+;====<SHINKU KATATEGOMA>=
 [StateDef 1400]
 type = S
 physics = N
@@ -2591,7 +2591,7 @@ ctrl = 1
 
 
 
-;========================<EX SHINKU KATATEGOMA>=============================
+;====<EX SHINKU KATATEGOMA>=
 [StateDef 1430]
 type = S
 physics = N
@@ -2843,7 +2843,7 @@ ctrl = 1
 
 
 
-;========================<BENIMARU COLLIDER>=============================
+;====<BENIMARU COLLIDER>=
 ;Attempt
 [StateDef 1500]
 type = S
@@ -3100,7 +3100,7 @@ ctrl = 1
 
 
 
-;===========<BENIMARU COLLIDER (TARGET)>==========
+;===<BENIMARU COLLIDER (TARGET)>==
 ;Being Thrown
 [StateDef 1515]
 type = A
@@ -3203,7 +3203,7 @@ value = 5100
 
 
 
-;========================<EX BENIMARU COLLIDER>=============================
+;====<EX BENIMARU COLLIDER>=
 ;Attempt
 [StateDef 1530]
 type = S
@@ -3482,7 +3482,7 @@ ctrl = 1
 
 
 
-;===========<EX BENIMARU COLLIDER (TARGET)>==========
+;===<EX BENIMARU COLLIDER (TARGET)>==
 ;Being Thrown
 [StateDef 1545]
 type = A
@@ -3601,7 +3601,7 @@ value = 5110
 
 
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -3851,7 +3851,7 @@ ctrl = 1
 
 
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

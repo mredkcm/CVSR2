@@ -1,11 +1,11 @@
 ; ______________________________
 ;| Guy by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;===================================< EX SPECIAL STATES >======================================
-;============================================================================================
+;====
+;===< EX SPECIAL STATES >==
+;====
 
-;=========< HOUZANTOU >==========
+;=< HOUZANTOU >==
 [Statedef 1010]
 type = S
 movetype = A
@@ -146,7 +146,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;======================< HAYAGAKE >=============================
+;==< HAYAGAKE >=
 ;--- < RUNNING > ---
 [Statedef 1130]
 type = S
@@ -287,7 +287,7 @@ value = 0
 ctrl = 1
 
 
-;=========< KAGE SUKUI >==========
+;=< KAGE SUKUI >==
 [Statedef 1135]
 type = S
 movetype = A
@@ -374,7 +374,7 @@ value = 0
 ctrl = 1
 
 
-;=========< KUBIKARI >==========
+;=< KUBIKARI >==
 [Statedef 1140]
 type = S
 movetype = A
@@ -502,7 +502,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 
-;=========< SEICHUUKARI >==========
+;=< SEICHUUKARI >==
 [Statedef 1145]
 type = S
 movetype = A
@@ -604,7 +604,7 @@ trigger1 = animelemtime(6) >= 0
 movetype = I
 
 
-;========< WARP >==========
+;====< WARP >==
 [Statedef 1150]
 type = S
 physics = S
@@ -669,7 +669,7 @@ type = changestate
 trigger1 = !animtime
 value = 0
 ctrl = 1
-;======================< BUSHIN SENPUU KYAKU >=============================
+;==< BUSHIN SENPUU KYAKU >=
 [Statedef 1210]
 type = S
 physics = S
@@ -859,7 +859,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 
-;======================< BUSHIN IZUNA OTOSHI ATTEMPT >=============================
+;==< BUSHIN IZUNA OTOSHI ATTEMPT >=
 [Statedef 1330]
 type = S
 physics = S

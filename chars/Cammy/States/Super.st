@@ -1,11 +1,11 @@
 ; ________________________________
 ;| Cammy by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================< SUPER STATES >========================================
-;==============================================================================================
+;==
+;====< SUPER STATES >====
+;==
 
-;========================< SPIN DRIVE SMASHER >=============================
+;====< SPIN DRIVE SMASHER >=
 [Statedef 3000]
 type = S
 physics = N
@@ -516,7 +516,7 @@ value = 0
 ctrl = 1
 
 
-;========================< MAX SPIN DRIVE SMASHER >=============================
+;====< MAX SPIN DRIVE SMASHER >=
 [Statedef 3050]
 type = S
 physics = N
@@ -1079,7 +1079,7 @@ value = 0
 ctrl = 1
 
 
-;========================< REVERSE SHAFT BREAKER >=============================
+;====< REVERSE SHAFT BREAKER >=
 [Statedef 3100]
 type = S
 physics = N
@@ -1519,7 +1519,7 @@ value = 0
 ctrl = 1
 
 
-;========================< MAX REVERSE SHAFT BREAKER >=============================
+;====< MAX REVERSE SHAFT BREAKER >=
 [Statedef 3150]
 type = S
 physics = N
@@ -1973,7 +1973,7 @@ value = 0
 ctrl = 1
 
 
-;========================< KILLER BEE ASSAULT >=============================
+;====< KILLER BEE ASSAULT >=
 ;--- Ceiling Hop ---
 [Statedef 3200]
 type = S
@@ -3182,7 +3182,7 @@ trigger1 = pos y > -vel y
 value = 5100
 
 
-;========================< PSYCHO STREAK >=============================
+;====< PSYCHO STREAK >=
 [Statedef 3300]
 type = S
 physics = N
@@ -3292,7 +3292,7 @@ value = 0
 ctrl = 1
 
 
-;========================< MAX PSYCHO STREAK >=============================
+;====< MAX PSYCHO STREAK >=
 [Statedef 3350]
 type = S
 physics = N
@@ -3402,7 +3402,7 @@ value = 0
 ctrl = 1
 
 
-;========================< SNIPING HEEL >=============================
+;====< SNIPING HEEL >=
 [Statedef 3400]
 type = S
 physics = S
@@ -4207,7 +4207,7 @@ trigger1 = pos y >= 12
 value = 5110
 
 
-;========================< MAX SNIPING HEEL >=============================
+;====< MAX SNIPING HEEL >=
 [Statedef 3450]
 type = S
 physics = S

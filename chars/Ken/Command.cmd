@@ -259,95 +259,95 @@ time = 32
 
 
 [Command]
-name = "Shinryuken"
+name = "ShippuJinraikyaku"
 command = ~D, DF, F, D, DF, F, a
 time = 32
 
 [Command]
-name = "Shinryuken"
+name = "ShippuJinraikyaku"
 command = ~D, DF, F, D, DF, F, b
 time = 32
 
 [Command]
-name = "Shinryuken"
+name = "ShippuJinraikyaku"
 command = ~D, DF, F, D, DF, F, c
 time = 32
 
 [Command]
-name = "Shinryuken"
+name = "ShippuJinraikyaku"
 command = ~D, DF, F, D, DF, F, ~a
 time = 32
 
 [Command]
-name = "Shinryuken"
+name = "ShippuJinraikyaku"
 command = ~D, DF, F, D, DF, F, ~b
 time = 32
 
 [Command]
-name = "Shinryuken"
+name = "ShippuJinraikyaku"
 command = ~D, DF, F, D, DF, F, ~c
 time = 32
 
 
 [Command]
-name = "MAXShinryuken"
+name = "MAXShippuJinraikyaku"
 command = ~D, DF, F, D, DF, F, a+b
 time = 32
 
 [Command]
-name = "MAXShinryuken"
+name = "MAXShippuJinraikyaku"
 command = ~D, DF, F, D, DF, F, b+c
 time = 32
 
 [Command]
-name = "MAXShinryuken"
+name = "MAXShippuJinraikyaku"
 command = ~D, DF, F, D, DF, F, a+c
 time = 32
 
 
 [Command]
-name = "ShippuJinraikyaku"
+name = "Shinryuken"
 command = ~D, DB, B, D, DB, B, a
 time = 32
 
 [Command]
-name = "ShippuJinraikyaku"
+name = "Shinryuken"
 command = ~D, DB, B, D, DB, B, b
 time = 32
 
 [Command]
-name = "ShippuJinraikyaku"
+name = "Shinryuken"
 command = ~D, DB, B, D, DB, B, c
 time = 32
 
 [Command]
-name = "ShippuJinraikyaku"
+name = "Shinryuken"
 command = ~D, DB, B, D, DB, B, ~a
 time = 32
 
 [Command]
-name = "ShippuJinraikyaku"
+name = "Shinryuken"
 command = ~D, DB, B, D, DB, B, ~b
 time = 32
 
 [Command]
-name = "ShippuJinraikyaku"
+name = "Shinryuken"
 command = ~D, DB, B, D, DB, B, ~c
 time = 32
 
 
 [Command]
-name = "MAXShippuJinraikyaku"
+name = "MAXShinryuken"
 command = ~D, DB, B, D, DB, B, a+b
 time = 32
 
 [Command]
-name = "MAXShippuJinraikyaku"
+name = "MAXShinryuken"
 command = ~D, DB, B, D, DB, B, b+c
 time = 32
 
 [Command]
-name = "MAXShippuJinraikyaku"
+name = "MAXShinryuken"
 command = ~D, DB, B, D, DB, B, a+c
 time = 32
 

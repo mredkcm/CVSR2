@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Ken by Phantom.of.the.Server & Jmorphman|
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<NORMAL MOVES>========================================
-;==============================================================================================
+;==
+;====<NORMAL MOVES>====
+;==
 
-;===========<STANDING FAR LIGHT PUNCH>==========
+;===<STANDING FAR LIGHT PUNCH>==
 [StateDef 200]
 type = S
 physics = S
@@ -93,7 +93,7 @@ ctrl = 1
 
 
 
-;===========<STANDING CLOSE LIGHT PUNCH>==========
+;===<STANDING CLOSE LIGHT PUNCH>==
 [StateDef 205]
 type = S
 physics = S
@@ -181,7 +181,7 @@ ctrl = 1
 
 
 
-;===========<STANDING FAR MEDIUM PUNCH>==========
+;===<STANDING FAR MEDIUM PUNCH>==
 [StateDef 210]
 type = S
 physics = S
@@ -268,7 +268,7 @@ value = 0
 ctrl = 1
 
 
-;===========<STANDING CLOSE MEDIUM PUNCH>==========
+;===<STANDING CLOSE MEDIUM PUNCH>==
 [StateDef 215]
 type = S
 physics = S
@@ -399,7 +399,7 @@ ctrl = 1
 
 
 
-;===========<STANDING FAR HEAVY PUNCH>==========
+;===<STANDING FAR HEAVY PUNCH>==
 [StateDef 220]
 type = S
 physics = S
@@ -487,7 +487,7 @@ ctrl = 1
 
 
 
-;===========<STANDING CLOSE HEAVY PUNCH>==========
+;===<STANDING CLOSE HEAVY PUNCH>==
 [StateDef 225]
 type = S
 physics = S
@@ -576,7 +576,7 @@ ctrl = 1
 
 
 
-;===========<STANDING LIGHT KICK>==========
+;===<STANDING LIGHT KICK>==
 [StateDef 230]
 type = S
 physics = S
@@ -664,7 +664,7 @@ ctrl = 1
 
 
 
-;===========<STANDING FAR MEDIUM KICK>==========
+;===<STANDING FAR MEDIUM KICK>==
 [StateDef 240]
 type = S
 physics = S
@@ -752,7 +752,7 @@ ctrl = 1
 
 
 
-;===========<STANDING MEDIUM KICK (SFIII MODE)>==========
+;===<STANDING MEDIUM KICK (SFIII MODE)>==
 [StateDef 242]
 type = S
 physics = S
@@ -903,7 +903,7 @@ ctrl = 1
 
 
 
-;===========<INAZUMA KAKATO WARI (FROM STANDING MEDIUM KICK)>==========
+;===<INAZUMA KAKATO WARI (FROM STANDING MEDIUM KICK)>==
 [StateDef 243]
 type = S
 physics = S
@@ -1029,7 +1029,7 @@ ctrl = 1
 
 
 
-;===========<STANDING CLOSE MEDIUM KICK>==========
+;===<STANDING CLOSE MEDIUM KICK>==
 [StateDef 245]
 type = S
 physics = S
@@ -1117,7 +1117,7 @@ ctrl = 1
 
 
 
-;===========<FUMIKOMI MAE GERI>==========
+;===<FUMIKOMI MAE GERI>==
 [StateDef 247]
 type = S
 physics = S
@@ -1236,7 +1236,7 @@ ctrl = 1
 
 
 
-;===========<INAZUMA KAKATO WARI>==========
+;===<INAZUMA KAKATO WARI>==
 [StateDef 249]
 type = S
 physics = S
@@ -1362,7 +1362,7 @@ ctrl = 1
 
 
 
-;===========<STANDING FAR HEAVY KICK>==========
+;===<STANDING FAR HEAVY KICK>==
 [StateDef 250]
 type = S
 physics = S
@@ -1455,7 +1455,7 @@ ctrl = 1
 
 
 
-;===========<STANDING CLOSE HEAVY KICK>==========
+;===<STANDING CLOSE HEAVY KICK>==
 [StateDef 255]
 type = S
 physics = S
@@ -1544,7 +1544,7 @@ ctrl = 1
 
 
 
-;===========<SHIDEN KAKATO OTOSHI>==========
+;===<SHIDEN KAKATO OTOSHI>==
 [StateDef 257]
 type = S
 physics = S
@@ -1671,7 +1671,7 @@ ctrl = 1
 
 
 
-;===========<USHIRO MAWASHI GERI>==========
+;===<USHIRO MAWASHI GERI>==
 [StateDef 259]
 type = S
 physics = S
@@ -1765,7 +1765,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING LIGHT PUNCH>==========
+;===<CROUCHING LIGHT PUNCH>==
 [StateDef 400]
 type = C
 physics = C
@@ -1853,7 +1853,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING MEDIUM PUNCH>==========
+;===<CROUCHING MEDIUM PUNCH>==
 [StateDef 410]
 type = C
 physics = C
@@ -1941,7 +1941,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING HEAVY PUNCH>==========
+;===<CROUCHING HEAVY PUNCH>==
 [StateDef 420]
 type = C
 physics = C
@@ -2030,7 +2030,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING LIGHT KICK>==========
+;===<CROUCHING LIGHT KICK>==
 [StateDef 430]
 type = C
 physics = C
@@ -2097,7 +2097,7 @@ palFX.add = 255, 255, 255
 palFX.sinadd= -255, -255, -255, 48
 
 [State 430, ChangeAnimElem]
-type  = ChangeAnim
+type = ChangeAnim
 trigger1 = MoveContact = 1 && HitPauseTime
 trigger1 = AnimElemTime(2) >= 0 && AnimElemTime(3) <= 0
 trigger1 = HitPauseTime <= ifElse(var(20), 2, 6)
@@ -2118,7 +2118,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING MEDIUM KICK>==========
+;===<CROUCHING MEDIUM KICK>==
 [StateDef 440]
 type = C
 physics = C
@@ -2185,7 +2185,7 @@ palFX.add = 255, 255, 255
 palFX.sinAdd= -255, -255, -255, 48
 
 [State 440, ChangeAnimElem]
-type  = ChangeAnim
+type = ChangeAnim
 trigger1 = MoveContact = 1 && HitPauseTime
 trigger1 = AnimElemTime(3) >= 0 && AnimElemTime(4) <= 0
 trigger1 = HitPauseTime <= ifElse(var(20), 3, 8)
@@ -2206,7 +2206,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING HEAVY KICK>==========
+;===<CROUCHING HEAVY KICK>==
 [StateDef 450]
 type = C
 physics = C
@@ -2284,7 +2284,7 @@ ctrl = 1
 
 
 
-;===========<JUMPING LIGHT PUNCH>==========
+;===<JUMPING LIGHT PUNCH>==
 [StateDef 600]
 type = A
 physics = N
@@ -2376,10 +2376,10 @@ value = 52
 
 
 
-;===========<JUMPING MEDIUM PUNCH>==========
+;===<JUMPING MEDIUM PUNCH>==
 [StateDef 610]
 type = A
-physics  = N
+physics = N
 moveType = A
 anim = 610
 ctrl = 0
@@ -2468,7 +2468,7 @@ value = 52
 
 
 
-;===========<NEUTRAL JUMPING HEAVY PUNCH>==========
+;===<NEUTRAL JUMPING HEAVY PUNCH>==
 [StateDef 620]
 type = A
 physics = N
@@ -2560,7 +2560,7 @@ value = 52
 
 
 
-;===========<ANGLED JUMPING HEAVY PUNCH>==========
+;===<ANGLED JUMPING HEAVY PUNCH>==
 [StateDef 621]
 type = A
 physics = N
@@ -2652,7 +2652,7 @@ value = 52
 
 
 
-;===========<NEUTRAL JUMPING LIGHT KICK>==========
+;===<NEUTRAL JUMPING LIGHT KICK>==
 [StateDef 630]
 type = A
 physics = N
@@ -2744,7 +2744,7 @@ value = 52
 
 
 
-;===========<ANGLED JUMPING LIGHT KICK>==========
+;===<ANGLED JUMPING LIGHT KICK>==
 [StateDef 631]
 type = A
 physics = N
@@ -2836,7 +2836,7 @@ value = 52
 
 
 
-;===========<NEUTRAL JUMPING MEDIUM KICK>==========
+;===<NEUTRAL JUMPING MEDIUM KICK>==
 [StateDef 640]
 type = A
 physics = N
@@ -2928,7 +2928,7 @@ value = 52
 
 
 
-;===========<ANGLED JUMPING MEDIUM KICK>==========
+;===<ANGLED JUMPING MEDIUM KICK>==
 [StateDef 641]
 type = A
 physics = N
@@ -3020,7 +3020,7 @@ value = 52
 
 
 
-;===========<NEUTRAL JUMPING HEAVY KICK>==========
+;===<NEUTRAL JUMPING HEAVY KICK>==
 [StateDef 650]
 type = A
 physics = N
@@ -3103,7 +3103,7 @@ value = 52
 
 
 
-;===========<ANGLED JUMPING HEAVY KICK>==========
+;===<ANGLED JUMPING HEAVY KICK>==
 [StateDef 651]
 type = A
 physics = N
@@ -3195,7 +3195,7 @@ value = 52
 
 
 
-;===========<THROW ATTEMPT>==========
+;===<THROW ATTEMPT>==
 [StateDef 800]
 type = S
 physics = S
@@ -3345,7 +3345,7 @@ ctrl = 1
 
 
 
-;===========<THROW SWITCHING SIDES>==========
+;===<THROW SWITCHING SIDES>==
 [StateDef 805]
 type = S
 moveType = A
@@ -3429,7 +3429,7 @@ trigger1 = AnimElemTime(4) >= 0 && (var(40) = 1 || var(40) = 3)
 value = ifElse(var(10), 810, 830)
 
 
-;===========<THROW SWITCHING SIDES (TARGET)>==========
+;===<THROW SWITCHING SIDES (TARGET)>==
 [StateDef 806]
 type = S
 moveType = H
@@ -3463,7 +3463,7 @@ ctrl = 1
 
 
 
-;===========<JIGOKU GURAMA>==========
+;===<JIGOKU GURAMA>==
 [Statedef 810]
 type = S
 physics = N
@@ -3668,7 +3668,7 @@ ctrl = 1
 
 
 
-;===========<JIGOKU GURAMA (TARGET)>==========
+;===<JIGOKU GURAMA (TARGET)>==
 ;Being Thrown
 [StateDef 815]
 type = A
@@ -3741,7 +3741,7 @@ value = 5100
 
 
 
-;===========<TSUKAMI NAGE>==========
+;===<TSUKAMI NAGE>==
 [StateDef 820]
 type = S
 physics = N
@@ -3870,7 +3870,7 @@ trigger3 = AILevel && Random < 800
 var(42) = 2
 
 [State 820, Mashing Increment]
-type  = VarAdd
+type = VarAdd
 trigger1 = var(42) = 2
 var(12) = 2
 
@@ -4113,7 +4113,7 @@ ctrl = 1
 
 
 
-;===========<KNEES OF HADES (TARGET)>==========
+;===<KNEES OF HADES (TARGET)>==
 [StateDef 825]
 type = A
 moveType = H
@@ -4242,7 +4242,7 @@ value = 5100
 
 
 
-;===========<SEOI NAGE>==========
+;===<SEOI NAGE>==
 [Statedef 830]
 type = S
 physics = N
@@ -4394,7 +4394,7 @@ ctrl = 1
 
 
 
-;===========<SEOI NAGE (TARGET)>==========
+;===<SEOI NAGE (TARGET)>==
 ;Being Thrown
 [StateDef 835]
 type = A
@@ -4467,7 +4467,7 @@ value = 5100
 
 
 
-;===========<AIR THROW ATTEMPT>==========
+;===<AIR THROW ATTEMPT>==
 [StateDef 850]
 type = A
 physics = N
@@ -4548,7 +4548,7 @@ value = 52
 
 
 
-;===========<JIGOKU HUSHA>==========
+;===<JIGOKU HUSHA>==
 ;In Air
 [StateDef 860]
 type = A
@@ -4858,7 +4858,7 @@ ctrl = 1
 
 
 
-;===========<JIGOKU HUSHA (TARGET)>==========
+;===<JIGOKU HUSHA (TARGET)>==
 ;In Air
 [StateDef 865]
 type = A
@@ -4935,7 +4935,7 @@ value = 5100
 
 
 
-;===========<THROW ESCAPED>==========
+;===<THROW ESCAPED>==
 [StateDef 890]
 type = S
 physics = N
@@ -5092,7 +5092,7 @@ ctrl = 1
 
 
 
-;===========<THROW ESCAPE MIDAIR>==========
+;===<THROW ESCAPE MIDAIR>==
 [StateDef 892]
 type = A
 physics = N

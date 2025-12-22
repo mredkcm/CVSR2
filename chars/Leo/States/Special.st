@@ -1,9 +1,9 @@
 ; _________________________________________
 ;| Leo by K6666orochi                      |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>========================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>====
+;==
 
 ;---------------------------------------------------------------------------
 ;Chronos Rush (part 1)
@@ -105,8 +105,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=50), var(36):=-50
 ground.type = High
 ground.velocity = -6 - 3*(var(0)%3)
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -6 - 3*(var(0)%3)
 guard.hittime = 10
 air.hittime = 999
@@ -136,8 +136,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=50), var(36):=-50
 ground.type = High
 ground.velocity = -6 - 3*(var(0)%3)
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -6 - 3*(var(0)%3)
 guard.hittime = 10
 air.hittime = 999
@@ -167,8 +167,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=50), var(36):=-50
 ground.type = High
 ground.velocity = -6 - 3*(var(0)%3)
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -6 - 3*(var(0)%3)
 guard.hittime = 10
 air.hittime = 999
@@ -235,7 +235,7 @@ trigger1 = var(6) := floor(fvar(12)*300) || 1
 id= 1000
 nochainid = 810 + id%10
 attr = S, SA
-animtype  = HARD
+animtype = HARD
 damage = ceil(35.0*(2 - fvar(11))/(1.0 + 0.4*hitcount)), ceil(10.0*(2 - fvar(11))/(1.0 + 0.4*hitcount))
 guardflag = MA
 hitflag = MA
@@ -247,8 +247,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=170), var(36):=-60
 ground.type = high
 ground.velocity = -5.58 - 3*(var(0)%3)
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -6 - 3*(var(0)%3)
 guard.hittime = 19
 air.hittime = 999
@@ -271,7 +271,7 @@ trigger1 = var(6) := floor(fvar(12)*300) || 1
 id= 1010
 nochainid = 810 + id%10
 attr = S, SA
-animtype  = HARD
+animtype = HARD
 damage = ceil(37.0*(2 - fvar(11))/(1.0 + 0.4*hitcount)), ceil(11.0*(2 - fvar(11))/(1.0 + 0.4*hitcount))
 guardflag = MA
 hitflag = MA
@@ -283,8 +283,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=170), var(36):=-60
 ground.type = high
 ground.velocity = -5.58 - 3*(var(0)%3)
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -6 - 3*(var(0)%3)
 guard.hittime = 19
 air.hittime = 999
@@ -307,7 +307,7 @@ trigger1 = var(6) := floor(fvar(12)*300) || 1
 id= 1020
 nochainid = 810 + id%10
 attr = S, SA
-animtype  = HARD
+animtype = HARD
 damage = ceil(38.0*(2 - fvar(11))/(1.0 + 0.4*hitcount)), ceil(12.0*(2 - fvar(11))/(1.0 + 0.4*hitcount))
 guardflag = MA
 hitflag = MA
@@ -319,8 +319,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=170), var(36):=-60
 ground.type = high
 ground.velocity = -5.58 - 3*(var(0)%3)
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -6 - 3*(var(0)%3)
 guard.hittime = 19
 air.hittime = 999
@@ -481,8 +481,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=50), var(36):=-50
 ground.type = High
 ground.velocity = -6 - 3*(var(0)%3)
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -6 - 3*(var(0)%3)
 guard.hittime = 10
 air.hittime = 999
@@ -498,7 +498,7 @@ trigger1 = animelem = 14
 trigger1 = var(6) := floor(fvar(12)*300) || 1
 nochainid = 810 + id%10
 attr = S, SA
-animtype  = HARD
+animtype = HARD
 damage = ceil(ifelse(fvar(11)*91<7, 7, fvar(11)*91)), 0
 getpower = ifelse(!var(13), 216, 72)*!var(20), 36*!var(20)
 guardflag = MA
@@ -511,8 +511,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=170), var(36):=-60
 ground.type = high
 ground.velocity = -5.58 - 3*(var(0)%3)
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -6 - 3*(var(0)%3)
 guard.hittime = 19
 air.hittime = 999
@@ -633,8 +633,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=50), var(36):=-50
 ground.type = High
 ground.velocity = -6 - 3*(var(0)%3)
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -6 - 3*(var(0)%3)
 guard.hittime = 10
 air.hittime = 999
@@ -664,8 +664,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=50), var(36):=-50
 ground.type = High
 ground.velocity = -6 - 3*(var(0)%3)
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -6 - 3*(var(0)%3)
 guard.hittime = 10
 air.hittime = 999
@@ -695,8 +695,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=50), var(36):=-50
 ground.type = High
 ground.velocity = -6 - 3*(var(0)%3)
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -6 - 3*(var(0)%3)
 guard.hittime = 10
 air.hittime = 999
@@ -1014,8 +1014,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=50), var(36):=-50
 ground.type = High
 ground.velocity = -6 - 3*(var(0)%3)
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -6 - 3*(var(0)%3)
 guard.hittime = 10
 air.hittime = 999
@@ -1208,8 +1208,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=130), var(36):=-50
 ground.type = Low
 ground.velocity = -10
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -10
 guard.hittime = 19
 ;air.hittime = 999
@@ -1247,8 +1247,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=140), var(36):=-5
 ground.type = High
 ground.velocity = -5, -7.5
-ground.hittime  = 24
-ground.slidetime  = 24
+ground.hittime = 24
+ground.slidetime = 24
 ground.cornerpush.veloff = 0
 guard.velocity = -12.5
 guard.hittime = 23
@@ -1286,8 +1286,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=130), var(36):=-50
 ground.type = Low
 ground.velocity = -10
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -10
 guard.hittime = 19
 ;air.hittime = 999
@@ -1325,8 +1325,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=140), var(36):=-5
 ground.type = High
 ground.velocity = -5, -7.5
-ground.hittime  = 24
-ground.slidetime  = 24
+ground.hittime = 24
+ground.slidetime = 24
 ground.cornerpush.veloff = 0
 guard.velocity = -12.5
 guard.hittime = 23
@@ -1364,8 +1364,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=130), var(36):=-50
 ground.type = Low
 ground.velocity = -10
-ground.hittime  = 20
-ground.slidetime  = 20
+ground.hittime = 20
+ground.slidetime = 20
 ground.cornerpush.veloff = -10
 guard.hittime = 19
 ;air.hittime = 999
@@ -1402,8 +1402,8 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=140), var(36):=-5
 ground.type = High
 ground.velocity = -5, -7.5
-ground.hittime  = 24
-ground.slidetime  = 24
+ground.hittime = 24
+ground.slidetime = 24
 ground.cornerpush.veloff = 0
 guard.velocity = -12.5
 guard.hittime = 23
@@ -1568,7 +1568,7 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=130), var(36):=-50
 ground.type = High
 ground.slidetime = 20
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -3,15
 air.velocity = -3,15
 fall = 1
@@ -1593,7 +1593,7 @@ guard.sparkno = -1 + 0*(var(34):=8000)
 sparkxy = -10 + 0*(var(35):=130), var(36):=-50
 ground.type = High
 ground.slidetime = 20
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -3,15
 air.velocity = -3,15
 fall = 1
@@ -1721,7 +1721,7 @@ ctrl = 1
 
 ;---------------------------------------
 [Statedef 1301]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1301
@@ -1765,7 +1765,7 @@ trigger1 = animtime = 0
 value = 1302
 
 [Statedef 1302] 
-type    = A 
+type = A 
 movetype= A 
 physics = N
 anim = 1302
@@ -1867,7 +1867,7 @@ trigger1 = animelemno(0) = 4
 ;value = (var(13) := -(teamside = 1))
 
 [Statedef 1303]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 1303
@@ -1996,7 +1996,7 @@ trigger1 = 1
 pos = 16*const(size.xscale), ifelse(pos y + vel y > -16*const(size.yscale), -pos y - vel y, 16*const(size.yscale))
 
 [Statedef 1304]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = -4.12, -10
@@ -2069,7 +2069,7 @@ value = 0
 ctrl = 1
 
 [Statedef 1305]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2091,7 +2091,7 @@ Trigger1 = time > 60
 value = 5050
 
 [Statedef 1306]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2108,7 +2108,7 @@ value = 0
 movecamera = 0, 0
 
 [Statedef 1307]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2262,7 +2262,7 @@ ctrl = 1
 
 ;---------------------------------------
 [Statedef 1351]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1301
@@ -2306,7 +2306,7 @@ trigger1 = animtime = 0
 value = 1352
 
 [Statedef 1352] 
-type    = A 
+type = A 
 movetype= A 
 physics = N
 anim = 1302
@@ -2386,7 +2386,7 @@ trigger1 = animelemno(0) = 4
 ;value = (var(13) := -(teamside = 1))
 
 [Statedef 1353]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 1303

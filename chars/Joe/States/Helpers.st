@@ -1,11 +1,11 @@
 ; _______________________________________
 ;| Joe Higashi by Jmorphman              |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<HELPER STATES>========================================
-;==============================================================================================
+;==
+;===<HELPER STATES>====
+;==
 
-;====================<PARRY HELPER>=========================
+;====<PARRY HELPER>=
 [StateDef 765]
 type = A
 physics = N
@@ -141,7 +141,7 @@ trigger2 = Time >= 2
 
 
 
-;====================<HURRICAN UPPER PROJECTILE (INTRO VS. MAI)>=========================
+;====<HURRICAN UPPER PROJECTILE (INTRO VS. MAI)>=
 [StateDef 10192]
 type = S
 physics = N
@@ -191,7 +191,7 @@ trigger1 = FrontEdgeDist < -100 || BackEdgeDist < -100
 
 
 
-;====================<HURRICANE UPPER DUST TRAIL>=========================
+;====<HURRICANE UPPER DUST TRAIL>=
 [StateDef 1004]
 type = S
 physics = N
@@ -228,7 +228,7 @@ ignoreHitPause = 1
 
 
 
-;====================<HURRICANE UPPER PROJECTILE>=========================
+;====<HURRICANE UPPER PROJECTILE>=
 [StateDef 1005]
 type = S
 physics = N
@@ -663,7 +663,7 @@ trigger2 = Target, Time <= 1 && !(Target, HitShakeOver)
 
 
 
-;====================<HURRICANE UPPER PROJECTILE (REFLECTED)>=========================
+;====<HURRICANE UPPER PROJECTILE (REFLECTED)>=
 [StateDef 1015]
 type = S
 physics = N
@@ -930,7 +930,7 @@ trigger1 = FrontEdgeDist < -100 || BackEdgeDist < -100
 
 
 
-;====================<SMALL SCREW UPPER PROJECTILE>=========================
+;====<SMALL SCREW UPPER PROJECTILE>=
 [StateDef 3002]
 type = S
 physics = N
@@ -1098,7 +1098,7 @@ trigger1 = FrontEdgeDist < -100 || BackEdgeDist < -100
 
 
 
-;====================<LARGE SCREW UPPER PROJECTILE>=========================
+;====<LARGE SCREW UPPER PROJECTILE>=
 [StateDef 3005]
 type = S
 physics = N
@@ -1401,7 +1401,7 @@ var(12) = 1
 
 
 
-;====================<EXPLODING HURRICANE TIGER HEEL PROJECTILE>=========================
+;====<EXPLODING HURRICANE TIGER HEEL PROJECTILE>=
 [StateDef 3105]
 type = S
 physics = N
@@ -1576,7 +1576,7 @@ trigger1 = FrontEdgeDist < -100 || BackEdgeDist < -100
 
 
 
-;====================<EXPLODING HURRICANE TIGER HEEL PROJECTILE (REFLECTED)>=========================
+;====<EXPLODING HURRICANE TIGER HEEL PROJECTILE (REFLECTED)>=
 [StateDef 3115]
 type = S
 physics = N
@@ -1741,7 +1741,7 @@ trigger1 = FrontEdgeDist < -100 || BackEdgeDist < -100
 
 
 
-;====================<DOUBLE CYCLONE PROJECTILE (EFFECT)>=========================
+;====<DOUBLE CYCLONE PROJECTILE (EFFECT)>=
 [StateDef 3304]
 type = S
 physics = N
@@ -1775,7 +1775,7 @@ ignoreHitPause = 1
 
 
 
-;====================<DOUBLE CYCLONE PROJECTILE>=========================
+;====<DOUBLE CYCLONE PROJECTILE>=
 [StateDef 3305]
 type = S
 physics = N
@@ -1965,7 +1965,7 @@ trigger1 = FrontEdgeDist < -100 || BackEdgeDist < -100
 
 
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -2954,7 +2954,7 @@ trigger1 = Time >= 8
 
 
 
-;======================<JUMP DUST>===========================
+;==<JUMP DUST>===
 [StateDef 8100]
 type = S
 anim = 1
@@ -2993,7 +2993,7 @@ trigger1 = Time >= 7
 
 
 
-;======================<DASH DUST>===========================
+;==<DASH DUST>===
 [StateDef 8103]
 type = A
 anim = 1
@@ -3055,7 +3055,7 @@ trigger1 = !NumExplod
 
 
 
-;======================<IMPACT DUST>===========================
+;==<IMPACT DUST>===
 [StateDef 8110]
 type = A
 anim = 1
@@ -3101,7 +3101,7 @@ trigger1 = !NumExplod
 
 
 
-;========================<FLAMES>=============================
+;====<FLAMES>=
 [StateDef 8150]
 type = A
 velSet = 0,0
@@ -3170,7 +3170,7 @@ trigger3 = PlayerID(var(0)), StateType = L && (PlayerID(var(0)), StateNo != [508
 
 
 
-;========================<GOLDEN TIGER KICK FLAMES>=============================
+;====<GOLDEN TIGER KICK FLAMES>=
 [StateDef 8151]
 type = A
 velSet = 0,0
@@ -3239,7 +3239,7 @@ trigger3 = PlayerID(var(0)), StateType = L && (PlayerID(var(0)), StateNo != [508
 
 
 
-;========================<RECOVER FX>=============================
+;====<RECOVER FX>=
 [StateDef 8200]
 type = A
 velSet = 0,0
@@ -3271,7 +3271,7 @@ trigger1 = Time >= 15
 
 
 
-;========================<COUNTER FX>=============================
+;====<COUNTER FX>=
 [StateDef 8290]
 type = A
 physics = N
@@ -3317,7 +3317,7 @@ trigger1 = Time >= 16
 
 
 
-;==================<POWER CHARGE FX>==================
+;==<POWER CHARGE FX>==
 ;Aura and Dust
 [StateDef 8330]
 type = A
@@ -3426,7 +3426,7 @@ trigger1 = Root, StateNo != 730
 
 
 
-;==================<ZERO COUNTER FX>==================
+;==<ZERO COUNTER FX>==
 [StateDef 8350]
 type = A
 physics = N
@@ -3478,7 +3478,7 @@ trigger1 = Time >= 16
 
 
 
-;========================<CUSTOM COMBO>=============================
+;====<CUSTOM COMBO>=
 [StateDef 8400]
 type = A
 physics = N
@@ -3584,7 +3584,7 @@ trigger1 = Time >= 26
 
 
 
-;========================<SUPER PAUSE FX>=============================
+;====<SUPER PAUSE FX>=
 ;Level 1 Super FX
 [StateDef 8500]
 type = A
@@ -4044,7 +4044,7 @@ trigger1 = Time >= 40
 
 
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [StateDef 8600]
 type = A
 velSet = 0,0
@@ -4205,7 +4205,7 @@ trigger1 = RoundState < 3
 
 
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0
@@ -4224,7 +4224,7 @@ trigger1 = RoundState = 2
 
 
 
-;========================<EXPLODSIVE BUFFERING HELPER>=============================
+;====<EXPLODSIVE BUFFERING HELPER>=
 [StateDef 90000005]
 type = A
 physics = N

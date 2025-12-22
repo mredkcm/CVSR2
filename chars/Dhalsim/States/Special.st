@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Dhalsim by Knuckles8864                 |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;=====================<YOGA FIRE>==========================
+;=<YOGA FIRE>==
 [StateDef 1000]
 type = S
 physics = S
@@ -70,7 +70,7 @@ ctrl = 1
 
 
 
-;========================<EX YOGA FIRE>=============================
+;====<EX YOGA FIRE>=
 [StateDef 1030]
 type = S
 physics = N
@@ -160,7 +160,7 @@ ctrl = 1
 
 
 
-;=====================<YOGA FLAME>==========================
+;=<YOGA FLAME>==
 [StateDef 1100]
 type = S
 physics = S
@@ -243,7 +243,7 @@ ctrl = 1
 
 
 
-;========================<EX YOGA FLAME>=============================
+;====<EX YOGA FLAME>=
 [StateDef 1130]
 type = S
 physics = N
@@ -336,7 +336,7 @@ value = 1101
 
 
 
-;=====================<YOGA BLAST>==========================
+;=<YOGA BLAST>==
 [StateDef 1200]
 type = S
 physics = S
@@ -418,7 +418,7 @@ value = 0
 ctrl = 1
 
 
-;========================<EX YOGA BLAST>=============================
+;====<EX YOGA BLAST>=
 [StateDef 1230]
 type = S
 physics = N
@@ -510,7 +510,7 @@ trigger3 = Time >= 43
 value = 1201
 
 
-;========================<YOGA TELEPORT>=============================
+;====<YOGA TELEPORT>=
 [Statedef 1300]
 type = S
 physics = N
@@ -585,7 +585,7 @@ value = 52
 ctrl = 0
 
 
-;========================<AERIAL YOGA TELEPORT>=============================
+;====<AERIAL YOGA TELEPORT>=
 [Statedef 1310]
 type = A
 physics = N
@@ -678,7 +678,7 @@ value = 52
 ctrl = 0
 
 
-;========================<YOGA RECOVER>=============================
+;====<YOGA RECOVER>=
 [Statedef 1320]
 type = L
 physics = N
@@ -780,7 +780,7 @@ value = 52
 ctrl = 0
 
 
-;========================<YOGA BARRAGE>=============================
+;====<YOGA BARRAGE>=
 ;Startup
 [StateDef 1400]
 type = S
@@ -1114,7 +1114,7 @@ value = 0
 ctrl = 1
 
 
-;========================<EX YOGA BARRAGE>=============================
+;====<EX YOGA BARRAGE>=
 [StateDef 1430]
 type = S
 physics = N
@@ -1399,7 +1399,7 @@ value = 1402
 
 
 
-;========================<YOGA GRASP>=============================
+;====<YOGA GRASP>=
 ;Startup
 [StateDef 1500]
 type = S
@@ -1743,7 +1743,7 @@ value = 5100
 
 
 
-;=====================<YOGA GRASP (BODY SLAM)>==========================
+;=<YOGA GRASP (BODY SLAM)>==
 [Statedef 1502]
 type = S
 physics = S
@@ -1905,7 +1905,7 @@ ctrl = 1
 
 
 
-;=====================<YOGA GRASP (BODY SLAM)(TARGET)>==========================
+;=<YOGA GRASP (BODY SLAM)(TARGET)>==
 ;Being Thrown
 [StateDef 1513]
 type = A
@@ -2353,7 +2353,7 @@ ignoreHitPause = 1
 
 
 
-;========================<EX YOGA GRASP>=============================
+;====<EX YOGA GRASP>=
 ;Startup
 [StateDef 1530]
 type = S
@@ -2641,7 +2641,7 @@ ignoreHitPause = 1
 
 
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -2731,7 +2731,7 @@ ctrl = 1
 
 
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

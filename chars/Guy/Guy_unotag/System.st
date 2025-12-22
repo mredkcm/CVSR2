@@ -3048,8 +3048,8 @@ trigger2 = (gameTime%10) = 0
 Trans = add
 PalContrast = 256,0,0
 PalBright = 50,0,0
-Time    =  -1
-length  = 17
+Time =  -1
+length = 17
 TimeGap = 1
 FrameGap = 1
 

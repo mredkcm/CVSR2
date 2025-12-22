@@ -1,11 +1,11 @@
 ; ______________________________
 ;| Guy by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< HELPER STATES >========================================
-;==============================================================================================
+;==
+;===< HELPER STATES >====
+;==
 
-;========================< JUMP DUST >=============================
+;====< JUMP DUST >=
 [Statedef 7100]
 physics = N
 velset = 0, 0
@@ -43,7 +43,7 @@ type = destroyself
 trigger1 = time >= 7
 
 
-;========================< OIL DRUM >=============================
+;====< OIL DRUM >=
 [Statedef 6000]
 type = A
 physics = N
@@ -83,7 +83,7 @@ type = destroyself
 trigger1 = time >= 40
 
 
-;========================< SUPER CHARGE >=============================
+;====< SUPER CHARGE >=
 [Statedef 7500]
 physics = N
 velset = 0, 0
@@ -387,7 +387,7 @@ trigger1 = root, var(10) = 6 && time >= 53
 trigger2 = time >= 60
 
 
-;========================< POWER CHARGE >=============================
+;====< POWER CHARGE >=
 ;--- MAIN FX ---
 [Statedef 7240]
 type = S
@@ -480,7 +480,7 @@ type = destroyself
 trigger1 = (root, stateno != 740) || (root, anim != 740) || (root, movetype = H)
 
 
-;========================< ZERO COUNTER CHARGE >=============================
+;====< ZERO COUNTER CHARGE >=
 [Statedef 7250]
 physics = N
 velset = 0, 0
@@ -546,7 +546,7 @@ type = destroyself
 trigger1 = time >= 20
 
 
-;========================< ORIGINAL COMBO CHARGE >=============================
+;====< ORIGINAL COMBO CHARGE >=
 [Statedef 7260]
 physics = N
 velset = 0, 0
@@ -627,7 +627,7 @@ type = destroyself
 trigger1 = time >= 30
 
 
-;========================< COUNTER F.X. >=============================
+;====< COUNTER F.X. >=
 [Statedef 7400]
 type = A
 physics = N
@@ -650,7 +650,7 @@ type = destroyself
 trigger1 = time >= 8
 
 
-;========================< SUPER FINISH >=============================
+;====< SUPER FINISH >=
 [Statedef 7600]
 type = A
 velset = 0, 0
@@ -747,7 +747,7 @@ type = destroyself
 trigger1 = roundstate < 3
 
 
-;========================< GO! >=============================
+;====< GO! >=
 [Statedef 6005]
 physics = N
 velset = 0, 0
@@ -776,7 +776,7 @@ type = destroyself
 trigger1 = roundstate < 3
 
 
-;========================< CAMERA CONTROL >=============================
+;====< CAMERA CONTROL >=
 [Statedef 7650]
 physics = N
 velset = 0, 0

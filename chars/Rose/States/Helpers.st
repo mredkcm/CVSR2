@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Rose by varo_hades                      |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<HELPER STATES>========================================
-;==============================================================================================
+;==
+;===<HELPER STATES>====
+;==
 
-;====================<PARRY HELPER>=========================
+;====<PARRY HELPER>=
 [StateDef 765]
 type = A
 physics = N
@@ -117,7 +117,7 @@ trigger2 = Time >= 2
 
 
 
-;=====================<SOUL SPARK PROJECTILE>=========================
+;=<SOUL SPARK PROJECTILE>=
 [StateDef 1005]
 type = S
 physics = N
@@ -429,7 +429,7 @@ trigger1 = !NumTarget
 trigger2 = NumTarget
 trigger2 = Target, Time <= 1 && !(Target,HitShakeOver)
 
-;=====================<EX SOUL SPARK PROJECTILE>=========================
+;=<EX SOUL SPARK PROJECTILE>=
 [StateDef 1035]
 type = S
 physics = N
@@ -680,7 +680,7 @@ ignoreHitPause = 1
 type = DestroySelf
 trigger1 = pos x != [-200,200]
 
-;=====================<AURA SOUL SPARK PROJECTILE>=========================
+;=<AURA SOUL SPARK PROJECTILE>=
 [StateDef 3105]
 type = S
 physics = N
@@ -1125,7 +1125,7 @@ ignorehitpause =1
 type=destroyself
 trigger1=!animtime
 
-;========================<Illusion Spark Helper>=============================
+;====<Illusion Spark Helper>=
 [StateDef 3205]
 type = S
 moveType = A
@@ -1425,7 +1425,7 @@ type = ChangeState
 trigger1 = Time = 8
 value = 1008
 
-;====================<CHEAP K.O.>====================
+;====<CHEAP K.O.>====
 [StateDef 3245]
 type = A
 movetype = H
@@ -1455,7 +1455,7 @@ type = SelfState
 trigger1= time=5
 value = 5000
 
-;====================<CHEAP K.O.>====================
+;====<CHEAP K.O.>====
 [StateDef 3250]
 type = A
 movetype = H
@@ -2053,7 +2053,7 @@ trigger1=!animtime
 
 ;
 [Statedef 3155]
-type    = S
+type = S
 movetype= I
 physics = S
 velset = 0,0
@@ -2104,7 +2104,7 @@ trigger3 =Parent,movetype = H
 
 ;
 [Statedef 3156]
-type    = S
+type = S
 movetype= H
 physics = S
 velset = 0,0
@@ -2151,7 +2151,7 @@ trigger1 = AnimTime = 0
 
 ;
 [Statedef 3157]
-type    = S
+type = S
 movetype= H
 physics = S
 velset = 0,0
@@ -2205,7 +2205,7 @@ type = destroyself
 trigger1 = animtime = 0
 trigger2 = parent,movetype = H
 
-;=====================<ILLUSION SOUL PROJECTILE 1>=========================
+;=<ILLUSION SOUL PROJECTILE 1>=
 [StateDef 3540]
 type = S
 physics = N
@@ -2473,7 +2473,7 @@ trigger1 = !NumTarget
 trigger2 = NumTarget
 trigger2 = Target, Time <= 1 && !(Target,HitShakeOver)
 
-;=====================<ILLUSION SOUL PROJECTILE 2>=========================
+;=<ILLUSION SOUL PROJECTILE 2>=
 [StateDef 3550]
 type = S
 physics = N
@@ -2741,7 +2741,7 @@ trigger1 = !NumTarget
 trigger2 = NumTarget
 trigger2 = Target, Time <= 1 && !(Target,HitShakeOver)
 
-;=====================<ILLUSION SOUL PROJECTILE 3>=========================
+;=<ILLUSION SOUL PROJECTILE 3>=
 [StateDef 3560]
 type = S
 physics = N
@@ -3003,7 +3003,7 @@ trigger1 = !NumTarget
 trigger2 = NumTarget
 trigger2 = Target, Time <= 1 && !(Target,HitShakeOver)
 
-;=====================<ILLUSION SOUL PROJECTILE 4>=========================
+;=<ILLUSION SOUL PROJECTILE 4>=
 [StateDef 3570]
 type = S
 physics = N
@@ -3265,7 +3265,7 @@ trigger1 = !NumTarget
 trigger2 = NumTarget
 trigger2 = Target, Time <= 1 && !(Target,HitShakeOver)
 
-;=====================<ILLUSION SOUL PROJECTILE 5>=========================
+;=<ILLUSION SOUL PROJECTILE 5>=
 [StateDef 3580]
 type = S
 physics = N
@@ -3543,7 +3543,7 @@ trigger1 = !NumTarget
 trigger2 = NumTarget
 trigger2 = Target, Time <= 1 && !(Target,HitShakeOver)
 
-;=====================<ILLUSION SOUL PROJECTILE 6>=========================
+;=<ILLUSION SOUL PROJECTILE 6>=
 [StateDef 3590]
 type = S
 physics = N
@@ -3824,7 +3824,7 @@ ctrl = 0
 type = destroyself
 trigger1 = time = 0
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -4568,7 +4568,7 @@ trigger1 = Time >= 8
 
 
 
-;======================<JUMP DUST>===========================
+;==<JUMP DUST>===
 [StateDef 8100]
 type = S
 anim = 1
@@ -4607,7 +4607,7 @@ trigger1 = Time >= 7
 
 
 
-;======================<DASH DUST>===========================
+;==<DASH DUST>===
 [StateDef 8103]
 type = A
 anim = 1
@@ -4668,7 +4668,7 @@ type = DestroySelf
 trigger1 = !NumExplod
 
 
-;======================<IMPACT DUST>===========================
+;==<IMPACT DUST>===
 [StateDef 8110]
 type = A
 anim = 1
@@ -4713,7 +4713,7 @@ type = DestroySelf
 trigger1 = !NumExplod
 
 
-;======================<WALL IMPACT DUST>===========================
+;==<WALL IMPACT DUST>===
 [StateDef 8111]
 type = A
 anim = 1
@@ -4759,7 +4759,7 @@ trigger1 = !NumExplod
 
 
 
-;========================<RECOVER FX>=============================
+;====<RECOVER FX>=
 [StateDef 8200]
 type = A
 velSet = 0,0
@@ -4791,7 +4791,7 @@ trigger1 = Time >= 15
 
 
 
-;========================<COUNTER FX>=============================
+;====<COUNTER FX>=
 [StateDef 8290]
 type = A
 physics = N
@@ -4837,7 +4837,7 @@ trigger1 = Time >= 16
 
 
 
-;==================<POWER CHARGE FX>==================
+;==<POWER CHARGE FX>==
 ;Aura and Dust
 [StateDef 8330]
 type = A
@@ -4945,7 +4945,7 @@ type = DestroySelf
 trigger1 = Root, StateNo != 730
 
 
-;==================<VIOLENT WIN VS VEGA PARTICLES>==================
+;==<VIOLENT WIN VS VEGA PARTICLES>==
 [StateDef 8332]
 type = A
 physics = N
@@ -4982,7 +4982,7 @@ trigger1 = Root, StateNo != 187 || Root, AnimElemTime(60) >= 0
 
 
 
-;==================<ZERO COUNTER FX>==================
+;==<ZERO COUNTER FX>==
 [StateDef 8350]
 type = A
 physics = N
@@ -5034,7 +5034,7 @@ trigger1 = Time >= 16
 
 
 
-;========================<CUSTOM COMBO>=============================
+;====<CUSTOM COMBO>=
 [StateDef 8400]
 type = A
 physics = N
@@ -5140,7 +5140,7 @@ trigger1 = Time >= 26
 
 
 
-;========================<SUPER PAUSE FX>=============================
+;====<SUPER PAUSE FX>=
 ;Level 1 Super FX
 [StateDef 8500]
 type = A
@@ -5582,7 +5582,7 @@ trigger1 = Time >= 40
 type = DestroySelf
 trigger1 = Time >= 40
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [StateDef 8600]
 type = A
 velSet = 0,0
@@ -5758,7 +5758,7 @@ trigger1 = RoundState < 3
 
 
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0

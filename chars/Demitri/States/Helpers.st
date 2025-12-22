@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Demitri by varo_hades                   |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<HELPER STATES>========================================
-;==============================================================================================
+;==
+;===<HELPER STATES>====
+;==
 
-;====================<PARRY HELPER>=========================
+;====<PARRY HELPER>=
 [StateDef 765]
 type = A
 physics = N
@@ -114,7 +114,7 @@ type = DestroySelf
 trigger1 = Root, StateNo = [760,762]
 trigger2 = Time >= 2
 
-;====================<CHAOS FLARE PROJECTILE>=========================
+;====<CHAOS FLARE PROJECTILE>=
 [StateDef 1005]
 type = S
 physics = N
@@ -454,7 +454,7 @@ trigger1 = !NumTarget
 trigger2 = NumTarget
 trigger2 = Target, Time <= 1 && !(Target, HitShakeOver)
 
-;====================<ES CHAOS FLARE PROJECTILE (REFLECTED)>=========================
+;====<ES CHAOS FLARE PROJECTILE (REFLECTED)>=
 [StateDef 1015]
 type = S
 physics = N
@@ -749,7 +749,7 @@ trigger1 = Time >= 3 && var(0) > 1
 trigger2 = Time >= 0 && var(0) <= 1
 value = ifElse(var(0) <= 1, 1007, 1015)
 
-;====================<ES CHAOS FLARE (TARGET)>=========================
+;====<ES CHAOS FLARE (TARGET)>=
 ;Hit shake
 [StateDef 51035]
 type = S
@@ -925,7 +925,7 @@ type = SelfState
 trigger1 = pos y > -vel y
 value = 5100
 
-;====================<EX CHAOS FLARE PROJECTILE>=========================
+;====<EX CHAOS FLARE PROJECTILE>=
 [StateDef 1035]
 type = S
 physics = N
@@ -1265,7 +1265,7 @@ trigger1 = !NumTarget
 trigger2 = NumTarget
 trigger2 = Target, Time <= 1 && !(Target, HitShakeOver)
 
-;====================<ES CHAOS FLARE PROJECTILE (REFLECTED)>=========================
+;====<ES CHAOS FLARE PROJECTILE (REFLECTED)>=
 [StateDef 1045]
 type = S
 physics = N
@@ -1560,7 +1560,7 @@ trigger1 = Time >= 3 && var(0) > 1
 trigger2 = Time >= 0 && var(0) <= 1
 value = ifElse(var(0) <= 1, 1037, 1045)
 
-;====================<CHAOS FLARE 2 PROJECTILE>=========================
+;====<CHAOS FLARE 2 PROJECTILE>=
 [StateDef 1505]
 type = S
 physics = N
@@ -1955,7 +1955,7 @@ type = ChangeState
 trigger1 = Time >= 7
 value = 1508
 
-;====================<CHAOS FLARE PROJECTILE (REFLECTED)>=========================
+;====<CHAOS FLARE PROJECTILE (REFLECTED)>=
 [StateDef 1515]
 type = S
 physics = N
@@ -2142,7 +2142,7 @@ var(12) = 1
 type = DestroySelf
 trigger1 = FrontEdgeDist < -100 || BackEdgeDist < -100
 
-;====================<CHAOS FLARE BAT>=========================
+;====<CHAOS FLARE BAT>=
 [StateDef 11005]
 type = A
 physics = N
@@ -2245,7 +2245,7 @@ type = BindToParent
 trigger1 = 1
 ignoreHitPause = 1
 
-;====================<CHAOS FLARE BAT (BITING)>=========================
+;====<CHAOS FLARE BAT (BITING)>=
 [StateDef 11007]
 type = A
 physics = N
@@ -2349,7 +2349,7 @@ y = -0.390625
 type = DestroySelf
 trigger1 = FrontEdgeDist < -100 || BackEdgeDist < -100
 
-;====================<EX CHAOS FLARE 2 PROJECTILE>=========================
+;====<EX CHAOS FLARE 2 PROJECTILE>=
 [StateDef 1535]
 type = S
 physics = N
@@ -2744,7 +2744,7 @@ type = ChangeState
 trigger1 = Time >= 7
 value = 1538
 
-;====================<CHAOS FLARE PROJECTILE (REFLECTED)>=========================
+;====<CHAOS FLARE PROJECTILE (REFLECTED)>=
 [StateDef 1545]
 type = S
 physics = N
@@ -2931,7 +2931,7 @@ var(12) = 1
 type = DestroySelf
 trigger1 = FrontEdgeDist < -100 || BackEdgeDist < -100
 
-;====================<EX CHAOS FLARE BAT>=========================
+;====<EX CHAOS FLARE BAT>=
 [StateDef 11035]
 type = A
 physics = N
@@ -3034,7 +3034,7 @@ type = BindToParent
 trigger1 = 1
 ignoreHitPause = 1
 
-;====================<EX CHAOS FLARE BAT (BITING)>=========================
+;====<EX CHAOS FLARE BAT (BITING)>=
 [StateDef 11037]
 type = A
 physics = N
@@ -3138,7 +3138,7 @@ y = -0.390625
 type = DestroySelf
 trigger1 = FrontEdgeDist < -100 || BackEdgeDist < -100
 
-;====================<CHAOS FLARE (TARGET)>=========================
+;====<CHAOS FLARE (TARGET)>=
 ;Hit shake
 [Statedef 51005]
 type = S
@@ -3224,7 +3224,7 @@ trigger1 = HitOver
 value = 0
 ctrl = 1
 
-;====================<DEMON BLAST PROJECTILE>=========================
+;====<DEMON BLAST PROJECTILE>=
 [StateDef 3105]
 type = A
 physics = N
@@ -5103,7 +5103,7 @@ trigger1 = !NumTarget
 trigger2 = NumTarget
 trigger2 = Target, Time <= 1 && !(Target, HitShakeOver)
 
-;====================<MAX DEMON BLAST PROJECTILE>=========================
+;====<MAX DEMON BLAST PROJECTILE>=
 [StateDef 3155]
 type = A
 physics = N
@@ -5825,7 +5825,7 @@ type = ChangeState
 trigger1 = Time >= 2
 value = ifElse(var(0) <= 0, 3108, 3155)
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -6803,7 +6803,7 @@ ignoreHitPause = 1
 type = DestroySelf
 trigger1 = Time >= 8
 
-;======================<JUMP DUST>===========================
+;==<JUMP DUST>===
 [StateDef 8100]
 type = S
 anim = 1
@@ -6842,7 +6842,7 @@ trigger1 = Time >= 7
 
 
 
-;======================<DASH DUST>===========================
+;==<DASH DUST>===
 [StateDef 8103]
 type = A
 anim = 1
@@ -6903,7 +6903,7 @@ type = DestroySelf
 trigger1 = !NumExplod
 
 
-;======================<IMPACT DUST>===========================
+;==<IMPACT DUST>===
 [StateDef 8110]
 type = A
 anim = 1
@@ -6948,7 +6948,7 @@ type = DestroySelf
 trigger1 = !NumExplod
 
 
-;======================<WALL IMPACT DUST>===========================
+;==<WALL IMPACT DUST>===
 [StateDef 8111]
 type = A
 anim = 1
@@ -6992,7 +6992,7 @@ trigger1 = Time >= 8
 type = DestroySelf
 trigger1 = !NumExplod
 
-;========================<FLAMES>=============================
+;====<FLAMES>=
 [StateDef 8150]
 type = A
 physics = N
@@ -7077,7 +7077,7 @@ type = DestroySelf
 triggerAll = PlayerIDexist(var(0))
 trigger1 = PlayerID(var(0)), StateType = L && (PlayerID(var(0)), StateNo != [5080,5081])
 
-;========================<RECOVER FX>=============================
+;====<RECOVER FX>=
 [StateDef 8200]
 type = A
 velSet = 0,0
@@ -7109,7 +7109,7 @@ trigger1 = Time >= 15
 
 
 
-;========================<COUNTER FX>=============================
+;====<COUNTER FX>=
 [StateDef 8290]
 type = A
 physics = N
@@ -7155,7 +7155,7 @@ trigger1 = Time >= 16
 
 
 
-;==================<POWER CHARGE FX>==================
+;==<POWER CHARGE FX>==
 ;Aura and Dust
 [StateDef 8330]
 type = A
@@ -7263,7 +7263,7 @@ type = DestroySelf
 trigger1 = Root, StateNo != 730
 
 
-;==================<VIOLENT WIN VS VEGA PARTICLES>==================
+;==<VIOLENT WIN VS VEGA PARTICLES>==
 [StateDef 8332]
 type = A
 physics = N
@@ -7300,7 +7300,7 @@ trigger1 = Root, StateNo != 187 || Root, AnimElemTime(60) >= 0
 
 
 
-;==================<ZERO COUNTER FX>==================
+;==<ZERO COUNTER FX>==
 [StateDef 8350]
 type = A
 physics = N
@@ -7352,7 +7352,7 @@ trigger1 = Time >= 16
 
 
 
-;========================<CUSTOM COMBO>=============================
+;====<CUSTOM COMBO>=
 [StateDef 8400]
 type = A
 physics = N
@@ -7458,7 +7458,7 @@ trigger1 = Time >= 26
 
 
 
-;========================<SUPER PAUSE FX>=============================
+;====<SUPER PAUSE FX>=
 ;Level 1 Super FX
 [StateDef 8500]
 type = A
@@ -7902,7 +7902,7 @@ trigger1 = Time >= 40
 
 
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [StateDef 8600]
 type = A
 velSet = 0,0
@@ -8058,7 +8058,7 @@ trigger1 = RoundState < 3
 
 
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0

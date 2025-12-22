@@ -1,11 +1,11 @@
 ; _______________________________________
 ;| Maki Genryusai by Knuckles8864        |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;========================<GENKO>=============================
+;====<GENKO>=
 [StateDef 1000]
 type = S
 physics = N
@@ -126,7 +126,7 @@ ctrl = 1
 
 
 
-;========================<EX GENKO>=============================
+;====<EX GENKO>=
 [StateDef 1030]
 type = S
 physics = N
@@ -291,7 +291,7 @@ ctrl = 1
 
 
 
-;========================<HAYAGAKE>=============================
+;====<HAYAGAKE>=
 [StateDef 1100]
 type = S
 physics = S
@@ -1329,7 +1329,7 @@ trigger1 = 1
 value = 0
 
 
-;========================<EX HAYAGAKE>=============================
+;====<EX HAYAGAKE>=
 [StateDef 1130]
 type = S
 physics = S
@@ -2476,7 +2476,7 @@ value = 1111
 
 
 
-;=====================<SAKA HAYAGAKE>==========================
+;=<SAKA HAYAGAKE>==
 [StateDef 1200]
 type = S
 physics = S
@@ -2808,7 +2808,7 @@ ctrl = 0
 
 
 
-;=====================<REPPUKYAKU>==========================
+;=<REPPUKYAKU>==
 [StateDef 1300]
 type = S
 physics = S
@@ -3075,7 +3075,7 @@ ctrl = 1
 
 
 
-;========================<HASSOUKYAKU>=============================
+;====<HASSOUKYAKU>=
 ;Wall Bounce
 [StateDef 1400]
 type = A
@@ -3605,7 +3605,7 @@ ctrl = 1
 
 
 
-;========================<EX HASSOUKYAKYU: GRAB>=============================
+;====<EX HASSOUKYAKYU: GRAB>=
 ;(Startup)
 [StateDef 1430]
 type = A
@@ -3731,7 +3731,7 @@ ctrl = 0
 
 
 
-;========================<EX HASSOUKYAKYU: DIVE KICK>=============================
+;====<EX HASSOUKYAKYU: DIVE KICK>=
 ;Dive Kick (Startup)
 [StateDef 1440]
 type = A
@@ -3885,7 +3885,7 @@ ctrl = 0
 
 
 
-;========================<TENGU DAOSHI>=============================
+;====<TENGU DAOSHI>=
 ;Grab Attempt
 [StateDef 1500]
 type = A
@@ -4453,7 +4453,7 @@ value = 1525
 
 
 
-;========================<EX TENGU DAOSHI>=============================
+;====<EX TENGU DAOSHI>=
 ;Grab Attempt
 [StateDef 1530]
 type = A
@@ -5139,7 +5139,7 @@ value = 1111
 
 
 
-;=====================<PUNCH ZERO COUNTER>==========================
+;=<PUNCH ZERO COUNTER>==
 [StateDef 2900]
 type = S
 physics = N
@@ -5229,7 +5229,7 @@ ctrl = 1
 
 
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

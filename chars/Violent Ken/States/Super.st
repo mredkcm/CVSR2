@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Ken by Phantom.of.the.Server & Jmorphman|
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<SHORYUREPPA>=============================
+;====<SHORYUREPPA>=
 [StateDef 3000]
 type = S
 physics = S
@@ -565,7 +565,7 @@ ctrl = 1
 
 
 
-;========================<MAX SHORYUREPPA>=============================
+;====<MAX SHORYUREPPA>=
 [StateDef 3050]
 type = S
 physics = S
@@ -1235,7 +1235,7 @@ value = 3001
 
 
 
-;========================<SHINRYUKEN>=============================
+;====<SHINRYUKEN>=
 [StateDef 3100]
 type = S
 physics = S
@@ -1529,7 +1529,7 @@ trigger2 = AILevel && Random < 800
 var(42) = 2
 
 [State 3101, Mashing Increment]
-type  = VarAdd
+type = VarAdd
 trigger1 = var(42) = 2
 var(12) = 1
 
@@ -1792,7 +1792,7 @@ ctrl = 1
 
 
 
-;========================<WIN BY SHINRYUKEN (MASTER)>=============================
+;====<WIN BY SHINRYUKEN (MASTER)>=
 [Statedef 3113]
 type = S
 
@@ -1832,7 +1832,7 @@ ctrl = 1
 
 
 
-;========================<MAX SHINRYUKEN>=============================
+;====<MAX SHINRYUKEN>=
 [StateDef 3150]
 type = S
 physics = S
@@ -2126,7 +2126,7 @@ trigger2 = AILevel && Random < 800
 var(42) = 2
 
 [State 3151, Mashing Increment]
-type  = VarAdd
+type = VarAdd
 trigger1 = var(42) = 2
 var(12) = 1
 
@@ -2315,7 +2315,7 @@ value = ifElse(var(40) = 2, 3111, 3001)
 
 
 
-;========================<SHIPPU JINRAIKYAKU>=============================
+;====<SHIPPU JINRAIKYAKU>=
 [StateDef 3200]
 type = S
 physics = N
@@ -3045,7 +3045,7 @@ value = 1201
 
 
 
-;========================<SHIPPU JINRAIKYAKU (SFIII)>=============================
+;====<SHIPPU JINRAIKYAKU (SFIII)>=
 [StateDef 3205]
 type = S
 physics = N
@@ -3424,7 +3424,7 @@ value = 1206
 
 
 
-;========================<MAX SHIPPU JINRAIKYAKU>=============================
+;====<MAX SHIPPU JINRAIKYAKU>=
 [StateDef 3250]
 type = S
 physics = S
@@ -4089,7 +4089,7 @@ value = 1201
 
 
 
-;========================<MAX SHIPPU JINRAIKYAKU (SFIII)>=============================
+;====<MAX SHIPPU JINRAIKYAKU (SFIII)>=
 [StateDef 3255]
 type = S
 physics = N
@@ -4520,7 +4520,7 @@ value = 1206
 
 
 
-;========================<JOUEN SHINRYUKEN>=============================
+;====<JOUEN SHINRYUKEN>=
 [StateDef 3300]
 type = S
 physics = N
@@ -4846,7 +4846,7 @@ value = 3001
 
 ;Target
 [Statedef 3305]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -5667,7 +5667,7 @@ ctrl = 1
 
 
 
-;========================<KUZURYUREPPA>=============================
+;====<KUZURYUREPPA>=
 [StateDef 3400]
 type = S
 physics = S
@@ -6402,7 +6402,7 @@ value = 3001
 
 
 
-;========================<SHINBU MESSATSU>=============================
+;====<SHINBU MESSATSU>=
 [StateDef 3500]
 type = S
 physics = N
@@ -6950,7 +6950,7 @@ ctrl = 1
 [StateDef 3550]
 type = S
 moveType = H
-physics  = N
+physics = N
 velSet = 0,0
 
 [State 3550, PosSet]
@@ -7003,7 +7003,7 @@ ctrl = 1
 
 
 
-;========================<GUREN SENPUKYAKU>=============================
+;====<GUREN SENPUKYAKU>=
 [StateDef 3600]
 type = S
 physics = N
@@ -7602,7 +7602,7 @@ value = 1206
 
 
 
-;========================<DOUBLE SHINKU HADOKEN>=============================
+;====<DOUBLE SHINKU HADOKEN>=
 [StateDef 4000]
 type = S
 physics = N
@@ -7785,7 +7785,7 @@ ctrl = 1
 
 
 
-;========================<SOURYUKEN>=============================
+;====<SOURYUKEN>=
 [StateDef 4100]
 type = S
 physics = N
@@ -8415,7 +8415,7 @@ ctrl = 1
 
 
 
-;========================<WIN BY SOURYKEN>=============================
+;====<WIN BY SOURYKEN>=
 [Statedef 4111]
 type = S
 

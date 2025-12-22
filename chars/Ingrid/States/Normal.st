@@ -5,7 +5,7 @@
 ;---------------------------------------------------------------------------
 ; Standing Light Punch
 [Statedef 200]
-type    = S
+type = S
 physics = S
 movetype= A
 ctrl = 0
@@ -91,7 +91,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Punch
 [Statedef 210]
-type    = S
+type = S
 physics = S
 movetype= A
 ctrl = 0
@@ -195,7 +195,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Sunbright
 [Statedef 212]
-type    = S
+type = S
 physics = S
 movetype= A
 ctrl = 0
@@ -577,7 +577,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Light Kick
 [Statedef 230]
-type    = S
+type = S
 physics = S
 moveType = A
 ctrl = 0
@@ -663,7 +663,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Far Medium Kick
 [Statedef 240]
-type    = S
+type = S
 physics = S
 moveType = A
 ctrl = 0
@@ -761,7 +761,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Close Medium Kick
 [Statedef 241]
-type    = S
+type = S
 physics = S
 moveType = A
 ctrl = 0
@@ -847,7 +847,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Easy Step
 [Statedef 242]
-type    = S
+type = S
 physics = S
 moveType = A
 ctrl = 0
@@ -963,7 +963,7 @@ value = 243
 ;---------------------------------------------------------------------------
 ; Easy Step Landing
 [Statedef 243]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 243
@@ -1767,7 +1767,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Tripped get-hit (shaking)
 [Statedef 455]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1792,7 +1792,7 @@ ampl = 140
 
 ; Tripped get-hit (knocked away)
 [Statedef 456]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1988,7 +1988,7 @@ value=52
 ; Angled Jump Medium Punch
 [Statedef 610]
 type = A
-physics  = N
+physics = N
 moveType = A
 ctrl = 0
 sprPriority = 1
@@ -2073,7 +2073,7 @@ value=52
 ; Neutral Jump Medium Punch
 [Statedef 611]
 type = A
-physics  = N
+physics = N
 moveType = A
 ctrl = 0
 sprPriority = 1
@@ -3328,7 +3328,7 @@ trigger2 = (command = "up" || command = "down" || command = "back" || command = 
 var(42) = 2
 
 [State 821, Mashing Increment]
-type  = VarAdd
+type = VarAdd
 trigger1 = var(42) = 2
 var(12) = 1
 

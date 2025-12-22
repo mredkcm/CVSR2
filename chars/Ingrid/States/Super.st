@@ -469,7 +469,7 @@ value = 3101
 ;---------------------------------------------------------------------------
 ; Sunshine Last Hit
 [Statedef 3101]
-type    = S
+type = S
 physics = N
 moveType = A
 ctrl = 0
@@ -781,7 +781,7 @@ value = 3151
 ;---------------------------------------------------------------------------
 ; MAX Sunshine 2
 [Statedef 3151]
-type    = S
+type = S
 physics = N
 moveType = A
 ctrl = 0
@@ -896,7 +896,7 @@ value = 3152
 ;---------------------------------------------------------------------------
 ; MAX Sunshine 3
 [Statedef 3152]
-type    = S
+type = S
 physics = S
 movetype = A
 ctrl = 0
@@ -1529,7 +1529,7 @@ value = 3532
 
 ; ---TARGET 3---
 [Statedef 3532]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0

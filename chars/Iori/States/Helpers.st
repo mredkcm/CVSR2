@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Iori Yagami by Knuckles8864             |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<HELPER STATES>========================================
-;==============================================================================================
+;==
+;===<HELPER STATES>====
+;==
 
-;====================<PARRY HELPER>=========================
+;====<PARRY HELPER>=
 [StateDef 765]
 type = A
 physics = N
@@ -117,7 +117,7 @@ trigger2 = Time >= 2
 
 
 
-;=====================<YAMI BARAI PROJECTILE>=========================
+;=<YAMI BARAI PROJECTILE>=
 [StateDef 1005]
 type = S
 physics = N
@@ -527,7 +527,7 @@ trigger2 = Target, Time <= 1 && !(Target,HitShakeOver)
 
 
 
-;=====================<ONIYAKI FIRE>=========================
+;=<ONIYAKI FIRE>=
 [StateDef 1105]
 type = S
 physics = N
@@ -568,7 +568,7 @@ trigger2 = Parent, MoveType = H && Time < 20
 
 
 
-;====================<TSUMAGUSHI FIRE>=========================
+;====<TSUMAGUSHI FIRE>=
 [Statedef 1435]
 type = A
 physics = N
@@ -604,7 +604,7 @@ trigger1 = !AnimTime
 
 
 
-;=====================<YA SAKAZUKI FLAMES>=========================
+;=<YA SAKAZUKI FLAMES>=
 ;StartUp
 [Statedef 3006]
 type = S
@@ -873,7 +873,7 @@ trigger2 = !animtime
 
 ;Ya Sakazuki Ground
 [Statedef 3020]
-type  = A
+type = A
 physics = N
 movetype = I
 anim = 3020
@@ -913,7 +913,7 @@ ignorehitpause = 1
 
 
 
-;=====================<MAX YA SAKAZUKI FLAMES>=========================
+;=<MAX YA SAKAZUKI FLAMES>=
 [Statedef 3055]
 type = S
 physics = N
@@ -1194,7 +1194,7 @@ trigger2 = !animtime
 
 
 
-;====================<SAIKA FIRE PILLAR>=========================
+;====<SAIKA FIRE PILLAR>=
 [Statedef 3305]
 type=S
 physics=N
@@ -1395,7 +1395,7 @@ trigger1=!animtime
 
 
 
-;====================<SAN SHINGI NO NI FIRE PILLAR>=========================
+;====<SAN SHINGI NO NI FIRE PILLAR>=
 [Statedef 3730]
 type = A
 physics = N
@@ -1463,7 +1463,7 @@ ignorehitpause = 1
 
 
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -2452,7 +2452,7 @@ trigger1 = Time >= 8
 
 
 
-;========================< BLOOD >=============================
+;====< BLOOD >=
 ;Small Slash Blood
 [Statedef 8050]
 type = A
@@ -2513,7 +2513,7 @@ trigger1 = 1
 
 
 
-;======================<JUMP DUST>===========================
+;==<JUMP DUST>===
 [StateDef 8100]
 type = S
 anim = 1
@@ -2552,7 +2552,7 @@ trigger1 = Time >= 7
 
 
 
-;======================<DASH DUST>===========================
+;==<DASH DUST>===
 [StateDef 8103]
 type = A
 anim = 1
@@ -2613,7 +2613,7 @@ type = DestroySelf
 trigger1 = !NumExplod
 
 
-;======================<IMPACT DUST>===========================
+;==<IMPACT DUST>===
 [StateDef 8110]
 type = A
 anim = 1
@@ -2658,7 +2658,7 @@ type = DestroySelf
 trigger1 = !NumExplod
 
 
-;======================<WALL IMPACT DUST>===========================
+;==<WALL IMPACT DUST>===
 [StateDef 8111]
 type = A
 anim = 1
@@ -2704,7 +2704,7 @@ trigger1 = !NumExplod
 
 
 
-;========================<FLAMES>=============================
+;====<FLAMES>=
 [StateDef 8150]
 type = A
 velSet = 0,0
@@ -2781,7 +2781,7 @@ trigger1= !NumEnemy || (Time >= 120 && EnemyNear, StateNo != 3060)
 
 
 
-;========================<RECOVER FX>=============================
+;====<RECOVER FX>=
 [StateDef 8200]
 type = A
 velSet = 0,0
@@ -2813,7 +2813,7 @@ trigger1 = Time >= 15
 
 
 
-;========================<COUNTER FX>=============================
+;====<COUNTER FX>=
 [StateDef 8290]
 type = A
 physics = N
@@ -2859,7 +2859,7 @@ trigger1 = Time >= 16
 
 
 
-;==================<POWER CHARGE FX>==================
+;==<POWER CHARGE FX>==
 ;Aura and Dust
 [StateDef 8330]
 type = A
@@ -3002,7 +3002,7 @@ trigger1 = Root, StateNo != 730
 
 
 
-;==================<ZERO COUNTER FX>==================
+;==<ZERO COUNTER FX>==
 [StateDef 8350]
 type = A
 physics = N
@@ -3054,7 +3054,7 @@ trigger1 = Time >= 16
 
 
 
-;========================<CUSTOM COMBO>=============================
+;====<CUSTOM COMBO>=
 [StateDef 8400]
 type = A
 physics = N
@@ -3160,7 +3160,7 @@ trigger1 = Time >= 26
 
 
 
-;========================<SUPER PAUSE FX>=============================
+;====<SUPER PAUSE FX>=
 ;Level 1 Super FX
 [StateDef 8500]
 type = A
@@ -3802,7 +3802,7 @@ trigger1 = Time >= 40
 
 
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [StateDef 8600]
 type = A
 velSet = 0,0
@@ -3988,7 +3988,7 @@ trigger1 = RoundState < 3
 
 
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0

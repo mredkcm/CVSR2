@@ -1,11 +1,11 @@
 ; _______________________________________
 ;| Maki Genryusai by Knuckles8864        |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<BUSHIN GOURAIHA>=============================
+;====<BUSHIN GOURAIHA>=
 [StateDef 3000]
 type = S
 physics = S
@@ -453,7 +453,7 @@ ctrl = 1
 
 
 
-;========================<MAX BUSHIN GOURAIHA>=============================
+;====<MAX BUSHIN GOURAIHA>=
 [StateDef 3050]
 type = S
 physics = S
@@ -1016,7 +1016,7 @@ value = 3005
 
 
 
-;========================<TESSHINHOU>=============================
+;====<TESSHINHOU>=
 [StateDef 3100]
 type = S
 physics = S
@@ -1442,7 +1442,7 @@ ctrl = 1
 
 
 
-;========================<MAX TESSHINHOU>=============================
+;====<MAX TESSHINHOU>=
 [StateDef 3150]
 type = S
 physics = N
@@ -1837,7 +1837,7 @@ ctrl = 1
 
 
 
-;========================<AJARATENGU>=============================
+;====<AJARATENGU>=
 ;Startup
 [StateDef 3200]
 type = S
@@ -2541,7 +2541,7 @@ value = 1514
 
 
 
-;========================<AJARATENGU (TARGET)>=============================
+;====<AJARATENGU (TARGET)>=
 ;(Target)
 [Statedef 3240]
 type = A
@@ -2633,7 +2633,7 @@ movecamera = 0,0
 
 
 
-;========================<MAX AJARATENGU>=============================
+;====<MAX AJARATENGU>=
 ;Startup
 [StateDef 3250]
 type = S
@@ -3772,7 +3772,7 @@ value = 1514
 
 
 
-;========================<AJARATENGU (AIR)>=============================
+;====<AJARATENGU (AIR)>=
 ;Startup
 [StateDef 3300]
 type = A
@@ -4453,7 +4453,7 @@ value = 1514
 
 
 
-;========================<MAX AJARATENGU (AIR)>=============================
+;====<MAX AJARATENGU (AIR)>=
 ;Startup
 [StateDef 3350]
 type = A
@@ -5571,7 +5571,7 @@ value = 1514
 
 
 
-;========================<SUPER REPPUKYAKU>=============================
+;====<SUPER REPPUKYAKU>=
 [StateDef 3400]
 type = S
 physics = S
@@ -5871,7 +5871,7 @@ value = 1301
 ctrl = 0
 
 
-;========================<BUSHIN FUNGEKI>=============================
+;====<BUSHIN FUNGEKI>=
 ;Startup
 [StateDef 3500]
 type = S
@@ -7935,7 +7935,7 @@ trigger1= pos y >= 0 && vel y > 0
 value = 1514
 
 
-;========================<BUSHIN FUNGEKI (TARGET)>=============================
+;====<BUSHIN FUNGEKI (TARGET)>=
 ;(Target)
 [Statedef 3530]
 type = A

@@ -1,17 +1,17 @@
 ; ADD004 BASIC PIEs ReBuilded CNS (27/12/2018)
-;==============================================
+;==
 ; This file is Made by PIE.
 ; there is a backup of this file in the same folder, named "<samename>.a4bk".
 ; to Restore, use assist tool, or delete this file, then remove ".a4bk" from the neme of backup.
-;==============================================
+;==
 
 
 ; _________________________________________
 ;| Character by Author Name                |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<SYSTEM STATES>========================================
-;==============================================================================================
+;==
+;===<SYSTEM STATES>====
+;==
 
 ;---------------------------------------------------------------------------
 ;STANDING
@@ -41,7 +41,7 @@ type = ChangeState
 trigger1 = !Alive
 value = 5050
 
-;====================<CROUCHING>====================
+;====<CROUCHING>====
 ;Stand to Crouch
 [StateDef 10]
 type = C
@@ -2663,7 +2663,7 @@ type = selfstate
 trigger1 = time >= 60
 value = 5210
 
-;============<OFF SCREEN STAND BY>=========
+;====<OFF SCREEN STAND BY>=
 ;Stand by
 [Statedef 7827]
 type=S
@@ -2693,7 +2693,7 @@ type=ChangeState
 trigger1=NumEnemy=2
 trigger1=Enemy(1),statetype=L || Enemy(1),movetype != H
 value=7828
-;============<OFF SCREEN RUN IN>=========
+;====<OFF SCREEN RUN IN>=
 ;Off Screen Run In
 [Statedef 7828]
 type   =S
@@ -2738,7 +2738,7 @@ type=ChangeState
 trigger1= time>=20
 value=7829
 ctrl=0
-;============<OFF SCREEN RUN STOP>=========
+;====<OFF SCREEN RUN STOP>=
 ;Off Screen Run Stop
 [Statedef 7829]
 type   =S
@@ -2769,7 +2769,7 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ; Stand get-hit (shaking)
 [Statedef 5000]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2845,7 +2845,7 @@ value = 5030
 ;---------------------------------------------------------------------------
 ; Stand get-hit (knocked back)
 [Statedef 5001]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -2883,7 +2883,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch get-hit (shaking)
 [Statedef 5010]
-type    = C
+type = C
 movetype= H
 physics = N
 velset = 0,0
@@ -2955,7 +2955,7 @@ ampl = 140
 ;---------------------------------------------------------------------------
 ; Crouch get-hit (knocked back)
 [Statedef 5011]
-type    = C
+type = C
 movetype= H
 physics = C
 
@@ -2993,7 +2993,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Air get-hit (shaking)
 [Statedef 5020]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3057,7 +3057,7 @@ ampl = 140
 ;---------------------------------------------------------------------------
 ; Air get-hit (knocked away)
 [Statedef 5030]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -3103,7 +3103,7 @@ value = 5035 ;Air get-hit (transition)
 ;---------------------------------------------------------------------------
 ; Air get-hit (transition)
 [Statedef 5035]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3145,7 +3145,7 @@ value = 5050 ;Air get-hit (falling)
 ;---------------------------------------------------------------------------
 ; Air get-hit (recovering in air, not falling)
 [Statedef 5040]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3187,7 +3187,7 @@ value = 52 ;Jump land
 ;---------------------------------------------------------------------------
 ; Air get-hit (falling)
 [Statedef 5050]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3240,7 +3240,7 @@ value = 5100 ;Downed get-hit (hit ground from fall)
 ;---------------------------------------------------------------------------
 ; Tripped get-hit (shaking)
 [Statedef 5070]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3265,7 +3265,7 @@ ampl = 140
 ;---------------------------------------------------------------------------
 ; Tripped get-hit (knocked away)
 [Statedef 5071]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3289,7 +3289,7 @@ value = 5110
 ;---------------------------------------------------------------------------
 ; Downed get-hit (shaking)
 [Statedef 5080]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -3333,7 +3333,7 @@ value = 5030 ;Air get-hit (knocked away)
 ;---------------------------------------------------------------------------
 ; Downed get-hit (knocked back)
 [Statedef 5081]
-type    = L
+type = L
 movetype= H
 physics = C
 
@@ -3360,7 +3360,7 @@ value = 5110 ;Downed get-hit (lying down)
 ;---------------------------------------------------------------------------
 ; Downed get-hit (hit ground from fall)
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3450,7 +3450,7 @@ time = 20
 ;---------------------------------------------------------------------------
 ; Downed get-hit (bounce off ground)
 [Statedef 5101]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3496,7 +3496,7 @@ value = 5110
 ;---------------------------------------------------------------------------
 ; Downed get-hit (lying down)
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3622,7 +3622,7 @@ waveform = sine
 ;---------------------------------------------------------------------------
 ; Downed get-hit (getting up)
 [Statedef 5120]
-type    = L
+type = L
 movetype= I
 physics = N
 
@@ -3677,7 +3677,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Downed get-hit (lying defeated)
 [Statedef 5150]
-type    = L
+type = L
 movetype= H
 physics = N
 sprpriority = -3
@@ -3734,7 +3734,7 @@ time = 1
 ;---------------------------------------------------------------------------
 ; Air get-hit (fall recovery on ground; still falling)
 [Statedef 5200]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3758,7 +3758,7 @@ value = 5201
 ;---------------------------------------------------------------------------
 ; Air get-hit (fall recovery on ground)
 [Statedef 5201]
-type    = A
+type = A
 movetype= H
 physics = A
 anim = 5200
@@ -3801,7 +3801,7 @@ sprpriority = -10
 ;---------------------------------------------------------------------------
 ; Air get-hit (fall recovery in air)
 [Statedef 5210]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 5210
@@ -3911,9 +3911,9 @@ trigger1 = Pos Y >= 0
 value = 52 ;Jump land
 ctrl = 1
 
-;==============================================================
-;========================================================Syn===
-;==============================================================
+;==
+;====Syn===
+;==
 ;DRAMATIC KO PAUSE
 [Statedef 9944]
 type = s
@@ -3945,9 +3945,9 @@ supermovetime = 9999999999
 pausemovetime = 9999999999
 persistent = 0
 ignorehitpause = 1
-;==============================================================
-;=======================================================Syn====
-;==============================================================
+;==
+;===Syn====
+;==
 ;DRAMATIC KO PAUSE HELPER
 [Statedef 9955]
 type = s
@@ -3978,15 +3978,15 @@ persistent = 0
 type = DestroySelf
 trigger1 = time >= 28;<---make the time match the time in the pause code above
 
-;===========================================================================
-;===============================< -2 STATES >=================================
-;===========================================================================
+;===
+;===< -2 STATES >=
+;===
 [Statedef -2]
 
 ;#ADD004BASIC PIEs#
-;//==========================
+;//==
 ;// add004-sctrls-start
-;//==========================
+;//==
 ;sys::-2::partners_standby ; パートナー待機
 [state 0]
 	type=selfstate
@@ -4056,7 +4056,7 @@ trigger1 = time >= 28;<---make the time match the time in the pause code above
 	time=1
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;;>>@Config.Face>>
 ;sys::-2::face_d ; portrait (顔)
 [state 0]
@@ -4091,7 +4091,7 @@ trigger1 = time >= 28;<---make the time match the time in the pause code above
 	id=490600
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;;>>@Config.Camera>>
 ;sys::-2::camera_nc ; 焦点変更
 [state 0]
@@ -4117,7 +4117,7 @@ trigger1 = time >= 28;<---make the time match the time in the pause code above
 	movecamera=0,0 ;; [x,y]
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;sys::-2::add.option2-noko
 [state 0] ;; opt-noko
 	type=assertspecial
@@ -4136,7 +4136,7 @@ trigger1 = time >= 28;<---make the time match the time in the pause code above
 	kill=0
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;// optional settings
 ;sys::-2::guard_crush_fx ; ガードクラッシュ
 [state 0]
@@ -4198,9 +4198,9 @@ trigger1 = time >= 28;<---make the time match the time in the pause code above
 	trigger1=playerid(id-3),ishelper=0 && playerid(id-3),teamside=teamside
 	x=const240p(144)*ifelse(teamside=1,-1,1)
 
-;//==========================
+;//==
 ;// add004-sctrls-end
-;//==========================
+;//==
 
 
 [State -2, Finish]
@@ -4700,9 +4700,9 @@ ignorehitpause=1
 
 ;---------------------------------------------------------------------------
 
-;===========================================================================
-;===============================< -3 STATES >=================================
-;===========================================================================
+;===
+;===< -3 STATES >=
+;===
 [Statedef -3]
 
 [State -3, Gametime Var]

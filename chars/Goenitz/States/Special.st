@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Goenitz by varo_hades                   |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;=====================<YONOKAZE>==========================
+;=<YONOKAZE>==
 [StateDef 1000]
 type = S
 physics = S
@@ -87,7 +87,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<EX YONOKAZE>=============================
+;====<EX YONOKAZE>=
 [StateDef 1030]
 type = S
 physics = S
@@ -170,7 +170,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<YANPYOU TOKOBUSE>=============================
+;====<YANPYOU TOKOBUSE>=
 [StateDef 1100]
 type = S
 physics = N
@@ -305,7 +305,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := ifelse(var(10) = 1, -100, ifelse(var(10) = 2,-125,-55))
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.hitTime = 18
 air.hitTime = 60
 ground.velocity = ifElse(var(20), -1.36, -2.5), -11
@@ -340,7 +340,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := ifelse(var(10) = 1, -100, ifelse(var(10) = 2,-125,-55))
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.hitTime = 18
 air.hitTime = 60
 ground.velocity = ifElse(var(20), -2.36, -4), -9
@@ -375,7 +375,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := ifelse(var(10) = 1, -100, ifelse(var(10) = 2,-125,-55))
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.hitTime = 18
 air.hitTime = 60
 ground.velocity = ifElse(var(20), -2.36, -4), -9
@@ -426,7 +426,7 @@ Trigger1 = !AnimTime
 value = 0
 Ctrl = 1
 
-;========================<EX YANPYOU TOKOBUSE>=============================
+;====<EX YANPYOU TOKOBUSE>=
 [StateDef 1130]
 type = S
 physics = N
@@ -595,7 +595,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := ifelse(var(10) = 1, -100, ifelse(var(10) = 2,-125,-55))
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.hitTime = 18
 air.hitTime = 60
 ground.velocity = -2.5, -11
@@ -630,7 +630,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := ifelse(var(10) = 1, -100, ifelse(var(10) = 2,-125,-55))
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.hitTime = 18
 air.hitTime = 60
 ground.velocity = -4, -9
@@ -665,7 +665,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := ifelse(var(10) = 1, -100, ifelse(var(10) = 2,-125,-55))
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.hitTime = 18
 air.hitTime = 60
 ground.velocity = -4, -9
@@ -686,7 +686,7 @@ type = ChangeState
 Trigger1 = Time > 80
 value = 1110
 
-;=====================<HYOUGA>==========================
+;=<HYOUGA>==
 [StateDef 1200]
 type = S
 physics = N
@@ -844,7 +844,7 @@ Trigger1 = !AnimTime
 value = 0
 Ctrl = 1
 
-;=====================<SHIN AOI HANA: SEIRAN>==========================
+;=<SHIN AOI HANA: SEIRAN>==
 [StateDef 1300]
 type = S
 physics = N
@@ -971,7 +971,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -65
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 21
+ground.hittime = 21
 guard.hitTime = 18
 air.hitTime = 120
 ground.velocity = ifElse(var(20), -4.36, -8.52), 0
@@ -1088,7 +1088,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -75
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 21
+ground.hittime = 21
 guard.hitTime = 18
 air.hitTime = 120
 ground.velocity = ifElse(var(20), -4.36, -8.52), 0
@@ -1205,7 +1205,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -65
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.hitTime = 18
 air.hitTime = 120
 ground.velocity = ifElse(var(20), -2.36, -4), -8
@@ -1230,7 +1230,7 @@ Trigger1 = !AnimTime
 Value = 0
 Ctrl = 1
 
-;========================<EX SHIN AOI HANA: SEIRAN>=============================
+;====<EX SHIN AOI HANA: SEIRAN>=
 [StateDef 1330]
 type = S
 physics = N
@@ -1366,7 +1366,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -65
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 21
+ground.hittime = 21
 guard.hitTime = 18
 air.hitTime = 120
 ground.velocity = -8.52
@@ -1463,7 +1463,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -75
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 21
+ground.hittime = 21
 guard.hitTime = 18
 air.hitTime = 120
 ground.velocity = -8.52
@@ -1550,7 +1550,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -65
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.hitTime = 18
 air.hitTime = 120
 ground.velocity = -4, -8
@@ -1575,7 +1575,7 @@ Trigger1 = !AnimTime
 Value = 0
 Ctrl = 1
 
-;========================<SOUGA>=============================
+;====<SOUGA>=
 [Statedef 1400]
 type = S
 physics = N
@@ -1923,7 +1923,7 @@ trigger1 = Pos Y >= 0
 trigger1 = Vel Y > 0
 value = 5100
 
-;========================<EX SOUGA>=============================
+;====<EX SOUGA>=
 [Statedef 1430]
 type = S
 physics = N
@@ -2314,7 +2314,7 @@ trigger1 = Pos Y >= 0
 trigger1 = Vel Y > 0
 value = 5100
 
-;========================<CUTTING WIND>=============================
+;====<CUTTING WIND>=
 [Statedef 1500]
 type = S
 physics = N
@@ -2418,7 +2418,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -70
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.hitTime = 18
 air.hitTime = 120
 ground.velocity = ifElse(var(20), -1.36, -1.5), -11.5
@@ -2524,7 +2524,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = 10 + 0 * (var(35) := 157), var(36) := -70
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.hitTime = 18
 air.hitTime = 120
 ground.velocity = ifElse(var(20), -4.36, -5), 9
@@ -2614,7 +2614,7 @@ Trigger1 = !AnimTime
 value = 0
 Ctrl = 1
 
-;========================<EX CUTTING WIND>=============================
+;====<EX CUTTING WIND>=
 [Statedef 1530]
 type = S
 physics = N
@@ -2735,7 +2735,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -70
 ground.type = High
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.hitTime = 18
 air.hitTime = 120
 ground.velocity = -1.5, -11.5
@@ -2841,7 +2841,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = 10 + 0 * (var(35) := 157), var(36) := -70
 ground.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.hitTime = 18
 air.hitTime = 120
 ground.velocity = -2, -10
@@ -2883,7 +2883,7 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 1515
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -2969,7 +2969,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

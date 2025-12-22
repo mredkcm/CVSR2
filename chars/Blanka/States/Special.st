@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Blanka by varo_hades                    |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;=====================<Electric Thunder>==========================
+;=<Electric Thunder>==
 [StateDef 1000]
 type = S
 physics = S
@@ -123,8 +123,8 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = var(10) = 0
 trigger1 = Animelem = 3||Animelem = 5
 attr = S, SA
-animtype  = H
-damage    = ceil(ifElse(fvar(11) * 100 < 7, 7, fvar(11) * 100)), 7
+animtype = H
+damage = ceil(ifElse(fvar(11) * 100 < 7, 7, fvar(11) * 100)), 7
 guardflag = M
 pauseTime = ifElse(var(20), 3, 6), ifElse(var(20), 3, 6)
 sparkNo = -1 + 0 * (var(33) := 8013)
@@ -159,8 +159,8 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = var(10) = 1
 trigger1 = Animelem = 4||Animelem = 6||Animelem = 8||Animelem = 10||Animelem = 12||Animelem = 14
 attr = S, SA
-animtype  = H
-damage    = ceil(ifElse(fvar(11) * 110 < 7, 7, fvar(11) * 110)), 7
+animtype = H
+damage = ceil(ifElse(fvar(11) * 110 < 7, 7, fvar(11) * 110)), 7
 guardflag = M
 pauseTime = ifElse(var(20), 3, 6), ifElse(var(20), 3, 6)
 sparkNo = -1 + 0 * (var(33) := 8013)
@@ -195,8 +195,8 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = var(10) = 2
 trigger1 = Animelem = 5||Animelem = 7
 attr = S, SA
-animtype  = H
-damage    = ceil(ifElse(fvar(11) * 120 < 7, 7, fvar(11) * 120)), 7
+animtype = H
+damage = ceil(ifElse(fvar(11) * 120 < 7, 7, fvar(11) * 120)), 7
 guardflag = M
 pauseTime = ifElse(var(20), 3, 6), ifElse(var(20), 3, 6)
 sparkNo = -1 + 0 * (var(33) := 8013)
@@ -318,7 +318,7 @@ type = selfState
 trigger1 = Vel Y > 0 && Pos Y >= 10
 value = 5100
 
-;========================<Ex Electric Thunder>=============================
+;====<Ex Electric Thunder>=
 [StateDef 1030]
 type = S
 physics = N
@@ -420,8 +420,8 @@ type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = Animelem = 4||Animelem = 6||Animelem = 8||Animelem = 10||Animelem = 12||Animelem = 14
 attr = S, SA
-animtype  = H
-damage    = ceil(ifElse(fvar(11) * 150 < 7, 7, fvar(11) * 150)), 7
+animtype = H
+damage = ceil(ifElse(fvar(11) * 150 < 7, 7, fvar(11) * 150)), 7
 guardflag = M
 pauseTime = ifElse(var(20), 3, 6), ifElse(var(20), 3, 6)
 sparkNo = -1 + 0 * (var(33) := 8013)
@@ -469,7 +469,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<Rolling Attack>=============================
+;====<Rolling Attack>=
 [StateDef 1100]
 type = S
 physics = N
@@ -525,7 +525,7 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = var(10) = 0
 trigger1 = AnimElem=3
 attr = A, SA
-damage    = ceil(ifElse(fvar(11) * 100 < 7, 7, fvar(11) * 100)), 7
+damage = ceil(ifElse(fvar(11) * 100 < 7, 7, fvar(11) * 100)), 7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -537,7 +537,7 @@ hitSound = -1 + 0 * (var(31) := 5)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -11.0
 guard.velocity = -8.5
 air.velocity = -5.0,-6.0
@@ -564,7 +564,7 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = var(10) = 1
 trigger1 = AnimElem=3
 attr = A, SA
-damage    = ceil(ifElse(fvar(11) * 110 < 7, 7, fvar(11) * 110)), 7
+damage = ceil(ifElse(fvar(11) * 110 < 7, 7, fvar(11) * 110)), 7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -576,7 +576,7 @@ hitSound = -1 + 0 * (var(31) := 5)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -11.0
 guard.velocity = -8.5
 air.velocity = -5.0,-6.0
@@ -603,7 +603,7 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = var(10) = 2
 trigger1 = AnimElem=3
 attr = A, SA
-damage    = ceil(ifElse(fvar(11) * 120 < 7, 7, fvar(11) * 120)), 7
+damage = ceil(ifElse(fvar(11) * 120 < 7, 7, fvar(11) * 120)), 7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -615,7 +615,7 @@ hitSound = -1 + 0 * (var(31) := 5)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -11.0
 guard.velocity = -8.5
 air.velocity = -5.0,-6.0
@@ -829,7 +829,7 @@ trigger1 = Anim=1150 && AnimTime=0
 value = 11
 ctrl = 1
 
-;========================<Ex Rolling Attack>=============================
+;====<Ex Rolling Attack>=
 [StateDef 1130]
 type = S
 physics = N
@@ -917,7 +917,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 20), var(36) := -45
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -7,-3
 air.type = High
 air.velocity = -12,10
@@ -953,7 +953,7 @@ type = ChangeState
 trigger1 = time=38 || hitcount || FrontEdgeBodyDist <= 0 || moveguarded
 value = 1150
 
-;========================<Backstep Rolling>=============================
+;====<Backstep Rolling>=
 [StateDef 1200]
 type = S
 physics = S
@@ -1004,7 +1004,7 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = var(10) = 0
 trigger1 = AnimElem=10
 attr = A, SA
-damage    = ceil(ifElse(fvar(11) * 100 < 7, 7, fvar(11) * 100)), 7
+damage = ceil(ifElse(fvar(11) * 100 < 7, 7, fvar(11) * 100)), 7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1016,7 +1016,7 @@ hitSound = -1 + 0 * (var(31) := 5)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -3.0,-6.0
 guard.velocity = -8.5
 air.velocity = -3.0,-6.0
@@ -1043,7 +1043,7 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = var(10) = 1
 trigger1 = AnimElem=10
 attr = A, SA
-damage    = ceil(ifElse(fvar(11) * 110 < 7, 7, fvar(11) * 110)), 7
+damage = ceil(ifElse(fvar(11) * 110 < 7, 7, fvar(11) * 110)), 7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1055,7 +1055,7 @@ hitSound = -1 + 0 * (var(31) := 5)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -3.0,-6.0
 guard.velocity = -8.5
 air.velocity = -3.0,-6.0
@@ -1082,7 +1082,7 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = var(10) = 2
 trigger1 = AnimElem=10
 attr = A, SA
-damage    = ceil(ifElse(fvar(11) * 120 < 7, 7, fvar(11) * 120)), 7
+damage = ceil(ifElse(fvar(11) * 120 < 7, 7, fvar(11) * 120)), 7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1094,7 +1094,7 @@ hitSound = -1 + 0 * (var(31) := 5)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -3.0,-6.0
 guard.velocity = -8.5
 air.velocity = -3.0,-6.0
@@ -1389,7 +1389,7 @@ trigger1 = Anim=1250 && AnimTime=0
 value = 11
 ctrl = 1
 
-;========================<Ex Backstep Rolling>=============================
+;====<Ex Backstep Rolling>=
 [StateDef 1230]
 type = S
 physics = N
@@ -1458,7 +1458,7 @@ type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem=10
 attr = A, SA
-damage    = ceil(ifElse(fvar(11) * 150 < 7, 7, fvar(11) * 150)), 7
+damage = ceil(ifElse(fvar(11) * 150 < 7, 7, fvar(11) * 150)), 7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1470,7 +1470,7 @@ hitSound = -1 + 0 * (var(31) := 5)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -3.0,-6.0
 guard.velocity = -8.5
 air.velocity = -3.0,-6.0
@@ -1553,7 +1553,7 @@ type = ChangeState
 trigger1 = time=50 || movecontact
 value = 1250
 
-;========================<Vertical Rolling>=============================
+;====<Vertical Rolling>=
 [StateDef 1300]
 type = S
 physics = S
@@ -1604,7 +1604,7 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = var(10) = 0
 trigger1 = AnimElem=3
 attr = A, SA
-damage    = ceil(ifElse(fvar(11) * 100 < 7, 7, fvar(11) * 100)), 7
+damage = ceil(ifElse(fvar(11) * 100 < 7, 7, fvar(11) * 100)), 7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1616,7 +1616,7 @@ hitSound = -1 + 0 * (var(31) := 5)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -9.5
 guard.velocity = -9.5
 ground.cornerpush.veloff = -22.0
@@ -1642,7 +1642,7 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = var(10) = 1
 trigger1 = AnimElem=3
 attr = A, SA
-damage    = ceil(ifElse(fvar(11) * 110 < 7, 7, fvar(11) * 110)), 7
+damage = ceil(ifElse(fvar(11) * 110 < 7, 7, fvar(11) * 110)), 7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1654,7 +1654,7 @@ hitSound = -1 + 0 * (var(31) := 5)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -9.5
 guard.velocity = -9.5
 ground.cornerpush.veloff = -22.0
@@ -1680,7 +1680,7 @@ trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = var(10) = 2
 trigger1 = AnimElem=3
 attr = A, SA
-damage    = ceil(ifElse(fvar(11) * 120 < 7, 7, fvar(11) * 120)), 7
+damage = ceil(ifElse(fvar(11) * 120 < 7, 7, fvar(11) * 120)), 7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -1692,7 +1692,7 @@ hitSound = -1 + 0 * (var(31) := 5)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -9.5
 guard.velocity = -9.5
 ground.cornerpush.veloff = -22.0
@@ -1993,7 +1993,7 @@ trigger1 = Anim=1380 && AnimTime=0
 value = 11
 ctrl = 1
 
-;========================<Ex Vertical Rolling>=============================
+;====<Ex Vertical Rolling>=
 [StateDef 1330]
 type = S
 physics = N
@@ -2068,7 +2068,7 @@ type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
 trigger1 = AnimElem=3
 attr = A, SA
-damage    = ceil(ifElse(fvar(11) * 150 < 7, 7, fvar(11) * 150)), 7
+damage = ceil(ifElse(fvar(11) * 150 < 7, 7, fvar(11) * 150)), 7
 animtype = Hard
 guardflag = MA
 hitflag = MAF
@@ -2080,7 +2080,7 @@ hitSound = -1 + 0 * (var(31) := 5)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -9.5
 guard.velocity = -9.5
 air.velocity = -3.0,-7.0
@@ -2143,7 +2143,7 @@ value = 1370
 
 ;
 [Statedef 1360]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 1390
@@ -2211,7 +2211,7 @@ type = ChangeState
 trigger1 = Vel Y > 0 && Pos Y >= 10
 value = 52
 
-;========================<Surprise Forward>=============================
+;====<Surprise Forward>=
 [Statedef 1400]
 type = S
 movetype = I
@@ -2323,7 +2323,7 @@ trigger1 = AnimTime=0
 value = 0
 ctrl = 1
 
-;========================<Surprise Back>=============================
+;====<Surprise Back>=
 [Statedef 1500]
 type = S
 movetype = I
@@ -2437,7 +2437,7 @@ trigger1 = AnimTime=0
 value = 0
 ctrl = 1
 
-;========================<Coward Crouch>=============================
+;====<Coward Crouch>=
 [Statedef 1600]
 type = S
 movetype = I
@@ -2476,7 +2476,7 @@ trigger1 = Time >= 90
 value = 11
 ctrl = 1
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -2563,7 +2563,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

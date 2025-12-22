@@ -3,14 +3,14 @@
 ;CODES - Mr.KARATE
 ;SPRITES - GUSTAVO C. MORAES
 
-;==============================================================================================
-;=======================================<SYSTEM STATES>========================================
-;==============================================================================================
+;==
+;===<SYSTEM STATES>====
+;==
 
-;====================<RUN/DASH>====================
+;====<RUN/DASH>====
 ; Dash Forward
 [Statedef 100]
-type    = S
+type = S
 physics = S
 anim = 102
 sprpriority = 1
@@ -264,7 +264,7 @@ value = 40
 ;---------------------------------------------------------------------------
 ; Stop Run
 [Statedef 102]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 101
@@ -307,7 +307,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Dash Back
 [Statedef 105]
-type    = A   
+type = A   
 physics = N   
 anim = 105    
 ctrl = 0  
@@ -399,7 +399,7 @@ trigger1 = animTime = 0
 value = 0
 ctrl = 1
 
-;====================<WIN POSES/INTROS>====================
+;====<WIN POSES/INTROS>====
 ; Lose by Time Over
 [Statedef 170]
 type = S
@@ -724,7 +724,7 @@ trigger1= !animtime
 value=5279
 ;-------------------------------------------------------------------------------
 [Statedef 5279]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 47
@@ -796,7 +796,7 @@ type = ChangeState
 trigger1 = AnimTime = 0
 value = 0
 
-;====================<TAUNT>====================
+;====<TAUNT>====
 [Statedef 195]
 type = S
 ctrl = 0
@@ -835,7 +835,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;====================<ROLL-DODGE>====================
+;====<ROLL-DODGE>====
 ;Roll forward
 [Statedef 300]
 type = S
@@ -1048,10 +1048,10 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ; strong kick - Dodge counter atack
 [Statedef 303]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 3
+juggle = 3
 poweradd= 45
 ctrl = 0
 velset = 0
@@ -1072,7 +1072,7 @@ value = 1,15
 type = HitDef
 trigger1 = animelem = 5
 attr = S, NA
-animtype  = Medium
+animtype = Medium
 damage = 60,0
 guardflag = MA
 pausetime = IfElse(var(21),6,12),ifElse(var(21),6,12)
@@ -1084,7 +1084,7 @@ hitsound = s2,13
 guardsound = s2,4
 ground.type = high
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -3, -2
 air.velocity = -2.2,-3.2
 fall = 1
@@ -1099,10 +1099,10 @@ ctrl = 1
 ;-------------------------------------------------------------------------------
 ; Strong punch - Dodge counter atack
 [Statedef 304]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 2
+juggle = 2
 poweradd = 40
 ctrl = 0
 velset = 0,0
@@ -1132,8 +1132,8 @@ channel = -1
 type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
-animtype  = Medium
-damage    = 43, ifelse(var(59)<=1 && power>1000,10,0)
+animtype = Medium
+damage = 43, ifelse(var(59)<=1 && power>1000,10,0)
 guardflag = MA
 pausetime = IfElse(var(21),6,10),ifElse(var(21),6,10)
 guard.pausetime = 14, 14
@@ -1144,7 +1144,7 @@ hitsound = s2,1
 guardsound = s2,4
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -5.5
 air.velocity = -2.5,-4
 palfx.time = ifelse(var(59)<=1 && power>1000,20,0)
@@ -1209,7 +1209,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;====================<EXCEL>====================
+;====<EXCEL>====
 ;Excel - Original combo
 [Statedef 360]
 type=U
@@ -1306,7 +1306,7 @@ trigger1= anim=760 && !animtime
 value=0
 ctrl=1
 
-;====================<POWER CHARGE>====================
+;====<POWER CHARGE>====
 [Statedef 340]
 type=S
 physics=S
@@ -1453,7 +1453,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;====================<ZERO COUNTER>====================
+;====<ZERO COUNTER>====
 [Statedef 350]
 type=S
 physics=S
@@ -1721,10 +1721,10 @@ value=ifelse(var(10)=1,301,301)
 ;-------------------------------------------------------------------------------
 ;Roundhouse strong kick
 [Statedef 353]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 3
+juggle = 3
 poweradd=20*!var(20)
 ctrl = 0
 velset = 0
@@ -1758,7 +1758,7 @@ hitsound = s2,13
 guardsound = s2,4
 ground.type = low
 ground.slidetime = 21
-ground.hittime  = 21
+ground.hittime = 21
 ground.velocity = -4,-5
 air.velocity = -2,-3
 ground.cornerpush.veloff = 0
@@ -1784,7 +1784,7 @@ trigger1 = MoveHit = 1
 persistent = 0
 anim = 8420
 id = 8420
-pos  =  10,-55
+pos =  10,-55
 postype = P2
 sprpriority = 1
 scale = .5,.5
@@ -1827,7 +1827,7 @@ ctrl = 1
 ; Zero Counter - Roundhouse strong kick - P2 Get Hit State
 ;---------------------------------------------------------------------------
 [Statedef 354]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -1858,7 +1858,7 @@ type = SelfState
 trigger1 = Pos Y >= 0
 value = 5100
 
-;====================<PARRY>====================
+;====<PARRY>====
 ;Standing Parry
 [StateDef 760]
 type = S
@@ -2137,13 +2137,13 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value=52
 
-;====================<TRHOWS>====================
+;====<TRHOWS>====
 ;Trhow 1 - Kutei Kaku
 [Statedef 800]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 800
@@ -2451,10 +2451,10 @@ value=5110
 ;---------------------------------------------------------------------------
 ;Trhow 2 - Ura Jigoku Guruma
 [Statedef 810]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 800

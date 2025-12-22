@@ -1,14 +1,14 @@
 ; _________________________________________
 ;| Character by Author Name                |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<NORMAL MOVES>========================================
-;==============================================================================================
+;==
+;====<NORMAL MOVES>====
+;==
 
 ;---------------------------------------------------------------------------
 ; Standing Light Punch
 [Statedef 200]
-type    = S
+type = S
 physics = S
 movetype= A
 ctrl = 0
@@ -90,7 +90,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Punch
 [Statedef 210]
-type    = S
+type = S
 physics = S
 movetype= A
 ctrl = 0
@@ -213,7 +213,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Close Medium Punch
 [Statedef 215]
-type    = S
+type = S
 physics = S
 movetype= A
 ctrl = 0
@@ -505,7 +505,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Light Kick
 [Statedef 230]
-type    = S
+type = S
 physics = S
 moveType = A
 ctrl = 0
@@ -587,7 +587,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Kick
 [Statedef 240]
-type    = S
+type = S
 physics = S
 moveType = A
 ctrl = 0
@@ -1393,7 +1393,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Tripped get-hit (shaking)
 [Statedef 455]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1418,7 +1418,7 @@ ampl = 140
 
 ; Tripped get-hit (knocked away)
 [Statedef 456]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1525,7 +1525,7 @@ value=52
 ; Jump Medium Punch
 [Statedef 610]
 type = A
-physics  = N
+physics = N
 moveType = A
 ctrl = 0
 anim = 610
@@ -1929,10 +1929,10 @@ value=52
 
 ;Throw 1
 [Statedef 800]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 800
@@ -1993,7 +1993,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<THROW SWITCHING SIDES>==========
+;===<THROW SWITCHING SIDES>==
 [StateDef 805]
 type = S
 moveType = A
@@ -2066,10 +2066,10 @@ value = 810
 
 ;Throw 2
 [Statedef 801]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 801
@@ -2130,7 +2130,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<THROW SWITCHING SIDES>==========
+;===<THROW SWITCHING SIDES>==
 [StateDef 806]
 type = S
 moveType = A
@@ -2201,7 +2201,7 @@ type = ChangeState
 trigger1 = AnimElemTime(3) > 0
 value = 820
 
-;===========<THROW SWITCHING SIDES (TARGET)>==========
+;===<THROW SWITCHING SIDES (TARGET)>==
 [StateDef 807]
 type = A
 moveType = H
@@ -2453,7 +2453,7 @@ value = 5050
 ;     Controllers 821,2 and 821,3 allow the opponent to recover by
 ;     hitting his recovery command when he is falling.
 [Statedef 812]
-;type    = A
+;type = A
 movetype= H
 physics = N
 velset = 3.25, 11.5
@@ -2624,7 +2624,7 @@ trigger3 = AILevel && Random < 800
 var(42) = 2
 
 [State 820, Mashing Increment]
-type  = VarAdd
+type = VarAdd
 trigger1 = var(42) = 2
 var(12) = 2
 
@@ -2867,7 +2867,7 @@ ctrl = 1
 
 
 
-;===========<KNEES OF HADES (TARGET)>==========
+;===<KNEES OF HADES (TARGET)>==
 [StateDef 822]
 type = A
 moveType = H
@@ -2983,7 +2983,7 @@ trigger1 = vel y > 0
 trigger1 = pos y >= 25
 value = 5100
 
-;===========<THROW ESC'D>==========
+;===<THROW ESC'D>==
 [StateDef 890]
 type = S
 physics = N

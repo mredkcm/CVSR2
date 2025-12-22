@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Hayato by varo_hades                    |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;=====================<Flash Sword>==========================
+;=<Flash Sword>==
 [StateDef 1000]
 type = S
 physics = S
@@ -111,7 +111,7 @@ movetype = I
 type = AfterImage
 trigger1 = time = 1
 time = 22
-TimeGap  = 3
+TimeGap = 3
 FrameGap = 4
 length = 10
 PalColor = 64
@@ -135,7 +135,7 @@ animtype = Hard
 air.animtype = Back
 fall.animtype = Back
 damage = ceil(ifElse(fvar(11) * ifElse(var(10) = 2, 55, ifElse(var(10), 55, 55)) < 7, 7, fvar(11) * ifElse(var(10) = 2, 55, ifElse(var(10), 55, 55)))), 15
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pauseTime = ifElse(var(20), 6, 10), ifElse(var(20), 6, 15)
@@ -180,7 +180,7 @@ animtype = Hard
 air.animtype = Back
 fall.animtype = Back
 damage = ceil(ifElse(fvar(11) * ifElse(var(10) = 2, 45, ifElse(var(10), 45, 45)) < 7, 7, fvar(11) * ifElse(var(10) = 2, 45, ifElse(var(10), 45, 45)))), 15
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pauseTime = ifElse(var(20), 6, 10), ifElse(var(20), 6, 12)
@@ -221,7 +221,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX Flash Sword>=============================
+;====<EX Flash Sword>=
 [StateDef 1030]
 type = S
 physics = N
@@ -365,7 +365,7 @@ movetype = I
 type = AfterImage
 trigger1 = time = 1
 time = 22
-TimeGap  = 3
+TimeGap = 3
 FrameGap = 4
 length = 10
 PalColor = 64
@@ -389,7 +389,7 @@ animtype = Hard
 air.animtype = Back
 fall.animtype = Back
 damage = ceil(ifElse(fvar(11) * 55 < 7, 7, fvar(11) * 55)), 15
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pauseTime = ifElse(var(20), 6, 10), ifElse(var(20), 6, 15)
@@ -434,7 +434,7 @@ animtype = diagup
 air.animtype = diagup
 fall.animtype = diagup
 damage = ceil(ifElse(fvar(11) * 45 < 7, 7, fvar(11) * 45)), 15
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pauseTime = ifElse(var(20), 6, 10), ifElse(var(20), 6, 12)
@@ -476,7 +476,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<Crimson Sword>=============================
+;====<Crimson Sword>=
 [StateDef 1100]
 type = S
 physics = N
@@ -640,7 +640,7 @@ sparkXY = -10 + 0 * (var(35) := 107), var(36) := -29
 ground.type = Low
 air.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.ctrltime = 18
 ground.velocity = ifelse(var(20), 0, 0), -9.5
 ground.cornerpush.veloff = 0
@@ -683,7 +683,7 @@ sparkXY = -10 + 0 * (var(35) := 107), var(36) := -80
 ground.type = Low
 air.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.ctrltime = 18
 ground.velocity = ifelse(var(20), 0, 0), -9.5
 ground.cornerpush.veloff = 0
@@ -727,7 +727,7 @@ sparkXY = -10 + 0 * (var(35) := 107), var(36) := -80
 ground.type = Low
 air.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.ctrltime = 18
 ground.velocity = ifelse(var(20), 0, 0), -9.5
 ground.cornerpush.veloff = 0
@@ -774,7 +774,7 @@ sparkXY = -10 + 0 * (var(35) := 107), var(36) := -70
 ground.type = Low
 air.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.ctrltime = 18
 ground.velocity = ifelse(var(20), 0, 0), -9.5
 ground.cornerpush.veloff = 0
@@ -822,7 +822,7 @@ sparkXY = -10 + 0 * (var(35) := 107), var(36) := -88
 ground.type = Low
 air.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.ctrltime = 18
 ground.velocity = ifelse(var(20), 0, 0), -9.5
 ground.cornerpush.veloff = 0
@@ -913,7 +913,7 @@ type = DestroySelf
 trigger1 = animtime = 0
 
 ;---------------------------------------------------------------------------
-;g˜@iƒGƒtƒFƒNƒgji— j
+;g˜@iƒGƒtƒFƒNƒgjiEj
 [Statedef 7001]
 type = A
 movetype = I
@@ -931,7 +931,7 @@ flag = NoShadow
 type = DestroySelf
 trigger1 = animtime = 0
 
-;========================<EX Crimson Sword>=============================
+;====<EX Crimson Sword>=
 [StateDef 1130]
 type = S
 physics = N
@@ -1126,7 +1126,7 @@ sparkXY = -10 + 0 * (var(35) := 107), var(36) := -29
 ground.type = Low
 air.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.ctrltime = 18
 ground.velocity = 0, -10.
 ground.cornerpush.veloff = 0
@@ -1169,7 +1169,7 @@ sparkXY = -10 + 0 * (var(35) := 107), var(36) := -29
 ground.type = Low
 air.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.ctrltime = 18
 ground.velocity = 0, -10.5
 ground.cornerpush.veloff = 0
@@ -1212,7 +1212,7 @@ sparkXY = -10 + 0 * (var(35) := 107), var(36) := -60
 ground.type = Low
 air.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.ctrltime = 18
 ground.velocity = 0, -10.5
 ground.cornerpush.veloff = 0
@@ -1255,7 +1255,7 @@ sparkXY = -10 + 0 * (var(35) := 107), var(36) := -60
 ground.type = Low
 air.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.ctrltime = 18
 ground.velocity = 0, -10.5
 ground.cornerpush.veloff = 0
@@ -1298,7 +1298,7 @@ sparkXY = -10 + 0 * (var(35) := 107), var(36) := -60
 ground.type = Low
 air.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.ctrltime = 18
 ground.velocity = 0, -10.5
 ground.cornerpush.veloff = 0
@@ -1341,7 +1341,7 @@ sparkXY = -10 + 0 * (var(35) := 107), var(36) := -68
 ground.type = Low
 air.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.ctrltime = 18
 ground.velocity = 0, -10.5
 ground.cornerpush.veloff = 0
@@ -1368,7 +1368,7 @@ triggerall = Pos Y >= 0 && Vel Y > 0
 trigger1 = AnimElemTime(6) > 0
 value = 1105
 
-;=====================<Grab Launcher>==========================
+;=<Grab Launcher>==
 [StateDef 1200]
 type = S
 physics = S
@@ -1492,7 +1492,7 @@ ctrl = 1
 
 ;Continue
 [Statedef 1201]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -1631,7 +1631,7 @@ ctrl = 1
 
 ;Player 2
 [Statedef 1205]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -1654,7 +1654,7 @@ value = 5100
 
 ;Player 2
 [Statedef 1206]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -1720,7 +1720,7 @@ value = 5100
 
 ;Player 2
 [Statedef 1207]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -1795,7 +1795,7 @@ value = 5100
 
 ;Player 2
 [Statedef 1209]
-type    = S
+type = S
 movetype = H
 physics = S
 velset = 0,0
@@ -1811,7 +1811,7 @@ type = NotHitBy
 trigger1 = 1
 value = SCA
 
-;=====================<EX Grab Launcher>==========================
+;=<EX Grab Launcher>==
 [StateDef 1230]
 type = S
 physics = S
@@ -1955,7 +1955,7 @@ ctrl = 1
 
 ;Continue
 [Statedef 1231]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -2079,7 +2079,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -2165,7 +2165,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

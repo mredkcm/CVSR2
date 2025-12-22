@@ -860,7 +860,7 @@ trigger2 = (command = "up" || command = "down" || command = "back" || command = 
 var(42) = 2
 
 [State 3101, Mashing Increment]
-type  = VarAdd
+type = VarAdd
 trigger1 = var(42) = 2
 var(12) = 1
 
@@ -1433,7 +1433,7 @@ trigger2 = (command = "up" || command = "down" || command = "back" || command = 
 var(42) = 2
 
 [State 3151, Mashing Increment]
-type  = VarAdd
+type = VarAdd
 trigger1 = var(42) = 2
 var(12) = 1
 
@@ -3222,7 +3222,7 @@ value = 3262
 
 ;---HIT GROUND---
 [Statedef 3262]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3281,7 +3281,7 @@ value = 3263
 
 ;---BOUNCE---
 [Statedef 3263]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3318,7 +3318,7 @@ value = 3290
 
 ;---TARGET TRIP---
 [Statedef 3270]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3343,7 +3343,7 @@ ampl = 140
 
 ;---TRIPPED---
 [Statedef 3271]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3367,7 +3367,7 @@ value = 3290
 
 ;---LYING DOWN---
 [Statedef 3290]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -4668,7 +4668,7 @@ value = 3622
 
 ; Hit Ground
 [Statedef 3622]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -4732,7 +4732,7 @@ value = 3623
 
 ; Bounce
 [Statedef 3623]
-type    = L
+type = L
 movetype= H
 physics = N
 

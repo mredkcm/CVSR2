@@ -2,7 +2,7 @@
 ;| Ryu by Phantom.of.the.Server and Mwryly |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 ;
-;HYPER STATES===========
+;HYPER STATES===
 ;
 
 ;SHINKUU HADOU KEN
@@ -4079,7 +4079,7 @@ ctrl = 1
 
 
 
-;======================<SOURYKEN>=============================
+;==<SOURYKEN>=
 [Statedef 3700]
 type=S
 physics=N
@@ -4562,7 +4562,7 @@ value = 0
 ctrl = 1
 
 
-;========================<WIN BY SOURYKEN>=============================
+;====<WIN BY SOURYKEN>=
 [Statedef 3711]
 type = S
 

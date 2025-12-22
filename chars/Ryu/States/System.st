@@ -3767,9 +3767,9 @@ value = 5050
 [Statedef -2]
 
 ;#ADD004BASIC PIEs#
-;//=====
+;//=
 ;// add004-sctrls-start
-;//=====
+;//=
 ;sys::-2::partners_standby ; ???????
 [state 0]
 	type=selfstate
@@ -3839,7 +3839,7 @@ value = 5050
 	time=1
 	ignorehitpause=1
 
-;//=====
+;//=
 ;;>>@Config.Face>>
 ;sys::-2::face_d ; portrait (?)
 [state 0]
@@ -3874,7 +3874,7 @@ value = 5050
 	id=490600
 	ignorehitpause=1
 
-;//=====
+;//=
 ;;>>@Config.Camera>>
 ;sys::-2::camera_nc ; ????
 [state 0]
@@ -3900,7 +3900,7 @@ value = 5050
 	movecamera=0,0 ;; [x,y]
 	ignorehitpause=1
 
-;//=====
+;//=
 ;sys::-2::add.option2-noko
 [state 0] ;; opt-noko
 	type=assertspecial
@@ -3919,7 +3919,7 @@ value = 5050
 	kill=0
 	ignorehitpause=1
 
-;//=====
+;//=
 ;// optional settings
 ;sys::-2::guard_crush_fx ; ????????
 [state 0]
@@ -3981,9 +3981,9 @@ value = 5050
 	trigger1=playerid(id-3),ishelper=0 && playerid(id-3),teamside=teamside
 	x=const240p(144)*ifelse(teamside=1,-1,1)
 
-;//=====
+;//=
 ;// add004-sctrls-end
-;//=====
+;//=
 
 
 [State -2, Super Finish Detection]

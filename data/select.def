@@ -107,7 +107,7 @@ donotchange
 empty
 donotchange
 empty
-Funny Ryu
+Funny Ryu, stages\SFIVTraining(Scale).def, includestage=0, order=5
 
 ;First Line
 rugal, stages\SFIVTraining(Scale).def, includestage=0, order=2
@@ -306,7 +306,11 @@ donotchange
  ;Put extra stages here. They will be available in VS and Watch modes.
  ;For example, you can insert "stages/mybg.def".
 
+stages\kfm.def
 stages\SFIVTraining(Scale).def
+stages\stage0.def
+stages\stage0-720.def
+stages\stage1.def
 
 
 

@@ -1,11 +1,11 @@
 ; ________________________________
 ;| Cammy by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================< NORMAL MOVES >========================================
-;==============================================================================================
+;==
+;====< NORMAL MOVES >====
+;==
 
-;===========< Standing Far Light Punch >==========
+;===< Standing Far Light Punch >==
 [Statedef 200]
 type = S
 physics = S
@@ -81,7 +81,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Standing Close Light Punch >==========
+;===< Standing Close Light Punch >==
 [Statedef 201]
 type = S
 physics = S
@@ -157,7 +157,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Standing Far Medium Punch >==========
+;===< Standing Far Medium Punch >==
 [Statedef 210]
 type = S
 physics = S
@@ -242,7 +242,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Standing Close Medium Punch >==========
+;===< Standing Close Medium Punch >==
 [Statedef 211]
 type = S
 physics = S
@@ -361,7 +361,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Standing Far Hard Punch >==========
+;===< Standing Far Hard Punch >==
 [Statedef 220]
 type = S
 physics = S
@@ -479,7 +479,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Standing Close Hard Punch >==========
+;===< Standing Close Hard Punch >==
 [Statedef 221]
 type = S
 physics = S
@@ -555,7 +555,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Standing Far Light Kick >==========
+;===< Standing Far Light Kick >==
 [Statedef 230]
 type = S
 physics = S
@@ -631,7 +631,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Standing Close Light Kick >==========
+;===< Standing Close Light Kick >==
 [Statedef 231]
 type = S
 physics = S
@@ -707,7 +707,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Standing Far Medium Kick >==========
+;===< Standing Far Medium Kick >==
 [Statedef 240]
 type = S
 physics = S
@@ -833,7 +833,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Standing Close Medium Kick >==========
+;===< Standing Close Medium Kick >==
 [Statedef 241]
 type = S
 physics = S
@@ -919,7 +919,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Standing Far Hard Kick >==========
+;===< Standing Far Hard Kick >==
 [Statedef 250]
 type = S
 physics = S
@@ -1046,7 +1046,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Standing Close Hard Kick >==========
+;===< Standing Close Hard Kick >==
 [Statedef 251]
 type = S
 physics = S
@@ -1174,7 +1174,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Crouching Light Punch >==========
+;===< Crouching Light Punch >==
 [Statedef 400]
 type = C
 physics = C
@@ -1250,7 +1250,7 @@ value = 11
 ctrl = 1
 
 
-;===========< Crouching Medium Punch >==========
+;===< Crouching Medium Punch >==
 [Statedef 410]
 type = C
 physics = C
@@ -1335,7 +1335,7 @@ value = 11
 ctrl = 1
 
 
-;===========< Crouching Hard Punch >==========
+;===< Crouching Hard Punch >==
 [Statedef 420]
 type = C
 physics = C
@@ -1412,7 +1412,7 @@ value = 11
 ctrl = 1
 
 
-;===========< Crouching Light Kick >==========
+;===< Crouching Light Kick >==
 [Statedef 430]
 type = C
 physics = C
@@ -1488,7 +1488,7 @@ value = 11
 ctrl = 1
 
 
-;===========< Crouching Medium Kick >==========
+;===< Crouching Medium Kick >==
 [Statedef 440]
 type = C
 physics = C
@@ -1564,7 +1564,7 @@ value = 11
 ctrl = 1
 
 
-;===========< Crouching Hard Kick >==========
+;===< Crouching Hard Kick >==
 [Statedef 450]
 type = C
 physics = C
@@ -1639,7 +1639,7 @@ value = 11
 ctrl = 1
 
 
-;===========< Jumping Light Punch >==========
+;===< Jumping Light Punch >==
 [Statedef 600]
 type = A
 physics = N
@@ -1719,7 +1719,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 
-;===========< Jumping Medium Punch >==========
+;===< Jumping Medium Punch >==
 [Statedef 610]
 type = A
 physics = N
@@ -1799,7 +1799,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 
-;===========< Jumping Hard Punch >==========
+;===< Jumping Hard Punch >==
 [Statedef 620]
 type = A
 physics = N
@@ -1879,7 +1879,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 
-;===========< Jumping Light Kick >==========
+;===< Jumping Light Kick >==
 [Statedef 630]
 type = A
 physics = N
@@ -1959,7 +1959,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 
-;===========< Jumping Medium Kick >==========
+;===< Jumping Medium Kick >==
 [Statedef 640]
 type = A
 physics = N
@@ -2039,7 +2039,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 
-;===========< Jumping Hard Kick >==========
+;===< Jumping Hard Kick >==
 [Statedef 650]
 type = A
 physics = N
@@ -2119,7 +2119,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 
-;===========< Throw Attempt >==========
+;===< Throw Attempt >==
 [Statedef 800]
 type = S
 physics = S
@@ -2313,7 +2313,7 @@ value = ifelse(pos y < 0, 5040, 0)
 ctrl = 1
 
 
-;===========< Hooligan Suplex >==========
+;===< Hooligan Suplex >==
 [Statedef 810]
 type = S
 physics = N
@@ -2568,7 +2568,7 @@ trigger1 = pos y > -vel y
 value = 5100
 
 
-;===========< Frankensteiner >==========
+;===< Frankensteiner >==
 [Statedef 820]
 type = A
 physics = N
@@ -2901,7 +2901,7 @@ trigger1 = pos y > -vel y
 value = 5100
 
 
-;===========< Air Throw Attempt >==========
+;===< Air Throw Attempt >==
 [Statedef 850]
 type = A
 physics = N
@@ -3007,7 +3007,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 
-;===========< Flying Neck Hunt >==========
+;===< Flying Neck Hunt >==
 [Statedef 860]
 type = A
 physics = N
@@ -3272,7 +3272,7 @@ trigger1 = vel y > 0 && pos y >= 25
 value = 5100
 
 
-;===========< Air Frankensteiner >==========
+;===< Air Frankensteiner >==
 [Statedef 870]
 type = A
 physics = N
@@ -3598,7 +3598,7 @@ trigger1 = pos y > -vel y
 value = 5100
 
 
-;===========< Target Escaped >==========
+;===< Target Escaped >==
 [Statedef 890]
 type = S
 physics = N
@@ -3729,7 +3729,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Target Escaped Midair >==========
+;===< Target Escaped Midair >==
 [Statedef 892]
 type = A
 physics = N

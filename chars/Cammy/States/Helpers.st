@@ -1,11 +1,11 @@
 ; ________________________________
 ;| Cammy by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< HELPER STATES >========================================
-;==============================================================================================
+;==
+;===< HELPER STATES >====
+;==
 
-;========================< EX DRILL FX >=============================
+;====< EX DRILL FX >=
 [Statedef 1025]
 type = A
 physics = N
@@ -55,7 +55,7 @@ trigger5 = root, stateno = 1620 && root, animelemtime(6) < 0
 trigger6 = root, stateno = 3050 && root, animelemtime(7) < 0
 
 
-;========================< EX SPIKE FX >=============================
+;====< EX SPIKE FX >=
 [Statedef 1125]
 type = A
 physics = N
@@ -165,7 +165,7 @@ trigger2 = (root, stateno != [1121, 1122]) && (root, stateno != [3052, 3053])
 trigger3 = !animtime
 
 
-;========================< EX KNUCKLE FX >=============================
+;====< EX KNUCKLE FX >=
 [Statedef 1225]
 type = A
 physics = N
@@ -260,7 +260,7 @@ trigger2 = root, stateno != 1221
 trigger3 = root, stateno = 1221 && (root, animelemtime(2) < 0 || root, animelemtime(9) >= 0)
 
 
-;========================< EX SPIKE FX >=============================
+;====< EX SPIKE FX >=
 [Statedef 1425]
 type = A
 physics = N
@@ -315,7 +315,7 @@ trigger2 = root, stateno != 1420
 trigger3 = root, stateno = 1420 && root, animelemtime(3) < 0
 
 
-;========================< MAX REVERSE SHAFT BREAKER FX >=============================
+;====< MAX REVERSE SHAFT BREAKER FX >=
 [Statedef 3155]
 type = A
 physics = N
@@ -365,7 +365,7 @@ trigger2 = root, stateno != 3151
 trigger3 = root, stateno = 3151 && root, animelemtime(4) < 0
 
 
-;========================< COAT >=============================
+;====< COAT >=
 [Statedef 6000]
 type = A
 physics = N
@@ -395,7 +395,7 @@ type = destroyself
 trigger1 = time >= 32
 
 
-;========================< VEGA FX >=============================
+;====< VEGA FX >=
 ;--- Crusher ---
 [Statedef 6105]
 type = A
@@ -563,7 +563,7 @@ trans = addalpha
 alpha = (256 - 25 * time), (25 * time)
 
 
-;========================< PSYCHO STREAK >=============================
+;====< PSYCHO STREAK >=
 ;--- Warp in ---
 [Statedef 6100]
 type = S
@@ -887,7 +887,7 @@ type = destroyself
 trigger1 = pos x != [ -256, 256]
 
 
-;========================< MAX PSYCHO STREAK >=============================
+;====< MAX PSYCHO STREAK >=
 ;--- Warp in ---
 [Statedef 6110]
 type = S
@@ -1496,7 +1496,7 @@ trigger1 = pos y > -vel y
 value = 5100
 
 
-;========================< VEGA WIN POSE >=============================
+;====< VEGA WIN POSE >=
 [Statedef 6130]
 type = S
 physics = N
@@ -1567,7 +1567,7 @@ trigger1 = roundstate != 4
 value = 6122
 
 
-;========================< SPARKS >=============================
+;====< SPARKS >=
 ;--- Guard Normal ---
 [Statedef 8000]
 type = A
@@ -2228,7 +2228,7 @@ type = destroyself
 trigger1 = time >= 8
 
 
-;========================< DUSTS >=============================
+;====< DUSTS >=
 ;--- Jump ---
 [Statedef 8100]
 type = S
@@ -2367,7 +2367,7 @@ type = destroyself
 trigger1 = !numexplod
 
 
-;========================< FLAMES >=============================
+;====< FLAMES >=
 ;--- Cammy ---
 [Statedef 8150]
 type = A
@@ -2498,7 +2498,7 @@ trigger2 = playerID(var(0)), movetype != H || playerID(var(0)), stateno = 5300
 trigger3 = playerID(var(0)), statetype = L && (playerID(var(0)), stateno != [5080, 5081])
 
 
-;========================< RECOVER FX >=============================
+;====< RECOVER FX >=
 [Statedef 8200]
 type = A
 velset = 0, 0
@@ -2524,7 +2524,7 @@ type = destroyself
 trigger1 = time >= 15
 
 
-;========================< COUNTER FX >=============================
+;====< COUNTER FX >=
 [Statedef 8290]
 type = A
 physics = N
@@ -2567,7 +2567,7 @@ type = destroyself
 trigger1 = time >= 16
 
 
-;====================< POWER CHARGE >====================
+;====< POWER CHARGE >====
 ;--- MAIN FX ---
 [Statedef 8330]
 type = A
@@ -2669,7 +2669,7 @@ type = destroyself
 trigger1 = root, stateno != 730
 
 
-;====================< ZERO COUNTER PAUSE >====================
+;====< ZERO COUNTER PAUSE >====
 [Statedef 8350]
 type = A
 physics = N
@@ -2720,7 +2720,7 @@ type = destroyself
 trigger1 = time >= 16
 
 
-;========================< CUSTOM COMBO >=============================
+;====< CUSTOM COMBO >=
 [Statedef 8400]
 type = A
 physics = N
@@ -2815,7 +2815,7 @@ type = destroyself
 trigger1 = time >= 26
 
 
-;========================< SUPERPAUSE FX >=============================
+;====< SUPERPAUSE FX >=
 ;--- --Level 1 -----
 [Statedef 8500]
 type = A
@@ -3220,7 +3220,7 @@ type = destroyself
 trigger1 = time >= 40
 
 
-;========================< SUPER FINISH >=============================
+;====< SUPER FINISH >=
 [Statedef 8600]
 type = A
 velset = 0, 0
@@ -3380,7 +3380,7 @@ type = destroyself
 trigger1 = roundstate < 3
 
 
-;========================< CAMERA CONTROL >=============================
+;====< CAMERA CONTROL >=
 [Statedef 8999]
 type = S
 velset = 0, 0

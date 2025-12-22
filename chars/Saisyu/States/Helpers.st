@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Saisyu Kusanagi by Lurker               |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<HELPER STATES>========================================
-;==============================================================================================
+;==
+;===<HELPER STATES>====
+;==
 
-;====================<PARRY HELPER>=========================
+;====<PARRY HELPER>=
 [StateDef 765]
 type = A
 physics = N
@@ -115,7 +115,7 @@ type = DestroySelf
 trigger1 = Root, StateNo = [760,762]
 trigger2 = Time >= 2
 
-;=====================<YAMI BARAI PROJECTILE>=========================
+;=<YAMI BARAI PROJECTILE>=
 [StateDef 1006]
 type = S
 physics = N
@@ -425,7 +425,7 @@ trigger1 = !NumTarget
 trigger2 = NumTarget
 trigger2 = Target, Time <= 1 && !(Target,HitShakeOver)
 
-;========================<AKAI TEN BARAI FLAMES>=============================
+;====<AKAI TEN BARAI FLAMES>=
 [StateDef 1031]
 type = S
 physics = N
@@ -754,7 +754,7 @@ type = ChangeState
 trigger1 = Time >= 0
 value = 1008
 
-;=====================<ONIYAKI FIRE>=========================
+;=<ONIYAKI FIRE>=
 [StateDef 1105]
 type = S
 physics = N
@@ -862,7 +862,7 @@ type = DestroySelf
 trigger1 = !time
 
 
-;========================<OROCHINAGI PROJECTILE>=============================
+;====<OROCHINAGI PROJECTILE>=
 [StateDef 3015]
 type = S
 moveType = A
@@ -1152,7 +1152,7 @@ type = ChangeState
 trigger1 = !Time
 value = 1009
 
-;========================<OROCHINAGI FLAMES ON HANDS>=============================
+;====<OROCHINAGI FLAMES ON HANDS>=
 [StateDef 3020]
 type = A
 moveType = I
@@ -1201,7 +1201,7 @@ trigger1 = Root, StateNo != [3010,3060]
 trigger2 = Root, AnimElem >= 11
 value = 3022
 
-;========================<OROCHINAGI FLAMES ON HANDS>=============================
+;====<OROCHINAGI FLAMES ON HANDS>=
 [StateDef 3021]
 type = A
 moveType = I
@@ -1283,7 +1283,7 @@ ignorehitpause = 1
 type = DestroySelf
 trigger1 = !AnimTime
 
-;========================<1127 SHIKI: TSUMUGARI PILLAR>=============================
+;====<1127 SHIKI: TSUMUGARI PILLAR>=
 [StateDef 3105]
 type = S
 moveType = A
@@ -1508,7 +1508,7 @@ trigger1 = Time >= 0
 value = 3105
 
 
-;========================<AKAI TEN BARAI FLAMES>=============================
+;====<AKAI TEN BARAI FLAMES>=
 ;[StateDef 3205]
 ;type = S
 ;moveType = A
@@ -1784,7 +1784,7 @@ value = 3105
 ;trigger1 = Time >= 0
 ;value = 3205
 
-;========================<CHOU YAMI BARAI PILLAR>=============================
+;====<CHOU YAMI BARAI PILLAR>=
 [StateDef 3255]
 type = A
 physics = N
@@ -1841,7 +1841,7 @@ size.yScale = 0.5
 type = DestroySelf
 trigger1 = Time >= 95 && !NumHelper(3256)
 
-;=====================<CHOU YAMI BARAI PROJECTILE>=========================
+;=<CHOU YAMI BARAI PROJECTILE>=
 [StateDef 3256]
 type = S
 physics = N
@@ -2095,7 +2095,7 @@ type = ChangeState
 trigger1 = Time >= 0
 value = 1008
 
-;=====================<HOMURA NO KEN FIRE AURA>=========================
+;=<HOMURA NO KEN FIRE AURA>=
 [StateDef 3306]
 type = A
 physics = N
@@ -2126,7 +2126,7 @@ trigger1 = Parent, StateNo != 3303
 trigger2 = Parent, MoveType = H
 trigger3 = Time = 52
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -2870,7 +2870,7 @@ trigger1 = Time >= 8
 
 
 
-;======================<JUMP DUST>===========================
+;==<JUMP DUST>===
 [StateDef 8100]
 type = S
 anim = 1
@@ -2909,7 +2909,7 @@ trigger1 = Time >= 7
 
 
 
-;======================<DASH DUST>===========================
+;==<DASH DUST>===
 [StateDef 8103]
 type = A
 anim = 1
@@ -2970,7 +2970,7 @@ type = DestroySelf
 trigger1 = !NumExplod
 
 
-;======================<IMPACT DUST>===========================
+;==<IMPACT DUST>===
 [StateDef 8110]
 type = A
 anim = 1
@@ -3015,7 +3015,7 @@ type = DestroySelf
 trigger1 = !NumExplod
 
 
-;======================<WALL IMPACT DUST>===========================
+;==<WALL IMPACT DUST>===
 [StateDef 8111]
 type = A
 anim = 1
@@ -3061,7 +3061,7 @@ trigger1 = !NumExplod
 
 
 
-;========================<FLAMES>=============================
+;====<FLAMES>=
 [StateDef 8150]
 type = A
 velSet = 0,0
@@ -3136,7 +3136,7 @@ trigger3 = PlayerID(var(0)), StateType = L && (PlayerID(var(0)), StateNo != [508
 
 
 
-;========================<RECOVER FX>=============================
+;====<RECOVER FX>=
 [StateDef 8200]
 type = A
 velSet = 0,0
@@ -3168,7 +3168,7 @@ trigger1 = Time >= 15
 
 
 
-;========================<COUNTER FX>=============================
+;====<COUNTER FX>=
 [StateDef 8290]
 type = A
 physics = N
@@ -3214,7 +3214,7 @@ trigger1 = Time >= 16
 
 
 
-;==================<POWER CHARGE FX>==================
+;==<POWER CHARGE FX>==
 ;Aura and Dust
 [StateDef 8330]
 type = A
@@ -3324,7 +3324,7 @@ trigger1 = Root, StateNo != 730
 
 
 
-;==================<ZERO COUNTER FX>==================
+;==<ZERO COUNTER FX>==
 [StateDef 8350]
 type = A
 physics = N
@@ -3376,7 +3376,7 @@ trigger1 = Time >= 16
 
 
 
-;========================<CUSTOM COMBO>=============================
+;====<CUSTOM COMBO>=
 [StateDef 8400]
 type = A
 physics = N
@@ -3482,7 +3482,7 @@ trigger1 = Time >= 26
 
 
 
-;========================<SUPER PAUSE FX>=============================
+;====<SUPER PAUSE FX>=
 ;Level 1 Super FX
 [StateDef 8500]
 type = A
@@ -3924,7 +3924,7 @@ trigger1 = Time >= 40
 type = DestroySelf
 trigger1 = Time >= 40
 
-;========================< END ROUND ANIMATION. >=============================
+;====< END ROUND ANIMATION. >=
 [Statedef 8800]
 physics = N
 velset = 0, 0
@@ -3953,7 +3953,7 @@ trigger1 = time >= 6
 ID = 8800
 scale = 0.5 * (1.3333333 * gameheight / gamewidth), 0.5 * (1.3333333 * gameheight / gamewidth)
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [StateDef 8600]
 type = A
 velSet = 0,0
@@ -4124,7 +4124,7 @@ trigger1 = RoundState < 3
 
 
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0

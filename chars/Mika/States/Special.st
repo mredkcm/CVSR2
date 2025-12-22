@@ -1293,7 +1293,7 @@ trigger2 = (command = "up" || command = "down" || command = "back" || command = 
 var(42) = 2
 
 [State 1302, Mashing Increment]
-type  = VarAdd
+type = VarAdd
 trigger1 = var(42) = 2
 var(12) = 1
 

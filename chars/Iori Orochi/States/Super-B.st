@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Iori Yagami by Knuckles8864             |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<SHIKI 108: YA SAKAZUKI>=============================
+;====<SHIKI 108: YA SAKAZUKI>=
 [Statedef 3000]
 type = S
 physics = N
@@ -295,7 +295,7 @@ value = 5100
 
 
 
-;========================<MAX SHIKI 108: YA SAKAZUKI>=============================
+;====<MAX SHIKI 108: YA SAKAZUKI>=
 [StateDef 3050]
 type = S
 physics = N
@@ -584,7 +584,7 @@ value = 5100
 
 
 
-;========================<SHIKI 311: SAKU TSUMAGUSHI>=============================
+;====<SHIKI 311: SAKU TSUMAGUSHI>=
 [StateDef 3100]
 type = S
 physics = N
@@ -1428,7 +1428,7 @@ value = 5100
 
 
 
-;========================<MAX SHIKI 311: SAKU TSUMAGUSHI>=============================
+;====<MAX SHIKI 311: SAKU TSUMAGUSHI>=
 [StateDef 3150]
 type = S
 physics = N
@@ -2103,7 +2103,7 @@ value = 52
 
 
 
-;========================<SHIKI 1201: YA OTOME>=============================
+;====<SHIKI 1201: YA OTOME>=
 [StateDef 3200]
 type = S
 physics = S
@@ -2653,7 +2653,7 @@ ctrl = 1
 
 
 
-;========================<SHIKI 1201: YA OTOME (TARGET)>=============================
+;====<SHIKI 1201: YA OTOME (TARGET)>=
 ;Target
 [StateDef 3230]
 type = S
@@ -2717,7 +2717,7 @@ ctrl = 1
 
 ;Ya Otome (Target Grabbed)
 [Statedef 3232]
-type    = U
+type = U
 movetype= H
 physics = S
 ctrl = 0
@@ -2813,7 +2813,7 @@ value = 5100
 
 ;MAX Ya Otome (Target Grabbed)
 [Statedef 3234]
-type    = U
+type = U
 movetype= H
 physics = S
 ctrl = 0
@@ -3080,7 +3080,7 @@ value = 5100
 
 
 
-;========================<MAX SHIKI 1201: YA OTOME>=============================
+;====<MAX SHIKI 1201: YA OTOME>=
 [StateDef 3250]
 type = S
 physics = N
@@ -3692,7 +3692,7 @@ ctrl = 1
 
 
 
-;========================<SHIKI 306: SAIKA>=============================
+;====<SHIKI 306: SAIKA>=
 [StateDef 3300]
 type = S
 physics = N
@@ -3990,9 +3990,9 @@ ctrl = 1
 
 
 
-;========================<SHIKI 306: SAIKA TARGET>=============================
+;====<SHIKI 306: SAIKA TARGET>=
 [Statedef 3330]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -4026,7 +4026,7 @@ value = 3331
 
 ;Saika-P2
 [Statedef 3331]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -4289,7 +4289,7 @@ value = 5100
 
 
 
-;========================<URA 1029 SHIKI: HOMURABOTOGI>=============================
+;====<URA 1029 SHIKI: HOMURABOTOGI>=
 [StateDef 3400]
 type = S
 physics = S
@@ -5020,7 +5020,7 @@ value = 5100
 
 
 
-;========================<SHIKI 100: ONI HOMURA>=============================
+;====<SHIKI 100: ONI HOMURA>=
 [StateDef 3500]
 type = S
 physics = S
@@ -5504,7 +5504,7 @@ value = 52
 
 
 
-;========================<MAX SHIKI 100: ONI HOMURA>=============================
+;====<MAX SHIKI 100: ONI HOMURA>=
 [StateDef 3550]
 type = S
 physics = S
@@ -6139,7 +6139,7 @@ value = 52
 
 
 
-;========================<SHIKI 1201: YA OTOME (OROCHI)>=============================
+;====<SHIKI 1201: YA OTOME (OROCHI)>=
 [StateDef 3600]
 type = S
 physics = S
@@ -6779,7 +6779,7 @@ ctrl = 1
 
 
 
-;========================<MAX SHIKI 1201: YA OTOME (OROCHI)>=============================
+;====<MAX SHIKI 1201: YA OTOME (OROCHI)>=
 [StateDef 3650]
 type = S
 physics = N
@@ -7461,7 +7461,7 @@ ctrl = 1
 
 
 
-;========================<SAN SHINGI NO NI>=============================
+;====<SAN SHINGI NO NI>=
 [Statedef 3700]
 type = S
 movetype = A
@@ -7556,7 +7556,7 @@ animType = Hard
 air.animType = Back
 fall.animType = Back
 ground.type = Low
-ground.hitTime  = 1
+ground.hitTime = 1
 air.hittime = 13
 fall = 0
 air.fall = 1
@@ -7924,7 +7924,7 @@ value = 5100
 
 
 
-;========================<CHI NO BOUSOU>=============================
+;====<CHI NO BOUSOU>=
 [StateDef 3800]
 type = S
 physics = S
@@ -8418,7 +8418,7 @@ ctrl = 1
 
 
 
-;========================<CHI NO BOUSOU (TARGET)>=============================
+;====<CHI NO BOUSOU (TARGET)>=
 [Statedef 3815]
 type = S
 movetype = H

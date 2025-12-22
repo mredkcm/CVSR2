@@ -50,9 +50,9 @@ shadowoffset = 0     ;Number of pixels to vertically offset the shadow
 draw.offset = 0,0    ;Player drawing offset in pixels (x, y). Recommended 0,0
 
 [Velocity]
-walk.fwd  = 2.4      ;Walk forward
+walk.fwd = 2.4      ;Walk forward
 walk.back = -2.2     ;Walk backward
-run.fwd  = 4.6, 0    ;Run forward (x, y)
+run.fwd = 4.6, 0    ;Run forward (x, y)
 run.back = -4.5,-3.8 ;Hop backward (x, y)
 jump.neu = 0,-8.4    ;Neutral jumping velocity (x, y)
 jump.back = -2.55    ;Jump back Speed (x, y)
@@ -254,10 +254,10 @@ ctrl = 1
 ; Stand Light Punch
 ; CNS difficulty: easy
 [Statedef 200]
-type    = S                      ;State-type: S-stand, C-crouch, A-air, L-liedown
+type = S                      ;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
 physics = S                      ;Physics: S-stand, C-crouch, A-air
-juggle  = 1                      ;Number of air juggle points move takes
+juggle = 1                      ;Number of air juggle points move takes
 ;Commonly-used controllers:
 velset = 0,0                     ;Set velocity (x,y) (Def: no change)
 ctrl = 0                         ;Set ctrl (Def: no change)
@@ -283,7 +283,7 @@ hitsound = 5, 0                  ;Sound to play on hit
 guardsound = 6, 0                ;Sound to play on guard
 ground.type = High               ;Type: High, Low, Trip (def: Normal)
 ground.slidetime = 5             ;Time that the opponent slides back
-ground.hittime  = 11             ;Time opponent is in hit state
+ground.hittime = 11             ;Time opponent is in hit state
 ground.velocity = -4             ;Velocity at which opponent is pushed
 airguard.velocity = -1.9,-.8     ;Guard velocity in air (def: (air.xvel*1.5, air.yvel/2))
 air.type = High                  ;Type: High, Low, Trip (def: same as ground.type)
@@ -318,10 +318,10 @@ ctrl = 1
 ; (notice the elem=6 parameter). If you don't see what I mean, try commenting
 ; out that controller, then hit someone with this attack.
 [Statedef 210]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 30
 ctrl = 0
 velset = 0,0
@@ -342,17 +342,17 @@ value = 0, 4
 type = HitDef
 trigger1 = AnimElem = 3
 attr = S, NA
-animtype  = Medium
-damage    = 57
+animtype = Medium
+damage = 57
 guardflag = MA
 pausetime = 12,12
 sparkno = 1
 sparkxy = -10,-70
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -5.5
 air.velocity = -2.5,-4
 forcenofall = 1
@@ -381,10 +381,10 @@ ctrl = 1
 ; Standing light kick
 ; CNS difficulty: easy
 [Statedef 230]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 11
 ctrl = 0
 velset = 0,0
@@ -400,17 +400,17 @@ value = 0, 1
 type = HitDef
 trigger1 = Time = 0
 attr = S, NA
-animtype  = Medium
-damage    = 26
+animtype = Medium
+damage = 26
 guardflag = MA
 pausetime = 12,12
 sparkno = 0
 sparkxy = -10,-37
-hitsound   = 5,1
+hitsound = 5,1
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 10
-ground.hittime  = 14
+ground.hittime = 14
 ground.velocity = -5
 air.velocity = -2.5,-3.5
 
@@ -424,10 +424,10 @@ ctrl = 1
 ; Standing strong kick
 ; CNS difficulty: easy
 [Statedef 240]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 5
+juggle = 5
 poweradd= 30
 ctrl = 0
 velset = 0,0
@@ -443,17 +443,17 @@ value = 0, 1
 type = HitDef
 trigger1 = Time = 0
 attr = S, NA
-animtype  = Medium
-damage    = 63
+animtype = Medium
+damage = 63
 guardflag = MA
 pausetime = 12,12
 sparkno = 1
 sparkxy = -10,-60
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -6
 air.velocity = -2.2,-3.2
 
@@ -485,10 +485,10 @@ ctrl = 1
 ;     their attack collision boxes (Clsn1) intersect each other's Clsn2
 ;     boxes at the same time.
 [Statedef 400]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 5
+juggle = 5
 poweradd= 8
 ctrl = 0
 anim = 400
@@ -503,19 +503,19 @@ value = 0, 0
 type = HitDef
 trigger1 = Time = 0
 attr = C, NA
-damage    = 23
-priority  = 3
-animtype  = Light
+damage = 23
+priority = 3
+animtype = Light
 hitflag = MAF
 guardflag = L
 pausetime = 10,11
 sparkno = 0
 sparkxy = -10,-42
-hitsound   = 5,0
+hitsound = 5,0
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 4
-ground.hittime  = 9
+ground.hittime = 9
 ground.velocity = -4
 air.velocity = -1.5,-3
 
@@ -539,10 +539,10 @@ value = 11
 ;     be guarded "middle". The second hit has an "MA" guardflag, so
 ;     it can be guarded both on the ground and in the air.
 [Statedef 410]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 6
+juggle = 6
 poweradd= 25
 ctrl = 0
 anim = 410
@@ -558,18 +558,18 @@ value = 0, 0
 type = HitDef
 trigger1 = AnimElem = 3
 attr = C, NA
-damage    = 37
-animtype  = Medium
+damage = 37
+animtype = Medium
 hitflag = MAF
 guardflag = M
 pausetime = 12,12
 sparkno = 1
 sparkxy = -10,-55
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -4
 air.velocity = -3,-4
 
@@ -578,17 +578,17 @@ air.velocity = -3,-4
 type = HitDef
 trigger1 = AnimElem = 4
 attr = C, NA
-damage    = 36
-animtype  = Medium
+damage = 36
+animtype = Medium
 hitflag = MAF
 guardflag = MA
 pausetime = 12,12
 sparkxy = -10,-83
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -7
 air.velocity = -3,-4
 
@@ -602,10 +602,10 @@ ctrl = 1
 ;Crouching light kick
 ; CNS difficulty: easy
 [Statedef 430]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 5
+juggle = 5
 poweradd= 11
 ctrl = 0
 anim = 430
@@ -620,18 +620,18 @@ value = 0, 0
 type = HitDef
 trigger1 = Time = 0
 attr = C, NA
-damage    = 28
-animtype  = Light
+damage = 28
+animtype = Light
 hitflag = MAFD
 guardflag = L
 pausetime = 12,12
 sparkno = 0
 sparkxy = -10,-8
-hitsound   = 5,1
+hitsound = 5,1
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 6
-ground.hittime  = 10
+ground.hittime = 10
 ground.velocity = -5
 air.velocity = -2,-3
 down.velocity = -5,0
@@ -652,10 +652,10 @@ ctrl = 1
 ;     is set to "MAFD". The "D" indicates that a downed opponent can be
 ;     hit by the attack.
 [Statedef 440]
-type    = C
+type = C
 movetype= A
 physics = C
-juggle  = 7
+juggle = 7
 poweradd= 35
 ctrl = 0
 anim = 440
@@ -670,17 +670,17 @@ value = 0, 2
 type = HitDef
 trigger1 = Time = 0
 attr = C, NA
-damage    = 72
+damage = 72
 hitflag = MAFD
 guardflag = L
 pausetime = 12,12
 sparkno = 1
 sparkxy = -5,-10
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = Trip
 ground.slidetime = 10
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -1.5,-2
 air.velocity = -1.2,-3
 guard.velocity = -5
@@ -696,10 +696,10 @@ ctrl = 1
 ;Jump Light Punch
 ; CNS difficulty: easy
 [Statedef 600]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 2
+juggle = 2
 poweradd= 5
 ctrl = 0
 anim = 600
@@ -714,17 +714,17 @@ value = 0, 0
 type = HitDef
 trigger1 = Time = 0
 attr = A, NA
-damage    = 20
+damage = 20
 guardflag = HA
 priority = 3
 pausetime = 7,8
 sparkno = 0
 sparkxy = -10,-58
-hitsound   = 5,0
+hitsound = 5,0
 guardsound = 6,0
 ground.type = High
 ground.slidetime = 5
-ground.hittime  = 8
+ground.hittime = 8
 ground.velocity = -4
 air.velocity = -1.3,-3
 air.hittime = 14
@@ -738,10 +738,10 @@ value = 1
 ;Jump Strong Punch
 ; CNS difficulty: easy
 [Statedef 610]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 4
+juggle = 4
 poweradd= 30
 ctrl = 0
 anim = 610
@@ -762,12 +762,12 @@ priority = 4
 pausetime = 12,12
 sparkno = 1
 sparkxy = -10,-55
-hitsound   = 5,3
+hitsound = 5,3
 guardsound = 6,0
 animtype = Med
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 14
+ground.hittime = 14
 ground.velocity = -6
 air.velocity = -3,-4
 
@@ -775,10 +775,10 @@ air.velocity = -3,-4
 ;Jump Light Kick
 ; CNS difficulty: easy
 [Statedef 630]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 3
+juggle = 3
 poweradd= 10
 ctrl = 0
 anim = 630
@@ -799,11 +799,11 @@ priority = 3
 pausetime = 8,8
 sparkno = 1
 sparkxy = -5,-35
-hitsound   = 5,0
+hitsound = 5,0
 guardsound = 6,0
 ground.type = High
 ground.slidetime = 6
-ground.hittime  = 10
+ground.hittime = 10
 ground.velocity = -4
 air.velocity = -2,-3
 air.hittime = 14
@@ -812,10 +812,10 @@ air.hittime = 14
 ;Jump Strong Kick
 ; CNS difficulty: easy
 [Statedef 640]
-type    = A
+type = A
 movetype= A
 physics = A
-juggle  = 4
+juggle = 4
 poweradd= 30
 ctrl = 0
 anim = 640
@@ -830,18 +830,18 @@ value = 0, 1
 type = HitDef
 trigger1 = Time = 0
 attr = A, NA
-damage    = 70
+damage = 70
 guardflag = HA
 priority = 4
 pausetime = 12,12
 sparkno = 1
 sparkxy = -10,-40
-hitsound   = 5,3
+hitsound = 5,3
 guardsound = 6,0
 animtype = Med
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -7
 air.velocity = -3,-4
 
@@ -862,10 +862,10 @@ air.velocity = -3,-4
 ;     information when he is being thrown; the text changes to yellow
 ;     to mean that he is in another player's state file).
 [Statedef 800]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 800
@@ -916,7 +916,7 @@ ctrl = 1
 ;     life, and a TargetState controller to change his state to a
 ;     falling state when KFM lets go of him.
 [Statedef 810]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 810
@@ -1044,7 +1044,7 @@ ctrl = 1
 ;     own AIR file. Look at Action 820 in kfm.air for some extra
 ;     comments.
 [Statedef 820]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1070,7 +1070,7 @@ value = 5050
 ;     Controllers 821,2 and 821,3 allow the opponent to recover by
 ;     hitting his recovery command when he is falling.
 [Statedef 821]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 2.8,-7
@@ -1120,10 +1120,10 @@ value = 5100 ;Hit ground
 ;   It is important you have the attr parameter set correctly for all
 ;   you HitDefs.
 [Statedef 1000]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 55
 velset = 0,0
 anim = 1000
@@ -1156,17 +1156,17 @@ type = HitDef
 trigger1 = AnimElem = 5
 trigger1 = p2bodydist X < 40
 attr = S, SA
-animtype  = Hard
-damage    = 90, 4
-priority  = 5
+animtype = Hard
+damage = 90, 4
+priority = 5
 guardflag = MA
 pausetime = 15,15
 sparkxy = -10,-60
-hitsound   = 5,4
+hitsound = 5,4
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -4,-3.5
 air.velocity = -4,-3
 fall = 1
@@ -1176,17 +1176,17 @@ type = HitDef
 trigger1 = AnimElem = 5
 trigger1 = p2bodydist X >= 40
 attr = S, SA
-animtype  = Hard
-damage    = 85, 4
-priority  = 4
+animtype = Hard
+damage = 85, 4
+priority = 4
 guardflag = MA
 pausetime = 15,15
 sparkxy = -10,-60
-hitsound   = 5,4
+hitsound = 5,4
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -7
 air.velocity = -4,-2.5
 
@@ -1205,10 +1205,10 @@ ctrl = 1
 ; Strong Kung Fu Palm
 ; CNS difficulty: medium
 [Statedef 1010]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 60
 velset = 0,0
 anim = 1010
@@ -1246,17 +1246,17 @@ type = HitDef
 trigger1 = AnimElem = 5
 trigger1 = p2bodydist X < 40
 attr = S, SA
-animtype  = Hard
-damage    = 90, 4
-priority  = 5
+animtype = Hard
+damage = 90, 4
+priority = 5
 guardflag = MA
 pausetime = 15,15
 sparkxy = -10,-60
-hitsound   = 5,4
+hitsound = 5,4
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -4,-3.5
 air.velocity = -4,-3
 fall = 1
@@ -1266,17 +1266,17 @@ type = HitDef
 trigger1 = AnimElem = 5
 trigger1 = p2bodydist X >= 40
 attr = S, SA
-animtype  = Hard
-damage    = 85, 4
-priority  = 4
+animtype = Hard
+damage = 85, 4
+priority = 4
 guardflag = MA
 pausetime = 15,15
 sparkxy = -10,-60
-hitsound   = 5,4
+hitsound = 5,4
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -7
 air.velocity = -4,-2.5
 
@@ -1296,10 +1296,10 @@ ctrl = 1
 ;     The line "p2stateno = 1025" in the HitDef does this. KFM has some
 ;     palette effects as well as after-image effects.
 [Statedef 1020]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 6
+juggle = 6
 poweradd= -330
 velset = 0,0
 anim = 1020
@@ -1315,11 +1315,11 @@ x = .85 * ifelse (AnimElemTime(6) < 0, 1, .8)
 type = AfterImage
 trigger1 = Time = 0
 length = 13
-PalBright   =  30, 30,  0
+PalBright =  30, 30,  0
 PalContrast =  70, 70, 20
-PalAdd      = -10,-10,-10
-PalMul      = .85,.85,.50
-TimeGap  = 1
+PalAdd = -10,-10,-10
+PalMul = .85,.85,.50
+TimeGap = 1
 FrameGap = 2
 Trans = Add
 time = 2
@@ -1366,18 +1366,18 @@ x = 13
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, SA
-animtype  = Hard
-damage    = 95, 5
-getpower  = 0
-priority  = 4
+animtype = Hard
+damage = 95, 5
+getpower = 0
+priority = 4
 guardflag = MA
 pausetime = 8,7
 sparkxy = -10,-60
-hitsound   = 5,4
+hitsound = 5,4
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -8,-7
 guard.velocity = -7
 air.velocity = -8,-7
@@ -1397,7 +1397,7 @@ ctrl = 1
 ; (a custom gethit state)
 ; See State 1020 for details
 [Statedef 1025]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1416,7 +1416,7 @@ value = 1026
 ; Hit by Fast Kung Fu Palm - flying through the air
 ; (a custom gethit state)
 [Statedef 1026]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1455,7 +1455,7 @@ value = 5100
 ; Hit by Fast Kung Fu Palm - hit wall
 ; (a custom gethit state)
 [Statedef 1027]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1507,7 +1507,7 @@ value = 1028
 ; Hit by Fast Kung Fu Palm - bounce off wall
 ; (a custom gethit state)
 [Statedef 1028]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1583,10 +1583,10 @@ value = 5100
 ;     over. More details are given in comments before each of the following
 ;     states.
 [Statedef 1050]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 55
 velset = 0,0
 anim = 1050
@@ -1612,17 +1612,17 @@ x = 20
 type = HitDef
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Medium
-damage    = 80, 4
-priority  = 5
+animtype = Medium
+damage = 80, 4
+priority = 5
 guardflag = MA
 pausetime = 12,12
 sparkxy = -10,-70
-hitsound   = 5,3
+hitsound = 5,3
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -3.5,-7
 guard.velocity = -7
 air.velocity = -3.5,-7
@@ -1650,7 +1650,7 @@ value = 1051
 ;     retain the HitDef information from the last state. If we did not have
 ;     hitdefpersist, the HitDef will be turned off between state changes.
 [Statedef 1051]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 2,-6
@@ -1681,7 +1681,7 @@ value = 1052
 ;     controller in State 1051), we need to reset it to 0, the ground
 ;     level. That is what controller 1052,1 is for.
 [Statedef 1052]
-type    = S
+type = S
 movetype= I
 physics = S
 anim = 1052
@@ -1717,7 +1717,7 @@ ctrl = 1
 ;------------------
 ; Kung Fu Knee - kick
 [Statedef 1055]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 1055
@@ -1748,17 +1748,17 @@ y = .45
 type = HitDef
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Med
-damage    = 35 + (prevstateno = 1061)*5, 2
-priority  = 4
+animtype = Med
+damage = 35 + (prevstateno = 1061)*5, 2
+priority = 4
 guardflag = MA
 pausetime = 12,12
 sparkxy = 0,-90
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -6
 guard.velocity = -8
 guard.ctrltime = 12
@@ -1774,7 +1774,7 @@ value = 1056
 ;------------------
 ; Kung Fu Knee - land from kick
 [Statedef 1056]
-type    = S
+type = S
 movetype= I
 physics = S
 anim = 1056
@@ -1800,10 +1800,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Strong Kung Fu Knee
 [Statedef 1060]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 60
 velset = 0,0
 anim = 1060
@@ -1829,17 +1829,17 @@ x = 21
 type = HitDef
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Medium
-damage    = 90, 4
-priority  = 5
+animtype = Medium
+damage = 90, 4
+priority = 5
 guardflag = MA
 pausetime = 12,12
 sparkxy = -10,-70
-hitsound   = 5,3
+hitsound = 5,3
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -3.5,-7.5
 guard.velocity = -7
 air.velocity = -3.5,-7.5
@@ -1853,7 +1853,7 @@ value = 1061
 ;------------------
 ; Strong Kung Fu Knee - jump
 [Statedef 1061]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 2.5,-7.5
@@ -1881,10 +1881,10 @@ value = 1052
 ; Description: This version of the Kung Fu Knee hits up to 3 times (including
 ;     the kick).
 [Statedef 1070]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 6
+juggle = 6
 poweradd= -330
 velset = 0,0
 anim = 1070
@@ -1895,11 +1895,11 @@ sprpriority = 2
 type = AfterImage
 trigger1 = Time = 0
 length = 13
-PalBright   =  30, 30,  0
+PalBright =  30, 30,  0
 PalContrast =  70, 70, 20
-PalAdd      = -10,-10,-10
-PalMul      = .85,.85,.50
-TimeGap  = 1
+PalAdd = -10,-10,-10
+PalMul = .85,.85,.50
+TimeGap = 1
 FrameGap = 2
 Trans = Add
 time = 2
@@ -1935,19 +1935,19 @@ x = 21
 type = HitDef
 trigger1 = Time = 0
 attr = S, SA
-animtype  = Medium
-getpower  = 0
-damage    = 35, 3
-priority  = 5
-hitflag   = MA
+animtype = Medium
+getpower = 0
+damage = 35, 3
+priority = 5
+hitflag = MA
 guardflag = MA
 pausetime = 8,7
 sparkxy = -10,-70
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -2,-6
 guard.velocity = -7
 air.velocity = -2,-6
@@ -1963,7 +1963,7 @@ value = 1071
 ;------------------
 ; Fast Kung Fu Knee - jump
 [Statedef 1071]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 2.5,-9
@@ -1995,18 +1995,18 @@ y = .2
 type = HitDef
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Medium
-getpower  = 0
-damage    = 68, 4
-priority  = 5
+animtype = Medium
+getpower = 0
+damage = 68, 4
+priority = 5
 guardflag = MA
 pausetime = 12,12
 sparkxy = -10,-70
-hitsound   = 5,3
+hitsound = 5,3
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -3,-9.5
 guard.velocity = -7
 air.velocity = -3,-9.5
@@ -2028,7 +2028,7 @@ value = 1052
 ;------------------
 ; Fast Kung Fu Knee - kick
 [Statedef 1075]
-type    = A
+type = A
 movetype= A
 physics = N
 anim = 1055
@@ -2076,18 +2076,18 @@ y = .2
 type = HitDef
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Med
-damage    = 42, 2
-getpower  = 0
-priority  = 4
+animtype = Med
+damage = 42, 2
+getpower = 0
+priority = 4
 guardflag = MA
 pausetime = 12,12
 sparkxy = 0,-90
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -6
 guard.velocity = -6
 air.velocity = -4,-6
@@ -2114,10 +2114,10 @@ value = 1056
 ;     a Kung Fu Knee. The yaccel parameter, set at 0.4, makes p2 fall at a
 ;     greater value of acceleration than the default, which is 0.35.
 [Statedef 1100]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 55
 velset = 0,0
 anim = 1100
@@ -2138,17 +2138,17 @@ value = 0, 2
 type = HitDef
 trigger1 = Time = 0
 attr = S, SA
-animtype  = Med
-damage    = 52, 4
-priority  = 5
+animtype = Med
+damage = 52, 4
+priority = 5
 guardflag = MA
 pausetime = 4,8
 sparkxy = 0,-48
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -3
 guard.velocity = -6
 air.velocity = -2,-2
@@ -2160,17 +2160,17 @@ forcestand = 1         ;Force p2 into a standing state if hit
 type = HitDef
 trigger1 = AnimElem = 7
 attr = S, SA
-animtype  = Up
-damage    = 55, 4
-priority  = 5
+animtype = Up
+damage = 55, 4
+priority = 5
 guardflag = MA
 pausetime = 12,12
 sparkxy = 0,-110
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -1,-9.5
 guard.velocity = -6
 air.velocity = -1,-7.5
@@ -2189,10 +2189,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Strong Kung Fu Upper
 [Statedef 1110]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 60
 velset = 0,0
 anim = 1110
@@ -2213,17 +2213,17 @@ value = 0, 2
 type = HitDef
 trigger1 = Time = 0
 attr = S, SA
-animtype  = Med
-damage    = 57, 4
-priority  = 5
+animtype = Med
+damage = 57, 4
+priority = 5
 guardflag = MA
 pausetime = 4,8
 sparkxy = 0,-48
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -3
 guard.velocity = -6
 air.velocity = -2,-2
@@ -2235,17 +2235,17 @@ forcestand = 1
 type = HitDef
 trigger1 = AnimElem = 7
 attr = S, SA
-animtype  = Up
-damage    = 60, 4
-priority  = 5
+animtype = Up
+damage = 60, 4
+priority = 5
 guardflag = MA
 pausetime = 12,12
 sparkxy = 0,-110
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -1,-10.5
 guard.velocity = -6
 air.velocity = -1,-8.5
@@ -2264,10 +2264,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Fast Kung Fu Upper
 [Statedef 1120]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 6
+juggle = 6
 poweradd= -330
 velset = 0,0
 anim = 1120
@@ -2283,11 +2283,11 @@ value = 5,0
 type = AfterImage
 trigger1 = Time = 0
 length = 13
-PalBright   =  30, 30,  0
+PalBright =  30, 30,  0
 PalContrast =  70, 70, 20
-PalAdd      = -10,-10,-10
-PalMul      = .85,.85,.50
-TimeGap  = 1
+PalAdd = -10,-10,-10
+PalMul = .85,.85,.50
+TimeGap = 1
 FrameGap = 2
 Trans = Add
 time = 2
@@ -2314,18 +2314,18 @@ type = HitDef
 trigger1 = Time = 0
 trigger2 = AnimElem = 4
 attr = S, SA
-animtype  = Med
-damage    = 30, 4
-getpower  = 0
-priority  = 5
+animtype = Med
+damage = 30, 4
+getpower = 0
+priority = 5
 guardflag = MA
 pausetime = 6,10
 sparkxy = 0, ifelse(Time = 0, -48, -55)
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -3
 guard.velocity = -6
 air.velocity = -2,-2
@@ -2337,18 +2337,18 @@ forcestand = 1
 type = HitDef
 trigger1 = AnimElem = 7
 attr = S, SA
-animtype  = Up
-damage    = 68, 4
-getpower  = 0
-priority  = 5
+animtype = Up
+damage = 68, 4
+getpower = 0
+priority = 5
 guardflag = MA
 pausetime = 12,12
 sparkxy = 0,-110
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = -1.2,-11
 guard.velocity = -6
 air.velocity = -1.2,-9
@@ -2370,10 +2370,10 @@ ctrl = 1
 ; Notes: This uses the EnvShake controller to shake the screen. It makes the
 ;        move look stronger.
 [Statedef 1200]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 50
 velset = 0,0
 anim = 1200
@@ -2406,17 +2406,17 @@ freq = 180   ;A frequency of 180 shakes the screen rapidly
 type = HitDef
 trigger1 = Time = 0
 attr = S, SA
-animtype  = Hard
-damage    = 100, 6
-priority  = 5
+animtype = Hard
+damage = 100, 6
+priority = 5
 guardflag = MA
 pausetime = 12,12
 sparkxy = 0,-65
-hitsound   = 5,3
+hitsound = 5,3
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 16
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -10
 ground.cornerpush.veloff = -12 ;To push far away when p2 is in corner
 guard.velocity = -7
@@ -2433,10 +2433,10 @@ ctrl = 1
 ; Strong Kung Fu Blow
 ; CNS difficulty: easy
 [Statedef 1210]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= 60
 velset = 0,0
 anim = 1210
@@ -2469,17 +2469,17 @@ freq = 170   ;A frequency of less than 180 causes a dampening effect
 type = HitDef
 trigger1 = Time = 0
 attr = S, SA
-animtype  = Hard
-damage    = 125, 9
-priority  = 5
+animtype = Hard
+damage = 125, 9
+priority = 5
 guardflag = MA
 pausetime = 12,12
 sparkxy = 0,-65
-hitsound   = 5,3
+hitsound = 5,3
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 22
+ground.hittime = 22
 ground.velocity = -10
 ground.cornerpush.veloff = -15 ;To push far away when p2 is in corner
 guard.velocity = -8
@@ -2496,10 +2496,10 @@ ctrl = 1
 ; Fast Kung Fu Blow
 ; CNS difficulty: easy
 [Statedef 1220]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 6
+juggle = 6
 poweradd= -330
 velset = 0,0
 anim = 1220
@@ -2510,11 +2510,11 @@ sprpriority = 2
 type = AfterImage
 trigger1 = Time = 0
 length = 13
-PalBright   =  30, 30,  0
+PalBright =  30, 30,  0
 PalContrast =  70, 70, 20
-PalAdd      = -10,-10,-10
-PalMul      = .85,.85,.50
-TimeGap  = 1
+PalAdd = -10,-10,-10
+PalMul = .85,.85,.50
+TimeGap = 1
 FrameGap = 2
 Trans = Add
 time = 2
@@ -2557,18 +2557,18 @@ freq = 170
 type = HitDef
 trigger1 = Time = 0
 attr = S, SA
-animtype  = Hard
-damage    = 125, 9
-getpower  = 0
-priority  = 5
+animtype = Hard
+damage = 125, 9
+getpower = 0
+priority = 5
 guardflag = MA
 pausetime = 15,15
 sparkxy = 0,-65
-hitsound   = 5,4
+hitsound = 5,4
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 32
+ground.hittime = 32
 ground.velocity = -15
 ground.cornerpush.veloff = -20 ;To push far away when p2 is in corner
 guard.velocity = -9
@@ -2592,7 +2592,7 @@ ctrl = 1
 ;        attacks not caught by the ReversalDef are handled by the HitOverride.
 ;        The movetype is Idle because this is not an attack.
 [Statedef 1300]
-type    = S
+type = S
 movetype= I
 physics = S
 velset = 0,0
@@ -2653,7 +2653,7 @@ ctrl = 1
 ; Kung Fu Blocking High (blocked)
 ; Notes: This state uses a Pause controller to freeze the action dramatically.
 [Statedef 1310]
-type    = S
+type = S
 movetype= I
 physics = S
 velset = 0,0
@@ -2690,7 +2690,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Kung Fu Blocking Low
 [Statedef 1320]
-type    = C
+type = C
 movetype= I
 physics = C
 velset = 0,0
@@ -2740,7 +2740,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Kung Fu Blocking Low (blocked)
 [Statedef 1330]
-type    = C
+type = C
 movetype= I
 physics = C
 velset = 0,0
@@ -2777,7 +2777,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Kung Fu Blocking Air
 [Statedef 1340]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 1340
@@ -2835,7 +2835,7 @@ value = 1351
 ;---------------------------------------------------------------------------
 ; Kung Fu Blocking Air (blocked)
 [Statedef 1350]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 1350
@@ -2884,7 +2884,7 @@ value = 1351
 ;---------------------------------------------------------------------------
 ; Kung Fu Blocking Air (land)
 [Statedef 1351]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 47
@@ -2925,10 +2925,10 @@ value = 1320
 ; Light Kung Fu Zankou
 ; CNS difficulty: easy
 [Statedef 1400]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 4
+juggle = 4
 poweradd= 50
 velset = 0,0
 anim = 1400
@@ -2949,17 +2949,17 @@ x = 0.5
 type = HitDef
 trigger1 = Time = 0
 attr = S, SA
-animtype  = Hard
-damage    = 100, 6
-priority  = 4
+animtype = Hard
+damage = 100, 6
+priority = 4
 guardflag = MA
 pausetime = 12,12
 sparkxy = 0,-65
-hitsound   = 5,3
+hitsound = 5,3
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -9
 ground.cornerpush.veloff = -15 ;To push far away when p2 is in corner
 guard.velocity = -9
@@ -2994,10 +2994,10 @@ ctrl = 1
 ; Strong Kung Fu Zankou
 ; CNS difficulty: easy
 [Statedef 1410]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 4
+juggle = 4
 poweradd= 50
 velset = 0,0
 anim = 1410
@@ -3018,17 +3018,17 @@ x = 0.65
 type = HitDef
 trigger1 = Time = 0
 attr = S, SA
-animtype  = Hard
-damage    = 100, 6
-priority  = 4
+animtype = Hard
+damage = 100, 6
+priority = 4
 guardflag = MA
 pausetime = 12,12
 sparkxy = 0,-65
-hitsound   = 5,3
+hitsound = 5,3
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 17
+ground.hittime = 17
 ground.velocity = -9
 ground.cornerpush.veloff = -15 ;To push far away when p2 is in corner
 guard.velocity = -9
@@ -3063,10 +3063,10 @@ ctrl = 1
 ; Far Kung Fu Zankou
 ; CNS difficulty: easy
 [Statedef 1420]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 6
+juggle = 6
 poweradd= -330
 velset = 0,0
 anim = 1420
@@ -3077,11 +3077,11 @@ sprpriority = 2
 type = AfterImage
 trigger1 = Time = 0
 length = 13
-PalBright   =  30, 30,  0
+PalBright =  30, 30,  0
 PalContrast =  70, 70, 20
-PalAdd      = -10,-10,-10
-PalMul      = .85,.85,.50
-TimeGap  = 1
+PalAdd = -10,-10,-10
+PalMul = .85,.85,.50
+TimeGap = 1
 FrameGap = 2
 Trans = Add
 time = 2
@@ -3112,18 +3112,18 @@ x = 0.7
 type = HitDef
 trigger1 = AnimElemTime(4) = -2
 attr = S, SA
-animtype  = Hard
-damage    = 25, 2
-getpower  = 0
-priority  = 4
+animtype = Hard
+damage = 25, 2
+getpower = 0
+priority = 4
 guardflag = MA
 pausetime = 9,9
 sparkxy = -15,-45
-hitsound   = 5,2
+hitsound = 5,2
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 22
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -7
 ground.cornerpush.veloff = -8 ;To push far away when p2 is in corner
 guard.velocity = -9
@@ -3134,18 +3134,18 @@ airguard.velocity = -3.5,-4.5
 type = HitDef
 trigger1 = AnimElem = 4
 attr = S, SA
-animtype  = Hard
-damage    = 100, 8
-getpower  = 0
-priority  = 5
+animtype = Hard
+damage = 100, 8
+getpower = 0
+priority = 5
 guardflag = MA
 pausetime = 12,12
 sparkxy = 0,-65
-hitsound   = 5,3
+hitsound = 5,3
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 22
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -5,-4
 ground.cornerpush.veloff = -15 ;To push far away when p2 is in corner
 guard.velocity = -9
@@ -3186,10 +3186,10 @@ ctrl = 1
 ;        Notice how the first HitDef is reused twice by allowing it to
 ;        trigger on two animation elements.
 [Statedef 3000]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 velset = 0,0
 anim = 3000
 ctrl = 0
@@ -3269,18 +3269,18 @@ type = HitDef
 trigger1 = AnimElem = 5
 trigger2 = AnimElem = 13
 attr = S, HA
-animtype  = Hard
-damage    = 72,4
-getpower  = 0
-priority  = 6
+animtype = Hard
+damage = 72,4
+getpower = 0
+priority = 6
 guardflag = MA
 pausetime = 15,15
 sparkxy = -10,-60
-hitsound   = 5,4
+hitsound = 5,4
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 30
-ground.hittime  = 32
+ground.hittime = 32
 ground.velocity = -6
 air.velocity = -3,-2.8
 air.fall = 1
@@ -3291,18 +3291,18 @@ fall.recover = 0
 type = HitDef
 trigger1 = AnimElem = 21
 attr = S, HA
-animtype  = Hard
-damage    = 75,4
-getpower  = 0
-priority  = 5
+animtype = Hard
+damage = 75,4
+getpower = 0
+priority = 5
 guardflag = MA
 pausetime = 15,15
 sparkxy = -10,-60
-hitsound   = 5,4
+hitsound = 5,4
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 30
-ground.hittime  = 32
+ground.hittime = 32
 ground.velocity = -5, -4
 guard.velocity = -12
 air.velocity = -5,-4
@@ -3332,10 +3332,10 @@ ctrl = 1
 ;     a success state if he hits. The success state has KFM hold his arm
 ;     up longer for a dramatic effect.
 [Statedef 3050]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 velset = 0,0
 anim = 3050
 ctrl = 0
@@ -3379,19 +3379,19 @@ value = 0, 2
 type = HitDef
 trigger1 = Time = 0
 attr = S, HA
-animtype  = Up               ;Make p2 use "Up" type animation on hit
-damage    = 155, 12
-getpower  = 0
-priority  = 5
+animtype = Up               ;Make p2 use "Up" type animation on hit
+damage = 155, 12
+getpower = 0
+priority = 5
 guardflag = MA
 pausetime = 30,30
 sparkno = 3
 sparkxy = 0,-110
-hitsound   = 5,4
+hitsound = 5,4
 guardsound = 6,0
 ground.type = Low
 ground.slidetime = 26
-ground.hittime  = 28
+ground.hittime = 28
 ground.velocity = -1.3,-25
 guard.velocity = -11
 air.velocity = -1.3,-25
@@ -3429,7 +3429,7 @@ ctrl = 1
 ;     with Smash Kung Fu Upper. KFM holds his arm high for a short while
 ;     longer, then changes back to his idle stand state.
 [Statedef 3051]
-type    = S
+type = S
 movetype= A
 physics = S
 anim = 3051

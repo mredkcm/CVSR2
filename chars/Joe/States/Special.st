@@ -1,11 +1,11 @@
 ; _______________________________________
 ;| Joe Higashi by Jmorphman              |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;========================<HURRICANE UPPER>=============================
+;====<HURRICANE UPPER>=
 [StateDef 1000]
 type = S
 physics = N
@@ -106,7 +106,7 @@ ctrl = 1
 
 
 
-;========================<EX HURRICANE UPPER>=============================
+;====<EX HURRICANE UPPER>=
 [StateDef 1030]
 type = S
 physics = N
@@ -255,7 +255,7 @@ ctrl = 1
 
 
 
-;========================<SLASH KICK>=============================
+;====<SLASH KICK>=
 [StateDef 1100]
 type = S
 physics = S
@@ -413,7 +413,7 @@ ctrl = 1
 
 
 
-;========================<EX SLASH KICK>=============================
+;====<EX SLASH KICK>=
 [StateDef 1130]
 type = S
 physics = N
@@ -722,7 +722,7 @@ value = 1201
 
 
 
-;=====================<TIGER KICK>==========================
+;=<TIGER KICK>==
 [StateDef 1200]
 type = S
 physics = N
@@ -1043,7 +1043,7 @@ ctrl = 1
 
 
 
-;========================<EX TIGER KICK>=============================
+;====<EX TIGER KICK>=
 [StateDef 1230]
 type = S
 physics = N
@@ -1401,7 +1401,7 @@ value = 1201
 
 
 
-;=====================<GOLDEN HEEL>==========================
+;=<GOLDEN HEEL>==
 [StateDef 1300]
 type = S
 physics = N
@@ -1657,7 +1657,7 @@ ctrl = 1
 
 
 
-;========================<SLAMMED AGAINST THE GROUND>=============================
+;====<SLAMMED AGAINST THE GROUND>=
 ;Being Slammed (Standing)
 [StateDef 5420]
 type = U
@@ -1844,7 +1844,7 @@ value = 5421
 
 
 
-;=====================<EX GOLDEN HEEL>==========================
+;=<EX GOLDEN HEEL>==
 [StateDef 1330]
 type = S
 physics = N
@@ -2089,7 +2089,7 @@ value = 1301
 
 
 
-;========================<TNT PUNCH>=============================
+;====<TNT PUNCH>=
 ;Startup
 [StateDef 1400]
 type = S
@@ -2387,7 +2387,7 @@ ctrl = 1
 
 
 
-;========================<DYNAMITE FIST>=============================
+;====<DYNAMITE FIST>=
 [StateDef 1421]
 type = S
 physics = N
@@ -2528,7 +2528,7 @@ ctrl = 1
 
 
 
-;========================<DYNAMITE UPPER>=============================
+;====<DYNAMITE UPPER>=
 [StateDef 1422]
 type = S
 physics = N
@@ -2623,7 +2623,7 @@ ctrl = 1
 
 
 
-;========================<EX TNT PUNCH>=============================
+;====<EX TNT PUNCH>=
 [StateDef 1430]
 type = S
 physics = N
@@ -2951,7 +2951,7 @@ ctrl = 1
 
 
 
-;=====================<PUNCH ZERO COUNTER>==========================
+;=<PUNCH ZERO COUNTER>==
 [StateDef 2900]
 type = S
 physics = N
@@ -3204,7 +3204,7 @@ ctrl = 1
 
 
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

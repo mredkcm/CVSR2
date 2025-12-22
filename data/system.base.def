@@ -157,16 +157,16 @@
 	cancel.snd = 100, 2
 
 	; If custom menu is not declared, following menu is loaded by default:
-	menu.itemname.arcade = "ARCADE"
 	menu.itemname.versus = "VS MODE"
+	menu.itemname.training = "TRAINING"
+	menu.itemname.options = "OPTIONS"
+	menu.itemname.arcade = "ARCADE"
 	menu.itemname.teamarcade = "TEAM ARCADE"
 	menu.itemname.teamversus = "TEAM VS"
 	menu.itemname.teamcoop = "TEAM CO-OP"
 	menu.itemname.survival = "SURVIVAL"
 	menu.itemname.survivalcoop = "SURVIVAL CO-OP"
-	menu.itemname.training = "TRAINING"
 	menu.itemname.watch = "WATCH"
-	menu.itemname.options = "OPTIONS"
 	menu.itemname.exit = "EXIT"
 
 	; Ikemen features
@@ -609,10 +609,11 @@
 	title.scale = 1.0, 1.0
 
 	; Text rendered using title element (hardcoded in Mugen)
+	title.versus.text = "Versus Mode"
+	title.training.text = "Training Mode"
 	title.arcade.text = "Arcade"
 	title.teamarcade.text = "Team Arcade"
 	title.teamcoop.text = "Team Cooperative"
-	title.versus.text = "Versus Mode"
 	title.teamversus.text = "Team Versus"
 	title.versuscoop.text = "Versus Cooperative"
 	title.freebattle.text = "Quick Match"
@@ -620,7 +621,6 @@
 	title.netplayversus.text = "Online Versus"
 	title.netplayteamcoop.text = "Online Cooperative"
 	title.netplaysurvivalcoop.text = "Online Survival"
-	title.training.text = "Training Mode"
 	title.timeattack.text = "Time Attack"
 	title.survival.text = "Survival"
 	title.survivalcoop.text = "Survival Cooperative"

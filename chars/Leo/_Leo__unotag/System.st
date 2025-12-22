@@ -1467,7 +1467,7 @@ ignorehitpause = 1
 
 
 [Statedef 798]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd= 25
@@ -1524,7 +1524,7 @@ trigger1 = AnimTime = 0 || (anim = 10 && animelemno(0) > 3) || (anim = 12 && ani
 value = 799
 
 [Statedef 799]
-type    = A
+type = A
 movetype= A
 physics = N
 poweradd= 25
@@ -1613,8 +1613,8 @@ palfx.add = 255,255,255
 palfx.sinadd= -255,-255,-255,48
 ground.type = High
 ground.velocity = 0
-ground.hittime  = 11
-ground.slidetime  = 11
+ground.hittime = 11
+ground.slidetime = 11
 guard.hittime = 10
 guard.kill = 0
 air.hittime = 999
@@ -3005,7 +3005,7 @@ ctrl=1
 
 
 [Statedef 5000]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3081,7 +3081,7 @@ value = 5030
 
 
 [Statedef 5001]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -3119,7 +3119,7 @@ ctrl = 1
 
 
 [Statedef 5010]
-type    = C
+type = C
 movetype= H
 physics = N
 velset = 0,0
@@ -3191,7 +3191,7 @@ ampl = 140
 
 
 [Statedef 5011]
-type    = C
+type = C
 movetype= H
 physics = C
 
@@ -3229,7 +3229,7 @@ ctrl = 1
 
 
 [Statedef 5020]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3293,7 +3293,7 @@ ampl = 140
 
 
 [Statedef 5030]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -3339,7 +3339,7 @@ value = 5035
 
 
 [Statedef 5035]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3381,7 +3381,7 @@ value = 5050
 
 
 [Statedef 5040]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3423,7 +3423,7 @@ value = 52
 
 
 [Statedef 5050]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3476,7 +3476,7 @@ value = 5100
 
 
 [Statedef 5070]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3501,7 +3501,7 @@ ampl = 140
 
 
 [Statedef 5071]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3525,7 +3525,7 @@ value = 5110
 
 
 [Statedef 5080]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -3569,7 +3569,7 @@ value = 5030
 
 
 [Statedef 5081]
-type    = L
+type = L
 movetype= H
 physics = C
 
@@ -3596,7 +3596,7 @@ value = 5110
 
 
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3686,7 +3686,7 @@ time = 20
 
 
 [Statedef 5101]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3732,7 +3732,7 @@ value = 5110
 
 
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -3858,7 +3858,7 @@ waveform = sine
 
 
 [Statedef 5120]
-type    = L
+type = L
 movetype= I
 physics = N
 
@@ -3919,7 +3919,7 @@ ctrl = 1
 
 
 [Statedef 5150]
-type    = L
+type = L
 movetype= H
 physics = N
 sprpriority = -3
@@ -3976,7 +3976,7 @@ time = 1
 
 
 [Statedef 5200]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -4000,7 +4000,7 @@ value = 5201
 
 
 [Statedef 5201]
-type    = A
+type = A
 movetype= H
 physics = A
 anim = 5200
@@ -4043,7 +4043,7 @@ sprpriority = -10
 
 
 [Statedef 5210]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 5210
@@ -5429,8 +5429,8 @@ trigger2 = (gameTime%10) = 0
 Trans = add
 PalContrast = 256,0,0
 PalBright = 50,0,0
-Time    =  -1
-length  = 17
+Time =  -1
+length = 17
 TimeGap = 1
 FrameGap = 1
 

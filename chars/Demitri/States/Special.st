@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Demitri by varo_hades                   |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;=====================<CHAOS FLARE>==========================
+;=<CHAOS FLARE>==
 [StateDef 1000]
 type = S
 physics = S
@@ -76,7 +76,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX CHAOS FLARE>=============================
+;====<EX CHAOS FLARE>=
 [StateDef 1030]
 type = S
 physics = S
@@ -177,7 +177,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<AIR CHAOS FLARE>==========================
+;=<AIR CHAOS FLARE>==
 [StateDef 1050]
 type = S
 physics = N
@@ -265,7 +265,7 @@ trigger1 = Pos Y >= 0
 value = 52
 ctrl = 1
 
-;========================<EX AIR CHAOS FLARE>=============================
+;====<EX AIR CHAOS FLARE>=
 [StateDef 1080]
 type = S
 physics = N
@@ -383,7 +383,7 @@ trigger1 = Pos Y >= 0
 value = 52
 ctrl = 1
 
-;========================<DEMON CRADLE>=============================
+;====<DEMON CRADLE>=
 [StateDef 1100]
 type = S
 physics = N
@@ -505,7 +505,7 @@ type = ChangeState
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 52
 
-;========================<EX DEMON CRADLE>=============================
+;====<EX DEMON CRADLE>=
 [StateDef 1130]
 type = S
 physics = N
@@ -660,7 +660,7 @@ type = ChangeState
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 52
 
-;========================<ANGLED DEMON CRADLE>=============================
+;====<ANGLED DEMON CRADLE>=
 [StateDef 1150]
 type = S
 physics = N
@@ -781,7 +781,7 @@ type = ChangeState
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 52
 
-;========================<EX DEMON CRADLE>=============================
+;====<EX DEMON CRADLE>=
 [StateDef 1180]
 type = S
 physics = N
@@ -935,7 +935,7 @@ type = ChangeState
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 52
 
-;========================<BAT SPIN>=============================
+;====<BAT SPIN>=
 [StateDef 1200]
 type = S
 physics = S
@@ -984,7 +984,7 @@ type = ChangeState
 trigger1 = AnimTime = 0
 value = 1201
 
-;========================<BAT SPIN>=============================
+;====<BAT SPIN>=
 [Statedef 1201]
 type = A
 movetype = A
@@ -1141,7 +1141,7 @@ trigger1 = Pos Y >= 0
 value = 52
 ctrl = 1
 
-;========================<BAT SPIN>=============================
+;====<BAT SPIN>=
 [Statedef 1202]
 type = A
 physics = A
@@ -1173,7 +1173,7 @@ trigger1 = Pos Y >= 0
 value = 52
 ctrl = 1
 
-;========================<EX BAT SPIN>=============================
+;====<EX BAT SPIN>=
 [StateDef 1230]
 type = S
 physics = S
@@ -1248,7 +1248,7 @@ type = ChangeState
 trigger1 = AnimTime = 0
 value = 1231
 
-;========================<EX BAT SPIN>=============================
+;====<EX BAT SPIN>=
 [Statedef 1231]
 type = A
 movetype = A
@@ -1397,7 +1397,7 @@ trigger1 = Pos Y >= 0
 value = 52
 ctrl = 1
 
-;=====================<NEGATIVE STOLEN>==========================
+;=<NEGATIVE STOLEN>==
 [StateDef 1300]
 type = S
 physics = S
@@ -1723,7 +1723,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 812
 
-;===========<NEGATIVE STOLEN (TARGET)>==========
+;===<NEGATIVE STOLEN (TARGET)>==
 ;Being Thrown
 [StateDef 1315]
 type = A
@@ -1763,7 +1763,7 @@ trigger2 = AnimElemTime(10) >= 0 && AnimElemTime(11) < 0
 trigger3 = AnimElemTime(13) >= 0 && AnimElemTime(14) < 0
 value = 2
 
-;========================<EX NEGATIVE STOLEN>=============================
+;====<EX NEGATIVE STOLEN>=
 [StateDef 1330]
 type = S
 physics = S
@@ -2114,7 +2114,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 812
 
-;========================<HELL RIDE>=============================
+;====<HELL RIDE>=
 [StateDef 1400]
 type = S
 physics = N
@@ -2198,7 +2198,7 @@ type = ChangeState
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 52
 
-;========================<HELL RIDE>=============================
+;====<HELL RIDE>=
 [Statedef 1401]
 type = A
 movetype = I
@@ -2224,7 +2224,7 @@ type = ChangeState
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 52
 
-;========================<EX HELL RIDE>=============================
+;====<EX HELL RIDE>=
 [StateDef 1430]
 type = S
 physics = N
@@ -2333,7 +2333,7 @@ type = ChangeState
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 52
 
-;========================<EX HELL RIDE>=============================
+;====<EX HELL RIDE>=
 [Statedef 1431]
 type = A
 movetype = A
@@ -2391,7 +2391,7 @@ type = ChangeState
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 52
 
-;=====================<CHAOS FLARE 2>==========================
+;=<CHAOS FLARE 2>==
 [StateDef 1500]
 type = S
 physics = N
@@ -2448,7 +2448,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX CHAOS FLARE 2>=============================
+;====<EX CHAOS FLARE 2>=
 [StateDef 1530]
 type = S
 physics = S
@@ -2535,7 +2535,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<AIR CHAOS FLARE 2>==========================
+;=<AIR CHAOS FLARE 2>==
 [StateDef 1550]
 type = S
 physics = N
@@ -2614,7 +2614,7 @@ trigger1 = Pos Y >= 0
 value = 52
 ctrl = 1
 
-;========================<EX AIR CHAOS FLARE 2>=============================
+;====<EX AIR CHAOS FLARE 2>=
 [StateDef 1580]
 type = S
 physics = N
@@ -2723,7 +2723,7 @@ trigger1 = Pos Y >= 0
 value = 52
 ctrl = 1
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -2810,7 +2810,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

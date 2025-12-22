@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Ibuki by varo_hades                     |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;=====================<KUNAI>==========================
+;=<KUNAI>==
 [StateDef 1000]
 type = A
 physics = N
@@ -129,7 +129,7 @@ trigger1 = Vel Y > 0
 v = 3
 value = 0
 
-;========================<EX KUNAI>=============================
+;====<EX KUNAI>=
 [StateDef 1030]
 type = A
 physics = N
@@ -296,7 +296,7 @@ trigger1 = Vel Y > 0
 v = 3
 value = 0
 
-;========================<KUBI ORI>=============================
+;====<KUBI ORI>=
 [StateDef 1100]
 type = S
 physics = S
@@ -753,7 +753,7 @@ trigger1 = Pos Y >= 0
 trigger1 = Vel Y > 0
 value = 5100
 
-;========================<EX KUBI ORI>=============================
+;====<EX KUBI ORI>=
 [StateDef 1130]
 type = S
 physics = S
@@ -1243,7 +1243,7 @@ ctrl = 1
 
 ;Player 2
 [Statedef 1145]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -1298,7 +1298,7 @@ value = 101183
 
 ;Player 2 part 2
 [Statedef 1146]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1325,7 +1325,7 @@ value = 1181+(facing=-1)*10000
 
 ;Player 2 part 3
 [Statedef 1147]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1396,7 +1396,7 @@ value = 5100
 
 ;Player 2 part 4
 [Statedef 1148]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1468,7 +1468,7 @@ value = 5100
 
 ;Player 2 part 5
 [Statedef 1149]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1539,7 +1539,7 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 5100
 
-;========================<KAZEKIRI>=============================
+;====<KAZEKIRI>=
 [StateDef 1200]
 type = S
 physics = N
@@ -2508,7 +2508,7 @@ trigger1 = animtime = 0
 value = 0
 ctrl = 1
 
-;========================<EX KAZEKIRI>=============================
+;====<EX KAZEKIRI>=
 [StateDef 1230]
 type = S
 physics = N
@@ -2902,7 +2902,7 @@ trigger1 = Vel Y > 0
 value = 1210
 ctrl = 0
 
-;========================<TSUMUJI>=============================
+;====<TSUMUJI>=
 [StateDef 1300]
 type = S
 movetype = A
@@ -3795,7 +3795,7 @@ trigger1 = AnimTime = 0
 value = 11
 ctrl = 1
 
-;========================<EX TSUMUJI>=============================
+;====<EX TSUMUJI>=
 [StateDef 1330]
 type = S
 movetype = A
@@ -4381,7 +4381,7 @@ trigger1 = AnimTime = 0
 value = 11
 ctrl = 1
 
-;========================<HIEN>=============================
+;====<HIEN>=
 [StateDef 1400]
 type = A
 movetype = A
@@ -4954,7 +4954,7 @@ trigger1 = animtime = 0
 value = 0
 ctrl = 1
 
-;========================<EX HIEN>=============================
+;====<EX HIEN>=
 [StateDef 1430]
 type = S
 physics = N
@@ -5269,7 +5269,7 @@ trigger1 = Vel Y > 0
 value = 1420
 ctrl = 0
 
-;========================<RAIDA>=============================
+;====<RAIDA>=
 [StateDef 1500]
 type = S
 physics = S
@@ -5718,7 +5718,7 @@ trigger1 = Pos Y >= 0
 trigger1 = Vel Y > 0
 value = 5100
 
-;========================<EX RAIDA>=============================
+;====<EX RAIDA>=
 [StateDef 1530]
 type = S
 physics = S
@@ -5843,7 +5843,7 @@ trigger1 = animtime = 0
 value =0
 ctrl = 1
 
-;========================<TSUIJI GOE>=============================
+;====<TSUIJI GOE>=
 [StateDef 1600]
 type = S
 physics = N
@@ -6243,7 +6243,7 @@ trigger1 = animtime = 0
 value = 0
 ctrl = 1
 
-;========================<KASUMI GAKE>=============================
+;====<KASUMI GAKE>=
 [StateDef 1700]
 type = S
 physics = S
@@ -6474,7 +6474,7 @@ trigger1 = time = 22
 value = 0
 ctrl = 1
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -6561,7 +6561,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

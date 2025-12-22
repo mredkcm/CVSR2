@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Ken by Phantom.of.the.Server & Jmorphman|
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<HELPER STATES>========================================
-;==============================================================================================
+;==
+;===<HELPER STATES>====
+;==
 
-;====================<PARRY HELPER>=========================
+;====<PARRY HELPER>=
 [StateDef 765]
 type = A
 physics = N
@@ -117,7 +117,7 @@ trigger2 = Time >= 2
 
 
 
-;=====================<HADOKEN PROJECTILE>=========================
+;=<HADOKEN PROJECTILE>=
 [StateDef 1005]
 type = S
 physics = N
@@ -380,7 +380,7 @@ trigger2 = Target, Time <= 1 && !(Target,HitShakeOver)
 
 
 
-;=====================<EX HADOKEN PROJECTILE>=========================
+;=<EX HADOKEN PROJECTILE>=
 [StateDef 1035]
 type = S
 physics = N
@@ -633,7 +633,7 @@ trigger1 = FrontEdgeDist < -100 || BackEdgeDist < -100
 
 
 
-;========================<RASETSU KYAKU FADE AWAY>=============================
+;====<RASETSU KYAKU FADE AWAY>=
 [StateDef 1605]
 physics = N
 velSet = 0,0
@@ -659,7 +659,7 @@ trigger1 = Time = 16
 
 
 
-;========================<OROCHI PILLAR>=============================
+;====<OROCHI PILLAR>=
 [Statedef 3525]
 type = S
 physics = N
@@ -724,7 +724,7 @@ trigger1 = Time >= 60
 
 
 
-;========================<SOURYUKEN KANJI>=============================
+;====<SOURYUKEN KANJI>=
 [StateDef 4105]
 type = A
 velset = 0,0
@@ -835,7 +835,7 @@ trigger1 = Time >= 60
 
 
 
-;====================<CAPE>====================
+;====<CAPE>====
 [StateDef 16805]
 physics = N
 anim = 16805
@@ -859,7 +859,7 @@ trigger1 = Time >= 20
 
 
 
-;====================<HELICOPTER>====================
+;====<HELICOPTER>====
 [StateDef 26805]
 type = A
 physics = N
@@ -982,7 +982,7 @@ trigger1 = (pos x != [-465,465]) || (ScreenPos y != [-212,0])
 
 
 
-;========================<FUMIKOMI MAE GERI PUSHBOX>=============================
+;====<FUMIKOMI MAE GERI PUSHBOX>=
 [StateDef 10247]
 physics = N
 velSet = 0,0
@@ -1022,7 +1022,7 @@ trigger7 = Root, StateNo = 3600 && Root, AnimElem = 84
 
 
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -2011,7 +2011,7 @@ trigger1 = Time >= 8
 
 
 
-;======================<JUMP DUST>===========================
+;==<JUMP DUST>===
 [StateDef 8100]
 type = S
 anim = 1
@@ -2050,7 +2050,7 @@ trigger1 = Time >= 7
 
 
 
-;======================<DASH DUST>===========================
+;==<DASH DUST>===
 [StateDef 8103]
 type = A
 anim = 1
@@ -2112,7 +2112,7 @@ trigger1 = !NumExplod
 
 
 
-;======================<IMPACT DUST>===========================
+;==<IMPACT DUST>===
 [StateDef 8110]
 type = A
 anim = 1
@@ -2158,7 +2158,7 @@ trigger1 = !NumExplod
 
 
 
-;======================<WALL IMPACT DUST>===========================
+;==<WALL IMPACT DUST>===
 [StateDef 8111]
 type = A
 anim = 1
@@ -2204,7 +2204,7 @@ trigger1 = !NumExplod
 
 
 
-;========================<FLAMES>=============================
+;====<FLAMES>=
 [StateDef 8150]
 type = A
 velSet = 0,0
@@ -2291,7 +2291,7 @@ trigger10 = Root, StateNo = 3500
 
 
 
-;========================<RECOVER FX>=============================
+;====<RECOVER FX>=
 [StateDef 8200]
 type = A
 velSet = 0,0
@@ -2323,7 +2323,7 @@ trigger1 = Time >= 15
 
 
 
-;========================<COUNTER FX>=============================
+;====<COUNTER FX>=
 [StateDef 8290]
 type = A
 physics = N
@@ -2369,7 +2369,7 @@ trigger1 = Time >= 16
 
 
 
-;==================<POWER CHARGE FX>==================
+;==<POWER CHARGE FX>==
 ;Aura and Dust
 [StateDef 8330]
 type = A
@@ -2478,7 +2478,7 @@ trigger1 = Root, StateNo != 730
 
 
 
-;==================<VIOLENT WIN VS VEGA PARTICLES>==================
+;==<VIOLENT WIN VS VEGA PARTICLES>==
 [StateDef 8332]
 type = A
 physics = N
@@ -2515,7 +2515,7 @@ trigger1 = Root, StateNo != 187 || Root, AnimElemTime(60) >= 0
 
 
 
-;==================<ZERO COUNTER FX>==================
+;==<ZERO COUNTER FX>==
 [StateDef 8350]
 type = A
 physics = N
@@ -2567,7 +2567,7 @@ trigger1 = Time >= 16
 
 
 
-;========================<CUSTOM COMBO>=============================
+;====<CUSTOM COMBO>=
 [StateDef 8400]
 type = A
 physics = N
@@ -2673,7 +2673,7 @@ trigger1 = Time >= 26
 
 
 
-;========================<SUPER PAUSE FX>=============================
+;====<SUPER PAUSE FX>=
 ;Level 1 Super FX
 [StateDef 8500]
 type = A
@@ -3197,7 +3197,7 @@ trigger1 = Time >= 40
 
 
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [StateDef 8600]
 type = A
 velSet = 0,0
@@ -3378,7 +3378,7 @@ trigger1 = RoundState < 3
 
 
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0

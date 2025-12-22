@@ -1,4 +1,4 @@
-;=====================<CANTERBURY BLUE AUTOGUARDER>=========================
+;=<CANTERBURY BLUE AUTOGUARDER>=
 [StateDef 101100]
 type = A
 physics = N
@@ -75,7 +75,7 @@ trigger2 = Parent, MoveType = H
 
 
 
-;=====================<ST. ANDREWS GREEN PROJECTILE REFLECTOR>=========================
+;=<ST. ANDREWS GREEN PROJECTILE REFLECTOR>=
 [StateDef 1401]
 type = A
 physics = N
@@ -242,7 +242,7 @@ value = 1401
 
 
 
-;========================<REFLECTED HELPER>=============================
+;====<REFLECTED HELPER>=
 [Statedef 1440]
 type = S
 movetype = A
@@ -272,7 +272,7 @@ ignorehitpause = 1
 
 
 
-;=====================<REFLECTED PROJECTILE>=========================
+;=<REFLECTED PROJECTILE>=
 ;projectile forming
 [StateDef 1414]
 type = S
@@ -643,7 +643,7 @@ value = 1415
 
 
 
-;========================< LONDON SILVER AURA >=============================
+;====< LONDON SILVER AURA >=
 ;--- Looping ---
 [Statedef 3355]
 type = A
@@ -715,7 +715,7 @@ type = destroyself
 trigger1 = !numexplod
 
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -1773,7 +1773,7 @@ trigger1 = Time >= 8
 
 
 
-;========================< DUSTS >=============================
+;====< DUSTS >=
 ;--- Jump ---
 [Statedef 8100]
 type = S
@@ -1912,7 +1912,7 @@ type = destroyself
 trigger1 = !numexplod
 
 
-;====================< POWER CHARGE >====================
+;====< POWER CHARGE >====
 ;--- MAIN FX ---
 [Statedef 8330]
 type = A
@@ -2013,7 +2013,7 @@ trigger1 = root, stateno != 730
 type = destroyself
 trigger1 = root, stateno != 730
 
-;====================< ZERO COUNTER PAUSE >====================
+;====< ZERO COUNTER PAUSE >====
 [Statedef 8350]
 type = A
 physics = N
@@ -2064,7 +2064,7 @@ type = destroyself
 trigger1 = time >= 16
 
 
-;========================< RECOVER FX >=============================
+;====< RECOVER FX >=
 [Statedef 8200]
 type = A
 velset = 0, 0
@@ -2089,7 +2089,7 @@ alpha = ceil(256 -17.1 * time), 256
 type = destroyself
 trigger1 = time >= 15
 
-;========================< CUSTOM COMBO >=============================
+;====< CUSTOM COMBO >=
 [Statedef 8400]
 type = A
 physics = N
@@ -2183,7 +2183,7 @@ trigger1 = time >= 26
 type = destroyself
 trigger1 = time >= 26
 
-;========================< SUPERPAUSE FX >=============================
+;====< SUPERPAUSE FX >=
 ;--- --Level 1 -----
 [Statedef 8500]
 type = A
@@ -2587,7 +2587,7 @@ trigger1 = time >= 40
 type = destroyself
 trigger1 = time >= 40
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [Statedef 8600]
 type=A
 velset=0,0
@@ -2727,7 +2727,7 @@ trigger2= roundstate<3
 type=destroyself
 trigger1= roundstate<3
 
-;========================< COUNTER FX >=============================
+;====< COUNTER FX >=
 [Statedef 8290]
 type = A
 physics = N

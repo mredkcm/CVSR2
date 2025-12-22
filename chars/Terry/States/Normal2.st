@@ -1,14 +1,14 @@
 ;                          ____________________
-;=========================|Terry Bogard by Memo|=========================
+;=|Terry Bogard by Memo|=
 ;                          ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<NORMAL MOVES>========================================
-;==============================================================================================
+;==
+;====<NORMAL MOVES>====
+;==
 
 ;---------------------------------------------------------------------------
 ; Standing Far Light Punch
 [Statedef 200]
-type    = S
+type = S
 physics = S
 movetype= A
 anim = 200
@@ -120,7 +120,7 @@ ignorehitpause = 1
 ;---------------------------------------------------------------------------
 ; Standing Close Light Punch
 [Statedef 201]
-type    = S
+type = S
 physics = S
 movetype= A
 anim = 201
@@ -231,7 +231,7 @@ value = ifelse((power = [500, 999]), 1330, 1000)
 ;---------------------------------------------------------------------------
 ; Standing Far Medium Punch
 [Statedef 210]
-type    = S
+type = S
 physics = S
 movetype= A
 anim = 210
@@ -326,7 +326,7 @@ ignorehitpause = 1
 ;---------------------------------------------------------------------------
 ; Standing Close Medium Punch
 [Statedef 211]
-type    = S
+type = S
 physics = S
 movetype= A
 anim = 211
@@ -673,7 +673,7 @@ value = 1200
 ;---------------------------------------------------------------------------
 ; Standing Far Light Kick
 [Statedef 230]
-type    = S
+type = S
 physics = S
 moveType = A
 anim = 230
@@ -874,7 +874,7 @@ value = ifelse((power = [500, 999]), 1230, 1000)
 ;---------------------------------------------------------------------------
 ; Standing Far Medium Kick
 [Statedef 240]
-type    = S
+type = S
 physics = S
 moveType = A
 anim = 240
@@ -1819,7 +1819,7 @@ fall.envshake.ampl = 0
 fall.envshake.phase = 0.0
 
 [State 430, ChangeAnimElem]
-type  = ChangeAnim
+type = ChangeAnim
 trigger1 = MoveContact = 1 && HitPauseTime
 trigger1 = AnimElemTime(3) >= 0 
 trigger1 = HitPauseTime <= ifElse(var(20), 2, 6)
@@ -2066,7 +2066,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Tripped get-hit (shaking)
 [Statedef 455]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2091,7 +2091,7 @@ ampl = 140
 ;----------------------------------
 ;Tripped get-hit (knocked away)
 [Statedef 456]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -2218,7 +2218,7 @@ value=52
 ; Jump Medium Punch
 [Statedef 610]
 type = A
-physics  = N
+physics = N
 moveType = A
 ;anim = 610
 ctrl = 0
@@ -2821,10 +2821,10 @@ type=changestate
 trigger1= pos y>-vel y
 value=52
 
-;================================= THROWS ==================================
+;= THROWS ==
 ;----------------throw punches----------------
 [Statedef 800]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 0
@@ -2927,7 +2927,7 @@ value = 0
 ctrl = 1
 ;----------------throw kicks----------------
 [Statedef 820]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 0
@@ -3000,7 +3000,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;throw punch
 [Statedef 801]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -3121,7 +3121,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;p2
 [Statedef 805]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3140,7 +3140,7 @@ value = 805
 ;---------------------------------------------------------------------------
 ;p2
 [Statedef 806]
-type    = A
+type = A
 movetype = H
 physics = N
 sprpriority = -1
@@ -3176,7 +3176,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;p2
 [Statedef 809]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3194,7 +3194,7 @@ value = SCA
 ;---------------------------------------------------------------------------
 ;throw kicks
 [Statedef 811]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -3324,7 +3324,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;p2
 [Statedef 815]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3342,7 +3342,7 @@ value = 815
 ;---------------------------------------------------------------------------
 ;p2
 [Statedef 816]
-type    = A
+type = A
 movetype = H
 physics = N
 sprpriority = -1
@@ -3384,7 +3384,7 @@ value = 5100
 ;---------------------------------------------------------------------------
 ;p2
 [Statedef 819]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3400,7 +3400,7 @@ type = NotHitBy
 trigger1 = 1
 value = SCA
 
-;===========< Target Escaped >==========
+;===< Target Escaped >==
 [Statedef 890]
 type = S
 physics = N

@@ -1,9 +1,9 @@
 ; _________________________________________
 ;| Leo by K6666orochi                      |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< HELPER STATES >========================================
-;==============================================================================================
+;==
+;===< HELPER STATES >====
+;==
 ;--------------------------------------------------------------------------------------
 ;Pal Select
 [Statedef 256]
@@ -89,7 +89,7 @@ triggerall=ishelper(256)
 trigger1=root,command="a"||root,command="b"||root,command="c"||root,command="x"||root,command="y"||root,command="z"||root,command="s"||roundstate=2
 trigger3=root,AILevel
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -1714,7 +1714,7 @@ type = destroyself
 trigger1 = time >= 26
 
 
-;========================< SUPERPAUSE FX >=============================
+;====< SUPERPAUSE FX >=
 ;--- --Level 1 -----
 [Statedef 8500]
 type = A
@@ -2373,7 +2373,7 @@ ignoreHitPause = 1
 type = destroyself
 trigger1 = roundstate = 2
 
-;===========<HYPER CHAIN DRIVE (PROJECTILE)>==========
+;===<HYPER CHAIN DRIVE (PROJECTILE)>==
 ;Source code: Urien by Froz. Yeah, I'm lazy.
 [Statedef 3305]
 type = S

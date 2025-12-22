@@ -1,11 +1,11 @@
 ; ________________________________________
 ;| Gouki by Phantom.of.the.Server and Mwryly |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;===================================< EX SPECIAL STATES >======================================
-;============================================================================================
+;====
+;===< EX SPECIAL STATES >==
+;====
 
-;======================< EX HADOU KEN >=============================
+;==< EX HADOU KEN >=
 [Statedef 1010]
 type = S
 physics = S
@@ -68,7 +68,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;======================< EX SHAKUNETSU HADOU KEN >=============================
+;==< EX SHAKUNETSU HADOU KEN >=
 [Statedef 1030]
 type = S
 physics = S
@@ -166,7 +166,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;======================< EX ZANKUU HADOU KEN >=============================
+;==< EX ZANKUU HADOU KEN >=
 [Statedef 1060]
 type = A
 physics = N
@@ -307,7 +307,7 @@ type = ChangeState
 trigger1 = Pos Y >= 0 && Vel Y > 0
 value = 52
 
-;======================< SHORYUU KEN >=============================
+;==< SHORYUU KEN >=
 [Statedef 1110]
 type = S
 physics = S
@@ -552,7 +552,7 @@ trigger1 = anim = 1101
 movetype = I
 
 
-;======================< EX TATSUMAKI >=============================
+;==< EX TATSUMAKI >=
 [Statedef 1210]
 type = A
 physics = N
@@ -877,7 +877,7 @@ trigger1 = anim = 1207
 movetype = I
 
 
-;======================< KUUCHUU SHINKUU TATSUMAKI >=============================
+;==< KUUCHUU SHINKUU TATSUMAKI >=
 [Statedef 1260]
 type = A
 physics = A
@@ -1157,7 +1157,7 @@ trigger1 = animelemtime(21) >= 0
 movetype = I
 
 
-;======================< EX HYAKKI SHU >=============================
+;==< EX HYAKKI SHU >=
 [Statedef 1310]
 type = A
 physics = N
@@ -1247,7 +1247,7 @@ type = changestate
 trigger1 = vel y > 0 && pos y >= -30
 value = 1305
 
-;========================<Ground Bounce>===================
+;====<Ground Bounce>===
 [Statedef 1111310]
 type = S
 movetype = H
@@ -1274,7 +1274,7 @@ trigger1 = Vel Y > 0
 value = 1111315
 
 [Statedef 1111315]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0

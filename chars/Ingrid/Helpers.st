@@ -1,4 +1,4 @@
-;========================< SPARKS >=============================
+;====< SPARKS >=
 [Statedef 8999]
 type = A
 physics = N
@@ -253,7 +253,7 @@ ownpal = 0
 removeongethit = 0
 
 
-;========================< SPARKS >=============================
+;====< SPARKS >=
 ;--- Guard Normal ---
 [Statedef 8000]
 type = A
@@ -914,7 +914,7 @@ type = destroyself
 trigger1 = time >= 8
 
 
-;========================< DUSTS >=============================
+;====< DUSTS >=
 ;--- Jump ---
 [Statedef 8100]
 type = S
@@ -1053,7 +1053,7 @@ type = destroyself
 trigger1 = !numexplod
 
 
-;========================< FLAMES >=============================
+;====< FLAMES >=
 [Statedef 8150]
 type = A
 velset = 0, 0
@@ -1118,7 +1118,7 @@ trigger2 = playerID(var(0)), movetype != H || playerID(var(0)), stateno = 5300
 trigger3 = playerID(var(0)), statetype = L && (playerID(var(0)), stateno != [5080, 5081])
 
 
-;========================< SHOCK >=============================
+;====< SHOCK >=
 [Statedef 8155]
 type = A
 velset = 0, 0
@@ -1171,7 +1171,7 @@ trigger2 = playerID(var(0)), movetype != H || playerID(var(0)), stateno = 5300
 trigger3 = playerID(var(0)), statetype = L && (playerID(var(0)), stateno != [5080, 5081])
 
 
-;========================< RECOVER FX >=============================
+;====< RECOVER FX >=
 [Statedef 8200]
 type = A
 velset = 0, 0
@@ -1197,7 +1197,7 @@ type = destroyself
 trigger1 = time >= 15
 
 
-;========================< COUNTER FX >=============================
+;====< COUNTER FX >=
 [Statedef 8290]
 type = A
 physics = N
@@ -1240,7 +1240,7 @@ type = destroyself
 trigger1 = time >= 16
 
 
-;====================< POWER CHARGE >====================
+;====< POWER CHARGE >====
 ;--- MAIN FX ---
 [Statedef 8330]
 type = A
@@ -1342,7 +1342,7 @@ type = destroyself
 trigger1 = root, stateno != 730
 
 
-;====================< ZERO COUNTER PAUSE >====================
+;====< ZERO COUNTER PAUSE >====
 [Statedef 8350]
 type = A
 physics = N
@@ -1393,7 +1393,7 @@ type = destroyself
 trigger1 = time >= 16
 
 
-;========================< CUSTOM COMBO >=============================
+;====< CUSTOM COMBO >=
 [Statedef 8400]
 type = A
 physics = N
@@ -1488,7 +1488,7 @@ type = destroyself
 trigger1 = time >= 26
 
 
-;========================< SUPERPAUSE FX >=============================
+;====< SUPERPAUSE FX >=
 ;--- --Level 1 -----
 [Statedef 8500]
 type = A
@@ -1893,7 +1893,7 @@ type = destroyself
 trigger1 = time >= 40
 
 
-;========================< SUPER FINISH >=============================
+;====< SUPER FINISH >=
 [Statedef 8600]
 type = A
 velset = 0, 0
@@ -2064,7 +2064,7 @@ type = destroyself
 trigger1 = roundstate < 3
 
 
-;========================< CAMERA CONTROL >=============================
+;====< CAMERA CONTROL >=
 [Statedef 8999]
 type = S
 velset = 0, 0

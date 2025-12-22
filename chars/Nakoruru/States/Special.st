@@ -1,11 +1,11 @@
 ; ___________________________________
 ;| Nakoruru by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;======================================< SPECIAL MOVES >=======================================
-;============================================================================================
+;====
+;==< SPECIAL MOVES >===
+;====
 
-;======================< ANNU MUTSUBE >=============================
+;==< ANNU MUTSUBE >=
 [Statedef 1000]
 type = S
 physics = N
@@ -180,7 +180,7 @@ value = 12
 ctrl = 1
 
 
-;======================< EX ANNU MUTSUBE >=============================
+;==< EX ANNU MUTSUBE >=
 [Statedef 1020]
 type = S
 physics = N
@@ -380,7 +380,7 @@ value = 12
 ctrl = 1
 
 
-;======================< FAKE ANNU MUTSUBE >=============================
+;==< FAKE ANNU MUTSUBE >=
 [Statedef 1090]
 type = S
 physics = N
@@ -417,7 +417,7 @@ value = 11
 ctrl = 1
 
 
-;======================< LELA MUTSUBE >=============================
+;==< LELA MUTSUBE >=
 [Statedef 1100]
 type = S
 physics = N
@@ -642,7 +642,7 @@ value = 11
 ctrl = 1
 
 
-;======================< EX LELA MUTSUBE >=============================
+;==< EX LELA MUTSUBE >=
 [Statedef 1120]
 type = S
 physics = N
@@ -895,7 +895,7 @@ trigger1 = pos y > -vel y
 value = 1103
 
 
-;======================< KAMUI RIMSE >=============================
+;==< KAMUI RIMSE >=
 [Statedef 1200]
 type = S
 physics = N
@@ -1177,7 +1177,7 @@ value = 0
 ctrl = 1
 
 
-;======================< EX KAMUI RIMSE >=============================
+;==< EX KAMUI RIMSE >=
 [Statedef 1220]
 type = S
 physics = N
@@ -1394,7 +1394,7 @@ value = 0
 ctrl = 1
 
 
-;======================< AMUBE YATORO >=============================
+;==< AMUBE YATORO >=
 [Statedef 1300]
 type = S
 physics = S
@@ -1433,7 +1433,7 @@ value = 0
 ctrl = 1
 
 
-;======================< EX AMUBE YATORO >=============================
+;==< EX AMUBE YATORO >=
 [Statedef 1350]
 type = S
 physics = S
@@ -1494,7 +1494,7 @@ value = 0
 ctrl = 1
 
 
-;======================< MAMAHAHA NI TSUKAMARU >=============================
+;==< MAMAHAHA NI TSUKAMARU >=
 [Statedef 1500]
 type = A
 physics = N
@@ -1687,7 +1687,7 @@ value = 11
 ctrl = 1
 
 
-;======================< SHICHIKAPU AI >=============================
+;==< SHICHIKAPU AI >=
 [Statedef 1530]
 type = A
 physics = N
@@ -1730,7 +1730,7 @@ trigger1 = pos y > -vel y
 value = 1591
 
 
-;======================< KAMUI MUTSUBE >=============================
+;==< KAMUI MUTSUBE >=
 [Statedef 1550]
 type = A
 physics = N
@@ -1917,7 +1917,7 @@ value = 11
 ctrl = 1
 
 
-;======================< EX KAMUI MUTSUBE >=============================
+;==< EX KAMUI MUTSUBE >=
 [Statedef 1560]
 type = A
 physics = N
@@ -2127,7 +2127,7 @@ value = 11
 ctrl = 1
 
 
-;======================< PUNCH ZERO COUNTER >=============================
+;==< PUNCH ZERO COUNTER >=
 [Statedef 2900]
 type = S
 physics = N
@@ -2326,7 +2326,7 @@ trigger1 = anim = 5110 || anim = 5111
 value = 5110
 
 
-;======================< KICK ZERO COUNTER >=============================
+;==< KICK ZERO COUNTER >=
 [Statedef 2950]
 type = C
 physics = N

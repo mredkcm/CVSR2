@@ -1,10 +1,10 @@
 ;---------------------------------------------------------------------------
 ;Manchester Black
 [Statedef 1000]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 1000
@@ -143,10 +143,10 @@ value = 1001
 ;---------------------------------------------------------------------------
 ;Done
 [Statedef 1001]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 1001
@@ -184,10 +184,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX Manchester Black
 [Statedef 1050]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 1050
@@ -424,10 +424,10 @@ value = 1001
 ;---------------------------------------------------------------------------
 ;Canterbury Blue
 [Statedef 1100]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 1100
@@ -565,10 +565,10 @@ value = 1101
 ;---------------------------------------------------------------------------
 ;Attack
 [Statedef 1105]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 1105
@@ -733,10 +733,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Oxford Red
 [Statedef 1200]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 1200
@@ -1044,7 +1044,7 @@ value = 0
 ctrl = 1
 
 
-;========================<EX OXFORD RED>=============================
+;====<EX OXFORD RED>=
 [StateDef 1230]
 type = S
 physics = N
@@ -1459,10 +1459,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Liverpool White
 [Statedef 1300]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 1300
@@ -1589,7 +1589,7 @@ value = 0
 ctrl = 1
 
 
-;========================<EX LIVERPOOL WHITE>=============================
+;====<EX LIVERPOOL WHITE>=
 [StateDef 1330]
 type = S
 physics = N
@@ -1763,10 +1763,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;St. Andrews Green
 [Statedef 1400]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 1400
@@ -1890,10 +1890,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;EX St. Andrews Green
 [Statedef 1430]
-type    = S
+type = S
 movetype= A
 physics = N
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 1430
@@ -2039,7 +2039,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;========================< PUNCH ZERO COUNTER >=============================
+;====< PUNCH ZERO COUNTER >=
 [Statedef 2900]
 type = S
 physics = N
@@ -2125,7 +2125,7 @@ value = 0
 ctrl = 1
 
 
-;========================< KICK ZERO COUNTER >=============================
+;====< KICK ZERO COUNTER >=
 [Statedef 2910]
 type = S
 physics = N

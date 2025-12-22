@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Rose by varo_hades                      |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;=====================<Soul Spark>==========================
+;=<Soul Spark>==
 [StateDef 1000]
 type = S
 physics = S
@@ -82,7 +82,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<Ex Soul Spark>=============================
+;====<Ex Soul Spark>=
 [StateDef 1030]
 type = S
 physics = N
@@ -189,7 +189,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<Soul Throw>=============================
+;====<Soul Throw>=
 [StateDef 1100]
 type = S
 physics = N
@@ -1245,7 +1245,7 @@ trigger1 = Vel Y > 0
 value = 5100
 ctrl = 0
 
-;========================<Ex Soul Throw>=============================
+;====<Ex Soul Throw>=
 [StateDef 1130]
 type = S
 physics = N
@@ -1650,7 +1650,7 @@ trigger1 = Vel Y > 0
 value = 5100
 ctrl = 0
 
-;=====================<Soul Spiral>==========================
+;=<Soul Spiral>==
 [StateDef 1200]
 type = S
 physics = S
@@ -2546,7 +2546,7 @@ trigger1 = animtime = 0
 value = 0
 ctrl = 1
 
-;========================<Ex Soul Spiral>=============================
+;====<Ex Soul Spiral>=
 [StateDef 1230]
 type = S
 physics = N
@@ -3106,7 +3106,7 @@ trigger1 = animtime = 0
 value = 0
 ctrl = 1
 
-;=====================<Soul Reflect>==========================
+;=<Soul Reflect>==
 [StateDef 1300]
 type = S
 physics = S
@@ -4006,7 +4006,7 @@ trigger1 = animtime = 0
 value = 0
 ctrl = 1
 
-;========================<Ex Soul Reflect>=============================
+;====<Ex Soul Reflect>=
 [StateDef 1330]
 type = S
 physics = N
@@ -4381,7 +4381,7 @@ trigger1 = animtime = 0
 value = 0
 ctrl = 1
 
-;=====================<Soul Teleport>==========================
+;=<Soul Teleport>==
 [StateDef 1400]
 type = S
 movetype = I
@@ -4480,7 +4480,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<Soul Drill>==========================
+;=<Soul Drill>==
 [StateDef 1500]
 type = S
 physics = S
@@ -4946,7 +4946,7 @@ trigger1 = animtime = 0
 value = 0
 ctrl = 1
 
-;========================<Ex Soul Drill>=============================
+;====<Ex Soul Drill>=
 [StateDef 1530]
 type = S
 physics = N
@@ -5302,7 +5302,7 @@ trigger1 = animtime = 0
 value = 0
 ctrl = 1
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -5389,7 +5389,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

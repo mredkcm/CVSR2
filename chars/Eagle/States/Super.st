@@ -1,7 +1,7 @@
 ;---------------------------------------------------------------------------
 ;Manchester Gold
 [Statedef 3000]
-type    = S				;State-type: S-stand, C-crouch, A-air, L-liedown
+type = S				;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= A				;Move-type: A-attack, I-idle, H-gethit
 physics = N				;Physics: S-stand, C-crouch, A-air
 juggle = 0 ; 1				;Number of air juggle points move takes
@@ -378,7 +378,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;MAX Manchester Gold
 [Statedef 3050]
-type    = S				;State-type: S-stand, C-crouch, A-air, L-liedown
+type = S				;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= A				;Move-type: A-attack, I-idle, H-gethit
 physics = S				;Physics: S-stand, C-crouch, A-air
 juggle = 0 ; 1				;Number of air juggle points move takes
@@ -766,7 +766,7 @@ ctrl = 1
 ;Part 2
 
 [Statedef 3051]
-type    = S				;State-type: S-stand, C-crouch, A-air, L-liedown
+type = S				;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= A				;Move-type: A-attack, I-idle, H-gethit
 physics = S				;Physics: S-stand, C-crouch, A-air
 juggle = 0 ; 0				;Number of air juggle points move takes
@@ -878,7 +878,7 @@ y = .6
 
 ;Union Jack Platinum
 [Statedef 3100]
-type    = S				;State-type: S-stand, C-crouch, A-air, L-liedown
+type = S				;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= A				;Move-type: A-attack, I-idle, H-gethit
 physics = N				;Physics: S-stand, C-crouch, A-air
 juggle = 0 ; 0				;Number of air juggle points move takes
@@ -1402,7 +1402,7 @@ ctrl = 1
 
 ;MAX Union Jack Platinum
 [Statedef 3150]
-type    = S				;State-type: S-stand, C-crouch, A-air, L-liedown
+type = S				;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= A				;Move-type: A-attack, I-idle, H-gethit
 physics = N				;Physics: S-stand, C-crouch, A-air
 juggle = 0 ; 0				;Number of air juggle points move takes
@@ -2046,7 +2046,7 @@ ctrl = 1
 
 ;London Silver
 [Statedef 3300]
-type    = S				;State-type: S-stand, C-crouch, A-air, L-liedown
+type = S				;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= A				;Move-type: A-attack, I-idle, H-gethit
 physics = N				;Physics: S-stand, C-crouch, A-air
 juggle = 0 ; 0				;Number of air juggle points move takes
@@ -2173,7 +2173,7 @@ ctrl = 1
 
 ;Throw
 [Statedef 3310]
-type    = S				;State-type: S-stand, C-crouch, A-air, L-liedown
+type = S				;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= A				;Move-type: A-attack, I-idle, H-gethit
 physics = N				;Physics: S-stand, C-crouch, A-air
 juggle = 0 ; 0				;Number of air juggle points move takes
@@ -2218,7 +2218,7 @@ ctrl = 0
 
 ;Charging
 [Statedef 3315]
-type    = S				;State-type: S-stand, C-crouch, A-air, L-liedown
+type = S				;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= A				;Move-type: A-attack, I-idle, H-gethit
 physics = N				;Physics: S-stand, C-crouch, A-air
 juggle = 0 ; 0				;Number of air juggle points move takes
@@ -2273,7 +2273,7 @@ ctrl = 0
 
 ;Attack
 [Statedef 3316]
-type    = S				;State-type: S-stand, C-crouch, A-air, L-liedown
+type = S				;State-type: S-stand, C-crouch, A-air, L-liedown
 movetype= A				;Move-type: A-attack, I-idle, H-gethit
 physics = N				;Physics: S-stand, C-crouch, A-air
 juggle = 0 ; 0				;Number of air juggle points move takes
@@ -2378,7 +2378,7 @@ value = 0
 ctrl = 1
 
 [Statedef 3311]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2410,7 +2410,7 @@ value = 3
 
 
 [Statedef 3312]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -2541,7 +2541,7 @@ value = 5150
 
 
 
-;========================<LONDON SILVER>=============================
+;====<LONDON SILVER>=
 [StateDef 3200]
 type = S
 physics = N
@@ -3504,7 +3504,7 @@ value = 3206
 [StateDef 3215]
 type = S
 moveType = H
-physics  = N
+physics = N
 velSet = 0,0
 
 [State 3215, PosSet]
@@ -3558,7 +3558,7 @@ ctrl = 1
 
 ;Hit by final hit of London Silver
 [Statedef 3217]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3599,7 +3599,7 @@ value = ifElse(Life>0, 3218, 3220)
 
 ; Air get-hit (knocked away)
 [Statedef 3218]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -3638,7 +3638,7 @@ value = 3219 ;Air get-hit (transition)
 
 ; Air get-hit (falling)
 [Statedef 3219]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3691,7 +3691,7 @@ value = 5100 ;Downed get-hit (hit ground from fall)
 
 ;Flying off the screen, dead
 [Statedef 3220]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0

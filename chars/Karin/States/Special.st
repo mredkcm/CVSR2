@@ -1,11 +1,11 @@
 ; ________________________________
 ;| Karin by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;======================================< SPECIAL MOVES >=======================================
-;============================================================================================
+;====
+;==< SPECIAL MOVES >===
+;====
 
-;======================< GUREN KEN >=============================
+;==< GUREN KEN >=
 [Statedef 1000]
 type = S
 physics = N
@@ -815,7 +815,7 @@ value = 0
 ctrl = 1
 
 
-;======================< HOU SHOU >=============================
+;==< HOU SHOU >=
 [Statedef 1100]
 type = S
 physics = N
@@ -945,7 +945,7 @@ value = 0
 ctrl = 1
 
 
-;======================< EX HOU SHOU >=============================
+;==< EX HOU SHOU >=
 [Statedef 1120]
 type = S
 physics = N
@@ -1122,7 +1122,7 @@ value = 0
 ctrl = 1
 
 
-;======================< MUJIN KYAKU >=============================
+;==< MUJIN KYAKU >=
 [Statedef 1200]
 type = A
 physics = N
@@ -1303,7 +1303,7 @@ value = 0
 ctrl = 1
 
 
-;======================< EX MUJIN KYAKU >=============================
+;==< EX MUJIN KYAKU >=
 [Statedef 1220]
 type = A
 physics = N
@@ -1505,7 +1505,7 @@ value = 0
 ctrl = 1
 
 
-;======================< RESSEN CHOU >=============================
+;==< RESSEN CHOU >=
 [Statedef 1300]
 type = S
 physics = N
@@ -1791,7 +1791,7 @@ value = 0
 ctrl = 1
 
 
-;======================< RESSEN HA >=============================
+;==< RESSEN HA >=
 [Statedef 1400]
 type = S
 physics = N
@@ -2031,7 +2031,7 @@ value = 0
 ctrl = 1
 
 
-;======================< EX RESSEN HA >=============================
+;==< EX RESSEN HA >=
 [Statedef 1420]
 type = S
 physics = N
@@ -2279,7 +2279,7 @@ value = 0
 ctrl = 1
 
 
-;======================< YASHA GAESHI >=============================
+;==< YASHA GAESHI >=
 ;--- Joudan ---
 [Statedef 1500]
 type = S
@@ -2433,7 +2433,7 @@ value = 0
 ctrl = 1
 
 
-;======================< EX YASHA GAESHI >=============================
+;==< EX YASHA GAESHI >=
 [Statedef 1520]
 type = S
 physics = S
@@ -2593,7 +2593,7 @@ value = 0
 ctrl = 1
 
 
-;======================< ARAKUMA INASHI >=============================
+;==< ARAKUMA INASHI >=
 [Statedef 1600]
 type = S
 physics = S
@@ -2936,7 +2936,7 @@ trigger1 = vel y > 0
 trigger1 = pos y >= -const(size.ground.back)
 value = 5100
 
-;======================< EX ARAKUMA INASHI >=============================
+;==< EX ARAKUMA INASHI >=
 [Statedef 1630]
 type = S
 physics = S
@@ -3030,7 +3030,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;======================< HADOU KEN >=============================
+;==< HADOU KEN >=
 [Statedef 1700]
 type = S
 physics = S
@@ -3149,7 +3149,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;======================< SHOUOU KEN >=============================
+;==< SHOUOU KEN >=
 [Statedef 1800]
 type = S
 physics = N
@@ -3390,7 +3390,7 @@ type = statetypeset
 trigger1 = anim = 1803
 movetype = I
 
-;======================< KARIN SENKUU >=============================
+;==< KARIN SENKUU >=
 [Statedef 1900]
 type = S
 physics = N
@@ -3486,7 +3486,7 @@ type = changestate
 trigger1 = anim = 1905 && !animtime
 value = 0
 ctrl = 1
-;======================< PUNCH ZERO COUNTER >=============================
+;==< PUNCH ZERO COUNTER >=
 [Statedef 2900]
 type = S
 physics = S
@@ -3577,7 +3577,7 @@ value = 0
 ctrl = 1
 
 
-;======================< KICK ZERO COUNTER >=============================
+;==< KICK ZERO COUNTER >=
 [Statedef 2950]
 type = C
 physics = C

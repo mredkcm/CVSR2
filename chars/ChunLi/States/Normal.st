@@ -2428,7 +2428,7 @@ palFX.add = 255, 255, 255
 palFX.sinAdd = -255, -255, -255, 48
 
 [State 430, ChangeAnimElem]
-type  = ChangeAnim
+type = ChangeAnim
 trigger1 = MoveContact = 1 && HitPauseTime
 trigger1 = AnimElemTime(2) >= 0 && AnimElemTime(3) <= 0
 trigger1 = HitPauseTime <= ifElse(var(20), 2, 6)
@@ -3063,7 +3063,7 @@ value = 52
 ;JUMPING MEDIUM PUNCH
 [StateDef 610]
 type = A
-physics  = N
+physics = N
 moveType = A
 anim = 610
 ctrl = 0

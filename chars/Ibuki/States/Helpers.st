@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Ibuki by varo_hades                     |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<HELPER STATES>========================================
-;==============================================================================================
+;==
+;===<HELPER STATES>====
+;==
 
-;====================<PARRY HELPER>=========================
+;====<PARRY HELPER>=
 [StateDef 765]
 type = A
 physics = N
@@ -117,7 +117,7 @@ trigger2 = Time >= 2
 
 
 
-;=====================<KUNAI PROJECTILE>=========================
+;=<KUNAI PROJECTILE>=
 [StateDef 1005]
 type = S
 physics = N
@@ -423,7 +423,7 @@ trigger1 = !NumTarget
 trigger2 = NumTarget
 trigger2 = Target, Time <= 1 && !(Target,HitShakeOver)
 
-;=====================<EX KUNAI PROJECTILE>=========================
+;=<EX KUNAI PROJECTILE>=
 [StateDef 1025]
 type = S
 physics = N
@@ -704,7 +704,7 @@ trigger1 = !NumTarget
 trigger2 = NumTarget
 trigger2 = Target, Time <= 1 && !(Target,HitShakeOver)
 
-;=====================<EX KUNAI PROJECTILE>=========================
+;=<EX KUNAI PROJECTILE>=
 [StateDef 1035]
 type = S
 physics = N
@@ -985,7 +985,7 @@ trigger1 = !NumTarget
 trigger2 = NumTarget
 trigger2 = Target, Time <= 1 && !(Target,HitShakeOver)
 
-;========================<KASUMI SUZAKU KUNAIS>=============================
+;====<KASUMI SUZAKU KUNAIS>=
 [Statedef 3105]
 type=S
 physics=N
@@ -1209,7 +1209,7 @@ type = DestroySelf
 trigger1 = Pos x != [ -240, 240]
 trigger2 = Anim = 1030 && !AnimTime
 
-;========================<KASUMI SUZAKU KUNAIS 2>=============================
+;====<KASUMI SUZAKU KUNAIS 2>=
 [Statedef 3107]
 type=S
 physics=N
@@ -1433,7 +1433,7 @@ type = DestroySelf
 trigger1 = Pos x != [ -240, 240]
 trigger2 = Anim = 1030 && !AnimTime
 
-;========================<KASUMI SUZAKU KUNAIS 3>=============================
+;====<KASUMI SUZAKU KUNAIS 3>=
 [Statedef 3108]
 type=S
 physics=N
@@ -1657,7 +1657,7 @@ type = DestroySelf
 trigger1 = Pos x != [ -240, 240]
 trigger2 = Anim = 1030 && !AnimTime
 
-;========================<KASUMI SUZAKU KUNAIS 4>=============================
+;====<KASUMI SUZAKU KUNAIS 4>=
 [Statedef 3109]
 type=S
 physics=N
@@ -1881,7 +1881,7 @@ type = DestroySelf
 trigger1 = Pos x != [ -240, 240]
 trigger2 = Anim = 1030 && !AnimTime
 
-;========================<KASUMI SUZAKU KUNAIS 5>=============================
+;====<KASUMI SUZAKU KUNAIS 5>=
 [Statedef 3110]
 type=S
 physics=N
@@ -2105,7 +2105,7 @@ type = DestroySelf
 trigger1 = Pos x != [ -240, 240]
 trigger2 = Anim = 1030 && !AnimTime
 
-;========================<KASUMI SUZAKU KUNAIS 6>=============================
+;====<KASUMI SUZAKU KUNAIS 6>=
 [Statedef 3111]
 type=S
 physics=N
@@ -2329,7 +2329,7 @@ type = DestroySelf
 trigger1 = Pos x != [ -240, 240]
 trigger2 = Anim = 1030 && !AnimTime
 
-;========================<KASUMI SUZAKU KUNAIS 7>=============================
+;====<KASUMI SUZAKU KUNAIS 7>=
 [Statedef 3112]
 type=S
 physics=N
@@ -2574,7 +2574,7 @@ type=destroyself
 trigger1= time>=30
 trigger2= animelemtime(9)>=0 && !numtarget
 
-;========================<YAMI SHIGURE KUNAI>=============================
+;====<YAMI SHIGURE KUNAI>=
 [Statedef 3305]
 type=S
 physics=N
@@ -2804,7 +2804,7 @@ type=destroyself
 trigger1= time>=30
 trigger2= animelemtime(9)>=0 && !numtarget
 
-;========================<MAX YAMI SHIGURE KUNAI>=============================
+;====<MAX YAMI SHIGURE KUNAI>=
 [Statedef 3355]
 type=S
 physics=N
@@ -3034,7 +3034,7 @@ type=destroyself
 trigger1= time>=30
 trigger2= animelemtime(9)>=0 && !numtarget
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -3778,7 +3778,7 @@ trigger1 = Time >= 8
 
 
 
-;======================<JUMP DUST>===========================
+;==<JUMP DUST>===
 [StateDef 8100]
 type = S
 anim = 1
@@ -3817,7 +3817,7 @@ trigger1 = Time >= 7
 
 
 
-;======================<DASH DUST>===========================
+;==<DASH DUST>===
 [StateDef 8103]
 type = A
 anim = 1
@@ -3878,7 +3878,7 @@ type = DestroySelf
 trigger1 = !NumExplod
 
 
-;======================<IMPACT DUST>===========================
+;==<IMPACT DUST>===
 [StateDef 8110]
 type = A
 anim = 1
@@ -3923,7 +3923,7 @@ type = DestroySelf
 trigger1 = !NumExplod
 
 
-;======================<WALL IMPACT DUST>===========================
+;==<WALL IMPACT DUST>===
 [StateDef 8111]
 type = A
 anim = 1
@@ -3969,7 +3969,7 @@ trigger1 = !NumExplod
 
 
 
-;========================<RECOVER FX>=============================
+;====<RECOVER FX>=
 [StateDef 8200]
 type = A
 velSet = 0,0
@@ -4001,7 +4001,7 @@ trigger1 = Time >= 15
 
 
 
-;========================<COUNTER FX>=============================
+;====<COUNTER FX>=
 [StateDef 8290]
 type = A
 physics = N
@@ -4047,7 +4047,7 @@ trigger1 = Time >= 16
 
 
 
-;==================<POWER CHARGE FX>==================
+;==<POWER CHARGE FX>==
 ;Aura and Dust
 [StateDef 8330]
 type = A
@@ -4155,7 +4155,7 @@ type = DestroySelf
 trigger1 = Root, StateNo != 730
 
 
-;==================<VIOLENT WIN VS VEGA PARTICLES>==================
+;==<VIOLENT WIN VS VEGA PARTICLES>==
 [StateDef 8332]
 type = A
 physics = N
@@ -4192,7 +4192,7 @@ trigger1 = Root, StateNo != 187 || Root, AnimElemTime(60) >= 0
 
 
 
-;==================<ZERO COUNTER FX>==================
+;==<ZERO COUNTER FX>==
 [StateDef 8350]
 type = A
 physics = N
@@ -4244,7 +4244,7 @@ trigger1 = Time >= 16
 
 
 
-;========================<CUSTOM COMBO>=============================
+;====<CUSTOM COMBO>=
 [StateDef 8400]
 type = A
 physics = N
@@ -4350,7 +4350,7 @@ trigger1 = Time >= 26
 
 
 
-;========================<SUPER PAUSE FX>=============================
+;====<SUPER PAUSE FX>=
 ;Level 1 Super FX
 [StateDef 8500]
 type = A
@@ -4794,7 +4794,7 @@ trigger1 = Time >= 40
 
 
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [StateDef 8600]
 type = A
 velSet = 0,0
@@ -4955,7 +4955,7 @@ trigger1 = RoundState < 3
 
 
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0

@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Kim Kaphwan by Jmorphman                |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<HOUOUKYAKU>=============================
+;====<HOUOUKYAKU>=
 [StateDef 3000]
 type = S
 physics = S
@@ -710,7 +710,7 @@ value = 3003
 
 
 
-;========================<HOUOUKYAKU (AERIAL ATTEMPT)>=============================
+;====<HOUOUKYAKU (AERIAL ATTEMPT)>=
 [StateDef 3020]
 type = A
 physics = N
@@ -895,7 +895,7 @@ value = 3003
 [StateDef 3015]
 type = S
 moveType = H
-physics  = N
+physics = N
 velSet = 0,0
 
 [State 3015, PosSet]
@@ -948,7 +948,7 @@ ctrl = 1
 
 
 
-;========================<MAX HOUOUKYAKU>=============================
+;====<MAX HOUOUKYAKU>=
 [StateDef 3050]
 type = S
 physics = S
@@ -1789,7 +1789,7 @@ value = 3003
 
 
 
-;========================<MAX HOUOUKYAKU (AERIAL ATTEMPT)>=============================
+;====<MAX HOUOUKYAKU (AERIAL ATTEMPT)>=
 [StateDef 3070]
 type = A
 physics = N
@@ -1971,7 +1971,7 @@ value = 3003
 
 
 
-;========================<HOUOUTENBUKYAKU>=============================
+;====<HOUOUTENBUKYAKU>=
 ;Startup
 [StateDef 3100]
 type = A
@@ -2430,7 +2430,7 @@ value = 3003
 
 
 
-;========================<MAX HOUOUTENBUKYAKU>=============================
+;====<MAX HOUOUTENBUKYAKU>=
 [StateDef 3150]
 type = A
 physics = N
@@ -2915,7 +2915,7 @@ value = 3003
 
 
 
-;========================<HOUOUHITENKYAKU>=============================
+;====<HOUOUHITENKYAKU>=
 [StateDef 3200]
 type = S
 physics = S
@@ -3100,7 +3100,7 @@ ctrl = 1
 
 
 
-;========================<MAX HOUOUHITENKYAKU>=============================
+;====<MAX HOUOUHITENKYAKU>=
 [StateDef 3250]
 type = S
 physics = S
@@ -3531,7 +3531,7 @@ value = 3258
 
 ;Bounce off ground)
 [StateDef 3258]
-type  = A
+type = A
 moveType = H
 physics = N
 
@@ -3577,7 +3577,7 @@ value = 5100
 
 
 
-;========================<ZERO KYORI HOUOUKYAKU>=============================
+;====<ZERO KYORI HOUOUKYAKU>=
 [StateDef 3300]
 type = S
 physics = N

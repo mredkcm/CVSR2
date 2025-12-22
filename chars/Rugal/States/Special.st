@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Rugal by varo_hades                     |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;=====================<REPPUKEN>==========================
+;=<REPPUKEN>==
 [StateDef 1000]
 type = S
 physics = S
@@ -84,7 +84,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX REPPUKEN>=============================
+;====<EX REPPUKEN>=
 [StateDef 1030]
 type = S
 physics = S
@@ -188,7 +188,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<RUGAL GENOCIDE CUTTER>=============================
+;====<RUGAL GENOCIDE CUTTER>=
 [StateDef 1100]
 type = S
 physics = S
@@ -569,7 +569,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX RUGAL GENOCIDE CUTTER>=============================
+;====<EX RUGAL GENOCIDE CUTTER>=
 [StateDef 1130]
 type = S
 physics = S
@@ -970,7 +970,7 @@ triggerall = Pos Y >= 0 && Vel Y > 0
 trigger1 = AnimElemTime(3) >= 2
 value = 1105
 
-;========================<GOD RUGAL GENOCIDE CUTTER>=============================
+;====<GOD RUGAL GENOCIDE CUTTER>=
 [StateDef 1150]
 type = S
 physics = S
@@ -1585,7 +1585,7 @@ trigger1 = var(10) = 2
 trigger1 = AnimElemTime(3) >= 2
 value = 1105
 
-;========================<EX GOD RUGAL GENOCIDE CUTTER>=============================
+;====<EX GOD RUGAL GENOCIDE CUTTER>=
 [StateDef 1160]
 type = S
 physics = S
@@ -2026,7 +2026,7 @@ triggerall = Pos Y >= 0 && Vel Y > 0
 trigger1 = AnimElemTime(3) >= 2
 value = 1105
 
-;=====================<GOD PRESS>==========================
+;=<GOD PRESS>==
 [StateDef 1200]
 type = S
 physics = N
@@ -2554,7 +2554,7 @@ type = selfstate
 trigger1 = Pos Y >= 0 && Vel Y > 0
 value = 5100
 
-;========================<EX GOD PRESS>=============================
+;====<EX GOD PRESS>=
 [StateDef 1230]
 type = S
 physics = N
@@ -3016,7 +3016,7 @@ Trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;=====================<KAISER WAVE>==========================
+;=<KAISER WAVE>==
 [StateDef 1300]
 type = S
 physics = S
@@ -3139,7 +3139,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;========================<EX KAISER WAVE>=============================
+;====<EX KAISER WAVE>=
 [StateDef 1330]
 type = S
 physics = S
@@ -3302,7 +3302,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;========================<BEADS DESTRUCTION>=============================
+;====<BEADS DESTRUCTION>=
 [StateDef 1400]
 type = S
 physics = N
@@ -3639,7 +3639,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<EX BEADS DESTRUCTION>=============================
+;====<EX BEADS DESTRUCTION>=
 [StateDef 1430]
 type = S
 physics = N
@@ -4047,7 +4047,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;=====================<DARK BARRIER>==========================
+;=<DARK BARRIER>==
 [StateDef 1500]
 type = S
 physics = S
@@ -4122,7 +4122,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX DARK BARRIER>=============================
+;====<EX DARK BARRIER>=
 [StateDef 1530]
 type = S
 physics = S
@@ -4225,7 +4225,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<DARK SMASH>=============================
+;====<DARK SMASH>=
 [StateDef 1600]
 type = A
 physics = N
@@ -4437,7 +4437,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX DARK SMASH>=============================
+;====<EX DARK SMASH>=
 [StateDef 1630]
 type = A
 physics = N
@@ -4668,7 +4668,7 @@ type = ChangeState
 trigger1 = Pos Y >= 0 && Vel Y > 0
 value = 1601
 
-;=====================<RUGAL EXECUTION>==========================
+;=<RUGAL EXECUTION>==
 [StateDef 1700]
 type = S
 movetype = I
@@ -4727,7 +4727,7 @@ trigger3 = var(10) = 2 && Time = 19
 value = 1701
 ctrl = 0
 
-;=====================<RUGAL EXECUTION>==========================
+;=<RUGAL EXECUTION>==
 [Statedef 1701]
 type = S
 movetype = A
@@ -4791,7 +4791,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -66
 guard.dist = 0
 ground.slidetime = 17
-ground.hittime  = 17
+ground.hittime = 17
 guard.ctrltime = 17
 ground.velocity = 0
 air.velocity = 0,0
@@ -4812,7 +4812,7 @@ trigger4 = MoveGuarded
 value = 1711
 ctrl = 0
 
-;=====================<RUGAL EXECUTION>==========================
+;=<RUGAL EXECUTION>==
 [Statedef 1711]
 type = S
 movetype = A
@@ -4842,7 +4842,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<RUGAL EXECUTION>==========================
+;=<RUGAL EXECUTION>==
 [Statedef 1702]
 type = S
 movetype = A
@@ -4939,7 +4939,7 @@ trigger4 = var(10) = 3 && Time = 120
 value = 1703
 ctrl = 0
 
-;=====================<RUGAL EXECUTION>==========================
+;=<RUGAL EXECUTION>==
 [Statedef 1703]
 type = S
 movetype = A
@@ -5033,7 +5033,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<RUGAL EXECUTION>==========================
+;=<RUGAL EXECUTION>==
 [Statedef 1704]
 type = A
 movetype = H
@@ -5083,7 +5083,7 @@ type = CtrlSet
 trigger1 = 1
 value = 0
 
-;=====================<RUGAL EXECUTION>==========================
+;=<RUGAL EXECUTION>==
 [Statedef 1705]
 type = A
 movetype = H
@@ -5128,7 +5128,7 @@ trigger1= vel y > 0
 trigger1= pos y > -vel y
 value = 5100
 
-;=====================<EX RUGAL EXECUTION>==========================
+;=<EX RUGAL EXECUTION>==
 [StateDef 1730]
 type = S
 movetype = I
@@ -5208,7 +5208,7 @@ trigger1 = Time = 22
 value = 1701
 ctrl = 0
 
-;=====================<GOD LANE>==========================
+;=<GOD LANE>==
 [Statedef 1800]
 type = S
 physics = N
@@ -5308,7 +5308,7 @@ trigger6 = animelemtime(7) > 0 && vel x > 0 && frontedgebodydist <= 0
 value = 0
 ctrl = 1
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -5395,7 +5395,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

@@ -1,9 +1,9 @@
 ; _________________________________________
 ;| CVS Choi Bounge by Falcon Rapper        |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER MOVES>========================================
-;==============================================================================================
+;==
+;====<SUPER MOVES>====
+;==
 
 ;---------------------------------------------------------------------------
 ; Shin! Chouzetsu Tatsumaki Shinkuu Zan
@@ -650,7 +650,7 @@ getpower = 0,0
 sparkno = S30002
 guard.sparkno = s30040
 sparkxy = -10 + 0 * (var(35) := 90), var(36) := 9999
-hitsound   = -1
+hitsound = -1
 guardsound = S3,0
 pausetime = 6,6
 ground.slidetime = 15
@@ -995,7 +995,7 @@ ctrl = 0
 
 ; Hou'ou Kyaku (End)
 [Statedef 3111]
-type    = S
+type = S
 movetype= I
 physics = S
 velset = 0,0
@@ -1038,7 +1038,7 @@ ctrl = 1
 
 ; Hou'ou Kyaku (Gethit 1)
 [Statedef 3120]
-type    = S
+type = S
 movetype= H
 physics = N
 anim = 5002
@@ -1077,7 +1077,7 @@ value = 5001
 
 ; Hou'ou Kyaku (Gethit 2)
 [Statedef 3121]
-type    = S
+type = S
 movetype= H
 physics = N
 anim = 5012
@@ -1187,7 +1187,7 @@ value = 3124
 
 ; Hou'ou Kyaku (Gethit 5)
 [Statedef 3124]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -2,-10
@@ -1380,7 +1380,7 @@ getpower = 0,0
 sparkno = -1
 guard.sparkno = -1
 sparkxy = -10 + 0 * (var(35) := 90), var(36) := 9999
-hitsound   = -1
+hitsound = -1
 guardsound = S3,0
 pausetime = 6,6
 ground.slidetime = 15
@@ -1630,7 +1630,7 @@ ctrl = 0
 
 ; MAX Hou'ou Kyaku (Hienzan)
 [Statedef 3170]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd=0
@@ -2398,7 +2398,7 @@ ctrl = 0
 
 ; Shakushi End
 [Statedef 3501]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 11,11
@@ -2415,7 +2415,7 @@ value = 3500,1
 type = HitDef 
 trigger1 = !time
 attr = A, HA
-animtype  = diagup
+animtype = diagup
 damage=Ifelse(p2movetype=H,30,300),10
 getpower = 0,0
 guardflag = M
@@ -2429,7 +2429,7 @@ guardsound = S3,1
 sparkxy = 12,9999
 ground.type = High
 ground.slidetime = 16
-ground.hittime  = 20
+ground.hittime = 20
 ground.velocity = -6,-12
 guard.velocity = -10
 air.velocity = -6,-12
@@ -2466,7 +2466,7 @@ value = 3502
 
 ; Shakushi Fall
 [Statedef 3502]
-type    = S
+type = S
 movetype= I
 physics = S
 velset = 0,0
@@ -2503,7 +2503,7 @@ ctrl = 1
 
 ; Shakushi Gethit State
 [Statedef 3520]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -2,-7

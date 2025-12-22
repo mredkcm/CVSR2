@@ -1,11 +1,11 @@
 ; ________________________________
 ;| Karin by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< HELPER STATES >========================================
-;==============================================================================================
+;==
+;===< HELPER STATES >====
+;==
 
-;========================< SATELLITE BEAM >=============================
+;====< SATELLITE BEAM >=
 [Statedef 3250]
 type = A
 physics = N
@@ -206,7 +206,7 @@ type = destroyself
 trigger1 = time >= 16
 
 
-;========================< IMPACT FX >=============================
+;====< IMPACT FX >=
 [Statedef 3205]
 type = A
 velset = 0, 0
@@ -238,7 +238,7 @@ type = destroyself
 trigger1 = time >= 20
 
 
-;========================< LIGHTING FX >=============================
+;====< LIGHTING FX >=
 [Statedef 3206]
 type = A
 physics = N
@@ -271,7 +271,7 @@ trigger1 = root, stateno != 3203
 trigger2 = root, movetype = H
 
 
-;========================< ONOMATOPAEA >=============================
+;====< ONOMATOPAEA >=
 [Statedef 3255]
 type = A
 velset = 0, 0
@@ -305,7 +305,7 @@ type = destroyself
 trigger1 = time >= 30
 
 
-;====================< HELICOPTER >====================
+;====< HELICOPTER >====
 [Statedef 6000]
 type = A
 physics = N
@@ -413,7 +413,7 @@ type = destroyself
 trigger1 = (pos x != [ -465, 465]) || (screenpos y != [ -212, 0])
 
 
-;====================< ISHIZAKI >====================
+;====< ISHIZAKI >====
 ;--- Intro ---
 [Statedef 6010]
 type = S
@@ -561,7 +561,7 @@ trigger1 = roundstate != 4
 value = 6012
 
 
-;========================< TRAY >=============================
+;====< TRAY >=
 [Statedef 6015]
 type = A
 physics = N
@@ -631,7 +631,7 @@ type = destroyself
 trigger1 = time >= 48
 
 
-;========================< DOG >=============================
+;====< DOG >=
 [Statedef 6045]
 type = S
 physics = N
@@ -648,7 +648,7 @@ type = destroyself
 trigger1 = time >= 20
 trigger1 = pos x != [ -190, 190]
 
-;========================< EXCEL FINISH >=============================
+;====< EXCEL FINISH >=
 [Statedef 8650]
 type = A
 velset = 0, 0

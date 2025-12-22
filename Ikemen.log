@@ -1,7 +1,11 @@
-external/script/main.lua:4034: <game end>
+.\external\script\start.lua:1403: ./chars/Zangief/Command.cmd:1249:
+Command doesn't exist: EXScrew Piledriver
 stack traceback:
-	[G]: in function 'refresh'
-	external/script/main.lua:4034: in function 'f_menuCommonDraw'
-	external/script/main.lua:3101: in function 'loop'
+	[G]: in function 'game'
+	.\external\script\start.lua:1403: in function 'f_game'
+	.\external\script\start.lua:1839: in function 'launchFight'
+	external/script/default.lua:2: in function <external/script/default.lua:0>
+	.\external\script\start.lua:1457: in function 'f'
+	external/script/main.lua:3105: in function 'loop'
 	external/script/main.lua:4156: in main chunk
 	[G]: ?

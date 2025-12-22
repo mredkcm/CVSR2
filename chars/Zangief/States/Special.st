@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Zangief by varo_hades                   |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES=
+;==
 
-;=====================<Lariat>==========================
+;Lariat
 [StateDef 1000]
 type = S
 movetype = A
@@ -102,7 +102,7 @@ trigger1 = AnimElem = 2
 attr = S, SA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 damage = ceil(ifElse(fvar(11) * 91 < 7, 7, fvar(11) * 91)), 7
 getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
 givePower = 36, 36
@@ -153,7 +153,7 @@ trigger1 = AnimElem = 5
 attr = S, SA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 damage = ceil(ifElse(fvar(11) * 105 < 7, 7, fvar(11) * 105)), 7
 getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
 givePower = 36, 36
@@ -204,7 +204,7 @@ trigger1 = AnimElem = 8
 attr = S, SA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 damage = ceil(ifElse(fvar(11) * 91 < 7, 7, fvar(11) * 91)), 7
 getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
 givePower = 36, 36
@@ -255,7 +255,7 @@ trigger1 = AnimElem = 11
 attr = S, SA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 damage = ceil(ifElse(fvar(11) * 84 < 7, 7, fvar(11) * 84)), 7
 getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
 givePower = 36, 36
@@ -306,7 +306,7 @@ trigger1 = AnimElem = 14
 attr = S, SA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 damage = ceil(ifElse(fvar(11) * 77 < 7, 7, fvar(11) * 77)), 7
 getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
 givePower = 36, 36
@@ -357,7 +357,7 @@ trigger1 = AnimElem = 17
 attr = S, SA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 damage = ceil(ifElse(fvar(11) * 70 < 7, 7, fvar(11) * 70)), 7
 getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
 givePower = 36, 36
@@ -407,7 +407,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<Air Lariat>==========================
+;Air Lariat
 [StateDef 1050]
 type = A
 movetype = A
@@ -468,7 +468,7 @@ trigger2 = AnimElem = 7
 attr = S, SA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 damage = ceil(ifElse(fvar(11) * 91 < 7, 7, fvar(11) * 91)), 7
 getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
 givePower = 36, 36
@@ -519,7 +519,7 @@ value = 1055
 
 ;End lariat
 [Statedef 1055]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 1055
@@ -560,7 +560,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;=====================<Quick Lariat>==========================
+;Quick Lariat
 [StateDef 1100]
 type = S
 movetype = A
@@ -655,7 +655,7 @@ trigger1 = AnimElem = 2
 attr = S, SA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 damage = ceil(ifElse(fvar(11) * 84 < 7, 7, fvar(11) * 84)), 7
 getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
 givePower = 36, 36
@@ -706,7 +706,7 @@ trigger1 = AnimElem = 5
 attr = S, SA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 damage = ceil(ifElse(fvar(11) * 91 < 7, 7, fvar(11) * 91)), 7
 getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
 givePower = 36, 36
@@ -757,7 +757,7 @@ trigger1 = AnimElem = 8
 attr = S, SA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 damage = ceil(ifElse(fvar(11) * 84 < 7, 7, fvar(11) * 84)), 7
 getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
 givePower = 36, 36
@@ -808,7 +808,7 @@ trigger1 = AnimElem = 11
 attr = S, SA
 animtype = Heavy
 air.animtype = Back
-priority  = 7, Hit
+priority = 7, Hit
 damage = ceil(ifElse(fvar(11) * 77 < 7, 7, fvar(11) * 77)), 7
 getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
 givePower = 36, 36
@@ -858,7 +858,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<Banishing Flat>==========================
+;Banishing Flat
 [StateDef 1200]
 type = S
 movetype = A
@@ -951,7 +951,7 @@ trigger1 = AnimElem = 4
 attr = A, SA
 hitflag = MAFP
 guardflag = M
-priority  = 7, Hit
+priority = 7, Hit
 damage = ceil(ifElse(fvar(11) * ifElse(var(10) = 2, 120, ifElse(var(10), 110, 100)) < 7, 7, fvar(11) * ifElse(var(10) = 2, 120, ifElse(var(10), 110, 100)))), 7
 getPower = ifElse(!var(13), 72, 36) * !var(20), 12 * !var(20)
 givePower = 36, 36
@@ -963,7 +963,7 @@ fall.animType = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 air.hitTime = 120
 ground.velocity = -8,0
@@ -998,7 +998,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<EX Banishing Flat>==========================
+;EX Banishing Flat
 [StateDef 1230]
 type = S
 movetype = A
@@ -1117,7 +1117,7 @@ trigger1 = AnimElem = 4
 attr = A, SA
 hitflag = MAFP
 guardflag = M
-priority  = 7, Hit
+priority = 7, Hit
 damage = ceil(ifElse(fvar(11) * 65 < 7, 7, fvar(11) * 65)), 7
 getPower = 0, 0
 givePower = 36, 36
@@ -1129,7 +1129,7 @@ fall.animType = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 air.hitTime = 120
 ground.velocity = -3,0
@@ -1165,7 +1165,7 @@ trigger1 = AnimElem = 5
 attr = A, SA
 hitflag = MAFP
 guardflag = M
-priority  = 7, Hit
+priority = 7, Hit
 damage = ceil(ifElse(fvar(11) * 65 < 7, 7, fvar(11) * 65)), 7
 getPower = 0, 0
 givePower = 36, 36
@@ -1177,7 +1177,7 @@ fall.animType = Back
 ground.type = Low
 air.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 air.hitTime = 120
 ground.velocity = -4,-4
@@ -1212,9 +1212,9 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<Screw Piledriver>==========================
+;Screw Piledriver
 [StateDef 1300]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -1316,7 +1316,7 @@ ctrl = 1
 
 ;Part 2
 [Statedef 1301]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1301
@@ -1470,7 +1470,7 @@ value = 1302
 
 ;Part 3
 [Statedef 1302]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -1566,19 +1566,19 @@ value = 1
 type = TargetLifeAdd
 trigger1 = var(10) = 0
 trigger1 = time = 1
-value = -140
+value = -180
 
 [State 901, Hurt]
 type = TargetLifeAdd
 trigger1 = var(10) = 1
 trigger1 = time = 1
-value = -161
+value = -210
 
 [State 901, Hurt]
 type = TargetLifeAdd
 trigger1 = var(10) = 2
 trigger1 = time = 1
-value = -189
+value = -240
 
 [State 901, Hurt]
 type = TargetPowerAdd
@@ -1593,7 +1593,7 @@ value = 1303
 
 ;Part 4
 [Statedef 1303]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 812
@@ -1640,7 +1640,7 @@ ctrl = 1
 
 ;Player 2
 [Statedef 1305]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -1658,7 +1658,7 @@ value = 1305
 
 ;Player 2 part 2
 [Statedef 1306]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -1701,7 +1701,7 @@ value = 5100
 
 ;Player 2 part 3
 [Statedef 1309]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -1717,9 +1717,9 @@ type = NotHitBy
 trigger1 = 1
 value = SCA
 
-;=====================<EX Screw Piledriver>==========================
+;EX Screw Piledriver
 [StateDef 1330]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -1846,7 +1846,7 @@ ctrl = 1
 
 ;Part 2
 [Statedef 1331]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 1301
@@ -2000,7 +2000,7 @@ value = 1332
 
 ;Part 3
 [Statedef 1332]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -2103,9 +2103,9 @@ trigger1 = AnimElemTime(4) >= 0
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 1303
 
-;=====================<Air Screw Piledriver>==========================
+;Air Screw Piledriver
 [StateDef 1350]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -2201,7 +2201,7 @@ value = 1055
 
 ;Part 2
 [Statedef 1351]
-type    = A
+type = A
 movetype = A
 physics = N
 anim = 1351
@@ -2350,7 +2350,7 @@ value = 1352
 
 ;Part 3
 [Statedef 1352]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -2473,7 +2473,7 @@ value = 1303
 
 ;Player 2
 [Statedef 1355]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -2489,9 +2489,9 @@ type = ChangeAnim2
 trigger1 = Time = 0
 value = 1355
 
-;=====================<EX Air Screw Piledriver>==========================
+;EX Air Screw Piledriver
 [StateDef 1380]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -2617,7 +2617,7 @@ value = 1055
 
 ;Part 2
 [Statedef 1381]
-type    = A
+type = A
 movetype = A
 physics = N
 anim = 1351
@@ -2766,7 +2766,7 @@ value = 1382
 
 ;Part 3
 [Statedef 1382]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -2871,7 +2871,7 @@ value = 1303
 
 ;Player 2
 [Statedef 1355]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -2887,9 +2887,9 @@ type = ChangeAnim2
 trigger1 = Time = 0
 value = 1355
 
-;=====================<Flying Powerbomb>==========================
+;Flying Powerbomb
 [StateDef 1400]
-type    = S
+type = S
 movetype = A
 physics = N
 juggle = 8
@@ -3022,7 +3022,7 @@ ctrl = 1
 
 ;Part 2
 [Statedef 1401]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -3240,7 +3240,7 @@ value = 1402
 
 ;Part 3
 [Statedef 1402]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -3352,7 +3352,7 @@ value = 1403
 
 ;Part 4
 [Statedef 1403]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 1403
@@ -3405,7 +3405,7 @@ ctrl = 1
 
 ;Player 2
 [Statedef 1405]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3423,7 +3423,7 @@ value = 1405
 
 ;Player 2 part 2
 [Statedef 1406]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3472,7 +3472,7 @@ value = 5100
 
 ;Player 2 part 3
 [Statedef 1409]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3488,9 +3488,9 @@ type = NotHitBy
 trigger1 = 1
 value = SCA
 
-;=====================<EX Flying Powerbomb>==========================
+;EX Flying Powerbomb
 [StateDef 1430]
-type    = S
+type = S
 movetype = A
 physics = N
 juggle = 8
@@ -3648,7 +3648,7 @@ ctrl = 1
 
 ;Part 2
 [Statedef 1431]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -3858,7 +3858,7 @@ value = 1432
 
 ;Part 3
 [Statedef 1432]
-type    = S
+type = S
 movetype = A
 physics = S
 velset = 0,0
@@ -3953,9 +3953,9 @@ trigger1 = AnimElemTime(2) > 0
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 1403
 
-;=====================<Atomic Suplex>==========================
+;Atomic Suplex
 [StateDef 1500]
-type    = S
+type = S
 movetype = A
 physics = N
 juggle = 8
@@ -4088,7 +4088,7 @@ ctrl = 1
 
 ;Part 2
 [Statedef 1501]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -4243,7 +4243,7 @@ value = 1502
 
 ;Part 3
 [Statedef 1502]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -4365,7 +4365,7 @@ value = 1503
 
 ;Part 4
 [Statedef 1503]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 812
@@ -4414,7 +4414,7 @@ ctrl = 1
 
 ;Player 2
 [Statedef 1505]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -4432,7 +4432,7 @@ value = 1505
 
 ;Player 2 part 2
 [Statedef 1506]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -4475,7 +4475,7 @@ value = 5100
 
 ;Player 2 part 3
 [Statedef 1509]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -4491,9 +4491,9 @@ type = NotHitBy
 trigger1 = 1
 value = SCA
 
-;=====================<EX Atomic Suplex>==========================
+;EX Atomic Suplex
 [StateDef 1530]
-type    = S
+type = S
 movetype = A
 physics = N
 juggle = 8
@@ -4651,7 +4651,7 @@ ctrl = 1
 
 ;Part 2
 [Statedef 1531]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -4806,7 +4806,7 @@ value = 1532
 
 ;Part 3
 [Statedef 1532]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -4913,9 +4913,9 @@ trigger1 = AnimElemTime(2) >= 0
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 1503
 
-;=====================<Vodka Fire>==========================
+;Vodka Fire
 [StateDef 1600]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1600
@@ -5020,7 +5020,7 @@ value = 1601
 
 ;End Vodka Fire
 [Statedef 1601]
-type    = S
+type = S
 movetype = I
 physics = S
 velset = 0,0
@@ -5038,9 +5038,9 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<EX Vodka Fire>=============================
+;====<EX Vodka Fire>=
 [StateDef 1630]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1620
@@ -5133,9 +5133,9 @@ triggerall = !NumHelper(1635) || !NumHelper(1605)
 trigger1 = time > 44
 value = 1601
 
-;=====================<Vodka Fire>==========================
+;Vodka Fire
 [StateDef 1700]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1700
@@ -5239,9 +5239,9 @@ trigger2 = time > 32 && var(10) = 1
 trigger3 = time > 34 && var(10) = 2
 value = 1601
 
-;========================<EX Vodka Fire>=============================
+;====<EX Vodka Fire>=
 [StateDef 1730]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1720
@@ -5335,9 +5335,9 @@ triggerall = !NumHelper(1635) || !NumHelper(1605)
 trigger1 = time > 34
 value = 1601
 
-;=====================<Aerial Russian Slam>==========================
+;Aerial Russian Slam
 [StateDef 1800]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1800
@@ -5482,7 +5482,7 @@ value = 1805
 
 ;End
 [Statedef 1805]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 812
@@ -5531,7 +5531,7 @@ ctrl = 1
 
 ;Player 2
 [Statedef 1809]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -5549,7 +5549,7 @@ value = SCA
 
 ;Part 2
 [Statedef 1811]
-type    = A
+type = A
 movetype = A
 physics = N
 velset = 0,0
@@ -5668,7 +5668,7 @@ value = 1812
 
 ;Part 3
 [Statedef 1812]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 812
@@ -5721,7 +5721,7 @@ ctrl = 1
 
 ;Player 2 part 2
 [Statedef 1815]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -5767,9 +5767,9 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 5100
 
-;=====================<EX Aerial Russian Slam>==========================
+;EX Aerial Russian Slam
 [StateDef 1830]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1800
@@ -5944,7 +5944,7 @@ value = 1805
 
 ;Part 2
 [Statedef 1831]
-type    = A
+type = A
 movetype = A
 physics = N
 velset = 0,0
@@ -6043,7 +6043,7 @@ trigger1 = AnimElemTime(6) >= 0
 trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 1812
 
-;=====================<Toss Up>==========================
+;Toss Up
 [StateDef 1900]
 type = S
 movetype = A
@@ -6287,7 +6287,7 @@ ctrl = 1
 
 ;Player 2
 [Statedef 1917]
-type    = A
+type = A
 movetype= H
 physics = N
 juggle = 1
@@ -6327,7 +6327,7 @@ movecamera=1,0
 [State 0, ChangeAnim2]
 type = ChangeAnim2
 trigger1 = !time
-value = 1917  ;<=======custom animation
+value = 1917  ;<===custom animation
 [State 0, ChangeAnim2]
 type = ChangeAnim2
 trigger1 = vel y>=0
@@ -6370,7 +6370,7 @@ trigger1 =time>=60
 value = 5050
 ctrl = 0
 
-;========================<EX Toss Up>=============================
+;====<EX Toss Up>=
 [StateDef 1930]
 type = S
 movetype = A
@@ -6630,7 +6630,7 @@ trigger1 =!animtime
 value = 0
 ctrl = 1
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -6736,7 +6736,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

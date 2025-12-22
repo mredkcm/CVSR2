@@ -1,11 +1,11 @@
 ; _________________________________
 ;| Sakura by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;=====================================< SPECIAL STATES >=======================================
-;============================================================================================
+;====
+;=< SPECIAL STATES >===
+;====
 
-;======================< HADOU KEN >=============================
+;==< HADOU KEN >=
 [Statedef 1000]
 type = S
 physics = S
@@ -118,7 +118,7 @@ value = 0
 ctrl = 1
 
 
-;======================< TENGYOU HADOU KEN >=============================
+;==< TENGYOU HADOU KEN >=
 [Statedef 1020]
 type = S
 physics = S
@@ -231,7 +231,7 @@ value = 0
 ctrl = 1
 
 
-;======================< SHOUOU KEN >=============================
+;==< SHOUOU KEN >=
 [Statedef 1100]
 type = S
 physics = N
@@ -469,7 +469,7 @@ trigger1 = anim = 1103
 movetype = I
 
 
-;======================< DARK SHOUOU KEN >=============================
+;==< DARK SHOUOU KEN >=
 [Statedef 1150]
 type = S
 physics = N
@@ -699,7 +699,7 @@ trigger1 = anim = 1153
 movetype = I
 
 
-;======================< SHUNPUU KYAKU >=============================
+;==< SHUNPUU KYAKU >=
 [Statedef 1200]
 type = S
 physics = S
@@ -917,7 +917,7 @@ value = 0
 ctrl = 1
 
 
-;======================< SHUNPUU REN KYAKU >=============================
+;==< SHUNPUU REN KYAKU >=
 [Statedef 1220]
 type = S
 physics = S
@@ -1025,7 +1025,7 @@ value = 0
 ctrl = 1
 
 
-;======================< KUUCHUU SHUNPUU KYAKU >=============================
+;==< KUUCHUU SHUNPUU KYAKU >=
 [Statedef 1250]
 type = A
 physics = N
@@ -1247,7 +1247,7 @@ value = 0
 ctrl = 1
 
 
-;======================< SAKURA OTOSHI >=============================
+;==< SAKURA OTOSHI >=
 [Statedef 1300]
 type = U
 physics = U
@@ -1592,7 +1592,7 @@ value = 3, 7
 channel = 0
 
 
-;======================< OUKA KYAKU >=============================
+;==< OUKA KYAKU >=
 [Statedef 1400]
 type = A
 physics = A
@@ -1671,7 +1671,7 @@ forcestand = 1
 airguard.cornerpush.veloff = 0
 
 
-;======================< TAUNT >=============================
+;==< TAUNT >=
 [Statedef 1470]
 type = A
 physics = A
@@ -1714,7 +1714,7 @@ volume = -100
 channel = 1
 
 
-;======================< SAKURA SENKUU >=============================
+;==< SAKURA SENKUU >=
 [Statedef 1500]
 type = S
 physics = N

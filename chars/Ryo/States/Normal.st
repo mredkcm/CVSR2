@@ -1,14 +1,14 @@
 ; _________________________________________
 ;| Ryo Sakazaki by CrazyKoopa & Jmorphman  |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<NORMAL MOVES>========================================
-;==============================================================================================
+;==
+;====<NORMAL MOVES>====
+;==
 
 ;---------------------------------------------------------------------------
 ; Standing Light Punch
 [Statedef 200]
-type    = S
+type = S
 physics = S
 movetype= A
 anim = 200
@@ -95,7 +95,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Close Light Punch
 [Statedef 201]
-type    = S
+type = S
 physics = S
 movetype= A
 anim = 201
@@ -182,7 +182,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Punch
 [Statedef 210]
-type    = S
+type = S
 physics = S
 movetype= A
 anim = 210
@@ -584,7 +584,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Light Kick
 [Statedef 230]
-type    = S
+type = S
 physics = S
 moveType = A
 anim = 230
@@ -749,7 +749,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Kick
 [Statedef 240]
-type    = S
+type = S
 physics = S
 moveType = A
 anim = 240
@@ -1363,7 +1363,7 @@ palfx.add = 255,255,255
 palfx.sinadd= -255,-255,-255,48
 
 [State 430, ChangeAnimElem]
-type  = ChangeAnim
+type = ChangeAnim
 trigger1 = MoveContact = 1 && HitPauseTime
 trigger1 = AnimElemTime(2) >= 0 && AnimElemTime(3) <= 0
 trigger1 = HitPauseTime <= ifElse(var(20), 2, 6)
@@ -1634,7 +1634,7 @@ value=52
 ; Jump Medium Punch
 [Statedef 610]
 type = A
-physics  = N
+physics = N
 moveType = A
 anim = 610
 ctrl = 0
@@ -2152,7 +2152,7 @@ value=52
 
 
 
-;===========<Throw Attempt>==========
+;===<Throw Attempt>==
 [Statedef 800]
 type=S
 physics=S
@@ -2891,7 +2891,7 @@ trigger1 = pos y > -vel y
 value = 5100
 
 
-;===========< Target Escaped >==========
+;===< Target Escaped >==
 [Statedef 890]
 type = S
 physics = N

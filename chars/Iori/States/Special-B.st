@@ -1,12 +1,12 @@
 ; _________________________________________
 ;| Iori Yagami by Knuckles8864             |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
 
-;========================<108 SHIKI: YAMI BARAI>=============================
+;====<108 SHIKI: YAMI BARAI>=
 [StateDef 1000]
 type = S
 physics = S
@@ -85,7 +85,7 @@ ctrl = 1
 
 
 
-;========================<EX 108 SHIKI: YAMI BARAI>=============================
+;====<EX 108 SHIKI: YAMI BARAI>=
 [StateDef 1030]
 type = S
 physics = N
@@ -182,7 +182,7 @@ ctrl = 1
 
 
 
-;========================<100 SHIKI: ONIYAKI>=============================
+;====<100 SHIKI: ONIYAKI>=
 [StateDef 1100]
 type = S
 physics = N
@@ -693,7 +693,7 @@ ctrl = 1
 
 
 
-;========================<EX 100 SHIKI: ONIYAKI>=============================
+;====<EX 100 SHIKI: ONIYAKI>=
 [StateDef 1130]
 type = S
 physics = N
@@ -945,7 +945,7 @@ value = 1101
 
 
 
-;========================<EX 100 SHIKI: ONIYAKI (KOF XIII EDITION)>=============================
+;====<EX 100 SHIKI: ONIYAKI (KOF XIII EDITION)>=
 [StateDef 1140]
 type = S
 physics = N
@@ -1542,7 +1542,7 @@ value = 1101
 
 
 
-;========================<217 SHIKI: AOI HANA>=============================
+;====<217 SHIKI: AOI HANA>=
 [StateDef 1200]
 type = S
 physics = N
@@ -2022,7 +2022,7 @@ ctrl = 1
 
 
 
-;========================<EX 217 SHIKI: AOI HANA>=============================
+;====<EX 217 SHIKI: AOI HANA>=
 [StateDef 1230]
 type = S
 physics = N
@@ -2429,7 +2429,7 @@ value = 1260
 
 
 
-;========================<212 SHIKI: KOTOTSUKI IN>=============================
+;====<212 SHIKI: KOTOTSUKI IN>=
 ;Startup
 [Statedef 1300]
 type = S
@@ -2988,7 +2988,7 @@ ctrl = 1
 
 
 
-;=====================<212 SHIKI: KOTOTSUKI IN (TARGET)>==========================
+;=<212 SHIKI: KOTOTSUKI IN (TARGET)>==
 ;Being Thrown
 [Statedef 1330]
 type = S
@@ -3132,7 +3132,7 @@ value = 5100
 
 
 
-;========================<EX 212 SHIKI: KOTOTSUKI IN>=============================
+;====<EX 212 SHIKI: KOTOTSUKI IN>=
 [Statedef 1350]
 type = S
 physics = N
@@ -3599,7 +3599,7 @@ ctrl = 1
 
 
 
-;========================<TSUMAGUSHI>=============================
+;====<TSUMAGUSHI>=
 [StateDef 1400]
 type = S
 physics = S
@@ -3931,7 +3931,7 @@ ctrl = 1
 
 
 
-;========================<EX TSUMAGUSHI>=============================
+;====<EX TSUMAGUSHI>=
 [StateDef 1430]
 type = S
 physics = S
@@ -4325,7 +4325,7 @@ ctrl = 1
 
 
 
-;========================<KUZUKAZE>=============================
+;====<KUZUKAZE>=
 [Statedef 1500]
 type = S
 physics = S
@@ -4529,7 +4529,7 @@ ctrl = 1
 
 
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -4699,7 +4699,7 @@ value = 1102
 
 
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

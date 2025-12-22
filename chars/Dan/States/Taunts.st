@@ -1,11 +1,11 @@
 ; ________________________________________________
 ;| Dan by Phantom.of.the.Server and Mr.Ansatsuken |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< TAUNT STATES >=========================================
-;==============================================================================================
+;==
+;===< TAUNT STATES >=
+;==
 		
-;===========< Standing >==========
+;===< Standing >==
 [Statedef 400]
 type = S
 movetype = I
@@ -45,7 +45,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Crouching >==========
+;===< Crouching >==
 [Statedef 401]
 type = C
 movetype = A
@@ -128,7 +128,7 @@ value = 11
 ctrl = 1
 
 
-;===========< Air >==========
+;===< Air >==
 [Statedef 402]
 type = A
 movetype = A
@@ -200,7 +200,7 @@ value = 1, 1
 channel = 1
 
 
-;===========< Rolling Forward >==========
+;===< Rolling Forward >==
 [Statedef 403]
 type = C
 movetype = I
@@ -273,7 +273,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Rolling Backward >==========
+;===< Rolling Backward >==
 [Statedef 404]
 type = C
 movetype = I
@@ -346,7 +346,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Chouhatsu Shinwa Standing >==========
+;===< Chouhatsu Shinwa Standing >==
 [Statedef 410]
 type = S
 movetype = I
@@ -400,7 +400,7 @@ value = 0
 ctrl = 1
 
 
-;===========< Chouhatsu Shinwa Crouching >==========
+;===< Chouhatsu Shinwa Crouching >==
 [Statedef 411]
 type = C
 movetype = I
@@ -454,7 +454,7 @@ value = 11
 ctrl = 1
 
 
-;===========< Chouhatsu Shinwa Air >==========
+;===< Chouhatsu Shinwa Air >==
 [Statedef 412]
 type = A
 movetype = I
@@ -505,7 +505,7 @@ value = 1, 1
 channel = 1
 
 
-;===========< Chouhatsu Shinwa Rolling Forward >==========
+;===< Chouhatsu Shinwa Rolling Forward >==
 [Statedef 413]
 type = C
 movetype = I
@@ -588,7 +588,7 @@ value = 11
 ctrl = 1
 
 
-;===========< Chouhatsu Shinwa Rolling Backward >==========
+;===< Chouhatsu Shinwa Rolling Backward >==
 [Statedef 414]
 type = C
 movetype = I
@@ -671,7 +671,7 @@ value = 11
 ctrl = 1
 
 
-;===========< Chouhatsu Shinwa Special >==========
+;===< Chouhatsu Shinwa Special >==
 [Statedef 415]
 type = S
 movetype = I

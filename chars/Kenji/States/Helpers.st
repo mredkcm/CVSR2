@@ -1,9 +1,9 @@
 ; _________________________________________
 ;|Kenji by K6666orochi
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< HELPER STATES >========================================
-;==============================================================================================
+;==
+;===< HELPER STATES >====
+;==
 
 ;--------------------------------------------------------------------------------------
 ;Pal Select
@@ -100,7 +100,7 @@ trigger1=Roundstate>=2
 ;-------------------------------------------------------------------------------
 ;Projectile X
 [Statedef 1001]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -222,19 +222,19 @@ envShake.freq = 120
 type = hitdef
 trigger1 = time = 0
 attr = S, SP
-damage    = 26,3
-animtype  = Medium
+damage = 26,3
+animtype = Medium
 guardflag = MA
 hitflag = MAF
 pausetime = 2,4
 sparkno = 1
-hitsound   = S5,0
+hitsound = S5,0
 guardsound = S6,0
 ground.type = Low
 ground.slidetime = 15
 guard.slidetime = 15
-ground.hittime  = 15
-guard.hittime  = 15
+ground.hittime = 15
+guard.hittime = 15
 air.hittime = 13
 ground.velocity = -3
 guard.velocity = -3
@@ -614,7 +614,7 @@ trigger1 = pos x != [-200,200]
 ;-------------------------------------------------------------------------------
 ;EX Power Wave
 [Statedef 1005]
-type    = S
+type = S
 movetype = A
 physics = N
 ctrl = 0
@@ -784,7 +784,7 @@ trigger2 = root,movetype = h
 ;---------------------------------
 ;Hit Pause
 [StateDef 1006]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,0
@@ -821,7 +821,7 @@ trigger1 = Animtime = 0
 
 ;Disappear
 [StateDef 1007]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = -1,-6
@@ -842,7 +842,7 @@ trigger1 = Animtime = 0
 ;------------
 ;Wait
 [StateDef 1201]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -859,8 +859,8 @@ flag = noshadow
 type = HitDef
 trigger1 = time = 0
 attr = S, SP
-animtype  = Heavy
-damage    = 40,5
+animtype = Heavy
+damage = 40,5
 guardflag = MA
 pausetime = 0,5
 hitsound = S2,6
@@ -870,10 +870,10 @@ guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 55), var(36) := -82
 ground.type = High
 ground.slidetime = 10
-ground.hittime  = 10
+ground.hittime = 10
 cornerpush = 0
 guard.slidetime = 10
-guard.hittime  = 10
+guard.hittime = 10
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 air.hittime = 13
@@ -923,7 +923,7 @@ trigger1 = animtime = 0
 
 ;----------------------------
 [Statedef 1202]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -940,8 +940,8 @@ flag = noshadow
 type = HitDef
 trigger1 = time = 0
 attr = S, SP
-animtype  = Heavy
-damage    = 40,5
+animtype = Heavy
+damage = 40,5
 guardflag = MA
 pausetime = 0,5
 hitsound = S2,6
@@ -951,10 +951,10 @@ guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 55), var(36) := -82
 ground.type = High
 ground.slidetime = 10
-ground.hittime  = 10
+ground.hittime = 10
 cornerpush = 0
 guard.slidetime = 10
-guard.hittime  = 10
+guard.hittime = 10
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 air.hittime = 13
@@ -1003,7 +1003,7 @@ trigger1 = animtime = 0
 
 
 [Statedef 1203]
-type    = A
+type = A
 movetype = A
 physics = N
 ctrl = 0
@@ -1020,8 +1020,8 @@ flag = noshadow
 type = HitDef
 trigger1 = time = 0
 attr = S, SP
-animtype  = Heavy
-damage    = 40,5
+animtype = Heavy
+damage = 40,5
 guardflag = MA
 pausetime = 0,5
 hitsound = S2,6
@@ -1031,10 +1031,10 @@ guard.sparkno = -1 + 0 * (var(34) := 8000)
 sparkxy = -10 + 0 * (var(35) := 55), var(36) := -82
 ground.type = High
 ground.slidetime = 10
-ground.hittime  = 10
+ground.hittime = 10
 cornerpush = 0
 guard.slidetime = 10
-guard.hittime  = 10
+guard.hittime = 10
 ground.cornerpush.veloff = 0
 air.cornerpush.veloff = 0
 air.hittime = 13
@@ -1084,7 +1084,7 @@ trigger1 = animtime = 0
 ;-------------------------
 ; HITG_SLIDE
 [Statedef 1205]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -1516,7 +1516,7 @@ trigger1=Time=50
 trigger1=enemy, Life >= 1
 trigger2=numhelper(6001)>=2
 
-;======================== BURN FX =============================
+;==== BURN FX =
 [Statedef 7180]
 physics=N
 velset=0,0
@@ -1564,7 +1564,7 @@ trigger3 = (root,stateno = [200,999]) && (root,movecontact)
 ;trigger4 = (root,stateno = [2000,2999]) && (root,movecontact)
 ;trigger4 = (root,stateno = [3000,3999]) && (root,movecontact)
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -2551,7 +2551,7 @@ trigger1 = Time >= 8
 
 
 
-;========================< DUSTS >=============================
+;====< DUSTS >=
 ;--- Jump ---
 [Statedef 8100]
 type = S
@@ -2695,7 +2695,7 @@ trigger1 = time >= 8
 type = destroyself
 trigger1 = !numexplod
 
-;======================<WALL IMPACT DUST>===========================
+;==<WALL IMPACT DUST>===
 [StateDef 8111]
 type = A
 anim = 1
@@ -2739,7 +2739,7 @@ trigger1 = Time >= 8
 type = DestroySelf
 trigger1 = !NumExplod
 
-;========================< FLAMES >=============================
+;====< FLAMES >=
 [Statedef 8150]
 type = A
 velset = 0, 0
@@ -2806,7 +2806,7 @@ trigger1 = playerID(var(0)), ctrl
 trigger2 = playerID(var(0)), movetype != H || playerID(var(0)), stateno = 5300
 trigger3 = playerID(var(0)), statetype = L && (playerID(var(0)), stateno != [5080, 5081])
 
-;========================< RECOVER FX >=============================
+;====< RECOVER FX >=
 [Statedef 8200]
 type = A
 velset = 0, 0
@@ -2837,7 +2837,7 @@ type = destroyself
 trigger1 = time >= 15
 
 
-;========================< COUNTER FX >=============================
+;====< COUNTER FX >=
 [Statedef 8290]
 type = A
 physics = N
@@ -2882,7 +2882,7 @@ type = destroyself
 trigger1 = time >= 16
 
 
-;====================< POWER CHARGE >====================
+;====< POWER CHARGE >====
 ;--- MAIN FX ---
 [Statedef 8330]
 type = A
@@ -2990,7 +2990,7 @@ type = destroyself
 trigger1 = root, stateno != 730
 
 
-;====================< ZERO COUNTER PAUSE >====================
+;====< ZERO COUNTER PAUSE >====
 [Statedef 8350]
 type = A
 physics = N
@@ -3041,7 +3041,7 @@ type = destroyself
 trigger1 = time >= 16
 
 
-;========================< CUSTOM COMBO >=============================
+;====< CUSTOM COMBO >=
 [Statedef 8400]
 type = A
 physics = N
@@ -3146,7 +3146,7 @@ type = destroyself
 trigger1 = time >= 26
 
 
-;========================< SUPERPAUSE FX >=============================
+;====< SUPERPAUSE FX >=
 ;--- --Level 1 -----
 [Statedef 8500]
 type = A
@@ -3589,7 +3589,7 @@ type = destroyself
 trigger1 = time >= 40
 
 
-;========================< SUPER FINISH >=============================
+;====< SUPER FINISH >=
 [Statedef 8600]
 type = A
 velset = 0, 0
@@ -3744,7 +3744,7 @@ type = destroyself
 trigger1 = roundstate < 3
 
 
-;========================< CAMERA CONTROL >=============================
+;====< CAMERA CONTROL >=
 [Statedef 8999]
 type = S
 velset = 0, 0

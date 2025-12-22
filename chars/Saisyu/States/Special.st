@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Saisyu Kusanagi by Lurker               |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;=====================<108 SHIKI: YAMI BARAI>==========================
+;=<108 SHIKI: YAMI BARAI>==
 [StateDef 1000]
 type = S
 physics = S
@@ -75,7 +75,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX 108 SHIKI: YAMI BARAI>=============================
+;====<EX 108 SHIKI: YAMI BARAI>=
 [StateDef 1030]
 type = S
 physics = N
@@ -158,7 +158,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<100 SHIKI: ONIYAKI>=============================
+;====<100 SHIKI: ONIYAKI>=
 [StateDef 1100]
 type = S
 physics = N
@@ -512,7 +512,7 @@ ctrl = 1
 
 
 
-;========================<EX 100 SHIKI: ONIYAKI>=============================
+;====<EX 100 SHIKI: ONIYAKI>=
 [StateDef 1130]
 type = S
 physics = N
@@ -752,7 +752,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 1131
 
-;========================<EX 100 SHIKI: ONIYAKI 2nd>=============================
+;====<EX 100 SHIKI: ONIYAKI 2nd>=
 [StateDef 1131]
 type = S
 physics = N
@@ -976,7 +976,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 1101
 
-;========================<720 SHIKI: HOMURAGASANE 1st HIT>=============================
+;====<720 SHIKI: HOMURAGASANE 1st HIT>=
 [StateDef 1200]
 type = S
 physics = N
@@ -1167,7 +1167,7 @@ ctrl = 1
 
 
 
-;========================<720 SHIKI: HOMURAGASANE 2nd HIT>=============================
+;====<720 SHIKI: HOMURAGASANE 2nd HIT>=
 [StateDef 1201]
 type = S
 physics = N
@@ -1331,7 +1331,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<114 SHIKI: ARAGAMI>=============================
+;====<114 SHIKI: ARAGAMI>=
 [StateDef 1230]
 type = S
 physics = N
@@ -1538,7 +1538,7 @@ value = 0
 ctrl = 1
 
 
-;========================<100+ SHIKI NATAGURUMA>=============================
+;====<100+ SHIKI NATAGURUMA>=
 [StateDef 1300]
 type = S
 physics = S
@@ -1821,7 +1821,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX 100+ SHIKI NATAGURUMA>=============================
+;====<EX 100+ SHIKI NATAGURUMA>=
 [StateDef 1330]
 type = S
 physics = S
@@ -2209,7 +2209,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 1301
 
-;=====================<427 SHIKI: KAMUKAKARI>==========================
+;=<427 SHIKI: KAMUKAKARI>==
 [StateDef 1400]
 type = S
 physics = N
@@ -2448,7 +2448,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<EX 427 SHIKI: KAMUKAKARI>==========================
+;=<EX 427 SHIKI: KAMUKAKARI>==
 [StateDef 1450]
 type = S
 physics = N
@@ -2702,7 +2702,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -2862,7 +2862,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 1101
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

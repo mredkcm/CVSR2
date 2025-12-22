@@ -1,5 +1,5 @@
 {
-  "AIRamping": true,
+  "AIRamping": false,
   "AIRandomColor": false,
   "AISurvivalColor": true,
   "AudioDucking": false,
@@ -176,20 +176,20 @@
     {
       "Joystick": 0,
       "Buttons": [
-        "10",
-        "12",
-        "13",
-        "11",
-        "0",
+        "14",
+        "16",
+        "17",
+        "15",
         "1",
-        "5",
         "2",
-        "3",
-        "-12",
         "7",
+        "0",
+        "3",
+        "5",
+        "8",
         "4",
-        "-10",
-        "6"
+        "6",
+        "9"
       ]
     },
     {

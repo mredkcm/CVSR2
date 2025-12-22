@@ -1,16 +1,16 @@
 ; _______________________________________
 ;| Dudley by Dick Buckus & Mr.Ansatsuken |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;===================================< EX SPECIAL STATES >======================================
-;============================================================================================
+;====
+;===< EX SPECIAL STATES >==
+;====
 
 ; EX Machine Gun Blow
 [Statedef 1030]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= -500
 velset = 0,0
 anim = 1030
@@ -131,8 +131,8 @@ volume = ifelse((animelem=18 || animelem=25),255,100)
 type = HitDef
 trigger1 = AnimElem = 8||animelem = 9||animelem = 10||animelem = 11||animelem= 12
 attr = S, SA
-animtype  = Hard
-damage    = 28, 5
+animtype = Hard
+damage = 28, 5
 getpower = 0,0
 priority=4,Hit
 guardflag = HA
@@ -141,11 +141,11 @@ pausetime = 5,13
 sparkno = -1 * (var(10):=8013)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=(77)), var(13):=ifelse((animelem=9),-83,ifelse((animelem=10),-89,ifelse((animelem=11),-61,ifelse((animelem=12),-72,-77))))
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s6,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = 0,0
 air.velocity = 0,0
 envshake.time=16
@@ -156,8 +156,8 @@ envshake.ampl=4
 type = HitDef
 trigger1 = AnimElem = 18
 attr = S, SA
-animtype  = Hard
-damage    = 42, 5
+animtype = Hard
+damage = 42, 5
 getpower = 0,0
 priority=4,Hit
 guardflag = M
@@ -166,11 +166,11 @@ pausetime = 0,12
 sparkno = -1 * (var(10):=8013)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=71), var(13):=-92
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s6,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = 0,0
 air.velocity = 0,0
 envshake.time=16
@@ -181,8 +181,8 @@ envshake.ampl=4
 type = HitDef
 trigger1 = AnimElem = 25
 attr = S, SA
-animtype  = Up
-damage    = 44, 5
+animtype = Up
+damage = 44, 5
 getpower = 0,0
 priority=4,Hit
 guardflag = H
@@ -191,11 +191,11 @@ pausetime = 12,12
 sparkno = -1 * (var(10):=8013)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=71), var(13):=-92
-hitsound   = s2,2
+hitsound = s2,2
 guardsound = s6,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = 0,-7.5
 air.velocity = 0,-7.5
 fall.recover = 0
@@ -217,10 +217,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; EX Jet Upper
 [Statedef 1080]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= -500
 velset = 0,0
 anim = 1080
@@ -318,10 +318,10 @@ value = S1,5
 type = HitDef
 trigger1 = animelemtime(5) = ifelse(AIlevel,0,1)
 attr = C, SA
-damage    = 85,6
+damage = 85,6
 getpower = 0,0
 priority=4,Hit
-animtype  = Medium
+animtype = Medium
 hitflag = MAF
 guardflag = L
 ID = 1080
@@ -329,11 +329,11 @@ pausetime = 8,8
 sparkno = -1 * (var(10):=8013)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-38
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 4
-ground.hittime  = 10
+ground.hittime = 10
 fall = 1
 ground.velocity = -1,-11.5
 guard.velocity = -6
@@ -346,8 +346,8 @@ envshake.ampl=4
 type = HitDef
 trigger1 = AnimElem >= 7
 attr = S, SA
-animtype  = Up
-damage    = ifelse(numtarget(1080),85,128), 6
+animtype = Up
+damage = ifelse(numtarget(1080),85,128), 6
 getpower = 0,0
 priority=4,Hit
 guardflag = HA
@@ -356,11 +356,11 @@ pausetime = 12,12
 sparkno = -1 * (var(10):=8013)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-110
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -1,-11.5
 guard.velocity = -6
 ID = 1081
@@ -562,7 +562,7 @@ trigger1 = anim = 1107 && AnimElem = 8
 attr = S, SA
 guardflag = MA
 hitflag = MAF
-animtype  = Hard
+animtype = Hard
 air.animtype = Diagup
 priority = 7
 getpower = 0
@@ -576,7 +576,7 @@ hitsound = S2,3
 guardsound = S6, 0
 ground.type = High
 guard.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -2, -10
 air.velocity = Ifelse ((Var(2) = 3 && AnimElem = 8), 3, Ifelse ((Var(2) = 3 && AnimElem = 18), -5, -2)), Ifelse ((Var(2) = 3 && AnimElem = 8), -8, -10)
 p2facing = 1
@@ -593,7 +593,7 @@ trigger1 = anim = 1108 && AnimElem = 8
 attr = S, SA
 guardflag = MA
 hitflag = MAF
-animtype  = Hard
+animtype = Hard
 air.animtype = Diagup
 priority = 8
 getpower = 0
@@ -607,7 +607,7 @@ hitsound = S2,3
 guardsound = S6, 0
 ground.type = High
 guard.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -2, -10
 air.velocity = Ifelse ((Var(2) = 3 && AnimElem = 8), 3, Ifelse ((Var(2) = 3 && AnimElem = 18), -5, -2)), Ifelse ((Var(2) = 3 && AnimElem = 8), -8, -10)
 p2facing = 1
@@ -633,10 +633,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; EX Ducking
 [Statedef 1180]
-type    = S
+type = S
 movetype= I
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= -500
 velset = 0,0
 anim = 1180
@@ -747,10 +747,10 @@ value=1182
 ;---------------------------------------------------------------------------
 ; EX Ducking Straight
 [Statedef 1181]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 0
 velset = 0,0
 anim = 1181
@@ -792,8 +792,8 @@ value = ,AP
 type = HitDef
 trigger1 = AnimElem = 7
 attr = S, SA
-animtype  = Hard
-damage    = 150
+animtype = Hard
+damage = 150
 getpower = 0,0
 guardflag = HA
 hitflag = MAF
@@ -802,11 +802,11 @@ priority=4,Hit
 sparkno = -1 * (var(10):=8013)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-73
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 19
+ground.hittime = 19
 ground.velocity = 0, 0
 air.velocity = -6, -6
 envshake.time=16
@@ -827,10 +827,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; EX Ducking Upper
 [Statedef 1182]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 poweradd= 0
 velset = 0,0
 anim = 1152
@@ -872,9 +872,9 @@ channel = 0
 type = HitDef
 trigger1 = animelem = 4
 attr = S, SA
-damage    = 70
+damage = 70
 getpower = 0,0
-animtype  = Hard
+animtype = Hard
 hitflag = MAF
 guardflag = M
 pausetime = 8,8
@@ -882,11 +882,11 @@ priority=4,Hit
 sparkno = -1 * (var(10):=8013)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-55
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -1
 air.velocity = -1,-2
 envshake.time=16
@@ -897,9 +897,9 @@ envshake.ampl=4
 type = HitDef
 trigger1 = animelem = 7
 attr = S, SA
-damage    = 70
+damage = 70
 getpower = 0,0
-animtype  = Hard
+animtype = Hard
 hitflag = MAF
 guardflag = H
 pausetime = 9,12
@@ -907,11 +907,11 @@ priority=4,Hit
 sparkno = -1 * (var(10):=8013)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-93
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = 0,-7.5
 air.velocity = 0,-7.5
 fall = 1
@@ -933,10 +933,10 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; EX Short Swing Blow
 [Statedef 1230]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 poweradd= -500
 velset = 0,0
 anim = 1230
@@ -1066,8 +1066,8 @@ value = 20,0
 type = HitDef
 trigger1 = time = 0
 attr = S, SA
-animtype  = Medium
-damage    = 61
+animtype = Medium
+damage = 61
 getpower = 0,0
 guardflag = M
 hitflag = MAF
@@ -1076,11 +1076,11 @@ priority=4,Hit
 sparkno = -1 * (var(10):=8013)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-64
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -0
 air.velocity = -0,-3
 envshake.time=16
@@ -1091,9 +1091,9 @@ envshake.ampl=4
 type = HitDef
 trigger1 = animelem = 22
 attr = S, SA
-damage    = 62
+damage = 62
 getpower = 0,0
-animtype  = Hard
+animtype = Hard
 hitflag = MAF
 guardflag = H
 pausetime = 9,12
@@ -1101,11 +1101,11 @@ priority=4,Hit
 sparkno = -1 * (var(10):=8013)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-93
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 23
+ground.hittime = 23
 ground.velocity = 1,0
 air.velocity = 0,-3
 envshake.time=16
@@ -1116,8 +1116,8 @@ envshake.ampl=4
 type = HitDef
 trigger1 = animelem = 31
 attr = S, NA
-animtype  = Hard
-damage    = 62
+animtype = Hard
+damage = 62
 getpower = 0,0
 guardflag = HA
 hitflag = MAF
@@ -1126,11 +1126,11 @@ priority=4,Hit
 sparkno = -1 * (var(10):=8013)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-73
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 13
+ground.hittime = 13
 fall = 1
 fall.recover = 0
 ground.velocity = -6,-4

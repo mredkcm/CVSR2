@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Dhalsim by Knuckles8864                 |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<NORMAL MOVES>========================================
-;==============================================================================================
+;==
+;====<NORMAL MOVES>====
+;==
 
-;===========<STANDING LIGHT PUNCH>==========
+;===<STANDING LIGHT PUNCH>==
 [StateDef 200]
 type = S
 physics = S
@@ -84,7 +84,7 @@ ctrl = 1
 
 
 
-;===========<YOGA CHOP>==========
+;===<YOGA CHOP>==
 [StateDef 205]
 type = S
 physics = S
@@ -205,7 +205,7 @@ ctrl = 1
 
 
 
-;===========<STANDING FAR MEDIUM PUNCH>==========
+;===<STANDING FAR MEDIUM PUNCH>==
 [StateDef 210]
 type = S
 physics = S
@@ -284,7 +284,7 @@ value = 0
 ctrl = 1
 
 
-;===========<STANDING CLOSE MEDIUM PUNCH>==========
+;===<STANDING CLOSE MEDIUM PUNCH>==
 [StateDef 215]
 type = S
 physics = S
@@ -405,7 +405,7 @@ ctrl = 1
 
 
 
-;===========<STANDING FAR HEAVY PUNCH>==========
+;===<STANDING FAR HEAVY PUNCH>==
 [StateDef 220]
 type = S
 physics = S
@@ -485,7 +485,7 @@ ctrl = 1
 
 
 
-;===========<STANDING CLOSE HEAVY PUNCH>==========
+;===<STANDING CLOSE HEAVY PUNCH>==
 [StateDef 225]
 type = S
 physics = S
@@ -608,7 +608,7 @@ ctrl = 1
 
 
 
-;===========<STANDING FAR LIGHT KICK>==========
+;===<STANDING FAR LIGHT KICK>==
 [StateDef 230]
 type = S
 physics = S
@@ -688,7 +688,7 @@ ctrl = 1
 
 
 
-;===========<STANDING CLOSE LIGHT KICK>==========
+;===<STANDING CLOSE LIGHT KICK>==
 [StateDef 235]
 type = S
 physics = S
@@ -767,7 +767,7 @@ ctrl = 1
 
 
 
-;===========<STANDING FAR MEDIUM KICK>==========
+;===<STANDING FAR MEDIUM KICK>==
 [StateDef 240]
 type = S
 physics = S
@@ -847,7 +847,7 @@ ctrl = 1
 
 
 
-;===========<STANDING CLOSE MEDIUM KICK>==========
+;===<STANDING CLOSE MEDIUM KICK>==
 [StateDef 245]
 type = S
 physics = S
@@ -926,7 +926,7 @@ ctrl = 1
 
 
 
-;===========<STANDING FAR HEAVY KICK>==========
+;===<STANDING FAR HEAVY KICK>==
 [StateDef 250]
 type = S
 physics = N
@@ -1006,7 +1006,7 @@ ctrl = 1
 
 
 
-;===========<STANDING CLOSE HEAVY KICK>==========
+;===<STANDING CLOSE HEAVY KICK>==
 [StateDef 255]
 type = S
 physics = S
@@ -1096,7 +1096,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING FAR LIGHT PUNCH>==========
+;===<CROUCHING FAR LIGHT PUNCH>==
 [StateDef 400]
 type = C
 physics = C
@@ -1176,7 +1176,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING CLOSE LIGHT PUNCH>==========
+;===<CROUCHING CLOSE LIGHT PUNCH>==
 [StateDef 405]
 type = C
 physics = C
@@ -1255,7 +1255,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING FAR MEDIUM PUNCH>==========
+;===<CROUCHING FAR MEDIUM PUNCH>==
 [StateDef 410]
 type = C
 physics = C
@@ -1335,7 +1335,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING CLOSE MEDIUM PUNCH>==========
+;===<CROUCHING CLOSE MEDIUM PUNCH>==
 [StateDef 415]
 type = C
 physics = C
@@ -1414,7 +1414,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING FAR HEAVY PUNCH>==========
+;===<CROUCHING FAR HEAVY PUNCH>==
 [StateDef 420]
 type = C
 physics = C
@@ -1495,7 +1495,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING CLOSE HEAVY PUNCH>==========
+;===<CROUCHING CLOSE HEAVY PUNCH>==
 [StateDef 425]
 type = C
 physics = C
@@ -1574,7 +1574,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING FAR LIGHT KICK>==========
+;===<CROUCHING FAR LIGHT KICK>==
 [StateDef 430]
 type = C
 physics = N
@@ -1687,7 +1687,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING CLOSE LIGHT KICK>==========
+;===<CROUCHING CLOSE LIGHT KICK>==
 [StateDef 435]
 type = C
 physics = C
@@ -1766,7 +1766,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING FAR MEDIUM KICK>==========
+;===<CROUCHING FAR MEDIUM KICK>==
 [StateDef 440]
 type = C
 physics = N
@@ -1879,7 +1879,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING CLOSE MEDIUM KICK>==========
+;===<CROUCHING CLOSE MEDIUM KICK>==
 [StateDef 445]
 type = C
 physics = C
@@ -1958,7 +1958,7 @@ ctrl = 1
 
 
 
-;===========<CROUCHING FAR HEAVY KICK>==========
+;===<CROUCHING FAR HEAVY KICK>==
 [StateDef 450]
 type = C
 physics = N
@@ -2069,7 +2069,7 @@ value = 11
 ctrl = 1
 
 
-;===========<CROUCHING CLOSE HEAVY KICK>==========
+;===<CROUCHING CLOSE HEAVY KICK>==
 [StateDef 455]
 type = C
 physics = C
@@ -2148,7 +2148,7 @@ ctrl = 1
 
 
 
-;===========<JUMPING LIGHT PUNCH>==========
+;===<JUMPING LIGHT PUNCH>==
 [StateDef 600]
 type = A
 physics = N
@@ -2231,7 +2231,7 @@ value = 52
 
 
 
-;===========<JUMPING LIGHT PUNCH>==========
+;===<JUMPING LIGHT PUNCH>==
 [StateDef 605]
 type = A
 physics = N
@@ -2314,10 +2314,10 @@ value = 52
 
 
 
-;===========<JUMPING FAR MEDIUM PUNCH>==========
+;===<JUMPING FAR MEDIUM PUNCH>==
 [StateDef 610]
 type = A
-physics  = N
+physics = N
 moveType = A
 anim = 610
 ctrl = 0
@@ -2398,10 +2398,10 @@ value = 52
 
 
 
-;===========<JUMPING CLOSE MEDIUM PUNCH>==========
+;===<JUMPING CLOSE MEDIUM PUNCH>==
 [StateDef 615]
 type = A
-physics  = N
+physics = N
 moveType = A
 anim = 615
 ctrl = 0
@@ -2481,7 +2481,7 @@ value = 52
 
 
 
-;===========<JUMPING FAR HEAVY PUNCH>==========
+;===<JUMPING FAR HEAVY PUNCH>==
 [StateDef 620]
 type = A
 physics = N
@@ -2565,7 +2565,7 @@ value = 52
 
 
 
-;===========<JUMPING CLOSE HEAVY PUNCH>==========
+;===<JUMPING CLOSE HEAVY PUNCH>==
 [StateDef 625]
 type = A
 physics = N
@@ -2648,7 +2648,7 @@ value = 52
 
 
 
-;===========<DRILL ZUTSUKI>==========
+;===<DRILL ZUTSUKI>==
 [StateDef 629]
 type = A
 physics = N
@@ -2729,7 +2729,7 @@ value = 52
 
 
 
-;===========<JUMPING FAR LIGHT KICK>==========
+;===<JUMPING FAR LIGHT KICK>==
 [StateDef 630]
 type = A
 physics = N
@@ -2813,7 +2813,7 @@ value = 52
 
 
 
-;===========<JUMPING CLOSE LIGHT KICK>==========
+;===<JUMPING CLOSE LIGHT KICK>==
 [StateDef 635]
 type = A
 physics = N
@@ -2896,7 +2896,7 @@ value = 52
 
 
 
-;===========<DRILL KICK LIGHT>==========
+;===<DRILL KICK LIGHT>==
 [StateDef 639]
 type = A
 physics = N
@@ -2977,7 +2977,7 @@ value = 52
 
 
 
-;===========<JUMPING FAR MEDIUM KICK>==========
+;===<JUMPING FAR MEDIUM KICK>==
 [StateDef 640]
 type = A
 physics = N
@@ -3061,7 +3061,7 @@ value = 52
 
 
 
-;===========<JUMPING CLOSE MEDIUM KICK>==========
+;===<JUMPING CLOSE MEDIUM KICK>==
 [StateDef 645]
 type = A
 physics = N
@@ -3144,7 +3144,7 @@ value = 52
 
 
 
-;===========<DRILL KICK MEDIUM>==========
+;===<DRILL KICK MEDIUM>==
 [StateDef 649]
 type = A
 physics = N
@@ -3225,7 +3225,7 @@ value = 52
 
 
 
-;===========<JUMPING FAR HEAVY KICK>==========
+;===<JUMPING FAR HEAVY KICK>==
 [StateDef 650]
 type = A
 physics = N
@@ -3309,7 +3309,7 @@ value = 52
 
 
 
-;===========<JUMPING CLOSE HEAVY KICK>==========
+;===<JUMPING CLOSE HEAVY KICK>==
 [StateDef 655]
 type = A
 physics = N
@@ -3392,7 +3392,7 @@ value = 52
 
 
 
-;===========<DRILL KICK HEAVY>==========
+;===<DRILL KICK HEAVY>==
 [StateDef 659]
 type = A
 physics = N
@@ -3473,7 +3473,7 @@ value = 52
 
 
 
-;===========<THROW ATTEMPT>==========
+;===<THROW ATTEMPT>==
 [StateDef 800]
 type = S
 physics = S
@@ -3577,7 +3577,7 @@ ctrl = 1
 
 
 
-;===========<THROW SWITCHING SIDES>==========
+;===<THROW SWITCHING SIDES>==
 [StateDef 805]
 type = S
 moveType = A
@@ -3673,7 +3673,7 @@ trigger1 = AnimElemTime(5) >= 0
 value = ifElse(var(10), 820, 810)
 
 
-;===========<THROW SWITCHING SIDES HIGH (TARGET)>==========
+;===<THROW SWITCHING SIDES HIGH (TARGET)>==
 [StateDef 806]
 type = A
 moveType = H
@@ -3707,7 +3707,7 @@ ctrl = 1
 
 
 
-;===========<THROW SWITCHING SIDES LOW (TARGET)>==========
+;===<THROW SWITCHING SIDES LOW (TARGET)>==
 [StateDef 807]
 type = A
 moveType = H
@@ -3741,7 +3741,7 @@ ctrl = 1
 
 
 
-;===========<YOGA SMASH>==========
+;===<YOGA SMASH>==
 [Statedef 810] 
 type = S
 physics = S
@@ -3837,7 +3837,7 @@ trigger1 = !AnimTime
 value = 811
 
 
-;============<YOGA SMASH(PUNCHING FOE)>===========
+;====<YOGA SMASH(PUNCHING FOE)>===
 [Statedef 811]
 type = S
 physics = N
@@ -3958,7 +3958,7 @@ trigger2 = (command = "up" || command = "down" || command = "back" || command = 
 var(42) = 2
 
 [State 811, Mashing Increment]
-type  = VarAdd
+type = VarAdd
 trigger1 = var(42) = 2
 var(12) = 1
 
@@ -4204,7 +4204,7 @@ value = 0
 ctrl = 1
 
 
-;===========<YOGA SMASH (TARGET)>==========
+;===<YOGA SMASH (TARGET)>==
 [StateDef 815]
 type = A
 moveType = H
@@ -4359,7 +4359,7 @@ value = 5100
 
 
 
-;===========<YOGA THROW>==========
+;===<YOGA THROW>==
 [StateDef 820]
 type = S
 physics = N
@@ -4512,7 +4512,7 @@ ctrl = 1
 
 
 
-;===========<YOGA THROW (TARGET)>==========
+;===<YOGA THROW (TARGET)>==
 ;Being Hit
 [StateDef 825]
 type = A
@@ -4582,7 +4582,7 @@ value = 5100
 
 
 
-;===========<AIR THROW ATTEMPT>==========
+;===<AIR THROW ATTEMPT>==
 [StateDef 850]
 type = A
 physics = N
@@ -4672,7 +4672,7 @@ value = 52
 
 
 
-;===========<YOGA TRIP>==========
+;===<YOGA TRIP>==
 [StateDef 860]
 type = A
 physics = N
@@ -4865,7 +4865,7 @@ ctrl = 1
 
 
 
-;===========<FLYING MARE (TARGET)>==========
+;===<FLYING MARE (TARGET)>==
 ;In Air
 [StateDef 865]
 type = A
@@ -4935,7 +4935,7 @@ value = 5100
 
 
 
-;===========<THROW ESCAPED>==========
+;===<THROW ESCAPED>==
 [StateDef 890]
 type = S
 physics = N
@@ -5092,7 +5092,7 @@ ctrl = 1
 
 
 
-;===========<THROW ESCAPE MIDAIR>==========
+;===<THROW ESCAPE MIDAIR>==
 [StateDef 892]
 type = A
 physics = N

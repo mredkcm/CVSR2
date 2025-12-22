@@ -625,65 +625,65 @@ time = 15
 
 [Command]
 name = "dfx"
-command = ~F, D, DF, x
+command = ~d, d, x
 time = 20
 [Command]
 name = "dfy"
-command = ~F, D, DF, y
+command = ~d, d, y
 time = 20
 [Command]
 name = "dfz"
-command = ~F, D, DF, z
+command = ~d, d, z
 time = 20
 [Command]
 name = "dfx"
-command = ~F, D, DF, ~x
+command = ~d, d, ~x
 time = 20
 [Command]
 name = "dfy"
-command = ~F, D, DF, ~y
+command = ~d, d, ~y
 time = 20
 [Command]
 name = "dfz"
-command = ~F, D, DF, ~z
+command = ~d, d, ~z
 time = 20
 
 [Command]
 name = "dfa"
-command = ~F, D, DF, a
+command = ~d, d, a
 time = 20
 [Command]
 name = "dfb"
-command = ~F, D, DF, b
+command = ~d, d, b
 time = 20
 [Command]
 name = "dfc"
-command = ~F, D, DF, c
+command = ~d, d, c
 time = 20
 [Command]
 name = "dfa"
-command = ~F, D, DF, ~a
+command = ~d, d, ~a
 time = 20
 [Command]
 name = "dfb"
-command = ~F, D, DF, ~b
+command = ~d, d, ~b
 time = 20
 [Command]
 name = "dfc"
-command = ~F, D, DF, ~c
+command = ~d, d, ~c
 time = 20
 
 [Command]
 name = "df2p"
-command = ~F, D, DF, x+y
+command = ~d, d, x+y
 time = 20
 [Command]
 name = "df2p"
-command = ~F, D, DF, x+z
+command = ~d, d, x+z
 time = 20
 [Command]
 name = "df2p"
-command = ~F, D, DF, y+z
+command = ~d, d, y+z
 time = 20
 [Command]
 name = "db2p"
@@ -700,7 +700,7 @@ time = 20
 
 [Command]
 name = "df3p"
-command = ~F, D, DF, x+y+z
+command = ~d, d, x+y+z
 time = 20
 
 [Command]
@@ -710,7 +710,7 @@ time = 20
 
 [Command]
 name = "df3k"
-command = ~F, D, DF, a+b+c
+command = ~d, d, a+b+c
 time = 20
 
 [Command]
@@ -720,7 +720,7 @@ time = 20
 
 [Command]
 name = "dfs"
-command = ~F, D, DF, s
+command = ~d, d, s
 time = 20
 
 [Command]
@@ -730,15 +730,15 @@ time = 20
 
 [Command]
 name = "df2k"
-command = ~F, D, DF, a+b
+command = ~d, d, a+b
 time = 20
 [Command]
 name = "df2k"
-command = ~F, D, DF, a+c
+command = ~d, d, a+c
 time = 20
 [Command]
 name = "df2k"
-command = ~F, D, DF, b+c
+command = ~d, d, b+c
 time = 20
 
 [Command]
@@ -1305,7 +1305,7 @@ value = 3020
 triggerall = !AIlevel
 triggerall = command = "2qcb2p"
 triggerall = var(1)!= 1 && roundstate = 2 && statetype != A && power >= 2000 && var(20) <= 60
-triggerall = !numhelper(3025) && !numhelper(3045) && !numhelper(3055)
+;triggerall = !numhelper(3025) && !numhelper(3045) && !numhelper(3055)
 triggerall = !var(6)
 trigger1 = ctrl || (stateno = [100,101]) || ((stateno = [200, 299]) && time <= 2) || (stateno = 200 || stateno = 230 || stateno = 245)
 trigger2 = (stateno = [200, 255]) && stateno != 207 && (movecontact = [1, 8])
@@ -1328,7 +1328,7 @@ value = 3000
 triggerall = !AIlevel
 triggerall = command = "2qcbp"
 triggerall = roundstate = 2 && statetype != A && power >= 1000 && var(20) <= 60
-triggerall = !numhelper(3005) && !numhelper(3025) && !numhelper(3045) && !numhelper(3055)
+;triggerall = !numhelper(3005) && !numhelper(3025) && !numhelper(3045) && !numhelper(3055)
 triggerall = !var(6)
 trigger1 = ctrl || (stateno = [100,101]) || ((stateno = [200, 299]) && time <= 2) || (stateno = 200 || stateno = 230 || stateno = 245)
 trigger2 = (stateno = [200, 255]) && stateno != 207 && (movecontact = [1, 8])
@@ -1349,7 +1349,7 @@ value = 1030
 triggerall = !AIlevel
 triggerall = command = "hcb2p"
 triggerall = var(1)= 1 && roundstate = 2 && statetype != A && power >= 500 && var(20) <= 60
-triggerall = !numhelper(1005) && !numhelper(1015) && !numhelper(1025) && !numhelper(1035) && !numhelper(1055) && !numhelper(1065) && !numhelper(3005) && !numhelper(3025) && !numhelper(3045) && !numhelper(3055)
+;triggerall = !numhelper(1005) && !numhelper(1015) && !numhelper(1025) && !numhelper(1035) && !numhelper(1055) && !numhelper(1065) && !numhelper(3005) && !numhelper(3025) && !numhelper(3045) && !numhelper(3055)
 trigger1 = ctrl || (stateno = [100,101]) || ((stateno = [200, 299]) && time <= 2) || (stateno = 200 || stateno = 230 || stateno = 245)
 trigger2 = !var(6) && (stateno = [200, 255]) && stateno != 225  && stateno != 207 && (movecontact = [1, 8])
 trigger3 = var(20) && (stateno = [200, 289])
@@ -1415,7 +1415,7 @@ value = 1060
 triggerall = !AIlevel
 triggerall = command = "qcf2p"
 triggerall = var(1)!= 1 && roundstate = 2 && statetype = A && power >= 500 && var(20) <= 60
-triggerall = !numhelper(1005) && !numhelper(1015) && !numhelper(1025) && !numhelper(1035) && !numhelper(1055) && !numhelper(1065) && !numhelper(3005) && !numhelper(3025) && !numhelper(3045) && !numhelper(3055)
+;triggerall = !numhelper(1005) && !numhelper(1015) && !numhelper(1025) && !numhelper(1035) && !numhelper(1055) && !numhelper(1065) && !numhelper(3005) && !numhelper(3025) && !numhelper(3045) && !numhelper(3055)
 triggerall = var(9)!=2
 trigger1 = ctrl || (stateno = [100,101]) || ((stateno = [200, 299]) && time <= 2) || (stateno = 200 || stateno = 230 || stateno = 245)
 trigger2 = !var(6) && (stateno = [260, 285]) && stateno != 207 && (movecontact = [1, 8])
@@ -1431,7 +1431,7 @@ value = 1010
 triggerall = !AIlevel
 triggerall = command = "qcf2p"
 triggerall = var(1)= 1 && roundstate = 2 && statetype != A && power >= 500 && var(20) <= 60
-triggerall = !numhelper(1005) && stateno != 225  && !numhelper(1015) && !numhelper(1025) && !numhelper(1035) && !numhelper(1055) && !numhelper(1065) && !numhelper(3005) && !numhelper(3025) && !numhelper(3045) && !numhelper(3055)
+;triggerall = !numhelper(1005) && stateno != 225  && !numhelper(1015) && !numhelper(1025) && !numhelper(1035) && !numhelper(1055) && !numhelper(1065) && !numhelper(3005) && !numhelper(3025) && !numhelper(3045) && !numhelper(3055)
 trigger1 = ctrl || (stateno = [100,101]) || ((stateno = [200, 299]) && time <= 2) || (stateno = 200 || stateno = 230 || stateno = 245)
 trigger2 = !var(6) && (stateno = [200, 255]) && stateno != 225 && stateno != 207 && (movecontact = [1, 8])
 trigger3 = var(20) && (stateno = [200, 289])
@@ -1514,7 +1514,7 @@ value = 1050
 triggerall = !AIlevel
 triggerall = command = "qcfx" || command = "qcfy" || command = "qcfz"
 triggerall = roundstate = 2 && statetype = A && var(9) != 2
-triggerall = ifelse(!var(20), (!numhelper(1005) && !numhelper(1015) && !numhelper(1025) && !numhelper(1035) && !numhelper(1055) && !numhelper(1065)), 1) && !numhelper(3005) && !numhelper(3055)
+;triggerall = ifelse(!var(20), (!numhelper(1005) && !numhelper(1015) && !numhelper(1025) && !numhelper(1035) && !numhelper(1055) && !numhelper(1065)), 1) && !numhelper(3005) && !numhelper(3055)
 trigger1 = ctrl || (stateno = [100,101]) || ((stateno = [200, 299]) && time <= 2) || (stateno = 200 || stateno = 230 || stateno = 245)
 trigger2 = var(20) && (stateno = [200, 289])
 trigger3 = var(20) && ((stateno = [1000, 2999]) || stateno = 52 && (prevstateno = [1000, 2999])) && movecontact
@@ -1527,7 +1527,7 @@ value = 1020
 triggerall = !AIlevel
 triggerall = command = "hcbx" || command = "hcby" || command = "hcbz"
 triggerall = roundstate = 2 && statetype != A
-triggerall = ifelse(!var(20), !numhelper(1005) && !numhelper(1015), 1) && !numhelper(1025) && !numhelper(1035) && !numhelper(1055) && !numhelper(1065) && !numhelper(3005) && !numhelper(3025) && !numhelper(3045) && !numhelper(3055)
+;triggerall = ifelse(!var(20), !numhelper(1005) && !numhelper(1015), 1) && !numhelper(1025) && !numhelper(1035) && !numhelper(1055) && !numhelper(1065) && !numhelper(3005) && !numhelper(3025) && !numhelper(3045) && !numhelper(3055)
 trigger1 = ctrl || (stateno = [100,101]) || ((stateno = [200, 299]) && time <= 2) || (stateno = 200 || stateno = 230 || stateno = 245)
 trigger2 = !var(6) && (stateno = [200, 255]) && stateno != 225 && stateno != 207 && (movecontact = [1, 8])
 trigger3 = var(20) && (stateno = [200, 289])
@@ -1542,7 +1542,7 @@ value = 1000
 triggerall = !AIlevel
 triggerall = command = "qcfx" || command = "qcfy" || command = "qcfz"
 triggerall = roundstate = 2 && statetype != A
-triggerall = ifelse(!var(20), !numhelper(1005) && !numhelper(1015) && !numhelper(1025), 1) && !numhelper(1035) && !numhelper(1055) && !numhelper(1065) && !numhelper(3005) && !numhelper(3025) && !numhelper(3045) && !numhelper(3055)
+;triggerall = ifelse(!var(20), !numhelper(1005) && !numhelper(1015) && !numhelper(1025), 1) && !numhelper(1035) && !numhelper(1055) && !numhelper(1065) && !numhelper(3005) && !numhelper(3025) && !numhelper(3045) && !numhelper(3055)
 trigger1 = ctrl || (stateno = [100,101]) || ((stateno = [200, 299]) && time <= 2) || (stateno = 200 || stateno = 230 || stateno = 245)
 trigger2 = !var(6) && (stateno = [200, 255]) && stateno != 225 && stateno != 207 && (movecontact = [1, 8])
 trigger3 = var(20) && (stateno = [200, 289])

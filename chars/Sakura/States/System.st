@@ -1,19 +1,19 @@
 ; ADD004 BASIC PIEs ReBuilded CNS (25/12/2018)
-;==============================================
+;==
 ; This file is Made by PIE.
 ; there is a backup of this file in the same folder, named "<samename>.a4bk".
 ; to Restore, use assist tool, or delete this file, then remove ".a4bk" from the neme of backup.
-;==============================================
+;==
 
 
 ;_________________________________
 ;| Sakura by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< COMMON STATES >========================================
-;==============================================================================================
+;==
+;===< COMMON STATES >====
+;==
 
-;==========< PARRY >==========
+;==< PARRY >==
 ;--- STANDING ---
 [Statedef 700]
 type = S
@@ -256,7 +256,7 @@ ownpal = 1
 scale = 0.5, 0.5
 
 
-;==========< DODGE >==========
+;==< DODGE >==
 [Statedef 710]
 type = S
 physics = S
@@ -295,7 +295,7 @@ value = 0
 ctrl = 1
 
 
-;==========< FORWARD ROLL >==========
+;==< FORWARD ROLL >==
 [Statedef 720]
 type = C
 physics = C
@@ -334,7 +334,7 @@ value = 11
 ctrl = 1
 
 
-;==========< BACKWARD ROLL >==========
+;==< BACKWARD ROLL >==
 [Statedef 725]
 type = C
 physics = C
@@ -373,7 +373,7 @@ value = 11
 ctrl = 1
 
 
-;==========< POWER CHARGE >==========
+;==< POWER CHARGE >==
 [Statedef 740]
 type = S
 physics = S
@@ -463,7 +463,7 @@ value = 0
 ctrl = 1
 
 
-;==========< ZERO COUNTER >==========
+;==< ZERO COUNTER >==
 [Statedef 750]
 type = S
 physics = S
@@ -525,7 +525,7 @@ trigger1 = time >= 20
 value = ifelse(var(10) = 1, 1100, 255)
 
 
-;===================< CUSTOM COMBO >===================
+;===< CUSTOM COMBO >===
 [Statedef 760]
 type = U
 physics = U
@@ -610,7 +610,7 @@ value = 0
 ctrl = 1
 
 
-;====================< STANDING >====================
+;====< STANDING >====
 [Statedef 0]
 type = S
 physics = S
@@ -649,7 +649,7 @@ trigger3 = (enemy(1), name = "M -NES Game 1" + enemy(1), name = "M -NES Game 2" 
 value = 50
 
 
-;====================< CROUCHING >====================
+;====< CROUCHING >====
 [Statedef 10]
 type = C
 physics = C
@@ -713,7 +713,7 @@ trigger1 = !animtime
 value = 0
 
 
-;==========< WALKING >==========
+;==< WALKING >==
 [Statedef 20]
 type = S
 physics = S
@@ -742,7 +742,7 @@ trigger2 = anim = 5 && animelemtime(1) >= 1
 value = 21
 
 
-;===================< JUMPING >================
+;===< JUMPING >====
 [Statedef 40]
 type = S
 physics = S
@@ -944,7 +944,7 @@ value = 0
 ctrl = 1
 
 
-;======================< RUN >===========================
+;==< RUN >===
 [Statedef 100]
 type = S
 physics = S
@@ -1120,7 +1120,7 @@ value = 0
 ctrl = 1
 
 
-;========================< BACK DASH >==========================
+;====< BACK DASH >==
 [Statedef 105]
 type = A
 movetype = I
@@ -1162,7 +1162,7 @@ trigger1 = vel y > 0 && pos y >= -4
 value = 52
 
 
-;========================< OFF SCREEN >==========================
+;====< OFF SCREEN >==
 [Statedef 110]
 type = S
 physics = S
@@ -1228,7 +1228,7 @@ value = 0
 ctrl = 1
 
 
-;==========< GUARD >==========
+;==< GUARD >==
 ;--- START ---
 [Statedef 120]
 type = U
@@ -1633,7 +1633,7 @@ trigger1 = sysvar(0)
 value = 52
 
 
-;==========< TAUNT >==========
+;==< TAUNT >==
 [Statedef 195]
 type = S
 movetype = A
@@ -1706,7 +1706,7 @@ value = 0
 ctrl = 1
 
 
-;==========< HUMILIATE >==========
+;==< HUMILIATE >==
 [Statedef 197]
 type = S
 movetype = I
@@ -1743,7 +1743,7 @@ value = 0
 ctrl = 1
 
 
-;==========< CHEAP K.O. >==========
+;==< CHEAP K.O. >==
 [Statedef 5130]
 type = S
 movetype = H
@@ -1828,7 +1828,7 @@ trigger1 = !animtime
 value = ifelse(alive, 5110, 5150)
 
 
-;==========< INITIALIZE >==========
+;==< INITIALIZE >==
 [Statedef 5900]
 type = S
 [State 5900, varreset]
@@ -1886,7 +1886,7 @@ trigger1 = !time
 value = ifelse(roundno = 1, 190, 0)
 
 
-;==========< LOSE (Time over) >==========
+;==< LOSE (Time over) >==
 [Statedef 170]
 type = S
 ctrl = 0
@@ -1917,7 +1917,7 @@ ownpal = 1
 scale = 0.5, 0.5
 
 
-;==========< DRAWGAME (Time over) >==========
+;==< DRAWGAME (Time over) >==
 [Statedef 175]
 type = S
 ctrl = 0
@@ -1937,7 +1937,7 @@ value = SCA
 time = 1
 
 
-;==========< PREINTRO >==========
+;==< PREINTRO >==
 [Statedef 190]
 type = S
 ctrl = 0
@@ -2012,7 +2012,7 @@ trigger1 = ifelse(var(0) = 2, time >= 1, 1)
 value = ifelse(random < 333, 191, ifelse(random < 500, 192, 354))
 
 
-;==========< INTRO 1 >==========
+;==< INTRO 1 >==
 [Statedef 191]
 type = S
 physics = N
@@ -2032,7 +2032,7 @@ trigger1 = !animtime
 value = 0
 
 
-;==========< INTRO 2 >==========
+;==< INTRO 2 >==
 [Statedef 192]
 type = S
 physics = N
@@ -2115,7 +2115,7 @@ trigger1 = anim = 193 && !animtime
 value = 0
 
 
-;==========< INTRO with KEI >==========
+;==< INTRO with KEI >==
 [Statedef 354]
 type = S
 physics = N
@@ -2198,7 +2198,7 @@ trigger1 = anim = 355 && !animtime
 value = 0
 
 
-;==========< SCRATCH HEAD INTRO >==========
+;==< SCRATCH HEAD INTRO >==
 [Statedef 350]
 type = S
 physics = N
@@ -2218,7 +2218,7 @@ trigger1 = !animtime
 value = 0
 
 
-;==========< CvS YURI INTRO >==========
+;==< CvS YURI INTRO >==
 [Statedef 351]
 type = S
 physics = N
@@ -2248,7 +2248,7 @@ trigger1 = !animtime
 value = 0
 
 
-;==========< INTRO vs RYU >==========
+;==< INTRO vs RYU >==
 [Statedef 352]
 type = S
 physics = N
@@ -2289,7 +2289,7 @@ trigger1 = !animtime
 value = 0
 
 
-;==========< INTRO vs other RYUs >==========
+;==< INTRO vs other RYUs >==
 [Statedef 353]
 type = S
 physics = N
@@ -2304,7 +2304,7 @@ trigger1 = !animtime
 value = 0
 
 
-;==========< INTRO vs CUTE CHARS >==========
+;==< INTRO vs CUTE CHARS >==
 [Statedef 356]
 type = S
 physics = N
@@ -2324,7 +2324,7 @@ trigger1 = !animtime
 value = 0
 
 
-;==========< INTRO vs P.O. SAKURA >==========
+;==< INTRO vs P.O. SAKURA >==
 [Statedef 357]
 type = S
 physics = N
@@ -2348,7 +2348,7 @@ trigger1 = !animtime
 value = 0
 
 
-;==========< TURNS INTRO >==========
+;==< TURNS INTRO >==
 [Statedef 358]
 type = A
 physics = N
@@ -2422,7 +2422,7 @@ trigger1 = anim = 359 && !animtime
 value = 0
 
 
-;==========< WIN POSE DECIDER >==========
+;==< WIN POSE DECIDER >==
 [Statedef 180]
 type = S
 
@@ -2487,7 +2487,7 @@ trigger1 = 1
 value = 181 + (random % 6)
 
 
-;==========< WIN 1 >==========
+;==< WIN 1 >==
 [Statedef 181]
 type = S
 anim = 181
@@ -2518,7 +2518,7 @@ trigger1 = time < 180
 flag = roundnotover
 
 
-;==========< WIN 2 >==========
+;==< WIN 2 >==
 [Statedef 182]
 type = S
 anim = 182
@@ -2543,7 +2543,7 @@ trigger1 = time < 180
 flag = roundnotover
 
 
-;==========< WIN 3 >==========
+;==< WIN 3 >==
 [Statedef 183]
 type = S
 anim = 183
@@ -2596,7 +2596,7 @@ trigger1 = time < 180
 flag = roundnotover
 
 
-;==========< WIN 4 >==========
+;==< WIN 4 >==
 [Statedef 184]
 type = S
 anim = 184
@@ -2627,7 +2627,7 @@ trigger1 = time < 180
 flag = roundnotover
 
 
-;==========< WIN 5 >==========
+;==< WIN 5 >==
 [Statedef 185]
 type = S
 anim = 185
@@ -2652,7 +2652,7 @@ trigger1 = time < 180
 flag = roundnotover
 
 
-;==========< WIN 6 >==========
+;==< WIN 6 >==
 [Statedef 186]
 type = S
 anim = 186
@@ -2695,7 +2695,7 @@ trigger1 = time < 180
 flag = roundnotover
 
 
-;==========< WIN by PERFECT >==========
+;==< WIN by PERFECT >==
 [Statedef 188]
 type = S
 anim = 188
@@ -2726,7 +2726,7 @@ trigger1 = time < 180
 flag = roundnotover
 
 
-;==========< WIN KEI >==========
+;==< WIN KEI >==
 [Statedef 187]
 type = S
 ctrl = 0
@@ -2811,7 +2811,7 @@ trigger1 = helper(6000), anim = 6004
 value = 182
 
 
-;==========< WIN by S.G.S. >==========
+;==< WIN by S.G.S. >==
 [Statedef 4002]
 type = S
 sprpriority = -4
@@ -2859,7 +2859,7 @@ value = ifelse(roundstate = 3, 180, 0)
 ctrl = 1
 
 
-;==========< CONTINUE? >==========
+;==< CONTINUE? >==
 [Statedef 5500]
 type = S
 ctrl = 0
@@ -2871,7 +2871,7 @@ trigger1 = !time
 value = 5500
 
 
-;==========< FALL RECOVERY >==========
+;==< FALL RECOVERY >==
 [Statedef 5200]
 type = A
 movetype = H
@@ -3047,7 +3047,7 @@ trigger1 = pos y > -vel y
 value = 52
 
 
-;==========< RECOVERY ROLL >==========
+;==< RECOVERY ROLL >==
 [Statedef 5220]
 type = A
 movetype = H
@@ -3113,7 +3113,7 @@ trigger1 = !animtime
 value = 11
 ctrl = 1
 
-;==========< TARGET SAFE FALL >==========
+;==< TARGET SAFE FALL >==
 [Statedef 5205]
 type = A
 physics = N
@@ -3142,15 +3142,15 @@ trigger1 = time >= 60
 value = 5210
 
 
-;===========================================================================
-;===============================< -2 STATES >=================================
-;===========================================================================
+;===
+;===< -2 STATES >=
+;===
 [Statedef -2]
 
 ;#ADD004BASIC PIEs#
-;//==========================
+;//==
 ;// add004-sctrls-start
-;//==========================
+;//==
 ;sys::-2::partners_standby ; ???????
 [state 0]
 	type=selfstate
@@ -3220,7 +3220,7 @@ value = 5210
 	time=1
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;;>>@Config.Face>>
 ;sys::-2::face_d ; portrait (?)
 [state 0]
@@ -3255,7 +3255,7 @@ value = 5210
 	id=490600
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;;>>@Config.Camera>>
 ;sys::-2::camera_nc ; ????
 [state 0]
@@ -3281,7 +3281,7 @@ value = 5210
 	movecamera=0,0 ;; [x,y]
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;sys::-2::add.option2-noko
 [state 0] ;; opt-noko
 	type=assertspecial
@@ -3300,7 +3300,7 @@ value = 5210
 	kill=0
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;// optional settings
 ;sys::-2::guard_crush_fx ; ????????
 [state 0]
@@ -3362,9 +3362,9 @@ value = 5210
 	trigger1=playerid(id-3),ishelper=0 && playerid(id-3),teamside=teamside
 	x=const240p(144)*ifelse(teamside=1,-1,1)
 
-;//==========================
+;//==
 ;// add004-sctrls-end
-;//==========================
+;//==
 
 
 [State -2, AssertSpecial]
@@ -3625,7 +3625,7 @@ postype = right
 ;1aD§3oE?I?OA
 ;--------------------------------------------------------------
 [Statedef 23680]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3669,7 +3669,7 @@ pos = (1+ifelse(Parent,fvar(36) = 1,-1,0)+ifelse(Parent,fvar(36) = 2,-2,0))*ifel
 ;1aD§×o
 ;--------------------------------------------------------------
 [Statedef 23681]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3694,7 +3694,7 @@ value = SCA
 ;1aD§OO
 ;--------------------------------------------------------------
 [Statedef 23682]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3715,9 +3715,9 @@ fvar(40) = 2
 type = NotHitBy
 trigger1 = 1
 value = SCA
-;===========================================================================
-;===============================< -3 STATES >=================================
-;===========================================================================
+;===
+;===< -3 STATES >=
+;===
 [Statedef -3]
 
 [State -3, Gametime Var]

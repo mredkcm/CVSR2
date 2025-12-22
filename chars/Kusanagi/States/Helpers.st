@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Kyo Kusanagi by Jmorphman               |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<HELPER STATES>========================================
-;==============================================================================================
+;==
+;===<HELPER STATES>====
+;==
 
-;====================<PARRY HELPER>=========================
+;====<PARRY HELPER>=
 [StateDef 765]
 type = A
 physics = N
@@ -141,7 +141,7 @@ trigger2 = Time >= 2
 
 
 
-;=====================<100 SHIKI: ONIYAKI FLAMES>=========================
+;=<100 SHIKI: ONIYAKI FLAMES>=
 [StateDef 1205]
 type = A
 physics = N
@@ -179,7 +179,7 @@ trigger2 = Root, MoveType = H
 
 
 
-;====================<YAMI BARAI FIRE TRAIL>=========================
+;====<YAMI BARAI FIRE TRAIL>=
 [StateDef 1604]
 type = S
 physics = N
@@ -232,7 +232,7 @@ ignoreHitPause = 1
 
 
 
-;====================<YAMI BARAI PROJECTILE>=========================
+;====<YAMI BARAI PROJECTILE>=
 [StateDef 1605]
 type = A
 physics = N
@@ -641,7 +641,7 @@ trigger2 = Target, Time <= 1 && !(Target, HitShakeOver)
 
 
 
-;====================<YAMI BARAI PROJECTILE (REFLECTED)>=========================
+;====<YAMI BARAI PROJECTILE (REFLECTED)>=
 [StateDef 1615]
 type = A
 physics = N
@@ -876,7 +876,7 @@ trigger1 = FrontEdgeDist < -100 || BackEdgeDist < -100
 
 
 
-;====================<OROCHINAGI PROJECTILE>=========================
+;====<OROCHINAGI PROJECTILE>=
 [StateDef 3015]
 type = A
 physics = N
@@ -1279,7 +1279,7 @@ value = 1608
 
 
 
-;====================<OROCHINAGI PROJECTILE SHIELD>=========================
+;====<OROCHINAGI PROJECTILE SHIELD>=
 [StateDef 3056]
 type = A
 physics = N
@@ -1327,7 +1327,7 @@ trigger2 = Root, MoveType = H
 
 
 
-;====================<MU-SHIKI FIRE PILLAR>=========================
+;====<MU-SHIKI FIRE PILLAR>=
 [StateDef 3105]
 type = A
 physics = N
@@ -1605,7 +1605,7 @@ value = 1608
 
 
 
-;========================<ZERO SHIKI DOKUGAMI AFTERIMAGE>=============================
+;====<ZERO SHIKI DOKUGAMI AFTERIMAGE>=
 [StateDef 3405]
 type = A
 physics = N
@@ -1848,7 +1848,7 @@ value = 1608
 
 
 
-;========================<ZERO SHIKI TSUMI YOMI AFTERIMAGE>=============================
+;====<ZERO SHIKI TSUMI YOMI AFTERIMAGE>=
 [StateDef 3406]
 type = A
 physics = N
@@ -2091,7 +2091,7 @@ value = 1608
 
 
 
-;========================<ZERO SHIKI BATSU YOMI AFTERIMAGE>=============================
+;====<ZERO SHIKI BATSU YOMI AFTERIMAGE>=
 [StateDef 3407]
 type = A
 physics = N
@@ -2351,7 +2351,7 @@ value = 1608
 
 
 
-;========================<BURNING KYO AFTERIMAGE HELPER>=============================
+;====<BURNING KYO AFTERIMAGE HELPER>=
 [StateDef 13000]
 type = A
 physics = N
@@ -2467,7 +2467,7 @@ var(10) = 1
 
 
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -3457,7 +3457,7 @@ trigger1 = Time >= 8
 
 
 
-;======================<JUMP DUST>===========================
+;==<JUMP DUST>===
 [StateDef 8100]
 type = S
 anim = 1
@@ -3496,7 +3496,7 @@ trigger1 = Time >= 7
 
 
 
-;======================<DASH DUST>===========================
+;==<DASH DUST>===
 [StateDef 8103]
 type = A
 anim = 1
@@ -3558,7 +3558,7 @@ trigger1 = !NumExplod
 
 
 
-;======================<IMPACT DUST>===========================
+;==<IMPACT DUST>===
 [StateDef 8110]
 type = A
 anim = 1
@@ -3604,7 +3604,7 @@ trigger1 = !NumExplod
 
 
 
-;========================<FLAMES>=============================
+;====<FLAMES>=
 [StateDef 8150]
 type = A
 velSet = 0,0
@@ -3691,7 +3691,7 @@ ownpal = 1
 
 
 
-;========================<RECOVER FX>=============================
+;====<RECOVER FX>=
 [StateDef 8200]
 type = A
 velSet = 0,0
@@ -3723,7 +3723,7 @@ trigger1 = Time >= 15
 
 
 
-;========================<COUNTER FX>=============================
+;====<COUNTER FX>=
 [StateDef 8290]
 type = A
 physics = N
@@ -3769,7 +3769,7 @@ trigger1 = Time >= 16
 
 
 
-;==================<POWER CHARGE FX>==================
+;==<POWER CHARGE FX>==
 ;Aura and Dust
 [StateDef 8330]
 type = A
@@ -3878,7 +3878,7 @@ trigger1 = Root, StateNo != 730
 
 
 
-;==================<ZERO COUNTER FX>==================
+;==<ZERO COUNTER FX>==
 [StateDef 8350]
 type = A
 physics = N
@@ -3930,7 +3930,7 @@ trigger1 = Time >= 16
 
 
 
-;========================<CUSTOM COMBO>=============================
+;====<CUSTOM COMBO>=
 [StateDef 8400]
 type = A
 physics = N
@@ -4036,7 +4036,7 @@ trigger1 = Time >= 26
 
 
 
-;========================<SUPER PAUSE FX>=============================
+;====<SUPER PAUSE FX>=
 ;Level 1 Super FX
 [StateDef 8500]
 type = A
@@ -4480,7 +4480,7 @@ trigger1 = Time >= 40
 
 
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [StateDef 8600]
 type = A
 velSet = 0,0
@@ -4651,7 +4651,7 @@ trigger1 = RoundState < 3
 
 
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0
@@ -4670,7 +4670,7 @@ trigger1 = RoundState = 2
 
 
 
-;========================<EXPLODSIVE BUFFERING HELPER>=============================
+;====<EXPLODSIVE BUFFERING HELPER>=
 [StateDef 90000005]
 type = A
 physics = N

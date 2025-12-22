@@ -1,11 +1,11 @@
 ; _______________________________________
 ;| Raiden by Knuckles8864                |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<HELPER STATES>========================================
-;==============================================================================================
+;==
+;===<HELPER STATES>====
+;==
 
-;====================<PARRY HELPER>=========================
+;====<PARRY HELPER>=
 [StateDef 765]
 type = A
 physics = N
@@ -117,7 +117,7 @@ trigger2 = Time >= 2
 
 
 
-;=====================<POISON BREATH PROJECTILE>=========================
+;=<POISON BREATH PROJECTILE>=
 [StateDef 1105]
 type = S
 physics = N
@@ -413,7 +413,7 @@ trigger2 = Target, Time <= 1 && !(Target, HitShakeOver)
 
 
 
-;====================<EX POISON BREATH PROJECTILE>=========================
+;====<EX POISON BREATH PROJECTILE>=
 [StateDef 1135]
 type = S
 physics = N
@@ -559,7 +559,7 @@ ignoreHitPause = 1
 
 ;Stand get-hit (shaking)
 [Statedef 3205]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -607,7 +607,7 @@ value = 3206
 
 ;P2 Position
 [Statedef 1140]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -622,7 +622,7 @@ ctrl = 1
 
 
 
-;========================<FLAME BREATH PROJECTILE>=============================
+;====<FLAME BREATH PROJECTILE>=
 [StateDef 3105]
 type = S
 physics = N
@@ -926,7 +926,7 @@ value = 1108
 
 
 
-;========================<MAX FLAME BREATH PROJECTILE>=============================
+;====<MAX FLAME BREATH PROJECTILE>=
 [StateDef 3155]
 type = S
 physics = N
@@ -1206,7 +1206,7 @@ trigger1 = FrontEdgeDist < -100 || BackEdgeDist < -100
 
 
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -2195,7 +2195,7 @@ trigger1 = Time >= 8
 
 
 
-;======================<JUMP DUST>===========================
+;==<JUMP DUST>===
 [StateDef 8100]
 type = S
 anim = 1
@@ -2234,7 +2234,7 @@ trigger1 = Time >= 7
 
 
 
-;======================<DASH DUST>===========================
+;==<DASH DUST>===
 [StateDef 8103]
 type = A
 anim = 1
@@ -2296,7 +2296,7 @@ trigger1 = !NumExplod
 
 
 
-;======================<IMPACT DUST>===========================
+;==<IMPACT DUST>===
 [StateDef 8110]
 type = A
 anim = 1
@@ -2342,7 +2342,7 @@ trigger1 = !NumExplod
 
 
 
-;========================<POISON "FLAMES">=============================
+;====<POISON "FLAMES">=
 [StateDef 8150]
 type = A
 velSet = 0,0
@@ -2411,7 +2411,7 @@ trigger3 = PlayerID(var(0)), StateType = L && (PlayerID(var(0)), StateNo != [508
 
 
 
-;========================<FLAMES>=============================
+;====<FLAMES>=
 [StateDef 8155]
 type = A
 velSet = 0,0
@@ -2480,7 +2480,7 @@ trigger3 = PlayerID(var(0)), StateType = L && (PlayerID(var(0)), StateNo != [508
 
 
 
-;========================<RECOVER FX>=============================
+;====<RECOVER FX>=
 [StateDef 8200]
 type = A
 velSet = 0,0
@@ -2512,7 +2512,7 @@ trigger1 = Time >= 15
 
 
 
-;========================<COUNTER FX>=============================
+;====<COUNTER FX>=
 [StateDef 8290]
 type = A
 physics = N
@@ -2558,7 +2558,7 @@ trigger1 = Time >= 16
 
 
 
-;==================<POWER CHARGE FX>==================
+;==<POWER CHARGE FX>==
 ;Aura and Dust
 [StateDef 8330]
 type = A
@@ -2667,7 +2667,7 @@ trigger1 = Root, StateNo != 730
 
 
 
-;==================<ZERO COUNTER FX>==================
+;==<ZERO COUNTER FX>==
 [StateDef 8350]
 type = A
 physics = N
@@ -2719,7 +2719,7 @@ trigger1 = Time >= 16
 
 
 
-;========================<CUSTOM COMBO>=============================
+;====<CUSTOM COMBO>=
 [StateDef 8400]
 type = A
 physics = N
@@ -2825,7 +2825,7 @@ trigger1 = Time >= 26
 
 
 
-;========================<SUPER PAUSE FX>=============================
+;====<SUPER PAUSE FX>=
 ;Level 1 Super FX
 [StateDef 8500]
 type = A
@@ -3269,7 +3269,7 @@ trigger1 = Time >= 40
 
 
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [StateDef 8600]
 type = A
 velSet = 0,0
@@ -3430,7 +3430,7 @@ trigger1 = RoundState < 3
 
 
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0
@@ -3448,7 +3448,7 @@ trigger1 = RoundState = 2
 
 
 
-;========================<EXPLODSIVE BUFFERING HELPER>=============================
+;====<EXPLODSIVE BUFFERING HELPER>=
 [StateDef 90000005]
 type = A
 physics = N

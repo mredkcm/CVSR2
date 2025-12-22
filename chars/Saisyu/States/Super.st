@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Saisyu Kusanagi by Lurker               |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<URA 108 SHIKI: OROCHINAGI>=============================
+;====<URA 108 SHIKI: OROCHINAGI>=
 [StateDef 3000]
 type = S
 physics = S
@@ -258,7 +258,7 @@ ctrl = 1
 
 
 
-;========================<MAX URA 108 SHIKI: OROCHINAGI>=============================
+;====<MAX URA 108 SHIKI: OROCHINAGI>=
 [StateDef 3050]
 type = S
 physics = S
@@ -574,7 +574,7 @@ value = 0
 ctrl = 1
 
 
-;========================<1127 SHIKI: TSUMUGARI >=============================
+;====<1127 SHIKI: TSUMUGARI >=
 [StateDef 3100]
 type = S
 physics = S
@@ -807,7 +807,7 @@ type = S
 physics = S
 moveType = A
 anim = 3102
-velSet  = 0,0
+velSet = 0,0
 sprPriority = 1
 ctrl = 0
 
@@ -950,7 +950,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<MAX TSUMUGARI >=============================
+;====<MAX TSUMUGARI >=
 [StateDef 3150]
 type = S
 physics = S
@@ -1508,7 +1508,7 @@ ctrl = 1
 
 
 
-;========================<AKAI TEN BARAI>=============================
+;====<AKAI TEN BARAI>=
 [StateDef 3200]
 type = S
 physics = S
@@ -1628,7 +1628,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<CHOU YAMI BARAI>=============================
+;====<CHOU YAMI BARAI>=
 [StateDef 3250]
 type = S
 physics = S
@@ -1750,7 +1750,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<SAISHU KESSEN OUGI: "HOMURA NO KEN">=============================
+;====<SAISHU KESSEN OUGI: "HOMURA NO KEN">=
 [StateDef 3300]
 type = S
 physics = S
@@ -2329,7 +2329,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<HATSUGANE>==========
+;===<HATSUGANE>==
 [StateDef 3303]
 type = A
 physics = N
@@ -2659,7 +2659,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<HATSUGANE (TARGET)>==========
+;===<HATSUGANE (TARGET)>==
 ;Being Hit
 [StateDef 3304]
 type = A

@@ -1,11 +1,11 @@
 ; ________________________________________
 ;| Gouki by Phantom.of.the.Server and Mwryly |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;=====================================< SPECIAL STATES >=======================================
-;============================================================================================
+;====
+;=< SPECIAL STATES >===
+;====
 
-;======================< HADOU KEN >=============================
+;==< HADOU KEN >=
 [Statedef 1000]
 type = S
 physics = S
@@ -76,7 +76,7 @@ value = 0
 ctrl = 1
 
 
-;======================< SHAKUNETSU HADOU KEN >=============================
+;==< SHAKUNETSU HADOU KEN >=
 [Statedef 1020]
 type = S
 physics = S
@@ -189,7 +189,7 @@ type = changestate
 trigger1 = !animtime
 value = 0
 ctrl = 1
-;======================< ZANKUU HADOU KEN >=============================
+;==< ZANKUU HADOU KEN >=
 [Statedef 1050]
 type = A
 physics = N
@@ -402,7 +402,7 @@ type = ChangeState
 trigger1 = Pos Y >= 0 && Vel Y > 0
 value = 52
 
-;======================< GOU SHORYUU KEN >=============================
+;==< GOU SHORYUU KEN >=
 [Statedef 1100]
 type = S
 physics = S
@@ -787,7 +787,7 @@ type = statetypeset
 trigger1 = anim = 1101
 movetype = I
 
-;======================< TATSUMAKI ZANKUU KYAKU >=============================
+;==< TATSUMAKI ZANKUU KYAKU >=
 [Statedef 1200]
 type = A
 physics = N
@@ -1060,7 +1060,7 @@ type = statetypeset
 trigger1 = anim = 1205
 movetype = I
 
-;======================< KUUCHUU TATSUMAKI ZANKUU KYAKU >=============================
+;==< KUUCHUU TATSUMAKI ZANKUU KYAKU >=
 [Statedef 1250]
 type = A
 physics = A
@@ -1235,7 +1235,7 @@ trigger1 = animelemtime(27) >= 0
 movetype = I
 
 
-;======================< HYAKKI SHU >=============================
+;==< HYAKKI SHU >=
 [Statedef 1300]
 type = A
 physics = N
@@ -1337,7 +1337,7 @@ trigger1 = vel y > 0 && pos y >= -30
 value = 1305
 
 
-;=========< HYAKKI GOU SHOU >==========
+;=< HYAKKI GOU SHOU >==
 [Statedef 1301]
 type = A
 movetype = A
@@ -1525,7 +1525,7 @@ type = statetypeset
 trigger1 = animelemtime(7) >= 0
 movetype = I
 
-;=========< HYAKKI GOU JIN >==========
+;=< HYAKKI GOU JIN >==
 [Statedef 1302]
 type = A
 physics = N
@@ -1677,7 +1677,7 @@ trigger1 = pos y >= 0
 value = 52
 
 
-;=========< HYAKKI GOU DAN >==========
+;=< HYAKKI GOU DAN >==
 [Statedef 1303]
 type = A
 movetype = A
@@ -1866,7 +1866,7 @@ value = 0
 ctrl = 1
 
 
-;=========< HYAKKI GOU ZAN >==========
+;=< HYAKKI GOU ZAN >==
 [Statedef 1305]
 type = A
 movetype = A
@@ -1987,7 +1987,7 @@ value = 0
 ctrl = 1
 
 
-;======================< HYAKKI GOUSAI >=============================
+;==< HYAKKI GOUSAI >=
 ;--- PLAYER ---
 [Statedef 1320]
 type = A
@@ -2234,7 +2234,7 @@ trigger1 = pos y >= (-32 - (const(size.head.pos.y) - const(size.mid.pos.y)))
 value = 5100
 
 
-;======================< HYAKKI GOU TSUI >=============================
+;==< HYAKKI GOU TSUI >=
 ;--- PLAYER ---
 [Statedef 1330]
 type = A
@@ -2482,7 +2482,7 @@ value = 5100
 
 
 [Statedef 1350]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 1350
@@ -2613,9 +2613,9 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;====================================================================
+;====
 [Statedef 1360]
-type    = S
+type = S
 movetype= H
 physics = N
 ctrl = 0
@@ -2633,9 +2633,9 @@ type = ChangeAnim2
 Trigger1 = !time
 value = 1360
 
-;====================================================================
+;====
 [Statedef 1370]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = -6,-4
@@ -2661,7 +2661,7 @@ type = SelfState
 trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 5100
-;======================< ASHURA SENKUU >=============================
+;==< ASHURA SENKUU >=
 [Statedef 1400]
 type = S
 physics = N
@@ -2765,7 +2765,7 @@ trigger3 = animelemtime(6) > 0 && vel x > 0 && frontedgebodydist <= 0
 value = 0
 ctrl = 1
 
-;======================< ZENPOU TENSHIN >=============================
+;==< ZENPOU TENSHIN >=
 [Statedef 1450]
 type = S
 physics = N
@@ -2876,7 +2876,7 @@ trigger1 = anim = 1451 && !animtime
 value = 0
 ctrl = 1
 
-;======================< TENMA SHURETTOU >=============================
+;==< TENMA SHURETTOU >=
 ;--- POSE ---
 [Statedef 1500]
 type = S

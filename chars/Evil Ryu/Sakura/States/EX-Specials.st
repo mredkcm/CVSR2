@@ -1,11 +1,11 @@
 ; _________________________________
 ;| Sakura by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;===================================< EX SPECIAL STATES >======================================
-;============================================================================================
+;====
+;===< EX SPECIAL STATES >==
+;====
 
-;======================< HADOU SHOU >=============================
+;==< HADOU SHOU >=
 [Statedef 1010]
 type = S
 physics = S
@@ -87,7 +87,7 @@ value = 0
 ctrl = 1
 
 
-;======================< TENGYOU HADOU SHOU >=============================
+;==< TENGYOU HADOU SHOU >=
 [Statedef 1030]
 type = S
 physics = S
@@ -169,7 +169,7 @@ value = 0
 ctrl = 1
 
 
-;======================< SHOUOU KEN >=============================
+;==< SHOUOU KEN >=
 [Statedef 1110]
 type = S
 physics = N
@@ -455,7 +455,7 @@ value = 3, 7
 channel = 0
 
 
-;======================< SHUNPUU KYAKU >=============================
+;==< SHUNPUU KYAKU >=
 [Statedef 1210]
 type = S
 physics = S
@@ -668,7 +668,7 @@ value = 0
 ctrl = 1
 
 
-;======================< SHUNPUU REN KYAKU >=============================
+;==< SHUNPUU REN KYAKU >=
 [Statedef 1230]
 type = S
 physics = S
@@ -793,7 +793,7 @@ value = 0
 ctrl = 1
 
 
-;======================< KUUCHUU SHUNPUU KYAKU >=============================
+;==< KUUCHUU SHUNPUU KYAKU >=
 [Statedef 1260]
 type = A
 physics = N
@@ -951,7 +951,7 @@ trigger1 = vel y > 0 && pos y >= 0
 value = ifelse(var(30) = -1, 1252, ifelse(var(30) = 2, 1230, ifelse(var(30) = 1, 1220, 52)))
 
 
-;========< TAUNT >==========
+;====< TAUNT >==
 [Statedef 1195]
 type = S
 movetype = A
@@ -1019,7 +1019,7 @@ value = 0
 ctrl = 1
 
 
-;======================< OUKA KYAKU >=============================
+;==< OUKA KYAKU >=
 [Statedef 1410]
 type = A
 physics = A

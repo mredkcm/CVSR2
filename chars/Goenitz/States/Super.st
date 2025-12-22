@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Goenitz by varo_hades                   |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<SHIN YAOTOME: MIZUCHI>=============================
+;====<SHIN YAOTOME: MIZUCHI>=
 [StateDef 3000]
 type = S
 physics = N
@@ -176,7 +176,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -65
 ground.type = low
 ground.slidetime = 17
-ground.hittime  = 20
+ground.hittime = 20
 guard.slidetime = 17
 guard.hittime = 17
 guard.ctrltime = 17
@@ -220,7 +220,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -60
 ground.type = low
 ground.slidetime = 17
-ground.hittime  = 20
+ground.hittime = 20
 guard.slidetime = 17
 guard.hittime = 17
 guard.ctrltime = 17
@@ -354,7 +354,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := -40
 ground.Type = Low
 ground.SlideTime = 17
-ground.HitTime  = 20
+ground.HitTime = 20
 guard.hitTime = 18
 ground.Velocity = -4
 Air.Velocity = -4
@@ -388,7 +388,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := -75
 ground.Type = High
 ground.SlideTime = 17
-ground.HitTime  = 20
+ground.HitTime = 20
 guard.hitTime = 18
 ground.Velocity = -4
 Air.Velocity = -4
@@ -454,7 +454,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := -130
 ground.Type = High
 ground.SlideTime = 9
-ground.HitTime  = 9
+ground.HitTime = 9
 ground.Velocity = 0
 Air.Velocity = 0
 Ground.cornerpush.veloff = 0;0
@@ -640,7 +640,7 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 5100
 
-;========================<MAX SHIN YAOTOME: MIZUCHI>=============================
+;====<MAX SHIN YAOTOME: MIZUCHI>=
 [StateDef 3050]
 type = S
 physics = N
@@ -824,7 +824,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -65
 ground.type = low
 ground.slidetime = 17
-ground.hittime  = 20
+ground.hittime = 20
 guard.slidetime = 17
 guard.hittime = 17
 guard.ctrltime = 17
@@ -868,7 +868,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -60
 ground.type = low
 ground.slidetime = 17
-ground.hittime  = 20
+ground.hittime = 20
 guard.slidetime = 17
 guard.hittime = 17
 guard.ctrltime = 17
@@ -955,7 +955,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := -40
 ground.Type = Low
 ground.SlideTime = 17
-ground.HitTime  = 20
+ground.HitTime = 20
 ground.Velocity = -4
 Air.Velocity = -4
 Ground.cornerpush.veloff = 0
@@ -988,7 +988,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := -75
 ground.Type = High
 ground.SlideTime = 17
-ground.HitTime  = 20
+ground.HitTime = 20
 ground.Velocity = -4
 Air.Velocity = -4
 Ground.cornerpush.veloff = 0
@@ -1064,7 +1064,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := -130
 ground.Type = High
 ground.SlideTime = 9
-ground.HitTime  = 9
+ground.HitTime = 9
 ground.Velocity = 0
 Air.Velocity = 0
 Ground.cornerpush.veloff = 0
@@ -1414,7 +1414,7 @@ type = SelfState
 trigger1 = !AnimTime
 value = 5050
 
-;========================<YAMIDOUKOKU>=============================
+;====<YAMIDOUKOKU>=
 [StateDef 3100]
 type = S
 physics = S
@@ -1795,7 +1795,7 @@ type = SelfState
 trigger1 = !AnimTime
 value = 5050
 
-;========================<MAX YAMIDOUKOKU>=============================
+;====<MAX YAMIDOUKOKU>=
 [StateDef 3150]
 type = S
 physics = S
@@ -2099,7 +2099,7 @@ trigger1 = !AnimTime
 value = 0
 Ctrl = 1
 
-;========================<FUUJIN IBUKI>=============================
+;====<FUUJIN IBUKI>=
 [StateDef 3200]
 type = S
 physics = N
@@ -2257,7 +2257,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := -60
 ground.type = low
 ground.slidetime = 17
-ground.hittime  = 25
+ground.hittime = 25
 guard.slidetime = 17
 guard.hittime = 17
 guard.ctrltime = 17
@@ -2307,7 +2307,7 @@ Physics = N
 Anim = 3205
 Velset = 1.5,0
 Ctrl = 0
-Juggle  = 0
+Juggle = 0
 
 [State 200, NOThit]
 Type = NotHitBy
@@ -2373,7 +2373,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := -40
 ground.Type = Low
 ground.slidetime = 17
-ground.hittime  = 25
+ground.hittime = 25
 guard.slidetime = 17
 guard.hittime = 17
 guard.ctrltime = 17
@@ -2414,7 +2414,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := -50
 ground.Type = High
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.slidetime = 17
 guard.hittime = 17
 guard.ctrltime = 17
@@ -2475,7 +2475,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 120), var(36) := -105
 ground.Type = High
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.slidetime = 17
 guard.hittime = 17
 guard.ctrltime = 17
@@ -2543,7 +2543,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<MAX FUUJIN IBUKI>=============================
+;====<MAX FUUJIN IBUKI>=
 [StateDef 3250]
 type = S
 physics = N
@@ -2701,7 +2701,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := -60
 ground.type = low
 ground.slidetime = 17
-ground.hittime  = 25
+ground.hittime = 25
 guard.slidetime = 17
 guard.hittime = 17
 guard.ctrltime = 17
@@ -2751,7 +2751,7 @@ Physics = N
 Anim = 3207
 Velset = 1.5,0
 Ctrl = 0
-Juggle  = 0
+Juggle = 0
 
 [State 200, NOThit]
 Type = NotHitBy
@@ -2817,7 +2817,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := -40
 ground.Type = Low
 ground.slidetime = 17
-ground.hittime  = 25
+ground.hittime = 25
 guard.slidetime = 17
 guard.hittime = 17
 guard.ctrltime = 17
@@ -2858,7 +2858,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := -50
 ground.Type = High
 ground.slidetime = 17
-ground.hittime  = 25
+ground.hittime = 25
 guard.slidetime = 17
 guard.hittime = 17
 guard.ctrltime = 17
@@ -2899,7 +2899,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := -40
 ground.Type = Low
 ground.slidetime = 17
-ground.hittime  = 25
+ground.hittime = 25
 guard.slidetime = 17
 guard.hittime = 17
 guard.ctrltime = 17
@@ -2940,7 +2940,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 143), var(36) := -50
 ground.Type = High
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.slidetime = 17
 guard.hittime = 17
 guard.ctrltime = 17
@@ -3001,7 +3001,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 120), var(36) := -105
 ground.Type = High
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.slidetime = 17
 guard.hittime = 17
 guard.ctrltime = 17
@@ -3069,7 +3069,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;==============================SUPER YAMIDOUKOKU>=============================
+;==SUPER YAMIDOUKOKU>=
 [Statedef 3300]
 type = S
 physics = S
@@ -3477,7 +3477,7 @@ ctrl = 1
 
 ;Super Yamidoukoku P2 grabbed
 [Statedef 3320]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3500,7 +3500,7 @@ value = 3320
 
 ;Super Yamidoukoku P2 launched
 [Statedef 3325]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

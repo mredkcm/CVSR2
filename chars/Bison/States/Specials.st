@@ -1,11 +1,11 @@
 ; _______________________________
 ;| Vega by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;=====================================< SPECIAL STATES >=======================================
-;============================================================================================
+;====
+;=< SPECIAL STATES >===
+;====
 
-;======================< PSYCHO CRUSHER >=============================
+;==< PSYCHO CRUSHER >=
 [Statedef 1000]
 type = S
 physics = S
@@ -251,7 +251,7 @@ value = 0
 ctrl = 1
 
 
-;======================< DOUBLE KNEE PRESS >=============================
+;==< DOUBLE KNEE PRESS >=
 [Statedef 1100]
 type = S
 physics = N
@@ -440,7 +440,7 @@ value = 0
 ctrl = 1
 
 
-;======================< HEAD PRESS >=============================
+;==< HEAD PRESS >=
 [Statedef 1200]
 type = S
 physics = N
@@ -688,7 +688,7 @@ value = 0
 ctrl = 1
 
 
-;======================< SOMERSAULT SKULL DIVER >=============================
+;==< SOMERSAULT SKULL DIVER >=
 [Statedef 1205]
 type = A
 movetype = A
@@ -789,7 +789,7 @@ trigger1 = vel y > 0 && pos y >= 0
 value = 52
 
 
-;======================< DEVIL REVERSE >=============================
+;==< DEVIL REVERSE >=
 [Statedef 1250]
 type = S
 physics = N
@@ -979,7 +979,7 @@ trigger1 = vel y > 0 && pos y >= -ceil(vel y)
 value = 52
 
 
-;======================< PSYCHO IMPACT >=============================
+;==< PSYCHO IMPACT >=
 [Statedef 1300]
 type = S
 physics = S
@@ -1176,7 +1176,7 @@ value = 0
 ctrl = 1
 
 
-;======================< PSYCHO BANISH >=============================
+;==< PSYCHO BANISH >=
 [Statedef 1400]
 type = S
 physics = S
@@ -1327,7 +1327,7 @@ value = 0
 ctrl = 1
 
 
-;======================< PSYCHO FIELD >=============================
+;==< PSYCHO FIELD >=
 [Statedef 1600]
 type = S
 physics = S
@@ -1378,7 +1378,7 @@ value = 0
 ctrl = 1
 
 
-;======================< VEGA WARP >=============================
+;==< VEGA WARP >=
 [Statedef 1700]
 type = S
 physics = N

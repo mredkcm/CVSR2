@@ -1,16 +1,16 @@
 ; _______________________________________
 ;| Dudley by Dick Buckus & Mr.Ansatsuken |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;=====================================< HYPER STATES >=========================================
-;============================================================================================
+;====
+;=< HYPER STATES >=
+;====
 
 ; Corkscrew Blow
 [Statedef 3000]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 anim = 3000
 ctrl = 0
@@ -127,21 +127,21 @@ removeongethit = 0
 type = HitDef
 trigger1 = animelem=13||animelem=14||animelem=15||animelem=16
 attr = S, HA
-animtype  = Hard
-damage    = 45,10
-getpower  = 0
-priority  = 6
+animtype = Hard
+damage = 45,10
+getpower = 0
+priority = 6
 guardflag = MA
 hitflag = MAF
 pausetime = 4,16
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-60
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 30
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = -3, -3
 air.velocity = -3,-1
 p2facing = 1
@@ -155,21 +155,21 @@ fall.recover = 0
 type = HitDef
 trigger1 = animelem=17
 attr = S, HA
-animtype  = Hard
-damage    = 46,10
-getpower  = 0
-priority  = 6
+animtype = Hard
+damage = 46,10
+getpower = 0
+priority = 6
 guardflag = MA
 hitflag = MAF
 pausetime = 12,12
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-60
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 30
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = -9, -4
 air.velocity = -8.7,-2
 p2facing = 1
@@ -192,7 +192,7 @@ ctrl = 1
 ;--------------------------------------------------------------------------------
 ; Rocket Uppercut
 [Statedef 3010]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0, 0
@@ -319,8 +319,8 @@ type = HitDef
 triggerall = anim = 3010
 trigger1 = animelem = 6
 attr = S, HA
-animtype  = Up
-damage    = 19, 4
+animtype = Up
+damage = 19, 4
 getpower = 25,25
 priority=4,Hit
 guardflag = MA
@@ -329,11 +329,11 @@ pausetime = 12,12
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-69
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -1,-9.3
 guard.velocity = -6
 air.velocity = -1,-9.3
@@ -350,8 +350,8 @@ type = HitDef
 triggerall = anim = 3010
 trigger1 = AnimElem >= 7
 attr = A, HA
-animtype  = Up
-damage    = 19, 4
+animtype = Up
+damage = 19, 4
 getpower = 0
 priority=4,Hit
 guardflag = MA
@@ -360,11 +360,11 @@ pausetime = 12,12
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-110
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -1,-7
 guard.velocity = -6
 air.velocity = -1,-6.3
@@ -447,11 +447,11 @@ y = 1.5
 type = HitDef
 trigger1 = AnimElem = 20
 attr = A, HA
-animtype  = Heavy
-air.animtype  = Up
+animtype = Heavy
+air.animtype = Up
 damage=19, 4
 getpower = 0,0
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 6,6
@@ -462,7 +462,7 @@ hitsound = S2,3
 guardsound = S6,0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -1,-11.2
 guard.velocity = -8
@@ -528,8 +528,8 @@ y = .5
 type = HitDef
 trigger1 = animelem = 34
 attr = S, HA
-animtype  = Up
-damage    = 19, 4
+animtype = Up
+damage = 19, 4
 getpower = 0
 priority=4,Hit
 guardflag = MA
@@ -538,11 +538,11 @@ pausetime = 4,4
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-69
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -1,-9.3
 guard.velocity = -6
 air.velocity = 0,-7.3
@@ -558,8 +558,8 @@ fall.recover = 0
 type = HitDef
 trigger1 = AnimElem=35||animelem=37||animelem=40||animelem=41||animelem=43||animelem=44||animelem=47
 attr = A, HA
-animtype  = Up
-damage    = 19, 4
+animtype = Up
+damage = 19, 4
 getpower = 0
 priority=4,Hit
 guardflag = MA
@@ -568,11 +568,11 @@ pausetime = 4,4
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-110
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -1,-6.3
 ground.cornerpush.veloff x = 0
 guard.velocity = -6
@@ -589,8 +589,8 @@ fall.recover = 0
 type = HitDef
 trigger1 = animelem=48
 attr = A, HA
-animtype  = Up
-damage    = 22, 4
+animtype = Up
+damage = 22, 4
 getpower = 0
 priority=4,Hit
 guardflag = MA
@@ -599,11 +599,11 @@ pausetime = 4,4
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-110
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -4,-6.3
 ground.cornerpush.veloff x = -30
 guard.velocity = -6
@@ -817,10 +817,10 @@ trigger1 = Anim = 3050 && (AnimElem = 5 || AnimElem = 13)
 attr = S, HA
 guardflag = M
 hitflag = MAF
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Low
 priority = 6
-getpower  = 0
+getpower = 0
 damage = 47, 12
 pausetime = 8, 8
 sparkno = -1 * (var(10):=8014)**0
@@ -832,7 +832,7 @@ air.type = Low
 forcestand = 1
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 14
+ground.hittime = 14
 ground.velocity = -2
 ground.cornerpush.veloff = -2
 air.velocity = -1, -5
@@ -893,10 +893,10 @@ trigger3 = (Anim = 3053 && (AnimElem = 7 || AnimElem = 17))
 attr = S, HA
 guardflag = M
 hitflag = MAF
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Low
 priority = 6
-getpower  = 0
+getpower = 0
 damage = 43, 15
 pausetime = 4, 10
 sparkno = -1 * (var(10):=8014)**0
@@ -907,7 +907,7 @@ guardsound = S6, 0
 air.type = Low
 ground.type = Low
 ground.slidetime = 8
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = 0,0
 ground.cornerpush.veloff = 0
 air.velocity =0, -2.6
@@ -1013,8 +1013,8 @@ trigger1 = AnimElem = 7
 attr = S, HA
 hitflag = MAF
 guardflag = M
-getpower  = 0
-animtype  = Heavy
+getpower = 0
+animtype = Heavy
 air.animtype = Up
 priority = 6
 damage = 47, 12
@@ -1026,7 +1026,7 @@ hitsound = S2,3
 guardsound = S6, 0
 air.type = High
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -8, -10
 air.velocity = -5, -5
 fall = 1
@@ -1055,7 +1055,7 @@ ctrl = 1
 ;--------------------------------------------------------------------------------
 ; MAX Rocket Uppercut
 [Statedef 3100]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0, 0
@@ -1182,8 +1182,8 @@ type = HitDef
 triggerall = anim = 3100
 trigger1 = animelem = 6
 attr = S, HA
-animtype  = Up
-damage    = 19, 4
+animtype = Up
+damage = 19, 4
 getpower = 25,25
 priority=4,Hit
 guardflag = M;MA
@@ -1192,11 +1192,11 @@ pausetime = 12,12
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-69
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -1,-12
 guard.velocity = -6
 air.velocity = -1,-12
@@ -1213,8 +1213,8 @@ type = HitDef
 triggerall = anim = 3100
 trigger1 = AnimElem >= 7
 attr = A, HA
-animtype  = Up
-damage    = 19, 4
+animtype = Up
+damage = 19, 4
 getpower = 0
 priority=4,Hit
 guardflag = M;MA
@@ -1223,11 +1223,11 @@ pausetime = 12,12
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-110
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -1,-9
 guard.velocity = -6
 air.velocity = -1,-8.5
@@ -1310,11 +1310,11 @@ y = .7
 type = HitDef
 trigger1 = AnimElem = 19
 attr = A, HA
-animtype  = Heavy
-air.animtype  = Up
+animtype = Heavy
+air.animtype = Up
 damage=19, 4
 getpower = 0,0
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M;M
 pausetime = 6,6
@@ -1325,7 +1325,7 @@ hitsound = S2,3
 guardsound = S6,0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -1,-12.5
 guard.velocity = -8
@@ -1349,11 +1349,11 @@ envshake.ampl=4
 type = HitDef
 trigger1 = AnimElem = 20
 attr = A, HA
-animtype  = Heavy
-air.animtype  = Up
+animtype = Heavy
+air.animtype = Up
 damage=19, 4
 getpower = 0,0
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M;M
 pausetime = 6,6
@@ -1364,7 +1364,7 @@ hitsound = S2,3
 guardsound = S6,0
 ground.type = Low
 ground.slidetime = 20
-ground.hittime  = 20
+ground.hittime = 20
 guard.ctrltime = 20
 ground.velocity = -1,-12.5
 guard.velocity = -8
@@ -1444,8 +1444,8 @@ y = .6
 type = HitDef
 trigger1 = animelem = 34
 attr = S, HA
-animtype  = Up
-damage    = 19, 4
+animtype = Up
+damage = 19, 4
 getpower = 0
 priority=4,Hit
 guardflag = M;MA
@@ -1454,11 +1454,11 @@ pausetime = 12,12
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-69
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -1,-9.3
 guard.velocity = -6
 air.velocity = 0,-7.3
@@ -1474,8 +1474,8 @@ fall.recover = 0
 type = HitDef
 trigger1 = AnimElem=35||AnimElem=36||animelem=37||animelem=38||animelem=39||animelem=40||animelem=41||animelem=43||animelem=44||animelem=47
 attr = A, HA
-animtype  = Up
-damage    = 24, 4
+animtype = Up
+damage = 24, 4
 getpower = 0
 priority=4,Hit
 guardflag = M;MA
@@ -1484,11 +1484,11 @@ pausetime = 4,4
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-110
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -1,-7.5
 ground.cornerpush.veloff x = 0
 guard.velocity = -6
@@ -1505,8 +1505,8 @@ fall.recover = 0
 type = HitDef
 trigger1 = animelem=48
 attr = A, HA
-animtype  = Up
-damage    = 24, 4
+animtype = Up
+damage = 24, 4
 getpower = 0
 priority=4,Hit
 guardflag = M;MA
@@ -1515,11 +1515,11 @@ pausetime = 4,4
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-110
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 15
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -4,-6.3
 ground.cornerpush.veloff x = -30
 guard.velocity = -6
@@ -1741,10 +1741,10 @@ trigger1 = Anim = 3200 && (AnimElem = 5 || AnimElem = 13)
 attr = S, HA
 guardflag = H;M
 hitflag = MAF
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Low
 priority = 6
-getpower  = 0
+getpower = 0
 damage = 47, 12
 pausetime = 8, 8
 sparkno = -1 * (var(10):=8014)**0
@@ -1756,7 +1756,7 @@ air.type = Low
 forcestand = 1
 ground.type = Low
 ground.slidetime = 12
-ground.hittime  = 14
+ground.hittime = 14
 p2facing = 1
 ground.velocity = -2
 ground.cornerpush.veloff = -2
@@ -1856,10 +1856,10 @@ trigger3 = (Anim = 3203 && (AnimElem = 7 || AnimElem = 17))
 attr = S, HA
 guardflag = H;M
 hitflag = MAF
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Low
 priority = 6
-getpower  = 0
+getpower = 0
 p2facing = 1
 damage = 43, 13
 pausetime = 4, ifelse((anim=3206 && (animelem = 7 || animelem = 17)), 40, 10)
@@ -1871,7 +1871,7 @@ guardsound = S6, 0
 air.type = Low
 ground.type = Low
 ground.slidetime = 8
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = 0,0
 ground.cornerpush.veloff = 0
 air.velocity =0, 0
@@ -1894,10 +1894,10 @@ trigger2 = (Anim = 3206 && (AnimElem = 7 || AnimElem = 17))
 attr = S, HA
 guardflag = H;M
 hitflag = MAF
-animtype  = Heavy
+animtype = Heavy
 air.animtype = Low
 priority = 6
-getpower  = 0
+getpower = 0
 p2facing = 1
 damage = 43, 13
 pausetime = 14, ifelse((anim=3206 && (animelem = 7 || animelem = 17)), 40, 10)
@@ -1909,7 +1909,7 @@ guardsound = S6, 0
 air.type = Low
 ground.type = Low
 ground.slidetime = 8
-ground.hittime  = 30
+ground.hittime = 30
 ground.velocity = 0,0
 ground.cornerpush.veloff = 0
 air.velocity =0, 0
@@ -2028,8 +2028,8 @@ trigger1 = Anim = 3204 && AnimElem = 7
 attr = S, HA
 hitflag = MAF
 guardflag = H;M
-getpower  = 0
-animtype  = Heavy
+getpower = 0
+animtype = Heavy
 air.animtype = Up
 priority = 6
 damage = 47, 12
@@ -2041,7 +2041,7 @@ hitsound = S2,3
 guardsound = S6, 0
 air.type = High
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 p2facing = 1
 ground.velocity = -2, -2
 air.velocity = -5, -5
@@ -2060,8 +2060,8 @@ trigger1 = Anim = 3207 && AnimElem = 7
 attr = S, HA
 hitflag = MAF
 guardflag = H;M
-getpower  = 0
-animtype  = Heavy
+getpower = 0
+animtype = Heavy
 air.animtype = Up
 priority = 6
 damage = 47, 12
@@ -2074,7 +2074,7 @@ guardsound = S6, 0
 air.type = High
 p2facing = 1
 ground.slidetime = 12
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -.5, -17.5
 air.velocity = -.5, -17.5
 fall = 1
@@ -2142,7 +2142,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Target
 [Statedef 58743]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2224,10 +2224,10 @@ value = 5030
 
 ; Corkscrew Cross
 [Statedef 4100]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 0
+juggle = 0
 velset = 0,0
 ctrl = 0
 anim = 4100
@@ -2374,21 +2374,21 @@ type = HitDef
 triggerall = anim = 4100
 trigger1 = animelem=13||animelem=14||animelem=15||animelem=16||animelem=17
 attr = S, HA
-animtype  = Hard
-damage    = 20,10
-getpower  = 0
-priority  = 6
+animtype = Hard
+damage = 20,10
+getpower = 0
+priority = 6
 guardflag = H;MA
 hitflag = MAF
 pausetime = 4,32
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-60
-hitsound   = s2,3
+hitsound = s2,3
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 30
-ground.hittime  = 30
+ground.hittime = 30
 p2stateno = 58743
 ground.velocity = 0, 0
 kill = 0
@@ -2672,8 +2672,8 @@ type = HitDef
 triggerall = anim = 4101
 trigger1 = animelem = 4
 attr = S, NA
-animtype  = Medium
-damage    = 90
+animtype = Medium
+damage = 90
 getpower = 0,0
 guardflag = H;MA
 hitflag = MAF
@@ -2683,11 +2683,11 @@ priority=4,Hit
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-76
-hitsound   = s4000,0
+hitsound = s4000,0
 guardsound = s6,0
 ground.type = Low
 ground.slidetime = 10
-ground.hittime  = 11
+ground.hittime = 11
 ground.velocity = -5
 air.velocity = -2.5,-3.5
 
@@ -2697,8 +2697,8 @@ type = HitDef
 triggerall = anim = 4101
 trigger1 = animelem = 15
 attr = S, NA
-animtype  = Medium
-damage    = 90
+animtype = Medium
+damage = 90
 getpower = 0,0
 guardflag = H;MA
 hitflag = MAF
@@ -2707,12 +2707,12 @@ priority=4,Hit
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-61
-hitsound   = s4000,0
+hitsound = s4000,0
 guardsound = s6,0
 ground.type = High
 ground.slidetime = 12
 kill = 0
-ground.hittime  = 13
+ground.hittime = 13
 ground.velocity = -5.5
 air.velocity = -2.5,-4
 
@@ -2721,8 +2721,8 @@ type = HitDef
 triggerall = anim = 4101
 trigger1 = animelem = 26
 attr = S, NA
-animtype  = Medium
-damage    = 90
+animtype = Medium
+damage = 90
 getpower = 0,0
 guardflag = H;MA
 hitflag = MAF
@@ -2731,12 +2731,12 @@ priority=4,Hit
 sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-64
-hitsound   = s4000,0
+hitsound = s4000,0
 guardsound = s6,0
 ground.type = High
 kill = 0
 ground.slidetime = 12
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = -6
 air.velocity = -2.2,-3.2
 
@@ -2745,8 +2745,8 @@ type = HitDef
 triggerall = anim = 4101
 trigger1 = animelem = 34
 attr = S, NA
-animtype  = Hard
-damage    = 90, 0
+animtype = Hard
+damage = 90, 0
 getpower = 0,0
 guardflag = H;MA
 hitflag = MAF
@@ -2756,12 +2756,12 @@ sparkno = -1 * (var(10):=8014)**0
 guard.sparkno= -1 * (var(17):=8001)**0
 sparkxy = -10 + 0*(var(12):=77), var(13):=-73
 p2stateno = 4105
-hitsound   = s4000,0
+hitsound = s4000,0
 kill = 0
 guardsound = s6,0
 ground.type = High
 ground.slidetime = 12
-ground.hittime  = 13
+ground.hittime = 13
 ground.velocity = -5.5
 air.velocity = -2.5,-4
 
@@ -2772,7 +2772,7 @@ trigger1 = AnimElem = 59
 attr = S, HA
 guardflag = H;MA
 hitflag = MAF
-animtype  = Hard
+animtype = Hard
 air.animtype = Diagup
 priority = 7
 getpower = 0
@@ -2786,7 +2786,7 @@ hitsound = S4000,0
 guardsound = S6, 0
 ground.type = High
 guard.slidetime = 15
-ground.hittime  = 15
+ground.hittime = 15
 ground.velocity = 2, -15
 air.velocity = 2, -15
 p2facing = -1

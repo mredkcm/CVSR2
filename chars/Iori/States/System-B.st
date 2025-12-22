@@ -1,18 +1,18 @@
 ; ADD004 BASIC PIEs ReBuilded CNS (27/12/2018)
-;==============================================
+;==
 ; This file is Made by PIE.
 ; there is a backup of this file in the same folder, named "<samename>.a4bk".
 ; to Restore, use assist tool, or delete this file, then remove ".a4bk" from the neme of backup.
-;==============================================
+;==
 
 ; _________________________________________
 ;| Iori Yagami by Knuckles8864             |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<SYSTEM STATES>========================================
-;==============================================================================================
+;==
+;===<SYSTEM STATES>====
+;==
 
-;====================<STANDING>====================
+;====<STANDING>====
 [StateDef 0]
 type = S
 physics = S
@@ -84,7 +84,7 @@ removeongethit = 1
 
 
 
-;====================<CROUCHING>====================
+;====<CROUCHING>====
 ;Stand to Crouch
 [StateDef 10]
 type = C
@@ -218,7 +218,7 @@ value = 0
 
 
 
-;====================<WALKING>====================
+;====<WALKING>====
 [StateDef 20]
 type = S
 physics = S
@@ -265,7 +265,7 @@ value = 21 + Var(40)*10000
 
 
 
-;====================<JUMPING>====================
+;====<JUMPING>====
 ;Jumping
 [StateDef 40]
 type = S
@@ -537,7 +537,7 @@ ctrl = 1
 
 
 
-;======================<RUN>===========================
+;==<RUN>===
 [StateDef 100]
 type = S
 physics = N
@@ -621,7 +621,7 @@ ctrl = 1
 
 
 
-;========================<DASH BACKWARDS>==========================
+;====<DASH BACKWARDS>==
 [Statedef 105]
 type = S
 movetype = I
@@ -735,7 +735,7 @@ ctrl = 1
 
 
 
-;=================<DASH FORWARD>=================
+;=<DASH FORWARD>=
 [StateDef 110]
 type = S
 physics = S
@@ -803,7 +803,7 @@ ctrl = 1
 
 
 
-;====================<DODGE>====================
+;====<DODGE>====
 [StateDef 700]
 type = S
 physics = S
@@ -857,7 +857,7 @@ ctrl = 1
 
 
 
-;================<ROLL FORWARD>================
+;====<ROLL FORWARD>====
 [StateDef 710]
 type = S
 physics = N
@@ -917,7 +917,7 @@ ctrl = 1
 
 
 
-;===============<ROLL BACKWARDS>===============
+;===<ROLL BACKWARDS>===
 [StateDef 715]
 type = S
 physics = N
@@ -977,7 +977,7 @@ ctrl = 1
 
 
 
-;==========<POWER CHARGE>==========
+;==<POWER CHARGE>==
 [StateDef 730]
 type = S
 physics = S
@@ -1095,7 +1095,7 @@ ctrl = 1
 
 
 
-;====================<ZERO COUNTER>====================
+;====<ZERO COUNTER>====
 [StateDef 750]
 type = S
 physics = S
@@ -1165,7 +1165,7 @@ value = ifElse(var(10) = 1, 2910, 2900)
 
 
 
-;====================<PARRY>====================
+;====<PARRY>====
 ;Standing Parry
 [StateDef 760]
 type = S
@@ -1425,7 +1425,7 @@ value = 52
 
 
 
-;====================<CUSTOM COMBO>====================
+;====<CUSTOM COMBO>====
 ;Ground Version
 [StateDef 900]
 type = S
@@ -1634,7 +1634,7 @@ value = 52
 
 
 
-;==========<TARGET SAFE FALL>==========
+;==<TARGET SAFE FALL>==
 [StateDef 5205]
 type = A
 physics = N
@@ -1664,7 +1664,7 @@ value = 5210
 
 
 
-;==========<FALL RECOVERY>==========
+;==<FALL RECOVERY>==
 [StateDef 5200]
 type = A
 moveType = H
@@ -1783,7 +1783,7 @@ channel = 0
 [State 5210, Recover Sound]
 type = PlaySnd
 trigger1 = !Time
-value  = 5200,0
+value = 5200,0
 
 [State 5210, Flash]
 type = PalFX
@@ -1824,7 +1824,7 @@ value = 52
 
 
 
-;===================<GUARD>================
+;===<GUARD>====
 ;Guard Start
 [StateDef 120]
 type = U
@@ -2311,7 +2311,7 @@ value = 52
 
 
 
-;====================<LOSE>====================
+;====<LOSE>====
 [StateDef 170]
 type = S
 ctrl = 0
@@ -2364,7 +2364,7 @@ flag = RoundNotOver
 
 
 
-;====================<DRAW GAME>====================
+;====<DRAW GAME>====
 [StateDef 175]
 type = S
 ctrl = 0
@@ -2377,7 +2377,7 @@ value = 170
 
 
 
-;====================<CONTINUE?>====================
+;====<CONTINUE?>====
 [StateDef 5500]
 type = S
 anim = 5300
@@ -2398,7 +2398,7 @@ value = 15500
 
 
 
-;====================<INITIALIZE (PART 2)>====================
+;====<INITIALIZE (PART 2)>====
 [StateDef 5901]
 type = S
 
@@ -2472,7 +2472,7 @@ value = 0
 
 
 
-;====================<INTRO 1>====================
+;====<INTRO 1>====
 [StateDef 190]
 type = S
 physics = S
@@ -2501,7 +2501,7 @@ trigger1 = !AnimTime
 value = 0
 
 
-;====================<INTRO 2>====================
+;====<INTRO 2>====
 [StateDef 191]
 type = S
 physics = S
@@ -2530,7 +2530,7 @@ trigger1 = !AnimTime
 value = 0
 
 
-;====================<INTRO VS KYO KUSANAGI>====================
+;====<INTRO VS KYO KUSANAGI>====
 [StateDef 192]
 type = S
 physics = S
@@ -2647,7 +2647,7 @@ trigger1 = !AnimTime
 value = 0
 
 
-;====================<INTRO VS VEGA>====================
+;====<INTRO VS VEGA>====
 [Statedef 193]
 type = S
 ctrl = 0
@@ -2829,7 +2829,7 @@ trigger1 = AnimTime = 0
 value = 0
 
 
-;====================<INTRO VS OROCHI>====================
+;====<INTRO VS OROCHI>====
 [StateDef 197]
 type = S
 physics = S
@@ -2865,7 +2865,7 @@ value = 0
 
 
 
-;====================<OROCHI INTRO>====================
+;====<OROCHI INTRO>====
 [StateDef 198]
 type = S
 physics = S
@@ -2889,7 +2889,7 @@ value = 0
 
 
 
-;====================<TURNS INTRO>====================
+;====<TURNS INTRO>====
 [StateDef 6900]
 type = A
 anim = ifElse(Var(40) = 1,10042,42)
@@ -2995,7 +2995,7 @@ value = 0
 
 
 
-;====================<WIN POSE DECIDER>====================
+;====<WIN POSE DECIDER>====
 [StateDef 180]
 type = S
 
@@ -3315,7 +3315,7 @@ trigger1 = var(40) = 1
 value = 185
 
 
-;====================<WIN 1>====================
+;====<WIN 1>====
 [StateDef 181]
 type = S
 physics = S
@@ -3335,7 +3335,7 @@ channel = 0
 
 
 
-;====================<WIN 2>====================
+;====<WIN 2>====
 [Statedef 182]
 type = S
 ctrl = 0
@@ -3367,7 +3367,7 @@ channel = 0
 
 
 
-;====================<WIN 3>====================
+;====<WIN 3>====
 [Statedef 183]
 type = S
 ctrl = 0
@@ -3386,7 +3386,7 @@ value = 183, 0
 channel = 0
 
 
-;====================<WIN VS KYO KUSANAGI>====================
+;====<WIN VS KYO KUSANAGI>====
 [Statedef 184]
 type = S
 ctrl = 0
@@ -3406,7 +3406,7 @@ channel = 0
 
 
 
-;====================<WIN (OROCHI)>====================
+;====<WIN (OROCHI)>====
 [StateDef 185]
 type = S
 physics = S
@@ -3426,13 +3426,13 @@ channel = 0
 
 
 
-;==========<TAUNT>==========
+;==<TAUNT>==
 [StateDef 195]
 type = S
 moveType = I
 physics = S
 anim = ifElse(Var(40) = 1,199,195)
-velSet  = 0,0
+velSet = 0,0
 sprPriority = 1
 ctrl = 0
 
@@ -3465,13 +3465,13 @@ value = 0
 ctrl = 1
 
 
-;==========<TAUNT VS KYO>==========
+;==<TAUNT VS KYO>==
 [Statedef 196]
 type = S
 moveType = I
 physics = S
 anim = 196
-velSet  = 0,0
+velSet = 0,0
 sprPriority = 1
 ctrl = 0
 
@@ -3489,10 +3489,10 @@ ctrl = 1
 
 
 
-;===================<GET HIT ANIMATIONS>===================
+;===<GET HIT ANIMATIONS>===
 ; Stand get-hit (shaking)
 [Statedef 5000]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3592,7 +3592,7 @@ value = 5030
 ;---------------------------------------------------------------------------
 ; Stand get-hit (knocked back)
 [Statedef 5001]
-type    = S
+type = S
 movetype= H
 physics = S
 
@@ -3637,7 +3637,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Crouch get-hit (shaking)
 [Statedef 5010]
-type    = C
+type = C
 movetype= H
 physics = N
 velset = 0,0
@@ -3733,7 +3733,7 @@ ampl = 140
 ;---------------------------------------------------------------------------
 ; Crouch get-hit (knocked back)
 [Statedef 5011]
-type    = C
+type = C
 movetype= H
 physics = C
 
@@ -3778,7 +3778,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Air get-hit (shaking)
 [Statedef 5020]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3866,7 +3866,7 @@ ampl = 140
 ;---------------------------------------------------------------------------
 ; Air get-hit (knocked away)
 [Statedef 5030]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -3920,7 +3920,7 @@ value = 5035 ;Air get-hit (transition)
 ;---------------------------------------------------------------------------
 ; Air get-hit (falling)
 [Statedef 5050]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -3995,7 +3995,7 @@ value = 5100 ;Downed get-hit (hit ground from fall)
 ;---------------------------------------------------------------------------
 ; Tripped get-hit (shaking)
 [Statedef 5070]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -4027,7 +4027,7 @@ ampl = 140
 ;---------------------------------------------------------------------------
 ; Tripped get-hit (knocked away)
 [Statedef 5071]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -4051,7 +4051,7 @@ value = 5110
 ;---------------------------------------------------------------------------
 ; Downed get-hit (shaking)
 [Statedef 5080]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -4095,7 +4095,7 @@ value = 5030 ;Air get-hit (knocked away)
 ;---------------------------------------------------------------------------
 ; Downed get-hit (knocked back)
 [Statedef 5081]
-type    = L
+type = L
 movetype= H
 physics = C
 
@@ -4122,7 +4122,7 @@ value = 5110 ;Downed get-hit (lying down)
 ;---------------------------------------------------------------------------
 ; Downed get-hit (hit ground from fall)
 [Statedef 5100]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -4231,7 +4231,7 @@ time = 20
 ;---------------------------------------------------------------------------
 ; Downed get-hit (bounce off ground)
 [Statedef 5101]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -4295,7 +4295,7 @@ value = 5110
 ;---------------------------------------------------------------------------
 ; Downed get-hit (lying down)
 [Statedef 5110]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -4481,7 +4481,7 @@ waveform = sine
 ;---------------------------------------------------------------------------
 ; Downed get-hit (getting up)
 [Statedef 5120]
-type    = L
+type = L
 movetype= I
 physics = N
 
@@ -4554,7 +4554,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Downed get-hit (lying defeated)
 [Statedef 5150]
-type    = L
+type = L
 movetype= H
 physics = N
 sprpriority = -3
@@ -4650,7 +4650,7 @@ time = 1
 ;---------------------------------------------------------------------------
 ; Air get-hit (fall recovery on ground; still falling)
 [Statedef 5200]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -4682,7 +4682,7 @@ value = 5201
 ;---------------------------------------------------------------------------
 ; Air get-hit (fall recovery on ground)
 [Statedef 5201]
-type    = A
+type = A
 movetype= H
 physics = A
 anim = 5200
@@ -4725,7 +4725,7 @@ sprpriority = -10
 ;---------------------------------------------------------------------------
 ; Air get-hit (fall recovery in air)
 [Statedef 5210]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 5210
@@ -4837,7 +4837,7 @@ ctrl = 1
 
 
 
-;====================<CHEAP K.O.>====================
+;====<CHEAP K.O.>====
 [StateDef 5950]
 type = S
 moveType = H
@@ -4891,7 +4891,7 @@ value = ifElse(Alive, 5110, 5150)
 
 
 
-;====================<AIR HIT TRANSITION>====================
+;====<AIR HIT TRANSITION>====
 [Statedef 5035]
 type = A
 movetype = H
@@ -4931,15 +4931,15 @@ value = 5050
 
 
 
-;===========================================================================
-;===============================<-2 STATES>=================================
-;===========================================================================
+;===
+;===<-2 STATES>=
+;===
 [StateDef -2]
 
 ;#ADD004BASIC PIEs#
-;//==========================
+;//==
 ;// add004-sctrls-start
-;//==========================
+;//==
 ;sys::-2::partners_standby ; ???????
 [state 0]
 	type=selfstate
@@ -5009,7 +5009,7 @@ value = 5050
 	time=1
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;;>>@Config.Face>>
 ;sys::-2::face_d ; portrait (?)
 [state 0]
@@ -5044,7 +5044,7 @@ value = 5050
 	id=490600
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;;>>@Config.Camera>>
 ;sys::-2::camera_nc ; ????
 [state 0]
@@ -5070,7 +5070,7 @@ value = 5050
 	movecamera=0,0 ;; [x,y]
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;sys::-2::add.option2-noko
 [state 0] ;; opt-noko
 	type=assertspecial
@@ -5089,7 +5089,7 @@ value = 5050
 	kill=0
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;// optional settings
 ;sys::-2::guard_crush_fx ; ????????
 [state 0]
@@ -5151,9 +5151,9 @@ value = 5050
 	trigger1=playerid(id-3),ishelper=0 && playerid(id-3),teamside=teamside
 	x=const240p(144)*ifelse(teamside=1,-1,1)
 
-;//==========================
+;//==
 ;// add004-sctrls-end
-;//==========================
+;//==
 
 
 [State -2, Hit Detection]
@@ -5509,9 +5509,9 @@ ignoreHitPause = 1
 
 
 
-;===========================================================================
-;===============================<-3 STATES>=================================
-;===========================================================================
+;===
+;===<-3 STATES>=
+;===
 [StateDef -3]
 
 [State -3, GameTime]

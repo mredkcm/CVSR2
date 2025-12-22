@@ -1152,7 +1152,7 @@ type = DestroySelf
 trigger1 = anim = 3507 && animtime = 0
 trigger2 = root,stateno != 3501
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -2532,7 +2532,7 @@ type = destroyself
 trigger1 = time >= 26
 
 
-;========================< SUPERPAUSE FX >=============================
+;====< SUPERPAUSE FX >=
 ;--- --Level 1 -----
 [Statedef 8500]
 type = A

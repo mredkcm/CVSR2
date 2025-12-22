@@ -1,11 +1,11 @@
 ; ________________________________________________
 ;| Dan by Phantom.of.the.Server and Mr.Ansatsuken |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;======================================< SUPER STATES >========================================
-;============================================================================================
+;====
+;==< SUPER STATES >====
+;====
 
-;======================< SHINKUU GADOU KEN >=============================
+;==< SHINKUU GADOU KEN >=
 ; Shinkuu Gadouken
 [Statedef 3000]
 type = S
@@ -115,7 +115,7 @@ value = 0
 ctrl = 1
 
 
-;======================< KOURYUU REKKA >=============================
+;==< KOURYUU REKKA >=
 ; Koryuu Rekka
 [Statedef 3100]
 type = S
@@ -428,7 +428,7 @@ trigger1 = anim != 3100
 movetype = I
 
 
-;======================< HISHOU BURAIKEN >=============================
+;==< HISHOU BURAIKEN >=
 ; Hisshou Buraiken
 [Statedef 3200]
 type = S
@@ -707,7 +707,7 @@ trigger1 = anim != 3200
 movetype = I
 
 
-;======================< CHOUHATSU DENSETSU >=============================
+;==< CHOUHATSU DENSETSU >=
 ; Chouhatsu Densetsu
 [Statedef 3300]
 type = S
@@ -1086,7 +1086,7 @@ value = 0
 ctrl = 1
 
 
-;======================< MAX SHINKUU GADOU KEN >=============================
+;==< MAX SHINKUU GADOU KEN >=
 ; MAX Shinkuu Gadouken 
 [Statedef 3400]
 type = S
@@ -1203,7 +1203,7 @@ trigger1 = anim = 3401 && !animtime
 value = 0
 ctrl = 1
 
-;======================< MAX HISSHOU BURAIKEN >=============================
+;==< MAX HISSHOU BURAIKEN >=
 ; MAX Hisshou Buraiken
 [Statedef 3500]
 type = S
@@ -1488,7 +1488,7 @@ trigger1 = anim != 3500
 movetype = I
 
 
-;======================< SHISSOU BURAIKEN >=============================
+;==< SHISSOU BURAIKEN >=
 ; Shissou Buraiken
 [Statedef 3600]
 type = S
@@ -2150,7 +2150,7 @@ ctrl = 1
 
 ;(Buraiken air target)
 [Statedef 58743]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2230,7 +2230,7 @@ trigger1 = HitShakeOver
 value = 5030
 
 
-;======================< OYAJI BLAST >=============================
+;==< OYAJI BLAST >=
 ; Oyaji Blast
 [Statedef 3700]
 type = S
@@ -2449,7 +2449,7 @@ value = 0
 ctrl = 1
 
 
-;======================< METSU GADOU KEN >=============================
+;==< METSU GADOU KEN >=
 ; Metsu Gadouken
 [Statedef 3800]
 type = S
@@ -2567,7 +2567,7 @@ ctrl = 1
 
 
 
-;======================< OTOKO MICHI >=============================
+;==< OTOKO MICHI >=
 ; Otoko Michi
 [Statedef 4000]
 type = S
@@ -3116,7 +3116,7 @@ trigger1 = 1
 value = 5020
 
 
-;=================< CHOUHATSU SHINWA >===================
+;=< CHOUHATSU SHINWA >===
 ; Chouhatsu Shinwa
 [Statedef 4100]
 type = S
@@ -3266,7 +3266,7 @@ ctrl = 1
 
 
 
-;======================< JUN KOKU SATSU >=============================
+;==< JUN KOKU SATSU >=
 ; Jun Koku Satsu
 [Statedef 4200]
 type = S
@@ -3574,7 +3574,7 @@ trigger1 = time >= 76 && alive
 value = 5120
 
 
-;======================< HAOH GADOU KEN >=============================
+;==< HAOH GADOU KEN >=
 ; Haoh Gadouken
 [Statedef 4300]
 type = S
@@ -3968,7 +3968,7 @@ trigger1 = anim = 4302 && !animtime
 value = 0
 ctrl = 1
 
-;======================< SHUN GOKU SATSU >=============================
+;==< SHUN GOKU SATSU >=
 ; Shun Goku Satsu
 [Statedef 4400]
 type = S

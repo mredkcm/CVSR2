@@ -1,11 +1,11 @@
 ; ________________________________
 ;| Karin by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;======================================< SUPER STATES >========================================
-;============================================================================================
+;====
+;==< SUPER STATES >====
+;====
 
-;======================< SHINPI KAIBYAKU >========================
+;==< SHINPI KAIBYAKU >====
 [Statedef 3000]
 type = S
 physics = N
@@ -317,7 +317,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;======================< SHINPI KAIBYAKU >========================
+;==< SHINPI KAIBYAKU >====
 [Statedef 3050]
 type = S
 physics = N
@@ -630,7 +630,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;======================< KOU'OU KEN >========================
+;==< KOU'OU KEN >====
 [Statedef 3100]
 type = S
 physics = N
@@ -911,7 +911,7 @@ value = 0
 ctrl = 1
 
 
-;======================< KOU'OU KEN >========================
+;==< KOU'OU KEN >====
 [Statedef 3150]
 type = S
 physics = N
@@ -1150,7 +1150,7 @@ type = changestate
 trigger1 = vel y > 0
 trigger1 = pos y > -vel y
 value = 3101
-;======================< KILLER SATELLITE-BOUND PUNCH >========================
+;==< KILLER SATELLITE-BOUND PUNCH >====
 [Statedef 3200]
 type = S
 physics = N
@@ -1677,7 +1677,7 @@ value = 0
 ctrl = 1
 
 
-;======================< KISAKI NO KAKOU >========================
+;==< KISAKI NO KAKOU >====
 [Statedef 3300]
 type = A
 physics = N
@@ -2798,7 +2798,7 @@ value = 620
 ctrl = 1
 
 [Statedef 3403]
-type    = A
+type = A
 movetype = A
 physics = N
 velset = 0,0
@@ -2878,7 +2878,7 @@ trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 3404
 
 [Statedef 3404]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -2965,7 +2965,7 @@ trigger1 = time >= 45
 value = ifelse(!alive, 5150, 5120)
 
 [Statedef 3406]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3015,7 +3015,7 @@ Trigger1 = animtime = 0
 value = 0
 ctrl = 1
 
-;========================================================================
+;====
 ;------------------------------------------------------------------------
 [Statedef 3511]
 type = S
@@ -3047,7 +3047,7 @@ value = 0
 ;---------------------------------------------------------------------------
 ; P2 throw 02
 [Statedef 3515]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3201,7 +3201,7 @@ ignoreHitPause = 1
 ;---------------------------------------------------------------------------
 ; P2 throw 02
 [Statedef 3525]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3237,7 +3237,7 @@ ctrl = 0
 
 ;---------------------------------------------------------------------------
 [Statedef 3530]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3530
@@ -3423,7 +3423,7 @@ value = 2
 ;---------------------------------------------------------------------------
 ; P2 throw 02
 [Statedef 3535]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3448,7 +3448,7 @@ kill = 0
 
 ;---------------------------------------------------------------------------
 [Statedef 3540]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 3540
@@ -3503,7 +3503,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; P2 throw 02
 [Statedef 3545]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3534,7 +3534,7 @@ value = 3451
 ctrl = 0
 
 
-;======================< NEKKETSU HADOU KEN >=============================
+;==< NEKKETSU HADOU KEN >=
 [Statedef 4300]
 type = S
 physics = S
@@ -3753,7 +3753,7 @@ ctrl = 1
 
 
 
-;======================< MODE CHANGE >=============================
+;==< MODE CHANGE >=
 [Statedef 4400]
 type = S
 physics = S
@@ -3939,7 +3939,7 @@ ctrl = 1
 
 ; Shun Goku Satsu (Adapted from P.o.t.S. version)
 [Statedef 4500]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0

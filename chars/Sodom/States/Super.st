@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Sodom by varo_hades                     |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<Meido no Miyage>=============================
+;====<Meido no Miyage>=
 [StateDef 3000]
 type = S
 physics = S
@@ -195,7 +195,7 @@ hitSound = -1 + 0 * (var(31) := 7)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -8.2
 ground.cornerpush.veloff = -4.0
 air.velocity = -5.0,-3.5
@@ -254,7 +254,7 @@ hitSound = -1 + 0 * (var(31) := 7)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -8.2
 ground.cornerpush.veloff = -4.0
 air.velocity = -5.0,-3.5
@@ -313,7 +313,7 @@ hitSound = -1 + 0 * (var(31) := 7)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -8.2
 ground.cornerpush.veloff = -4.0
 air.velocity = -5.0,-3.5
@@ -372,7 +372,7 @@ hitSound = -1 + 0 * (var(31) := 7)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -8.2
 ground.cornerpush.veloff = -4.0
 air.velocity = -5.0,-3.5
@@ -431,7 +431,7 @@ hitSound = -1 + 0 * (var(31) := 7)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -8.2
 ground.cornerpush.veloff = -4.0
 air.velocity = -5.0,-3.5
@@ -491,7 +491,7 @@ hitSound = -1 + 0 * (var(31) := 7)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -4.0,-6.5
 guard.velocity = -8.2
 ground.cornerpush.veloff = -4.0
@@ -547,7 +547,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<Max Meido no Miyage>=============================
+;====<Max Meido no Miyage>=
 [StateDef 3050]
 type = S
 physics = S
@@ -737,7 +737,7 @@ hitSound = -1 + 0 * (var(31) := 7)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -8.2
 ground.cornerpush.veloff = -4.0
 air.velocity = -5.0,-3.5
@@ -796,7 +796,7 @@ hitSound = -1 + 0 * (var(31) := 7)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -8.2
 ground.cornerpush.veloff = -4.0
 air.velocity = -5.0,-3.5
@@ -855,7 +855,7 @@ hitSound = -1 + 0 * (var(31) := 7)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -8.2
 ground.cornerpush.veloff = -4.0
 air.velocity = -5.0,-3.5
@@ -914,7 +914,7 @@ hitSound = -1 + 0 * (var(31) := 7)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -8.2
 ground.cornerpush.veloff = -4.0
 air.velocity = -5.0,-3.5
@@ -973,7 +973,7 @@ hitSound = -1 + 0 * (var(31) := 7)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -8.2
 ground.cornerpush.veloff = -4.0
 air.velocity = -5.0,-3.5
@@ -1033,7 +1033,7 @@ hitSound = -1 + 0 * (var(31) := 7)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -2.0,-8.5
 guard.velocity = -8.2
 ground.cornerpush.veloff = -4.0
@@ -1157,7 +1157,7 @@ hitSound = -1 + 0 * (var(31) := 7)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -4.0,2.5
 guard.velocity = -8.2
 ground.cornerpush.veloff = -4.0
@@ -1253,7 +1253,7 @@ trigger1 = AnimTime = 0
 value = 11
 ctrl = 1
 
-;========================<Ten Chuu Satsu>=============================
+;====<Ten Chuu Satsu>=
 [StateDef 3100]
 type = S
 physics = N
@@ -2350,7 +2350,7 @@ trigger1 = Vel Y > 0
 value = 5100
 ctrl = 0
 
-;========================<MAX Ten Chuu Satsu>=============================
+;====<MAX Ten Chuu Satsu>=
 [StateDef 3150]
 type = S
 physics = N
@@ -3534,7 +3534,7 @@ trigger1 = Vel Y > 0
 value = 5100
 ctrl = 0
 
-;========================<Samurai's Revenge>=============================
+;====<Samurai's Revenge>=
 [StateDef 3200]
 type = S
 physics = S
@@ -5563,7 +5563,7 @@ value = 3245
 ctrl = 0
 
 [Statedef 3245]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -5642,7 +5642,7 @@ type = SelfState
 trigger1 = time > 10 && pos Y >= 0 && vel Y > 0
 value = 5100
 
-;========================<Final Samurai>=============================
+;====<Final Samurai>=
 [StateDef 3300]
 type = S
 physics = N
@@ -5769,9 +5769,9 @@ value = 0
 ctrl = 1
 
 [Statedef 3310]
-type     = S
+type = S
 movetype = A
-physics  = U
+physics = U
 anim = 3310
 
 [State 810, Width]
@@ -5927,9 +5927,9 @@ value = 0
 ctrl = 1
 
 [Statedef 3315]
-type     = S
+type = S
 movetype = H
-velset   = 0,0
+velset = 0,0
 
 [State 810, Width]
 type = Width
@@ -5942,9 +5942,9 @@ trigger1 = 1
 movecamera = 0,0
 
 [Statedef 3316]
-type     = L
+type = L
 movetype = H
-physics  = N
+physics = N
 facep2 = 1
 
 [State 810, ]
@@ -5978,7 +5978,7 @@ type = ScreenBound
 trigger1 = 1
 movecamera = 0,0
 
-;========================<Max Final Samurai>=============================
+;====<Max Final Samurai>=
 [StateDef 3350]
 type = S
 physics = N
@@ -6105,9 +6105,9 @@ value = 0
 ctrl = 1
 
 [Statedef 3360]
-type     = S
+type = S
 movetype = A
-physics  = U
+physics = U
 anim = 3310
 
 [State 810, Width]
@@ -6263,9 +6263,9 @@ value = 0
 ctrl = 1
 
 [Statedef 3365]
-type     = S
+type = S
 movetype = H
-velset   = 0,0
+velset = 0,0
 
 [State 810, Width]
 type = Width
@@ -6278,9 +6278,9 @@ trigger1 = 1
 movecamera = 0,0
 
 [Statedef 3366]
-type     = L
+type = L
 movetype = H
-physics  = N
+physics = N
 facep2 = 1
 
 [State 810, ]
@@ -6314,7 +6314,7 @@ type = ScreenBound
 trigger1 = 1
 movecamera = 0,0
 
-;========================<Slasher Attack>=============================
+;====<Slasher Attack>=
 [StateDef 3400]
 type = S
 physics = N
@@ -6762,7 +6762,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<Max Slasher Attack>=============================
+;====<Max Slasher Attack>=
 [StateDef 3450]
 type = S
 physics = N
@@ -7594,7 +7594,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<Sodom's Revenge>=============================
+;====<Sodom's Revenge>=
 [StateDef 3500]
 type = S
 physics = S

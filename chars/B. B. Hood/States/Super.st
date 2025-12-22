@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| B. B. Hood by varo_hades                |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<APPLE FOR YOU>=============================
+;====<APPLE FOR YOU>=
 [StateDef 3000]
 type = S
 physics = N
@@ -307,7 +307,7 @@ type = SelfState
 trigger1 = (Vel y > 0) && (Pos y >= 0)
 value = 5100
 
-;========================<MAX APPLE FOR YOU>=============================
+;====<MAX APPLE FOR YOU>=
 [StateDef 3050]
 type = S
 physics = N
@@ -609,7 +609,7 @@ type = SelfState
 trigger1 = (Vel y > 0) && (Pos y >= 0)
 value = 5100
 
-;========================<COOL HUNTING>=============================
+;====<COOL HUNTING>=
 [StateDef 3100]
 type = S
 physics = S
@@ -875,7 +875,7 @@ Trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;========================<MAX COOL HUNTING>=============================
+;====<MAX COOL HUNTING>=
 [StateDef 3150]
 type = S
 physics = S
@@ -1141,7 +1141,7 @@ Trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;========================<BEAUTIFUL MEMORY>=============================
+;====<BEAUTIFUL MEMORY>=
 [StateDef 3200]
 type = S
 physics = N
@@ -1266,7 +1266,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -67
 ground.type = High
 ground.slidetime = 13
-ground.hittime  = 13
+ground.hittime = 13
 ground.velocity = 0
 guard.velocity = -6.8
 guard.ctrltime = 13
@@ -1434,7 +1434,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -75
 ground.type = High
 ground.slidetime = 13
-ground.hittime  = 13
+ground.hittime = 13
 ground.velocity = 0
 guard.velocity = -6.8
 guard.ctrltime = 13
@@ -1479,7 +1479,7 @@ guard.sparkNo = -1 + 0*(var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 157), var(36) := -75
 ground.type = High
 ground.slidetime = 13
-ground.hittime  = 13
+ground.hittime = 13
 ground.velocity = 0
 guard.velocity = -6.8
 guard.ctrltime = 13

@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| B. B. Hood by varo_hades                |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>========================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>====
+;==
 
-;========================<SHYNESS & STRIKE>=============================
+;====<SHYNESS & STRIKE>=
 [StateDef 1000]
 type = S
 physics = S
@@ -121,7 +121,7 @@ sparkXY = -10 + 0 * (var(35) := 43), var(36) := -71
 ground.type = High
 ground.slidetime = 9
 ground.slidetime = 16
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -3.8 ,-5.8
 guard.velocity = -12
 airguard.velocity = -11,-3
@@ -199,7 +199,7 @@ sparkXY = -10 + 0 * (var(35) := 43), var(36) := -71
 ground.type = High
 ground.slidetime = 9
 ground.slidetime = 16
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -3.8 ,-5.8
 guard.velocity = -12
 airguard.velocity = -11,-3
@@ -277,7 +277,7 @@ sparkXY = -10 + 0 * (var(35) := 43), var(36) := -71
 ground.type = High
 ground.slidetime = 9
 ground.slidetime = 16
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -3.8 ,-5.8
 guard.velocity = -12
 airguard.velocity = -11,-3
@@ -309,7 +309,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<EX SHYNESS & STRIKE>=============================
+;====<EX SHYNESS & STRIKE>=
 [StateDef 1030]
 type = S
 physics = S
@@ -435,7 +435,7 @@ sparkXY = -10 + 0 * (var(35) := 43), var(36) := -71
 ground.type = High
 ground.slidetime = 9
 ground.slidetime = 16
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -3.8 ,-5.8
 guard.velocity = -12
 airguard.velocity = -11,-3
@@ -467,7 +467,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<CHEER & FIRE>=============================
+;====<CHEER & FIRE>=
 [StateDef 1100]
 type = S
 physics = S
@@ -539,7 +539,7 @@ sparkXY = -10 + 0 * (var(35) := 157), var(36) := -100
 ground.type = High
 ground.slidetime = 9
 ground.slidetime = 16
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -3.8 ,-5.8
 guard.velocity = -12
 airguard.velocity = -11,-3
@@ -579,7 +579,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<EX CHEER & FIRE>=============================
+;====<EX CHEER & FIRE>=
 [StateDef 1130]
 type = S
 physics = S
@@ -685,7 +685,7 @@ sparkXY = -10 + 0 * (var(35) := 157), var(36) := -100
 ground.type = High
 ground.slidetime = 9
 ground.slidetime = 16
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -0.8 ,-5.8
 guard.velocity = -12
 airguard.velocity = -11,-3
@@ -725,7 +725,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<CHEER & FIRE 2>=============================
+;====<CHEER & FIRE 2>=
 [StateDef 1150]
 type = S
 physics = S
@@ -795,7 +795,7 @@ sparkXY = -10 + 0 * (var(35) := 157), var(36) := -52
 ground.type = High
 ground.slidetime = 9
 ground.slidetime = 16
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -3.8 ,-5.8
 guard.velocity = -12
 airguard.velocity = -11,-3
@@ -836,7 +836,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<EX CHEER & FIRE 2>=============================
+;====<EX CHEER & FIRE 2>=
 [StateDef 1180]
 type = S
 physics = S
@@ -940,7 +940,7 @@ sparkXY = -10 + 0 * (var(35) := 157), var(36) := -52
 ground.type = High
 ground.slidetime = 9
 ground.slidetime = 16
-ground.hittime  = 16
+ground.hittime = 16
 ground.velocity = -2.8 ,-1.8
 guard.velocity = -12
 airguard.velocity = -11,-3
@@ -979,7 +979,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<SMILE & MISSILE>=============================
+;====<SMILE & MISSILE>=
 [StateDef 1200]
 type = S
 physics = S
@@ -1076,7 +1076,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<EX SMILE & MISSILE>=============================
+;====<EX SMILE & MISSILE>=
 [StateDef 1230]
 type = S
 physics = S
@@ -1203,7 +1203,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<SMILE & MISSILE 2>=============================
+;====<SMILE & MISSILE 2>=
 [StateDef 1250]
 type = S
 physics = S
@@ -1300,7 +1300,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<EX SMILE & MISSILE 2>=============================
+;====<EX SMILE & MISSILE 2>=
 [StateDef 1280]
 type = S
 physics = S
@@ -1427,7 +1427,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<HAPPY & MISSILE>=============================
+;====<HAPPY & MISSILE>=
 [StateDef 1300]
 type = S
 physics = N
@@ -1610,7 +1610,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<EX HAPPY & MISSILE>=============================
+;====<EX HAPPY & MISSILE>=
 [StateDef 1330]
 type = S
 physics = N
@@ -1789,7 +1789,7 @@ triggerall = animelemtime(3) > 0
 trigger1 = Pos Y + Vel Y >= 0
 value = 1301
 
-;========================<SENTIMENTAL TYPHOON>=============================
+;====<SENTIMENTAL TYPHOON>=
 [StateDef 1400]
 type = S
 physics = S
@@ -2278,7 +2278,7 @@ type = SelfState
 Trigger1 = vel y > 0 && pos y >= 0
 value = 5100
 
-;========================<EX HAPPY & MISSILE>=============================
+;====<EX HAPPY & MISSILE>=
 [StateDef 1430]
 type = S
 physics = S
@@ -2753,7 +2753,7 @@ Trigger1 = vel y > 0 && pos y >= 0
 value = 52
 ctrl = 1
 
-;========================<JEALOUSY AND FAKE>=============================
+;====<JEALOUSY AND FAKE>=
 [StateDef 1500]
 type = S
 physics = S
@@ -2798,7 +2798,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;=====================<LAW OF THE BULLET>==========================
+;=<LAW OF THE BULLET>==
 [StateDef 1600]
 type = S
 physics = N
@@ -3004,7 +3004,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 43), var(36) := 0
 ground.type = High
 ground.slidetime = 13
-ground.hittime  = 13
+ground.hittime = 13
 ground.velocity = 0
 down.velocity = 0
 guard.velocity = 0
@@ -3046,7 +3046,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 43), var(36) := 0
 ground.type = High
 ground.slidetime = 13
-ground.hittime  = 13
+ground.hittime = 13
 ground.velocity = 0
 down.velocity = 0
 guard.velocity = 0
@@ -3119,7 +3119,7 @@ type = SelfState
 Trigger1 = Time = 0
 value = 5080
 
-;=====================<EX LAW OF THE BULLET>==========================
+;=<EX LAW OF THE BULLET>==
 [StateDef 1630]
 type = S
 physics = N
@@ -3357,7 +3357,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 43), var(36) := 0
 ground.type = High
 ground.slidetime = 13
-ground.hittime  = 13
+ground.hittime = 13
 ground.velocity = 0
 down.velocity = 0
 guard.velocity = 0
@@ -3474,7 +3474,7 @@ guard.sparkNo = -1 + 0 * (var(34) := 8001)
 sparkXY = -10 + 0 * (var(35) := 43), var(36) := 0
 ground.type = High
 ground.slidetime = 13
-ground.hittime  = 13
+ground.hittime = 13
 ground.velocity = 0
 down.velocity = 0
 guard.velocity = 0
@@ -3553,7 +3553,7 @@ type = SelfState
 trigger1 = time = 200
 value = 5100
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -3640,7 +3640,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Rose by varo_hades                      |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<Aura Soul Throw>=============================
+;====<Aura Soul Throw>=
 [StateDef 3000]
 type = S
 physics = S
@@ -761,7 +761,7 @@ trigger1 = Vel Y > 0
 value = 5100
 ctrl = 0
 
-;========================<Max Aura Soul Throw>=============================
+;====<Max Aura Soul Throw>=
 [StateDef 3050]
 type = S
 physics = S
@@ -1540,7 +1540,7 @@ trigger1 = Vel Y > 0
 value = 5100
 ctrl = 0
 
-;========================<Aura Soul Spark>=============================
+;====<Aura Soul Spark>=
 [StateDef 3100]
 type = S
 physics = N
@@ -1686,7 +1686,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<Max Aura Soul Spark>=============================
+;====<Max Aura Soul Spark>=
 [StateDef 3150]
 type = S
 physics = N
@@ -2024,7 +2024,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<Illusion Spark>=============================
+;====<Illusion Spark>=
 [StateDef 3200]
 type = S
 physics = S
@@ -2141,7 +2141,7 @@ hitSound = -1 + 0 * (var(31) := 7)
 guardSound = -1 + 0 * (var(32) := 0)
 ground.type = High
 ground.slidetime = 15
-ground.hittime  = 24
+ground.hittime = 24
 ground.velocity = -8.2
 ground.cornerpush.veloff = -4.0
 air.velocity = -5.0,-3.5
@@ -2209,7 +2209,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<Soul Illusion>=============================
+;====<Soul Illusion>=
 [StateDef 3300]
 type = S
 physics = N
@@ -2320,7 +2320,7 @@ trigger1 = time = 1
 value = 0
 ctrl = 1
 
-;========================<Max Soul Illusion>=============================
+;====<Max Soul Illusion>=
 [StateDef 3350]
 type = S
 physics = N
@@ -2704,7 +2704,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 3002
 
-;========================<Soul Satellite>=============================
+;====<Soul Satellite>=
 [StateDef 3400]
 type = S
 physics = N
@@ -2822,7 +2822,7 @@ trigger1 = time = 38
 value = 0
 ctrl = 1
 
-;========================<Max Soul Satellite>=============================
+;====<Max Soul Satellite>=
 [StateDef 3450]
 type = S
 physics = N
@@ -2961,7 +2961,7 @@ trigger1 = time = 38
 value = 0
 ctrl = 1
 
-;========================<Illusion Soul>=============================
+;====<Illusion Soul>=
 [StateDef 3500]
 type = S
 physics = S
@@ -3895,7 +3895,7 @@ id = 3511
 
 ;P2 throw_throw
 [Statedef 3515]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -3998,7 +3998,7 @@ type = SelfState
 trigger1 = time > 10 && pos Y >= 0 && vel Y > 0
 value = 5100
 
-;========================<Soul Spiral Teleport>=============================
+;====<Soul Spiral Teleport>=
 [StateDef 3600]
 type = S
 physics = N
@@ -4362,7 +4362,7 @@ trigger1 = animtime = 0
 value = 0
 ctrl = 1
 
-;========================<Max Soul Spiral Teleport>=============================
+;====<Max Soul Spiral Teleport>=
 [StateDef 3650]
 type = S
 physics = N

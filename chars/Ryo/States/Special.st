@@ -1,9 +1,9 @@
 ; _________________________________________
 ;| Ryo Sakazaki by CrazyKoopa & Jmorphman  |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>========================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>====
+;==
 
 ;---------------------------------------------------------------------------
 ;Ko'ouken
@@ -1963,7 +1963,7 @@ value = 5050
 
 ;Being hit by Zanretsuken
 [Statedef 1306]
-type    = S
+type = S
 movetype= H
 physics = N
 ctrl = 0
@@ -3443,7 +3443,7 @@ ctrl = 1
 
 
 
-;========================<SLAMMED AGAINST THE GROUND>=============================
+;====<SLAMMED AGAINST THE GROUND>=
 ;Being Slammed (Standing)
 [StateDef 5420]
 type = U
@@ -3923,7 +3923,7 @@ ctrl = 1
 
 ;Hit by Kogeki
 [Statedef 1605]
-type    = L
+type = L
 movetype= H
 physics = N
 velset = 0,0
@@ -3967,7 +3967,7 @@ value = 5030 ;Air get-hit (knocked away)
 
 ;knocked back
 [Statedef 1606]
-type    = L
+type = L
 movetype= H
 physics = C
 
@@ -3998,7 +3998,7 @@ value = 5150
 
 
 [Statedef 1607]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -4112,7 +4112,7 @@ value = 5120
 
 
 
-;========================< PUNCH ZERO COUNTER >=============================
+;====< PUNCH ZERO COUNTER >=
 [Statedef 2900]
 type = S
 physics = N
@@ -4200,7 +4200,7 @@ value = 0
 ctrl = 1
 
 
-;========================< KICK ZERO COUNTER >=============================
+;====< KICK ZERO COUNTER >=
 [Statedef 2910]
 type = S
 physics = N

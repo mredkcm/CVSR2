@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Vice by Jmorphman                       |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<NEGATIVE GAIN>=============================
+;====<NEGATIVE GAIN>=
 ;Throw Attempt
 [StateDef 3000]
 type = S
@@ -932,7 +932,7 @@ value = 5100
 
 
 
-;========================<MAX NEGATIVE GAIN>=============================
+;====<MAX NEGATIVE GAIN>=
 ;Throw Attempt
 [StateDef 3050]
 type = S
@@ -1386,7 +1386,7 @@ ignoreHitPause = 1
 
 
 
-;========================<WITHERING SURFACE>=============================
+;====<WITHERING SURFACE>=
 ;Startup
 [StateDef 3100]
 type = S
@@ -2032,7 +2032,7 @@ ignoreHitPause = 1
 
 
 
-;========================<MAX WITHERING SURFACE>=============================
+;====<MAX WITHERING SURFACE>=
 ;Throw Attempt
 [StateDef 3150]
 type = S
@@ -2422,7 +2422,7 @@ type = TargetLifeAdd
 triggerAll = NumTarget
 trigger1 = AnimElem = 7
 trigger2 = AnimElem = 24
-trigger3  = AnimElem = 41
+trigger3 = AnimElem = 41
 value = floor(ifElse(56 * fvar(11) < 7, -7, -56 * fvar(11)))
 kill = 0
 
@@ -2431,7 +2431,7 @@ type = TargetPowerAdd
 triggerAll = NumTarget
 trigger1 = AnimElem = 7
 trigger2 = AnimElem = 24
-trigger3  = AnimElem = 41
+trigger3 = AnimElem = 41
 value = 36
 
 [State 3160, HitAdd]
@@ -2439,7 +2439,7 @@ type = HitAdd
 triggerAll = NumTarget
 trigger1 = AnimElem = 7
 trigger2 = AnimElem = 24
-trigger3  = AnimElem = 41
+trigger3 = AnimElem = 41
 value = 1
 
 [State 3160, HitCount]
@@ -2447,7 +2447,7 @@ type = VarAdd
 triggerAll = NumTarget
 trigger1 = AnimElem = 7
 trigger2 = AnimElem = 24
-trigger3  = AnimElem = 41
+trigger3 = AnimElem = 41
 var(13) = 1
 
 [State 3160, Juggle]
@@ -2455,7 +2455,7 @@ type = VarAdd
 triggerAll = NumTarget
 trigger1 = AnimElem = 7
 trigger2 = AnimElem = 24
-trigger3  = AnimElem = 41
+trigger3 = AnimElem = 41
 var(15) = 1
 ignoreHitPause = 1
 
@@ -2464,7 +2464,7 @@ type = EnvShake
 triggerAll = NumTarget
 trigger1 = AnimElem = 7
 trigger2 = AnimElem = 24
-trigger3  = AnimElem = 41
+trigger3 = AnimElem = 41
 time = 14
 ampl = -4
 freq = 120
@@ -2474,7 +2474,7 @@ type = PlaySnd
 triggerAll = NumTarget
 trigger1 = AnimElem = 7
 trigger2 = AnimElem = 24
-trigger3  = AnimElem = 41
+trigger3 = AnimElem = 41
 value = 1061,0
 channel = 3
 
@@ -2483,7 +2483,7 @@ type = Helper
 triggerAll = NumTarget
 trigger1 = AnimElem = 7
 trigger2 = AnimElem = 24
-trigger3  = AnimElem = 41
+trigger3 = AnimElem = 41
 helperType = Normal
 stateNo = 8110
 ID = 8110
@@ -3060,7 +3060,7 @@ ignoreHitPause = 1
 
 
 
-;========================<OVERKILL>=============================
+;====<OVERKILL>=
 ;Throw Attempt
 [StateDef 3200]
 type = A
@@ -3605,7 +3605,7 @@ value = 5100
 
 
 
-;========================<MAX OVERKILL>=============================
+;====<MAX OVERKILL>=
 ;Throw Attempt
 [StateDef 3250]
 type = A
@@ -4212,7 +4212,7 @@ ignoreHitPause = 1
 
 
 
-;========================<CANNIBAL CORPSE>=============================
+;====<CANNIBAL CORPSE>=
 [StateDef 3300]
 type = S
 physics = N

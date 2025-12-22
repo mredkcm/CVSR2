@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Hayato by varo_hades                    |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<Hyper Flash Sword>=============================
+;====<Hyper Flash Sword>=
 [StateDef 3000]
 type = S
 physics = N
@@ -512,7 +512,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;========================<MAX Hyper Flash Sword>=============================
+;====<MAX Hyper Flash Sword>=
 [StateDef 3050]
 type = S
 physics = N
@@ -1422,7 +1422,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<Scimitar>=============================
+;====<Scimitar>=
 [StateDef 3100]
 type = S
 physics = N
@@ -1584,7 +1584,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<MAX Scimitar>=============================
+;====<MAX Scimitar>=
 [StateDef 3150]
 type = S
 physics = N
@@ -1806,7 +1806,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<Black Hayato>=============================
+;====<Black Hayato>=
 [StateDef 3200]
 type = S
 physics = N
@@ -1982,7 +1982,7 @@ ctrl = 1
 
 ;Start
 [StateDef 3201]
-type    = S
+type = S
 movetype= A
 physics = S
 ctrl = 0
@@ -2136,7 +2136,7 @@ ctrl = 1
 
 ;Player 2 start
 [Statedef 3205]
-type    = S
+type = S
 movetype= H
 physics = N
 ctrl = 0
@@ -2160,7 +2160,7 @@ x = 0
 
 ;Player 2
 [Statedef 3206]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -2209,7 +2209,7 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 5100
 
-;========================<Plasma Field>=============================
+;====<Plasma Field>=
 [StateDef 3300]
 type = S
 moveType = A
@@ -2465,7 +2465,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<MAX Plasma Field>=============================
+;====<MAX Plasma Field>=
 [StateDef 3350]
 type = S
 moveType = A

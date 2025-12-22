@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Charlie by varo_hades                   |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;=====================<SONIC BOOM>==========================
+;=<SONIC BOOM>==
 [StateDef 1000]
 type = S
 physics = S
@@ -77,7 +77,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX SONIC BOOM>=============================
+;====<EX SONIC BOOM>=
 [StateDef 1030]
 type = S
 physics = N
@@ -178,7 +178,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<SOMERSAULT SHELL>=============================
+;====<SOMERSAULT SHELL>=
 [StateDef 1100]
 type = A
 physics = N
@@ -469,7 +469,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;========================<EX SOMERSAULT SHELL>=============================
+;====<EX SOMERSAULT SHELL>=
 [StateDef 1130]
 type = A
 physics = N
@@ -731,7 +731,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 1101
 
-;========================<MOONSAULT SLASH>=============================
+;====<MOONSAULT SLASH>=
 [StateDef 1200]
 type = A
 physics = N
@@ -992,7 +992,7 @@ trigger1 = vel y > 0
 trigger1 = pos y >= 12
 value = 5110
 
-;========================<EX MOONSAULT SLASH>=============================
+;====<EX MOONSAULT SLASH>=
 [StateDef 1230]
 type = A
 physics = N
@@ -1146,7 +1146,7 @@ type = changestate
 trigger1 = vel y > 0 && pos y >= 0
 value = 1201
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = S
@@ -1233,7 +1233,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = C
 physics = C

@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Gen by mwryly & varo_hades              |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;=====================<HYAKURENKU>==========================
+;=<HYAKURENKU>==
 ;Startup
 [StateDef 1000]
 type = S
@@ -318,7 +318,7 @@ type = ChangeState
 trigger1 = !AnimTime
 value = 0
 ctrl = 1
-;========================<EX HYAKURENKU>=============================
+;====<EX HYAKURENKU>=
 [StateDef 1030]
 type = S
 physics = S
@@ -600,7 +600,7 @@ type = ChangeState
 trigger1 = var(46) <= 0
 value = 1010
 
-;========================<GEKIRO>=============================
+;====<GEKIRO>=
 [StateDef 1100]
 type = S
 physics = N
@@ -753,7 +753,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 1105
 
-;===========================================================================
+;===
 ;Set 1 kicks
 [StateDef 1150]
 type = A
@@ -1204,7 +1204,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX GEKIRO>=============================
+;====<EX GEKIRO>=
 [StateDef 1130]
 type = S
 physics = N
@@ -1374,7 +1374,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 1105
 
-;========================<JYASEN>=========================================
+;====<JYASEN>=
 [StateDef 11000]
 type = S
 physics = S
@@ -1643,7 +1643,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX JYASEN>=========================================
+;====<EX JYASEN>=
 [StateDef 11030]
 type = S
 physics = S
@@ -1940,7 +1940,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<OUGA>==========================
+;=<OUGA>==
 ;Startup Auto
 [StateDef 11100]
 type = S
@@ -3200,7 +3200,7 @@ value = 0
 ctrl = 1
 
 
-;=====================<EX OUGA>==========================
+;=<EX OUGA>==
 ;Startup Auto
 [StateDef 11200]
 type = S
@@ -3320,7 +3320,7 @@ type = ChangeState
 trigger1 = !AnimTime
 trigger1 = Var(12) = 2
 value = 11112
-;========================<PUNCH ZERO COUNTER (CRANE)>=============================
+;====<PUNCH ZERO COUNTER (CRANE)>=
 [StateDef 2900]
 type = S
 physics = N
@@ -3407,7 +3407,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<KICK ZERO COUNTER (MANTIS)>=============================
+;====<KICK ZERO COUNTER (MANTIS)>=
 [StateDef 2910]
 type = S
 physics = N

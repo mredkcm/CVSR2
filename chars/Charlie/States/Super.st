@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Charlie by varo_hades                   |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<SONIC BREAK>=============================
+;====<SONIC BREAK>=
 [StateDef 3000]
 type = S
 physics = S
@@ -158,7 +158,7 @@ trigger1 = !animtime
 value = ifelse(anim = 3003,11,0)
 ctrl = 1
 
-;========================<MAX SONIC BREAK>=============================
+;====<MAX SONIC BREAK>=
 [StateDef 3050]
 type = S
 physics = S
@@ -325,7 +325,7 @@ trigger1 = !animtime
 value = ifelse(anim = 3003,11,0)
 ctrl = 1
 
-;======================<SOMMERSAULT JUSTICE>========================
+;==<SOMMERSAULT JUSTICE>====
 [StateDef 3100]
 type = S
 physics = N
@@ -757,7 +757,7 @@ trigger1 = !animtime
 value = 11
 ctrl = 1
 
-;========================<MAX SOMMERSAULT JUSTICE>=============================
+;====<MAX SOMMERSAULT JUSTICE>=
 [StateDef 3150]
 type = S
 physics = N
@@ -1154,7 +1154,7 @@ type = changestate
 trigger1 = vel y > 0 && pos y >= 0
 value = 3101
 
-;========================<SONIC BLADE>=============================
+;====<SONIC BLADE>=
 [StateDef 3200]
 type = S
 physics = S
@@ -1318,7 +1318,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;======================<CROSSFIRE BLITZ>========================
+;==<CROSSFIRE BLITZ>====
 [StateDef 3300]
 type = S
 physics = N
@@ -1608,7 +1608,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;========================<MAX CROSSFIRE BLITZ>=============================
+;====<MAX CROSSFIRE BLITZ>=
 [StateDef 3350]
 type = S
 physics = N
@@ -2164,7 +2164,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;======================<REVERSED SOMMERSAULT>========================
+;==<REVERSED SOMMERSAULT>====
 [StateDef 3500]
 type = S
 physics = N
@@ -2497,7 +2497,7 @@ trigger1 = !animtime
 value = 11
 ctrl = 1
 
-;========================<MAX REVERSED SOMMERSAULT>=============================
+;====<MAX REVERSED SOMMERSAULT>=
 [StateDef 3550]
 type = S
 physics = N
@@ -2834,7 +2834,7 @@ trigger1 = !animtime
 value = 3552
 ctrl = 0
 
-;======================<MOONSAULT SLASH>=============================
+;==<MOONSAULT SLASH>=
 [Statedef 3552]
 type = A
 physics = N
@@ -2962,7 +2962,7 @@ type = changestate
 trigger1 = vel y > 0 && pos y >= 0
 value = 3501
 
-;======================<MOONSAULT STRIKE>========================
+;==<MOONSAULT STRIKE>====
 [StateDef 3600]
 type = A
 physics = N
@@ -3248,7 +3248,7 @@ trigger1 = !animtime
 value = 0
 ctrl = 1
 
-;========================<MAX MOONSAULT STRIKE>=============================
+;====<MAX MOONSAULT STRIKE>=
 [StateDef 3650]
 type = A
 physics = N
@@ -3524,7 +3524,7 @@ type = changestate
 trigger1 = !animtime
 value = 3620
 
-;======================<SOMMERSAULT SHELL>=============================
+;==<SOMMERSAULT SHELL>=
 [Statedef 3620]
 type = A
 physics = N

@@ -1,13 +1,13 @@
 ; _________________________________________
 ;| Zangief by varo_hades                   |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<NORMAL MOVES>========================================
-;==============================================================================================
+;==
+;====<NORMAL MOVES==
+;==
 
-;===========<STANDING LIGHT PUNCH>==========
+;STANDING LIGHT PUNCH
 [StateDef 200]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -139,9 +139,9 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING FAR MEDIUM PUNCH>==========
+;STANDING FAR MEDIUM PUNCH
 [StateDef 210]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -230,9 +230,9 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING FAR HEAVY PUNCH>==========
+;STANDING FAR HEAVY PUNCH
 [StateDef 220]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -331,9 +331,9 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING LIGHT KICK>==========
+;STANDING LIGHT KICK
 [StateDef 230]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -422,9 +422,9 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING FAR MEDIUM KICK>==========
+;STANDING FAR MEDIUM KICK
 [StateDef 240]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -513,9 +513,9 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING FAR HEAVY KICK>==========
+;STANDING FAR HEAVY KICK
 [StateDef 250]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -655,9 +655,9 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<STANDING FAR HEAVY PUNCH>==========
+;STANDING FAR HEAVY PUNCH
 [StateDef 300]
-type    = S
+type = S
 movetype = A
 physics = S
 juggle = 8
@@ -781,9 +781,9 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<CROUCHING LIGHT PUNCH>==========
+;CROUCHING LIGHT PUNCH
 [StateDef 400]
-type    = C
+type = C
 movetype = A
 physics = C
 juggle = 8
@@ -872,9 +872,9 @@ trigger1 = !AnimTime
 value = 11
 ctrl = 1
 
-;===========<CROUCHING MEDIUM PUNCH>==========
+;CROUCHING MEDIUM PUNCH
 [StateDef 410]
-type    = C
+type = C
 movetype = A
 physics = C
 juggle = 8
@@ -963,9 +963,9 @@ trigger1 = !AnimTime
 value = 11
 ctrl = 1
 
-;===========<CROUCHING HEAVY PUNCH>==========
+;CROUCHING HEAVY PUNCH
 [StateDef 420]
-type    = C
+type = C
 movetype = A
 physics = C
 juggle = 8
@@ -1055,9 +1055,9 @@ trigger1 = !AnimTime
 value = 11
 ctrl = 1
 
-;===========<CROUCHING LIGHT KICK>==========
+;CROUCHING LIGHT KICK
 [StateDef 430]
-type    = C
+type = C
 movetype = A
 physics = C
 juggle = 8
@@ -1146,9 +1146,9 @@ trigger1 = !AnimTime
 value = 11
 ctrl = 1
 
-;===========<CROUCHING MEDIUM KICK>==========
+;CROUCHING MEDIUM KICK
 [StateDef 440]
-type    = C
+type = C
 movetype = A
 physics = C
 juggle = 8
@@ -1237,9 +1237,9 @@ trigger1 = !AnimTime
 value = 11
 ctrl = 1
 
-;===========<CROUCHING HEAVY KICK>==========
+;CROUCHING HEAVY KICK
 [StateDef 450]
-type    = C
+type = C
 movetype = A
 physics = C
 juggle = 8
@@ -1326,9 +1326,9 @@ trigger1 = !AnimTime
 value = 11
 ctrl = 1
 
-;===========<JUMPING LIGHT PUNCH>==========
+;JUMPING LIGHT PUNCH
 [StateDef 600]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -1420,9 +1420,9 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<NEUTRAL JUMPING MEDIUM PUNCH>==========
+;NEUTRAL JUMPING MEDIUM PUNCH
 [StateDef 610]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -1514,9 +1514,9 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<NEUTRAL JUMPING MEDIUM PUNCH>==========
+;NEUTRAL JUMPING MEDIUM PUNCH
 [StateDef 615]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -1608,9 +1608,9 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<NEUTRAL JUMPING HEAVY PUNCH>==========
+;NEUTRAL JUMPING HEAVY PUNCH
 [StateDef 620]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -1702,9 +1702,9 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<ANGLED JUMPING HEAVY PUNCH>==========
+;ANGLED JUMPING HEAVY PUNCH
 [StateDef 621]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -1796,9 +1796,9 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<NEUTRAL JUMPING MEDIUM PUNCH>==========
+;NEUTRAL JUMPING MEDIUM PUNCH
 [StateDef 625]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -1890,9 +1890,9 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<NEUTRAL JUMPING MEDIUM PUNCH>==========
+;NEUTRAL JUMPING MEDIUM PUNCH
 [StateDef 670]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -1984,9 +1984,9 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<NEUTRAL JUMPING LIGHT KICK>==========
+;NEUTRAL JUMPING LIGHT KICK
 [StateDef 630]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -2078,9 +2078,9 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<NEUTRAL JUMPING MEDIUM KICK>==========
+;NEUTRAL JUMPING MEDIUM KICK
 [StateDef 635]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -2172,9 +2172,9 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<NEUTRAL JUMPING MEDIUM KICK>==========
+;NEUTRAL JUMPING MEDIUM KICK
 [StateDef 640]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -2266,9 +2266,9 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<NEUTRAL JUMPING MEDIUM KICK>==========
+;NEUTRAL JUMPING MEDIUM KICK
 [StateDef 645]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -2360,9 +2360,9 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<JUMPING HEAVY KICK>==========
+;JUMPING HEAVY KICK
 [StateDef 650]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -2454,9 +2454,9 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 52
 
-;===========<JUMPING HEAVY KICK>==========
+;JUMPING HEAVY KICK
 [StateDef 660]
-type    = A
+type = A
 movetype = A
 physics = N
 juggle = 8
@@ -2552,7 +2552,7 @@ value = 665
 
 ;Recover
 [Statedef 665]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 665
@@ -2593,7 +2593,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;===========<THROW ATTEMPT>==========
+;THROW ATTEMPT
 [StateDef 800]
 type = S
 physics = S
@@ -2705,7 +2705,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;===========<THROW SWITCHING SIDES>==========
+;THROW SWITCHING SIDES
 [StateDef 805]
 type = S
 moveType = A
@@ -2782,7 +2782,7 @@ type = ChangeState
 trigger1 = AnimElemTime(4) >= 0
 value = ifElse(var(10), 840, 810)
 
-;===========<THROW SWITCHING SIDES (TARGET)>==========
+;THROW SWITCHING SIDES (TARGET)
 [StateDef 806]
 type = A
 moveType = H
@@ -2814,7 +2814,7 @@ trigger1 = Time >= 60
 value = ifElse(pos y < 0, 5040, 0)
 ctrl = 1
 
-;===========<JUDO THROW>==========
+;JUDO THROW
 [Statedef 810]
 type = S
 physics = N
@@ -2960,7 +2960,7 @@ value = 811
 
 ;Part 2
 [Statedef 811]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -3105,7 +3105,7 @@ value = 812
 
 ;Part 3
 [Statedef 812]
-type    = S
+type = S
 physics = S
 ctrl = 0
 anim = 812
@@ -3150,10 +3150,10 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;===========<JUDO THROW (TARGET)>==========
+;JUDO THROW (TARGET)
 ;Being Thrown
 [StateDef 815]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3177,7 +3177,7 @@ ignoreHitPause = 1
 
 ;After Throw
 [StateDef 816]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3218,9 +3218,9 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 5100
 
-;===========<DRAGON SUPLEX>==========
+;DRAGON SUPLEX
 [StateDef 820]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 830
@@ -3434,7 +3434,7 @@ trigger2 = (command = "up" || command = "down" || command = "back" || command = 
 var(42) = 2
 
 [State 821, Mashing Increment]
-type  = VarAdd
+type = VarAdd
 trigger1 = var(42) = 2
 var(12) = 1
 
@@ -3575,7 +3575,7 @@ value = 822
 
 ;Final part
 [Statedef 822]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -3655,10 +3655,10 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;===========<DRAGON SUPLEX (TARGET)>==========
+;DRAGON SUPLEX (TARGET)
 ;Being Hit
 [Statedef 825]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3682,7 +3682,7 @@ value = 835
 
 ;Second part
 [Statedef 826]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3706,7 +3706,7 @@ value = 836
 
 ;Third part
 [Statedef 827]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3730,7 +3730,7 @@ value = 837
 
 ;Fourth part
 [Statedef 828]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 4,6.5
@@ -3768,7 +3768,7 @@ value = 5100
 
 ;Final part
 [Statedef 829]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -3784,9 +3784,9 @@ type = NotHitBy
 trigger1 = 1
 value = SCA
 
-;===========<DRAGON SUPLEX>==========
+;DRAGON SUPLEX
 [StateDef 830]
-type    = S
+type = S
 movetype = A
 physics = N
 anim = 820
@@ -3970,10 +3970,10 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;===========<DRAGON SUPLEX (TARGET)>==========
+;DRAGON SUPLEX (TARGET)
 ;Being Hit
 [StateDef 835]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -4028,7 +4028,7 @@ value = 5100
 
 ;Player 2
 [Statedef 808]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -4044,9 +4044,9 @@ type = NotHitBy
 trigger1 = 1
 value = SCA
 
-;===========<DRAGON SUPLEX>==========
+;DRAGON SUPLEX
 [StateDef 840]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 840
@@ -4260,7 +4260,7 @@ trigger2 = (command = "up" || command = "down" || command = "back" || command = 
 var(42) = 2
 
 [State 821, Mashing Increment]
-type  = VarAdd
+type = VarAdd
 trigger1 = var(42) = 2
 var(12) = 1
 
@@ -4401,7 +4401,7 @@ value = 842
 
 ;Final part
 [Statedef 842]
-type    = S
+type = S
 movetype = A
 physics = N
 velset = 0,0
@@ -4481,10 +4481,10 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;===========<DRAGON SUPLEX (TARGET)>==========
+;DRAGON SUPLEX (TARGET)
 ;Being Hit
 [Statedef 845]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -4508,7 +4508,7 @@ value = 835
 
 ;Second part
 [Statedef 846]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -4532,7 +4532,7 @@ value = 836
 
 ;Third part
 [Statedef 847]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 0,0
@@ -4556,7 +4556,7 @@ value = 837
 
 ;Fourth part
 [Statedef 848]
-type    = A
+type = A
 movetype = H
 physics = N
 velset = 4,6.5
@@ -4592,7 +4592,7 @@ trigger1 = Vel Y > 0
 trigger1 = Pos Y >= 0
 value = 5100
 
-;===========<THROW ESCAPED>==========
+;THROW ESCAPED
 [StateDef 890]
 type = S
 physics = N
@@ -4749,7 +4749,7 @@ ctrl = 1
 
 
 
-;===========<THROW ESCAPE MIDAIR>==========
+;THROW ESCAPE MIDAIR
 [StateDef 892]
 type = A
 physics = N

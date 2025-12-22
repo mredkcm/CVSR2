@@ -1,14 +1,14 @@
 ; _________________________________________
 ;| Leo by K6666orochi                      |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<NORMAL MOVES>========================================
-;==============================================================================================
+;==
+;====<NORMAL MOVES>====
+;==
 
 ;---------------------------------------------------------------------------
 ; Standing Light Punch
 [Statedef 200]
-type    = S
+type = S
 physics = S
 movetype= A
 ctrl = 0
@@ -105,7 +105,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Punch
 [Statedef 210]
-type    = S
+type = S
 physics = S
 movetype= A
 ctrl = 0
@@ -423,7 +423,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Light Kick
 [Statedef 230]
-type    = S
+type = S
 physics = S
 moveType = A
 ctrl = 0
@@ -520,7 +520,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Standing Medium Kick
 [Statedef 240]
-type    = S
+type = S
 physics = S
 moveType = A
 ctrl = 0
@@ -1428,7 +1428,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Tripped get-hit (shaking)
 [Statedef 455]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -1453,7 +1453,7 @@ ampl = 140
 
 ; Tripped get-hit (knocked away)
 [Statedef 456]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -1578,7 +1578,7 @@ value=52
 ; Jump Medium Punch
 [Statedef 610]
 type = A
-physics  = N
+physics = N
 moveType = A
 ctrl = 0
 sprPriority = 1
@@ -1677,7 +1677,7 @@ value=52
 ; Face Apollon
 [Statedef 615]
 type = A
-physics  = N
+physics = N
 moveType = A
 ctrl = 0
 sprPriority = 1
@@ -2331,7 +2331,7 @@ type=changestate
 trigger1= pos y>-vel y
 value=52
 
-;===========<Throw Attempt>==========
+;===<Throw Attempt>==
 [Statedef 800]
 type=S
 physics=S
@@ -2426,7 +2426,7 @@ trigger1= !animtime
 value=0
 ctrl=1
 
-;===========<Throw Attempt>==========
+;===<Throw Attempt>==
 [Statedef 801]
 type=S
 physics=S
@@ -2522,7 +2522,7 @@ trigger1= !animtime
 value=0
 ctrl=1
 
-;===========<Throw Attempt>==========
+;===<Throw Attempt>==
 [Statedef 802]
 type=S
 physics=S
@@ -2618,7 +2618,7 @@ trigger1= !animtime
 value=0
 ctrl=1
 
-;===========<Throw Attempt>==========
+;===<Throw Attempt>==
 [Statedef 803]
 type=S
 physics=S
@@ -2859,7 +2859,7 @@ ctrl=1
 ;---------------------------------------------------------------------------
 ; Throwing the opponent
 [Statedef 810]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 810
@@ -2991,7 +2991,7 @@ facing = -1
 ownpal = 1
 
 [Statedef 811]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3035,7 +3035,7 @@ movecamera = 0, 0
 ;---------------------------------------------------------------------------
 ; Throwing the opponent
 [Statedef 812]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 810
@@ -3170,7 +3170,7 @@ ownpal = 1
 ;---------------------------------------------------------------------------
 ; Opponent Thrown
 [Statedef 815]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -3214,7 +3214,7 @@ movecamera = 0, 0
 ;---------------------------------------------------------------------------
 ; Throwing the opponent
 [Statedef 820]
-type    = S
+type = S
 movetype= A
 physics = N
 anim = 820
@@ -3424,7 +3424,7 @@ pos = 65*const(size.xscale), 0
 
 
 [Statedef 822]
-type    = S
+type = S
 physics = S
 ctrl = 1
 anim = 821
@@ -3441,7 +3441,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ; Opponent Grabbed
 [Statedef 825]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

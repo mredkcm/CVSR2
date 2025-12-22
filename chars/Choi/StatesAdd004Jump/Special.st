@@ -1,9 +1,9 @@
 ; _________________________________________
 ;| CVS Choi Bounge by Falcon Rapper        |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>========================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>====
+;==
 
 ;---------------------------------------------------------------------------
 ; Tatsumaki Shippuzan
@@ -370,7 +370,7 @@ value=1001
 ;---------------------------------------------------------------------------
 ;Senpuu Hien Sashi
 [Statedef 1100]
-type    = S
+type = S
 movetype=A
 physics=N
 poweradd=72 * !var(20)
@@ -420,7 +420,7 @@ value = 1101
 
 ;------------------------UŒ‚“®ì
 [Statedef 1101]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 9,ifelse(prevstateno=1203,-1,-4)
@@ -463,7 +463,7 @@ type = HitDef
 triggerall = (var(15)<5 || var(20))
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage = IfElse(var(10) = 0,40,IfElse(var(10) = 1,45,50)),3
 getpower = ifelse(p2movetype=H,32,64) * !var(20),36 * !var(20)
 guardflag = M
@@ -514,7 +514,7 @@ value = 1102
 
 ;------------------------’…’n
 [Statedef 1102]
-type    = S
+type = S
 movetype= I
 physics = S
 anim = 1103
@@ -570,7 +570,7 @@ ctrl = 0
 
 ;------------------------“Ëi
 [Statedef 1106]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -640,7 +640,7 @@ fvar(3) = IfElse(Command = "Direction Change_4",4,IfElse(Command = "Direction Ch
 type = HitDef 
 trigger1 = anim= 1110 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,12+2*var(10),60+2*var(10)),3
 getpower = ifelse(p2movetype=H,32,64) * !var(20),36 * !var(20)
 guardflag = M
@@ -671,7 +671,7 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = anim= 1120 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,12+2*var(10),60+2*var(10)),3
 getpower = ifelse(p2movetype=H,32,64) * !var(20),36 * !var(20)
 guardflag = M
@@ -702,7 +702,7 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = anim= 1130 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,12+2*var(10),60+2*var(10)),3
 getpower = ifelse(p2movetype=H,32,64) * !var(20),36 * !var(20)
 guardflag = M
@@ -733,7 +733,7 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = anim= 1140 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,12+2*var(10),60+2*var(10)),3
 getpower = ifelse(p2movetype=H,32,64) * !var(20),36 * !var(20)
 guardflag = M
@@ -764,7 +764,7 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = anim= 1160 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,12+2*var(10),60+2*var(10)),3
 getpower = ifelse(p2movetype=H,32,64) * !var(20),36 * !var(20)
 guardflag = M
@@ -795,7 +795,7 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = anim= 1170 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,12+2*var(10),60+2*var(10)),3
 getpower = ifelse(p2movetype=H,32,64) * !var(20),36 * !var(20)
 guardflag = M
@@ -826,7 +826,7 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = anim= 1180 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,12+2*var(10),60+2*var(10)),3
 getpower = ifelse(p2movetype=H,32,64) * !var(20),36 * !var(20)
 guardflag = M
@@ -857,7 +857,7 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = anim= 1190 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,12+2*var(10),60+2*var(10)),3
 getpower = ifelse(p2movetype=H,32,64) * !var(20),36 * !var(20)
 guardflag = M
@@ -902,7 +902,7 @@ value = 1102
 
 ;------------------------I—¹
 [Statedef 1191]
-type    = A
+type = A
 movetype= I
 physics = N
 anim = 43
@@ -928,7 +928,7 @@ ctrl = 0
 ;---------------------------------------------------------------------------
 ; Ex Senpuu Hien Sashi
 [Statedef 1150]
-type    = S
+type = S
 movetype=A
 physics=N
 poweradd=-500
@@ -1004,7 +1004,7 @@ value = 1151
 
 ;------------------------UŒ‚“®ì
 [Statedef 1151]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 9,ifelse(prevstateno=1253,-1,-4)
@@ -1049,7 +1049,7 @@ type = HitDef
 triggerall = (var(15)<5 || var(20))
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage = 60,3
 getpower = 0,0
 guardflag = M
@@ -1142,7 +1142,7 @@ ctrl = 0
 
 ;------------------------“Ëi
 [Statedef 1156]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -1221,7 +1221,7 @@ fvar(3) = IfElse(Command = "Direction Change_4",4,IfElse(Command = "Direction Ch
 type = HitDef 
 trigger1 = anim= 1110 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,20,60),3
 getpower = 0,0
 guardflag = M
@@ -1252,7 +1252,7 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = anim= 1120 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,20,60),3
 getpower = 0,0
 guardflag = M
@@ -1283,7 +1283,7 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = anim= 1130 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,20,60),3
 getpower = 0,0
 guardflag = M
@@ -1314,7 +1314,7 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = anim= 1140 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,20,60),3
 getpower = 0,0
 guardflag = M
@@ -1345,7 +1345,7 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = anim= 1160 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,20,60),3
 getpower = 0,0
 guardflag = M
@@ -1376,7 +1376,7 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = anim= 1170 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,20,60),3
 getpower = 0,0
 guardflag = M
@@ -1407,7 +1407,7 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = anim= 1180 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,20,60),3
 getpower = 0,0
 guardflag = M
@@ -1438,7 +1438,7 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = anim= 1190 && !Time
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,20,60),3
 getpower = 0,0
 guardflag = M
@@ -1484,7 +1484,7 @@ value = 1102
 ;---------------------------------------------------------------------
 ; Hishou Kuuretsu Zan
 [Statedef 1200]
-type    = S
+type = S
 movetype= I
 physics = S
 poweradd=72 * !var(20)
@@ -1538,7 +1538,7 @@ value = IfElse(Command = "holdupfwd",1202,1201)
 
 ;
 [Statedef 1201]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = -8,-7
@@ -1578,7 +1578,7 @@ value = 1205
 
 ;------------------ã¸i‘O•ûj
 [Statedef 1202]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 8,-7
@@ -1618,7 +1618,7 @@ value = 1205
 
 ;------------------- ‰æ–Ê‚Í‚µ’£‚è•t‚«
 [Statedef 1203]
-type    = A
+type = A
 movetype= I
 physics = N
 ctrl = 0
@@ -1654,7 +1654,7 @@ value = IfElse(fvar(3) >= 3,1101,1204)
 
 ;------------------‰º~
 [Statedef 1204]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 0,2
@@ -1672,7 +1672,7 @@ value = 1205
 
 ;------------------------’…’n
 [Statedef 1205]
-type    = S
+type = S
 movetype= I
 physics = S
 anim = 47
@@ -1693,7 +1693,7 @@ ctrl = 1
 ;---------------------------------------------------------------------
 ; EX Hishou Kuuretsu Zan
 [Statedef 1250]
-type    = S
+type = S
 movetype=A
 physics=N
 poweradd=-500
@@ -1766,7 +1766,7 @@ value = IfElse(Command = "holdupfwd",1252,1251)
 
 ;
 [Statedef 1251]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = -8,-7
@@ -1815,7 +1815,7 @@ value = 1205
 
 ;------------------ã¸i‘O•ûj
 [Statedef 1252]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = 8,-7
@@ -1864,7 +1864,7 @@ value = 1255
 
 ;------------------- ‰æ–Ê‚Í‚µ’£‚è•t‚«
 [Statedef 1253]
-type    = A
+type = A
 movetype= I
 physics = N
 ctrl = 0
@@ -1905,7 +1905,7 @@ value = IfElse(fvar(3) = 6,1151,1204)
 ;---------------------------------------------------------------------
 ;Kaiten Hienzan
 [Statedef 1300]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd=72 * !var(20)
@@ -1959,7 +1959,7 @@ value = 1301
 
 ;------------------------‰ñ“]
 [Statedef 1301]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 1.5 + (var(10) * 1),0
@@ -1976,7 +1976,7 @@ channel = 1
 type = HitDef 
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage = IfElse(var(10) = 2,25/(2**UniqHitCount),IfElse(var(10) = 1,23/(2**UniqHitCount),20/(2**UniqHitCount))),3
 getpower = ifelse(fvar(0) != 0,0,16),ifelse(fvar(0) != 0,0,16)
 guardflag = MA
@@ -1984,7 +1984,7 @@ hitflag = M
 pausetime = 2,4
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = 0
 air.velocity = -3.5,-6
 yaccel = .45
@@ -2013,7 +2013,7 @@ value = IfElse(MoveContact=1,1302,1304)
 
 ;------------------------‰ñ“]ã¸
 [Statedef 1302]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,-2
@@ -2040,7 +2040,7 @@ type = HitDef
 triggerall = (var(15)<5 || var(20))
 trigger1 = UniqHitCount<ifelse(var(10) = 0,4,ifelse(var(10) = 1,6,8)) && TimeMod = 8, 0
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage = IfElse(var(10) = 2,26/(2**UniqHitCount),IfElse(var(10) = 1,23/(2**UniqHitCount),20/(2**UniqHitCount))),3
 getpower = ifelse(fvar(0) != 0,0,16),ifelse(fvar(0) != 0,0,16)
 guardflag = M
@@ -2048,7 +2048,7 @@ hitflag = MAF
 pausetime = 2,1
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -2
 air.velocity = -3.5,-6
 yaccel = .45
@@ -2071,15 +2071,15 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = UniqHitCount < 8 && TimeMod = 8, 4
 attr = A, SA
-animtype  = Hard
-damage    = Ceil(40 / (2 ** HitCount)),5
+animtype = Hard
+damage = Ceil(40 / (2 ** HitCount)),5
 getpower = IfElse(var(39)=1,16,2),2
 guardflag = M
 hitflag = MAF
 pausetime = 2,1
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = 0
 air.velocity = -3.5,-6
 yaccel = .45
@@ -2105,7 +2105,7 @@ value = 1303
 
 ;------------------ƒWƒƒƒ“ƒv
 [Statedef 1303]
-type    = A
+type = A
 movetype= I
 physics = N
 velset = -2.6,-9.5
@@ -2123,7 +2123,7 @@ value = 52
 
 ;------------------------I—¹
 [Statedef 1304]
-type    = S
+type = S
 movetype= A
 physics = S
 velset = 0,0
@@ -2148,7 +2148,7 @@ ctrl = 1
 
 ;------------------------ŠJŽn“®ì
 [Statedef 1310]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 6,-3
@@ -2184,7 +2184,7 @@ y = .3
 type = HitDef 
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage = 72 + (var(10) * 6),19
 getpower = ifelse(fvar(0) != 0,0,96),ifelse(fvar(0) != 0,0,96)
 guardflag = M
@@ -2193,7 +2193,7 @@ pausetime = 10,12
 guard.pausetime = 11,11
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -2.7,-6
 guard.velocity = -6
 air.velocity = -2.7,-6
@@ -2220,7 +2220,7 @@ value = 52
 ;---------------------------------------------------------------------
 ; EX Kaiten Hienzan
 [Statedef 1350]
-type    = S
+type = S
 movetype= A
 physics = S
 poweradd=-500
@@ -2300,7 +2300,7 @@ value = 1351
 
 ;------------------------‰ñ“]
 [Statedef 1351]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 2.5,0
@@ -2326,7 +2326,7 @@ channel = 1
 type = HitDef 
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage = 30/(2 ** HitCount),3
 getpower = 0,0
 guardflag = MA
@@ -2334,7 +2334,7 @@ hitflag = M
 pausetime = 2,4
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = 0
 air.velocity = -3.5,-6
 yaccel = .45
@@ -2363,7 +2363,7 @@ value = IfElse(MoveContact=1,1352,1304)
 
 ;------------------------‰ñ“]ã¸
 [Statedef 1352]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,-2
@@ -2399,7 +2399,7 @@ type = HitDef
 triggerall = (var(15)<5 || var(20))
 trigger1 = UniqHitCount < 9 && TimeMod = 8, 0
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage = 30/(2 ** HitCount),3
 getpower = 0,0
 guardflag = M
@@ -2407,7 +2407,7 @@ hitflag = MAF
 pausetime = 2,1
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -2
 air.velocity = -3.5,-6
 yaccel = .45
@@ -2430,15 +2430,15 @@ envshake.ampl=Ifelse(random<=500,-2,2)
 type = HitDef 
 trigger1 = UniqHitCount < 9 && TimeMod = 8, 4
 attr = A, SA
-animtype  = Hard
-damage    = Ceil(40 / (2 ** HitCount)),5
+animtype = Hard
+damage = Ceil(40 / (2 ** HitCount)),5
 getpower = IfElse(var(39)=1,16,2),2
 guardflag = M
 hitflag = MAF
 pausetime = 2,1
 ground.type = Low
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = 0
 air.velocity = -3.5,-6
 yaccel = .45
@@ -2464,7 +2464,7 @@ value = 1303
 
 ;Hishou Kyaku
 [Statedef 1400]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -2509,7 +2509,7 @@ y = 9 - (var(10) * 2)
 type = HitDef 
 trigger1 = (AnimElem = 2 || AnimElem = 4) && anim = 1401
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage = IfElse(var(10) = 2,46/(2**UniqHitCount),IfElse(var(10) = 1,44/(2**UniqHitCount),43/(2**UniqHitCount))),3
 getpower = ifelse(fvar(0) != 0,0,16),ifelse(fvar(0) != 0,0,16)
 guardflag = M
@@ -2517,7 +2517,7 @@ hitflag = MAF
 pausetime = 4,4
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -4 - (var(10) * 2)
 air.velocity = -3,-6
 yaccel = .45
@@ -2543,7 +2543,7 @@ value = 52
 
 ; EX Hishou Kyaku Start
 [Statedef 1450]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -2614,7 +2614,7 @@ y = 4
 type = HitDef 
 trigger1 = (AnimElem = 2 || AnimElem = 4) && anim = 1401
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage = 52/(2**UniqHitCount),3
 getpower = 0,0
 guardflag = M
@@ -2622,7 +2622,7 @@ hitflag = MAF
 pausetime = 4,4
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -4 - (var(10) * 2)
 air.velocity = -3,-6
 yaccel = .45
@@ -2648,7 +2648,7 @@ value = 52
 
 ; Hienzan
 [Statedef 1500]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd=72 * !var(20)
@@ -2837,7 +2837,7 @@ trigger1 = Vel Y > 0 && Pos Y >= 0
 value = 1505
 
 [Statedef 1505]
-type    = S
+type = S
 movetype= I
 physics = S
 velset = 0,0
@@ -2873,7 +2873,7 @@ ctrl = 1
 
 ; EX Hienzan
 [Statedef 1550]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd=-500
@@ -3045,7 +3045,7 @@ value = 1505
 
 ; Hishou Shissou Zan
 [Statedef 1600]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd=72 * !var(20)
@@ -3113,7 +3113,7 @@ value = 1601
 
 ;------------------------‹ó’†“®ì
 [Statedef 1601]
-type    = A
+type = A
 movetype= A
 physics = N
 velset = 0,0
@@ -3167,15 +3167,15 @@ y = .52
 type = HitDef 
 trigger1 = Time = 0
 attr = A, SA
-animtype  = Hard
-damage   = 76+6*var(10),3
+animtype = Hard
+damage = 76+6*var(10),3
 getpower = ifelse(fvar(0) != 0,0,64),ifelse(fvar(0) != 0,0,64)
 guardflag = M
 hitflag = MAF
 pausetime = 2,2
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -4.3,-7
 guard.velocity = -6
 air.velocity = -4.3,-7
@@ -3203,7 +3203,7 @@ value = 52
 
 ; Hishou Shissou Zan
 [Statedef 1650]
-type    = S
+type = S
 movetype= A
 physics = N
 poweradd=-500
@@ -3298,7 +3298,7 @@ value = 1651
 
 ;------------------------‹ó’†“®ì
 [Statedef 1651]
-type    = S
+type = S
 movetype= A
 physics = N
 velset = 0,0
@@ -3357,7 +3357,7 @@ y = .52
 type = HitDef 
 trigger1= Animelem=3||Animelem=4
 attr = A, SA
-animtype  = Hard
+animtype = Hard
 damage=Ifelse(p2movetype=H,10,90),3
 getpower = 0,0
 guardflag = M
@@ -3366,7 +3366,7 @@ pausetime = 6,6
 guard.pausetime = 6,6
 ground.type = High
 ground.slidetime = 18
-ground.hittime  = 18
+ground.hittime = 18
 ground.velocity = -4.3,-7
 guard.velocity = -6
 air.velocity = -4.3,-7

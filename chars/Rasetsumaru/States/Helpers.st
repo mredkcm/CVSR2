@@ -1,11 +1,11 @@
 ; ________________________
 ;| Haohmaru by Chazzanova |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<HELPER STATES>========================================
-;==============================================================================================
+;==
+;===<HELPER STATES>====
+;==
 
-;====================<PARRY HELPER>=========================
+;====<PARRY HELPER>=
 [StateDef 765]
 type = A
 physics = N
@@ -117,7 +117,7 @@ trigger2 = Time >= 2
 
 
 
-;===========<OUGI: SENPUU RETSU ZAN (PROJECTILE)>==========
+;===<OUGI: SENPUU RETSU ZAN (PROJECTILE)>==
 [StateDef 1005]
 type = S
 physics = N
@@ -664,7 +664,7 @@ trigger1 = Time >= 12
 
 
 
-;===========<SAKE KOGEKI (PROJECTILE BARRIER)>==========
+;===<SAKE KOGEKI (PROJECTILE BARRIER)>==
 ;LK, MK, HK
 [StateDef 1305]
 type = A
@@ -765,7 +765,7 @@ trigger3 = root, StateNo = 1330 && root, AnimElemTime(8)>=0
 
 
 
-;===========<AERIAL OUGI: SENPUU RETSU ZAN (PROJECTILE)>==========
+;===<AERIAL OUGI: SENPUU RETSU ZAN (PROJECTILE)>==
 [StateDef 1505]
 type = A
 physics = N
@@ -1066,7 +1066,7 @@ trigger1 = Time >= 0
 value = 1007
 
 
-;===========<SENPUU HA (PROJECTILE)>==========
+;===<SENPUU HA (PROJECTILE)>==
 [StateDef 1805]
 type = S
 moveType = A
@@ -1369,7 +1369,7 @@ trigger1 = Time > 15
 value = 1008
 
 
-;========================<RED FLASH BG (TAKED FROM BYAKKO'S JIN)>=============================
+;====<RED FLASH BG (TAKED FROM BYAKKO'S JIN)>=
 [StateDef 3620]
 type = A
 physics = N
@@ -1394,7 +1394,7 @@ trigger1 = Time >= 12
 
 
 
-;========================<ISSEN BLOODY FONT>=============================
+;====<ISSEN BLOODY FONT>=
 [StateDef 3625]
 type = A
 physics = N
@@ -1442,7 +1442,7 @@ trigger1 = Time >= 12
 
 
 
-;========================<SPARKS>=============================
+;====<SPARKS>=
 ;Guard Spark (Normal)
 [StateDef 8000]
 type = A
@@ -2464,7 +2464,7 @@ type = DestroySelf
 trigger1 = Time >=8
 
 
-;======================<JUMP DUST>===========================
+;==<JUMP DUST>===
 [StateDef 8100]
 type = S
 anim = 1
@@ -2503,7 +2503,7 @@ trigger1 = Time >= 7
 
 
 
-;======================<DASH DUST>===========================
+;==<DASH DUST>===
 [StateDef 8103]
 type = A
 anim = 1
@@ -2564,7 +2564,7 @@ type = DestroySelf
 trigger1 = !NumExplod
 
 
-;======================<IMPACT DUST>===========================
+;==<IMPACT DUST>===
 [StateDef 8110]
 type = A
 anim = 1
@@ -2609,7 +2609,7 @@ type = DestroySelf
 trigger1 = !NumExplod
 
 
-;======================<WALL IMPACT DUST>===========================
+;==<WALL IMPACT DUST>===
 [StateDef 8111]
 type = A
 anim = 1
@@ -2655,7 +2655,7 @@ trigger1 = !NumExplod
 
 
 
-;========================<RECOVER FX>=============================
+;====<RECOVER FX>=
 [StateDef 8200]
 type = A
 velSet = 0,0
@@ -2687,7 +2687,7 @@ trigger1 = Time >= 15
 
 
 
-;========================<COUNTER FX>=============================
+;====<COUNTER FX>=
 [StateDef 8290]
 type = A
 physics = N
@@ -2733,7 +2733,7 @@ trigger1 = Time >= 16
 
 
 
-;==================<POWER CHARGE FX>==================
+;==<POWER CHARGE FX>==
 ;Aura and Dust
 [StateDef 8330]
 type = A
@@ -2842,7 +2842,7 @@ trigger1 = Root, StateNo != 730
 
 
 
-;==================<ZERO COUNTER FX>==================
+;==<ZERO COUNTER FX>==
 [StateDef 8350]
 type = A
 physics = N
@@ -2894,7 +2894,7 @@ trigger1 = Time >= 16
 
 
 
-;========================<CUSTOM COMBO>=============================
+;====<CUSTOM COMBO>=
 [StateDef 8400]
 type = A
 physics = N
@@ -3000,7 +3000,7 @@ trigger1 = Time >= 26
 
 
 
-;========================<SUPER PAUSE FX>=============================
+;====<SUPER PAUSE FX>=
 ;Level 1 Super FX
 [StateDef 8500]
 type = A
@@ -3444,7 +3444,7 @@ trigger1 = Time >= 40
 
 
 
-;========================<SUPER FINISH>=============================
+;====<SUPER FINISH>=
 [StateDef 8600]
 type = A
 velSet = 0,0
@@ -3616,7 +3616,7 @@ trigger1 = RoundState < 3
 
 
 
-;========================<CAMERA CONTROL>=============================
+;====<CAMERA CONTROL>=
 [StateDef 8999]
 type = S
 velSet = 0,0

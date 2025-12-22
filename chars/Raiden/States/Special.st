@@ -1,11 +1,11 @@
 ; _______________________________________
 ;| Raiden by Knuckles8864                |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;=====================<GIANT BOMB>==========================
+;=<GIANT BOMB>==
 [StateDef 1000]
 type = S
 physics = S
@@ -182,7 +182,7 @@ ctrl = 1
 
 
 
-;========================<EX GIANT BOMB>=============================
+;====<EX GIANT BOMB>=
 [StateDef 1030]
 type = S
 physics = N
@@ -423,7 +423,7 @@ ctrl = 1
 
 
 
-;========================<POISON BREATH>=============================
+;====<POISON BREATH>=
 [StateDef 1100]
 type = S
 physics = S
@@ -501,7 +501,7 @@ ctrl = 1
 
 
 
-;========================<EX POISON BREATH>=============================
+;====<EX POISON BREATH>=
 [StateDef 1130]
 type = S
 physics = N
@@ -588,7 +588,7 @@ value = 1101
 
 
 
-;========================<SUPER DROPKICK>=============================
+;====<SUPER DROPKICK>=
 ;Start from 42/337
 [StateDef 1200]
 type = S
@@ -967,7 +967,7 @@ ctrl = 1
 
 
 
-;========================<JUMPING LARIAT DROP>=============================
+;====<JUMPING LARIAT DROP>=
 [StateDef 1300]
 type = S
 physics = N
@@ -1346,7 +1346,7 @@ value = 5100
 
 
 
-;========================<EX JUMPING LARIAT DROP>=============================
+;====<EX JUMPING LARIAT DROP>=
 [StateDef 1330]
 type = S
 physics = N
@@ -1624,7 +1624,7 @@ ctrl = 1
 
 
 
-;=====================<COMBINATION BODYBLOW>==========================
+;=<COMBINATION BODYBLOW>==
 [StateDef 1400]
 type = S
 physics = S
@@ -2165,7 +2165,7 @@ value = 5100
 
 
 
-;=====================<EX COMBINATION BODYBLOW>==========================
+;=<EX COMBINATION BODYBLOW>==
 [StateDef 1430]
 type = S
 physics = S
@@ -2662,7 +2662,7 @@ ctrl = 1
 
 
 
-;========================<THUNDER CRUSH BOMB>=============================
+;====<THUNDER CRUSH BOMB>=
 [StateDef 1500]
 type = S
 physics = N
@@ -3149,7 +3149,7 @@ value = 5100
 
 
 
-;========================<EX THUNDER CRUSH BOMB>=============================
+;====<EX THUNDER CRUSH BOMB>=
 [StateDef 1530]
 type = S
 physics = N
@@ -3487,7 +3487,7 @@ ctrl = 0
 
 
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -3576,7 +3576,7 @@ ctrl = 1
 
 
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

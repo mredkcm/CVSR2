@@ -1,9 +1,9 @@
 ; _________________________________________
 ;| Ryo Sakazaki by CrazyKoopa & Jmorphman  |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER MOVES>========================================
-;==============================================================================================
+;==
+;====<SUPER MOVES>====
+;==
 
 ;---------------------------------------------------------------------------
 ;Haoh Shokoken
@@ -907,7 +907,7 @@ ctrl = 1
 [StateDef 3115]
 type = S
 moveType = H
-physics  = N
+physics = N
 velSet = 0,0
 
 [State 3115, PosSet]
@@ -2072,7 +2072,7 @@ ctrl = 1
 ;---------------------------------------------------------------------------
 ;Stand get-hit (shaking)
 [Statedef 3205]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -2120,7 +2120,7 @@ value = 3206
 
 ; Air get-hit (knocked away)
 [Statedef 3206]
-type    = A
+type = A
 movetype= H
 physics = N
 ctrl = 0
@@ -2163,7 +2163,7 @@ value = 3207 ;Air get-hit (transition)
 
 ; Air get-hit (transition)
 [Statedef 3207]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -2199,7 +2199,7 @@ value = 3208 ;Air get-hit (falling)
 
 ; Air get-hit (falling)
 [Statedef 3208]
-type    = A
+type = A
 movetype= H
 physics = N
 
@@ -2240,7 +2240,7 @@ value = 3209 ;Downed get-hit (hit ground from fall)
 
 ; Downed get-hit (hit ground from fall)
 [Statedef 3209]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2318,7 +2318,7 @@ value = 3210 ;Downed get-hit (bounce off ground)
 
 ; Downed get-hit (bounce off ground)
 [Statedef 3210]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2369,7 +2369,7 @@ value = 3211
 ;---------------------------------------------------------------------------
 ; Downed get-hit (lying down)
 [Statedef 3211]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2485,7 +2485,7 @@ x = 0
 
 ; Downed get-hit (getting up)
 [Statedef 3212]
-type    = L
+type = L
 movetype= H
 physics = N
 
@@ -2527,7 +2527,7 @@ value = 3213
 
 ;Dizzy
 [Statedef 3213]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0

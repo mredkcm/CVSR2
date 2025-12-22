@@ -199,199 +199,199 @@ time = 1
 
 [Command]
 name = "DoubleTyphoon"
-command = ~F, D, DB, F, D, DB, x
-time = 45
+command = ~F, D, B, F, D, B, x
+time = 40
 
 [Command]
 name = "DoubleTyphoon"
-command = ~F, D, DB, F, D, DB, y
-time = 45
+command = ~F, D, B, F, D, B, y
+time = 40
 
 [Command]
 name = "DoubleTyphoon"
-command = ~F, D, DB, F, D, DB, z
-time = 45
+command = ~F, D, B, F, D, B, z
+time = 40
 
 [Command]
 name = "MAXDoubleTyphoon"
-command = ~F, D, DB, F, D, DB, x+y
-time = 45
+command = ~F, D, B, F, D, B, x+y
+time = 40
 
 [Command]
 name = "MAXDoubleTyphoon"
-command = ~F, D, DB, F, D, DB, y+z
-time = 45
+command = ~F, D, B, F, D, B, y+z
+time = 40
 
 [Command]
 name = "MAXDoubleTyphoon"
-command = ~F, D, DB, F, D, DB, x+z
-time = 45
+command = ~F, D, B, F, D, B, x+z
+time = 40
 
 [Command]
 name = "DoubleTyphoon"
-command = ~B, D, DF, B, D, DF, x
-time = 45
+command = ~B, D, F, B, D, F, x
+time = 40
 
 [Command]
 name = "DoubleTyphoon"
-command = ~B, D, DF, B, D, DF, y
-time = 45
+command = ~B, D, F, B, D, F, y
+time = 40
 
 [Command]
 name = "DoubleTyphoon"
-command = ~B, D, DF, B, D, DF, z
-time = 45
+command = ~B, D, F, B, D, F, z
+time = 40
 
 [Command]
 name = "MAXDoubleTyphoon"
-command = ~B, D, DF, B, D, DF, x+y
-time = 45
+command = ~B, D, F, B, D, F, x+y
+time = 40
 
 [Command]
 name = "MAXDoubleTyphoon"
-command = ~B, D, DF, B, D, DF, y+z
-time = 45
+command = ~B, D, F, B, D, F, y+z
+time = 40
 
 [Command]
 name = "MAXDoubleTyphoon"
-command = ~B, D, DF, B, D, DF, x+z
-time = 45
+command = ~B, D, F, B, D, F, x+z
+time = 40
 
 [Command]
 name = "CanyonSplitter"
-command = ~D, DF, F, D, DF, F, x
-time = 32
-
-[Command]
-name = "CanyonSplitter"
-command = ~D, DF, F, D, DF, F, y
+command = ~D, DF, F, D, DF, x
 time = 32
 
 [Command]
 name = "CanyonSplitter"
-command = ~D, DF, F, D, DF, F, z
+command = ~D, DF, F, D, DF, y
+time = 32
+
+[Command]
+name = "CanyonSplitter"
+command = ~D, DF, F, D, DF, z
 time = 32
 
 [Command]
 name = "MAXCanyonSplitter"
-command = ~D, DF, F, D, DF, F, x+y
+command = ~D, DF, F, D, DF, x+y
 time = 32
 
 [Command]
 name = "MAXCanyonSplitter"
-command = ~D, DF, F, D, DF, F, x+z
+command = ~D, DF, F, D, DF, x+z
 time = 32
 
 [Command]
 name = "MAXCanyonSplitter"
-command = ~D, DF, F, D, DF, F, y+z
+command = ~D, DF, F, D, DF, y+z
 time = 32
 
 [Command]
 name = "RagingSlash"
-command = ~D, DF, F, D, DB, B, a+b
+command = ~D, DF, F, D, B, B, a+b
 time = 32
 
 [Command]
 name = "RagingSlash"
-command = ~D, DF, F, D, DB, B, b+c
+command = ~D, DF, F, D, B, B, b+c
 time = 32
 
 [Command]
 name = "RagingSlash"
-command = ~D, DF, F, D, DB, B, a+c
+command = ~D, DF, F, D, B, B, a+c
 time = 32
 
 [Command]
 name = "RagingTyphoon"
-command = ~F, D, DB, F, D, DB, a+b
-time = 45
+command = ~F, D, B, F, D, B, a+b
+time = 40
 
 [Command]
 name = "RagingTyphoon"
-command = ~F, D, DB, F, D, DB, b+c
-time = 45
+command = ~F, D, B, F, D, B, b+c
+time = 40
 
 [Command]
 name = "RagingTyphoon"
-command = ~F, D, DB, F, D, DB, a+c
-time = 45
+command = ~F, D, B, F, D, B, a+c
+time = 40
 
 [Command]
 name = "RagingTyphoon"
-command = ~B, D, DF, B, D, DF, a+b
-time = 45
+command = ~B, D, F, B, D, F, a+b
+time = 40
 
 [Command]
 name = "RagingTyphoon"
-command = ~B, D, DF, B, D, DF, b+c
-time = 45
+command = ~B, D, F, B, D, F, b+c
+time = 40
 
 [Command]
 name = "RagingTyphoon"
-command = ~B, D, DF, B, D, DF, a+c
-time = 45
+command = ~B, D, F, B, D, F, a+c
+time = 40
 
 ;====================<SPECIAL MOTIONS>====================
 
 [Command]
 name = "CondorSpire"
-command = ~B, D, DB, B, x
+command = ~B, D, DB, x
 time = 16
 
 [Command]
 name = "CondorSpire"
-command = ~B, D, DB, B, y
+command = ~B, D, DB, y
 time = 16
 
 [Command]
 name = "CondorSpire"
-command = ~B, D, DB, B, z
+command = ~B, D, DB, z
 time = 16
 
 [Command]
 name = "EXCondorSpire"
-command = ~B, D, DB, B, x+y
+command = ~B, D, DB, x+y
 time = 16
 
 [Command]
 name = "EXCondorSpire"
-command = ~B, D, DB, B, y+z
+command = ~B, D, DB, y+z
 time = 16
 
 [Command]
 name = "EXCondorSpire"
-command = ~B, D, DB, B, x+z
+command = ~B, D, DB, x+z
 time = 16
 
 [Command]
 name = "CondorSpire2"
-command = ~F, D, DF, F, a
+command = ~F, D, DF, a
 time = 16
 
 [Command]
 name = "CondorSpire2"
-command = ~F, D, DF, F, b
+command = ~F, D, DF, b
 time = 16
 
 [Command]
 name = "CondorSpire2"
-command = ~F, D, DF, F, c
+command = ~F, D, DF, c
 time = 16
 
 [Command]
 name = "EXCondorSpire2"
-command = ~F, D, DF, F, a+b
+command = ~F, D, DF, a+b
 time = 16
 
 [Command]
 name = "EXCondorSpire2"
-command = ~F, D, DF, F, b+c
+command = ~F, D, DF, b+c
 time = 16
 
 [Command]
 name = "EXCondorSpire2"
-command = ~F, D, DF, F, a+c
+command = ~F, D, DF, a+c
 time = 16
 
 [Command]
@@ -446,62 +446,62 @@ time = 16
 
 [Command]
 name = "MexicanTyphoon"
-command = ~F, D, DB, x
+command = ~F, D, B, x
 time = 16
 
 [Command]
 name = "MexicanTyphoon"
-command = ~F, D, DB, y
+command = ~F, D, B, y
 time = 16
 
 [Command]
 name = "MexicanTyphoon"
-command = ~F, D, DB, z
+command = ~F, D, B, z
 time = 16
 
 [Command]
 name = "MexicanTyphoon"
-command = ~B, D, DF, x
+command = ~B, D, F, x
 time = 16
 
 [Command]
 name = "MexicanTyphoon"
-command = ~B, D, DF, y
+command = ~B, D, F, y
 time = 16
 
 [Command]
 name = "MexicanTyphoon"
-command = ~B, D, DF, z
+command = ~B, D, F, z
 time = 16
 
 [Command]
 name = "EXMexicanTyphoon"
-command = ~F, D, DB, x+y
+command = ~F, D, B, x+y
 time = 16
 
 [Command]
 name = "EXMexicanTyphoon"
-command = ~F, D, DB, y+z
+command = ~F, D, B, y+z
 time = 16
 
 [Command]
 name = "EXMexicanTyphoon"
-command = ~F, D, DB, x+z
+command = ~F, D, B, x+z
 time = 16
 
 [Command]
 name = "EXMexicanTyphoon"
-command = ~B, D, DF, x+y
+command = ~B, D, F, x+y
 time = 16
 
 [Command]
 name = "EXMexicanTyphoon"
-command = ~B, D, DF, y+z
+command = ~B, D, F, y+z
 time = 16
 
 [Command]
 name = "EXMexicanTyphoon"
-command = ~B, D, DF, x+z
+command = ~B, D, F, x+z
 time = 16
 
 [Command]

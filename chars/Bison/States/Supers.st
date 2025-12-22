@@ -1,11 +1,11 @@
 ; _______________________________
 ;| Vega by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;======================================< SUPER STATES >========================================
-;============================================================================================
+;====
+;==< SUPER STATES >====
+;====
 
-;======================< HEARTBREAK DESPAIR >=============================
+;==< HEARTBREAK DESPAIR >=
 [Statedef 3000]
 type = S
 physics = S
@@ -476,7 +476,7 @@ value = 1
 movecamera = 0, 0
 
 
-;======================< PSYCHO BREAK SMASHER >=============================
+;==< PSYCHO BREAK SMASHER >=
 [Statedef 3050]
 type = S
 physics = S
@@ -746,7 +746,7 @@ value = 0
 ctrl = 1
 
 
-;======================< KNEE PRESS NIGHTMARE >=============================
+;==< KNEE PRESS NIGHTMARE >=
 [Statedef 3100]
 type = S
 physics = S
@@ -1023,7 +1023,7 @@ value = ifelse(command = "holddown", 10, 12)
 ctrl = 1
 
 
-;======================< KICKS >=============================
+;==< KICKS >=
 [Statedef 3150]
 type = A
 physics = N
@@ -1244,7 +1244,7 @@ value = 0
 ctrl = 1
 
 
-;======================< FINAL PSYCHO CRUSHER >=============================
+;==< FINAL PSYCHO CRUSHER >=
 [Statedef 4000]
 type = S
 physics = N

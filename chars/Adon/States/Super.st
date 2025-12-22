@@ -1,11 +1,11 @@
 ; _______________________________________
 ;| Adon by Trololo                       |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<JAGUAR REVOLVER>=============================
+;====<JAGUAR REVOLVER>=
 [StateDef 3000]
 type = S
 physics = S
@@ -458,7 +458,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<JAGUAR REVOLVER MAX>=============================
+;====<JAGUAR REVOLVER MAX>=
 [StateDef 3050]
 type = S
 physics = S
@@ -1104,7 +1104,7 @@ triggerall = anim = 3002 && Animelemtime(9) >= 0
 trigger1 = pos y > -vel y
 value = 3005
 
-;========================<JAGUAR VARIED ASSAULT>=============================
+;====<JAGUAR VARIED ASSAULT>=
 [StateDef 3100]
 type = S
 physics = N
@@ -1566,7 +1566,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<MAX JAGUAR BARED ASSAULT>=============================
+;====<MAX JAGUAR BARED ASSAULT>=
 [StateDef 3150]
 type = S
 physics = N
@@ -2027,7 +2027,7 @@ type = ChangeState
 trigger1 = pos y > -vel y
 value = 3101
 
-;========================<THOSAND JAGUAR>=============================
+;====<THOSAND JAGUAR>=
 [StateDef 3160]
 type = S
 physics = N
@@ -2175,7 +2175,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<JAGUAR ASSASSIN>=============================
+;====<JAGUAR ASSASSIN>=
 [StateDef 3170]
 type = S
 physics = N
@@ -2416,12 +2416,12 @@ trigger1 = pos y > -vel y
 value = 1101
 ctrl = 0
 
-;========================<JAGUAR AVALANCHE>==============================
+;====<JAGUAR AVALANCHE>==
 [Statedef 3200]
 type = S
 movetype = A
 physics = N
-juggle   = 3
+juggle = 3
 ctrl = 0
 velset = 0,0
 sprpriority = 2

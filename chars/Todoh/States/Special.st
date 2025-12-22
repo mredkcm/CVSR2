@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Todoh by varo_hades                      |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;=====================<KASANE ATE>==========================
+;=<KASANE ATE>==
 [StateDef 1000]
 type = S
 physics = S
@@ -69,7 +69,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX KASANE ATE>=============================
+;====<EX KASANE ATE>=
 [StateDef 1030]
 type = S
 physics = N
@@ -158,7 +158,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<TAIKUU>==========================
+;=<TAIKUU>==
 [StateDef 1050]
 type = S
 physics = S
@@ -215,7 +215,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<EX TAIKUU>=============================
+;====<EX TAIKUU>=
 [StateDef 1080]
 type = S
 physics = N
@@ -297,7 +297,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;=====================<AIR KASANE ATE>==========================
+;=<AIR KASANE ATE>==
 [StateDef 1100]
 type = A
 physics = N
@@ -399,7 +399,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================<EX AIR KASANE ATE>=============================
+;====<EX AIR KASANE ATE>=
 [StateDef 1130]
 type = A
 physics = N
@@ -490,7 +490,7 @@ trigger1 = animelemtime(9) > 0
 trigger1 = Pos Y >= 0 && Vel Y > 0
 value = 1101
 
-;=====================<STUNNING GRAB>==========================
+;=<STUNNING GRAB>==
 [StateDef 1200]
 type = S
 physics = S
@@ -619,7 +619,7 @@ ctrl = 1
 
 ;Connect
 [Statedef 1201]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1201
@@ -690,7 +690,7 @@ animtype = Hard
 air.animType = Back
 fall.animType = Back
 damage = ceil(ifElse(fvar(11) * 58 < 7, 7, fvar(11) * 58)), 15
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 3,ifElse(var(10) = 2, 20, ifElse(var(10), 20, 20))
@@ -702,7 +702,7 @@ sparkXY = -10 + 0 * (var(35) := 143), var(36) := -55
 ground.type = Low
 air.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.ctrltime = 18
 ground.velocity = -10.52, 0
 guard.velocity = -10.52
@@ -775,7 +775,7 @@ ctrl = 1
 
 ;Player 2
 [Statedef 1206]
-type    = S
+type = S
 movetype = H
 physics = N
 velset = 0,0
@@ -791,7 +791,7 @@ type = NotHitBy
 trigger1 = 1
 value = SCA
 
-;=====================<EX STUNNING GRAB>==========================
+;=<EX STUNNING GRAB>==
 [StateDef 1230]
 type = S
 physics = S
@@ -919,7 +919,7 @@ ctrl = 1
 
 ;Connect
 [Statedef 1231]
-type    = S
+type = S
 movetype = A
 physics = S
 anim = 1201
@@ -987,10 +987,10 @@ type = HitDef
 trigger1 = AnimElem = 9
 attr = S, SA
 animtype = Hard
-air.animtype  = Back
-fall.animtype  = Back
+air.animtype = Back
+fall.animtype = Back
 damage = ceil(ifElse(fvar(11) * 78 < 7, 7, fvar(11) * 78)), 15
-priority  = 7, Hit
+priority = 7, Hit
 hitflag = MAF
 guardflag = M
 pausetime = 13, 14
@@ -1003,7 +1003,7 @@ sparkXY = -10 + 0 * (var(35) := 143), var(36) := -55
 ground.type = Low
 air.type = Low
 ground.slidetime = 17
-ground.hittime  = 18
+ground.hittime = 18
 guard.ctrltime = 18
 ground.velocity = -15, -6.5
 guard.velocity = -8.52
@@ -1045,7 +1045,7 @@ trigger1 = AnimTime = 0
 value = 0
 ctrl = 1
 
-;========================< PUNCHED BY EX STUNNING GRAB>=============================
+;====< PUNCHED BY EX STUNNING GRAB>=
 ;--- Hit Pause ---
 [Statedef 1111200]
 type = A
@@ -1224,7 +1224,7 @@ type = selfstate
 trigger1 = vel y > 0 && pos y >= 0
 value = 5100
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -1310,7 +1310,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

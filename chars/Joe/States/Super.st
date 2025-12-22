@@ -1,11 +1,11 @@
 ; _______________________________________
 ;| Joe Higashi by Jmorphman              |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<SCREW UPPER>=============================
+;====<SCREW UPPER>=
 [StateDef 3000]
 type = S
 physics = S
@@ -215,7 +215,7 @@ ctrl = 1
 
 
 
-;========================<MAX SCREW UPPER>=============================
+;====<MAX SCREW UPPER>=
 [StateDef 3050]
 type = S
 physics = S
@@ -425,7 +425,7 @@ ctrl = 1
 
 
 
-;========================<EXPLODING HURRICANE TIGER HEEL>=============================
+;====<EXPLODING HURRICANE TIGER HEEL>=
 [StateDef 3100]
 type = S
 physics = N
@@ -1038,7 +1038,7 @@ ctrl = 1
 
 
 
-;========================<MAX EXPLODING HURRICANE TIGER HEEL>=============================
+;====<MAX EXPLODING HURRICANE TIGER HEEL>=
 [StateDef 3150]
 type = S
 physics = N
@@ -1671,7 +1671,7 @@ value = 3101
 
 
 
-;========================<GOLDEN TIGER KICK>=============================
+;====<GOLDEN TIGER KICK>=
 ;Startup
 [StateDef 3200]
 type = S
@@ -2114,7 +2114,7 @@ ctrl = 1
 
 
 
-;========================<MAX GOLDEN TIGER KICK>=============================
+;====<MAX GOLDEN TIGER KICK>=
 ;Startup
 [StateDef 3250]
 type = S
@@ -2515,7 +2515,7 @@ value = 3220
 
 
 
-;========================<DOUBLE CYCLONE>=============================
+;====<DOUBLE CYCLONE>=
 [StateDef 3300]
 type = S
 physics = N

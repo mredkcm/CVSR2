@@ -1,11 +1,11 @@
 ; ___________________________________
 ;| Nakoruru by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;======================================< MAMAHAHA STATES >=======================================
-;==============================================================================================
+;==
+;==< MAMAHAHA STATES >===
+;==
 
-;====================< IDLE >====================
+;====< IDLE >====
 [Statedef 10000]
 type = A
 physics = N
@@ -219,7 +219,7 @@ trigger1 = var(50) >= 180
 value = 10010
 
 
-;====================< FAST FLIGHT >====================
+;====< FAST FLIGHT >====
 [Statedef 10005]
 type = A
 physics = N
@@ -305,7 +305,7 @@ trigger1 = rootdist y = [84, 204]
 value = 10000
 
 
-;====================< RESTING ON NAKORURU >====================
+;====< RESTING ON NAKORURU >====
 [Statedef 10010]
 type = A
 physics = N
@@ -475,7 +475,7 @@ value = 8, 1
 channel = 1
 
 
-;====================< TIME OVER >====================
+;====< TIME OVER >====
 [Statedef 10020]
 type = A
 physics = N
@@ -586,7 +586,7 @@ value = 8, 0
 channel = 0
 
 
-;====================< INTRO 1 >====================
+;====< INTRO 1 >====
 [Statedef 10030]
 type = A
 physics = N
@@ -613,7 +613,7 @@ pos = -6, -73
 facing = 1
 
 
-;====================< INTRO 3 >====================
+;====< INTRO 3 >====
 [Statedef 10035]
 type = A
 physics = N
@@ -646,7 +646,7 @@ pos = -6, -73
 facing = 1
 
 
-;====================< WIN 1 >====================
+;====< WIN 1 >====
 [Statedef 10040]
 type = A
 physics = N
@@ -762,7 +762,7 @@ value = 8, 1
 channel = 1
 
 
-;====================< WIN 2 >====================
+;====< WIN 2 >====
 [Statedef 10050]
 type = A
 physics = N
@@ -887,7 +887,7 @@ value = 8, 1
 channel = 1
 
 
-;====================< S.D. TAUNT >====================
+;====< S.D. TAUNT >====
 [Statedef 10060]
 type = A
 physics = N
@@ -992,7 +992,7 @@ pos = -3, -43
 facing = 1
 
 
-;====================< WIN 3 >====================
+;====< WIN 3 >====
 [Statedef 10070]
 type = A
 physics = N
@@ -1103,7 +1103,7 @@ value = 8, 0
 channel = 0
 
 
-;========================< MAMAHAHA NI TSUKAMARU >=============================
+;====< MAMAHAHA NI TSUKAMARU >=
 [Statedef 10100]
 type = A
 physics = N
@@ -1191,7 +1191,7 @@ pos = 2, -94
 facing = 1
 
 
-;========================< AMUBE YATORO >=============================
+;====< AMUBE YATORO >=
 [Statedef 10200]
 type = A
 physics = N
@@ -1447,7 +1447,7 @@ trigger1 = time >= 0
 value = 10200
 
 
-;========================< EX AMUBE YATORO >=============================
+;====< EX AMUBE YATORO >=
 [Statedef 10250]
 type = A
 physics = N
@@ -1858,7 +1858,7 @@ trigger1 = vel y > 0 && pos y >= 0
 value = 5100
 
 
-;========================< SHICHIKAPU KAMUI IRUSHIKA >=============================
+;====< SHICHIKAPU KAMUI IRUSHIKA >=
 [Statedef 10400]
 type = A
 physics = N
@@ -2275,7 +2275,7 @@ trigger1 = pos x != [ -480, 480]
 trigger2 = (pos x != [ -320, 320]) && time >= 60
 value = 10005
 
-;========================< ELERUSH KAMUI RIMSE >=============================
+;====< ELERUSH KAMUI RIMSE >=
 [Statedef 10500]
 type = A
 physics = N
@@ -2357,7 +2357,7 @@ trigger2 = root, stateno != 3001
 value = 10000
 
 
-;========================< IRUSUKA YATORO LISE >=============================
+;====< IRUSUKA YATORO LISE >=
 [Statedef 10600]
 type = A
 physics = N

@@ -1,11 +1,11 @@
 ; _______________________________
 ;| Vega by Phantom.of.the.Server |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================< HELPER STATES >========================================
-;==============================================================================================
+;==
+;===< HELPER STATES >====
+;==
 
-;========================< PSYCHO POWER >=============================
+;====< PSYCHO POWER >=
 [Statedef 6000]
 physics = N
 anim = 9741
@@ -76,7 +76,7 @@ trigger2 = (root, stateno) != var(0) || (root, anim) != var(1)
 trigger3 = (anim != [6000, 6071]) && anim != 1206 && anim != 1256 && anim != 1405
 
 
-;========================< PSYCHO FIELD >=============================
+;====< PSYCHO FIELD >=
 ;--- ADVANCING ---
 [Statedef 1605]
 type = A
@@ -394,7 +394,7 @@ type = destroyself
 trigger1 = !animtime
 
 
-;========================< PROJECTILE HITTER >=============================
+;====< PROJECTILE HITTER >=
 [Statedef 1007]
 type = A
 physics = N
@@ -457,7 +457,7 @@ trigger1 = 1
 flag = invisible
 
 
-;========================< PROJECTILE BANISHER >=============================
+;====< PROJECTILE BANISHER >=
 [Statedef 1407]
 type = A
 physics = N
@@ -501,7 +501,7 @@ trigger4 = root, anim = 1401 && root, animelemtime(11) >= 0
 trigger5 = root, anim = 1402 && root, animelemtime(12) >= 0
 
 
-;========================< PSYCHO CRUSHER >=============================
+;====< PSYCHO CRUSHER >=
 [Statedef 1005]
 physics = N
 anim = 1005
@@ -526,7 +526,7 @@ trigger1 = (root, stateno != 1000) || (root, anim != 1000)
 trigger2 = (root, stateno = 1000) && root, animelemtime(6) < 0
 
 
-;========================< HEARTBREAK DESPAIR >=============================
+;====< HEARTBREAK DESPAIR >=
 [Statedef 3010]
 physics = N
 anim = 3010
@@ -558,7 +558,7 @@ type = destroyself
 trigger1 = time >= 11
 
 
-;========================< PSYCHO BREAK SMASHER >=============================
+;====< PSYCHO BREAK SMASHER >=
 [Statedef 3060]
 physics = N
 anim = 3060
@@ -588,7 +588,7 @@ type = destroyself
 trigger1 = anim = 3061 && !animtime
 
 
-;========================< FINAL PSYCHO CRUSHER >=============================
+;====< FINAL PSYCHO CRUSHER >=
 [Statedef 4006]
 physics = N
 anim = 4006
@@ -621,7 +621,7 @@ type = destroyself
 trigger1 = time >= 16
 
 
-;========================< WARP FX >=============================
+;====< WARP FX >=
 ;--- FADE OUT ---
 [Statedef 1705]
 physics = N
@@ -729,7 +729,7 @@ type = destroyself
 trigger1 = time >= 10 || root, movetype = H
 
 
-;========================< CAPE >=============================
+;====< CAPE >=
 [Statedef 6100]
 physics = N
 anim = 6100
@@ -749,7 +749,7 @@ type = destroyself
 trigger1 = time >= 20
 
 
-;========================< JUMP DUST >=============================
+;====< JUMP DUST >=
 [Statedef 7100]
 physics = N
 velset = 0, 0
@@ -787,7 +787,7 @@ type = destroyself
 trigger1 = time >= 7
 
 
-;========================< FIRE >=============================
+;====< FIRE >=
 [Statedef 7180]
 physics = N
 velset = 0, 0
@@ -827,7 +827,7 @@ type = destroyself
 trigger1 = !numenemy || time >= 120
 
 
-;========================< SUPER CHARGE >=============================
+;====< SUPER CHARGE >=
 [Statedef 7500]
 physics = N
 velset = 0, 0
@@ -1129,7 +1129,7 @@ trigger1 = root, var(10) = 6 && time >= 54
 trigger2 = time >= 61
 
 
-;========================< POWER CHARGE >=============================
+;====< POWER CHARGE >=
 ;--- MAIN FX ---
 [Statedef 7240]
 type = S
@@ -1222,7 +1222,7 @@ type = destroyself
 trigger1 = (root, stateno != 740) || (root, anim != 740) || (root, movetype = H)
 
 
-;========================< ZERO COUNTER CHARGE >=============================
+;====< ZERO COUNTER CHARGE >=
 [Statedef 7250]
 physics = N
 velset = 0, 0
@@ -1288,7 +1288,7 @@ type = destroyself
 trigger1 = time >= 20
 
 
-;========================< EXCEL COMBO CHARGE >=============================
+;====< EXCEL COMBO CHARGE >=
 [Statedef 7260]
 physics = N
 velset = 0, 0
@@ -1369,7 +1369,7 @@ type = destroyself
 trigger1 = time >= 30
 
 
-;========================< COUNTER F.X. >=============================
+;====< COUNTER F.X. >=
 [Statedef 7400]
 type = A
 physics = N
@@ -1392,7 +1392,7 @@ type = destroyself
 trigger1 = time >= 8
 
 
-;========================< SUPER FINISH >=============================
+;====< SUPER FINISH >=
 [Statedef 7600]
 type = A
 velset = 0, 0
@@ -1489,7 +1489,7 @@ type = destroyself
 trigger1 = roundstate < 3
 
 
-;========================< CAMERA CONTROL >=============================
+;====< CAMERA CONTROL >=
 [Statedef 7650]
 physics = N
 velset = 0, 0

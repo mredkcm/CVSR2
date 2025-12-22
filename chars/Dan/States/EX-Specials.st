@@ -1,11 +1,11 @@
 ; ________________________________________________
 ;| Dan by Phantom.of.the.Server and Mr.Ansatsuken |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;============================================================================================
-;===================================< EX SPECIAL STATES >======================================
-;============================================================================================
+;====
+;===< EX SPECIAL STATES >==
+;====
 
-;======================< SAIKYO GADOU KEN >=============================
+;==< SAIKYO GADOU KEN >=
 ; Saikyo Gadouken
 [Statedef 1010]
 type = S
@@ -83,7 +83,7 @@ value = 0
 ctrl = 1
 
 
-;======================< GOU KOURYUU KEN >=============================
+;==< GOU KOURYUU KEN >=
 ; Saikyo Koryuuken
 [Statedef 1110]
 type = S
@@ -272,7 +272,7 @@ trigger1 = anim != 1100
 movetype = I
 
 
-;======================< UPPERCUT >=============================
+;==< UPPERCUT >=
 ; Uppercut
 [Statedef 1150]
 type = S
@@ -440,7 +440,7 @@ value = ifelse(AIlevel && winko, 403,0)
 ctrl = ifelse(AIlevel && winko, 0,1)
 
 
-;======================< EX DANKUU KYAKU >=============================
+;==< EX DANKUU KYAKU >=
 ; EX Dankuu Kyaku
 [Statedef 1210]
 type = S
@@ -630,7 +630,7 @@ trigger1 = animelemtime(3) > 0 && vel y > 0 && pos y >= 0
 value = 52
 
 
-;======================< EX DANKUU KYAKU 2 >=============================
+;==< EX DANKUU KYAKU 2 >=
 ; EX Dankuu Kyaku 2
 [Statedef 1220]
 type = S
@@ -787,7 +787,7 @@ trigger1 = animelemtime(3) > 0 && vel y > 0 && pos y >= 0
 value = 52
 
 
-;======================< EX KUUCHUU DANKUU KYAKU >=============================
+;==< EX KUUCHUU DANKUU KYAKU >=
 ; EX Kuuchuu Danku Kyaku
 [Statedef 1260]
 type = A
@@ -1005,7 +1005,7 @@ trigger1 = vel y > 0 && pos y >= 0
 value = 52
 
 
-;======================< EX SAIKYOU-RYUU BOUGYO >=============================
+;==< EX SAIKYOU-RYUU BOUGYO >=
 ; EX Bougyo - Standing -
 [Statedef 1510]
 type = S

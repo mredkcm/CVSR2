@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Kim Kaphwan by Jmorphman                |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;========================<HANGETSUZAN>=============================
+;====<HANGETSUZAN>=
 [StateDef 1000]
 type = S
 physics = N
@@ -221,7 +221,7 @@ ctrl = 1
 
 
 
-;========================<EX HANGETSUZAN>=============================
+;====<EX HANGETSUZAN>=
 [StateDef 1030]
 type = S
 physics = N
@@ -568,7 +568,7 @@ ctrl = 1
 
 
 
-;========================<HISHOKYAKU>=============================
+;====<HISHOKYAKU>=
 [StateDef 1100]
 type = A
 physics = N
@@ -850,7 +850,7 @@ ctrl = 1
 
 
 
-;========================<INGOTOKYAKU>=============================
+;====<INGOTOKYAKU>=
 [StateDef 1103]
 type = S
 anim = 1103
@@ -1040,7 +1040,7 @@ value = 5110
 
 
 
-;========================<EX HISHOKYAKU>=============================
+;====<EX HISHOKYAKU>=
 [StateDef 1130]
 type = S
 physics = N
@@ -1351,7 +1351,7 @@ ctrl = 1
 
 
 
-;========================<EX INGOTOKYAKU>=============================
+;====<EX INGOTOKYAKU>=
 [StateDef 1133]
 type = S
 anim = 1103
@@ -1489,7 +1489,7 @@ ctrl = 1
 
 
 
-;=====================<HIENZAN>==========================
+;=<HIENZAN>==
 [StateDef 1200]
 type = S
 physics = N
@@ -1777,7 +1777,7 @@ ctrl = 1
 
 
 
-;========================<TENSHOZAN>=============================
+;====<TENSHOZAN>=
 [StateDef 1221]
 type = A
 anim = 1221
@@ -1851,7 +1851,7 @@ value = 1201
 
 
 
-;========================<EX HIENZAN>=============================
+;====<EX HIENZAN>=
 [StateDef 1230]
 type = S
 physics = N
@@ -2206,7 +2206,7 @@ value = 1201
 
 
 
-;=====================<KUSAJIN>==========================
+;=<KUSAJIN>==
 [StateDef 1300]
 type = S
 physics = N
@@ -2487,7 +2487,7 @@ ctrl = 1
 
 
 
-;========================<EX KUSAJIN>=============================
+;====<EX KUSAJIN>=
 [StateDef 1330]
 type = S
 physics = N
@@ -2823,7 +2823,7 @@ value = 1301
 
 
 
-;========================<TENSHOZAN (FROM EX KUSAJIN)>=============================
+;====<TENSHOZAN (FROM EX KUSAJIN)>=
 [StateDef 1331]
 type = A
 anim = 1331
@@ -2902,7 +2902,7 @@ value = 1301
 
 
 
-;========================<RYUSEIRAKU>=============================
+;====<RYUSEIRAKU>=
 [StateDef 1400]
 type = S
 physics = N
@@ -3199,7 +3199,7 @@ ctrl = 1
 
 
 
-;========================<EX RYUSEIRAKU>=============================
+;====<EX RYUSEIRAKU>=
 [StateDef 1430]
 type = S
 physics = N
@@ -3446,7 +3446,7 @@ value = 1401
 
 
 
-;=====================<HAKIKYAKU>==========================
+;=<HAKIKYAKU>==
 [StateDef 1500]
 type = S
 physics = N
@@ -3610,7 +3610,7 @@ ctrl = 1
 
 
 
-;========================<EX HAKIKYAKU>=============================
+;====<EX HAKIKYAKU>=
 [StateDef 1530]
 type = S
 physics = N
@@ -3803,7 +3803,7 @@ ctrl = 1
 
 
 
-;========================<SLAMMED AGAINST GROUND BY EX HAKIKYAKU>=============================
+;====<SLAMMED AGAINST GROUND BY EX HAKIKYAKU>=
 ;Being Slammed
 [StateDef 5980]
 type = A
@@ -3907,7 +3907,7 @@ value = 5110
 
 
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -4037,7 +4037,7 @@ value = 1201
 
 
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

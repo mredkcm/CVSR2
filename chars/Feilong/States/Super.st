@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Feilong by varo_hades                  |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SUPER STATES>========================================
-;==============================================================================================
+;==
+;====<SUPER STATES>====
+;==
 
-;========================<REKKA SHINKEN>=============================
+;====<REKKA SHINKEN>=
 [StateDef 3000]
 type = S
 physics = S
@@ -304,7 +304,7 @@ trigger1 = Time = 135
 value = 0
 ctrl = 1
 
-;========================<MAX REKKA SHINKEN>=============================
+;====<MAX REKKA SHINKEN>=
 [StateDef 3050]
 type = S
 physics = S
@@ -603,7 +603,7 @@ trigger1 = Time = 145
 value = 0
 ctrl = 1
 
-;========================<SHIEN RENKYAKU>=============================
+;====<SHIEN RENKYAKU>=
 [StateDef 3100]
 type = A
 physics = N
@@ -807,7 +807,7 @@ type = ChangeState
 trigger1 = AnimTime = 0
 value = 3111
 
-;========================<SHIEN RENKYAKU ATTACK>=============================
+;====<SHIEN RENKYAKU ATTACK>=
 [Statedef 3111]
 type = A
 movetype = A
@@ -1029,10 +1029,10 @@ value = 3130
 
 ;Shien Renkyaku - Coming Down
 [Statedef 3130]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 4
+juggle = 4
 anim = 3102
 ctrl = 0
 
@@ -1092,7 +1092,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<MAX SHIEN RENKYAKU>=============================
+;====<MAX SHIEN RENKYAKU>=
 [StateDef 3150]
 type = A
 physics = N
@@ -1296,7 +1296,7 @@ type = ChangeState
 trigger1 = AnimTime = 0
 value = 3161
 
-;========================<MAX SHIEN RENKYAKU ATTACK>=============================
+;====<MAX SHIEN RENKYAKU ATTACK>=
 [Statedef 3161]
 type = A
 movetype = A
@@ -1521,7 +1521,7 @@ triggerall = Anim = 3101
 trigger1 = Vel Y > 0
 value = 3130
 
-;========================<GEKIRINKEN>=============================
+;====<GEKIRINKEN>=
 [StateDef 3200]
 type = S
 physics = S
@@ -1647,9 +1647,9 @@ ctrl=1
 
 ;Connect
 [Statedef 3210]
-type     = S
+type = S
 movetype = A
-physics  = N
+physics = N
 anim = 3210
 VelSet = 0,0
 
@@ -1687,9 +1687,9 @@ value = 3211
 
 ;Attack
 [Statedef 3211]
-type     = S
+type = S
 movetype = A
-physics  = U
+physics = U
 anim = 3211
 velset = 0,0
 
@@ -1787,9 +1787,9 @@ value = 3213
 
 ;Punches
 [Statedef 3212]
-type     = S
+type = S
 movetype = A
-physics  = U
+physics = U
 anim = 3212
 
 [State 810,***]
@@ -1906,9 +1906,9 @@ value = 3213
 
 ;End
 [Statedef 3213]
-type     = S
+type = S
 movetype = A
-physics  = U
+physics = U
 anim = 3213
 
 [State 810,***]
@@ -2020,9 +2020,9 @@ ctrl = 1
 
 ;Player 2
 [Statedef 3215]
-type     = S
+type = S
 movetype = H
-velset   = 0,0
+velset = 0,0
 
 [State 811, ????????????]
 type = ChangeAnim2
@@ -2036,9 +2036,9 @@ movecamera = 0,0
 
 ;Player 2
 [Statedef 3216]
-type     = S
+type = S
 movetype = H
-velset   = 0,0
+velset = 0,0
 
 [State 811, ????????????]
 type = ChangeAnim2
@@ -2052,9 +2052,9 @@ movecamera = 0,0
 
 ;Player 2
 [Statedef 3217]
-type     = S
+type = S
 movetype = H
-velset   = 0,0
+velset = 0,0
 
 [State 811, ????????????]
 type = ChangeAnim2
@@ -2068,9 +2068,9 @@ movecamera = 0,0
 
 ;Player 2
 [Statedef 3220]
-type     = S
+type = S
 movetype = H
-velset   = 0,0
+velset = 0,0
 
 [State 10000, ??]
 type = ScreenBound
@@ -2079,14 +2079,14 @@ movecamera = 0,0
 
 ;Special State
 [Statedef 3230]
-type     = A
+type = A
 movetype = H
-physics  = N
+physics = N
 
 [State 5600, ???]
 type = Turn
 triggerall = roundstate = 2
-trigger1   = P2BodyDist X !=[0,360]
+trigger1 = P2BodyDist X !=[0,360]
 
 [State 1];????????
 type = NotHitBy
@@ -2133,9 +2133,9 @@ value = 5100
 
 ;Special State 2
 [Statedef 3231]
-type     = A
+type = A
 movetype = H
-physics  = N
+physics = N
 
 [State 1];????????
 type = NotHitBy
@@ -2220,9 +2220,9 @@ value = 3232
 
 ;Special State 3
 [Statedef 3232]
-type     = A
+type = A
 movetype = H
-physics  = N
+physics = N
 
 [State 210, 3]
 type = PlayerPush
@@ -2250,7 +2250,7 @@ type = SelfState
 trigger1 = (Vel Y > 0) && (Pos Y >= 0)
 value = 5100
 
-;========================<RYU YASSAI>=============================
+;====<RYU YASSAI>=
 [StateDef 3300]
 type = S
 physics = S
@@ -2450,10 +2450,10 @@ ctrl = 1
 
 ; Ryu Shin Yassai
 [Statedef 3301]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 ctrl = 0
 velset = 15,0
 anim = 3302
@@ -2607,10 +2607,10 @@ value = 3303
 
 ; Ryu Yassai - Special Motion
 [Statedef 3303]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 velset = 0,0
 anim = 3303
 ctrl = 0
@@ -2633,10 +2633,10 @@ value = 3304
 
 ; Ryu Yassai - Flying Kick
 [Statedef 3304]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 4
+juggle = 4
 velset = 0,0
 anim = 3304
 ctrl = 0
@@ -2761,7 +2761,7 @@ triggerall = Time > 10
 trigger1 = Pos Y >= 0
 value = 3355
 
-;========================<MAX RYU YASSAI>=============================
+;====<MAX RYU YASSAI>=
 [StateDef 3350]
 type = S
 physics = S
@@ -2961,10 +2961,10 @@ ctrl = 1
 
 ; Ryu Shin Yassai
 [Statedef 3351]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 ctrl = 0
 velset = 15,0
 anim = 3352
@@ -3277,10 +3277,10 @@ value = 3353
 
 ; Ryu Yassai - Special Motion
 [Statedef 3353]
-type    = S
+type = S
 movetype= A
 physics = S
-juggle  = 4
+juggle = 4
 velset = 0,0
 anim = 3303
 ctrl = 0
@@ -3303,10 +3303,10 @@ value = 3354
 
 ; Ryu Yassai - Flying Kick
 [Statedef 3354]
-type    = A
+type = A
 movetype= A
 physics = N
-juggle  = 4
+juggle = 4
 velset = 0,0
 anim = 3304
 ctrl = 0
@@ -3482,7 +3482,7 @@ trigger1 = !AnimTime
 value = 0
 ctrl = 1
 
-;========================<RYU REKKASHINGEKI>=============================
+;====<RYU REKKASHINGEKI>=
 [StateDef 3400]
 type = S
 physics = N
@@ -3924,7 +3924,7 @@ value = 3430
 ctrl = 0
 
 [Statedef 3415]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -4349,7 +4349,7 @@ envShake.time = 18
 envShake.ampl = 6
 envShake.freq = 120
 
-;========================<MAX REKKASHINGEKI>=============================
+;====<MAX REKKASHINGEKI>=
 [StateDef 3450]
 type = S
 physics = N
@@ -4804,7 +4804,7 @@ value = 3470
 ctrl = 0
 
 [Statedef 3465]
-type    = S
+type = S
 movetype= H
 physics = N
 velset = 0,0
@@ -5239,7 +5239,7 @@ envShake.freq = 120
 
 ; P2 throw 02
 [Statedef 3445]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -5252,7 +5252,7 @@ ctrl = 0
 
 ; P2 throw 02
 [Statedef 3446]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -5330,7 +5330,7 @@ value = 5110
 
 ; P2 throw 02
 [Statedef 3455]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0
@@ -5342,7 +5342,7 @@ value = 3456
 ctrl = 0
 
 [Statedef 3456]
-type    = A
+type = A
 movetype= H
 physics = N
 velset = 0,0

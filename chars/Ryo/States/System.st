@@ -1,19 +1,19 @@
 ; ADD004 BASIC PIEs ReBuilded CNS (27/12/2018)
-;==============================================
+;==
 ; This file is Made by PIE.
 ; there is a backup of this file in the same folder, named "<samename>.a4bk".
 ; to Restore, use assist tool, or delete this file, then remove ".a4bk" from the neme of backup.
-;==============================================
+;==
 
 ; _________________________________________
 ;| Ryo Sakazaki by CrazyKoopa & Jmorphman  |
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;=======================================<SYSTEM STATES>========================================
-;==============================================================================================
+;==
+;===<SYSTEM STATES>====
+;==
 
 
-;====================< STANDING >====================
+;====< STANDING >====
 [Statedef 0]
 type = S
 physics = S
@@ -51,7 +51,7 @@ trigger1 = !alive
 value = 5050
 
 
-;====================<CROUCHING>====================
+;====<CROUCHING>====
 ;Stand to Crouch
 [StateDef 10]
 type = C
@@ -123,7 +123,7 @@ value = 0
 
 
 
-;====================< WALKING >====================
+;====< WALKING >====
 [Statedef 20]
 type = S
 physics = S
@@ -155,7 +155,7 @@ trigger2 = anim = 5 && animelemtime(1) >= 1
 value = 21
 
 
-;====================< JUMPING >====================
+;====< JUMPING >====
 [Statedef 40]
 type = S
 physics = S
@@ -361,7 +361,7 @@ value = 0
 ctrl = 1
 
 
-;======================< RUN >===========================
+;==< RUN >===
 [Statedef 100]
 type = S
 physics = N
@@ -692,7 +692,7 @@ value = 0
 ctrl = 1
 
 
-;====================< ROLL >====================
+;====< ROLL >====
 ;--- Forward ---
 [Statedef 710]
 type = S
@@ -795,7 +795,7 @@ value = 0
 ctrl = 1
 
 
-;==========< POWER CHARGE >==========
+;==< POWER CHARGE >==
 [Statedef 730]
 type = S
 physics = S
@@ -886,7 +886,7 @@ ctrl = 1
 
 
 
-;====================< ZERO COUNTER >====================
+;====< ZERO COUNTER >====
 [Statedef 750]
 type = S
 physics = S
@@ -956,7 +956,7 @@ value = ifelse(var(10) = 1, 2910, 2900)
 
 
 
-;====================< PARRY >====================
+;====< PARRY >====
 ;--- STANDING ---
 [Statedef 760]
 type = S
@@ -1326,7 +1326,7 @@ trigger2 = time >= 2
 
 
 
-;====================< CUSTOM COMBO >====================
+;====< CUSTOM COMBO >====
 ;--- GROUND ---
 [Statedef 900]
 type = S
@@ -1521,7 +1521,7 @@ value = 52
 
 
 
-;===================< GUARD >================
+;===< GUARD >====
 ;--- START ---
 [Statedef 120]
 type = U
@@ -1926,7 +1926,7 @@ trigger1 = sysvar(0)
 value = 52
 
 
-;====================< LOSE >====================
+;====< LOSE >====
 [Statedef 170]
 type = S
 ctrl = 0
@@ -1939,7 +1939,7 @@ trigger1 = Time < 200
 flag = roundnotover
 
 
-;====================< DRAW GAME >====================
+;====< DRAW GAME >====
 [Statedef 175]
 type = S
 ctrl = 0
@@ -1950,7 +1950,7 @@ trigger1 = !time
 value = 170
 
 
-;====================< CONTINUE? >====================
+;====< CONTINUE? >====
 [Statedef 5500]
 type = S
 anim = 5300
@@ -1963,7 +1963,7 @@ value = 5500
 
 
 
-;====================<INITIALIZE>====================
+;====<INITIALIZE>====
 [StateDef 5900]
 type = S
 
@@ -2285,7 +2285,7 @@ trigger1 = !AnimTime
 value = 0
 
 
-;====================<TURNS INTRO>====================
+;====<TURNS INTRO>====
 [StateDef 6900]
 type = A
 anim = 42
@@ -2382,7 +2382,7 @@ trigger1 = !AnimTime
 value = 0
 
 
-;====================<WIN POSE DECIDER>====================
+;====<WIN POSE DECIDER>====
 [StateDef 180]
 type = S
 
@@ -2624,7 +2624,7 @@ value = 181 + (Random % 3)
 
 
 
-;====================<WIN 1>====================
+;====<WIN 1>====
 [StateDef 181]
 type = S
 physics = S
@@ -2648,7 +2648,7 @@ value = ifElse(Random < 250, 730, 181),2
 channel = 0
 
 
-;====================<WIN 2>====================
+;====<WIN 2>====
 [StateDef 182]
 type = S
 physics = S
@@ -2668,7 +2668,7 @@ channel = 0
 
 
 
-;====================<WIN 3>====================
+;====<WIN 3>====
 [StateDef 183]
 type = S
 physics = S
@@ -2700,7 +2700,7 @@ value = 181,0
 channel = 0
 
 
-;====================<WIN VS KYOKUGEN PRACTITIONERS>====================
+;====<WIN VS KYOKUGEN PRACTITIONERS>====
 [StateDef 184]
 type = S
 physics = S
@@ -2732,7 +2732,7 @@ value = 181,0
 channel = 0
 
 
-;====================< TAUNT >====================
+;====< TAUNT >====
 [Statedef 195]
 type = S
 physics = S
@@ -2756,7 +2756,7 @@ ctrl = 1
 
 
 
-;====================< CHEAP K.O. >====================
+;====< CHEAP K.O. >====
 [Statedef 5950]
 type = S
 movetype = H
@@ -2809,7 +2809,7 @@ value = ifelse(alive, 5110, 5150)
 
 
 
-;====================< AIR HIT TRANSITION >====================
+;====< AIR HIT TRANSITION >====
 [Statedef 5035]
 type = A
 movetype = H
@@ -2848,7 +2848,7 @@ trigger4 = anim != 5035
 value = 5050
 
 
-;==========< FALL RECOVERY >==========
+;==< FALL RECOVERY >==
 [Statedef 5200]
 type = A
 movetype = H
@@ -3014,7 +3014,7 @@ value = 52
 
 
 
-;==========< TARGET SAFE FALL >==========
+;==< TARGET SAFE FALL >==
 [Statedef 5205]
 type = A
 physics = N
@@ -3043,15 +3043,15 @@ trigger1 = time >= 60
 value = 5210
 
 
-;===========================================================================
-;===============================< -2 STATES >=================================
-;===========================================================================
+;===
+;===< -2 STATES >=
+;===
 [Statedef -2]
 
 ;#ADD004BASIC PIEs#
-;//==========================
+;//==
 ;// add004-sctrls-start
-;//==========================
+;//==
 ;sys::-2::partners_standby ; ???????
 [state 0]
 	type=selfstate
@@ -3121,7 +3121,7 @@ value = 5210
 	time=1
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;;>>@Config.Face>>
 ;sys::-2::face_d ; portrait (?)
 [state 0]
@@ -3156,7 +3156,7 @@ value = 5210
 	id=490600
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;;>>@Config.Camera>>
 ;sys::-2::camera_nc ; ????
 [state 0]
@@ -3182,7 +3182,7 @@ value = 5210
 	movecamera=0,0 ;; [x,y]
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;sys::-2::add.option2-noko
 [state 0] ;; opt-noko
 	type=assertspecial
@@ -3201,7 +3201,7 @@ value = 5210
 	kill=0
 	ignorehitpause=1
 
-;//==========================
+;//==
 ;// optional settings
 ;sys::-2::guard_crush_fx ; ????????
 [state 0]
@@ -3263,9 +3263,9 @@ value = 5210
 	trigger1=playerid(id-3),ishelper=0 && playerid(id-3),teamside=teamside
 	x=const240p(144)*ifelse(teamside=1,-1,1)
 
-;//==========================
+;//==
 ;// add004-sctrls-end
-;//==========================
+;//==
 
 
 [State -2, Hit Detection]
@@ -3746,9 +3746,9 @@ ignoreHitPause = 1
 
 
 
-;===========================================================================
-;===============================< -3 STATES >=================================
-;===========================================================================
+;===
+;===< -3 STATES >=
+;===
 [Statedef -3]
 
 [State -3, Gametime Var]

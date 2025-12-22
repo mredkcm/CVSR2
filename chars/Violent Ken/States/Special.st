@@ -1,11 +1,11 @@
 ; _________________________________________
 ;| Ken by Phantom.of.the.Server & Jmorphman|
 ; ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
-;==============================================================================================
-;========================================<SPECIAL MOVES>=======================================
-;==============================================================================================
+;==
+;====<SPECIAL MOVES>===
+;==
 
-;=====================<HADOKEN>==========================
+;=<HADOKEN>==
 [StateDef 1000]
 type = S
 physics = S
@@ -70,7 +70,7 @@ ctrl = 1
 
 
 
-;========================<EX HADOKEN>=============================
+;====<EX HADOKEN>=
 [StateDef 1030]
 type = S
 physics = N
@@ -161,7 +161,7 @@ ctrl = 1
 
 
 
-;========================<SHORYUKEN>=============================
+;====<SHORYUKEN>=
 [StateDef 1100]
 type = S
 physics = N
@@ -658,7 +658,7 @@ ctrl = 1
 
 
 
-;========================<EX SHORYUKEN>=============================
+;====<EX SHORYUKEN>=
 [StateDef 1130]
 type = S
 physics = N
@@ -1001,7 +1001,7 @@ value = 1101
 
 
 
-;========================<TATSUMAKI SENPUKYAKU>=============================
+;====<TATSUMAKI SENPUKYAKU>=
 [StateDef 1200]
 type = A
 physics = N
@@ -1428,7 +1428,7 @@ ctrl = 1
 
 
 
-;========================<TATSUMAKI SENPUKYAKU (SFIII MODE)>=============================
+;====<TATSUMAKI SENPUKYAKU (SFIII MODE)>=
 [StateDef 1205]
 type = S
 physics = N
@@ -1859,7 +1859,7 @@ ctrl = 1
 
 
 
-;========================<EX TATSUMAKI SENPUKYAKU>=============================
+;====<EX TATSUMAKI SENPUKYAKU>=
 [StateDef 1230]
 type = S
 physics = N
@@ -2314,7 +2314,7 @@ value = 1201
 
 
 
-;========================<EX TATSUMAKI SENPUKYAKU (SFIII MODE)>=============================
+;====<EX TATSUMAKI SENPUKYAKU (SFIII MODE)>=
 [StateDef 1235]
 type = S
 physics = N
@@ -2761,7 +2761,7 @@ value = 1206
 
 
 
-;========================<AIRBORNE TATSUMAKI SENPUKYAKU>=============================
+;====<AIRBORNE TATSUMAKI SENPUKYAKU>=
 [StateDef 1240]
 type = A
 physics = N
@@ -2904,7 +2904,7 @@ ctrl = 1
 
 
 
-;========================<AIRBORNE TATSUMAKI SENPUKYAKU>=============================
+;====<AIRBORNE TATSUMAKI SENPUKYAKU>=
 [StateDef 1245]
 type = A
 physics = N
@@ -3161,7 +3161,7 @@ value = 1206
 
 
 
-;========================<CLASSIC AIRBORNE TATSUMAKI SENPUKYAKU>=============================
+;====<CLASSIC AIRBORNE TATSUMAKI SENPUKYAKU>=
 [StateDef 1250]
 type = A
 physics = N
@@ -3275,7 +3275,7 @@ value = 1241
 
 
 
-;========================<EX AIRBORNE TATSUMAKI SENPUKYAKU>=============================
+;====<EX AIRBORNE TATSUMAKI SENPUKYAKU>=
 [StateDef 1270]
 type = A
 physics = N
@@ -3419,7 +3419,7 @@ value = 1241
 
 
 
-;========================<EX AIRBORNE TATSUMAKI SENPUKYAKU (SFIII)>=============================
+;====<EX AIRBORNE TATSUMAKI SENPUKYAKU (SFIII)>=
 [StateDef 1275]
 type = A
 physics = N
@@ -3834,7 +3834,7 @@ value = 1206
 
 
 
-;========================<RYUSENKYAKU>=============================
+;====<RYUSENKYAKU>=
 [StateDef 1300]
 type = S
 physics = S
@@ -4039,7 +4039,7 @@ ctrl = 1
 
 
 
-;========================<EX RYUSENKYAKU>=============================
+;====<EX RYUSENKYAKU>=
 [StateDef 1330]
 type = S
 physics = S
@@ -4228,7 +4228,7 @@ value = 1301
 
 
 
-;=====================<NATAOTOSI GERI>==========================
+;=<NATAOTOSI GERI>==
 [StateDef 1400]
 type = S
 physics = S
@@ -4356,7 +4356,7 @@ ctrl = 1
 
 
 
-;===========<INAZUMA KAKATO WARI>==========
+;===<INAZUMA KAKATO WARI>==
 [StateDef 1405]
 type = S
 physics = S
@@ -4438,7 +4438,7 @@ ctrl = 1
 
 
 
-;=====================<KAMABARAI GERI>==========================
+;=<KAMABARAI GERI>==
 [StateDef 1410]
 type = S
 physics = S
@@ -4571,7 +4571,7 @@ ctrl = 1
 
 
 
-;=====================<OOSOTOMAWASHI GERI>==========================
+;=<OOSOTOMAWASHI GERI>==
 [StateDef 1420]
 type = S
 physics = S
@@ -4657,7 +4657,7 @@ ctrl = 1
 
 
 
-;========================<FUJIN SEN GERI>=============================
+;====<FUJIN SEN GERI>=
 [StateDef 1430]
 type = S
 physics = N
@@ -4897,7 +4897,7 @@ ctrl = 1
 
 
 
-;========================<HIT BY FUJIN SEN GERI>=============================
+;====<HIT BY FUJIN SEN GERI>=
 ;Being Launched
 [StateDef 1435]
 type = A
@@ -5092,7 +5092,7 @@ value = 5100
 
 
 
-;===========<ZENPOU TENSHIN>==========
+;===<ZENPOU TENSHIN>==
 [StateDef 1500]
 type = S
 physics = N
@@ -5182,7 +5182,7 @@ ctrl = 1
 
 
 
-;===========<ZENTOU>==========
+;===<ZENTOU>==
 [StateDef 1530]
 type = S
 physics = N
@@ -5269,7 +5269,7 @@ value = 52
 
 
 
-;===========<RASETSU KYAKU>==========
+;===<RASETSU KYAKU>==
 [StateDef 1600]
 type = S
 physics = N
@@ -5376,7 +5376,7 @@ ctrl = 1
 
 
 
-;========================<PUNCH ZERO COUNTER>=============================
+;====<PUNCH ZERO COUNTER>=
 [StateDef 2900]
 type = S
 physics = N
@@ -5508,7 +5508,7 @@ value = 1101
 
 
 
-;========================<KICK ZERO COUNTER>=============================
+;====<KICK ZERO COUNTER>=
 [StateDef 2910]
 type = S
 physics = N

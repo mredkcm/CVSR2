@@ -2685,7 +2685,7 @@ trigger2 = anim = 281 && animelemtime(3) >= 0
 movetype = I
 
 
-;=====TENMA KUUJIN KYAKU===
+;=TENMA KUUJIN KYAKU===
 [Statedef 282]
 type = A
 physics = N
@@ -2897,7 +2897,7 @@ movetype = I
 
 
 ;=
-;======THROWS
+;==THROWS
 ;=
 ;< THROW CONTROLLER
 [Statedef 800]
