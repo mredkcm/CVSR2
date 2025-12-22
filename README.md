@@ -7,7 +7,7 @@ Some of the listed changes made are
 * * Fireballs disappearing right at the edge of the screen
 * * Some stages crashing in arcade mode (got rid of all of them lol)
 * * Half circle motions not being consistent
-* Grappler 360s ate replaced with both-way half circles
+* Grappler 360s are replaced with both-way half circles
 * Throws now have proper okizeme, and all charactes get up faster (15f liedown time compared to 60f)
 * Shin Akuma and God Rugal now have very funny divekicks that can combo into itself
 * Some characters that didn't have hyper hops now have functioning hyper hops
