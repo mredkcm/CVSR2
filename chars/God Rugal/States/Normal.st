@@ -32,7 +32,7 @@ channel = 1
 [State 200, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 3
+trigger1 = animElemTime(1) = 0
 forceNoFall = !var(20)
 attr = S, NA
 hitFlag = MAF
@@ -71,10 +71,10 @@ palFX.time = 12 * var(9)
 palFX.add = 255,255,255
 palFX.sinAdd= -255,-255,-255,48
 
-[State 200, StateTypeSet: Idle]
-type = StateTypeSet
-trigger1 = AnimElemTime(5) >= 0
-moveType = I
+;[State 200, StateTypeSet: Idle]
+;type = StateTypeSet
+;trigger1 = AnimElemTime(5) >= 0
+;moveType = I
 
 [State 200, End]
 type = ChangeState
@@ -109,7 +109,7 @@ channel = 1
 [State 210, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 3
+trigger1 = AnimElem = 2
 forceNoFall = !var(20)
 attr = S, NA
 hitFlag = MAF
@@ -186,7 +186,7 @@ channel = 1
 [State 215, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 3
+trigger1 = AnimElem = 1
 forceNoFall = !var(20)
 attr = S, NA
 hitFlag = MAF
@@ -250,25 +250,25 @@ facep2 = 1
 
 [State 220, Voice]
 type = PlaySnd
-trigger1 = AnimElem = 2 && Random < 500
+trigger1 = AnimElem = 1 && Random < 500
 value = 4,ifElse(var(40) = 1, 12, 2)
 channel = 0
 
 [State 220, Woosh]
 type = PlaySnd
-trigger1 = AnimElem = 2
+trigger1 = AnimElem = 1
 value = 1,2
 channel = 1
 
 [State 220, Position]
 type = PosAdd
-trigger1 = AnimElem = 4
+trigger1 = AnimElem = 2
 x = 16
 
 [State 220, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 4
+trigger1 = AnimElem = 2
 forceNoFall = !var(20)
 attr = S, NA
 hitFlag = MAF
@@ -345,7 +345,7 @@ channel = 1
 [State 225, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 3
+trigger1 = AnimElem = 1
 forceNoFall = !var(20)
 attr = S, NA
 hitFlag = MAF
@@ -410,20 +410,20 @@ facep2 = 1
 
 [State 230, Voice]
 type = PlaySnd
-trigger1 = AnimElem = 2 && Random < 200
+trigger1 = !Time && Random < 200
 value = 4,ifElse(var(40) = 1, 10, 0)
 channel = 0
 
 [State 230, Woosh Sound]
 type = PlaySnd
-trigger1 = AnimElem = 2
+trigger1 = !Time
 value = 1,3
 channel = 1
 
 [State 230, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 3
+trigger1 = animElemTime(1) = 2	
 forceNoFall = !var(20)
 attr = S, NA
 hitFlag = MAF
@@ -462,10 +462,10 @@ palFX.time = 12 * var(9)
 palFX.add = 255, 255, 255
 palFX.sinAdd= -255, -255, -255, 48
 
-[State 230, StateTypeSet: Idle]
-type = StateTypeSet
-trigger1= AnimElemTime(5) >= 0
-moveType = I
+;[State 230, StateTypeSet: Idle]
+;type = StateTypeSet
+;trigger1= AnimElemTime(5) >= 0
+;moveType = I
 
 [State 230, End]
 type = ChangeState
@@ -487,20 +487,20 @@ facep2 = 1
 
 [State 235, Voice]
 type = PlaySnd
-trigger1 = AnimElem = 2 && Random < 200
+trigger1 = !Time && Random < 200
 value = 4,ifElse(var(40) = 1, 10, 0)
 channel = 0
 
 [State 235, Woosh Sound]
 type = PlaySnd
-trigger1 = AnimElem = 2
+trigger1 = !Time
 value = 1,3
 channel = 1
 
 [State 235, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 3
+trigger1 = !Time
 forceNoFall = !var(20)
 attr = S, NA
 hitFlag = MAF
@@ -539,10 +539,10 @@ palFX.time = 12 * var(9)
 palFX.add = 255, 255, 255
 palFX.sinAdd= -255, -255, -255, 48
 
-[State 235, StateTypeSet: Idle]
-type = StateTypeSet
-trigger1= AnimElemTime(5) >= 0
-moveType = I
+;[State 235, StateTypeSet: Idle]
+;type = StateTypeSet
+;trigger1= AnimElemTime(5) >= 0
+;moveType = I
 
 [State 235, End]
 type = ChangeState
@@ -564,20 +564,20 @@ faceP2 = 1
 
 [State 240, Voice]
 type = PlaySnd
-trigger1 = AnimElem = 2 && Random < 350
+trigger1 = !Time && Random < 350
 value = 4,ifElse(var(40) = 1, 11, 1)
 channel = 0
 
 [State 240, Woosh Sound]
 type = PlaySnd
-trigger1 = AnimElem = 2
+trigger1 = !Time
 value = 1,4
 channel = 1
 
 [State 240, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 3
+trigger1 = !Time
 forceNoFall = !var(20)
 attr = S, NA
 hitFlag = MAF
@@ -641,20 +641,20 @@ faceP2 = 1
 
 [State 245, Voice]
 type = PlaySnd
-trigger1 = AnimElem = 2 && Random < 350
+trigger1 = AnimElem = 1 && Random < 350
 value = 4,ifElse(var(40) = 1, 11, 1)
 channel = 0
 
 [State 245, Woosh Sound]
 type = PlaySnd
-trigger1 = AnimElem = 2
+trigger1 = AnimElem = 1
 value = 1,4
 channel = 1
 
 [State 245, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 3
+trigger1 = AnimElem = 1
 forceNoFall = !var(20)
 attr = S, NA
 hitFlag = MAF
@@ -693,10 +693,10 @@ palFX.time = 12 * var(9)
 palFX.add = 255, 255, 255
 palFX.sinAdd= -255, -255, -255, 48
 
-[State 245, StateTypeSet: Idle]
-type = StateTypeSet
-trigger1 = AnimElemTime(5) >= 0
-movetype = I
+;[State 245, StateTypeSet: Idle]
+;type = StateTypeSet
+;trigger1 = AnimElemTime(5) >= 0
+;movetype = I
 
 [State 245, End]
 type = ChangeState
@@ -731,7 +731,7 @@ channel = 1
 [State 250, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = Time = 0
+trigger1 = AnimElem = 3
 forceNoFall = !var(20)
 attr = S, NA
 hitFlag = MAF
@@ -770,10 +770,10 @@ palFX.time = 12 * var(9)
 palFX.add = 255, 255, 255
 palFX.sinAdd= -255, -255, -255, 48
 
-[State 250, StateTypeSet: Idle]
-type = StateTypeSet
-trigger1 = AnimElemTime(7) >= 0
-moveType = I
+;[State 250, StateTypeSet: Idle]
+;type = StateTypeSet
+;trigger1 = AnimElemTime(7) >= 0
+;moveType = I
 
 [State 250, End]
 type = ChangeState
@@ -872,20 +872,20 @@ faceP2 = 1
 
 [State 255, Voice]
 type = PlaySnd
-trigger1 = AnimElem = 3 && Random < 500
+trigger1 = AnimElem = 1 && Random < 500
 value = 4,ifElse(var(40) = 1, 12, 2)
 channel = 0
 
 [State 255, Woosh Sound]
 type = PlaySnd
-trigger1 = AnimElem = 3
+trigger1 = AnimElem = 1
 value = 1,5
 channel = 1
 
 [State 255, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 3
+trigger1 = AnimElem = 1
 forceNoFall = !var(20)
 attr = S, NA
 hitFlag = MAF
@@ -968,10 +968,10 @@ palFX.add = 255,255,255
 palFX.sinAdd= -255,-255,-255,48
 forceStand = 1
 
-[State 255, StateTypeSet]
-type = StateTypeSet
-trigger1 = AnimElemTime(6) >= 0
-moveType = I
+;[State 255, StateTypeSet]
+;type = StateTypeSet
+;trigger1 = AnimElemTime(6) >= 0
+;moveType = I
 
 [State 255, End]
 type = ChangeState
@@ -1006,7 +1006,8 @@ channel = 1
 [State 400, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 3
+trigger1 = AnimElemTime(1) >= 0
+trigger1 = AnimElemTime(2) < 0
 forceNoFall = !var(20)
 attr = C, NA
 hitFlag = MAF
@@ -1045,10 +1046,10 @@ palFX.time = 12 * var(9)
 palFX.add = 255, 255, 255
 palFX.sinAdd= -255, -255, -255, 48
 
-[State 400, StateTypeSet: Idle]
-type = StateTypeSet
-trigger1 = AnimElemTime(5) >= 0
-moveType = I
+;[State 400, StateTypeSet: Idle]
+;type = StateTypeSet
+;trigger1 = AnimElemTime(5) >= 0
+;moveType = I
 
 [State 400, End]
 type = ChangeState
@@ -1083,7 +1084,7 @@ channel = 1
 [State 410, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 3
+trigger1 = AnimElem = 2
 forceNoFall = !var(20)
 attr = C, NA
 hitFlag = MAF
@@ -1147,20 +1148,20 @@ faceP2 = 1
 
 [State 420, Voice]
 type = PlaySnd
-trigger1 = AnimElem = 2 && Random < 500
+trigger1 = AnimElem = 1 && Random < 500
 value = 4,ifElse(var(40) = 1, 12, 2)
 channel = 0
 
 [State 420, Woosh Sound]
 type = PlaySnd
-trigger1 = AnimElem = 2
+trigger1 = AnimElem = 1
 value = 1,2
 channel = 1
 
 [State 420, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 4
+trigger1 = AnimElem = 2
 forceNoFall = !var(20)
 attr = C, NA
 hitFlag = MAF
@@ -1203,7 +1204,7 @@ forceStand = 1
 [State 420, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 5
+trigger1 = AnimElem = 3
 forceNoFall = !var(20)
 attr = C, NA
 hitFlag = MAF
@@ -1268,20 +1269,20 @@ faceP2 = 1
 
 [State 430, Voice]
 type = PlaySnd
-trigger1 = AnimElem = 2 && Random < 200
+trigger1 = !Time && Random < 200
 value = 4,ifElse(var(40) = 1, 10, 0)
 channel = 0
 
 [State 430, Woosh Sound]
 type = PlaySnd
-trigger1 = AnimElem = 2
+trigger1 = !Time
 value = 1,3
 channel = 1
 
 [State 430, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 2
+trigger1 = !Time
 forceNoFall = !var(20)
 attr = C, NA
 hitFlag = MA
@@ -1358,7 +1359,7 @@ channel = 1
 [State 440, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 3
+trigger1 = AnimElem = 2
 forceNoFall = !var(20)
 attr = C, NA
 hitFlag = MA
@@ -1435,7 +1436,7 @@ channel = 1
 [State 450, HitDef]
 type = HitDef
 trigger1 = !var(16) && (var(15) < 1 || var(20))
-trigger1 = AnimElem = 3
+trigger1 = AnimElem = 2
 attr = C, NA
 hitFlag = MA
 guardFlag = L

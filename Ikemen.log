@@ -1,7 +1,5 @@
-.\external\script\start.lua:1403: chars\Shin Akuma/States/Specials.st:2227:
-No comparison operator
-[ECID 4]
-
+.\external\script\start.lua:1403: chars\God Rugal/States/Normal.st:996:
+animelem must be greater than 0
 stack traceback:
 	[G]: in function 'game'
 	.\external\script\start.lua:1403: in function 'f_game'
